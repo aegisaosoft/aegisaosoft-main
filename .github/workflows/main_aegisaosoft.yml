@@ -42,7 +42,7 @@ jobs:
         run: |
           mkdir -p deploy/client
 
-          cp -r server/. deploy/
+          cp -r server/. deploy/server/
 
           cp -r client/dist/. deploy/client/
 
@@ -54,7 +54,8 @@ jobs:
             cp server/package-lock.json deploy/
           fi
 
-          cd deploy
+          cp server/package.json deploy/
+          cd deploy/server
           npm install --omit=dev
           echo "✅ Deployment package created"
           du -sh deploy/
