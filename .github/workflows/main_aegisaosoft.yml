@@ -43,7 +43,6 @@ jobs:
           mkdir -p deploy/client
 
           cp -r server/. deploy/
-          rm -rf deploy/node_modules
 
           cp -r client/dist/. deploy/client/
 
