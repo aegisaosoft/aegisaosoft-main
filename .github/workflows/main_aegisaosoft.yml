@@ -40,19 +40,17 @@ jobs:
 
       - name: 'Create minimal deployment package'
         run: |
-          # Create directory structure
-          mkdir -p deploy/server
-          mkdir -p deploy/client/build
-          
-          # Copy only necessary files
-          cp -r server/* deploy/server/
-          cp -r client/build/* deploy/client/build/
-          cp package.json deploy/
-          cp web.config deploy/
-          if [ -f package-lock.json ]; then
-            cp package-lock.json deploy/
+          mkdir -p deploy/client
+
+          cp -r server/. deploy/
+          rm -rf deploy/node_modules
+
+          cp -r client/dist/. deploy/client/
+
+          if [ -f web.config ]; then
+            cp web.config deploy/
           fi
-          
+
           echo "✅ Deployment package created"
           du -sh deploy/
           ls -la deploy/
