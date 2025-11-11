@@ -28,63 +28,71 @@ function App() {
     [],
   )
 
+  const stats = [
+    { number: '30+', label: 'Years engineering financial and operational systems' },
+    { number: '4', label: 'Production platforms launched in 2024' },
+    { number: '100%', label: 'Client-controlled infrastructure on Azure/AWS' },
+  ]
+
   const services = [
     {
-      title: 'Product Engineering',
+      title: 'Vehicle Rental Management',
       description:
-        'Design, develop, and evolve cloud-native platforms with resilient architectures and modern tooling.',
-      items: ['Full-stack delivery', 'Scalable infrastructure', 'CI/CD automation'],
+        'Complete SaaS platform for rental companies with multi-tenant architecture, Stripe Connect integration, and automated operations.',
+      items: ['Fleet management & availability', 'Driver verification (BlinkID)', 'Security deposit handling', 'Automated billing'],
     },
     {
-      title: 'AI & Data Solutions',
+      title: 'Compliance Automation',
       description:
-        'Transform data into actionable intelligence through applied ML models, analytics pipelines, and dashboards.',
-      items: ['Data engineering', 'Predictive analytics', 'Intelligent automation'],
+        'Intelligent systems that monitor, parse, and automatically resolve parking citations across multiple municipalities.',
+      items: ['Citation scraping & parsing', 'Automated payment processing', 'Multi-state support (FL, NJ)', 'Violation tracking & reporting'],
     },
     {
-      title: 'Experience Design',
+      title: 'Booking & Discovery',
       description:
-        'Craft user-centered experiences that align strategy and execution across web and mobile touchpoints.',
-      items: ['Design systems', 'UX research', 'Product discovery'],
+        'User-facing platforms for retreat centers and experience providers with real-time availability and integrated payments.',
+      items: ['Resort/venue search & filtering', 'Booking management', 'Payment processing', 'Multi-language support'],
     },
   ]
 
-  const specialties = [
-    'TypeScript & Node.js platforms',
-    'React and React Native applications',
-    'Domain-driven microservices',
-    'Serverless and edge deployments',
-    'Observability-driven operations',
+  const techCategories = [
+    { title: 'Backend', copy: 'Node.js, ASP.NET Core, PostgreSQL, Redis' },
+    { title: 'Frontend', copy: 'React, TypeScript, Material-UI' },
+    { title: 'Cloud', copy: 'Azure App Service, AWS, Docker' },
+    { title: 'Payments', copy: 'Stripe Connect, PCI DSS compliance' },
+    { title: 'Automation', copy: 'Playwright, Puppeteer, scheduled workflows' },
+    { title: 'Security', copy: 'AML/KYC, SOX, multi-tenant isolation' },
   ]
 
-  const deliveryPillars = [
+  const experience = [
+    '20+ years building financial compliance systems at FXCM including payment processing, regulatory reporting, and back-office operations for regulated trading platforms.',
+    'Founded CTM — electronic customs declaration system for Russian Customs.',
+    'Co-founded Huur US — car rental platform operating across multiple states.',
+  ]
+
+  const processSteps = [
     {
+      number: '1',
       title: 'Discover',
-      copy: 'Map goals to technical realities through stakeholder workshops and rapid prototyping.',
+      copy: 'Technical requirements mapping, database schema design, API specification, and cloud architecture planning.',
     },
     {
+      number: '2',
       title: 'Build',
-      copy: 'Deliver incremental value with automated testing, code reviews, and iterative releases.',
+      copy: 'Incremental delivery with Git-based workflows, containerized deployments, automated testing, and CI/CD pipelines.',
     },
     {
+      number: '3',
       title: 'Scale',
-      copy: 'Elevate reliability, performance, and maintainability with observability and continuous optimization.',
+      copy: 'Performance optimization, monitoring setup (Application Insights), security hardening, and documentation.',
     },
   ]
 
-  const insights = [
-    {
-      metric: '12+',
-      label: 'Years shipping enterprise-grade products',
-    },
-    {
-      metric: '98%',
-      label: 'Client satisfaction from post-project surveys',
-    },
-    {
-      metric: '4.6x',
-      label: 'Average ROI delivered within 12 months',
-    },
+  const benefits = [
+    'Senior engineer with 30+ years shipping production systems',
+    'Experience with regulated industries (finance, customs)',
+    'Full-stack delivery from database to deployment',
+    'U.S.-based (EB-1 Exceptional Ability)',
   ]
 
   const handleInputChange = (field: keyof ContactForm) => (value: string) => {
@@ -121,226 +129,254 @@ function App() {
 
   return (
     <div className="page">
-      <header className="hero" id="top">
-        <nav className="nav">
-          <div className="logo">
-            <span className="logo-mark">A</span>
-            <span className="logo-text">Aegis AO Soft</span>
-          </div>
-          <div className="nav-links">
-            <a href="#services">Services</a>
-            <a href="#capabilities">Capabilities</a>
-            <a href="#approach">Approach</a>
-            <a href="#contact">Contact</a>
-          </div>
-          <a className="nav-cta" href="#contact">
-            Start a Project
-          </a>
-        </nav>
-
-        <div className="hero-content">
-          <p className="eyebrow">Strategic Software Delivery</p>
-          <h1>
-            Building resilient digital products that give ambitious teams a competitive edge.
-          </h1>
-          <p className="hero-copy">
-            Aegis AO Soft partners with scale-ups and enterprises to launch mission-critical
-            platforms with confidence. From initial roadmap to post-launch optimization, we align
-            strategy, design, and engineering for measurable outcomes.
-          </p>
-          <div className="hero-actions">
-            <a href="#contact" className="primary">
-              Schedule a Consultation
-            </a>
-            <a href="#services" className="secondary">
-              Explore Services
-            </a>
-          </div>
-          <div className="metrics">
-            {insights.map((insight) => (
-              <div className="metric-card" key={insight.label}>
-                <span className="metric-value">{insight.metric}</span>
-                <span className="metric-label">{insight.label}</span>
-              </div>
-            ))}
-          </div>
+      <header className="header">
+        <div className="container">
+          <div className="logo">Aegis AO Soft</div>
         </div>
       </header>
 
       <main>
-        <section className="section services" id="services">
-          <div className="section-header">
-            <p className="eyebrow">What We Do</p>
-            <h2>Outcome-driven partnerships built for clarity and velocity.</h2>
-            <p className="section-copy">
-              We embed with your product teams to uncover the right problems, co-create solutions,
-              and deliver software that stands up to the demands of growth.
+        <section className="hero">
+          <div className="container">
+            <h1>Strategic Software Development</h1>
+            <p className="subtitle">
+              Building resilient rental management and automation platforms for ambitious businesses.
             </p>
-          </div>
-          <div className="grid three">
-            {services.map((service) => (
-              <article className="card" key={service.title}>
-                <h3>{service.title}</h3>
-                <p>{service.description}</p>
-                <ul>
-                  {service.items.map((item) => (
-                    <li key={item}>{item}</li>
-                  ))}
-                </ul>
-              </article>
-            ))}
-          </div>
-        </section>
-
-        <section className="section capabilities" id="capabilities">
-          <div className="section-header compact">
-            <p className="eyebrow">Expertise</p>
-            <h2>Technical leadership across the modern delivery stack.</h2>
-          </div>
-          <div className="pill-group">
-            {specialties.map((capability) => (
-              <span className="pill" key={capability}>
-                {capability}
-              </span>
-            ))}
-          </div>
-          <div className="cta-panel">
-            <div>
-              <h3>Integration-ready teams</h3>
-              <p>
-                We operate as an extension of your product organization, aligning with your rituals,
-                tools, and success metrics while introducing proven delivery practices.
-              </p>
+            <div className="cta-buttons">
+              <a href="#contact" className="btn btn-primary">
+                Schedule a Consultation
+              </a>
+              <a href="#services" className="btn btn-secondary">
+                Explore Services
+              </a>
             </div>
-            <a href="#contact" className="primary">
-              Build With Us
-            </a>
           </div>
         </section>
 
-        <section className="section approach" id="approach">
-          <div className="section-header compact">
-            <p className="eyebrow">Delivery Framework</p>
-            <h2>Orchestrated execution from discovery to scale.</h2>
-          </div>
-          <div className="grid three">
-            {deliveryPillars.map((pillar) => (
-              <article className="card compact" key={pillar.title}>
-                <h3>{pillar.title}</h3>
-                <p>{pillar.copy}</p>
-              </article>
-            ))}
+        <section className="stats">
+          <div className="container">
+            <div className="stats-grid">
+              {stats.map((stat) => (
+                <div className="stat" key={stat.label}>
+                  <div className="stat-number">{stat.number}</div>
+                  <div className="stat-label">{stat.label}</div>
+                </div>
+              ))}
+            </div>
           </div>
         </section>
 
-        <section className="section contact" id="contact">
-          <div className="section-header">
-            <p className="eyebrow">Let&apos;s Connect</p>
-            <h2>Share your vision. We&apos;ll help you build the path there.</h2>
-            <p className="section-copy">
-              Tell us about your product goals, timeline, and constraints. We&apos;ll respond with
-              a tailored plan of action and quote.
+        <section className="services" id="services">
+          <div className="container">
+            <h2>What We Build</h2>
+            <p className="section-subtitle">
+              Real-world solutions for rental operations and regulatory compliance.
             </p>
+            <div className="services-grid">
+              {services.map((service) => (
+                <article className="service-card" key={service.title}>
+                  <h3>{service.title}</h3>
+                  <p>{service.description}</p>
+                  <ul>
+                    {service.items.map((item) => (
+                      <li key={item}>{item}</li>
+                    ))}
+                  </ul>
+                </article>
+              ))}
+            </div>
           </div>
-          <div className="contact-grid">
-            <div className="contact-highlight">
-              <h3>Why teams choose Aegis AO Soft</h3>
-              <ul>
-                <li>Embedded, senior talent with product-first thinking</li>
-                <li>Transparent reporting and operational rigor</li>
-                <li>Strategic partnership beyond launch day</li>
-              </ul>
-              <div className="contact-meta">
-                <span>Email</span>
-                <a href="mailto:hello@aegisaosoft.com">hello@aegisaosoft.com</a>
-              </div>
-              <div className="contact-meta">
-                <span>HQ</span>
-                <p>Seattle, WA • Available across North America & Europe</p>
+        </section>
+
+        <section className="tech" id="tech">
+          <div className="container">
+            <h2>Technical Expertise</h2>
+            <p className="section-subtitle">Production-proven stack for regulated industries.</p>
+            <div className="tech-stack">
+              <div className="tech-categories">
+                {techCategories.map((category) => (
+                  <div className="tech-category" key={category.title}>
+                    <h4>{category.title}</h4>
+                    <p>{category.copy}</p>
+                  </div>
+                ))}
               </div>
             </div>
+          </div>
+        </section>
 
-            <form className="contact-form" onSubmit={handleSubmit}>
-              <div className="field">
-                <label htmlFor="name">Name</label>
-                <input
-                  id="name"
-                  name="name"
-                  value={formData.name}
-                  onChange={(event) => handleInputChange('name')(event.target.value)}
-                  placeholder="Jane Doe"
-                  required
-                  autoComplete="name"
-                />
-              </div>
-              <div className="field">
-                <label htmlFor="email">Email</label>
-                <input
-                  id="email"
-                  name="email"
-                  type="email"
-                  value={formData.email}
-                  onChange={(event) => handleInputChange('email')(event.target.value)}
-                  placeholder="jane@company.com"
-                  required
-                  autoComplete="email"
-                />
-              </div>
-              <div className="field">
-                <label htmlFor="company">Company</label>
-                <input
-                  id="company"
-                  name="company"
-                  value={formData.company}
-                  onChange={(event) => handleInputChange('company')(event.target.value)}
-                  placeholder="Your company or project"
-                  autoComplete="organization"
-                />
-              </div>
-              <div className="field">
-                <label htmlFor="message">Project Details</label>
-                <textarea
-                  id="message"
-                  name="message"
-                  rows={5}
-                  value={formData.message}
-                  onChange={(event) => handleInputChange('message')(event.target.value)}
-                  placeholder="Share your goals, timelines, and challenges."
-                  required
-                />
-              </div>
-              <button
-                type="submit"
-                className="primary full"
-                disabled={status === 'submitting'}
-              >
-                {status === 'submitting' ? 'Sending...' : 'Submit Inquiry'}
-              </button>
-              {feedback && (
-                <p className={`form-feedback ${status === 'error' ? 'error' : 'success'}`}>
-                  {feedback}
+        <section className="experience" id="experience">
+          <div className="container">
+            <h2>Enterprise Experience</h2>
+            <div className="experience-box">
+              {experience.map((item) => (
+                <p key={item}>
+                  {item.includes('CTM') ? (
+                    <>
+                      Founded{' '}
+                      <a href="https://www.ctm.ru" target="_blank" rel="noreferrer">
+                        CTM
+                      </a>{' '}
+                      — electronic customs declaration system for Russian Customs.
+                    </>
+                  ) : item.includes('Huur US') ? (
+                    <>
+                      Co-founded{' '}
+                      <a href="https://huur-us.com" target="_blank" rel="noreferrer">
+                        Huur US
+                      </a>{' '}
+                      — car rental platform operating across multiple states.
+                    </>
+                  ) : (
+                    item
+                  )}
                 </p>
-              )}
-            </form>
+              ))}
+            </div>
+          </div>
+        </section>
+
+        <section className="process" id="process">
+          <div className="container">
+            <h2>Delivery Framework</h2>
+            <p className="section-subtitle">Orchestrated execution from discovery to scale.</p>
+            <div className="process-steps">
+              {processSteps.map((step) => (
+                <div className="process-step" key={step.number}>
+                  <div className="process-number">{step.number}</div>
+                  <h3>{step.title}</h3>
+                  <p>{step.copy}</p>
+                </div>
+              ))}
+            </div>
+          </div>
+        </section>
+
+        <section className="cta" id="contact">
+          <div className="container">
+            <div className="cta-section">
+              <h2>Let&apos;s Connect</h2>
+              <p>
+                Share your requirements—rental operations, compliance automation, or booking systems.
+                We&apos;ll provide technical architecture recommendations and delivery timeline.
+              </p>
+              <div className="benefits">
+                {benefits.map((benefit) => (
+                  <div className="benefit" key={benefit}>
+                    {benefit}
+                  </div>
+                ))}
+              </div>
+              <a href="mailto:hello@aegisaosoft.com" className="btn btn-primary">
+                Get in Touch
+              </a>
+            </div>
+          </div>
+        </section>
+
+        <section className="contact-form-section">
+          <div className="container">
+            <div className="contact-grid">
+              <div className="contact-highlight">
+                <h3>Tell us about your project</h3>
+                <p>
+                  We align strategy, delivery, and operations to help teams launch and scale platforms
+                  that meet regulatory and customer demands.
+                </p>
+                <div className="contact-meta">
+                  <span>Email</span>
+                  <a href="mailto:hello@aegisaosoft.com">hello@aegisaosoft.com</a>
+                </div>
+                <div className="contact-meta">
+                  <span>Location</span>
+                  <p>New Jersey, USA • Available across North America & Europe</p>
+                </div>
+              </div>
+
+              <form className="contact-form" onSubmit={handleSubmit}>
+                <div className="field">
+                  <label htmlFor="name">Name</label>
+                  <input
+                    id="name"
+                    name="name"
+                    value={formData.name}
+                    onChange={(event) => handleInputChange('name')(event.target.value)}
+                    placeholder="Jane Doe"
+                    required
+                    autoComplete="name"
+                  />
+                </div>
+                <div className="field">
+                  <label htmlFor="email">Email</label>
+                  <input
+                    id="email"
+                    name="email"
+                    type="email"
+                    value={formData.email}
+                    onChange={(event) => handleInputChange('email')(event.target.value)}
+                    placeholder="jane@company.com"
+                    required
+                    autoComplete="email"
+                  />
+                </div>
+                <div className="field">
+                  <label htmlFor="company">Company</label>
+                  <input
+                    id="company"
+                    name="company"
+                    value={formData.company}
+                    onChange={(event) => handleInputChange('company')(event.target.value)}
+                    placeholder="Your company or project"
+                    autoComplete="organization"
+                  />
+                </div>
+                <div className="field">
+                  <label htmlFor="message">Project Details</label>
+                  <textarea
+                    id="message"
+                    name="message"
+                    rows={5}
+                    value={formData.message}
+                    onChange={(event) => handleInputChange('message')(event.target.value)}
+                    placeholder="Share your goals, timelines, and challenges."
+                    required
+                  />
+                </div>
+                <button type="submit" className="btn btn-primary" disabled={status === 'submitting'}>
+                  {status === 'submitting' ? 'Sending...' : 'Submit Inquiry'}
+                </button>
+                {feedback && (
+                  <p className={`form-feedback ${status === 'error' ? 'error' : 'success'}`}>
+                    {feedback}
+                  </p>
+                )}
+              </form>
+            </div>
           </div>
         </section>
       </main>
 
       <footer className="footer">
-        <div>
-          <div className="logo">
-            <span className="logo-mark">A</span>
-            <span className="logo-text">Aegis AO Soft</span>
+        <div className="container">
+          <div className="footer-content">
+            <div className="footer-section">
+              <h4>Aegis AO Soft LLC</h4>
+              <p>EIN: 41-2444296</p>
+              <p>New Jersey, USA</p>
+            </div>
+            <div className="footer-section">
+              <h4>Contact</h4>
+              <a href="mailto:hello@aegisaosoft.com">hello@aegisaosoft.com</a>
+            </div>
+            <div className="footer-section">
+              <h4>Services</h4>
+              <a href="#services">Vehicle Rental Management</a>
+              <a href="#services">Compliance Automation</a>
+              <a href="#services">Booking Platforms</a>
+            </div>
           </div>
-          <p>Building resilient software ecosystems for trailblazing teams.</p>
+          <p className="footer-meta">© {new Date().getFullYear()} Aegis AO Soft. All rights reserved.</p>
         </div>
-        <div className="footer-links">
-          <a href="#services">Services</a>
-          <a href="#capabilities">Capabilities</a>
-          <a href="#approach">Approach</a>
-          <a href="#contact">Contact</a>
-        </div>
-        <p className="footer-meta">© {new Date().getFullYear()} Aegis AO Soft. All rights reserved.</p>
       </footer>
     </div>
   )

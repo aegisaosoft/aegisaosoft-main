@@ -40,9 +40,10 @@ jobs:
 
       - name: 'Create minimal deployment package'
         run: |
-          mkdir -p deploy/client
+          mkdir -p deploy/server deploy/client
 
           cp -r server/. deploy/server/
+          rm -rf deploy/server/node_modules
 
           cp -r client/dist/. deploy/client/
 
@@ -51,12 +52,13 @@ jobs:
           fi
 
           if [ -f server/package-lock.json ]; then
-            cp server/package-lock.json deploy/
+            cp server/package-lock.json deploy/server/
           fi
 
-          cp server/package.json deploy/
-          cd deploy/server
-          npm install --omit=dev
+          cp server/package.json deploy/server/
+
+          (cd deploy/server && npm install --omit=dev)
+
           echo "✅ Deployment package created"
           du -sh deploy/
           ls -la deploy/
