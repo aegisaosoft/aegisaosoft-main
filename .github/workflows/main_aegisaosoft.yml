@@ -40,12 +40,12 @@ jobs:
 
       - name: 'Create minimal deployment package'
         run: |
-          mkdir -p deploy/server deploy/client
+          mkdir -p deploy/server deploy/server/public
 
           cp -r server/. deploy/server/
           rm -rf deploy/server/node_modules
 
-          cp -r client/dist/. deploy/client/
+          cp -r client/dist/. deploy/server/public/
 
           if [ -f web.config ]; then
             cp web.config deploy/
@@ -58,6 +58,17 @@ jobs:
           cp server/package.json deploy/server/
 
           (cd deploy/server && npm install --omit=dev)
+
+          cat <<'EOF' > deploy/package.json
+{
+  "name": "aegisaosoft-app",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node server/index.js"
+  }
+}
+EOF
 
           echo "✅ Deployment package created"
           du -sh deploy/
