@@ -67,7 +67,8 @@ function App() {
   const experience = [
     '20+ years building financial compliance systems at FXCM including payment processing, regulatory reporting, and back-office operations for regulated trading platforms.',
     'Founded CTM — electronic customs declaration system for Russian Customs.',
-    'Co-founded Huur US — car rental platform operating across multiple states.',
+    'Delivered the Huur US car rental platform operating across multiple states.',
+    'Built the ASP.NET API and PostgreSQL database powering Blue Cliff retreat experiences.',
   ]
 
   const processSteps = [
@@ -221,11 +222,19 @@ function App() {
                     </>
                   ) : item.includes('Huur US') ? (
                     <>
-                      Co-founded{' '}
+                      Delivered the{' '}
                       <a href="https://huur-us.com" target="_blank" rel="noreferrer">
                         Huur US
                       </a>{' '}
-                      — car rental platform operating across multiple states.
+                      car rental platform operating across multiple states.
+                    </>
+                  ) : item.includes('Blue Cliff') ? (
+                    <>
+                      Built the{' '}
+                      <a href="https://blue-cliff-0efe7c11e.3.azurestaticapps.net/" target="_blank" rel="noreferrer">
+                        Blue Cliff
+                      </a>{' '}
+                      ASP.NET API with a PostgreSQL database backing their retreat planning experiences.
                     </>
                   ) : (
                     item
