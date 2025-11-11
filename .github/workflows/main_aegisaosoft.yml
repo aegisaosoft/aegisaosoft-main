@@ -50,6 +50,12 @@ jobs:
             cp web.config deploy/
           fi
 
+          if [ -f server/package-lock.json ]; then
+            cp server/package-lock.json deploy/
+          fi
+
+          cd deploy
+          npm install --omit=dev
           echo "✅ Deployment package created"
           du -sh deploy/
           ls -la deploy/
