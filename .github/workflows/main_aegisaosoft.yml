@@ -60,20 +60,20 @@ jobs:
           (cd deploy/server && npm install --omit=dev)
 
           node <<'EOF'
-const fs = require('fs');
-const path = require('path');
+          const fs = require('fs');
+          const path = require('path');
 
-const pkg = {
-  name: 'aegisaosoft-app',
-  version: '1.0.0',
-  private: true,
-  scripts: {
-    start: 'node server/index.js'
-  }
-};
+          const pkg = {
+            name: 'aegisaosoft-app',
+            version: '1.0.0',
+            private: true,
+            scripts: {
+              start: 'node server/index.js'
+            }
+          };
 
-fs.writeFileSync(path.join('deploy', 'package.json'), JSON.stringify(pkg, null, 2));
-EOF
+          fs.writeFileSync(path.join('deploy', 'package.json'), JSON.stringify(pkg, null, 2));
+          EOF
 
           echo "✅ Deployment package created"
           du -sh deploy/
