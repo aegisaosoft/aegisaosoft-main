@@ -1,0 +1,58 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Server: Node",
+      "type": "node",
+      "request": "launch",
+      "runtimeExecutable": "C:\\Program Files\\nodejs\\node.exe",
+      "program": "${workspaceFolder}/server/index.js",
+      "cwd": "${workspaceFolder}",
+      "console": "integratedTerminal",
+      "envFile": "${workspaceFolder}/.env",
+      "env": { "NODE_ENV": "development" },
+      "skipFiles": ["<node_internals>/**", "**/node_modules/**"]
+    },
+    {
+      "name": "Server: Nodemon",
+      "type": "node",
+      "request": "launch",
+      "cwd": "${workspaceFolder}",
+      "runtimeExecutable": "C:\\Program Files\\nodejs\\node.exe",
+      "program": "${workspaceFolder}/node_modules/nodemon/bin/nodemon.js",
+      "args": ["${workspaceFolder}/server/index.js"],
+      "restart": true,
+      "console": "integratedTerminal",
+      "envFile": "${workspaceFolder}/.env",
+      "env": { "NODE_ENV": "development" },
+      "skipFiles": ["<node_internals>/**", "**/node_modules/**"],
+      "autoAttachChildProcesses": true
+    },
+    {
+      "name": "Client: React Dev",
+      "type": "node",
+      "request": "launch",
+      "cwd": "${workspaceFolder}/client",
+      "runtimeExecutable": "npm",
+      "runtimeArgs": ["start"],
+      "console": "integratedTerminal",
+      "env": {
+        "NODE_ENV": "development"
+      }
+    },
+    {
+      "name": "Client: Chrome",
+      "type": "chrome",
+      "request": "launch",
+      "url": "http://localhost:3000",
+      "webRoot": "${workspaceFolder}/client"
+    }
+  ],
+  "compounds": [
+    {
+      "name": "Full Stack App",
+      "configurations": ["Server: Nodemon", "Client: React Dev"],
+      "stopAll": true
+    }
+  ]
+}
