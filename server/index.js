@@ -20,10 +20,12 @@ app.use((req, res, next) => {
   next()
 })
 
+// Serve static files from React build
 if (fs.existsSync(publicDir)) {
   app.use(express.static(publicDir, { fallthrough: true }))
 }
 
+// API Routes
 app.get('/api/health', (_req, res) => {
   res.json({
     status: 'ok',
@@ -56,25 +58,22 @@ app.post('/api/contact', (req, res) => {
   })
 })
 
-app.get('*', (req, res, next) => {
-  if (req.path.startsWith('/api')) {
-    return next()
-  }
-
+// Catch-all route for React Router - serve index.html for all non-API routes
+// This must be AFTER all other routes
+app.use((req, res, next) => {
+  // If we've reached here and it's not an API route, serve the React app
   if (fs.existsSync(indexFile)) {
     return res.sendFile(indexFile)
   }
-
-  return next()
-})
-
-app.use((req, res) => {
+  
+  // If index.html doesn't exist, return 404
   res.status(404).json({
     status: 'error',
     message: `Route ${req.originalUrl} not found.`,
   })
 })
 
+// Error handler
 app.use((error, _req, res, _next) => {
   console.error('Unexpected server error:', error)
   res.status(500).json({
