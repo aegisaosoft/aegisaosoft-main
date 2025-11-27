@@ -7,7 +7,7 @@ const dotenv = require('dotenv')
 dotenv.config()
 
 const app = express()
-const PORT = process.env.PORT || 8080
+const PORT = process.env.PORT || 5000
 const publicDir = path.join(__dirname, 'public')
 const indexFile = path.join(publicDir, 'index.html')
 
@@ -83,27 +83,40 @@ app.use((error, _req, res, _next) => {
 })
 
 app.listen(PORT, () => {
+  const isDevelopment = (process.env.NODE_ENV || 'development') === 'development'
+  const publicDirExists = fs.existsSync(publicDir)
+  
   console.log('='.repeat(50))
   console.log('✅ AEGIS AO SOFT SERVER STARTED SUCCESSFULLY')
   console.log('='.repeat(50))
   console.log(`🌐 Port: ${PORT}`)
-  console.log(`📁 Public Directory: ${publicDir}`)
-  console.log(`📄 Index File Exists: ${fs.existsSync(indexFile)}`)
   console.log(`🔧 Environment: ${process.env.NODE_ENV || 'development'}`)
   console.log(`📅 Started at: ${new Date().toISOString()}`)
-  console.log('='.repeat(50))
   
-  // List files in public directory
-  if (fs.existsSync(publicDir)) {
-    console.log('\n📂 Files in public directory:')
-    try {
-      const files = fs.readdirSync(publicDir)
-      files.forEach(file => console.log(`  - ${file}`))
-    } catch (err) {
-      console.error('Error reading public directory:', err)
-    }
+  if (isDevelopment) {
+    console.log('\n💡 Development Mode:')
+    console.log('   - Client runs separately on http://localhost:3000 (Vite)')
+    console.log('   - Server provides API endpoints on http://localhost:5000')
+    console.log('   - Public directory not required in development')
   } else {
-    console.error('❌ WARNING: Public directory does not exist!')
+    console.log(`\n📁 Public Directory: ${publicDir}`)
+    console.log(`📄 Index File Exists: ${fs.existsSync(indexFile)}`)
+    
+    if (publicDirExists) {
+      console.log('\n📂 Files in public directory:')
+      try {
+        const files = fs.readdirSync(publicDir)
+        files.forEach(file => console.log(`  - ${file}`))
+      } catch (err) {
+        console.error('Error reading public directory:', err)
+      }
+    } else {
+      console.error('\n❌ WARNING: Public directory does not exist!')
+      console.error('   Build the client first: cd client && npm run build')
+      console.error('   Then copy dist/ to server/public/')
+    }
   }
+  
+  console.log('='.repeat(50))
   console.log('')
 })

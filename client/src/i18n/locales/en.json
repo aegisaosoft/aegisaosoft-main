@@ -1,0 +1,214 @@
+{
+  "header": {
+    "home": "Home",
+    "about": "About",
+    "contact": "Contact Us"
+  },
+  "home": {
+    "title": "Strategic Software Development",
+    "subtitle": "Building platforms for ambitious businesses.",
+    "vehicleRental": {
+      "title": "Vehicle Rental Management",
+      "description": "Complete SaaS platform for rental companies with multi-tenant architecture, Stripe Connect integration, and automated operations.",
+      "features": {
+        "fleetManagement": "Fleet management & availability",
+        "driverVerification": "Driver verification (BlinkID)",
+        "securityDeposit": "Security deposit handling",
+        "automatedBilling": "Automated billing"
+      },
+      "learnMore": "Learn More"
+    }
+  },
+  "about": {
+    "whatWeBuild": {
+      "title": "What We Build",
+      "subtitle": "Real-world solutions for rental operations and regulatory compliance.",
+      "vehicleRental": {
+        "title": "Vehicle Rental Management",
+        "description": "Complete SaaS platform for rental companies with multi-tenant architecture, Stripe Connect integration, and automated operations.",
+        "features": {
+          "fleetManagement": "Fleet management & availability",
+          "driverVerification": "Driver verification (BlinkID)",
+          "securityDeposit": "Security deposit handling",
+          "automatedBilling": "Automated billing"
+        }
+      },
+      "complianceAutomation": {
+        "title": "Compliance Automation",
+        "description": "Intelligent systems that monitor, parse, and automatically resolve parking citations across multiple municipalities.",
+        "features": {
+          "citationScraping": "Citation scraping & parsing",
+          "automatedPayment": "Automated payment processing",
+          "multiState": "Multi-state support (FL, NJ)",
+          "violationTracking": "Violation tracking & reporting"
+        }
+      }
+    },
+    "technicalExpertise": {
+      "title": "Technical Expertise",
+      "subtitle": "Production-proven stack for regulated industries.",
+      "backend": "Node.js, ASP.NET Core, PostgreSQL, Redis",
+      "frontend": "React, TypeScript, Material-UI",
+      "cloud": "Azure App Service, AWS, Docker",
+      "payments": "Stripe Connect, PCI DSS compliance",
+      "automation": "Playwright, Puppeteer, scheduled workflows",
+      "security": "AML/KYC, SOX, multi-tenant isolation"
+    },
+    "enterpriseExperience": {
+      "title": "Enterprise Experience",
+      "fxcm": "20+ years building financial compliance systems at FXCM including payment processing, regulatory reporting, and back-office operations for regulated trading platforms.",
+      "ctm": "Founded <ctmLink>CTM</ctmLink> — electronic customs declaration system for Russian Customs.",
+      "huur": "Delivered the <huurLink>Huur US</huurLink> car rental platform operating across multiple states.",
+      "blueCliff": "Built the <blueCliffLink>Blue Cliff</blueCliffLink> ASP.NET API with a PostgreSQL database backing their retreat planning experiences."
+    },
+    "deliveryFramework": {
+      "title": "Delivery Framework",
+      "subtitle": "Orchestrated execution from discovery to scale.",
+      "discover": {
+        "title": "Discover",
+        "description": "Technical requirements mapping, database schema design, API specification, and cloud architecture planning."
+      },
+      "build": {
+        "title": "Build",
+        "description": "Incremental delivery with Git-based workflows, containerized deployments, automated testing, and CI/CD pipelines."
+      },
+      "scale": {
+        "title": "Scale",
+        "description": "Performance optimization, monitoring setup (Application Insights), security hardening, and documentation."
+      }
+    }
+  },
+  "contact": {
+    "letsConnect": {
+      "title": "Let's Connect",
+      "description": "Share your requirements—rental operations, compliance automation, or booking systems. We'll provide technical architecture recommendations and delivery timeline.",
+      "benefits": {
+        "seniorEngineer": "Senior engineer with 30+ years shipping production systems",
+        "regulatedIndustries": "Experience with regulated industries (finance, customs)",
+        "fullStack": "Full-stack delivery from database to deployment",
+        "usBased": "U.S.-based (EB-1 Exceptional Ability)"
+      },
+      "getInTouch": "Get in Touch"
+    },
+    "form": {
+      "title": "Tell us about your project",
+      "description": "We align strategy, delivery, and operations to help teams launch and scale platforms that meet regulatory and customer demands.",
+      "email": "Email",
+      "location": "Location",
+      "locationValue": "New Jersey, USA • Available across North America & Europe",
+      "name": "Name",
+      "namePlaceholder": "Jane Doe",
+      "emailLabel": "Email",
+      "emailPlaceholder": "jane@company.com",
+      "company": "Company",
+      "companyPlaceholder": "Your company or project",
+      "projectDetails": "Project Details",
+      "projectDetailsPlaceholder": "Share your goals, timelines, and challenges.",
+      "submit": "Submit Inquiry",
+      "submitting": "Sending...",
+      "success": "Thanks for reaching out — our team will connect within one business day.",
+      "error": "We could not process your request right now. Please try again later or email aegisaosoft@gmail.com."
+    }
+  },
+  "vehicleRental": {
+    "title": "Aegis-Rental: Complete Vehicle Rental Management Platform",
+    "subtitle": "Launch Your Own Rental Business in Minutes",
+    "description": "Aegis-Rental is a powerful, multi-tenant SaaS platform that enables vehicle rental companies to launch their own professional rental website quickly and efficiently. Built on modern cloud architecture, it provides everything you need to manage your fleet, customers, and bookings from day one.",
+    "languages": {
+      "title": "🌍 5 Supported Languages",
+      "english": "🇺🇸 English",
+      "spanish": "🇪🇸 Spanish (Español)",
+      "portuguese": "🇵🇹 Portuguese (Português)",
+      "french": "🇫🇷 French (Français)",
+      "german": "🇩🇪 German (Deutsch)",
+      "description": "All interface elements, booking confirmations, email notifications, and customer communications are fully localized."
+    },
+    "features": {
+      "title": "🚗 Complete Rental System Features",
+      "intelligentBooking": {
+        "title": "Intelligent Booking",
+        "voiceAI": "Voice AI-powered search and booking — speak naturally to find and reserve vehicles",
+        "realTimeCalendar": "Real-time availability calendar with instant confirmation",
+        "smartRecommendations": "Smart vehicle recommendations based on customer needs",
+        "vinRecognition": "VIN number recognition for automatic vehicle information"
+      },
+      "customerVerification": {
+        "title": "Customer Verification",
+        "blinkID": "BlinkID integration for instant driver's license scanning (front & back)",
+        "dataExtraction": "Automatic data extraction and validation",
+        "ageVerification": "Age and license expiration verification",
+        "documentStorage": "Secure document storage"
+      },
+      "paymentProcessing": {
+        "title": "Payment Processing",
+        "stripeConnect": "Stripe Connect integration for seamless payments",
+        "multiCurrency": "Multi-currency support for all North and South American countries",
+        "securityDeposit": "Security deposit handling (supports 31+ day holds)",
+        "automatedRefunds": "Automated refunds and dispute management",
+        "directPayouts": "Direct payouts to rental company accounts"
+      },
+      "fleetManagement": {
+        "title": "Fleet Management",
+        "inventory": "Complete vehicle inventory management",
+        "maintenance": "Maintenance scheduling and tracking",
+        "statusUpdates": "Real-time vehicle status updates",
+        "photoGallery": "Photo gallery and specifications"
+      },
+      "multiTenant": {
+        "title": "Multi-Tenant Architecture",
+        "brandedWebsite": "Each rental company gets their own branded website",
+        "customDomains": "Custom domains (yourcompany.aegis-rental.com)",
+        "uniqueBranding": "Unique branding: logos, colors, contact information",
+        "isolatedData": "Isolated data — each tenant sees only their own information",
+        "customEmails": "Custom email addresses for notifications"
+      },
+      "communication": {
+        "title": "Communication System",
+        "bookingConfirmations": "Automated booking confirmations",
+        "reminders": "Pickup and return reminders (24h before)",
+        "paymentConfirmations": "Payment confirmations with invoices",
+        "emailVerification": "Email verification and password reset",
+        "localizedEmails": "All emails localized to customer's preferred language"
+      }
+    },
+    "openSite": {
+      "title": "⚡ Open Your Own Rental Site in Minutes",
+      "signUp": "Sign up — Create your company account",
+      "configure": "Configure — Add your logo, colors, and contact info",
+      "addVehicles": "Add vehicles — Import or manually add your fleet",
+      "goLive": "Go live — Your custom rental website is ready",
+      "noCoding": "No coding required. No IT team needed. Just configure and launch."
+    },
+    "techStack": {
+      "title": "🛠️ Technology Stack",
+      "frontend": "React with modern responsive design",
+      "backend": "ASP.NET Core REST API",
+      "database": "PostgreSQL",
+      "cloud": "Azure hosting with auto-scaling",
+      "payments": "Stripe Connect",
+      "documentScanning": "BlinkID SDK",
+      "ai": "Voice recognition and intelligent recommendations"
+    },
+    "tagline": "Your journey, our commitment."
+  },
+  "booking": {
+    "title": "Booking & Discovery",
+    "subtitle": "User-facing platforms for retreat centers and experience providers with real-time availability and integrated payments.",
+    "description": "User-facing platforms for retreat centers and experience providers with real-time availability and integrated payments.",
+    "features": {
+      "resortSearch": "Resort/venue search & filtering",
+      "bookingManagement": "Booking management",
+      "paymentProcessing": "Payment processing",
+      "multiLanguage": "Multi-language support"
+    }
+  },
+  "footer": {
+    "company": "Aegis AO Soft LLC",
+    "contact": "Contact",
+    "services": "Services",
+    "vehicleRental": "Vehicle Rental Management",
+    "compliance": "Compliance Automation",
+    "booking": "Booking Platforms",
+    "copyright": "© {{year}} Aegis AO Soft. All rights reserved."
+  }
+}

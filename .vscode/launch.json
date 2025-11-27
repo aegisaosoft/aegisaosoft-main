@@ -5,28 +5,35 @@
       "name": "Server: Node",
       "type": "node",
       "request": "launch",
-      "runtimeExecutable": "C:\\Program Files\\nodejs\\node.exe",
       "program": "${workspaceFolder}/server/index.js",
-      "cwd": "${workspaceFolder}",
+      "cwd": "${workspaceFolder}/server",
       "console": "integratedTerminal",
       "envFile": "${workspaceFolder}/.env",
-      "env": { "NODE_ENV": "development" },
+      "env": {
+        "NODE_ENV": "development"
+      },
       "skipFiles": ["<node_internals>/**", "**/node_modules/**"]
     },
     {
       "name": "Server: Nodemon",
       "type": "node",
       "request": "launch",
-      "cwd": "${workspaceFolder}",
-      "runtimeExecutable": "C:\\Program Files\\nodejs\\node.exe",
-      "program": "${workspaceFolder}/node_modules/nodemon/bin/nodemon.js",
-      "args": ["${workspaceFolder}/server/index.js"],
-      "restart": true,
+      "cwd": "${workspaceFolder}/server",
+      "runtimeExecutable": "npm",
+      "runtimeArgs": ["run", "dev"],
       "console": "integratedTerminal",
       "envFile": "${workspaceFolder}/.env",
-      "env": { "NODE_ENV": "development" },
+      "env": {
+        "NODE_ENV": "development"
+      },
       "skipFiles": ["<node_internals>/**", "**/node_modules/**"],
-      "autoAttachChildProcesses": true
+      "autoAttachChildProcesses": true,
+      "presentation": {
+        "reveal": "always",
+        "panel": "dedicated",
+        "group": "server",
+        "focus": false
+      }
     },
     {
       "name": "Client: React Dev",
@@ -34,25 +41,63 @@
       "request": "launch",
       "cwd": "${workspaceFolder}/client",
       "runtimeExecutable": "npm",
-      "runtimeArgs": ["start"],
+      "runtimeArgs": ["run", "dev"],
       "console": "integratedTerminal",
+      "serverReadyAction": {
+        "pattern": ".*Local:.*http://localhost:3000.*",
+        "uriFormat": "http://localhost:3000",
+        "action": "openExternally"
+      },
       "env": {
         "NODE_ENV": "development"
-      }
+      },
+      "presentation": {
+        "reveal": "always",
+        "panel": "dedicated",
+        "group": "client",
+        "focus": false
+      },
+      "skipFiles": ["<node_internals>/**"]
     },
     {
       "name": "Client: Chrome",
       "type": "chrome",
       "request": "launch",
       "url": "http://localhost:3000",
-      "webRoot": "${workspaceFolder}/client"
+      "webRoot": "${workspaceFolder}/client",
+      "sourceMaps": true
+    },
+    {
+      "name": "Client: Chrome (Attach)",
+      "type": "chrome",
+      "request": "attach",
+      "port": 9222,
+      "webRoot": "${workspaceFolder}/client",
+      "sourceMaps": true
     }
   ],
   "compounds": [
     {
       "name": "Full Stack App",
       "configurations": ["Server: Nodemon", "Client: React Dev"],
-      "stopAll": true
+      "stopAll": true,
+      "presentation": {
+        "hidden": false,
+        "group": "fullstack",
+        "order": 1,
+        "reveal": "always"
+      }
+    },
+    {
+      "name": "Full Stack App (with Chrome Debug)",
+      "configurations": ["Server: Nodemon", "Client: React Dev", "Client: Chrome"],
+      "stopAll": true,
+      "presentation": {
+        "hidden": false,
+        "group": "fullstack",
+        "order": 2,
+        "reveal": "always"
+      }
     }
   ]
 }

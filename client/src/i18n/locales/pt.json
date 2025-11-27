@@ -1,0 +1,214 @@
+{
+  "header": {
+    "home": "Início",
+    "about": "Sobre",
+    "contact": "Contato"
+  },
+  "home": {
+    "title": "Desenvolvimento de Software Estratégico",
+    "subtitle": "Construindo plataformas para empresas ambiciosas.",
+    "vehicleRental": {
+      "title": "Gestão de Aluguel de Veículos",
+      "description": "Plataforma SaaS completa para empresas de aluguel com arquitetura multi-tenant, integração Stripe Connect e operações automatizadas.",
+      "features": {
+        "fleetManagement": "Gestão de frota e disponibilidade",
+        "driverVerification": "Verificação de motorista (BlinkID)",
+        "securityDeposit": "Gestão de depósito de segurança",
+        "automatedBilling": "Cobrança automatizada"
+      },
+      "learnMore": "Saiba Mais"
+    }
+  },
+  "about": {
+    "whatWeBuild": {
+      "title": "O Que Construímos",
+      "subtitle": "Soluções reais para operações de aluguel e conformidade regulatória.",
+      "vehicleRental": {
+        "title": "Gestão de Aluguel de Veículos",
+        "description": "Plataforma SaaS completa para empresas de aluguel com arquitetura multi-tenant, integração Stripe Connect e operações automatizadas.",
+        "features": {
+          "fleetManagement": "Gestão de frota e disponibilidade",
+          "driverVerification": "Verificação de motorista (BlinkID)",
+          "securityDeposit": "Gestão de depósito de segurança",
+          "automatedBilling": "Cobrança automatizada"
+        }
+      },
+      "complianceAutomation": {
+        "title": "Automação de Conformidade",
+        "description": "Sistemas inteligentes que monitoram, analisam e resolvem automaticamente multas de estacionamento em vários municípios.",
+        "features": {
+          "citationScraping": "Raspagem e análise de multas",
+          "automatedPayment": "Processamento automatizado de pagamentos",
+          "multiState": "Suporte multiestadual (FL, NJ)",
+          "violationTracking": "Rastreamento e relatórios de violações"
+        }
+      }
+    },
+    "technicalExpertise": {
+      "title": "Experiência Técnica",
+      "subtitle": "Stack comprovado em produção para indústrias reguladas.",
+      "backend": "Node.js, ASP.NET Core, PostgreSQL, Redis",
+      "frontend": "React, TypeScript, Material-UI",
+      "cloud": "Azure App Service, AWS, Docker",
+      "payments": "Stripe Connect, conformidade PCI DSS",
+      "automation": "Playwright, Puppeteer, fluxos de trabalho agendados",
+      "security": "AML/KYC, SOX, isolamento multi-tenant"
+    },
+    "enterpriseExperience": {
+      "title": "Experiência Empresarial",
+      "fxcm": "Mais de 20 anos construindo sistemas de conformidade financeira na FXCM, incluindo processamento de pagamentos, relatórios regulatórios e operações de back-office para plataformas de negociação reguladas.",
+      "ctm": "Fundou <ctmLink>CTM</ctmLink> — sistema eletrônico de declaração aduaneira para Alfândega da Rússia.",
+      "huur": "Entregou a plataforma de aluguel de carros <huurLink>Huur US</huurLink> que opera em vários estados.",
+      "blueCliff": "Construiu a API ASP.NET <blueCliffLink>Blue Cliff</blueCliffLink> com um banco de dados PostgreSQL que suporta suas experiências de planejamento de retiros."
+    },
+    "deliveryFramework": {
+      "title": "Framework de Entrega",
+      "subtitle": "Execução orquestrada da descoberta à escala.",
+      "discover": {
+        "title": "Descobrir",
+        "description": "Mapeamento de requisitos técnicos, design de esquema de banco de dados, especificação de API e planejamento de arquitetura em nuvem."
+      },
+      "build": {
+        "title": "Construir",
+        "description": "Entrega incremental com fluxos de trabalho baseados em Git, implantações containerizadas, testes automatizados e pipelines CI/CD."
+      },
+      "scale": {
+        "title": "Escalar",
+        "description": "Otimização de desempenho, configuração de monitoramento (Application Insights), endurecimento de segurança e documentação."
+      }
+    }
+  },
+  "contact": {
+    "letsConnect": {
+      "title": "Vamos Conectar",
+      "description": "Compartilhe seus requisitos: operações de aluguel, automação de conformidade ou sistemas de reserva. Forneceremos recomendações de arquitetura técnica e cronograma de entrega.",
+      "benefits": {
+        "seniorEngineer": "Engenheiro sênior com mais de 30 anos entregando sistemas de produção",
+        "regulatedIndustries": "Experiência com indústrias reguladas (finanças, alfândega)",
+        "fullStack": "Entrega full-stack do banco de dados à implantação",
+        "usBased": "Com sede nos EUA (EB-1 Habilidade Excepcional)"
+      },
+      "getInTouch": "Entrar em Contato"
+    },
+    "form": {
+      "title": "Conte-nos sobre seu projeto",
+      "description": "Alinhamos estratégia, entrega e operações para ajudar equipes a lançar e escalar plataformas que atendam às demandas regulatórias e do cliente.",
+      "email": "E-mail",
+      "location": "Localização",
+      "locationValue": "Nova Jersey, EUA • Disponível na América do Norte e Europa",
+      "name": "Nome",
+      "namePlaceholder": "João Silva",
+      "emailLabel": "E-mail",
+      "emailPlaceholder": "joao@empresa.com",
+      "company": "Empresa",
+      "companyPlaceholder": "Sua empresa ou projeto",
+      "projectDetails": "Detalhes do Projeto",
+      "projectDetailsPlaceholder": "Compartilhe seus objetivos, cronogramas e desafios.",
+      "submit": "Enviar Consulta",
+      "submitting": "Enviando...",
+      "success": "Obrigado por entrar em contato. Nossa equipe responderá em um dia útil.",
+      "error": "Não pudemos processar sua solicitação no momento. Por favor, tente novamente mais tarde ou envie um e-mail para aegisaosoft@gmail.com."
+    }
+  },
+  "vehicleRental": {
+    "title": "Aegis-Rental: Plataforma Completa de Gestão de Aluguel de Veículos",
+    "subtitle": "Lance Seu Próprio Negócio de Aluguel em Minutos",
+    "description": "Aegis-Rental é uma plataforma SaaS multi-tenant poderosa que permite que empresas de aluguel de veículos lancem seu próprio site profissional de aluguel de forma rápida e eficiente. Construída sobre uma arquitetura de nuvem moderna, fornece tudo que você precisa para gerenciar sua frota, clientes e reservas desde o primeiro dia.",
+    "languages": {
+      "title": "🌍 5 Idiomas Suportados",
+      "english": "🇺🇸 Inglês",
+      "spanish": "🇪🇸 Espanhol (Español)",
+      "portuguese": "🇵🇹 Português (Português)",
+      "french": "🇫🇷 Francês (Français)",
+      "german": "🇩🇪 Alemão (Deutsch)",
+      "description": "Todos os elementos da interface, confirmações de reserva, notificações por e-mail e comunicações com clientes estão totalmente localizados."
+    },
+    "features": {
+      "title": "🚗 Recursos Completos do Sistema de Aluguel",
+      "intelligentBooking": {
+        "title": "Reserva Inteligente",
+        "voiceAI": "Busca e reserva com IA de voz — fale naturalmente para encontrar e reservar veículos",
+        "realTimeCalendar": "Calendário de disponibilidade em tempo real com confirmação instantânea",
+        "smartRecommendations": "Recomendações inteligentes de veículos baseadas nas necessidades do cliente",
+        "vinRecognition": "Reconhecimento de número VIN para informações automáticas do veículo"
+      },
+      "customerVerification": {
+        "title": "Verificação de Cliente",
+        "blinkID": "Integração BlinkID para digitalização instantânea de carteira de motorista (frente e verso)",
+        "dataExtraction": "Extração e validação automática de dados",
+        "ageVerification": "Verificação de idade e expiração da carteira",
+        "documentStorage": "Armazenamento seguro de documentos"
+      },
+      "paymentProcessing": {
+        "title": "Processamento de Pagamentos",
+        "stripeConnect": "Integração Stripe Connect para pagamentos perfeitos",
+        "multiCurrency": "Suporte multi-moeda para todos os países da América do Norte e do Sul",
+        "securityDeposit": "Gestão de depósito de segurança (suporta retenções de 31+ dias)",
+        "automatedRefunds": "Reembolsos automatizados e gestão de disputas",
+        "directPayouts": "Pagamentos diretos para contas de empresas de aluguel"
+      },
+      "fleetManagement": {
+        "title": "Gestão de Frota",
+        "inventory": "Gestão completa de inventário de veículos",
+        "maintenance": "Agendamento e rastreamento de manutenção",
+        "statusUpdates": "Atualizações de status de veículos em tempo real",
+        "photoGallery": "Galeria de fotos e especificações"
+      },
+      "multiTenant": {
+        "title": "Arquitetura Multi-Tenant",
+        "brandedWebsite": "Cada empresa de aluguel obtém seu próprio site com marca",
+        "customDomains": "Domínios personalizados (suaempresa.aegis-rental.com)",
+        "uniqueBranding": "Marca única: logotipos, cores, informações de contato",
+        "isolatedData": "Dados isolados — cada inquilino vê apenas suas próprias informações",
+        "customEmails": "Endereços de e-mail personalizados para notificações"
+      },
+      "communication": {
+        "title": "Sistema de Comunicação",
+        "bookingConfirmations": "Confirmações de reserva automatizadas",
+        "reminders": "Lembretes de retirada e devolução (24h antes)",
+        "paymentConfirmations": "Confirmações de pagamento com faturas",
+        "emailVerification": "Verificação de e-mail e redefinição de senha",
+        "localizedEmails": "Todos os e-mails localizados no idioma preferido do cliente"
+      }
+    },
+    "openSite": {
+      "title": "⚡ Abra Seu Próprio Site de Aluguel em Minutos",
+      "signUp": "Cadastre-se — Crie a conta da sua empresa",
+      "configure": "Configure — Adicione seu logotipo, cores e informações de contato",
+      "addVehicles": "Adicione veículos — Importe ou adicione manualmente sua frota",
+      "goLive": "Entre no ar — Seu site de aluguel personalizado está pronto",
+      "noCoding": "Não é necessário codificação. Não é necessário equipe de TI. Apenas configure e lance."
+    },
+    "techStack": {
+      "title": "🛠️ Stack Tecnológico",
+      "frontend": "React com design responsivo moderno",
+      "backend": "API REST ASP.NET Core",
+      "database": "PostgreSQL",
+      "cloud": "Hospedagem Azure com auto-escalonamento",
+      "payments": "Stripe Connect",
+      "documentScanning": "SDK BlinkID",
+      "ai": "Reconhecimento de voz e recomendações inteligentes"
+    },
+    "tagline": "Sua jornada, nosso compromisso."
+  },
+  "booking": {
+    "title": "Reserva e Descoberta",
+    "subtitle": "Plataformas voltadas para o usuário para centros de retiro e provedores de experiências com disponibilidade em tempo real e pagamentos integrados.",
+    "description": "Plataformas voltadas para o usuário para centros de retiro e provedores de experiências com disponibilidade em tempo real e pagamentos integrados.",
+    "features": {
+      "resortSearch": "Busca e filtragem de resorts/locais",
+      "bookingManagement": "Gestão de reservas",
+      "paymentProcessing": "Processamento de pagamentos",
+      "multiLanguage": "Suporte multi-idioma"
+    }
+  },
+  "footer": {
+    "company": "Aegis AO Soft LLC",
+    "contact": "Contato",
+    "services": "Serviços",
+    "vehicleRental": "Gestão de Aluguel de Veículos",
+    "compliance": "Automação de Conformidade",
+    "booking": "Plataformas de Reserva",
+    "copyright": "© {{year}} Aegis AO Soft. Todos os direitos reservados."
+  }
+}
