@@ -83,10 +83,9 @@
       "title": "Let's Connect",
       "description": "Share your requirements—rental operations, compliance automation, or booking systems. We'll provide technical architecture recommendations and delivery timeline.",
       "benefits": {
-        "seniorEngineer": "Senior engineer with 30+ years shipping production systems",
+        "seniorEngineer": "30+ years shipping production systems",
         "regulatedIndustries": "Experience with regulated industries (finance, customs)",
-        "fullStack": "Full-stack delivery from database to deployment",
-        "usBased": "U.S.-based (EB-1 Exceptional Ability)"
+        "fullStack": "Full-stack delivery from database to deployment"
       },
       "getInTouch": "Get in Touch"
     },

@@ -83,10 +83,9 @@
       "title": "Lassen Sie uns in Verbindung treten",
       "description": "Teilen Sie Ihre Anforderungen mit — Mietbetriebe, Compliance-Automatisierung oder Buchungssysteme. Wir werden technische Architekturempfehlungen und Lieferzeitpläne bereitstellen.",
       "benefits": {
-        "seniorEngineer": "Senior-Ingenieur mit über 30 Jahren Auslieferung von Produktionssystemen",
+        "seniorEngineer": "Über 30 Jahre Auslieferung von Produktionssystemen",
         "regulatedIndustries": "Erfahrung mit regulierten Branchen (Finanzen, Zoll)",
-        "fullStack": "Full-Stack-Lieferung von der Datenbank bis zur Bereitstellung",
-        "usBased": "Mit Sitz in den USA (EB-1 Außergewöhnliche Fähigkeit)"
+        "fullStack": "Full-Stack-Lieferung von der Datenbank bis zur Bereitstellung"
       },
       "getInTouch": "Kontakt Aufnehmen"
     },

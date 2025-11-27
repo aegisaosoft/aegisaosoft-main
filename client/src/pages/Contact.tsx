@@ -34,7 +34,6 @@ export function Contact() {
     t('contact.letsConnect.benefits.seniorEngineer'),
     t('contact.letsConnect.benefits.regulatedIndustries'),
     t('contact.letsConnect.benefits.fullStack'),
-    t('contact.letsConnect.benefits.usBased'),
   ]
 
   const handleInputChange = (field: keyof ContactForm) => (value: string) => {

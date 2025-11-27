@@ -83,10 +83,9 @@
       "title": "Vamos Conectar",
       "description": "Compartilhe seus requisitos: operações de aluguel, automação de conformidade ou sistemas de reserva. Forneceremos recomendações de arquitetura técnica e cronograma de entrega.",
       "benefits": {
-        "seniorEngineer": "Engenheiro sênior com mais de 30 anos entregando sistemas de produção",
+        "seniorEngineer": "Mais de 30 anos entregando sistemas de produção",
         "regulatedIndustries": "Experiência com indústrias reguladas (finanças, alfândega)",
-        "fullStack": "Entrega full-stack do banco de dados à implantação",
-        "usBased": "Com sede nos EUA (EB-1 Habilidade Excepcional)"
+        "fullStack": "Entrega full-stack do banco de dados à implantação"
       },
       "getInTouch": "Entrar em Contato"
     },

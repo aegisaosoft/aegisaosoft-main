@@ -83,10 +83,9 @@
       "title": "Connectons-nous",
       "description": "Partagez vos exigences : opérations de location, automatisation de la conformité ou systèmes de réservation. Nous fournirons des recommandations d'architecture technique et un calendrier de livraison.",
       "benefits": {
-        "seniorEngineer": "Ingénieur senior avec plus de 30 ans de livraison de systèmes de production",
+        "seniorEngineer": "Plus de 30 ans de livraison de systèmes de production",
         "regulatedIndustries": "Expérience avec les industries réglementées (finance, douanes)",
-        "fullStack": "Livraison full-stack de la base de données au déploiement",
-        "usBased": "Basé aux États-Unis (EB-1 Capacité Exceptionnelle)"
+        "fullStack": "Livraison full-stack de la base de données au déploiement"
       },
       "getInTouch": "Entrer en Contact"
     },
