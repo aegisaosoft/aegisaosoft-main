@@ -8,6 +8,7 @@ import { Home } from './pages/Home'
 import { About } from './pages/About'
 import { Contact } from './pages/Contact'
 import { VehicleRental } from './pages/VehicleRental'
+import { VehicleRentalSetPassword } from './pages/VehicleRentalSetPassword'
 import { BrazilianMarketplace } from './pages/BrazilianMarketplace'
 import { Mercadinho25 } from './pages/Mercadinho25'
 
@@ -22,6 +23,7 @@ function App() {
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/vehicle-rental" element={<VehicleRental />} />
+          <Route path="/vehicle-rental/set-password" element={<VehicleRentalSetPassword />} />
           <Route path="/brazilian-marketplace" element={<BrazilianMarketplace />} />
           <Route path="/mercadinho25" element={<Mercadinho25 />} />
         </Routes>

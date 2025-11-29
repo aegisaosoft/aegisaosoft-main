@@ -1,4 +1,5 @@
 import { useTranslation } from 'react-i18next'
+import { Link } from 'react-router-dom'
 import '../App.css'
 
 export function VehicleRental() {
@@ -14,7 +15,7 @@ export function VehicleRental() {
           </p>
           {/* Top Try Now button - centered under subtitle */}
           <div style={{ display: 'flex', justifyContent: 'center', marginTop: '2rem', marginBottom: '2rem' }}>
-            <button className="try-now-btn try-now-top">Try Now</button>
+            <Link to="/vehicle-rental/set-password" className="try-now-btn try-now-top" style={{ textDecoration: 'none' }}>Try Now</Link>
           </div>
           <p>
             {t('vehicleRental.description')}
@@ -181,7 +182,7 @@ export function VehicleRental() {
           </p>
           {/* Bottom Try Now button - centered under tagline */}
           <div style={{ display: 'flex', justifyContent: 'center', marginTop: '2rem' }}>
-            <button className="try-now-btn try-now-bottom">Try Now</button>
+            <Link to="/vehicle-rental/set-password" className="try-now-btn try-now-bottom" style={{ textDecoration: 'none' }}>Try Now</Link>
           </div>
         </div>
       </section>
