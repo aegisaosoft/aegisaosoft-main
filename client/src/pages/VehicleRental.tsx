@@ -12,6 +12,10 @@ export function VehicleRental() {
           <p className="subtitle">
             {t('vehicleRental.subtitle')}
           </p>
+          {/* Top Try Now button - centered under subtitle */}
+          <div style={{ display: 'flex', justifyContent: 'center', marginTop: '2rem', marginBottom: '2rem' }}>
+            <button className="try-now-btn try-now-top">Try Now</button>
+          </div>
           <p>
             {t('vehicleRental.description')}
           </p>
@@ -175,6 +179,10 @@ export function VehicleRental() {
           <p className="subtitle" style={{ textAlign: 'center', fontSize: '1.5rem', marginTop: '0' }}>
             {t('vehicleRental.tagline')}
           </p>
+          {/* Bottom Try Now button - centered under tagline */}
+          <div style={{ display: 'flex', justifyContent: 'center', marginTop: '2rem' }}>
+            <button className="try-now-btn try-now-bottom">Try Now</button>
+          </div>
         </div>
       </section>
     </main>

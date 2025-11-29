@@ -17,6 +17,11 @@
         "automatedBilling": "Cobrança automatizada"
       },
       "learnMore": "Saiba Mais"
+    },
+    "brazilianMarketplace": {
+      "title": "Plataforma de Marketplace Multi-Tenant para Produtos Artesanais Brasileiros",
+      "description": "Uma plataforma de comércio eletrônico baseada em nuvem que conecta artesãos brasileiros locais e pequenos vendedores com clientes que buscam itens artesanais autênticos, arte folclórica e produtos essenciais do dia a dia. A arquitetura multi-tenant permite que vendedores independentes operem lojas com marca própria sob um marketplace unificado, cada um com catálogos de produtos personalizáveis, preços e opções de atendimento.",
+      "learnMore": "Saiba Mais"
     }
   },
   "about": {
@@ -189,6 +194,55 @@
       "ai": "Reconhecimento de voz e recomendações inteligentes"
     },
     "tagline": "Sua jornada, nosso compromisso."
+  },
+  "brazilianMarketplace": {
+    "page": {
+      "title": "Plataforma de Marketplace Multi-Tenant para Produtos Artesanais Brasileiros",
+      "subtitle": "Conectando artesãos brasileiros com clientes em todo o mundo",
+      "description": "Uma plataforma de comércio eletrônico baseada em nuvem que conecta artesãos brasileiros locais e pequenos vendedores com clientes que buscam itens artesanais autênticos, arte folclórica e produtos essenciais do dia a dia. A arquitetura multi-tenant permite que vendedores independentes operem lojas com marca própria sob um marketplace unificado, cada um com catálogos de produtos personalizáveis, preços e opções de atendimento.",
+      "coreOfferings": {
+        "title": "Ofertas Principais",
+        "traditionalCrafts": {
+          "title": "Artesanato Tradicional",
+          "description": "Cerâmica, trabalho em madeira, têxteis, rendas"
+        },
+        "regionalGoods": {
+          "title": "Produtos Artesanais Regionais",
+          "description": "Itens de couro, cestas trançadas, bordados"
+        },
+        "everydayEssentials": {
+          "title": "Produtos Essenciais do Dia a Dia",
+          "description": "Artigos domésticos e necessidades diárias"
+        },
+        "souvenirs": {
+          "title": "Lembranças e Peças Decorativas",
+          "description": "Itens que representam o patrimônio cultural brasileiro"
+        }
+      },
+      "features": {
+        "title": "Recursos da Plataforma",
+        "storefronts": {
+          "title": "Lojas Individuais de Vendedores",
+          "description": "Marca personalizada para cada vendedor com design e identidade únicos de loja"
+        },
+        "paymentProcessing": {
+          "title": "Processamento de Pagamentos Centralizado",
+          "description": "Estrutura de comissão do marketplace com processamento seguro de pagamentos"
+        },
+        "multiLanguage": {
+          "title": "Suporte Multi-idioma",
+          "description": "Suporte para português, inglês e espanhol para alcance global"
+        },
+        "shipping": {
+          "title": "Envio e Atendimento",
+          "description": "Coordenação integrada de envio e atendimento para processamento fluido de pedidos"
+        },
+        "mobileFirst": {
+          "title": "Design Mobile-First",
+          "description": "Design responsivo otimizado para o mercado brasileiro dominado por smartphones"
+        }
+      }
+    }
   },
   "booking": {
     "title": "Reserva e Descoberta",

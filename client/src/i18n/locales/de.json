@@ -17,6 +17,11 @@
         "automatedBilling": "Automatisierte Abrechnung"
       },
       "learnMore": "Mehr Erfahren"
+    },
+    "brazilianMarketplace": {
+      "title": "Multi-Tenant-Marktplatzplattform für brasilianische Kunsthandwerksprodukte",
+      "description": "Eine cloudbasierte E-Commerce-Plattform, die lokale brasilianische Handwerker und kleine Händler mit Kunden verbindet, die authentische handgefertigte Artikel, Volkskunst und Alltagsprodukte suchen. Die Multi-Tenant-Architektur ermöglicht es unabhängigen Verkäufern, Marken-Shops unter einem einheitlichen Marktplatz zu betreiben, jeder mit anpassbaren Produktkatalogen, Preisen und Erfüllungsoptionen.",
+      "learnMore": "Mehr Erfahren"
     }
   },
   "about": {
@@ -189,6 +194,55 @@
       "ai": "Spracherkennung und intelligente Empfehlungen"
     },
     "tagline": "Ihre Reise, unser Engagement."
+  },
+  "brazilianMarketplace": {
+    "page": {
+      "title": "Multi-Tenant-Marktplatzplattform für brasilianische Kunsthandwerksprodukte",
+      "subtitle": "Brasilianische Handwerker mit Kunden weltweit verbinden",
+      "description": "Eine cloudbasierte E-Commerce-Plattform, die lokale brasilianische Handwerker und kleine Händler mit Kunden verbindet, die authentische handgefertigte Artikel, Volkskunst und Alltagsprodukte suchen. Die Multi-Tenant-Architektur ermöglicht es unabhängigen Verkäufern, Marken-Shops unter einem einheitlichen Marktplatz zu betreiben, jeder mit anpassbaren Produktkatalogen, Preisen und Erfüllungsoptionen.",
+      "coreOfferings": {
+        "title": "Hauptangebote",
+        "traditionalCrafts": {
+          "title": "Traditionelles Kunsthandwerk (Artesanato)",
+          "description": "Keramik, Holzarbeiten, Textilien, Spitzenarbeiten"
+        },
+        "regionalGoods": {
+          "title": "Regionale Handwerksprodukte",
+          "description": "Lederwaren, geflochtene Körbe, Stickereien"
+        },
+        "everydayEssentials": {
+          "title": "Alltagsprodukte",
+          "description": "Haushaltswaren und tägliche Bedarfsartikel"
+        },
+        "souvenirs": {
+          "title": "Souvenirs und Dekorationsstücke",
+          "description": "Artikel, die das brasilianische Kulturerbe repräsentieren"
+        }
+      },
+      "features": {
+        "title": "Plattformfunktionen",
+        "storefronts": {
+          "title": "Individuelle Verkäufer-Shops",
+          "description": "Individuelle Marke für jeden Verkäufer mit einzigartigem Shop-Design und Identität"
+        },
+        "paymentProcessing": {
+          "title": "Zentralisierte Zahlungsabwicklung",
+          "description": "Marktplatz-Kommissionsstruktur mit sicherer Zahlungsabwicklung"
+        },
+        "multiLanguage": {
+          "title": "Mehrsprachiger Support",
+          "description": "Unterstützung für Portugiesisch, Englisch und Spanisch für globale Reichweite"
+        },
+        "shipping": {
+          "title": "Versand und Erfüllung",
+          "description": "Integrierte Versand- und Erfüllungskoordination für reibungslose Auftragsabwicklung"
+        },
+        "mobileFirst": {
+          "title": "Mobile-First Design",
+          "description": "Responsives Design optimiert für Brasiliens Smartphone-dominierten Markt"
+        }
+      }
+    }
   },
   "booking": {
     "title": "Buchung und Entdeckung",

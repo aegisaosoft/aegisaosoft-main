@@ -17,6 +17,11 @@
         "automatedBilling": "Automated billing"
       },
       "learnMore": "Learn More"
+    },
+    "brazilianMarketplace": {
+      "title": "Multi-Tenant Marketplace Platform for Brazilian Artisan Goods",
+      "description": "A cloud-based e-commerce platform connecting local Brazilian artisans and small vendors with customers seeking authentic handcrafted items, folk art, and everyday essentials. The multi-tenant architecture enables independent sellers to operate branded storefronts under a unified marketplace, each with customizable product catalogs, pricing, and fulfillment options.",
+      "learnMore": "Learn More"
     }
   },
   "about": {
@@ -189,6 +194,55 @@
       "ai": "Voice recognition and intelligent recommendations"
     },
     "tagline": "Your journey, our commitment."
+  },
+  "brazilianMarketplace": {
+    "page": {
+      "title": "Multi-Tenant Marketplace Platform for Brazilian Artisan Goods",
+      "subtitle": "Connecting Brazilian artisans with customers worldwide",
+      "description": "A cloud-based e-commerce platform connecting local Brazilian artisans and small vendors with customers seeking authentic handcrafted items, folk art, and everyday essentials. The multi-tenant architecture enables independent sellers to operate branded storefronts under a unified marketplace, each with customizable product catalogs, pricing, and fulfillment options.",
+      "coreOfferings": {
+        "title": "Core Offerings",
+        "traditionalCrafts": {
+          "title": "Traditional Folk Crafts (Artesanato)",
+          "description": "Ceramics, woodwork, textiles, lacework"
+        },
+        "regionalGoods": {
+          "title": "Regional Handmade Goods",
+          "description": "Leather items, woven baskets, embroidery"
+        },
+        "everydayEssentials": {
+          "title": "Everyday Essentials",
+          "description": "Household sundries and daily necessities"
+        },
+        "souvenirs": {
+          "title": "Souvenirs & Decorative Pieces",
+          "description": "Items representing Brazilian cultural heritage"
+        }
+      },
+      "features": {
+        "title": "Platform Features",
+        "storefronts": {
+          "title": "Individual Seller Storefronts",
+          "description": "Custom branding for each seller with unique storefront design and identity"
+        },
+        "paymentProcessing": {
+          "title": "Centralized Payment Processing",
+          "description": "Marketplace commission structure with secure payment handling"
+        },
+        "multiLanguage": {
+          "title": "Multi-Language Support",
+          "description": "Portuguese, English, and Spanish language support for global reach"
+        },
+        "shipping": {
+          "title": "Shipping & Fulfillment",
+          "description": "Integrated shipping and fulfillment coordination for seamless order processing"
+        },
+        "mobileFirst": {
+          "title": "Mobile-First Design",
+          "description": "Responsive design optimized for Brazil's smartphone-dominant market"
+        }
+      }
+    }
   },
   "booking": {
     "title": "Booking & Discovery",

@@ -17,6 +17,11 @@
         "automatedBilling": "Facturation automatisée"
       },
       "learnMore": "En Savoir Plus"
+    },
+    "brazilianMarketplace": {
+      "title": "Plateforme de Marketplace Multi-Tenant pour Produits Artisanaux Brésiliens",
+      "description": "Une plateforme de commerce électronique basée sur le cloud qui connecte les artisans brésiliens locaux et les petits vendeurs avec des clients recherchant des articles artisanaux authentiques, de l'art populaire et des produits essentiels quotidiens. L'architecture multi-tenant permet aux vendeurs indépendants d'exploiter des vitrines de marque sous un marché unifié, chacun avec des catalogues de produits personnalisables, des prix et des options de traitement des commandes.",
+      "learnMore": "En Savoir Plus"
     }
   },
   "about": {
@@ -189,6 +194,55 @@
       "ai": "Reconnaissance vocale et recommandations intelligentes"
     },
     "tagline": "Votre voyage, notre engagement."
+  },
+  "brazilianMarketplace": {
+    "page": {
+      "title": "Plateforme de Marketplace Multi-Tenant pour Produits Artisanaux Brésiliens",
+      "subtitle": "Connecter les artisans brésiliens avec des clients du monde entier",
+      "description": "Une plateforme de commerce électronique basée sur le cloud qui connecte les artisans brésiliens locaux et les petits vendeurs avec des clients recherchant des articles artisanaux authentiques, de l'art populaire et des produits essentiels quotidiens. L'architecture multi-tenant permet aux vendeurs indépendants d'exploiter des vitrines de marque sous un marché unifié, chacun avec des catalogues de produits personnalisables, des prix et des options de traitement des commandes.",
+      "coreOfferings": {
+        "title": "Offres Principales",
+        "traditionalCrafts": {
+          "title": "Artisanat Traditionnel (Artesanato)",
+          "description": "Céramique, travail du bois, textiles, dentelle"
+        },
+        "regionalGoods": {
+          "title": "Produits Artisanaux Régionaux",
+          "description": "Articles en cuir, paniers tissés, broderie"
+        },
+        "everydayEssentials": {
+          "title": "Produits Essentiels Quotidiens",
+          "description": "Articles ménagers et nécessités quotidiennes"
+        },
+        "souvenirs": {
+          "title": "Souvenirs et Pièces Décoratives",
+          "description": "Articles représentant le patrimoine culturel brésilien"
+        }
+      },
+      "features": {
+        "title": "Caractéristiques de la Plateforme",
+        "storefronts": {
+          "title": "Vitrines Individuelles de Vendeurs",
+          "description": "Marque personnalisée pour chaque vendeur avec design et identité uniques de vitrine"
+        },
+        "paymentProcessing": {
+          "title": "Traitement des Paiements Centralisé",
+          "description": "Structure de commission du marché avec traitement sécurisé des paiements"
+        },
+        "multiLanguage": {
+          "title": "Support Multi-langues",
+          "description": "Support pour portugais, anglais et espagnol pour une portée mondiale"
+        },
+        "shipping": {
+          "title": "Expédition et Traitement",
+          "description": "Coordination intégrée de l'expédition et du traitement pour un traitement fluide des commandes"
+        },
+        "mobileFirst": {
+          "title": "Design Mobile-First",
+          "description": "Design responsive optimisé pour le marché brésilien dominé par les smartphones"
+        }
+      }
+    }
   },
   "booking": {
     "title": "Réservation et Découverte",

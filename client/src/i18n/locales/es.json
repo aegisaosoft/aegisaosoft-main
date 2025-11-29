@@ -17,6 +17,11 @@
         "automatedBilling": "Facturación automatizada"
       },
       "learnMore": "Saber Más"
+    },
+    "brazilianMarketplace": {
+      "title": "Plataforma de Mercado Multi-Tenant para Productos Artesanales Brasileños",
+      "description": "Una plataforma de comercio electrónico basada en la nube que conecta a artesanos brasileños locales y pequeños vendedores con clientes que buscan artículos artesanales auténticos, arte popular y productos esenciales cotidianos. La arquitectura multi-tenant permite que vendedores independientes operen tiendas con marca propia bajo un mercado unificado, cada uno con catálogos de productos personalizables, precios y opciones de cumplimiento.",
+      "learnMore": "Saber Más"
     }
   },
   "about": {
@@ -189,6 +194,55 @@
       "ai": "Reconocimiento de voz y recomendaciones inteligentes"
     },
     "tagline": "Su viaje, nuestro compromiso."
+  },
+  "brazilianMarketplace": {
+    "page": {
+      "title": "Plataforma de Mercado Multi-Tenant para Productos Artesanales Brasileños",
+      "subtitle": "Conectando artesanos brasileños con clientes de todo el mundo",
+      "description": "Una plataforma de comercio electrónico basada en la nube que conecta a artesanos brasileños locales y pequeños vendedores con clientes que buscan artículos artesanales auténticos, arte popular y productos esenciales cotidianos. La arquitectura multi-tenant permite que vendedores independientes operen tiendas con marca propia bajo un mercado unificado, cada uno con catálogos de productos personalizables, precios y opciones de cumplimiento.",
+      "coreOfferings": {
+        "title": "Ofertas Principales",
+        "traditionalCrafts": {
+          "title": "Artesanía Tradicional (Artesanato)",
+          "description": "Cerámica, trabajo en madera, textiles, encajes"
+        },
+        "regionalGoods": {
+          "title": "Productos Artesanales Regionales",
+          "description": "Artículos de cuero, cestas tejidas, bordados"
+        },
+        "everydayEssentials": {
+          "title": "Productos Esenciales Cotidianos",
+          "description": "Artículos domésticos y necesidades diarias"
+        },
+        "souvenirs": {
+          "title": "Recuerdos y Piezas Decorativas",
+          "description": "Artículos que representan el patrimonio cultural brasileño"
+        }
+      },
+      "features": {
+        "title": "Características de la Plataforma",
+        "storefronts": {
+          "title": "Tiendas Individuales de Vendedores",
+          "description": "Marca personalizada para cada vendedor con diseño e identidad únicos de tienda"
+        },
+        "paymentProcessing": {
+          "title": "Procesamiento de Pagos Centralizado",
+          "description": "Estructura de comisión del mercado con manejo seguro de pagos"
+        },
+        "multiLanguage": {
+          "title": "Soporte Multiidioma",
+          "description": "Soporte para portugués, inglés y español para alcance global"
+        },
+        "shipping": {
+          "title": "Envío y Cumplimiento",
+          "description": "Coordinación integrada de envío y cumplimiento para procesamiento fluido de pedidos"
+        },
+        "mobileFirst": {
+          "title": "Diseño Mobile-First",
+          "description": "Diseño responsivo optimizado para el mercado brasileño dominado por smartphones"
+        }
+      }
+    }
   },
   "booking": {
     "title": "Reserva y Descubrimiento",

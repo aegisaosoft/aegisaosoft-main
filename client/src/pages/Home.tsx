@@ -7,7 +7,7 @@ export function Home() {
 
   return (
     <main>
-      <section className="hero">
+      <section className="hero" style={{ paddingBottom: '2rem' }}>
         <div className="container">
           <h1>{t('home.title')}</h1>
           <p className="subtitle">
@@ -16,7 +16,7 @@ export function Home() {
         </div>
       </section>
 
-      <section className="services">
+      <section className="services" style={{ paddingTop: '1rem' }}>
         <div className="container">
           <div className="services-grid">
             <article className="service-card">
@@ -32,6 +32,16 @@ export function Home() {
               </ul>
               <Link to="/vehicle-rental" className="btn btn-primary">
                 {t('home.vehicleRental.learnMore')}
+              </Link>
+            </article>
+
+            <article className="service-card">
+              <h3>{t('home.brazilianMarketplace.title')}</h3>
+              <p>
+                {t('home.brazilianMarketplace.description')}
+              </p>
+              <Link to="/brazilian-marketplace" className="btn btn-primary">
+                {t('home.brazilianMarketplace.learnMore')}
               </Link>
             </article>
           </div>

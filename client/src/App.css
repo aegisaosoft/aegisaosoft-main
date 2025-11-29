@@ -182,14 +182,14 @@
 }
 
 .hero {
-  padding: 6rem 0 1.5rem;
+  padding: 8rem 0 4rem;
   text-align: center;
 }
 
 .hero h1 {
   font-size: clamp(2.5rem, 6vw, 3.75rem);
   font-weight: 800;
-  margin-bottom: 1rem;
+  margin-bottom: 1.5rem;
   line-height: 1.2;
   color: #000000;
 }
@@ -273,7 +273,7 @@
 }
 
 section {
-  padding: 1rem 0;
+  padding: 5rem 0;
 }
 
 h2 {
@@ -295,7 +295,7 @@ h2 {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
   gap: 2rem;
-  margin-top: 1.5rem;
+  margin-top: 3rem;
 }
 
 .service-card {
@@ -605,6 +605,50 @@ h2 {
   text-align: center;
 }
 
+/* Try Now buttons */
+.try-now-btn {
+  position: relative;
+  background: #ffd700;
+  color: #000000;
+  border: none;
+  border-radius: 0.5rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  font-family: inherit;
+  display: inline-block;
+  text-decoration: none;
+}
+
+.try-now-btn:hover {
+  background: #ffed4e;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 12px rgba(255, 215, 0, 0.3);
+}
+
+.try-now-top {
+  position: relative;
+  padding: 1.5rem 4rem;
+  font-size: 1.5rem;
+  border-radius: 0.75rem;
+}
+
+.try-now-top:hover {
+  transform: translateY(-2px);
+}
+
+.try-now-bottom {
+  position: relative;
+  padding: 1.5rem 4rem;
+  font-size: 1.5rem;
+  border-radius: 0.75rem;
+}
+
+.try-now-bottom:hover {
+  transform: translateY(-2px);
+}
+
 @media (max-width: 768px) {
   .hero h1 {
     font-size: 2.5rem;
@@ -625,5 +669,20 @@ h2 {
   .contact-grid,
   .footer-content {
     grid-template-columns: 1fr;
+  }
+
+  .try-now-btn {
+    padding: 0.75rem 1.5rem;
+    font-size: 0.9rem;
+  }
+
+  .try-now-top {
+    padding: 1.25rem 3rem;
+    font-size: 1.25rem;
+  }
+
+  .try-now-bottom {
+    padding: 1.25rem 3rem;
+    font-size: 1.25rem;
   }
 }

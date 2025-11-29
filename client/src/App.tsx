@@ -8,6 +8,8 @@ import { Home } from './pages/Home'
 import { About } from './pages/About'
 import { Contact } from './pages/Contact'
 import { VehicleRental } from './pages/VehicleRental'
+import { BrazilianMarketplace } from './pages/BrazilianMarketplace'
+import { Mercadinho25 } from './pages/Mercadinho25'
 
 function App() {
   return (
@@ -20,6 +22,8 @@ function App() {
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/vehicle-rental" element={<VehicleRental />} />
+          <Route path="/brazilian-marketplace" element={<BrazilianMarketplace />} />
+          <Route path="/mercadinho25" element={<Mercadinho25 />} />
         </Routes>
         <Footer />
       </div>
