@@ -34,7 +34,7 @@ export function VehicleRentalSetPassword() {
     
     // Use different URLs based on environment
     const baseUrl = import.meta.env.DEV 
-      ? 'https://localhost:4000' 
+      ? 'http://localhost:4000' 
       : 'https://admin.aegis-rental.com'
     
     // Open the endpoint with email as username and password as parameters

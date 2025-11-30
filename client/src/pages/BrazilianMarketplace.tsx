@@ -1,5 +1,4 @@
 import { useTranslation } from 'react-i18next'
-import { Link } from 'react-router-dom'
 import '../App.css'
 
 export function BrazilianMarketplace() {
@@ -15,7 +14,7 @@ export function BrazilianMarketplace() {
           </p>
           {/* Top Try Now button - centered under subtitle */}
           <div style={{ display: 'flex', justifyContent: 'center', marginTop: '2rem', marginBottom: '2rem' }}>
-            <Link to="/mercadinho25" className="try-now-btn try-now-top" style={{ textDecoration: 'none' }}>Try Now</Link>
+            <a href="https://mercadinho25.com/" target="_blank" rel="noopener noreferrer" className="try-now-btn try-now-top" style={{ textDecoration: 'none' }}>Try Now</a>
           </div>
           <p>
             {t('brazilianMarketplace.page.description')}
@@ -119,7 +118,7 @@ export function BrazilianMarketplace() {
         <div className="container">
           {/* Bottom Try Now button - centered */}
           <div style={{ display: 'flex', justifyContent: 'center', marginTop: '2rem' }}>
-            <Link to="/mercadinho25" className="try-now-btn try-now-bottom" style={{ textDecoration: 'none' }}>Try Now</Link>
+            <a href="https://mercadinho25.com/" target="_blank" rel="noopener noreferrer" className="try-now-btn try-now-bottom" style={{ textDecoration: 'none' }}>Try Now</a>
           </div>
         </div>
       </section>
