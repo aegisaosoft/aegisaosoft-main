@@ -179,7 +179,6 @@
         "title": "📱 Integração com Redes Sociais",
         "instagram": "Integração completa com Instagram — exiba sua frota com postagem automática",
         "facebook": "Integração com Facebook Business — reservas diretamente da sua página",
-        "socialLogin": "Login social (Entrar com Facebook/Instagram)",
         "reviewSync": "Sincronização de avaliações de clientes entre plataformas",
         "adIntegration": "Integração de anúncios do Facebook e Instagram para promoções"
       }
@@ -201,6 +200,17 @@
       "payments": "Stripe Connect",
       "documentScanning": "SDK BlinkID",
       "ai": "Reconhecimento de voz e recomendações inteligentes"
+    },
+    "customization": {
+      "title": "🎨 Design Totalmente Personalizável",
+      "description": "Seu site de aluguel é completamente personalizável. Faça-o combinar com a identidade da sua marca com apenas alguns cliques.",
+      "features": {
+        "colors": "Esquemas de cores e temas personalizados",
+        "logo": "Seu logotipo e marca",
+        "layout": "Layouts de página flexíveis",
+        "domain": "Suporte a domínio personalizado"
+      },
+      "professional": "Precisa de ajuda de design profissional? Nosso estúdio parceiro pode criar um design único e impressionante feito especialmente para o seu negócio."
     },
     "tagline": "Sua jornada, nosso compromisso."
   },

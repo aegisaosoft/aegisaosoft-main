@@ -179,7 +179,6 @@
         "title": "📱 Integración de Redes Sociales",
         "instagram": "Integración completa con Instagram — muestre su flota con publicación automática",
         "facebook": "Integración con Facebook Business — reservas directamente desde su página",
-        "socialLogin": "Inicio de sesión social (Iniciar sesión con Facebook/Instagram)",
         "reviewSync": "Sincronización de reseñas de clientes entre plataformas",
         "adIntegration": "Integración de anuncios de Facebook e Instagram para promociones"
       }
@@ -201,6 +200,17 @@
       "payments": "Stripe Connect",
       "documentScanning": "SDK BlinkID",
       "ai": "Reconocimiento de voz y recomendaciones inteligentes"
+    },
+    "customization": {
+      "title": "🎨 Diseño Totalmente Personalizable",
+      "description": "Su sitio web de alquiler es completamente personalizable. Hágalo coincidir con la identidad de su marca con solo unos clics.",
+      "features": {
+        "colors": "Esquemas de colores y temas personalizados",
+        "logo": "Su logotipo y marca",
+        "layout": "Diseños de página flexibles",
+        "domain": "Soporte de dominio personalizado"
+      },
+      "professional": "¿Necesita ayuda de diseño profesional? Nuestro estudio asociado puede crear un diseño único e impresionante adaptado específicamente para su negocio."
     },
     "tagline": "Su viaje, nuestro compromiso."
   },

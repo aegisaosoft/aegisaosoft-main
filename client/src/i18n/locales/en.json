@@ -179,7 +179,6 @@
         "title": "📱 Social Media Integration",
         "instagram": "Full Instagram integration — showcase your fleet with auto-posting",
         "facebook": "Facebook Business integration — bookings directly from your page",
-        "socialLogin": "Social login (Sign in with Facebook/Instagram)",
         "reviewSync": "Customer reviews sync across platforms",
         "adIntegration": "Facebook & Instagram Ads integration for promotions"
       }
@@ -201,6 +200,17 @@
       "payments": "Stripe Connect",
       "documentScanning": "BlinkID SDK",
       "ai": "Voice recognition and intelligent recommendations"
+    },
+    "customization": {
+      "title": "🎨 Fully Customizable Design",
+      "description": "Your rental website is completely customizable. Make it match your brand identity with just a few clicks.",
+      "features": {
+        "colors": "Custom color schemes and themes",
+        "logo": "Your logo and branding",
+        "layout": "Flexible page layouts",
+        "domain": "Custom domain support"
+      },
+      "professional": "Need professional design help? Our partner studio can create a unique, stunning design tailored specifically for your business."
     },
     "tagline": "Your journey, our commitment."
   },

@@ -174,6 +174,13 @@
         "paymentConfirmations": "Zahlungsbestätigungen mit Rechnungen",
         "emailVerification": "E-Mail-Verifizierung und Passwort-Reset",
         "localizedEmails": "Alle E-Mails lokalisiert in der bevorzugten Sprache des Kunden"
+      },
+      "socialMedia": {
+        "title": "📱 Social-Media-Integration",
+        "instagram": "Vollständige Instagram-Integration — präsentieren Sie Ihre Flotte mit automatischer Veröffentlichung",
+        "facebook": "Facebook Business-Integration — Buchungen direkt von Ihrer Seite",
+        "reviewSync": "Kundenbewertungen-Synchronisierung zwischen Plattformen",
+        "adIntegration": "Facebook- und Instagram-Werbung-Integration für Promotionen"
       }
     },
     "openSite": {
@@ -193,6 +200,17 @@
       "payments": "Stripe Connect",
       "documentScanning": "BlinkID SDK",
       "ai": "Spracherkennung und intelligente Empfehlungen"
+    },
+    "customization": {
+      "title": "🎨 Vollständig Anpassbares Design",
+      "description": "Ihre Mietwebsite ist vollständig anpassbar. Passen Sie sie mit nur wenigen Klicks an Ihre Markenidentität an.",
+      "features": {
+        "colors": "Benutzerdefinierte Farbschemata und Themen",
+        "logo": "Ihr Logo und Branding",
+        "layout": "Flexible Seitenlayouts",
+        "domain": "Unterstützung für benutzerdefinierte Domains"
+      },
+      "professional": "Brauchen Sie professionelle Designhilfe? Unser Partnerstudio kann ein einzigartiges, atemberaubendes Design erstellen, das speziell auf Ihr Unternehmen zugeschnitten ist."
     },
     "tagline": "Ihre Reise, unser Engagement."
   },

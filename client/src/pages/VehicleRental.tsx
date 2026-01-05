@@ -122,7 +122,6 @@ export function VehicleRental() {
               <ul>
                 <li>{t('vehicleRental.features.socialMedia.instagram')}</li>
                 <li>{t('vehicleRental.features.socialMedia.facebook')}</li>
-                <li>{t('vehicleRental.features.socialMedia.socialLogin')}</li>
                 <li>{t('vehicleRental.features.socialMedia.reviewSync')}</li>
                 <li>{t('vehicleRental.features.socialMedia.adIntegration')}</li>
               </ul>
@@ -182,6 +181,41 @@ export function VehicleRental() {
                 <p>{t('vehicleRental.techStack.ai')}</p>
               </div>
             </div>
+          </div>
+        </div>
+      </section>
+
+      <section className="cta" style={{ paddingTop: '2rem', paddingBottom: '2rem' }}>
+        <div className="container">
+          <div className="cta-section" style={{ padding: '2rem', background: 'linear-gradient(135deg, #667eea 0%, #764ba2 100%)', borderRadius: '12px' }}>
+            <h2 style={{ color: 'white' }}>{t('vehicleRental.customization.title')}</h2>
+            <p style={{ color: 'white', marginTop: '1rem', marginBottom: '1.5rem' }}>
+              {t('vehicleRental.customization.description')}
+            </p>
+            <div className="benefits" style={{ margin: '1.5rem 0' }}>
+              <div className="benefit" style={{ color: 'white' }}>{t('vehicleRental.customization.features.colors')}</div>
+              <div className="benefit" style={{ color: 'white' }}>{t('vehicleRental.customization.features.logo')}</div>
+              <div className="benefit" style={{ color: 'white' }}>{t('vehicleRental.customization.features.layout')}</div>
+              <div className="benefit" style={{ color: 'white' }}>{t('vehicleRental.customization.features.domain')}</div>
+            </div>
+            <p style={{ color: 'white', marginTop: '1.5rem' }}>
+              {t('vehicleRental.customization.professional')}
+            </p>
+            <a 
+              href="https://arina-studio-bvehc2apfnbngehu.canadacentral-01.azurewebsites.net" 
+              target="_blank" 
+              rel="noopener noreferrer" 
+              className="btn btn-primary" 
+              style={{ 
+                marginTop: '1rem', 
+                background: 'white', 
+                color: '#764ba2', 
+                fontWeight: 'bold',
+                display: 'inline-block'
+              }}
+            >
+              🎨 Arina Studio →
+            </a>
           </div>
         </div>
       </section>
