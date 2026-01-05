@@ -294,8 +294,8 @@ h2 {
 .services-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 1.5rem;
-  margin-top: 2rem;
+  gap: 1rem;
+  margin-top: 0.5rem;
 }
 
 .services-grid.four-columns {
@@ -380,16 +380,16 @@ h2 {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 1rem;
-  margin-top: 1rem;
+  gap: 0.5rem;
+  margin-top: 0.5rem;
 }
 
 .language-badge {
   background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
   color: white;
-  padding: 0.75rem 1.5rem;
+  padding: 0.5rem 1rem;
   border-radius: 2rem;
-  font-size: 1rem;
+  font-size: 0.85rem;
   font-weight: 500;
   display: inline-flex;
   align-items: center;
@@ -421,6 +421,114 @@ h2 {
   font-size: 0.75rem;
   font-weight: 500;
   border: 1px solid #e5e7eb;
+}
+
+/* Kandinsky Style Section */
+.kandinsky-section {
+  position: relative;
+  background: #1a1a2e;
+  border-radius: 12px;
+  overflow: hidden;
+  padding: 1.5rem;
+}
+
+.kandinsky-section::before {
+  content: '';
+  position: absolute;
+  top: -50px;
+  left: -50px;
+  width: 150px;
+  height: 150px;
+  background: radial-gradient(circle, #f4d03f 0%, transparent 70%);
+  border-radius: 50%;
+  opacity: 0.8;
+}
+
+.kandinsky-section::after {
+  content: '';
+  position: absolute;
+  bottom: -30px;
+  right: 20%;
+  width: 100px;
+  height: 100px;
+  background: radial-gradient(circle, #e74c3c 0%, transparent 70%);
+  border-radius: 50%;
+  opacity: 0.7;
+}
+
+.kandinsky-shapes {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  overflow: hidden;
+  pointer-events: none;
+}
+
+.kandinsky-circle-1 {
+  position: absolute;
+  top: 10%;
+  right: 10%;
+  width: 80px;
+  height: 80px;
+  border: 4px solid #3498db;
+  border-radius: 50%;
+  opacity: 0.6;
+}
+
+.kandinsky-circle-2 {
+  position: absolute;
+  bottom: 20%;
+  left: 5%;
+  width: 60px;
+  height: 60px;
+  background: rgba(52, 152, 219, 0.4);
+  border-radius: 50%;
+}
+
+.kandinsky-triangle {
+  position: absolute;
+  top: 30%;
+  right: 25%;
+  width: 0;
+  height: 0;
+  border-left: 30px solid transparent;
+  border-right: 30px solid transparent;
+  border-bottom: 50px solid rgba(231, 76, 60, 0.5);
+}
+
+.kandinsky-line-1 {
+  position: absolute;
+  top: 20%;
+  left: 15%;
+  width: 100px;
+  height: 3px;
+  background: #f4d03f;
+  transform: rotate(-30deg);
+  opacity: 0.7;
+}
+
+.kandinsky-line-2 {
+  position: absolute;
+  bottom: 30%;
+  right: 15%;
+  width: 80px;
+  height: 2px;
+  background: #9b59b6;
+  transform: rotate(45deg);
+  opacity: 0.6;
+}
+
+.kandinsky-content {
+  position: relative;
+  z-index: 1;
+}
+
+.kandinsky-section h2 {
+  color: #f4d03f;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+  letter-spacing: 2px;
 }
 
 .tech-stack {

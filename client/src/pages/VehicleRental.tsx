@@ -7,7 +7,7 @@ export function VehicleRental() {
 
   return (
     <main>
-      <section className="hero" style={{ paddingTop: '6rem', paddingBottom: '2rem' }}>
+      <section className="hero" style={{ paddingTop: '6rem', paddingBottom: '0.5rem' }}>
         <div className="container">
           <h1>{t('vehicleRental.title')}</h1>
           <p className="subtitle">
@@ -23,7 +23,7 @@ export function VehicleRental() {
         </div>
       </section>
 
-      <section className="languages-section" style={{ paddingTop: '2rem', paddingBottom: '1rem' }}>
+      <section className="languages-section" style={{ paddingTop: '0.5rem', paddingBottom: '0.25rem' }}>
         <div className="container">
           <h2 style={{ marginBottom: '1rem' }}>{t('vehicleRental.languages.title')}</h2>
           <div className="languages-row">
@@ -39,7 +39,7 @@ export function VehicleRental() {
         </div>
       </section>
 
-      <section className="services" style={{ paddingTop: '2rem', paddingBottom: '2rem' }}>
+      <section className="services" style={{ paddingTop: '0.5rem', paddingBottom: '0.5rem' }}>
         <div className="container">
           <h2>{t('vehicleRental.features.title')}</h2>
           
@@ -120,46 +120,56 @@ export function VehicleRental() {
         </div>
       </section>
 
-      <section className="cta" style={{ paddingTop: '2rem', paddingBottom: '2rem' }}>
+      <section className="cta" style={{ paddingTop: '0.5rem', paddingBottom: '0.5rem' }}>
         <div className="container">
-          <div className="cta-section" style={{ padding: '2rem', background: 'linear-gradient(135deg, #667eea 0%, #764ba2 100%)', borderRadius: '12px' }}>
-            <h2 style={{ color: 'white' }}>{t('vehicleRental.customization.title')}</h2>
-            <p style={{ color: 'white', marginTop: '1rem', marginBottom: '1.5rem' }}>
-              {t('vehicleRental.customization.description')}
-            </p>
-            <div className="benefits" style={{ margin: '1.5rem 0' }}>
-              <div className="benefit" style={{ color: 'white' }}>{t('vehicleRental.customization.features.colors')}</div>
-              <div className="benefit" style={{ color: 'white' }}>{t('vehicleRental.customization.features.logo')}</div>
-              <div className="benefit" style={{ color: 'white' }}>{t('vehicleRental.customization.features.layout')}</div>
-              <div className="benefit" style={{ color: 'white' }}>{t('vehicleRental.customization.features.domain')}</div>
+          <div className="kandinsky-section">
+            <div className="kandinsky-shapes">
+              <div className="kandinsky-circle-1"></div>
+              <div className="kandinsky-circle-2"></div>
+              <div className="kandinsky-triangle"></div>
+              <div className="kandinsky-line-1"></div>
+              <div className="kandinsky-line-2"></div>
             </div>
-            <p style={{ color: 'white', marginTop: '1.5rem' }}>
-              {t('vehicleRental.customization.professional')}
-            </p>
-            <a 
-              href="https://arina-studio-bvehc2apfnbngehu.canadacentral-01.azurewebsites.net" 
-              target="_blank" 
-              rel="noopener noreferrer" 
-              className="btn btn-primary" 
-              style={{ 
-                marginTop: '1rem', 
-                background: 'white', 
-                color: '#764ba2', 
-                fontWeight: 'bold',
-                display: 'inline-block'
-              }}
-            >
-              🎨 Arina Studio →
-            </a>
+            <div className="kandinsky-content">
+              <h2>{t('vehicleRental.customization.title')}</h2>
+              <p style={{ color: 'white', marginTop: '0.5rem', marginBottom: '0.75rem' }}>
+                {t('vehicleRental.customization.description')}
+              </p>
+              <div className="benefits" style={{ margin: '0.75rem 0' }}>
+                <div className="benefit" style={{ color: '#f4d03f' }}>{t('vehicleRental.customization.features.colors')}</div>
+                <div className="benefit" style={{ color: '#3498db' }}>{t('vehicleRental.customization.features.logo')}</div>
+                <div className="benefit" style={{ color: '#e74c3c' }}>{t('vehicleRental.customization.features.layout')}</div>
+                <div className="benefit" style={{ color: '#9b59b6' }}>{t('vehicleRental.customization.features.domain')}</div>
+              </div>
+              <p style={{ color: 'rgba(255,255,255,0.9)', marginTop: '0.75rem' }}>
+                {t('vehicleRental.customization.professional')}
+              </p>
+              <a 
+                href="https://arina-studio-bvehc2apfnbngehu.canadacentral-01.azurewebsites.net" 
+                target="_blank" 
+                rel="noopener noreferrer" 
+                className="btn btn-primary" 
+                style={{ 
+                  marginTop: '1rem', 
+                  background: '#f4d03f', 
+                  color: '#1a1a2e', 
+                  fontWeight: 'bold',
+                  display: 'inline-block',
+                  border: 'none'
+                }}
+              >
+                🎨 Arina Studio →
+              </a>
+            </div>
           </div>
         </div>
       </section>
 
-      <section className="cta" style={{ paddingTop: '2rem', paddingBottom: '2rem' }}>
+      <section className="cta" style={{ paddingTop: '0.5rem', paddingBottom: '0.5rem' }}>
         <div className="container">
-          <div className="cta-section" style={{ padding: '2rem' }}>
+          <div className="cta-section" style={{ padding: '1rem' }}>
             <h2>{t('vehicleRental.openSite.title')}</h2>
-            <div className="benefits" style={{ margin: '1.5rem 0' }}>
+            <div className="benefits" style={{ margin: '0.75rem 0' }}>
               <div className="benefit">{t('vehicleRental.openSite.signUp')}</div>
               <div className="benefit">{t('vehicleRental.openSite.configure')}</div>
               <div className="benefit">{t('vehicleRental.openSite.addVehicles')}</div>
@@ -172,7 +182,7 @@ export function VehicleRental() {
         </div>
       </section>
 
-      <section className="hero" style={{ paddingTop: '2rem', paddingBottom: '1rem' }}>
+      <section className="hero" style={{ paddingTop: '0.5rem', paddingBottom: '0.25rem' }}>
         <div className="container">
           <p className="subtitle" style={{ textAlign: 'center', fontSize: '1.5rem', marginTop: '0' }}>
             {t('vehicleRental.tagline')}
@@ -184,7 +194,7 @@ export function VehicleRental() {
         </div>
       </section>
 
-      <section className="tech-compact" style={{ paddingTop: '1rem', paddingBottom: '2rem' }}>
+      <section className="tech-compact" style={{ paddingTop: '0.25rem', paddingBottom: '0.5rem' }}>
         <div className="container">
           <p style={{ textAlign: 'center', color: '#666', fontSize: '0.85rem', marginBottom: '0.75rem' }}>
             {t('vehicleRental.techStack.title').replace('🛠️ ', '')}
