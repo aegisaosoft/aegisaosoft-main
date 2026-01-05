@@ -14,13 +14,14 @@
         "fleetManagement": "Fleet management & availability",
         "driverVerification": "Driver verification (BlinkID)",
         "securityDeposit": "Security deposit handling",
-        "automatedBilling": "Automated billing"
+        "automatedBilling": "Automated billing",
+        "socialIntegration": "Full Instagram & Facebook integration"
       },
       "learnMore": "Learn More"
     },
     "brazilianMarketplace": {
       "title": "Multi-Tenant Marketplace Platform for Brazilian Artisan Goods",
-      "description": "A cloud-based e-commerce platform connecting local Brazilian artisans and small vendors with customers seeking authentic handcrafted items, folk art, and everyday essentials. The multi-tenant architecture enables independent sellers to operate branded storefronts under a unified marketplace, each with customizable product catalogs, pricing, and fulfillment options.",
+      "description": "A cloud-based e-commerce platform connecting local Brazilian artisans and small vendors with customers seeking authentic handcrafted items, folk art, and everyday essentials. Fully integrated with Instagram and Facebook for social commerce.",
       "learnMore": "Learn More"
     }
   },
@@ -173,6 +174,14 @@
         "paymentConfirmations": "Payment confirmations with invoices",
         "emailVerification": "Email verification and password reset",
         "localizedEmails": "All emails localized to customer's preferred language"
+      },
+      "socialMedia": {
+        "title": "📱 Social Media Integration",
+        "instagram": "Full Instagram integration — showcase your fleet with auto-posting",
+        "facebook": "Facebook Business integration — bookings directly from your page",
+        "socialLogin": "Social login (Sign in with Facebook/Instagram)",
+        "reviewSync": "Customer reviews sync across platforms",
+        "adIntegration": "Facebook & Instagram Ads integration for promotions"
       }
     },
     "openSite": {
@@ -240,6 +249,10 @@
         "mobileFirst": {
           "title": "Mobile-First Design",
           "description": "Responsive design optimized for Brazil's smartphone-dominant market"
+        },
+        "socialMedia": {
+          "title": "Instagram & Facebook Integration",
+          "description": "Full social commerce integration — sell directly through Instagram Shop and Facebook Marketplace, sync product catalogs, and reach customers on social platforms"
         }
       }
     }

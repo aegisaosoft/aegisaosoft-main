@@ -14,13 +14,14 @@
         "fleetManagement": "Gestão de frota e disponibilidade",
         "driverVerification": "Verificação de motorista (BlinkID)",
         "securityDeposit": "Gestão de depósito de segurança",
-        "automatedBilling": "Cobrança automatizada"
+        "automatedBilling": "Cobrança automatizada",
+        "socialIntegration": "Integração completa com Instagram e Facebook"
       },
       "learnMore": "Saiba Mais"
     },
     "brazilianMarketplace": {
       "title": "Plataforma de Marketplace Multi-Tenant para Produtos Artesanais Brasileiros",
-      "description": "Uma plataforma de comércio eletrônico baseada em nuvem que conecta artesãos brasileiros locais e pequenos vendedores com clientes que buscam itens artesanais autênticos, arte folclórica e produtos essenciais do dia a dia. A arquitetura multi-tenant permite que vendedores independentes operem lojas com marca própria sob um marketplace unificado, cada um com catálogos de produtos personalizáveis, preços e opções de atendimento.",
+      "description": "Uma plataforma de comércio eletrônico baseada em nuvem que conecta artesãos brasileiros locais e pequenos vendedores com clientes. Totalmente integrado com Instagram e Facebook para comércio social.",
       "learnMore": "Saiba Mais"
     }
   },
@@ -173,6 +174,14 @@
         "paymentConfirmations": "Confirmações de pagamento com faturas",
         "emailVerification": "Verificação de e-mail e redefinição de senha",
         "localizedEmails": "Todos os e-mails localizados no idioma preferido do cliente"
+      },
+      "socialMedia": {
+        "title": "📱 Integração com Redes Sociais",
+        "instagram": "Integração completa com Instagram — exiba sua frota com postagem automática",
+        "facebook": "Integração com Facebook Business — reservas diretamente da sua página",
+        "socialLogin": "Login social (Entrar com Facebook/Instagram)",
+        "reviewSync": "Sincronização de avaliações de clientes entre plataformas",
+        "adIntegration": "Integração de anúncios do Facebook e Instagram para promoções"
       }
     },
     "openSite": {
@@ -240,6 +249,10 @@
         "mobileFirst": {
           "title": "Design Mobile-First",
           "description": "Design responsivo otimizado para o mercado brasileiro dominado por smartphones"
+        },
+        "socialMedia": {
+          "title": "Integração com Instagram e Facebook",
+          "description": "Integração completa de comércio social — venda diretamente através do Instagram Shop e Facebook Marketplace, sincronize catálogos de produtos e alcance clientes em plataformas sociais"
         }
       }
     }

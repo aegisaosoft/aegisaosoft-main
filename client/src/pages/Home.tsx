@@ -29,6 +29,7 @@ export function Home() {
                 <li>{t('home.vehicleRental.features.driverVerification')}</li>
                 <li>{t('home.vehicleRental.features.securityDeposit')}</li>
                 <li>{t('home.vehicleRental.features.automatedBilling')}</li>
+                <li><strong>📱 {t('home.vehicleRental.features.socialIntegration')}</strong></li>
               </ul>
               <Link to="/vehicle-rental" className="btn btn-primary">
                 {t('home.vehicleRental.learnMore')}
@@ -39,6 +40,9 @@ export function Home() {
               <h3>{t('home.brazilianMarketplace.title')}</h3>
               <p>
                 {t('home.brazilianMarketplace.description')}
+              </p>
+              <p style={{ marginTop: '1rem', fontWeight: 'bold' }}>
+                📱 Full Instagram Shop & Facebook Marketplace integration
               </p>
               <Link to="/brazilian-marketplace" className="btn btn-primary">
                 {t('home.brazilianMarketplace.learnMore')}

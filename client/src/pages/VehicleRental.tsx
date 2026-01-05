@@ -116,6 +116,17 @@ export function VehicleRental() {
                 <li>{t('vehicleRental.features.communication.localizedEmails')}</li>
               </ul>
             </article>
+
+            <article className="service-card" style={{ background: 'linear-gradient(135deg, #833ab4 0%, #fd1d1d 50%, #fcb045 100%)', color: 'white' }}>
+              <h3>{t('vehicleRental.features.socialMedia.title')}</h3>
+              <ul>
+                <li>{t('vehicleRental.features.socialMedia.instagram')}</li>
+                <li>{t('vehicleRental.features.socialMedia.facebook')}</li>
+                <li>{t('vehicleRental.features.socialMedia.socialLogin')}</li>
+                <li>{t('vehicleRental.features.socialMedia.reviewSync')}</li>
+                <li>{t('vehicleRental.features.socialMedia.adIntegration')}</li>
+              </ul>
+            </article>
           </div>
         </div>
       </section>

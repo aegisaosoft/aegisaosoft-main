@@ -14,13 +14,14 @@
         "fleetManagement": "Gestión de flota y disponibilidad",
         "driverVerification": "Verificación de conductor (BlinkID)",
         "securityDeposit": "Manejo de depósito de seguridad",
-        "automatedBilling": "Facturación automatizada"
+        "automatedBilling": "Facturación automatizada",
+        "socialIntegration": "Integración completa con Instagram y Facebook"
       },
       "learnMore": "Saber Más"
     },
     "brazilianMarketplace": {
       "title": "Plataforma de Mercado Multi-Tenant para Productos Artesanales Brasileños",
-      "description": "Una plataforma de comercio electrónico basada en la nube que conecta a artesanos brasileños locales y pequeños vendedores con clientes que buscan artículos artesanales auténticos, arte popular y productos esenciales cotidianos. La arquitectura multi-tenant permite que vendedores independientes operen tiendas con marca propia bajo un mercado unificado, cada uno con catálogos de productos personalizables, precios y opciones de cumplimiento.",
+      "description": "Una plataforma de comercio electrónico basada en la nube que conecta a artesanos brasileños locales y pequeños vendedores con clientes. Totalmente integrado con Instagram y Facebook para comercio social.",
       "learnMore": "Saber Más"
     }
   },
@@ -173,6 +174,14 @@
         "paymentConfirmations": "Confirmaciones de pago con facturas",
         "emailVerification": "Verificación de correo electrónico y restablecimiento de contraseña",
         "localizedEmails": "Todos los correos electrónicos localizados al idioma preferido del cliente"
+      },
+      "socialMedia": {
+        "title": "📱 Integración de Redes Sociales",
+        "instagram": "Integración completa con Instagram — muestre su flota con publicación automática",
+        "facebook": "Integración con Facebook Business — reservas directamente desde su página",
+        "socialLogin": "Inicio de sesión social (Iniciar sesión con Facebook/Instagram)",
+        "reviewSync": "Sincronización de reseñas de clientes entre plataformas",
+        "adIntegration": "Integración de anuncios de Facebook e Instagram para promociones"
       }
     },
     "openSite": {
@@ -240,6 +249,10 @@
         "mobileFirst": {
           "title": "Diseño Mobile-First",
           "description": "Diseño responsivo optimizado para el mercado brasileño dominado por smartphones"
+        },
+        "socialMedia": {
+          "title": "Integración con Instagram y Facebook",
+          "description": "Integración completa de comercio social — venda directamente a través de Instagram Shop y Facebook Marketplace, sincronice catálogos de productos y llegue a clientes en plataformas sociales"
         }
       }
     }

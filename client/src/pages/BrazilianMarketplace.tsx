@@ -109,6 +109,14 @@ export function BrazilianMarketplace() {
                   {t('brazilianMarketplace.page.features.mobileFirst.description')}
                 </span>
               </li>
+              <li style={{ marginBottom: '1.5rem', paddingLeft: '2rem', position: 'relative', background: 'linear-gradient(135deg, #833ab4 0%, #fd1d1d 50%, #fcb045 100%)', borderRadius: '8px', padding: '1.5rem', marginLeft: '-2rem' }}>
+                <strong style={{ display: 'block', marginBottom: '0.5rem', color: '#fff' }}>
+                  📱 {t('brazilianMarketplace.page.features.socialMedia.title')}
+                </strong>
+                <span style={{ color: '#fff' }}>
+                  {t('brazilianMarketplace.page.features.socialMedia.description')}
+                </span>
+              </li>
             </ul>
           </div>
         </div>

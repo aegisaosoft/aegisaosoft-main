@@ -14,13 +14,14 @@
         "fleetManagement": "Flottenverwaltung und Verfügbarkeit",
         "driverVerification": "Fahrerüberprüfung (BlinkID)",
         "securityDeposit": "Bearbeitung von Sicherheitskautionen",
-        "automatedBilling": "Automatisierte Abrechnung"
+        "automatedBilling": "Automatisierte Abrechnung",
+        "socialIntegration": "Vollständige Instagram- und Facebook-Integration"
       },
       "learnMore": "Mehr Erfahren"
     },
     "brazilianMarketplace": {
       "title": "Multi-Tenant-Marktplatzplattform für brasilianische Kunsthandwerksprodukte",
-      "description": "Eine cloudbasierte E-Commerce-Plattform, die lokale brasilianische Handwerker und kleine Händler mit Kunden verbindet, die authentische handgefertigte Artikel, Volkskunst und Alltagsprodukte suchen. Die Multi-Tenant-Architektur ermöglicht es unabhängigen Verkäufern, Marken-Shops unter einem einheitlichen Marktplatz zu betreiben, jeder mit anpassbaren Produktkatalogen, Preisen und Erfüllungsoptionen.",
+      "description": "Eine cloudbasierte E-Commerce-Plattform, die brasilianische Handwerker mit Kunden verbindet. Vollständig integriert mit Instagram und Facebook für Social Commerce.",
       "learnMore": "Mehr Erfahren"
     }
   },

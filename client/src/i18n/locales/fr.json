@@ -14,13 +14,14 @@
         "fleetManagement": "Gestion de flotte et disponibilité",
         "driverVerification": "Vérification du conducteur (BlinkID)",
         "securityDeposit": "Gestion des dépôts de garantie",
-        "automatedBilling": "Facturation automatisée"
+        "automatedBilling": "Facturation automatisée",
+        "socialIntegration": "Intégration complète avec Instagram et Facebook"
       },
       "learnMore": "En Savoir Plus"
     },
     "brazilianMarketplace": {
       "title": "Plateforme de Marketplace Multi-Tenant pour Produits Artisanaux Brésiliens",
-      "description": "Une plateforme de commerce électronique basée sur le cloud qui connecte les artisans brésiliens locaux et les petits vendeurs avec des clients recherchant des articles artisanaux authentiques, de l'art populaire et des produits essentiels quotidiens. L'architecture multi-tenant permet aux vendeurs indépendants d'exploiter des vitrines de marque sous un marché unifié, chacun avec des catalogues de produits personnalisables, des prix et des options de traitement des commandes.",
+      "description": "Une plateforme de commerce électronique basée sur le cloud qui connecte les artisans brésiliens avec des clients. Entièrement intégrée avec Instagram et Facebook pour le commerce social.",
       "learnMore": "En Savoir Plus"
     }
   },
