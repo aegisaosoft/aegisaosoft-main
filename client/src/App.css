@@ -306,6 +306,17 @@ h2 {
   transition: all 0.3s ease;
 }
 
+.service-card-link {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+}
+
+.service-card.clickable {
+  cursor: pointer;
+}
+
+.service-card-link:hover .service-card,
 .service-card:hover {
   transform: translateY(-5px);
   border-color: #3b82f6;
