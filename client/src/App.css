@@ -531,6 +531,82 @@ h2 {
   letter-spacing: 2px;
 }
 
+/* Moving Background for Brazilian Marketplace */
+.moving-bg-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+  overflow: hidden;
+}
+
+.moving-bg {
+  position: absolute;
+  width: 200%;
+  height: 200%;
+  background-image: url('/brazilian-bg.jpg');
+  background-size: 50% auto;
+  background-repeat: repeat;
+  animation: moveBg 60s linear infinite;
+  opacity: 0.15;
+}
+
+@keyframes moveBg {
+  0% {
+    transform: translate(0, 0);
+  }
+  100% {
+    transform: translate(-50%, -50%);
+  }
+}
+
+.brazilian-page {
+  position: relative;
+}
+
+.brazilian-page .hero,
+.brazilian-page .services {
+  background: rgba(255, 255, 255, 0.92);
+}
+
+/* Moving Background for Vehicle Rental */
+.rental-page {
+  position: relative;
+}
+
+.rental-moving-bg {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+  background-image: url('/rental-bg.jpg');
+  background-size: cover;
+  background-position: center;
+  opacity: 0.12;
+  animation: zoomBg 30s ease-in-out infinite alternate;
+}
+
+@keyframes zoomBg {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1.1);
+  }
+}
+
+.rental-page .hero,
+.rental-page .services,
+.rental-page .cta,
+.rental-page .languages-section,
+.rental-page .tech-compact {
+  background: rgba(255, 255, 255, 0.92);
+}
+
 .tech-stack {
   background: #ffffff;
   border: 1px solid #e5e7eb;

@@ -5,7 +5,10 @@ export function BrazilianMarketplace() {
   const { t } = useTranslation()
 
   return (
-    <main>
+    <main className="brazilian-page">
+      <div className="moving-bg-container">
+        <div className="moving-bg"></div>
+      </div>
       <section className="hero" style={{ paddingTop: '6rem', paddingBottom: '2rem' }}>
         <div className="container">
           <h1>{t('brazilianMarketplace.page.title')}</h1>
