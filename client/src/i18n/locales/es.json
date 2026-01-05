@@ -15,13 +15,14 @@
         "driverVerification": "Verificación de conductor (BlinkID)",
         "securityDeposit": "Manejo de depósito de seguridad",
         "automatedBilling": "Facturación automatizada",
+        "voiceAI": "🎙️ Asistente de voz IA para selección de vehículos",
         "socialIntegration": "Integración completa con Instagram y Facebook"
       },
       "learnMore": "Saber Más"
     },
     "brazilianMarketplace": {
       "title": "Plataforma de Mercado Multi-Tenant para Productos Artesanales Brasileños",
-      "description": "Una plataforma de comercio electrónico basada en la nube que conecta a artesanos brasileños locales y pequeños vendedores con clientes. Totalmente integrado con Instagram y Facebook para comercio social.",
+      "description": "Una plataforma de comercio electrónico basada en la nube que conecta a artesanos brasileños locales y pequeños vendedores con clientes. Totalmente integrado con Instagram y Facebook para comercio social: Tiendas multi-tenant, Gestión de catálogo de productos, Seguimiento de pedidos y entregas, Procesamiento de pagos Stripe.",
       "learnMore": "Saber Más"
     }
   },

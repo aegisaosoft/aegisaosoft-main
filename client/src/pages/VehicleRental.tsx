@@ -7,7 +7,6 @@ export function VehicleRental() {
 
   return (
     <main className="rental-page">
-      <div className="rental-moving-bg"></div>
       <section className="hero" style={{ paddingTop: '6rem', paddingBottom: '0.5rem' }}>
         <div className="container">
           <h1>{t('vehicleRental.title')}</h1>

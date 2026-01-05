@@ -15,13 +15,14 @@
         "driverVerification": "Driver verification (BlinkID)",
         "securityDeposit": "Security deposit handling",
         "automatedBilling": "Automated billing",
+        "voiceAI": "🎙️ AI voice assistant for vehicle selection",
         "socialIntegration": "Full Instagram & Facebook integration"
       },
       "learnMore": "Learn More"
     },
     "brazilianMarketplace": {
       "title": "Multi-Tenant Marketplace Platform for Brazilian Artisan Goods",
-      "description": "A cloud-based e-commerce platform connecting local Brazilian artisans and small vendors with customers seeking authentic handcrafted items, folk art, and everyday essentials. Fully integrated with Instagram and Facebook for social commerce.",
+      "description": "A cloud-based e-commerce platform connecting local Brazilian artisans and small vendors with customers seeking authentic handcrafted items, folk art, and everyday essentials. Fully integrated with Instagram and Facebook for social commerce: Multi-tenant storefronts, Product catalog management, Order & fulfillment tracking, Stripe payment processing.",
       "learnMore": "Learn More"
     }
   },

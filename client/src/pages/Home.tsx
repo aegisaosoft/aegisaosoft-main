@@ -5,8 +5,26 @@ import '../App.css'
 export function Home() {
   const { t } = useTranslation()
 
+  const processSteps = [
+    {
+      number: '1',
+      title: t('about.deliveryFramework.discover.title'),
+      copy: t('about.deliveryFramework.discover.description'),
+    },
+    {
+      number: '2',
+      title: t('about.deliveryFramework.build.title'),
+      copy: t('about.deliveryFramework.build.description'),
+    },
+    {
+      number: '3',
+      title: t('about.deliveryFramework.scale.title'),
+      copy: t('about.deliveryFramework.scale.description'),
+    },
+  ]
+
   return (
-    <main>
+    <main className="home-page">
       <section className="hero" style={{ paddingBottom: '2rem' }}>
         <div className="container">
           <h1>{t('home.title')}</h1>
@@ -30,11 +48,9 @@ export function Home() {
                   <li>{t('home.vehicleRental.features.driverVerification')}</li>
                   <li>{t('home.vehicleRental.features.securityDeposit')}</li>
                   <li>{t('home.vehicleRental.features.automatedBilling')}</li>
+                  <li>{t('home.vehicleRental.features.voiceAI')}</li>
                   <li><strong>📱 {t('home.vehicleRental.features.socialIntegration')}</strong></li>
                 </ul>
-                <span className="btn btn-primary">
-                  {t('home.vehicleRental.learnMore')}
-                </span>
               </article>
             </Link>
 
@@ -44,14 +60,25 @@ export function Home() {
                 <p>
                   {t('home.brazilianMarketplace.description')}
                 </p>
-                <p style={{ marginTop: '1rem', fontWeight: 'bold' }}>
-                  📱 Full Instagram Shop & Facebook Marketplace integration
-                </p>
-                <span className="btn btn-primary">
-                  {t('home.brazilianMarketplace.learnMore')}
-                </span>
+                <ul>
+                  <li><strong>📱 Full Instagram & Facebook integration</strong></li>
+                </ul>
               </article>
             </Link>
+          </div>
+        </div>
+      </section>
+
+      <section className="process" style={{ paddingTop: '1rem' }}>
+        <div className="container">
+          <div className="process-steps">
+            {processSteps.map((step) => (
+              <div className="process-step" key={step.number}>
+                <div className="process-number">{step.number}</div>
+                <h3>{step.title}</h3>
+                <p>{step.copy}</p>
+              </div>
+            ))}
           </div>
         </div>
       </section>

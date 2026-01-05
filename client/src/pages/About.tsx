@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import { useTranslation, Trans } from 'react-i18next'
 import '../App.css'
 
@@ -8,6 +9,7 @@ export function About() {
     {
       title: t('about.whatWeBuild.vehicleRental.title'),
       description: t('about.whatWeBuild.vehicleRental.description'),
+      link: '/vehicle-rental',
       items: [
         t('about.whatWeBuild.vehicleRental.features.fleetManagement'),
         t('about.whatWeBuild.vehicleRental.features.driverVerification'),
@@ -18,6 +20,7 @@ export function About() {
     {
       title: t('about.whatWeBuild.complianceAutomation.title'),
       description: t('about.whatWeBuild.complianceAutomation.description'),
+      link: '/vehicle-rental',
       items: [
         t('about.whatWeBuild.complianceAutomation.features.citationScraping'),
         t('about.whatWeBuild.complianceAutomation.features.automatedPayment'),
@@ -55,7 +58,7 @@ export function About() {
   ]
 
   return (
-    <main>
+    <main className="about-page">
       <section className="services" id="services">
         <div className="container">
           <h2>{t('about.whatWeBuild.title')}</h2>
@@ -64,15 +67,17 @@ export function About() {
           </p>
           <div className="services-grid">
             {services.map((service) => (
-              <article className="service-card" key={service.title}>
-                <h3>{service.title}</h3>
-                <p>{service.description}</p>
-                <ul>
-                  {service.items.map((item) => (
-                    <li key={item}>{item}</li>
-                  ))}
-                </ul>
-              </article>
+              <Link to={service.link} className="service-card-link" key={service.title}>
+                <article className="service-card clickable">
+                  <h3>{service.title}</h3>
+                  <p>{service.description}</p>
+                  <ul>
+                    {service.items.map((item) => (
+                      <li key={item}>{item}</li>
+                    ))}
+                  </ul>
+                </article>
+              </Link>
             ))}
           </div>
         </div>

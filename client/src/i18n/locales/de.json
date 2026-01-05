@@ -15,13 +15,14 @@
         "driverVerification": "Fahrerüberprüfung (BlinkID)",
         "securityDeposit": "Bearbeitung von Sicherheitskautionen",
         "automatedBilling": "Automatisierte Abrechnung",
+        "voiceAI": "🎙️ KI-Sprachassistent für Fahrzeugauswahl",
         "socialIntegration": "Vollständige Instagram- und Facebook-Integration"
       },
       "learnMore": "Mehr Erfahren"
     },
     "brazilianMarketplace": {
       "title": "Multi-Tenant-Marktplatzplattform für brasilianische Kunsthandwerksprodukte",
-      "description": "Eine cloudbasierte E-Commerce-Plattform, die brasilianische Handwerker mit Kunden verbindet. Vollständig integriert mit Instagram und Facebook für Social Commerce.",
+      "description": "Eine cloudbasierte E-Commerce-Plattform, die brasilianische Handwerker mit Kunden verbindet. Vollständig integriert mit Instagram und Facebook für Social Commerce: Multi-Tenant-Storefronts, Produktkatalogverwaltung, Bestell- und Lieferverfolgung, Stripe-Zahlungsabwicklung.",
       "learnMore": "Mehr Erfahren"
     }
   },
