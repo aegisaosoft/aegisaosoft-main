@@ -402,6 +402,27 @@ h2 {
   box-shadow: 0 4px 12px rgba(102, 126, 234, 0.4);
 }
 
+.tech-compact {
+  text-align: center;
+}
+
+.tech-badges {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.tech-badge {
+  background: #f3f4f6;
+  color: #374151;
+  padding: 0.4rem 0.8rem;
+  border-radius: 1rem;
+  font-size: 0.75rem;
+  font-weight: 500;
+  border: 1px solid #e5e7eb;
+}
+
 .tech-stack {
   background: #ffffff;
   border: 1px solid #e5e7eb;

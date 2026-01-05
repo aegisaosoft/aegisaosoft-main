@@ -172,45 +172,7 @@ export function VehicleRental() {
         </div>
       </section>
 
-      <section className="tech" style={{ paddingTop: '2rem', paddingBottom: '2rem' }}>
-        <div className="container">
-          <h2>{t('vehicleRental.techStack.title')}</h2>
-          <div className="tech-stack" style={{ marginTop: '1.5rem' }}>
-            <div className="tech-categories">
-              <div className="tech-category">
-                <h4>Frontend</h4>
-                <p>{t('vehicleRental.techStack.frontend')}</p>
-              </div>
-              <div className="tech-category">
-                <h4>Backend</h4>
-                <p>{t('vehicleRental.techStack.backend')}</p>
-              </div>
-              <div className="tech-category">
-                <h4>Database</h4>
-                <p>{t('vehicleRental.techStack.database')}</p>
-              </div>
-              <div className="tech-category">
-                <h4>Cloud</h4>
-                <p>{t('vehicleRental.techStack.cloud')}</p>
-              </div>
-              <div className="tech-category">
-                <h4>Payments</h4>
-                <p>{t('vehicleRental.techStack.payments')}</p>
-              </div>
-              <div className="tech-category">
-                <h4>Document Scanning</h4>
-                <p>{t('vehicleRental.techStack.documentScanning')}</p>
-              </div>
-              <div className="tech-category">
-                <h4>AI</h4>
-                <p>{t('vehicleRental.techStack.ai')}</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section className="hero" style={{ paddingTop: '2rem', paddingBottom: '2rem' }}>
+      <section className="hero" style={{ paddingTop: '2rem', paddingBottom: '1rem' }}>
         <div className="container">
           <p className="subtitle" style={{ textAlign: 'center', fontSize: '1.5rem', marginTop: '0' }}>
             {t('vehicleRental.tagline')}
@@ -218,6 +180,23 @@ export function VehicleRental() {
           {/* Bottom Try Now button - centered under tagline */}
           <div style={{ display: 'flex', justifyContent: 'center', marginTop: '2rem' }}>
             <Link to="/vehicle-rental/set-password" className="try-now-btn try-now-bottom" style={{ textDecoration: 'none' }}>Try Now</Link>
+          </div>
+        </div>
+      </section>
+
+      <section className="tech-compact" style={{ paddingTop: '1rem', paddingBottom: '2rem' }}>
+        <div className="container">
+          <p style={{ textAlign: 'center', color: '#666', fontSize: '0.85rem', marginBottom: '0.75rem' }}>
+            {t('vehicleRental.techStack.title').replace('🛠️ ', '')}
+          </p>
+          <div className="tech-badges">
+            <span className="tech-badge">React</span>
+            <span className="tech-badge">ASP.NET Core</span>
+            <span className="tech-badge">PostgreSQL</span>
+            <span className="tech-badge">Azure</span>
+            <span className="tech-badge">Stripe Connect</span>
+            <span className="tech-badge">BlinkID</span>
+            <span className="tech-badge">AI/Voice</span>
           </div>
         </div>
       </section>
