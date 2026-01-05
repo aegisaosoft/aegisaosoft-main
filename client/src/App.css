@@ -293,17 +293,66 @@ h2 {
 
 .services-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-  gap: 2rem;
-  margin-top: 3rem;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+
+.services-grid.four-columns {
+  grid-template-columns: repeat(4, 1fr);
+}
+
+@media (max-width: 1200px) {
+  .services-grid.four-columns {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 600px) {
+  .services-grid.four-columns {
+    grid-template-columns: 1fr;
+  }
 }
 
 .service-card {
   background: #ffffff;
   border: 1px solid #e5e7eb;
-  border-radius: 1rem;
-  padding: 2rem;
+  border-radius: 0.75rem;
+  padding: 1.25rem;
   transition: all 0.3s ease;
+}
+
+.service-card h3 {
+  font-size: 1.1rem;
+  margin-bottom: 0.75rem;
+  color: #3b82f6;
+}
+
+.service-card p {
+  color: #000000;
+  margin-bottom: 1rem;
+  font-size: 0.9rem;
+}
+
+.service-card ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.service-card li {
+  padding: 0.35rem 0;
+  color: #000000;
+  position: relative;
+  padding-left: 1.25rem;
+  font-size: 0.85rem;
+}
+
+.service-card li::before {
+  content: '→';
+  position: absolute;
+  left: 0;
+  color: #3b82f6;
 }
 
 .service-card-link {
@@ -323,35 +372,34 @@ h2 {
   box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
 }
 
-.service-card h3 {
-  font-size: 1.5rem;
-  margin-bottom: 1rem;
-  color: #3b82f6;
+.languages-section {
+  text-align: center;
 }
 
-.service-card p {
-  color: #000000;
-  margin-bottom: 1.5rem;
+.languages-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 1rem;
 }
 
-.service-card ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
+.language-badge {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  padding: 0.75rem 1.5rem;
+  border-radius: 2rem;
+  font-size: 1rem;
+  font-weight: 500;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
-.service-card li {
-  padding: 0.5rem 0;
-  color: #000000;
-  position: relative;
-  padding-left: 1.5rem;
-}
-
-.service-card li::before {
-  content: '→';
-  position: absolute;
-  left: 0;
-  color: #3b82f6;
+.language-badge:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(102, 126, 234, 0.4);
 }
 
 .tech-stack {

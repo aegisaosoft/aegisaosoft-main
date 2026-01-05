@@ -23,27 +23,17 @@ export function VehicleRental() {
         </div>
       </section>
 
-      <section className="services" style={{ paddingTop: '2rem', paddingBottom: '2rem' }}>
+      <section className="languages-section" style={{ paddingTop: '2rem', paddingBottom: '1rem' }}>
         <div className="container">
-          <h2>{t('vehicleRental.languages.title')}</h2>
-          <div className="services-grid">
-            <div className="service-card">
-              <p>{t('vehicleRental.languages.english')}</p>
-            </div>
-            <div className="service-card">
-              <p>{t('vehicleRental.languages.spanish')}</p>
-            </div>
-            <div className="service-card">
-              <p>{t('vehicleRental.languages.portuguese')}</p>
-            </div>
-            <div className="service-card">
-              <p>{t('vehicleRental.languages.french')}</p>
-            </div>
-            <div className="service-card">
-              <p>{t('vehicleRental.languages.german')}</p>
-            </div>
+          <h2 style={{ marginBottom: '1rem' }}>{t('vehicleRental.languages.title')}</h2>
+          <div className="languages-row">
+            <span className="language-badge">{t('vehicleRental.languages.english')}</span>
+            <span className="language-badge">{t('vehicleRental.languages.spanish')}</span>
+            <span className="language-badge">{t('vehicleRental.languages.portuguese')}</span>
+            <span className="language-badge">{t('vehicleRental.languages.french')}</span>
+            <span className="language-badge">{t('vehicleRental.languages.german')}</span>
           </div>
-          <p className="section-subtitle" style={{ marginTop: '1rem', marginBottom: '0' }}>
+          <p style={{ marginTop: '1rem', marginBottom: '0', color: '#666', textAlign: 'center' }}>
             {t('vehicleRental.languages.description')}
           </p>
         </div>
@@ -53,7 +43,7 @@ export function VehicleRental() {
         <div className="container">
           <h2>{t('vehicleRental.features.title')}</h2>
           
-          <div className="services-grid">
+          <div className="services-grid four-columns">
             <article className="service-card">
               <h3>{t('vehicleRental.features.intelligentBooking.title')}</h3>
               <ul>
@@ -132,6 +122,41 @@ export function VehicleRental() {
 
       <section className="cta" style={{ paddingTop: '2rem', paddingBottom: '2rem' }}>
         <div className="container">
+          <div className="cta-section" style={{ padding: '2rem', background: 'linear-gradient(135deg, #667eea 0%, #764ba2 100%)', borderRadius: '12px' }}>
+            <h2 style={{ color: 'white' }}>{t('vehicleRental.customization.title')}</h2>
+            <p style={{ color: 'white', marginTop: '1rem', marginBottom: '1.5rem' }}>
+              {t('vehicleRental.customization.description')}
+            </p>
+            <div className="benefits" style={{ margin: '1.5rem 0' }}>
+              <div className="benefit" style={{ color: 'white' }}>{t('vehicleRental.customization.features.colors')}</div>
+              <div className="benefit" style={{ color: 'white' }}>{t('vehicleRental.customization.features.logo')}</div>
+              <div className="benefit" style={{ color: 'white' }}>{t('vehicleRental.customization.features.layout')}</div>
+              <div className="benefit" style={{ color: 'white' }}>{t('vehicleRental.customization.features.domain')}</div>
+            </div>
+            <p style={{ color: 'white', marginTop: '1.5rem' }}>
+              {t('vehicleRental.customization.professional')}
+            </p>
+            <a 
+              href="https://arina-studio-bvehc2apfnbngehu.canadacentral-01.azurewebsites.net" 
+              target="_blank" 
+              rel="noopener noreferrer" 
+              className="btn btn-primary" 
+              style={{ 
+                marginTop: '1rem', 
+                background: 'white', 
+                color: '#764ba2', 
+                fontWeight: 'bold',
+                display: 'inline-block'
+              }}
+            >
+              🎨 Arina Studio →
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <section className="cta" style={{ paddingTop: '2rem', paddingBottom: '2rem' }}>
+        <div className="container">
           <div className="cta-section" style={{ padding: '2rem' }}>
             <h2>{t('vehicleRental.openSite.title')}</h2>
             <div className="benefits" style={{ margin: '1.5rem 0' }}>
@@ -181,41 +206,6 @@ export function VehicleRental() {
                 <p>{t('vehicleRental.techStack.ai')}</p>
               </div>
             </div>
-          </div>
-        </div>
-      </section>
-
-      <section className="cta" style={{ paddingTop: '2rem', paddingBottom: '2rem' }}>
-        <div className="container">
-          <div className="cta-section" style={{ padding: '2rem', background: 'linear-gradient(135deg, #667eea 0%, #764ba2 100%)', borderRadius: '12px' }}>
-            <h2 style={{ color: 'white' }}>{t('vehicleRental.customization.title')}</h2>
-            <p style={{ color: 'white', marginTop: '1rem', marginBottom: '1.5rem' }}>
-              {t('vehicleRental.customization.description')}
-            </p>
-            <div className="benefits" style={{ margin: '1.5rem 0' }}>
-              <div className="benefit" style={{ color: 'white' }}>{t('vehicleRental.customization.features.colors')}</div>
-              <div className="benefit" style={{ color: 'white' }}>{t('vehicleRental.customization.features.logo')}</div>
-              <div className="benefit" style={{ color: 'white' }}>{t('vehicleRental.customization.features.layout')}</div>
-              <div className="benefit" style={{ color: 'white' }}>{t('vehicleRental.customization.features.domain')}</div>
-            </div>
-            <p style={{ color: 'white', marginTop: '1.5rem' }}>
-              {t('vehicleRental.customization.professional')}
-            </p>
-            <a 
-              href="https://arina-studio-bvehc2apfnbngehu.canadacentral-01.azurewebsites.net" 
-              target="_blank" 
-              rel="noopener noreferrer" 
-              className="btn btn-primary" 
-              style={{ 
-                marginTop: '1rem', 
-                background: 'white', 
-                color: '#764ba2', 
-                fontWeight: 'bold',
-                display: 'inline-block'
-              }}
-            >
-              🎨 Arina Studio →
-            </a>
           </div>
         </div>
       </section>
