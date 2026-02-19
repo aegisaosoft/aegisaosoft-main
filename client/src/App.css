@@ -982,3 +982,186 @@ h2 {
     font-size: 1.25rem;
   }
 }
+
+/* ========== ADMIN GUIDE SECTION ========== */
+.guide-section {
+  padding: 3rem 0;
+  background: linear-gradient(180deg, #f8faf8 0%, #fff 100%);
+}
+
+.guide-header {
+  text-align: center;
+  margin-bottom: 2.5rem;
+}
+
+.guide-header h2 {
+  font-size: 2rem;
+  color: #2E7D32;
+  margin-bottom: 0.5rem;
+}
+
+.guide-header p {
+  color: #616161;
+  font-size: 1.1rem;
+}
+
+.guide-content {
+  max-width: 860px;
+  margin: 0 auto;
+}
+
+/* Accordion */
+.guide-accordion {
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  margin-bottom: 0.75rem;
+  overflow: hidden;
+  background: #fff;
+  transition: box-shadow 0.2s;
+}
+
+.guide-accordion.open {
+  box-shadow: 0 2px 12px rgba(46, 125, 50, 0.1);
+  border-color: #2E7D32;
+}
+
+.guide-accordion-header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 1.25rem;
+  background: none;
+  border: none;
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #212121;
+  cursor: pointer;
+  text-align: left;
+  transition: background 0.2s;
+}
+
+.guide-accordion-header:hover {
+  background: #f5f5f5;
+}
+
+.guide-accordion.open .guide-accordion-header {
+  background: #E8F5E9;
+  color: #2E7D32;
+}
+
+.guide-accordion-icon {
+  font-size: 1.4rem;
+  font-weight: 300;
+  color: #2E7D32;
+  flex-shrink: 0;
+  margin-left: 1rem;
+}
+
+.guide-accordion-body {
+  padding: 1rem 1.25rem 1.5rem;
+  border-top: 1px solid #e8e8e8;
+}
+
+.guide-accordion-body p {
+  color: #424242;
+  line-height: 1.6;
+  margin: 0.5rem 0;
+}
+
+.guide-accordion-body h4 {
+  color: #1565C0;
+  font-size: 1rem;
+  margin: 1.5rem 0 0.5rem;
+  padding-bottom: 0.25rem;
+  border-bottom: 1px solid #E3F2FD;
+}
+
+.guide-accordion-body h4:first-child {
+  margin-top: 0.5rem;
+}
+
+/* Steps (numbered) */
+.guide-steps {
+  counter-reset: step;
+  list-style: none;
+  padding: 0;
+  margin: 0.75rem 0;
+}
+
+.guide-steps li {
+  counter-increment: step;
+  position: relative;
+  padding: 0.4rem 0 0.4rem 2.5rem;
+  color: #333;
+  line-height: 1.5;
+}
+
+.guide-steps li::before {
+  content: counter(step);
+  position: absolute;
+  left: 0;
+  top: 0.35rem;
+  width: 1.6rem;
+  height: 1.6rem;
+  background: #2E7D32;
+  color: #fff;
+  border-radius: 50%;
+  font-size: 0.8rem;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Bullet list */
+.guide-list {
+  list-style: none;
+  padding: 0;
+  margin: 0.75rem 0;
+}
+
+.guide-list li {
+  position: relative;
+  padding: 0.35rem 0 0.35rem 1.5rem;
+  color: #333;
+  line-height: 1.5;
+}
+
+.guide-list li::before {
+  content: '\25B8';
+  position: absolute;
+  left: 0;
+  color: #FFC107;
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
+/* Tip box */
+.guide-tip {
+  background: #E8F5E9;
+  border-left: 4px solid #2E7D32;
+  border-radius: 0 6px 6px 0;
+  padding: 0.75rem 1rem;
+  margin: 1rem 0;
+  color: #2E7D32;
+  font-size: 0.92rem;
+  line-height: 1.5;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .guide-header h2 {
+    font-size: 1.5rem;
+  }
+  .guide-accordion-header {
+    font-size: 1rem;
+    padding: 0.85rem 1rem;
+  }
+  .guide-accordion-body {
+    padding: 0.85rem 1rem 1.25rem;
+  }
+  .guide-steps li {
+    padding-left: 2.2rem;
+  }
+}

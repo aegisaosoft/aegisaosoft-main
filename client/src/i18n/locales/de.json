@@ -283,5 +283,279 @@
     "compliance": "Compliance-Automatisierung",
     "booking": "Buchungsplattformen",
     "copyright": "© {{year}} Aegis AO Soft. Alle Rechte vorbehalten."
+  },
+  "adminGuide": {
+    "sectionTitle": "Administrations- und Verkäuferhandbuch",
+    "sectionSubtitle": "Vollständige Anleitung zur Verwaltung Ihres Mercadinho25-Marktplatzes",
+    "recommendationTip": "Für die genauesten automatischen Übersetzungen geben Sie Produktnamen und -beschreibungen auf Portugiesisch oder Englisch ein.",
+    "sections": {
+      "gettingStarted": {
+        "title": "1. Erste Schritte",
+        "intro": "Mercadinho25 ist eine Multi-Tenant-E-Commerce-Marktplattform für brasilianisches Kunsthandwerk. Dieses Handbuch behandelt alle administrativen Funktionen im Dashboard.",
+        "login": {
+          "title": "Anmeldung",
+          "steps": [
+            "Navigieren Sie zu Ihrer Shop-URL (z.B. ihrshop.mercadinho25.com)",
+            "Klicken Sie auf \"Anmelden\" in der oberen Navigationsleiste",
+            "Geben Sie Ihre E-Mail und Ihr Passwort ein",
+            "Nach der Anmeldung klicken Sie auf Ihr Avatar und wählen \"Dashboard\""
+          ],
+          "tip": "Standard-Admin: admin@mercadinho.com.br | Passwort bei der Ersteinrichtung festgelegt"
+        },
+        "roles": {
+          "title": "Benutzerrollen",
+          "intro": "RBAC mit vier Ebenen:",
+          "customer": "Customer — Durchsuchen, kaufen, Bewertungen schreiben",
+          "seller": "Seller — Produkte erstellen/verwalten, Verkäufe einsehen, Bestellungen verwalten",
+          "tenantAdmin": "TenantAdmin — Verkäufer, Benutzer, Einstellungen, Kategorien, Zahlungen verwalten",
+          "superAdmin": "SuperAdmin — Multi-Tenant-Verwaltung, Shops erstellen, Vollzugriff"
+        },
+        "dashboard": {
+          "title": "Dashboard-Übersicht",
+          "intro": "Das Dashboard zeigt wichtige Kennzahlen:",
+          "items": [
+            "Gesamtprodukte: Anzahl aktiver Produkte",
+            "Gesamtbestellungen: Alle Bestellungen mit ausstehenden",
+            "Umsatz: Gesamtverkaufserlös mit Währungsformat",
+            "Aktive Verkäufer: Genehmigte Verkäufer"
+          ]
+        }
+      },
+      "products": {
+        "title": "2. Produktverwaltung",
+        "categories": {
+          "title": "Kategorieverwaltung",
+          "intro": "Navigieren Sie zu Dashboard > Produkte > Kategorien.",
+          "steps": [
+            "Klicken Sie auf \"Kategorie hinzufügen\"",
+            "Geben Sie den Namen in Ihrer aktuellen Sprache ein",
+            "Aktivieren Sie \"Automatisch übersetzen\" für alle 8 Sprachen",
+            "Slug wird automatisch generiert",
+            "Optional: Übergeordnete Kategorie für Unterkategorien",
+            "\"Aktiv\" umschalten für Sichtbarkeit",
+            "Klicken Sie auf \"Speichern\""
+          ],
+          "translations": {
+            "title": "Kategorie-Übersetzungen",
+            "intro": "Jeder Name wird in allen 8 Sprachen gespeichert:",
+            "items": [
+              "Automatische Übersetzung über Google Translate oder Claude AI",
+              "API liefert lokalisierte Namen basierend auf Benutzersprache",
+              "Manuelle Bearbeitung jeder Übersetzung möglich",
+              "Fallback: Portugiesisch, dann erste verfügbare Übersetzung"
+            ]
+          },
+          "attributes": {
+            "title": "Attributtypen hinzufügen",
+            "intro": "Definieren Variantenoptionen (z.B. Farbe, Größe, Material):",
+            "steps": [
+              "Kategorie-Bearbeitungsmodal öffnen",
+              "Zu \"Attributtypen\" scrollen",
+              "\"Attributtyp hinzufügen\" — vorhandenen wählen oder neu erstellen",
+              "Beim Erstellen: Namen in 8 Sprachen (mit Länderflaggen), Slug automatisch",
+              "Anzeigereihenfolge (Hierarchie) und Pflichtfeld konfigurieren",
+              "Zahnrad-Symbol für Werteverwaltung (z.B. Rot, Blau für Farbe)",
+              "Jeder Wert unterstützt mehrsprachige Namen und HEX-Farbcodes",
+              "Entfernen eines Typs löscht alle zugehörigen Variantendaten",
+              "\"Speichern\" klicken"
+            ],
+            "tip": "Die Reihenfolge ist wichtig: Erster Typ = Hauptauswahl, zweiter = nächste Ebene. Untere Ebenen filtern basierend auf oberen Auswahlen."
+          }
+        },
+        "creating": {
+          "title": "Produkt erstellen",
+          "steps": [
+            "\"Produkt hinzufügen\" klicken",
+            "Name, Beschreibung, Geschichte ausfüllen (mehrsprachig)",
+            "Grundpreis, Angebotspreis (optional), Währung festlegen",
+            "Bilder hochladen (Drag-and-Drop oder Dateiauswahl)",
+            "Kategorie und Unterkategorie wählen",
+            "Varianten mit individuellen Preisen/Beständen konfigurieren",
+            "Lagerbestand und SKU festlegen",
+            "Status: Entwurf, Aktiv oder Archiviert",
+            "\"Speichern\" klicken"
+          ]
+        },
+        "phoneUpload": {
+          "title": "Bilder vom Handy hochladen (QR-Code)",
+          "intro": "Produktfotos direkt von der Handykamera hochladen:",
+          "steps": [
+            "\"Vom Handy hochladen\" klicken (Smartphone-Symbol)",
+            "Desktop: QR-Code mit dem Handy scannen",
+            "Mobil: Automatische Weiterleitung zur Kameraseite",
+            "Fotos machen — erscheinen in Echtzeit im Formular",
+            "Grüner Indikator: \"Warte auf Fotos...\"",
+            "\"Fertig — Bilder hinzufügen\" klicken"
+          ],
+          "tip": "QR-Sitzung zeitlich begrenzt. Beide Geräte im selben Netzwerk. Bei Ablauf neu generieren."
+        },
+        "autoTranslate": {
+          "title": "Automatische Übersetzung",
+          "intro": "Die Plattform übersetzt Namen und Beschreibungen automatisch:",
+          "steps": [
+            "Name und Beschreibung auf Portugiesisch oder Englisch eingeben (empfohlen)",
+            "\"Automatisch übersetzen\" aktivieren (Glitzer-Symbol ✨)",
+            "Beim Speichern: Übersetzung in 7 weitere Sprachen",
+            "Nutzt Google Translate API oder Claude AI (vom Admin konfiguriert)",
+            "Nach dem Speichern prüfen und manuell anpassen"
+          ],
+          "tip": "Spracheingabe verfügbar: Mikrofon-Symbol neben jedem Textfeld für Diktat."
+        },
+        "variants": {
+          "title": "Varianten zu einem Produkt hinzufügen",
+          "intro": "Bei Kategorien mit Attributtypen erscheint der Variantenbereich automatisch:",
+          "steps": [
+            "Kategorie wählen — Attributtypen laden automatisch (z.B. Farbe, Größe)",
+            "Jeden Typ per Checkbox aktivieren (strenge hierarchische Reihenfolge)",
+            "Spezifische Werte markieren (z.B. Rot, Blau; S, M, L)",
+            "Wert anklicken zum Hervorheben (grüner Rand). Alle hervorgehoben = Variante bearbeiten",
+            "Panel wechselt: \"Grundpreise\" ↔ \"Variantenpreise: Farbe: Rot, Größe: L\"",
+            "Preis, Vergleichspreis, Bestand je Kombination festlegen",
+            "Ohne benutzerdefinierten Preis: Grundpreis wird übernommen",
+            "Wert abwählen entfernt zugehörige Daten automatisch"
+          ],
+          "tip": "Farbattribute zeigen Farbmuster. Variantennamen werden in allen Sprachen generiert (z.B. \"Rot / Groß\"). Blaues Info-Panel zeigt Grund- oder Variantenpreise."
+        },
+        "bulkOps": {
+          "title": "Massenoperationen & Suche",
+          "items": [
+            "Nach Name oder SKU suchen",
+            "Nach Status und Kategorie filtern",
+            "Massenfreigabe an Facebook, Instagram oder Etsy",
+            "Massenstatus­änderung"
+          ]
+        },
+        "shipments": {
+          "title": "Versand",
+          "items": [
+            "Alle Sendungen mit Statusverfolgung",
+            "Versandetiketten erstellen (Correios-Integration)",
+            "Pakete in Echtzeit verfolgen",
+            "Etiketten direkt drucken",
+            "Status: Ausstehend, Etikett erstellt, Aufgegeben, Unterwegs, Zustellung, Zugestellt, Zurückgeschickt, Verloren, Storniert"
+          ]
+        },
+        "reports": {
+          "title": "Berichte & Analysen",
+          "items": [
+            "Verkaufsanalysen: Diagramme, Trends, Bestseller",
+            "Bestellverlauf mit Filtern und Paginierung",
+            "Datenexport für externe Analyse",
+            "Kennzahlen nach Zeitraum"
+          ]
+        }
+      },
+      "store": {
+        "title": "3. Shop-Verwaltung",
+        "tenants": {
+          "title": "Tenant-Verwaltung (SuperAdmin)",
+          "intro": "Dashboard > Shop > Tenancy.",
+          "steps": [
+            "\"Tenant hinzufügen\" klicken",
+            "Konfigurieren: Name, Subdomain, benutzerdefinierte Domain (optional)",
+            "Provisionssatz festlegen (Standard 10%)",
+            "Tenant-Admin zuweisen",
+            "Nach Bedarf aktivieren/deaktivieren"
+          ],
+          "tip": "Subdomains und Domains werden beim Erstellen automatisch konfiguriert. Alle DNS-Einträge werden ohne manuellen Eingriff bereitgestellt."
+        },
+        "sellers": {
+          "title": "Verkäuferverwaltung",
+          "items": [
+            "Alle Verkäufer mit Statistiken anzeigen",
+            "Anträge genehmigen oder ablehnen",
+            "Profile bearbeiten",
+            "\"Empfohlen\"-Status umschalten",
+            "Stripe Connect Onboarding-Status",
+            "Filtern: Ausstehend, Genehmigt, Gesperrt"
+          ]
+        },
+        "users": {
+          "title": "Benutzerverwaltung",
+          "items": [
+            "Alle Benutzer mit Rollen anzeigen",
+            "Rollen ändern (Customer, Seller, TenantAdmin)",
+            "Nur SuperAdmin kann SuperAdmin zuweisen",
+            "Nach Name, E-Mail oder Rolle suchen"
+          ]
+        }
+      },
+      "payments": {
+        "title": "4. Zahlungseinstellungen",
+        "stripe": {
+          "title": "Stripe-Konfiguration",
+          "sandbox": "Sandbox: Test-API-Schlüssel (pk_test_..., sk_test_...) → Speichern → Testen → Aktivieren",
+          "production": "Produktion: Gleiche Schritte mit Live-Schlüsseln. Gründlich testen. Webhook konfigurieren.",
+          "connect": "Stripe Connect: Jeder Verkäufer durchläuft Onboarding. Automatische Zahlungsaufteilung nach Provision."
+        },
+        "mercadopago": {
+          "title": "MercadoPago",
+          "items": [
+            "MercadoPago aktivieren/deaktivieren",
+            "Marktplatz-Provision konfigurieren",
+            "Standardwährung (BRL)",
+            "Checkout Pro aktivieren",
+            "Unterstützt: Karten, PIX, Boleto"
+          ]
+        },
+        "shipping": {
+          "title": "Versand (Correios)",
+          "items": [
+            "Correios-Integration konfigurieren",
+            "Versandtarife und Lieferoptionen",
+            "Methoden pro Region aktivieren/deaktivieren",
+            "Schwellenwerte für Gratisversand"
+          ]
+        }
+      },
+      "integrations": {
+        "title": "5. Integrationen",
+        "google": {
+          "title": "Google Shopping",
+          "steps": [
+            "Feed-URL kopieren",
+            "Google Merchant Center Konto erstellen",
+            "Feed unter Merchant Center > Produkte > Feeds hinzufügen",
+            "Land, Sprache, Währung konfigurieren",
+            "Zur Überprüfung einreichen"
+          ]
+        },
+        "etsy": {
+          "title": "Etsy-Integration",
+          "items": [
+            "Über OAuth verbinden",
+            "Produkte automatisch synchronisieren",
+            "Etsy-Bestellungen im Dashboard verwalten",
+            "Analysen und Verkaufsdaten",
+            "Massenveröffentlichung"
+          ]
+        },
+        "social": {
+          "title": "Soziale Medien",
+          "items": [
+            "Facebook & Instagram: Business-Seite verbinden, Produkte teilen, Meta-Feed",
+            "WhatsApp Business: Nummer pro Verkäufer, Kontaktbutton auf Produktseiten",
+            "Feed-Sprachen und Übersetzungsprioritäten konfigurieren"
+          ]
+        }
+      },
+      "branding": {
+        "title": "6. Branding & Anpassung",
+        "items": [
+          "Logo: Shop-Logo hochladen (Header und E-Mails)",
+          "Favicon: Benutzerdefiniertes Browser-Tab-Symbol",
+          "Farben: Primär (#2E7D32), Sekundär (#FFC107), Akzent",
+          "Typografie: Benutzerdefinierte Schriftart",
+          "Banner-Bild für Startseite",
+          "Slogan und Über-uns-Text",
+          "Benutzerdefiniertes CSS"
+        ]
+      },
+      "languages": {
+        "title": "7. Spracheinstellungen",
+        "intro": "Die Plattform unterstützt 8 Sprachen: Portugiesisch (Haupt), Englisch, Spanisch, Französisch, Deutsch, Italienisch, Japanisch und Russisch.",
+        "tip": "Füllen Sie mindestens Portugiesisch und Englisch aus. Fallback: Portugiesisch."
+      }
+    }
   }
 }

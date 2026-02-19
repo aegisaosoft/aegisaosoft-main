@@ -287,5 +287,279 @@
     "compliance": "Automação de Conformidade",
     "booking": "Plataformas de Reserva",
     "copyright": "© {{year}} Aegis AO Soft. Todos os direitos reservados."
+  },
+  "adminGuide": {
+    "sectionTitle": "Guia de Administracao e Vendedor",
+    "sectionSubtitle": "Guia completo para gerenciar seu marketplace Mercadinho25",
+    "recommendationTip": "Para traducoes automaticas mais precisas, insira nomes e descricoes de produtos em Portugues ou Ingles.",
+    "sections": {
+      "gettingStarted": {
+        "title": "1. Primeiros Passos",
+        "intro": "O Mercadinho25 e uma plataforma multi-tenant de e-commerce marketplace projetada para artesanato brasileiro. Este guia cobre todas as funcoes administrativas do Painel de Controle.",
+        "login": {
+          "title": "Fazendo Login",
+          "steps": [
+            "Acesse a URL da sua loja (ex: sualoja.mercadinho25.com)",
+            "Clique em \"Entrar\" na barra de navegacao superior",
+            "Digite seu email e senha",
+            "Apos o login, clique no seu avatar e selecione \"Painel de Controle\""
+          ],
+          "tip": "Credenciais padrao: admin@mercadinho.com.br | Senha definida na configuracao inicial"
+        },
+        "roles": {
+          "title": "Funcoes dos Usuarios",
+          "intro": "A plataforma utiliza RBAC com quatro niveis:",
+          "customer": "Customer — Navegar, comprar, escrever avaliacoes",
+          "seller": "Seller — Criar/gerenciar produtos, ver vendas, gerenciar pedidos",
+          "tenantAdmin": "TenantAdmin — Gerenciar vendedores, usuarios, config, categorias, pagamentos",
+          "superAdmin": "SuperAdmin — Gerenciamento multi-tenant, criar lojas, acesso total"
+        },
+        "dashboard": {
+          "title": "Visao Geral do Painel",
+          "intro": "O painel principal exibe metricas importantes:",
+          "items": [
+            "Total de Produtos: Numero de produtos ativos na sua loja",
+            "Total de Pedidos: Todos os pedidos com contagem de pendentes",
+            "Receita: Receita total de vendas com formatacao de moeda",
+            "Vendedores Ativos: Numero de vendedores aprovados"
+          ]
+        }
+      },
+      "products": {
+        "title": "2. Gerenciamento de Produtos",
+        "categories": {
+          "title": "Gerenciamento de Categorias",
+          "intro": "As categorias organizam seu catalogo. Navegue para Painel > Produtos > Categorias.",
+          "steps": [
+            "Clique em \"Adicionar Categoria\"",
+            "Insira o nome da categoria no seu idioma atual",
+            "Marque \"Traduzir automaticamente\" para traduzir para todos os 8 idiomas",
+            "Defina o slug da categoria (gerado automaticamente)",
+            "Opcionalmente defina uma categoria pai para subcategorias",
+            "Ative/desative a opcao \"Ativo\"",
+            "Clique em \"Salvar\""
+          ],
+          "translations": {
+            "title": "Traducoes de Categorias",
+            "intro": "Cada nome e armazenado em todos os 8 idiomas:",
+            "items": [
+              "Traducao automatica via Google Translate ou Claude AI",
+              "A API retorna nomes localizados conforme o idioma do usuario",
+              "Voce pode editar manualmente qualquer traducao",
+              "Fallback: Portugues, depois primeira traducao disponivel"
+            ]
+          },
+          "attributes": {
+            "title": "Adicionando Tipos de Atributos",
+            "intro": "Tipos de atributos definem variantes para produtos (ex: Cor, Tamanho, Material):",
+            "steps": [
+              "Abra o modal de edicao da categoria",
+              "Role ate \"Tipos de Atributos\"",
+              "Clique \"Adicionar Tipo\" — selecione existente ou crie novo",
+              "Ao criar: insira nomes em 8 idiomas (com bandeiras), slug gerado automaticamente",
+              "Configure Ordem de Exibicao (hierarquia) e Obrigatorio",
+              "Clique no icone de engrenagem para gerenciar valores (ex: Vermelho, Azul para Cor)",
+              "Cada valor suporta nomes multilingues e codigos HEX de cor",
+              "Remover um tipo exclui todos os dados de variantes relacionados",
+              "Clique em \"Salvar\""
+            ],
+            "tip": "A ordem importa: o primeiro tipo e o seletor principal, o segundo e o proximo nivel. Valores inferiores filtram com base nos superiores."
+          }
+        },
+        "creating": {
+          "title": "Criando um Produto",
+          "steps": [
+            "Clique em \"Adicionar Produto\"",
+            "Preencha Nome, Descricao, Historia (campos multilingues)",
+            "Defina preco base, promocional (opcional), moeda",
+            "Faca upload de imagens (arrastar ou seletor de arquivos)",
+            "Selecione categoria e subcategoria",
+            "Configure variantes com precos/estoque individuais",
+            "Defina quantidade em estoque e SKU",
+            "Defina status: Rascunho, Ativo ou Arquivado",
+            "Clique em \"Salvar\""
+          ]
+        },
+        "phoneUpload": {
+          "title": "Upload de Imagens pelo Celular (QR Code)",
+          "intro": "Envie fotos diretamente da camera do celular:",
+          "steps": [
+            "Clique em \"Upload pelo Celular\" (icone de smartphone)",
+            "No desktop: escaneie o QR code com a camera do celular",
+            "No celular: redireciona automaticamente para a camera",
+            "Tire fotos — elas aparecem em tempo real no formulario",
+            "Indicador verde mostra \"Aguardando fotos...\"",
+            "Clique em \"Concluido — Adicionar Imagens\""
+          ],
+          "tip": "Sessao do QR tem tempo limitado. Ambos dispositivos devem estar na mesma rede. Regenere o QR se expirar."
+        },
+        "autoTranslate": {
+          "title": "Traducao Automatica",
+          "intro": "A plataforma traduz nomes e descricoes para todos os idiomas:",
+          "steps": [
+            "Preencha Nome e Descricao em Portugues ou Ingles (recomendado)",
+            "Marque \"Traduzir automaticamente\" (icone ✨)",
+            "Ao salvar, traduz para os 7 outros idiomas automaticamente",
+            "Usa Google Translate API ou Claude AI (configurado pelo admin)",
+            "Revise e edite manualmente apos salvar"
+          ],
+          "tip": "Entrada por voz disponivel: clique no microfone ao lado de qualquer campo para ditar no idioma selecionado."
+        },
+        "variants": {
+          "title": "Adicionando Variantes a um Produto",
+          "intro": "Quando a categoria tem tipos de atributos, a secao de variantes aparece automaticamente:",
+          "steps": [
+            "Selecione uma categoria — tipos carregam automaticamente (ex: Cor, Tamanho)",
+            "Habilite cada tipo marcando a caixa (ordem hierarquica estrita)",
+            "Marque valores especificos (ex: Vermelho, Azul para Cor; P, M, G para Tamanho)",
+            "Clique em um valor para destaca-lo (borda verde). Todos destacados = editando variante",
+            "Painel alterna: \"Precos Base\" ↔ \"Precos da Variante: Cor: Vermelho, Tamanho: G\"",
+            "Defina Preco, Preco Comparativo, Estoque para cada combinacao",
+            "Variantes sem preco personalizado herdam o preco base",
+            "Desmarcar um valor remove dados relacionados automaticamente"
+          ],
+          "tip": "Cores mostram amostras. Nomes das variantes sao gerados em todos os idiomas (ex: \"Vermelho / Grande\"). Painel azul indica se esta editando precos base ou de variante."
+        },
+        "bulkOps": {
+          "title": "Operacoes em Massa e Busca",
+          "items": [
+            "Pesquisar por nome ou SKU",
+            "Filtrar por status (Rascunho, Ativo, Arquivado) e categoria",
+            "Compartilhar em massa no Facebook, Instagram ou Etsy",
+            "Alterar status em massa"
+          ]
+        },
+        "shipments": {
+          "title": "Envios",
+          "items": [
+            "Visualizar todos os envios com rastreamento",
+            "Criar etiquetas (integracao Correios)",
+            "Rastrear pacotes em tempo real",
+            "Imprimir etiquetas do painel",
+            "Status: Pendente, Etiqueta Gerada, Postado, Em Transito, Saiu para Entrega, Entregue, Devolvido, Perdido, Cancelado"
+          ]
+        },
+        "reports": {
+          "title": "Relatorios e Analiticos",
+          "items": [
+            "Analiticos de Vendas: Graficos, tendencias, mais vendidos",
+            "Aba de Pedidos: Historico completo com filtros",
+            "Exportar dados para analise externa",
+            "Metricas por periodo"
+          ]
+        }
+      },
+      "store": {
+        "title": "3. Gerenciamento da Loja",
+        "tenants": {
+          "title": "Gerenciamento de Tenants (SuperAdmin)",
+          "intro": "Navegue para Painel > Loja > Tenancy.",
+          "steps": [
+            "Clique em \"Adicionar Tenant\"",
+            "Configure: Nome, subdominio, dominio personalizado (opcional)",
+            "Defina taxa de comissao (padrao 10%)",
+            "Atribua um Admin do Tenant",
+            "Ative/desative conforme necessario"
+          ],
+          "tip": "Subdominios e dominios sao configurados automaticamente ao criar o tenant. Todos os registros DNS sao provisionados sem intervencao manual."
+        },
+        "sellers": {
+          "title": "Gerenciamento de Vendedores",
+          "items": [
+            "Visualizar vendedores com estatisticas",
+            "Aprovar ou rejeitar solicitacoes pendentes",
+            "Editar perfis (nome da loja, descricao, localizacao)",
+            "Status \"Destaque\" para exibicao destacada",
+            "Status de onboarding do Stripe Connect",
+            "Filtrar: Pendente, Aprovado, Suspenso"
+          ]
+        },
+        "users": {
+          "title": "Gerenciamento de Usuarios",
+          "items": [
+            "Visualizar usuarios com funcoes atuais",
+            "Alterar funcoes (Customer, Seller, TenantAdmin)",
+            "Somente SuperAdmin pode atribuir SuperAdmin",
+            "Pesquisar por nome, email ou funcao"
+          ]
+        }
+      },
+      "payments": {
+        "title": "4. Configuracoes de Pagamento",
+        "stripe": {
+          "title": "Configuracao do Stripe",
+          "sandbox": "Sandbox: Insira chaves de teste (pk_test_..., sk_test_...) → Salvar → Testar → Ativar",
+          "production": "Producao: Mesmos passos com chaves reais. Teste bem antes de ativar. Configure webhook.",
+          "connect": "Stripe Connect: Cada vendedor completa o onboarding para receber pagamentos. Divisao automatica baseada na comissao."
+        },
+        "mercadopago": {
+          "title": "MercadoPago",
+          "items": [
+            "Habilitar/desabilitar pagamentos MercadoPago",
+            "Configurar percentual de comissao",
+            "Moeda padrao (BRL)",
+            "Habilitar Checkout Pro",
+            "Suporta: Cartoes, PIX, Boleto"
+          ]
+        },
+        "shipping": {
+          "title": "Envio (Correios)",
+          "items": [
+            "Configurar integracao Correios",
+            "Definir tarifas e opcoes de entrega",
+            "Habilitar/desabilitar metodos por regiao",
+            "Configurar limites de frete gratis"
+          ]
+        }
+      },
+      "integrations": {
+        "title": "5. Integracoes",
+        "google": {
+          "title": "Google Shopping",
+          "steps": [
+            "Copie a URL do feed gerado",
+            "Crie uma conta no Google Merchant Center",
+            "Adicione o feed em Merchant Center > Produtos > Feeds",
+            "Configure pais, idioma, moeda",
+            "Envie para revisao"
+          ]
+        },
+        "etsy": {
+          "title": "Integracao Etsy",
+          "items": [
+            "Conecte via OAuth",
+            "Sincronize produtos automaticamente",
+            "Gerencie pedidos do Etsy no painel",
+            "Analiticos e dados de vendas",
+            "Publicacao em massa"
+          ]
+        },
+        "social": {
+          "title": "Redes Sociais",
+          "items": [
+            "Facebook e Instagram: Conectar pagina Business, compartilhar produtos, feed Meta",
+            "WhatsApp Business: Numero por vendedor, botao de contato nas paginas de produtos",
+            "Configurar idiomas dos feeds e prioridades de traducao"
+          ]
+        }
+      },
+      "branding": {
+        "title": "6. Personalizacao e Marca",
+        "items": [
+          "Logo: Upload do logo (cabecalho e emails)",
+          "Favicon: Icone personalizado do navegador",
+          "Cores: Primaria (#2E7D32), Secundaria (#FFC107), Destaque",
+          "Tipografia: Familia de fonte personalizada",
+          "Imagem do Banner para pagina inicial",
+          "Slogan e Texto Sobre",
+          "CSS personalizado para ajustes avancados"
+        ]
+      },
+      "languages": {
+        "title": "7. Configuracoes de Idioma",
+        "intro": "A plataforma suporta 8 idiomas: Portugues (principal), Ingles, Espanhol, Frances, Alemao, Italiano, Japones e Russo.",
+        "tip": "Sempre preencha pelo menos Portugues e Ingles para maximizar o alcance. O sistema usa Portugues como fallback."
+      }
+    }
   }
 }

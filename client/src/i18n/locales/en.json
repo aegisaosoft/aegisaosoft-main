@@ -287,5 +287,279 @@
     "compliance": "Compliance Automation",
     "booking": "Booking Platforms",
     "copyright": "© {{year}} Aegis AO Soft. All rights reserved."
+  },
+  "adminGuide": {
+    "sectionTitle": "Administration & Seller Guide",
+    "sectionSubtitle": "Complete guide for managing your Mercadinho25 marketplace",
+    "recommendationTip": "For the most accurate automatic translations, enter product names and descriptions in Portuguese or English.",
+    "sections": {
+      "gettingStarted": {
+        "title": "1. Getting Started",
+        "intro": "Mercadinho25 is a multi-tenant e-commerce marketplace platform designed for Brazilian artisan goods. This guide covers all administrative functions available in the Dashboard.",
+        "login": {
+          "title": "Logging In",
+          "steps": [
+            "Navigate to your store URL (e.g., yourstore.mercadinho25.com)",
+            "Click \"Login\" in the top navigation bar",
+            "Enter your email and password",
+            "After login, click your profile avatar and select \"Dashboard\""
+          ],
+          "tip": "Default Admin Credentials: admin@mercadinho.com.br | Password set during initial setup"
+        },
+        "roles": {
+          "title": "User Roles",
+          "intro": "The platform uses role-based access control (RBAC) with four levels:",
+          "customer": "Customer — Browse, purchase, write reviews",
+          "seller": "Seller — Create/manage products, view sales, manage own orders",
+          "tenantAdmin": "TenantAdmin — Manage sellers, users, settings, categories, payments",
+          "superAdmin": "SuperAdmin — Multi-tenant management, create tenants, system-wide access"
+        },
+        "dashboard": {
+          "title": "Dashboard Overview",
+          "intro": "The main dashboard displays key metrics at a glance:",
+          "items": [
+            "Total Products: Number of active products in your store",
+            "Total Orders: All orders with pending order count",
+            "Revenue: Total sales revenue with currency formatting",
+            "Active Sellers: Number of approved sellers in your marketplace"
+          ]
+        }
+      },
+      "products": {
+        "title": "2. Product Management",
+        "categories": {
+          "title": "Managing Categories",
+          "intro": "Categories organize your product catalog. Navigate to Dashboard > Products > Categories.",
+          "steps": [
+            "Click \"Add Category\" to create a new category",
+            "Enter the category name in your current language",
+            "Check \"Auto-translate\" to automatically translate the name to all 8 languages",
+            "Set the category slug (URL-friendly name, auto-generated)",
+            "Optionally set a parent category for subcategories (hierarchical structure)",
+            "Toggle \"Active\" to control visibility",
+            "Click \"Save\" to create the category"
+          ],
+          "translations": {
+            "title": "Category Translations",
+            "intro": "Each category name is stored in all 8 platform languages:",
+            "items": [
+              "Auto-translate generates translations via Google Translate or Claude AI",
+              "The API returns localized names based on the user's interface language",
+              "You can manually override any auto-translated name",
+              "Missing translations fall back to Portuguese, then to the first available"
+            ]
+          },
+          "attributes": {
+            "title": "Adding Attribute Types to a Category",
+            "intro": "Attribute types define variant options for products (e.g., Color, Size, Material):",
+            "steps": [
+              "Open the category edit modal",
+              "Scroll to \"Attribute Types\" section",
+              "Click \"Add Attribute Type\" — select from existing or create new",
+              "When creating new: enter names in all 8 languages (with country flags), slug auto-generates",
+              "Configure Display Order (hierarchy) and Required toggle",
+              "Click the gear icon to manage values (e.g., Red, Blue, Green for Color)",
+              "Each value supports multilingual names and optional HEX color codes",
+              "Removing an attribute type deletes all related variant data — use with caution",
+              "Click \"Save\" to apply"
+            ],
+            "tip": "The display order matters: the first attribute type becomes the top-level selector, the second becomes the next level. Values cascade — lower levels filter based on higher-level selections."
+          }
+        },
+        "creating": {
+          "title": "Creating a Product",
+          "steps": [
+            "Click \"Add Product\"",
+            "Fill in Name, Description, Story (multilingual fields)",
+            "Set pricing: Base price, sale price (optional), currency",
+            "Upload images (drag-and-drop or file picker)",
+            "Select category and subcategory",
+            "Configure variants with individual pricing/stock",
+            "Set stock quantity and SKU",
+            "Set status: Draft, Active, or Archived",
+            "Click \"Save\" to publish"
+          ]
+        },
+        "phoneUpload": {
+          "title": "Uploading Images from Phone (QR Code)",
+          "intro": "Upload product photos directly from your phone camera:",
+          "steps": [
+            "Click \"Upload from Phone\" button (smartphone icon)",
+            "On desktop: scan the QR code with your phone camera",
+            "On mobile: the app redirects to the camera capture page automatically",
+            "Take photos — they upload in real-time to the product form",
+            "A green indicator shows \"Waiting for photos...\" while active",
+            "Click \"Done — Add Images\" when finished"
+          ],
+          "tip": "The QR session is time-limited. Both devices must be on the same network. You can regenerate the QR code if it expires."
+        },
+        "autoTranslate": {
+          "title": "Automatic Translation",
+          "intro": "The platform translates product names and descriptions to all supported languages:",
+          "steps": [
+            "Fill in Name and Description in Portuguese or English (recommended for best accuracy)",
+            "Check the \"Auto-translate\" checkbox (sparkle icon ✨)",
+            "On save, the system translates to all 7 other languages automatically",
+            "Uses Google Translate API or Claude AI (configured by admin)",
+            "Review and manually edit any translation after saving"
+          ],
+          "tip": "Speech-to-text is also available: click the microphone icon next to any text field to dictate in the selected language."
+        },
+        "variants": {
+          "title": "Adding Variants to a Product",
+          "intro": "When the selected category has attribute types, the variant section appears automatically:",
+          "steps": [
+            "Select a category — attribute types load automatically (e.g., Color, Size)",
+            "Enable each attribute type by checking its checkbox (strict hierarchical order)",
+            "Check specific values (e.g., Red, Blue under Color; S, M, L under Size)",
+            "Click a value to highlight it (green border). All highlighted = editing specific variant",
+            "Price panel switches: \"Base Prices\" ↔ \"Variant Prices: Color: Red, Size: Large\"",
+            "Set Price, Compare-at Price, Stock for each combination",
+            "Variants without custom prices inherit the base product price",
+            "Unchecking a value removes all related variant data automatically"
+          ],
+          "tip": "Color attributes show swatches. Variant names auto-generate in all languages (e.g., \"Red / Large\"). A blue info panel shows whether you're editing base or variant prices."
+        },
+        "bulkOps": {
+          "title": "Bulk Operations & Search",
+          "items": [
+            "Search by product name or SKU",
+            "Filter by status (Draft, Active, Archived) and category",
+            "Bulk share to Facebook, Instagram, or Etsy",
+            "Bulk status change (activate, archive, draft)"
+          ]
+        },
+        "shipments": {
+          "title": "Shipments",
+          "items": [
+            "View all shipments with status tracking",
+            "Create shipping labels (Correios integration for Brazil)",
+            "Track packages with real-time status updates",
+            "Print labels directly from the dashboard",
+            "Statuses: Pending, Label Created, Posted, In Transit, Out for Delivery, Delivered, Returned, Lost, Cancelled"
+          ]
+        },
+        "reports": {
+          "title": "Reports & Analytics",
+          "items": [
+            "Sales Analytics: Revenue charts, order trends, top-selling products",
+            "Orders Tab: Complete history with filtering and pagination",
+            "Export data for external analysis",
+            "View metrics by date range"
+          ]
+        }
+      },
+      "store": {
+        "title": "3. Store Management",
+        "tenants": {
+          "title": "Tenant Management (SuperAdmin Only)",
+          "intro": "Navigate to Dashboard > Store > Tenancy to manage multiple stores.",
+          "steps": [
+            "Click \"Add Tenant\" to create a new marketplace",
+            "Configure: Store name, subdomain, custom domain (optional)",
+            "Set commission rate (default 10%)",
+            "Assign a Tenant Admin user",
+            "Activate/deactivate tenants as needed"
+          ],
+          "tip": "Subdomains and custom domains are configured automatically when creating a tenant. All DNS records are provisioned without manual intervention."
+        },
+        "sellers": {
+          "title": "Seller Management",
+          "items": [
+            "View all sellers with stats (products, sales, rating)",
+            "Approve or reject pending seller applications",
+            "Edit seller profiles (store name, description, location)",
+            "Toggle \"Featured\" status for prominent display",
+            "View Stripe Connect onboarding status",
+            "Filter by status: Pending, Approved, Suspended"
+          ]
+        },
+        "users": {
+          "title": "User Management",
+          "items": [
+            "View all registered users with their current roles",
+            "Change user roles (Customer, Seller, TenantAdmin)",
+            "Only SuperAdmin can assign SuperAdmin role",
+            "Search and filter by name, email, or role"
+          ]
+        }
+      },
+      "payments": {
+        "title": "4. Payment Settings",
+        "stripe": {
+          "title": "Stripe Configuration",
+          "sandbox": "Sandbox: Enter test API keys (pk_test_..., sk_test_...) → Save → Test → Activate",
+          "production": "Production: Same steps with live keys. Test thoroughly before going live. Configure webhook endpoint.",
+          "connect": "Stripe Connect: Each seller completes onboarding to receive payments. The platform auto-splits payments based on commission rate."
+        },
+        "mercadopago": {
+          "title": "MercadoPago",
+          "items": [
+            "Enable/disable MercadoPago payments",
+            "Configure marketplace fee percentage",
+            "Set default currency (BRL)",
+            "Enable Checkout Pro for seamless flow",
+            "Supports: Credit/Debit cards, PIX, Boleto"
+          ]
+        },
+        "shipping": {
+          "title": "Shipping (Correios)",
+          "items": [
+            "Configure Correios integration for Brazilian shipping",
+            "Set shipping rates and delivery options",
+            "Enable/disable methods per region",
+            "Configure free shipping thresholds"
+          ]
+        }
+      },
+      "integrations": {
+        "title": "5. Marketplace Integrations",
+        "google": {
+          "title": "Google Shopping",
+          "steps": [
+            "Copy the generated product feed URL",
+            "Create a Google Merchant Center account",
+            "Add the feed URL in Merchant Center > Products > Feeds",
+            "Configure settings (country, language, currency)",
+            "Submit for review"
+          ]
+        },
+        "etsy": {
+          "title": "Etsy Integration",
+          "items": [
+            "Connect your Etsy shop via OAuth",
+            "Sync products with automatic listing creation",
+            "Manage Etsy orders from the dashboard",
+            "View analytics and sales data",
+            "Bulk publish products to Etsy"
+          ]
+        },
+        "social": {
+          "title": "Social Media",
+          "items": [
+            "Facebook & Instagram: Connect Business page, share products, configure Meta product feed",
+            "WhatsApp Business: Configure number per seller, enable contact button on product pages",
+            "Configure feed languages and translation priorities"
+          ]
+        }
+      },
+      "branding": {
+        "title": "6. Branding & Customization",
+        "items": [
+          "Logo: Upload store logo (header and emails)",
+          "Favicon: Custom browser tab icon",
+          "Colors: Primary (#2E7D32), Secondary (#FFC107), Accent",
+          "Typography: Custom font family",
+          "Banner Image: Hero image for homepage",
+          "Tagline & About Text",
+          "Custom CSS for advanced styling"
+        ]
+      },
+      "languages": {
+        "title": "7. Language Settings",
+        "intro": "The platform supports 8 languages: Portuguese (primary), English, Spanish, French, German, Italian, Japanese, Russian.",
+        "tip": "Always fill in at least Portuguese and English translations for all products and categories to maximize reach. The system falls back to Portuguese if a translation is missing."
+      }
+    }
   }
 }
