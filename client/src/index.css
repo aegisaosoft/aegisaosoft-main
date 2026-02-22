@@ -8,6 +8,16 @@
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+  /* Color variables */
+  --primary: #3b82f6;
+  --accent: #3b82f6;
+  --accent-hover: #2563eb;
+  --text: #111827;
+  --text-muted: #374151;
+  --card-bg: #f9fafb;
+  --border: #e5e7eb;
+  --bg: #ffffff;
 }
 
 *,

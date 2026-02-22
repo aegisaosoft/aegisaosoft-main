@@ -1,0 +1,90 @@
+{
+  "header": {
+    "home": "Home",
+    "about": "Chi Siamo",
+    "products": "Prodotti",
+    "contact": "Contatti"
+  },
+  "home": {
+    "title": "Piattaforme Software Aziendali e Soluzioni Cloud su Microsoft Azure",
+    "subtitle": "Progettiamo e consegniamo sistemi software di livello produzione per aziende reali — da piattaforme SaaS multi-tenant a soluzioni specializzate per operazioni di flotta, marketplace e pagamenti.",
+    "cta": {
+      "primary": "Discuti il Tuo Progetto",
+      "secondary": "Esplora i Nostri Prodotti"
+    },
+    "products": {
+      "title": "I Nostri Prodotti",
+      "subtitle": "Piattaforme pronte per la produzione costruite per supportare operazioni del mondo reale nei mercati internazionali.",
+      "visitSite": "Visita il Sito",
+      "learnMore": "Scopri di Più"
+    },
+    "services": {
+      "title": "Soluzioni e Servizi",
+      "subtitle": "Servizi di sviluppo personalizzati per modernizzare le tue operazioni aziendali e scalare le tue capacità tecniche.",
+      "customSaaS": {
+        "title": "Sviluppo SaaS Personalizzato",
+        "description": "Sviluppo end-to-end di piattaforme SaaS multi-tenant con architettura cloud moderna."
+      },
+      "cloudArchitecture": {
+        "title": "Architettura Cloud e Modernizzazione",
+        "description": "Migrazione ad Azure/AWS con auto-scaling, monitoraggio e best practice di sicurezza."
+      },
+      "systemIntegration": {
+        "title": "Integrazione di Sistemi",
+        "description": "Collegare sistemi esistenti con API moderne, processori di pagamento e servizi di terze parti."
+      },
+      "legacyReplacement": {
+        "title": "Sostituzione di Sistemi Legacy",
+        "description": "Modernizzare sistemi obsoleti con tecnologie attuali preservando la logica di business."
+      },
+      "aiSolutions": {
+        "title": "Soluzioni Abilitate all'IA",
+        "description": "Integrare capacità IA come riconoscimento vocale, traduzione automatica e automazione intelligente."
+      },
+      "technicalSupport": {
+        "title": "Supporto Tecnico a Lungo Termine",
+        "description": "Manutenzione continua, sviluppo di funzionalità e partnership tecnica per le tue piattaforme."
+      }
+    },
+    "architecture": {
+      "title": "Architettura e Tecnologia",
+      "subtitle": "Le nostre piattaforme sono costruite utilizzando tecnologie moderne e comprovate per garantire affidabilità, sicurezza e scalabilità.",
+      "items": [
+        "Piattaforma cloud Microsoft Azure",
+        ".NET Moderno (6–9) e ASP.NET Core",
+        "API REST e sistemi distribuiti",
+        "Entity Framework Core",
+        "Architettura a microservizi",
+        "Alta disponibilità e tolleranza ai guasti",
+        "Pratiche CI/CD e DevOps",
+        "Sicurezza e protezione dei dati",
+        "Integrazione IA quando appropriato"
+      ]
+    },
+    "about": {
+      "title": "Informazioni su Aegis AO Soft",
+      "description": "Aegis AO Soft sviluppa piattaforme software di produzione per operazioni aziendali del mondo reale. Il nostro focus è sull'affidabilità a lungo termine, scalabilità e manutenibilità — non prototipi di breve durata.",
+      "mission": "Lavoriamo con organizzazioni che dipendono dal software come parte centrale del loro business, fornendo sistemi progettati per operare continuamente ed evolversi nel tempo.",
+      "leadership": "Guidata da un architetto software veterano con decenni di esperienza nella costruzione di sistemi mission-critical in diverse industrie."
+    },
+    "finalCta": {
+      "title": "Hai un progetto o hai bisogno di un partner tecnico affidabile?",
+      "button": "Discuti il Tuo Progetto"
+    },
+    "myEZToll": {
+      "title": "MyEZToll",
+      "subtitle": "Piattaforma di Gestione Pedaggi e Parcheggi per Flotte di Noleggio",
+      "description": "NON multi-tenant (piattaforma per singola organizzazione). Elaborazione pagamenti pedaggi, gestione violazioni parcheggio, copertura in tutti i 50 stati USA. Progettata per compagnie di noleggio auto e operatori di flotte.",
+      "features": {
+        "tollProcessing": "Elaborazione pagamenti pedaggi",
+        "parkingManagement": "Gestione violazioni parcheggio",
+        "usaCoverage": "Copertura in tutti i 50 stati USA",
+        "fleetOperators": "Progettata per compagnie di noleggio auto e operatori di flotte",
+        "ownerPortal": "Portale proprietario per flussi di lavoro di pagamento e controversie"
+      },
+      "learnMore": "Scopri di Più",
+      "visitSite": "Visita il Sito",
+      "ownerPortal": "Portale Proprietario"
+    }
+  }
+}

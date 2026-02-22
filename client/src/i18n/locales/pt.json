@@ -2,11 +2,75 @@
   "header": {
     "home": "Início",
     "about": "Sobre",
+    "products": "Produtos",
     "contact": "Contato"
   },
   "home": {
-    "title": "Desenvolvimento de Software Estratégico",
-    "subtitle": "Construindo plataformas para empresas ambiciosas.",
+    "title": "Plataformas de Software Empresarial e Soluções em Nuvem no Microsoft Azure",
+    "subtitle": "Projetamos e entregamos sistemas de software de nível de produção para empresas reais — desde plataformas SaaS multi-tenant até soluções especializadas para operações de frota, marketplaces e pagamentos.",
+    "cta": {
+      "primary": "Discutir Seu Projeto",
+      "secondary": "Explorar Nossos Produtos"
+    },
+    "products": {
+      "title": "Nossos Produtos",
+      "subtitle": "Plataformas prontas para produção construídas para suportar operações do mundo real em mercados internacionais.",
+      "visitSite": "Visitar Site",
+      "learnMore": "Saiba Mais"
+    },
+    "services": {
+      "title": "Soluções e Serviços",
+      "subtitle": "Serviços de desenvolvimento personalizados para modernizar suas operações comerciais e escalar suas capacidades técnicas.",
+      "customSaaS": {
+        "title": "Desenvolvimento SaaS Personalizado",
+        "description": "Desenvolvimento ponta a ponta de plataformas SaaS multi-tenant com arquitetura moderna em nuvem."
+      },
+      "cloudArchitecture": {
+        "title": "Arquitetura e Modernização em Nuvem",
+        "description": "Migração para Azure/AWS com auto-escalonamento, monitoramento e melhores práticas de segurança."
+      },
+      "systemIntegration": {
+        "title": "Integração de Sistemas",
+        "description": "Conectar sistemas existentes com APIs modernas, processadores de pagamento e serviços de terceiros."
+      },
+      "legacyReplacement": {
+        "title": "Substituição de Sistemas Legados",
+        "description": "Modernizar sistemas desatualizados com tecnologias atuais preservando a lógica de negócios."
+      },
+      "aiSolutions": {
+        "title": "Soluções Habilitadas por IA",
+        "description": "Integrar capacidades de IA como reconhecimento de voz, tradução automática e automação inteligente."
+      },
+      "technicalSupport": {
+        "title": "Suporte Técnico de Longo Prazo",
+        "description": "Manutenção contínua, desenvolvimento de recursos e parceria técnica para suas plataformas."
+      }
+    },
+    "architecture": {
+      "title": "Arquitetura e Tecnologia",
+      "subtitle": "Nossas plataformas são construídas usando tecnologias modernas e comprovadas para garantir confiabilidade, segurança e escalabilidade.",
+      "items": [
+        "Plataforma em nuvem Microsoft Azure",
+        ".NET Moderno (6–9) e ASP.NET Core",
+        "APIs REST e sistemas distribuídos",
+        "Entity Framework Core",
+        "Arquitetura de microsserviços",
+        "Alta disponibilidade e tolerância a falhas",
+        "Práticas de CI/CD e DevOps",
+        "Segurança e proteção de dados",
+        "Integração de IA quando apropriado"
+      ]
+    },
+    "about": {
+      "title": "Sobre a Aegis AO Soft",
+      "description": "A Aegis AO Soft desenvolve plataformas de software de produção para operações comerciais do mundo real. Nosso foco está na confiabilidade, escalabilidade e manutenibilidade de longo prazo — não protótipos de vida curta.",
+      "mission": "Trabalhamos com organizações que dependem de software como parte central de seus negócios, entregando sistemas projetados para operar continuamente e evoluir ao longo do tempo.",
+      "leadership": "Liderado por um arquiteto de software veterano com décadas de experiência construindo sistemas de missão crítica em várias indústrias."
+    },
+    "finalCta": {
+      "title": "Tem um projeto ou precisa de um parceiro técnico confiável?",
+      "button": "Discutir Seu Projeto"
+    },
     "vehicleRental": {
       "title": "Gestão de Aluguel de Veículos",
       "description": "Plataforma SaaS completa para empresas de aluguel com arquitetura multi-tenant, integração Stripe Connect e operações automatizadas.",
@@ -27,62 +91,119 @@
     }
   },
   "about": {
-    "whatWeBuild": {
-      "title": "O Que Construímos",
-      "subtitle": "Soluções reais para operações de aluguel e conformidade regulatória.",
+    "title": "Sobre a Aegis AO Soft",
+    "subtitle": "Sistemas de software seguros e confiáveis para ambientes regulados e de missão crítica",
+    "intro": {
+      "description": "A Aegis AO Soft desenvolve sistemas de software seguros e confiáveis para organizações que operam em ambientes regulados e de missão crítica. A empresa especializa-se em plataformas que suportam continuidade operacional, conformidade regulatória e processamento de dados em larga escala.",
+      "leadership": "Fundada e liderada por um arquiteto de software veterano, a Aegis AO Soft combina liderança técnica prática com décadas de experiência entregando sistemas de produção para indústrias relacionadas ao governo e domínios operacionais complexos."
+    },
+    "missionCritical": {
+      "title": "Sistemas Operacionais de Missão Crítica",
+      "description": "Nosso trabalho foca em sistemas que devem funcionar continuamente e com precisão, frequentemente sob supervisão regulatória ou restrições operacionais.",
+      "areas": {
+        "title": "Áreas típicas incluem:",
+        "fleet": "Operações de frota e transporte",
+        "payments": "Sistemas de pagamento e faturamento",
+        "compliance": "Plataformas de conformidade e relatórios",
+        "workflow": "Automação de fluxo de trabalho para processos administrativos",
+        "dataIntensive": "Software operacional intensivo em dados"
+      },
+      "design": "As soluções são projetadas para confiabilidade, auditabilidade e manutenibilidade a longo prazo."
+    },
+    "transportation": {
+      "title": "Tecnologia de Transporte e Regulatória",
+      "description": "A Aegis AO Soft desenvolve plataformas que suportam operações baseadas em veículos e requisitos regulatórios associados.",
       "vehicleRental": {
-        "title": "Gestão de Aluguel de Veículos",
-        "description": "Plataforma SaaS completa para empresas de aluguel com arquitetura multi-tenant, integração Stripe Connect e operações automatizadas.",
-        "features": {
-          "fleetManagement": "Gestão de frota e disponibilidade",
-          "driverVerification": "Verificação de motorista (BlinkID)",
-          "securityDeposit": "Gestão de depósito de segurança",
-          "automatedBilling": "Cobrança automatizada"
-        }
+        "title": "Aluguel de Veículos e Gestão de Frota",
+        "items": [
+          "Controle operacional de inventários de veículos",
+          "Rastreamento de reservas e utilização",
+          "Gestão de clientes e contratos",
+          "Integração de processamento de pagamentos",
+          "Implementação multi-localização"
+        ]
       },
-      "complianceAutomation": {
-        "title": "Automação de Conformidade",
-        "description": "Sistemas inteligentes que monitoram, analisam e resolvem automaticamente multas de estacionamento em vários municípios.",
-        "features": {
-          "citationScraping": "Raspagem e análise de multas",
-          "automatedPayment": "Processamento automatizado de pagamentos",
-          "multiState": "Suporte multiestadual (FL, NJ)",
-          "violationTracking": "Rastreamento e relatórios de violações"
-        }
+      "tollViolation": {
+        "title": "Gestão de Pedágios e Violações",
+        "items": [
+          "Agregação de taxas de pedágio entre autoridades",
+          "Processamento de violações de estacionamento entre jurisdições",
+          "Faturamento, reconciliação e relatórios",
+          "Suporte para organizações que operam frotas nacionais"
+        ]
       }
     },
-    "technicalExpertise": {
-      "title": "Experiência Técnica",
-      "subtitle": "Stack comprovado em produção para indústrias reguladas.",
-      "backend": "Node.js, ASP.NET Core, PostgreSQL, Redis",
-      "frontend": "React, TypeScript, Material-UI",
-      "cloud": "Azure App Service, AWS, Docker",
-      "payments": "Stripe Connect, conformidade PCI DSS",
-      "automation": "Playwright, Puppeteer, fluxos de trabalho agendados",
-      "security": "AML/KYC, SOX, isolamento multi-tenant"
+    "security": {
+      "title": "Segurança, Conformidade e Integridade de Dados",
+      "description": "Os sistemas são projetados com forte ênfase em considerações de segurança e conformidade.",
+      "features": [
+        "Acesso controlado e gestão de identidade",
+        "Práticas de proteção de dados alinhadas com padrões da indústria",
+        "Registro e relatórios prontos para auditoria",
+        "Mecanismos de isolamento para implementações multi-tenant",
+        "Práticas de conformidade no processamento de pagamentos"
+      ]
     },
-    "enterpriseExperience": {
-      "title": "Experiência Empresarial",
-      "fxcm": "Mais de 20 anos construindo sistemas de conformidade financeira na FXCM, incluindo processamento de pagamentos, relatórios regulatórios e operações de back-office para plataformas de negociação reguladas.",
-      "ctm": "Fundou <ctmLink>CTM</ctmLink> — sistema eletrônico de declaração aduaneira para Alfândega da Rússia.",
-      "huur": "Entregou a plataforma de aluguel de carros <huurLink>Huur US</huurLink> que opera em vários estados.",
-      "blueCliff": "Construiu a API ASP.NET <blueCliffLink>Blue Cliff</blueCliffLink> com um banco de dados PostgreSQL que suporta suas experiências de planejamento de retiros."
+    "technology": {
+      "title": "Capacidades Tecnológicas",
+      "description": "As plataformas são construídas usando tecnologias modernas e amplamente adotadas para garantir sustentabilidade e interoperabilidade.",
+      "stack": [
+        "Infraestrutura em nuvem Microsoft Azure",
+        "Plataforma .NET moderna e ASP.NET Core",
+        "Arquiteturas de serviços distribuídos",
+        "Sistemas de gestão de dados relacionais",
+        "Implementações conteinerizadas",
+        "Monitoramento e diagnóstico automatizados"
+      ],
+      "philosophy": "As escolhas de tecnologia priorizam a capacidade de suporte a longo prazo sobre tendências de curto prazo."
     },
-    "deliveryFramework": {
-      "title": "Framework de Entrega",
-      "subtitle": "Execução orquestrada da descoberta à escala.",
-      "discover": {
-        "title": "Descobrir",
-        "description": "Mapeamento de requisitos técnicos, design de esquema de banco de dados, especificação de API e planejamento de arquitetura em nuvem."
+    "leadership": {
+      "title": "Liderança Fundador-Arquiteto",
+      "description": "A Aegis AO Soft opera sob liderança técnica direta em vez de supervisão puramente gerencial.",
+      "experience": "O fundador traz décadas de experiência projetando e implementando sistemas complexos em ambientes regulados, incluindo:",
+      "domains": [
+        "Infraestrutura de serviços financeiros",
+        "Sistemas de processamento de pagamentos",
+        "Plataformas de relatórios regulatórios",
+        "Iniciativas de software relacionadas ao governo",
+        "Sistemas transacionais de larga escala"
+      ],
+      "approach": "Esta abordagem garante consistência arquitetônica, responsabilidade técnica e resolução rápida de questões complexas."
+    },
+    "delivery": {
+      "title": "Abordagem de Entrega",
+      "description": "Os projetos seguem um ciclo de vida disciplinado destinado a reduzir riscos e apoiar a prontidão operacional.",
+      "assessment": {
+        "title": "Avaliação",
+        "items": [
+          "Análise de requisitos",
+          "Avaliação de dados e fluxo de trabalho",
+          "Definição de arquitetura",
+          "Planejamento de integração"
+        ]
       },
-      "build": {
-        "title": "Construir",
-        "description": "Entrega incremental com fluxos de trabalho baseados em Git, implantações containerizadas, testes automatizados e pipelines CI/CD."
+      "implementation": {
+        "title": "Implementação",
+        "items": [
+          "Desenvolvimento incremental",
+          "Pipelines de implementação seguras",
+          "Testes automatizados",
+          "Documentação do comportamento do sistema"
+        ]
       },
-      "scale": {
-        "title": "Escalar",
-        "description": "Otimização de desempenho, configuração de monitoramento (Application Insights), endurecimento de segurança e documentação."
+      "operational": {
+        "title": "Suporte Operacional",
+        "items": [
+          "Ajuste de performance",
+          "Monitoramento e alertas",
+          "Endurecimento de segurança",
+          "Manutenção e atualizações contínuas"
+        ]
       }
+    },
+    "commitment": {
+      "title": "Compromisso com Confiabilidade e Responsabilidade",
+      "description": "A Aegis AO Soft trabalha com organizações que requerem sistemas confiáveis e um parceiro tecnológico de longo prazo. Nosso objetivo é entregar soluções que permaneçam estáveis, manuteníveis e auditáveis ao longo de seu ciclo de vida operacional."
     }
   },
   "contact": {
@@ -251,7 +372,7 @@
         },
         "multiLanguage": {
           "title": "Suporte Multi-idioma",
-          "description": "Suporte para português, inglês e espanhol para alcance global"
+          "description": "Suporte completo para 10 idiomas incluindo português, inglês, espanhol e línguas indígenas brasileiras (Guaraní Mbyá, Nheengatu) para comércio cultural autêntico"
         },
         "shipping": {
           "title": "Envio e Atendimento",
@@ -333,7 +454,7 @@
           "steps": [
             "Clique em \"Adicionar Categoria\"",
             "Insira o nome da categoria no seu idioma atual",
-            "Marque \"Traduzir automaticamente\" para traduzir para todos os 8 idiomas",
+            "Marque \"Traduzir automaticamente\" para traduzir para todos os 10 idiomas (incluindo línguas indígenas)",
             "Defina o slug da categoria (gerado automaticamente)",
             "Opcionalmente defina uma categoria pai para subcategorias",
             "Ative/desative a opcao \"Ativo\"",
@@ -341,7 +462,7 @@
           ],
           "translations": {
             "title": "Traducoes de Categorias",
-            "intro": "Cada nome e armazenado em todos os 8 idiomas:",
+            "intro": "Cada nome é armazenado em todos os 10 idiomas (incluindo línguas indígenas):",
             "items": [
               "Traducao automatica via Google Translate ou Claude AI",
               "A API retorna nomes localizados conforme o idioma do usuario",
@@ -356,7 +477,7 @@
               "Abra o modal de edicao da categoria",
               "Role ate \"Tipos de Atributos\"",
               "Clique \"Adicionar Tipo\" — selecione existente ou crie novo",
-              "Ao criar: insira nomes em 8 idiomas (com bandeiras), slug gerado automaticamente",
+              "Ao criar: insira nomes em 10 idiomas (com bandeiras culturais), slug gerado automaticamente",
               "Configure Ordem de Exibicao (hierarquia) e Obrigatorio",
               "Clique no icone de engrenagem para gerenciar valores (ex: Vermelho, Azul para Cor)",
               "Cada valor suporta nomes multilingues e codigos HEX de cor",
@@ -557,7 +678,7 @@
       },
       "languages": {
         "title": "7. Configuracoes de Idioma",
-        "intro": "A plataforma suporta 8 idiomas: Portugues (principal), Ingles, Espanhol, Frances, Alemao, Italiano, Japones e Russo.",
+        "intro": "A plataforma suporta 10 idiomas: Português (principal), Inglês, Espanhol, Francês, Alemão, Italiano, Japonês, Russo, além das línguas indígenas Guaraní Mbyá e Nheengatu para preservação do patrimônio cultural.",
         "tip": "Sempre preencha pelo menos Portugues e Ingles para maximizar o alcance. O sistema usa Portugues como fallback."
       }
     }

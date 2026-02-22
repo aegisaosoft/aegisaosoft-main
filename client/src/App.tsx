@@ -11,6 +11,12 @@ import { VehicleRental } from './pages/VehicleRental'
 import { VehicleRentalSetPassword } from './pages/VehicleRentalSetPassword'
 import { BrazilianMarketplace } from './pages/BrazilianMarketplace'
 import { Mercadinho25 } from './pages/Mercadinho25'
+import { MyEZToll } from './pages/MyEZToll'
+import { Products } from './pages/Products'
+import { AegisRentalDetail } from './pages/AegisRentalDetail'
+import { BrazilianMarketplaceDetail } from './pages/BrazilianMarketplaceDetail'
+import { MyEZTollDetail } from './pages/MyEZTollDetail'
+import AdminGuide from './pages/AdminGuide'
 
 function App() {
   return (
@@ -22,10 +28,16 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/products" element={<Products />} />
+          <Route path="/products/aegis-rental" element={<AegisRentalDetail />} />
+          <Route path="/products/brazilian-marketplace" element={<BrazilianMarketplaceDetail />} />
+          <Route path="/products/myeztoll" element={<MyEZTollDetail />} />
+          <Route path="/admin-guide" element={<AdminGuide />} />
           <Route path="/vehicle-rental" element={<VehicleRental />} />
           <Route path="/vehicle-rental/set-password" element={<VehicleRentalSetPassword />} />
           <Route path="/brazilian-marketplace" element={<BrazilianMarketplace />} />
           <Route path="/mercadinho25" element={<Mercadinho25 />} />
+          <Route path="/myeztoll" element={<MyEZToll />} />
         </Routes>
         <Footer />
       </div>

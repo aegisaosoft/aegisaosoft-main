@@ -1,0 +1,90 @@
+{
+  "header": {
+    "home": "Uka",
+    "about": "Nhaã resé",
+    "products": "Mbaé-itá",
+    "contact": "Purundusawa"
+  },
+  "home": {
+    "title": "Software Plataforma Empresa-itá resé yuíri Arapiá Nheenga Microsoft Azure rupí",
+    "subtitle": "Yamukameẽ yuíri yambeú software sistema-itá urusu-itá arama empresa puranga-itá supé — plataforma SaaS murakí-itá suí suakí nheenga-itá flota puranga, suatá-itá yuíri dinheru nheenga-itá arama.",
+    "cta": {
+      "primary": "Yamaã indé trapalha resé",
+      "secondary": "Yamaã yané mbaé-itá"
+    },
+    "products": {
+      "title": "Yané mbaé-itá",
+      "subtitle": "Plataforma-itá urusu arama yamukameẽ-itá suatá yané retama ruakí-itá upé trapalha puranga irũ.",
+      "visitSite": "Yamaã página",
+      "learnMore": "Yakuaa maiú"
+    },
+    "services": {
+      "title": "Nheenga-itá yuíri Trapalha",
+      "subtitle": "Trapalha nheenga indé arama indé empresa trapalha pyahu arama yuíri técnico katupyry tuicha arama.",
+      "customSaaS": {
+        "title": "SaaS Nheenga Indé Arama",
+        "description": "Trapalha puranga plataforma SaaS murakí-itá irũ arquitectura arapiá pyahu irũ."
+      },
+      "cloudArchitecture": {
+        "title": "Arapiá Arquitectura yuíri Pyahu-putari",
+        "description": "Suaxara Azure/AWS kití auto-escalamiento, maãsawa yuíri seguridad katú irũ."
+      },
+      "systemIntegration": {
+        "title": "Sistema Nhuntumanusawa",
+        "description": "Sistema urikú waá-itá API pyahu-itá, dinheru trapalhasara-itá yuíri trapalha musapí-itá irũ."
+      },
+      "legacyReplacement": {
+        "title": "Sistema Tuiué Truka",
+        "description": "Sistema tuiué-itá tecnología ko'anga irũ pyahu putari lógica negócio rikuyara irũ."
+      },
+      "aiSolutions": {
+        "title": "IA Nheenga-itá",
+        "description": "IA katupyry nhutumanú nheengatú kuaa, traducción ukuximanha yuíri automatización maãsara irũ."
+      },
+      "technicalSupport": {
+        "title": "Suporte Técnico Pukú",
+        "description": "Rikuyara pururé, karakterístika nheenga yuíri asociación técnica indé plataforma-itá arama."
+      }
+    },
+    "architecture": {
+      "title": "Arquitectura yuíri Tecnología",
+      "subtitle": "Yané plataforma-itá tecnología pyahu yuíri maã-itá irũ yakameẽ seguridad, confiabilidad yuíri escalabilidad arama.",
+      "items": [
+        "Plataforma arapiá Microsoft Azure",
+        ".NET Pyahu (6–9) yuíri ASP.NET Core",
+        "API REST yuíri sistema upatumanú waá",
+        "Entity Framework Core",
+        "Arquitectura microservicio",
+        "Disponibilidade yvate yuíri jejavy rikuyasawa",
+        "Práktika CI/CD yuíri DevOps",
+        "Seguridad yuíri mbaé kuaa rikuyasawa",
+        "IA nhutumanusawa tekotevê ramé"
+      ]
+    },
+    "about": {
+      "title": "Aegis AO Soft resé",
+      "description": "Aegis AO Soft umukameẽ plataforma software urusu empresa trapalha yané retama resé arama. Yané maãsawa confiabilidad, escalabilidad yuíri mantenibilidad pukú ãna — ti prototipo mbykymi.",
+      "mission": "Yatrapalha organización-itá software umuatiri waá negócio ukena aintá arama, umbeú sistema-itá utrapalha pururé arama yuíri utruka ara upasá ramé.",
+      "leadership": "Umuyeréu arquitecto software veterano década rekuaa experiencia sistema misión krítica umukameẽ indústria opaichagua upé."
+    },
+    "finalCta": {
+      "title": "¿Erekú projeto térã eikotevê socio técnico jeroviaha?",
+      "button": "Yamaã indé projeto resé"
+    },
+    "myEZToll": {
+      "title": "MyEZToll",
+      "subtitle": "Plataforma Gestión Peaje yuíri Estacionamiento Flota Alquiler arama",
+      "description": "TI multi-tenant (plataforma organización peteĩ). Dinheru peaje trapalha, gestión violación estacionamiento, cobertura Estados Unidos 50 estados upé. Umukameẽ empresa alquiler kaá yuíri operador flota arama.",
+      "features": {
+        "tollProcessing": "Dinheru peaje trapalha",
+        "parkingManagement": "Gestión violación estacionamiento",
+        "usaCoverage": "Cobertura Estados Unidos 50 estados upé",
+        "fleetOperators": "Umukameẽ empresa alquiler kaá yuíri operador flota arama",
+        "ownerPortal": "Portal yara workflow dinheru yuíri disputa arama"
+      },
+      "learnMore": "Yakuaa maiú",
+      "visitSite": "Yamaã página",
+      "ownerPortal": "Portal Yara"
+    }
+  }
+}

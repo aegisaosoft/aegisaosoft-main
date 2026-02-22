@@ -1,0 +1,90 @@
+{
+  "header": {
+    "home": "Óga",
+    "about": "Orekuaa",
+    "products": "Tembiápo",
+    "contact": "Jeike"
+  },
+  "home": {
+    "title": "Yvate Software Plataforma ha Arapy Solución Microsoft Azure-pe",
+    "subtitle": "Rojapo ha rome'ẽ software sistema producción-pe g̃uarã ete empresa kuérape — plataforma SaaS multi-tenant guive solución especializada flota operación, mercado ha pago-pe g̃uarã.",
+    "cta": {
+      "primary": "Roñe'ẽ nde apopyre rehegua",
+      "secondary": "Jahecha ore tembiápo"
+    },
+    "products": {
+      "title": "Ore tembiápo",
+      "subtitle": "Plataforma producción-pe g̃uarã oñembosako'i va'ekue mercado internacional-pe tembiapo añetegua oykekóvo hag̃ua.",
+      "visitSite": "Jehecha página",
+      "learnMore": "Kuaave"
+    },
+    "services": {
+      "title": "Solución ha Servicio",
+      "subtitle": "Servicio desarrollo personalizado nde empresa rembiapo pyahu hag̃ua ha técnico katupyry tuicha hag̃ua.",
+      "customSaaS": {
+        "title": "Desarrollo SaaS Personalizado",
+        "description": "Desarrollo completo plataforma SaaS multi-tenant arquitectura arapy pyahu reheve."
+      },
+      "cloudArchitecture": {
+        "title": "Arquitectura Arapy ha Modernización",
+        "description": "Migración Azure/AWS-pe auto-escalamiento, monitoreo ha seguridad porã rembiapo reheve."
+      },
+      "systemIntegration": {
+        "title": "Sistema Integración",
+        "description": "Sistema oĩmava API pyahu, pago procesador ha servicio tercero kuéra ndive moĩ."
+      },
+      "legacyReplacement": {
+        "title": "Sistema Tuja Moambue",
+        "description": "Sistema tuja kuéra tecnología ko'ag̃agua reheve modernizar lógica negocio oñongatu rupi."
+      },
+      "aiSolutions": {
+        "title": "Solución IA rehegua",
+        "description": "IA capacidad integrar ha'eháicha ñe'ẽ jeikuaa, traducción automática ha automatización inteligente."
+      },
+      "technicalSupport": {
+        "title": "Soporte Técnico Puku",
+        "description": "Mantenimiento continuo, característica development ha asociación técnica nde plataforma kuérape g̃uarã."
+      }
+    },
+    "architecture": {
+      "title": "Arquitectura ha Tecnología",
+      "subtitle": "Ore plataforma kuéra oñembyaty tecnología pyahu ha ojehecháva reheve seguridad, confiabilidad ha escalabilidad ojeguerekohápe.",
+      "items": [
+        "Plataforma arapy Microsoft Azure",
+        ".NET Pyahu (6–9) ha ASP.NET Core",
+        "API REST ha sistema distribuido",
+        "Entity Framework Core",
+        "Arquitectura microservicio",
+        "Disponibilidad yvate ha tolerancia jejavy",
+        "Práctica CI/CD ha DevOps",
+        "Seguridad ha dato ñangarekoha",
+        "Integración IA oikotevẽ jave"
+      ]
+    },
+    "about": {
+      "title": "Aegis AO Soft rehegua",
+      "description": "Aegis AO Soft omoheñói plataforma software producción empresa rembiapo añetegua-pe g̃uarã. Ore enfoque confiabilidad, escalabilidad ha mantenibilidad puku aja — ndaháni prototipo mbykymi.",
+      "mission": "Romba'apo organización kuéra software oipotáva negocio rovetã ramo, ome'ẽvo sistema oñemboguatahápe g̃uarã ha oñemoambue ára ohasávape.",
+      "leadership": "Oguía arquitecto software veterano década orekóva experiencia sistema misión crítica ñembyaty industria opaichagua-pe."
+    },
+    "finalCta": {
+      "title": "¿Reguereko peteĩ proyecto térã reikotevẽ socio técnico jeroviaha?",
+      "button": "Roñe'ẽ nde proyecto rehegua"
+    },
+    "myEZToll": {
+      "title": "MyEZToll",
+      "subtitle": "Plataforma Gestión Peaje ha Estacionamiento Flota Alquiler-pe g̃uarã",
+      "description": "NAHÁNI multi-tenant (plataforma organización peteĩteĩ). Procesamiento pago peaje, gestión violación estacionamiento, cobertura Estados Unidos 50 estados-pe. Oñemboguata empresa alquiler automóvil ha operador flota-pe g̃uarã.",
+      "features": {
+        "tollProcessing": "Procesamiento pago peaje",
+        "parkingManagement": "Gestión violación estacionamiento",
+        "usaCoverage": "Cobertura Estados Unidos 50 estados-pe",
+        "fleetOperators": "Oñemboguata empresa alquiler automóvil ha operador flota-pe g̃uarã",
+        "ownerPortal": "Portal dueño workflow pago ha disputa-pe g̃uarã"
+      },
+      "learnMore": "Kuaave",
+      "visitSite": "Jehecha página",
+      "ownerPortal": "Portal Dueño"
+    }
+  }
+}

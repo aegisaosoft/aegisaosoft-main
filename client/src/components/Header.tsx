@@ -17,6 +17,7 @@ export function Header() {
           <LanguageSwitcher />
           <nav className="header-nav">
             <Link to="/">{t('header.home')}</Link>
+            <Link to="/products">{t('header.products')}</Link>
             <Link to="/about">{t('header.about')}</Link>
             <Link to="/contact">{t('header.contact')}</Link>
           </nav>

@@ -2,11 +2,75 @@
   "header": {
     "home": "Home",
     "about": "About",
+    "products": "Products",
     "contact": "Contact Us"
   },
   "home": {
-    "title": "Strategic Software Development",
-    "subtitle": "Building platforms for ambitious businesses.",
+    "title": "Enterprise Software Platforms and Cloud Solutions on Microsoft Azure",
+    "subtitle": "We design and deliver production-grade software systems for real businesses — from multi-tenant SaaS platforms to specialized solutions for fleet operations, marketplaces, and payments.",
+    "cta": {
+      "primary": "Discuss Your Project",
+      "secondary": "Explore Our Products"
+    },
+    "products": {
+      "title": "Our Products",
+      "subtitle": "Production-ready platforms built to support real-world operations across international markets.",
+      "visitSite": "Visit Site",
+      "learnMore": "Learn More"
+    },
+    "services": {
+      "title": "Solutions & Services",
+      "subtitle": "Custom development services to modernize your business operations and scale your technical capabilities.",
+      "customSaaS": {
+        "title": "Custom SaaS Development",
+        "description": "End-to-end development of multi-tenant SaaS platforms with modern cloud architecture."
+      },
+      "cloudArchitecture": {
+        "title": "Cloud Architecture & Modernization",
+        "description": "Migration to Azure/AWS with auto-scaling, monitoring, and security best practices."
+      },
+      "systemIntegration": {
+        "title": "System Integration",
+        "description": "Connect existing systems with modern APIs, payment processors, and third-party services."
+      },
+      "legacyReplacement": {
+        "title": "Legacy System Replacement",
+        "description": "Modernize outdated systems with current technologies while preserving business logic."
+      },
+      "aiSolutions": {
+        "title": "AI-Enabled Solutions",
+        "description": "Integrate AI capabilities like voice recognition, automatic translation, and intelligent automation."
+      },
+      "technicalSupport": {
+        "title": "Long-term Technical Support",
+        "description": "Ongoing maintenance, feature development, and technical partnership for your platforms."
+      }
+    },
+    "architecture": {
+      "title": "Architecture & Technology",
+      "subtitle": "Our platforms are built using modern, proven technologies to ensure reliability, security, and scalability.",
+      "items": [
+        "Microsoft Azure cloud platform",
+        "Modern .NET (6–9) and ASP.NET Core",
+        "REST APIs and distributed systems",
+        "Entity Framework Core",
+        "Microservices architecture",
+        "High availability and fault tolerance",
+        "CI/CD and DevOps practices",
+        "Security and data protection",
+        "AI integration where appropriate"
+      ]
+    },
+    "about": {
+      "title": "About Aegis AO Soft",
+      "description": "Aegis AO Soft develops production software platforms for real-world business operations. Our focus is on long-term reliability, scalability, and maintainability — not short-lived prototypes.",
+      "mission": "We work with organizations that depend on software as a core part of their business, delivering systems designed to operate continuously and evolve over time.",
+      "leadership": "Led by a veteran software architect with decades of experience building mission-critical systems across industries."
+    },
+    "finalCta": {
+      "title": "Have a project or need a reliable technical partner?",
+      "button": "Discuss Your Project"
+    },
     "vehicleRental": {
       "title": "Vehicle Rental Management",
       "description": "Complete SaaS platform for rental companies with multi-tenant architecture, Stripe Connect integration, and automated operations.",
@@ -24,65 +88,137 @@
       "title": "Multi-Tenant Marketplace Platform for Brazilian Artisan Goods",
       "description": "A cloud-based e-commerce platform connecting local Brazilian artisans and small vendors with customers seeking authentic handcrafted items, folk art, and everyday essentials. Fully integrated with Instagram and Facebook for social commerce: Multi-tenant storefronts, Product catalog management, Order & fulfillment tracking, Stripe payment processing.",
       "learnMore": "Learn More"
+    },
+    "myEZToll": {
+      "title": "MyEZToll",
+      "subtitle": "Toll & Parking Management Platform for Rental Fleets",
+      "description": "NOT multi-tenant (single-organization platform). Toll payment processing, parking violation management, coverage across all 50 U.S. states. Designed for car rental and fleet operators.",
+      "features": {
+        "tollProcessing": "Toll payment processing",
+        "parkingManagement": "Parking violation management",
+        "usaCoverage": "Coverage across all 50 U.S. states",
+        "fleetOperators": "Designed for car rental and fleet operators",
+        "ownerPortal": "Owner portal for payment and dispute workflows"
+      },
+      "learnMore": "Learn More",
+      "visitSite": "Visit Site",
+      "ownerPortal": "Owner Portal"
     }
   },
   "about": {
-    "whatWeBuild": {
-      "title": "What We Build",
-      "subtitle": "Real-world solutions for rental operations and regulatory compliance.",
+    "title": "About Aegis AO Soft",
+    "subtitle": "Secure, reliable software systems for regulated and mission-critical environments",
+    "intro": {
+      "description": "Aegis AO Soft develops secure, reliable software systems for organizations operating in regulated and mission-critical environments. The company specializes in platforms that support operational continuity, regulatory compliance, and large-scale data processing.",
+      "leadership": "Founded and led by a veteran software architect, Aegis AO Soft combines hands-on technical leadership with decades of experience delivering production systems for government-adjacent industries and complex operational domains."
+    },
+    "missionCritical": {
+      "title": "Mission-Critical Operational Systems",
+      "description": "Our work focuses on systems that must function continuously and accurately, often under regulatory oversight or operational constraints.",
+      "areas": {
+        "title": "Typical areas include:",
+        "fleet": "Fleet and transportation operations",
+        "payments": "Payment and billing systems",
+        "compliance": "Compliance and reporting platforms",
+        "workflow": "Workflow automation for administrative processes",
+        "dataIntensive": "Data-intensive operational software"
+      },
+      "design": "Solutions are designed for reliability, auditability, and long-term maintainability."
+    },
+    "transportation": {
+      "title": "Transportation and Regulatory Technology",
+      "description": "Aegis AO Soft develops platforms supporting vehicle-based operations and associated regulatory requirements.",
       "vehicleRental": {
-        "title": "Vehicle Rental Management",
-        "description": "Complete SaaS platform for rental companies with multi-tenant architecture, Stripe Connect integration, and automated operations.",
-        "features": {
-          "fleetManagement": "Fleet management & availability",
-          "driverVerification": "Driver verification (BlinkID)",
-          "securityDeposit": "Security deposit handling",
-          "automatedBilling": "Automated billing"
-        }
+        "title": "Vehicle Rental and Fleet Management",
+        "items": [
+          "Operational control of vehicle inventories",
+          "Reservation and utilization tracking",
+          "Customer and contract management",
+          "Payment processing integration",
+          "Multi-location deployment"
+        ]
       },
-      "complianceAutomation": {
-        "title": "Compliance Automation",
-        "description": "Intelligent systems that monitor, parse, and automatically resolve parking citations across multiple municipalities.",
-        "features": {
-          "citationScraping": "Citation scraping & parsing",
-          "automatedPayment": "Automated payment processing",
-          "multiState": "Multi-state support (FL, NJ)",
-          "violationTracking": "Violation tracking & reporting"
-        }
+      "tollViolation": {
+        "title": "Toll and Violation Management",
+        "items": [
+          "Aggregation of toll charges across authorities",
+          "Processing of parking violations across jurisdictions",
+          "Billing, reconciliation, and reporting",
+          "Support for organizations operating nationwide fleets"
+        ]
       }
     },
-    "technicalExpertise": {
-      "title": "Technical Expertise",
-      "subtitle": "Production-proven stack for regulated industries.",
-      "backend": "Node.js, ASP.NET Core, PostgreSQL, Redis",
-      "frontend": "React, TypeScript, Material-UI",
-      "cloud": "Azure App Service, AWS, Docker",
-      "payments": "Stripe Connect, PCI DSS compliance",
-      "automation": "Playwright, Puppeteer, scheduled workflows",
-      "security": "AML/KYC, SOX, multi-tenant isolation"
+    "security": {
+      "title": "Security, Compliance, and Data Integrity",
+      "description": "Systems are engineered with strong emphasis on security and compliance considerations.",
+      "features": [
+        "Controlled access and identity management",
+        "Data protection practices aligned with industry standards",
+        "Audit-ready logging and reporting",
+        "Isolation mechanisms for multi-tenant deployments",
+        "Payment processing compliance practices"
+      ]
     },
-    "enterpriseExperience": {
-      "title": "Enterprise Experience",
-      "fxcm": "20+ years building financial compliance systems at FXCM including payment processing, regulatory reporting, and back-office operations for regulated trading platforms.",
-      "ctm": "Founded <ctmLink>CTM</ctmLink> — electronic customs declaration system for Russian Customs.",
-      "huur": "Delivered the <huurLink>Huur US</huurLink> car rental platform operating across multiple states.",
-      "blueCliff": "Built the <blueCliffLink>Blue Cliff</blueCliffLink> ASP.NET API with a PostgreSQL database backing their retreat planning experiences."
+    "technology": {
+      "title": "Technology Capabilities",
+      "description": "Platforms are built using modern, widely adopted technologies to ensure sustainability and interoperability.",
+      "stack": [
+        "Microsoft Azure cloud infrastructure",
+        "Modern .NET platform and ASP.NET Core",
+        "Distributed service architectures",
+        "Relational data management systems",
+        "Containerized deployments",
+        "Automated monitoring and diagnostics"
+      ],
+      "philosophy": "Technology choices prioritize long-term supportability over short-term trends."
     },
-    "deliveryFramework": {
-      "title": "Delivery Framework",
-      "subtitle": "Orchestrated execution from discovery to scale.",
-      "discover": {
-        "title": "Discover",
-        "description": "Technical requirements mapping, database schema design, API specification, and cloud architecture planning."
+    "leadership": {
+      "title": "Founder-Architect Leadership",
+      "description": "Aegis AO Soft operates under direct technical leadership rather than purely managerial oversight.",
+      "experience": "The founder brings decades of experience designing and implementing complex systems in regulated environments, including:",
+      "domains": [
+        "Financial services infrastructure",
+        "Payment processing systems",
+        "Regulatory reporting platforms",
+        "Government-related software initiatives",
+        "Large-scale transactional systems"
+      ],
+      "approach": "This approach ensures architectural consistency, technical accountability, and rapid resolution of complex issues."
+    },
+    "delivery": {
+      "title": "Delivery Approach",
+      "description": "Projects follow a disciplined lifecycle intended to reduce risk and support operational readiness.",
+      "assessment": {
+        "title": "Assessment",
+        "items": [
+          "Requirements analysis",
+          "Data and workflow evaluation",
+          "Architecture definition",
+          "Integration planning"
+        ]
       },
-      "build": {
-        "title": "Build",
-        "description": "Incremental delivery with Git-based workflows, containerized deployments, automated testing, and CI/CD pipelines."
+      "implementation": {
+        "title": "Implementation",
+        "items": [
+          "Incremental development",
+          "Secure deployment pipelines",
+          "Automated testing",
+          "Documentation of system behavior"
+        ]
       },
-      "scale": {
-        "title": "Scale",
-        "description": "Performance optimization, monitoring setup (Application Insights), security hardening, and documentation."
+      "operational": {
+        "title": "Operational Support",
+        "items": [
+          "Performance tuning",
+          "Monitoring and alerting",
+          "Security hardening",
+          "Ongoing maintenance and updates"
+        ]
       }
+    },
+    "commitment": {
+      "title": "Commitment to Reliability and Accountability",
+      "description": "Aegis AO Soft engages with organizations that require dependable systems and a long-term technology partner. Our objective is to deliver solutions that remain stable, maintainable, and auditable throughout their operational lifecycle."
     }
   },
   "contact": {
@@ -251,7 +387,7 @@
         },
         "multiLanguage": {
           "title": "Multi-Language Support",
-          "description": "Portuguese, English, and Spanish language support for global reach"
+          "description": "Full support for 10 languages including Portuguese, English, Spanish, and indigenous Brazilian languages (Guaraní Mbyá, Nheengatu) for authentic cultural commerce"
         },
         "shipping": {
           "title": "Shipping & Fulfillment",
@@ -333,7 +469,7 @@
           "steps": [
             "Click \"Add Category\" to create a new category",
             "Enter the category name in your current language",
-            "Check \"Auto-translate\" to automatically translate the name to all 8 languages",
+            "Check \"Auto-translate\" to automatically translate the name to all 10 languages (including indigenous languages)",
             "Set the category slug (URL-friendly name, auto-generated)",
             "Optionally set a parent category for subcategories (hierarchical structure)",
             "Toggle \"Active\" to control visibility",
@@ -341,7 +477,7 @@
           ],
           "translations": {
             "title": "Category Translations",
-            "intro": "Each category name is stored in all 8 platform languages:",
+            "intro": "Each category name is stored in all 10 platform languages (including indigenous languages):",
             "items": [
               "Auto-translate generates translations via Google Translate or Claude AI",
               "The API returns localized names based on the user's interface language",
@@ -356,7 +492,7 @@
               "Open the category edit modal",
               "Scroll to \"Attribute Types\" section",
               "Click \"Add Attribute Type\" — select from existing or create new",
-              "When creating new: enter names in all 8 languages (with country flags), slug auto-generates",
+              "When creating new: enter names in all 10 languages (with country/culture flags), slug auto-generates",
               "Configure Display Order (hierarchy) and Required toggle",
               "Click the gear icon to manage values (e.g., Red, Blue, Green for Color)",
               "Each value supports multilingual names and optional HEX color codes",
@@ -557,7 +693,7 @@
       },
       "languages": {
         "title": "7. Language Settings",
-        "intro": "The platform supports 8 languages: Portuguese (primary), English, Spanish, French, German, Italian, Japanese, Russian.",
+        "intro": "The platform supports 10 languages: Portuguese (primary), English, Spanish, French, German, Italian, Japanese, Russian, plus indigenous languages Guaraní Mbyá and Nheengatu for cultural heritage preservation.",
         "tip": "Always fill in at least Portuguese and English translations for all products and categories to maximize reach. The system falls back to Portuguese if a translation is missing."
       }
     }

@@ -2,28 +2,89 @@
   "header": {
     "home": "Startseite",
     "about": "Über uns",
+    "products": "Produkte",
     "contact": "Kontakt"
   },
   "home": {
-    "title": "Strategische Softwareentwicklung",
-    "subtitle": "Plattformen für ehrgeizige Unternehmen entwickeln.",
-    "vehicleRental": {
-      "title": "Fahrzeugvermietung",
-      "description": "Vollständige SaaS-Plattform für Mietunternehmen mit Multi-Tenant-Architektur, Stripe Connect-Integration und automatisierten Abläufen.",
-      "features": {
-        "fleetManagement": "Flottenverwaltung und Verfügbarkeit",
-        "driverVerification": "Fahrerüberprüfung (BlinkID)",
-        "securityDeposit": "Bearbeitung von Sicherheitskautionen",
-        "automatedBilling": "Automatisierte Abrechnung",
-        "voiceAI": "🎙️ KI-Sprachassistent für Fahrzeugauswahl",
-        "socialIntegration": "Vollständige Instagram- und Facebook-Integration"
-      },
+    "title": "Unternehmens-Softwareplattformen und Cloud-Lösungen auf Microsoft Azure",
+    "subtitle": "Wir entwerfen und liefern Software-Systeme auf Produktionsebene für echte Unternehmen — von Multi-Tenant-SaaS-Plattformen bis hin zu spezialisierten Lösungen für Flottenoperationen, Marktplätze und Zahlungen.",
+    "cta": {
+      "primary": "Ihr Projekt Besprechen",
+      "secondary": "Unsere Produkte Erkunden"
+    },
+    "products": {
+      "title": "Unsere Produkte",
+      "subtitle": "Produktionsreife Plattformen, die gebaut wurden, um reale Operationen in internationalen Märkten zu unterstützen.",
+      "visitSite": "Seite Besuchen",
       "learnMore": "Mehr Erfahren"
     },
-    "brazilianMarketplace": {
-      "title": "Multi-Tenant-Marktplatzplattform für brasilianische Kunsthandwerksprodukte",
-      "description": "Eine cloudbasierte E-Commerce-Plattform, die brasilianische Handwerker mit Kunden verbindet. Vollständig integriert mit Instagram und Facebook für Social Commerce: Multi-Tenant-Storefronts, Produktkatalogverwaltung, Bestell- und Lieferverfolgung, Stripe-Zahlungsabwicklung.",
-      "learnMore": "Mehr Erfahren"
+    "services": {
+      "title": "Lösungen und Dienstleistungen",
+      "subtitle": "Maßgeschneiderte Entwicklungsdienste zur Modernisierung Ihrer Geschäftsoperationen und Skalierung Ihrer technischen Fähigkeiten.",
+      "customSaaS": {
+        "title": "Maßgeschneiderte SaaS-Entwicklung",
+        "description": "End-to-End-Entwicklung von Multi-Tenant-SaaS-Plattformen mit moderner Cloud-Architektur."
+      },
+      "cloudArchitecture": {
+        "title": "Cloud-Architektur und Modernisierung",
+        "description": "Migration zu Azure/AWS mit Auto-Skalierung, Überwachung und Sicherheits-Best-Practices."
+      },
+      "systemIntegration": {
+        "title": "Systemintegration",
+        "description": "Bestehende Systeme mit modernen APIs, Zahlungsabwicklern und Drittanbieterdiensten verbinden."
+      },
+      "legacyReplacement": {
+        "title": "Legacy-System-Ersatz",
+        "description": "Veraltete Systeme mit aktuellen Technologien modernisieren und dabei die Geschäftslogik bewahren."
+      },
+      "aiSolutions": {
+        "title": "KI-Gestützte Lösungen",
+        "description": "KI-Fähigkeiten wie Spracherkennung, automatische Übersetzung und intelligente Automatisierung integrieren."
+      },
+      "technicalSupport": {
+        "title": "Langzeit-Technischer Support",
+        "description": "Kontinuierliche Wartung, Feature-Entwicklung und technische Partnerschaft für Ihre Plattformen."
+      }
+    },
+    "architecture": {
+      "title": "Architektur und Technologie",
+      "subtitle": "Unsere Plattformen werden mit modernen, bewährten Technologien gebaut, um Zuverlässigkeit, Sicherheit und Skalierbarkeit zu gewährleisten.",
+      "items": [
+        "Microsoft Azure Cloud-Plattform",
+        "Modernes .NET (6–9) und ASP.NET Core",
+        "REST-APIs und verteilte Systeme",
+        "Entity Framework Core",
+        "Microservices-Architektur",
+        "Hohe Verfügbarkeit und Fehlertoleranz",
+        "CI/CD- und DevOps-Praktiken",
+        "Sicherheit und Datenschutz",
+        "KI-Integration wo angemessen"
+      ]
+    },
+    "about": {
+      "title": "Über Aegis AO Soft",
+      "description": "Aegis AO Soft entwickelt Produktions-Software-Plattformen für reale Geschäftsoperationen. Unser Fokus liegt auf langfristiger Zuverlässigkeit, Skalierbarkeit und Wartbarkeit — nicht auf kurzlebigen Prototypen.",
+      "mission": "Wir arbeiten mit Organisationen, die auf Software als zentralen Teil ihres Geschäfts angewiesen sind, und liefern Systeme, die darauf ausgelegt sind, kontinuierlich zu funktionieren und sich im Laufe der Zeit zu entwickeln.",
+      "leadership": "Geführt von einem erfahrenen Software-Architekten mit jahrzehntelanger Erfahrung im Aufbau unternehmenskritischer Systeme in verschiedenen Branchen."
+    },
+    "finalCta": {
+      "title": "Haben Sie ein Projekt oder benötigen einen zuverlässigen technischen Partner?",
+      "button": "Ihr Projekt Besprechen"
+    },
+    "myEZToll": {
+      "title": "MyEZToll",
+      "subtitle": "Maut- und Parkverwaltungsplattform für Mietwagenflotten",
+      "description": "NICHT Multi-Tenant (Einzelorganisationsplattform). Mautzahlungsabwicklung, Parkverstöße-Management, Abdeckung aller 50 US-Bundesstaaten. Entwickelt für Autovermietungen und Flottenbetreiber.",
+      "features": {
+        "tollProcessing": "Mautzahlungsabwicklung",
+        "parkingManagement": "Parkverstöße-Management",
+        "usaCoverage": "Abdeckung aller 50 US-Bundesstaaten",
+        "fleetOperators": "Entwickelt für Autovermietungen und Flottenbetreiber",
+        "ownerPortal": "Eigentümerportal für Zahlungs- und Streitbeilegungsworkflows"
+      },
+      "learnMore": "Mehr Erfahren",
+      "visitSite": "Seite Besuchen",
+      "ownerPortal": "Eigentümerportal"
     }
   },
   "about": {
@@ -329,7 +390,7 @@
           "steps": [
             "Klicken Sie auf \"Kategorie hinzufügen\"",
             "Geben Sie den Namen in Ihrer aktuellen Sprache ein",
-            "Aktivieren Sie \"Automatisch übersetzen\" für alle 8 Sprachen",
+            "Aktivieren Sie \"Automatisch übersetzen\" für alle 10 Sprachen (einschließlich indigener Sprachen)",
             "Slug wird automatisch generiert",
             "Optional: Übergeordnete Kategorie für Unterkategorien",
             "\"Aktiv\" umschalten für Sichtbarkeit",
@@ -337,7 +398,7 @@
           ],
           "translations": {
             "title": "Kategorie-Übersetzungen",
-            "intro": "Jeder Name wird in allen 8 Sprachen gespeichert:",
+            "intro": "Jeder Name wird in allen 10 Sprachen (einschließlich indigener Sprachen) gespeichert:",
             "items": [
               "Automatische Übersetzung über Google Translate oder Claude AI",
               "API liefert lokalisierte Namen basierend auf Benutzersprache",
@@ -352,7 +413,7 @@
               "Kategorie-Bearbeitungsmodal öffnen",
               "Zu \"Attributtypen\" scrollen",
               "\"Attributtyp hinzufügen\" — vorhandenen wählen oder neu erstellen",
-              "Beim Erstellen: Namen in 8 Sprachen (mit Länderflaggen), Slug automatisch",
+              "Beim Erstellen: Namen in 10 Sprachen (mit Kultur-Flaggen), Slug automatisch",
               "Anzeigereihenfolge (Hierarchie) und Pflichtfeld konfigurieren",
               "Zahnrad-Symbol für Werteverwaltung (z.B. Rot, Blau für Farbe)",
               "Jeder Wert unterstützt mehrsprachige Namen und HEX-Farbcodes",
@@ -553,7 +614,7 @@
       },
       "languages": {
         "title": "7. Spracheinstellungen",
-        "intro": "Die Plattform unterstützt 8 Sprachen: Portugiesisch (Haupt), Englisch, Spanisch, Französisch, Deutsch, Italienisch, Japanisch und Russisch.",
+        "intro": "Die Plattform unterstützt 10 Sprachen: Portugiesisch (Haupt), Englisch, Spanisch, Französisch, Deutsch, Italienisch, Japanisch, Russisch, plus indigene Sprachen Guaraní Mbyá und Nheengatu für Kulturerbe-Bewahrung.",
         "tip": "Füllen Sie mindestens Portugiesisch und Englisch aus. Fallback: Portugiesisch."
       }
     }

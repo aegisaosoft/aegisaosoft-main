@@ -2,28 +2,89 @@
   "header": {
     "home": "Accueil",
     "about": "À propos",
+    "products": "Produits",
     "contact": "Contactez-nous"
   },
   "home": {
-    "title": "Développement Logiciel Stratégique",
-    "subtitle": "Construire des plateformes pour des entreprises ambitieuses.",
-    "vehicleRental": {
-      "title": "Gestion de Location de Véhicules",
-      "description": "Plateforme SaaS complète pour les entreprises de location avec architecture multi-tenant, intégration Stripe Connect et opérations automatisées.",
-      "features": {
-        "fleetManagement": "Gestion de flotte et disponibilité",
-        "driverVerification": "Vérification du conducteur (BlinkID)",
-        "securityDeposit": "Gestion des dépôts de garantie",
-        "automatedBilling": "Facturation automatisée",
-        "voiceAI": "🎙️ Assistant vocal IA pour la sélection de véhicules",
-        "socialIntegration": "Intégration complète avec Instagram et Facebook"
-      },
+    "title": "Plateformes Logicielles d'Entreprise et Solutions Cloud sur Microsoft Azure",
+    "subtitle": "Nous concevons et livrons des systèmes logiciels de niveau production pour de vraies entreprises — des plateformes SaaS multi-tenant aux solutions spécialisées pour les opérations de flotte, les places de marché et les paiements.",
+    "cta": {
+      "primary": "Discuter de Votre Projet",
+      "secondary": "Explorer Nos Produits"
+    },
+    "products": {
+      "title": "Nos Produits",
+      "subtitle": "Plateformes prêtes pour la production construites pour soutenir les opérations du monde réel sur les marchés internationaux.",
+      "visitSite": "Visiter le Site",
       "learnMore": "En Savoir Plus"
     },
-    "brazilianMarketplace": {
-      "title": "Plateforme de Marketplace Multi-Tenant pour Produits Artisanaux Brésiliens",
-      "description": "Une plateforme de commerce électronique basée sur le cloud qui connecte les artisans brésiliens avec des clients. Entièrement intégrée avec Instagram et Facebook pour le commerce social: Vitrines multi-tenant, Gestion du catalogue produits, Suivi des commandes et livraisons, Traitement des paiements Stripe.",
-      "learnMore": "En Savoir Plus"
+    "services": {
+      "title": "Solutions et Services",
+      "subtitle": "Services de développement personnalisés pour moderniser vos opérations commerciales et étendre vos capacités techniques.",
+      "customSaaS": {
+        "title": "Développement SaaS Personnalisé",
+        "description": "Développement complet de plateformes SaaS multi-tenant avec architecture cloud moderne."
+      },
+      "cloudArchitecture": {
+        "title": "Architecture Cloud et Modernisation",
+        "description": "Migration vers Azure/AWS avec mise à l'échelle automatique, surveillance et meilleures pratiques de sécurité."
+      },
+      "systemIntegration": {
+        "title": "Intégration de Systèmes",
+        "description": "Connecter les systèmes existants avec des API modernes, des processeurs de paiement et des services tiers."
+      },
+      "legacyReplacement": {
+        "title": "Remplacement de Systèmes Hérités",
+        "description": "Moderniser les systèmes obsolètes avec des technologies actuelles tout en préservant la logique métier."
+      },
+      "aiSolutions": {
+        "title": "Solutions Alimentées par l'IA",
+        "description": "Intégrer des capacités IA comme la reconnaissance vocale, la traduction automatique et l'automatisation intelligente."
+      },
+      "technicalSupport": {
+        "title": "Support Technique à Long Terme",
+        "description": "Maintenance continue, développement de fonctionnalités et partenariat technique pour vos plateformes."
+      }
+    },
+    "architecture": {
+      "title": "Architecture et Technologie",
+      "subtitle": "Nos plateformes sont construites en utilisant des technologies modernes et éprouvées pour garantir la fiabilité, la sécurité et l'évolutivité.",
+      "items": [
+        "Plateforme cloud Microsoft Azure",
+        ".NET Moderne (6–9) et ASP.NET Core",
+        "APIs REST et systèmes distribués",
+        "Entity Framework Core",
+        "Architecture de microservices",
+        "Haute disponibilité et tolérance aux pannes",
+        "Pratiques CI/CD et DevOps",
+        "Sécurité et protection des données",
+        "Intégration IA quand approprié"
+      ]
+    },
+    "about": {
+      "title": "À propos d'Aegis AO Soft",
+      "description": "Aegis AO Soft développe des plateformes logicielles de production pour les opérations commerciales du monde réel. Notre focus est sur la fiabilité, l'évolutivité et la maintenabilité à long terme — pas des prototypes de courte durée.",
+      "mission": "Nous travaillons avec des organisations qui dépendent du logiciel comme partie centrale de leur activité, en livrant des systèmes conçus pour fonctionner en continu et évoluer avec le temps.",
+      "leadership": "Dirigé par un architecte logiciel vétéran avec des décennies d'expérience dans la construction de systèmes critiques dans diverses industries."
+    },
+    "finalCta": {
+      "title": "Avez-vous un projet ou besoin d'un partenaire technique fiable ?",
+      "button": "Discuter de Votre Projet"
+    },
+    "myEZToll": {
+      "title": "MyEZToll",
+      "subtitle": "Plateforme de Gestion des Péages et Parkings pour les Flottes de Location",
+      "description": "NON multi-tenant (plateforme d'organisation unique). Traitement des paiements de péage, gestion des infractions de stationnement, couverture dans les 50 états américains. Conçu pour les compagnies de location de voitures et les opérateurs de flottes.",
+      "features": {
+        "tollProcessing": "Traitement des paiements de péage",
+        "parkingManagement": "Gestion des infractions de stationnement",
+        "usaCoverage": "Couverture dans les 50 états américains",
+        "fleetOperators": "Conçu pour les compagnies de location de voitures et les opérateurs de flottes",
+        "ownerPortal": "Portail propriétaire pour les workflows de paiement et de disputes"
+      },
+      "learnMore": "En Savoir Plus",
+      "visitSite": "Visiter le Site",
+      "ownerPortal": "Portail Propriétaire"
     }
   },
   "about": {
@@ -329,7 +390,7 @@
           "steps": [
             "Cliquez sur « Ajouter une Catégorie »",
             "Entrez le nom dans votre langue actuelle",
-            "Cochez « Traduire automatiquement » pour les 8 langues",
+            "Cochez « Traduire automatiquement » pour les 10 langues (y compris les langues indigènes)",
             "Le slug est généré automatiquement",
             "Optionnel : catégorie parente pour les sous-catégories",
             "Basculez « Actif » pour la visibilité",
@@ -337,7 +398,7 @@
           ],
           "translations": {
             "title": "Traductions des Catégories",
-            "intro": "Chaque nom est stocké dans les 8 langues :",
+            "intro": "Chaque nom est stocké dans les 10 langues (y compris les langues indigènes) :",
             "items": [
               "Traduction automatique via Google Translate ou Claude AI",
               "L'API renvoie les noms localisés selon la langue de l'utilisateur",
@@ -352,7 +413,7 @@
               "Ouvrir le modal d'édition de catégorie",
               "Faire défiler jusqu'à « Types d'Attributs »",
               "Cliquer sur « Ajouter un Type » — sélectionner existant ou créer nouveau",
-              "Création : noms dans 8 langues (avec drapeaux), slug automatique",
+              "Création : noms dans 10 langues (avec drapeaux culturels), slug automatique",
               "Configurer l'Ordre d'Affichage (hiérarchie) et Obligatoire",
               "Icône engrenage pour gérer les valeurs (ex : Rouge, Bleu pour Couleur)",
               "Chaque valeur supporte les noms multilingues et codes HEX",
@@ -553,7 +614,7 @@
       },
       "languages": {
         "title": "7. Paramètres de Langue",
-        "intro": "La plateforme supporte 8 langues : Portugais (principal), Anglais, Espagnol, Français, Allemand, Italien, Japonais et Russe.",
+        "intro": "La plateforme supporte 10 langues : Portugais (principal), Anglais, Espagnol, Français, Allemand, Italien, Japonais, Russe, plus les langues indigènes Guaraní Mbyá et Nheengatu pour la préservation du patrimoine culturel.",
         "tip": "Remplissez au minimum Portugais et Anglais pour maximiser la portée. Repli : Portugais."
       }
     }
