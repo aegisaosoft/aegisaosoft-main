@@ -1,8 +1,6 @@
-import { useTranslation } from 'react-i18next'
 import { Link } from 'react-router-dom'
 
 export function AegisRentalDetail() {
-  const { t } = useTranslation()
 
   return (
     <main className="product-detail-page">

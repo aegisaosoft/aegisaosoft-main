@@ -159,8 +159,18 @@ export function Home() {
           <p className="section-subtitle">{t('home.architecture.subtitle')}</p>
 
           <div className="tech-grid" style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))', gap: '1.5rem', marginTop: '2rem' }}>
-            {t('home.architecture.items', { returnObjects: true }).map((item, index) => (
-              <div key={index} className="tech-item" style={{ padding: '1rem', backgroundColor: 'var(--card-bg)', borderRadius: '0.5rem', border: '1px solid var(--border)' }}>
+            {[
+              'Microsoft Azure cloud platform',
+              'Modern .NET (6–9) and ASP.NET Core',
+              'REST APIs and distributed systems',
+              'Entity Framework Core',
+              'Microservices architecture',
+              'High availability and fault tolerance',
+              'CI/CD and DevOps practices',
+              'Security and data protection',
+              'AI integration where appropriate'
+            ].map((item, index) => (
+              <div key={index} className="tech-item" style={{ padding: '1rem', backgroundColor: '#f9fafb', borderRadius: '0.5rem', border: '1px solid #e5e7eb' }}>
                 <p>• {item}</p>
               </div>
             ))}
