@@ -14,6 +14,7 @@
 
 
 import { useTranslation } from 'react-i18next'
+import myEZTollLogo from '../assets/myeztoll-logo.png'
 
 export function MyEZToll() {
   const { t } = useTranslation()
@@ -22,7 +23,9 @@ export function MyEZToll() {
     <main className="myeztoll-page">
       <section className="hero">
         <div className="container">
-          <h1>{t('home.myEZToll.title')}</h1>
+          <h1 className="product-logo-heading">
+            <img src={myEZTollLogo} alt={t('home.myEZToll.title')} className="product-logo product-logo-lg" />
+          </h1>
           <h2>{t('home.myEZToll.subtitle')}</h2>
           <p className="subtitle">
             {t('home.myEZToll.description')}
@@ -32,7 +35,7 @@ export function MyEZToll() {
 
       <section className="features">
         <div className="container">
-          <h2>Platform Features</h2>
+          <h2>{t('home.myEZToll.featuresTitle')}</h2>
           <div className="features-grid">
             <div className="feature-card">
               <h3>🚛 {t('home.myEZToll.features.tollProcessing')}</h3>
@@ -41,7 +44,31 @@ export function MyEZToll() {
               <h3>🅿️ {t('home.myEZToll.features.parkingManagement')}</h3>
             </div>
             <div className="feature-card">
+              <h3>🛰️ {t('home.myEZToll.features.gpsTolls')}</h3>
+            </div>
+            <div className="feature-card">
+              <h3>🗺️ {t('home.myEZToll.features.fleetMap')}</h3>
+            </div>
+            <div className="feature-card">
+              <h3>🚨 {t('home.myEZToll.features.gpsAlerts')}</h3>
+            </div>
+            <div className="feature-card">
+              <h3>📐 {t('home.myEZToll.features.geofencing')}</h3>
+            </div>
+            <div className="feature-card">
+              <h3>🔌 {t('home.myEZToll.features.gpsIntegration')}</h3>
+            </div>
+            <div className="feature-card">
+              <h3>🤖 {t('home.myEZToll.features.aiFirst')}</h3>
+            </div>
+            <div className="feature-card">
+              <h3>🧠 {t('home.myEZToll.features.aiRates')}</h3>
+            </div>
+            <div className="feature-card">
               <h3>🇺🇸 {t('home.myEZToll.features.usaCoverage')}</h3>
+            </div>
+            <div className="feature-card">
+              <h3>🇨🇦 {t('home.myEZToll.features.canadaCoverage')}</h3>
             </div>
             <div className="feature-card">
               <h3>🚗 {t('home.myEZToll.features.fleetOperators')}</h3>

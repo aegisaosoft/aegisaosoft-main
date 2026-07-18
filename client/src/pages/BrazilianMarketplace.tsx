@@ -63,7 +63,7 @@ export function BrazilianMarketplace() {
           <h1>{t('brazilianMarketplace.page.title')}</h1>
           <p className="subtitle">{t('brazilianMarketplace.page.subtitle')}</p>
           <div style={{ display: 'flex', justifyContent: 'center', marginTop: '2rem', marginBottom: '2rem' }}>
-            <a href="https://mercadinho25.com/" target="_blank" rel="noopener noreferrer" className="try-now-btn try-now-top" style={{ textDecoration: 'none' }}>Try Now</a>
+            <a href="https://mercadinho25.com/" target="_blank" rel="noopener noreferrer" className="try-now-btn try-now-top" style={{ textDecoration: 'none' }}>{t('brazilianMarketplace.page.tryNow')}</a>
           </div>
           <p>{t('brazilianMarketplace.page.description')}</p>
         </div>
@@ -255,7 +255,7 @@ export function BrazilianMarketplace() {
       <section className="hero" style={{ paddingTop: '2rem', paddingBottom: '2rem' }}>
         <div className="container">
           <div style={{ display: 'flex', justifyContent: 'center', marginTop: '2rem' }}>
-            <a href="https://mercadinho25.com/" target="_blank" rel="noopener noreferrer" className="try-now-btn try-now-bottom" style={{ textDecoration: 'none' }}>Try Now</a>
+            <a href="https://mercadinho25.com/" target="_blank" rel="noopener noreferrer" className="try-now-btn try-now-bottom" style={{ textDecoration: 'none' }}>{t('brazilianMarketplace.page.tryNow')}</a>
           </div>
         </div>
       </section>

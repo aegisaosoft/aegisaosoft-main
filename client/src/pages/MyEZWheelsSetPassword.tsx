@@ -14,43 +14,46 @@
 
 
 import { useState, type FormEvent } from 'react'
+import { useTranslation } from 'react-i18next'
 import '../App.css'
 
-export function VehicleRentalSetPassword() {
+export function MyEZWheelsSetPassword() {
+  const { t } = useTranslation()
   const [email, setEmail] = useState('')
   const [password, setPassword] = useState('')
   const [confirmPassword, setConfirmPassword] = useState('')
-  const [passwordError, setPasswordError] = useState('')
+  // Track the mismatch as a flag so the message re-translates on language change
+  const [passwordMismatch, setPasswordMismatch] = useState(false)
 
   const handlePasswordChange = (value: string) => {
     setPassword(value)
     if (confirmPassword && value !== confirmPassword) {
-      setPasswordError('Passwords do not match')
+      setPasswordMismatch(true)
     } else {
-      setPasswordError('')
+      setPasswordMismatch(false)
     }
   }
 
   const handleConfirmPasswordChange = (value: string) => {
     setConfirmPassword(value)
     if (password && value !== password) {
-      setPasswordError('Passwords do not match')
+      setPasswordMismatch(true)
     } else {
-      setPasswordError('')
+      setPasswordMismatch(false)
     }
   }
 
   const handleSubmit = (e: FormEvent<HTMLFormElement>) => {
     e.preventDefault()
     if (password !== confirmPassword) {
-      setPasswordError('Passwords do not match')
+      setPasswordMismatch(true)
       return
     }
     
     // Use different URLs based on environment
     const baseUrl = import.meta.env.DEV 
       ? 'http://localhost:4000' 
-      : 'https://admin.aegis-rental.com'
+      : 'https://admin.myezwheels.com'
     
     // Open the endpoint with email as username and password as parameters
     window.open(`${baseUrl}/set-new-client?username=${encodeURIComponent(email)}&password=${encodeURIComponent(password)}`, '_blank')
@@ -63,49 +66,49 @@ export function VehicleRentalSetPassword() {
       <section className="hero" style={{ paddingTop: '6rem', paddingBottom: '2rem', minHeight: '60vh', display: 'flex', alignItems: 'center' }}>
         <div className="container">
           <div style={{ maxWidth: '500px', margin: '0 auto' }}>
-            <h1 style={{ textAlign: 'center', marginBottom: '2rem' }}>Set Password</h1>
+            <h1 style={{ textAlign: 'center', marginBottom: '2rem' }}>{t('setPassword.title')}</h1>
             <form className="contact-form" style={{ padding: '2rem' }} onSubmit={handleSubmit}>
               <div className="field">
-                <label htmlFor="email">Email</label>
+                <label htmlFor="email">{t('contact.form.emailLabel')}</label>
                 <input
                   id="email"
                   name="email"
                   type="email"
                   value={email}
                   onChange={(e) => setEmail(e.target.value)}
-                  placeholder="Enter your email"
+                  placeholder={t('setPassword.emailPlaceholder')}
                   required
                   autoComplete="email"
                 />
               </div>
               <div className="field">
-                <label htmlFor="password">Password</label>
+                <label htmlFor="password">{t('setPassword.passwordLabel')}</label>
                 <input
                   id="password"
                   name="password"
                   type="password"
                   value={password}
                   onChange={(e) => handlePasswordChange(e.target.value)}
-                  placeholder="Enter your password"
+                  placeholder={t('setPassword.passwordPlaceholder')}
                   required
                   autoComplete="new-password"
                 />
               </div>
               <div className="field">
-                <label htmlFor="confirmPassword">Retype Password</label>
+                <label htmlFor="confirmPassword">{t('setPassword.confirmPasswordLabel')}</label>
                 <input
                   id="confirmPassword"
                   name="confirmPassword"
                   type="password"
                   value={confirmPassword}
                   onChange={(e) => handleConfirmPasswordChange(e.target.value)}
-                  placeholder="Retype your password"
+                  placeholder={t('setPassword.confirmPasswordPlaceholder')}
                   required
                   autoComplete="new-password"
                 />
-                {passwordError && (
+                {passwordMismatch && (
                   <p className="form-feedback error" style={{ marginTop: '0.5rem', marginBottom: 0 }}>
-                    {passwordError}
+                    {t('setPassword.errors.passwordsDoNotMatch')}
                   </p>
                 )}
               </div>
@@ -115,7 +118,7 @@ export function VehicleRentalSetPassword() {
                 disabled={!isFormValid}
                 style={{ width: '100%', marginTop: '1rem' }}
               >
-                Set
+                {t('setPassword.submit')}
               </button>
             </form>
           </div>

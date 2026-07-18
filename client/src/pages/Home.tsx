@@ -15,6 +15,7 @@
 
 import { Link } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
+import ezMark from '../assets/ez-mark.png'
 import '../App.css'
 
 export function Home() {
@@ -41,83 +42,80 @@ export function Home() {
           <p className="section-subtitle">{t('home.products.subtitle')}</p>
 
           <div className="services-grid">
-            <article className="service-card" style={{ display: 'grid', gridTemplateRows: 'auto auto auto 1fr auto', height: '660px', padding: '1.5rem' }}>
-              <h3 style={{ fontSize: '1.1rem', marginBottom: '0.5rem', gridRow: '1' }}>🚗 Aegis Rental</h3>
-              <p className="product-subtitle" style={{ fontSize: '0.8rem', fontWeight: '600', marginBottom: '0.75rem', color: 'var(--accent)', gridRow: '2' }}>Multi-Tenant SaaS for Car Rental Businesses</p>
-              <p style={{ fontSize: '0.85rem', lineHeight: '1.4', marginBottom: '1rem', gridRow: '3' }}>A comprehensive cloud platform for managing fleets, bookings, customers, and payments across multiple locations and organizations.</p>
+            <article className="service-card" style={{ display: 'grid', gridTemplateRows: 'auto auto auto 1fr auto', minHeight: '660px', padding: '1.5rem' }}>
+              <h3 className="product-card-heading" style={{ fontSize: '1.1rem', marginBottom: '0.5rem', gridRow: '1' }}>
+                <img src={ezMark} alt="" className="product-mark" />
+                MyEZWheels
+              </h3>
+              <p className="product-subtitle" style={{ fontSize: '0.8rem', fontWeight: '600', marginBottom: '0.75rem', color: 'var(--accent)', gridRow: '2' }}>{t('productCards.myEZWheels.home.subtitle')}</p>
+              <p style={{ fontSize: '0.85rem', lineHeight: '1.4', marginBottom: '1rem', gridRow: '3' }}>{t('productCards.myEZWheels.home.description')}</p>
               <div style={{ gridRow: '4', alignSelf: 'start' }}>
                 <ul style={{ fontSize: '0.8rem', lineHeight: '1.3', paddingLeft: '1rem', margin: '0' }}>
-                  <li style={{ marginBottom: '0.3rem' }}>Multi-tenant architecture</li>
-                  <li style={{ marginBottom: '0.3rem' }}>Fleet and reservation management</li>
-                  <li style={{ marginBottom: '0.3rem' }}>5-language support</li>
-                  <li style={{ marginBottom: '0.3rem' }}>AI-powered vehicle search (Claude AI)</li>
-                  <li style={{ marginBottom: '0.3rem' }}>Secure payment processing</li>
-                  <li style={{ marginBottom: '0.3rem' }}>Scalable cloud deployment</li>
+                  {(t('productCards.myEZWheels.home.items', { returnObjects: true }) as string[]).map((item) => (
+                    <li key={item} style={{ marginBottom: '0.3rem' }}>{item}</li>
+                  ))}
                 </ul>
               </div>
               <div className="product-actions" style={{ gridRow: '5', paddingTop: '1rem' }}>
                 <div style={{ marginBottom: '0.5rem' }}>
-                  <Link to="/products/aegis-rental" className="btn btn-primary" style={{ fontSize: '0.8rem', padding: '0.6rem 1.2rem', width: '100%', textAlign: 'center', display: 'block' }}>Learn More</Link>
+                  <Link to="/products/myezwheels" className="btn btn-primary" style={{ fontSize: '0.8rem', padding: '0.6rem 1.2rem', width: '100%', textAlign: 'center', display: 'block' }}>{t('home.products.learnMore')}</Link>
                 </div>
                 <div style={{ marginBottom: '0.5rem' }}>
-                  <a href="https://aegis-rental.com" className="btn btn-secondary" target="_blank" rel="noopener noreferrer" style={{ fontSize: '0.8rem', padding: '0.6rem 1.2rem', width: '100%', textAlign: 'center', display: 'block' }}>Visit Site</a>
+                  <a href="https://myezwheels.com" className="btn btn-secondary" target="_blank" rel="noopener noreferrer" style={{ fontSize: '0.8rem', padding: '0.6rem 1.2rem', width: '100%', textAlign: 'center', display: 'block' }}>{t('home.products.visitSite')}</a>
                 </div>
                 <div style={{ marginBottom: '0.5rem' }}>
-                  <a href="https://aegis-rental.com/demo" className="btn btn-primary" target="_blank" rel="noopener noreferrer" style={{ fontSize: '0.8rem', padding: '0.6rem 1.2rem', width: '100%', textAlign: 'center', display: 'block', backgroundColor: 'var(--accent-hover)' }}>Try Now</a>
+                  <a href="https://myezwheels.com/demo" className="btn btn-primary" target="_blank" rel="noopener noreferrer" style={{ fontSize: '0.8rem', padding: '0.6rem 1.2rem', width: '100%', textAlign: 'center', display: 'block', backgroundColor: 'var(--accent-hover)' }}>{t('productCards.buttons.tryNow')}</a>
                 </div>
               </div>
             </article>
 
-            <article className="service-card" style={{ display: 'grid', gridTemplateRows: 'auto auto auto 1fr auto', height: '660px', padding: '1.5rem' }}>
+            <article className="service-card" style={{ display: 'grid', gridTemplateRows: 'auto auto auto 1fr auto', minHeight: '660px', padding: '1.5rem' }}>
               <h3 style={{ fontSize: '1.1rem', marginBottom: '0.5rem', gridRow: '1' }}>🛒 Mercadinho25</h3>
-              <p className="product-subtitle" style={{ fontSize: '0.8rem', fontWeight: '600', marginBottom: '0.75rem', color: 'var(--accent)', gridRow: '2' }}>Marketplace Platform for Artisan Products</p>
-              <p style={{ fontSize: '0.85rem', lineHeight: '1.5', marginBottom: '1rem', gridRow: '3' }}>A multilingual e-commerce marketplace designed for small businesses and independent producers, with built-in automation for global audiences.</p>
+              <p className="product-subtitle" style={{ fontSize: '0.8rem', fontWeight: '600', marginBottom: '0.75rem', color: 'var(--accent)', gridRow: '2' }}>{t('productCards.mercadinho25.home.subtitle')}</p>
+              <p style={{ fontSize: '0.85rem', lineHeight: '1.5', marginBottom: '1rem', gridRow: '3' }}>{t('productCards.mercadinho25.home.description')}</p>
               <div style={{ gridRow: '4', alignSelf: 'start' }}>
                 <ul style={{ fontSize: '0.8rem', lineHeight: '1.4', paddingLeft: '1rem', margin: '0' }}>
-                  <li style={{ marginBottom: '0.3rem' }}>Multi-tenant marketplace SaaS</li>
-                  <li style={{ marginBottom: '0.3rem' }}>10-language support (including indigenous languages)</li>
-                  <li style={{ marginBottom: '0.3rem' }}>AI automatic translation of product descriptions</li>
-                  <li style={{ marginBottom: '0.3rem' }}>Vendor onboarding and catalog management</li>
-                  <li style={{ marginBottom: '0.3rem' }}>Payment and order processing</li>
-                  <li style={{ marginBottom: '0.3rem' }}>Optimized for international users</li>
+                  {(t('productCards.mercadinho25.home.items', { returnObjects: true }) as string[]).map((item) => (
+                    <li key={item} style={{ marginBottom: '0.3rem' }}>{item}</li>
+                  ))}
                 </ul>
               </div>
               <div className="product-actions" style={{ gridRow: '5', paddingTop: '1rem' }}>
                 <div style={{ marginBottom: '0.5rem' }}>
-                  <Link to="/products/brazilian-marketplace" className="btn btn-primary" style={{ fontSize: '0.8rem', padding: '0.6rem 1.2rem', width: '100%', textAlign: 'center', display: 'block' }}>Learn More</Link>
+                  <Link to="/products/brazilian-marketplace" className="btn btn-primary" style={{ fontSize: '0.8rem', padding: '0.6rem 1.2rem', width: '100%', textAlign: 'center', display: 'block' }}>{t('home.products.learnMore')}</Link>
                 </div>
                 <div style={{ marginBottom: '0.5rem' }}>
-                  <a href="https://mercadinho25.com" className="btn btn-secondary" target="_blank" rel="noopener noreferrer" style={{ fontSize: '0.8rem', padding: '0.6rem 1.2rem', width: '100%', textAlign: 'center', display: 'block' }}>Visit Site</a>
+                  <a href="https://mercadinho25.com" className="btn btn-secondary" target="_blank" rel="noopener noreferrer" style={{ fontSize: '0.8rem', padding: '0.6rem 1.2rem', width: '100%', textAlign: 'center', display: 'block' }}>{t('home.products.visitSite')}</a>
                 </div>
                 <div style={{ marginBottom: '0.5rem' }}>
-                  <a href="https://mercadinho25.com/demo" className="btn btn-primary" target="_blank" rel="noopener noreferrer" style={{ fontSize: '0.8rem', padding: '0.6rem 1.2rem', width: '100%', textAlign: 'center', display: 'block', backgroundColor: 'var(--accent-hover)' }}>Try Now</a>
+                  <a href="https://mercadinho25.com/demo" className="btn btn-primary" target="_blank" rel="noopener noreferrer" style={{ fontSize: '0.8rem', padding: '0.6rem 1.2rem', width: '100%', textAlign: 'center', display: 'block', backgroundColor: 'var(--accent-hover)' }}>{t('productCards.buttons.tryNow')}</a>
                 </div>
               </div>
             </article>
 
-            <article className="service-card" style={{ display: 'grid', gridTemplateRows: 'auto auto auto 1fr auto', height: '660px', padding: '1.5rem' }}>
-              <h3 style={{ fontSize: '1.1rem', marginBottom: '0.5rem', gridRow: '1' }}>🛣️ MyEZToll</h3>
-              <p className="product-subtitle" style={{ fontSize: '0.8rem', fontWeight: '600', marginBottom: '0.75rem', color: 'var(--accent)', gridRow: '2' }}>Toll and Parking Management Platform for Fleet Operators</p>
-              <p style={{ fontSize: '0.85rem', lineHeight: '1.5', marginBottom: '1rem', gridRow: '3' }}>A specialized platform for rental companies and fleet operators to manage toll charges and parking violations across the United States.</p>
+            <article className="service-card" style={{ display: 'grid', gridTemplateRows: 'auto auto auto 1fr auto', minHeight: '660px', padding: '1.5rem' }}>
+              <h3 className="product-card-heading" style={{ fontSize: '1.1rem', marginBottom: '0.5rem', gridRow: '1' }}>
+                <img src={ezMark} alt="" className="product-mark" />
+                MyEZToll
+              </h3>
+              <p className="product-subtitle" style={{ fontSize: '0.8rem', fontWeight: '600', marginBottom: '0.75rem', color: 'var(--accent)', gridRow: '2' }}>{t('productCards.myEZToll.home.subtitle')}</p>
+              <p style={{ fontSize: '0.85rem', lineHeight: '1.5', marginBottom: '1rem', gridRow: '3' }}>{t('productCards.myEZToll.home.description')}</p>
               <div style={{ gridRow: '4', alignSelf: 'start' }}>
                 <ul style={{ fontSize: '0.8rem', lineHeight: '1.4', paddingLeft: '1rem', margin: '0' }}>
-                  <li style={{ marginBottom: '0.3rem' }}>Designed for single organizations (non-multi-tenant)</li>
-                  <li style={{ marginBottom: '0.3rem' }}>Toll payment processing across multiple toll authorities</li>
-                  <li style={{ marginBottom: '0.3rem' }}>Parking violation management across all 50 states</li>
-                  <li style={{ marginBottom: '0.3rem' }}>Automated billing workflows</li>
-                  <li style={{ marginBottom: '0.3rem' }}>Owner portal for payments and dispute handling</li>
-                  <li style={{ marginBottom: '0.3rem' }}>Integration with fleet operations</li>
+                  {(t('productCards.myEZToll.home.items', { returnObjects: true }) as string[]).map((item) => (
+                    <li key={item} style={{ marginBottom: '0.3rem' }}>{item}</li>
+                  ))}
                 </ul>
               </div>
               <div className="product-actions" style={{ gridRow: '5', paddingTop: '1rem' }}>
                 <div style={{ marginBottom: '0.5rem' }}>
-                  <Link to="/products/myeztoll" className="btn btn-primary" style={{ fontSize: '0.8rem', padding: '0.6rem 1.2rem', width: '100%', textAlign: 'center', display: 'block' }}>Learn More</Link>
+                  <Link to="/products/myeztoll" className="btn btn-primary" style={{ fontSize: '0.8rem', padding: '0.6rem 1.2rem', width: '100%', textAlign: 'center', display: 'block' }}>{t('home.products.learnMore')}</Link>
                 </div>
                 <div style={{ marginBottom: '0.5rem' }}>
-                  <a href="https://myeztoll.com" className="btn btn-secondary" target="_blank" rel="noopener noreferrer" style={{ fontSize: '0.8rem', padding: '0.6rem 1.2rem', width: '100%', textAlign: 'center', display: 'block' }}>Visit Site</a>
+                  <a href="https://myeztoll.com" className="btn btn-secondary" target="_blank" rel="noopener noreferrer" style={{ fontSize: '0.8rem', padding: '0.6rem 1.2rem', width: '100%', textAlign: 'center', display: 'block' }}>{t('home.products.visitSite')}</a>
                 </div>
                 <div style={{ marginBottom: '0.5rem' }}>
-                  <a href="https://owner.myeztoll.com" className="btn btn-secondary" target="_blank" rel="noopener noreferrer" style={{ fontSize: '0.8rem', padding: '0.6rem 1.2rem', width: '100%', textAlign: 'center', display: 'block' }}>Owner Portal</a>
+                  <a href="https://owner.myeztoll.com" className="btn btn-secondary" target="_blank" rel="noopener noreferrer" style={{ fontSize: '0.8rem', padding: '0.6rem 1.2rem', width: '100%', textAlign: 'center', display: 'block' }}>{t('home.myEZToll.ownerPortal')}</a>
                 </div>
               </div>
             </article>
@@ -163,7 +161,7 @@ export function Home() {
           </div>
 
           <div className="cta-buttons" style={{ marginTop: '3rem', textAlign: 'center' }}>
-            <Link to="/contact" className="btn btn-primary">Discuss Your Project</Link>
+            <Link to="/contact" className="btn btn-primary">{t('home.cta.primary')}</Link>
           </div>
         </div>
       </section>
@@ -174,17 +172,7 @@ export function Home() {
           <p className="section-subtitle">{t('home.architecture.subtitle')}</p>
 
           <div className="tech-grid" style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))', gap: '1.5rem', marginTop: '2rem' }}>
-            {[
-              'Microsoft Azure cloud platform',
-              'Modern .NET (6–9) and ASP.NET Core',
-              'REST APIs and distributed systems',
-              'Entity Framework Core',
-              'Microservices architecture',
-              'High availability and fault tolerance',
-              'CI/CD and DevOps practices',
-              'Security and data protection',
-              'AI integration where appropriate'
-            ].map((item, index) => (
+            {(t('home.architecture.items', { returnObjects: true }) as string[]).map((item, index) => (
               <div key={index} className="tech-item" style={{ padding: '1rem', backgroundColor: '#f9fafb', borderRadius: '0.5rem', border: '1px solid #e5e7eb' }}>
                 <p>• {item}</p>
               </div>

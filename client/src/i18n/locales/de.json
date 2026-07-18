@@ -73,77 +73,161 @@
     },
     "myEZToll": {
       "title": "MyEZToll",
-      "subtitle": "Maut- und Parkverwaltungsplattform für Mietwagenflotten",
-      "description": "NICHT Multi-Tenant (Einzelorganisationsplattform). Mautzahlungsabwicklung, Parkverstöße-Management, Abdeckung aller 50 US-Bundesstaaten. Entwickelt für Autovermietungen und Flottenbetreiber.",
+      "subtitle": "KI-gestützte Maut-, GPS- und Verstoßplattform für Mietflotten",
+      "description": "NICHT mandantenfähig (Ein-Organisations-Plattform). Mautzahlungsabwicklung, GPS-basierte Mauterkennung, Verstoßverwaltung und Abdeckung aller 50 US-Bundesstaaten sowie Kanadas. Entwickelt für Autovermietungen und Flottenbetreiber.",
       "features": {
         "tollProcessing": "Mautzahlungsabwicklung",
-        "parkingManagement": "Parkverstöße-Management",
+        "parkingManagement": "Verwaltung von Park- und Verkehrsverstößen",
+        "gpsTolls": "GPS-basierte Mauterkennung, pro Buchung berechnet",
+        "fleetMap": "Live-Flottenkarte mit Fahrtenhistorie und Routenwiedergabe",
+        "gpsAlerts": "Abschleppwarnung sowie Zündungs- und Fahrtwarnungen per SMS und E-Mail",
+        "geofencing": "Geofence-Zonen direkt auf der Karte gezeichnet (Kreis oder Polygon)",
+        "gpsIntegration": "GPS-Integrationen von Drittanbietern (Fleet77 und weitere)",
+        "aiFirst": "Erste Mautplattform der Mietwagenbranche mit KI-Agenten im Produktivbetrieb",
+        "aiRates": "KI-Agenten recherchieren und aktualisieren Mauttarife automatisch",
         "usaCoverage": "Abdeckung aller 50 US-Bundesstaaten",
+        "canadaCoverage": "Kanadische Mautstraßen und Verstöße (407 ETR, A25, A30)",
         "fleetOperators": "Entwickelt für Autovermietungen und Flottenbetreiber",
-        "ownerPortal": "Eigentümerportal für Zahlungs- und Streitbeilegungsworkflows"
+        "ownerPortal": "Betreiberportal für Zahlungs- und Einspruchsprozesse"
       },
       "learnMore": "Mehr Erfahren",
-      "visitSite": "Seite Besuchen",
-      "ownerPortal": "Eigentümerportal"
+      "visitSite": "Website Besuchen",
+      "ownerPortal": "Betreiberportal",
+      "featuresTitle": "Plattform-Funktionen"
+    },
+    "vehicleRental": {
+      "title": "Fahrzeugvermietungs-Management",
+      "description": "Vollständige SaaS-Plattform für Autovermietungen mit mandantenfähiger Architektur, Stripe Connect-Integration und automatisierten Abläufen.",
+      "features": {
+        "fleetManagement": "Flottenverwaltung & Verfügbarkeit",
+        "driverVerification": "Fahrerprüfung (BlinkID)",
+        "securityDeposit": "Kautionsabwicklung",
+        "automatedBilling": "Automatisierte Abrechnung",
+        "voiceAI": "🎙️ KI-Sprachassistent für die Fahrzeugauswahl",
+        "socialIntegration": "Vollständige Instagram- & Facebook-Integration"
+      },
+      "learnMore": "Mehr erfahren"
+    },
+    "brazilianMarketplace": {
+      "title": "Mandantenfähige Marktplatz-Plattform für brasilianisches Kunsthandwerk",
+      "description": "Eine cloudbasierte E-Commerce-Plattform, die lokale brasilianische Kunsthandwerker und kleine Händler mit Kunden verbindet, die authentische handgefertigte Artikel, Volkskunst und Alltagsprodukte suchen. Vollständig in Instagram und Facebook für Social Commerce integriert: mandantenfähige Storefronts, Produktkatalogverwaltung, Bestell- und Versandverfolgung, Zahlungsabwicklung über Stripe.",
+      "learnMore": "Mehr erfahren"
     }
   },
   "about": {
-    "whatWeBuild": {
-      "title": "Was Wir Bauen",
-      "subtitle": "Praktische Lösungen für Mietbetriebe und regulatorische Compliance.",
+    "title": "Über Aegis AO Soft",
+    "subtitle": "Sichere, zuverlässige Softwaresysteme für regulierte und geschäftskritische Umgebungen",
+    "intro": {
+      "description": "Aegis AO Soft entwickelt sichere, zuverlässige Softwaresysteme für Organisationen in regulierten und geschäftskritischen Umgebungen. Das Unternehmen ist auf Plattformen spezialisiert, die betriebliche Kontinuität, regulatorische Konformität und die Verarbeitung großer Datenmengen unterstützen.",
+      "leadership": "Gegründet und geführt von einem erfahrenen Softwarearchitekten, verbindet Aegis AO Soft praxisnahe technische Führung mit jahrzehntelanger Erfahrung im Aufbau produktiver Systeme für behördennahe Branchen und komplexe operative Bereiche."
+    },
+    "missionCritical": {
+      "title": "Geschäftskritische Betriebssysteme",
+      "description": "Unsere Arbeit konzentriert sich auf Systeme, die durchgehend und exakt funktionieren müssen – häufig unter regulatorischer Aufsicht oder betrieblichen Einschränkungen.",
+      "areas": {
+        "title": "Typische Bereiche sind:",
+        "fleet": "Flotten- und Transportbetrieb",
+        "payments": "Zahlungs- und Abrechnungssysteme",
+        "compliance": "Compliance- und Reporting-Plattformen",
+        "workflow": "Workflow-Automatisierung für administrative Prozesse",
+        "dataIntensive": "Datenintensive Betriebssoftware"
+      },
+      "design": "Die Lösungen sind auf Zuverlässigkeit, Prüfbarkeit und langfristige Wartbarkeit ausgelegt."
+    },
+    "transportation": {
+      "title": "Transport- und Regulierungstechnologie",
+      "description": "Aegis AO Soft entwickelt Plattformen für fahrzeugbezogene Abläufe und die damit verbundenen regulatorischen Anforderungen.",
       "vehicleRental": {
-        "title": "Fahrzeugvermietung",
-        "description": "Vollständige SaaS-Plattform für Mietunternehmen mit Multi-Tenant-Architektur, Stripe Connect-Integration und automatisierten Abläufen.",
-        "features": {
-          "fleetManagement": "Flottenverwaltung und Verfügbarkeit",
-          "driverVerification": "Fahrerüberprüfung (BlinkID)",
-          "securityDeposit": "Bearbeitung von Sicherheitskautionen",
-          "automatedBilling": "Automatisierte Abrechnung"
-        }
+        "title": "Fahrzeugvermietung und Flottenmanagement",
+        "items": [
+          "Operative Steuerung von Fahrzeugbeständen",
+          "Reservierungs- und Auslastungsverfolgung",
+          "Kunden- und Vertragsverwaltung",
+          "Integration der Zahlungsabwicklung",
+          "Einsatz an mehreren Standorten"
+        ]
       },
-      "complianceAutomation": {
-        "title": "Compliance-Automatisierung",
-        "description": "Intelligente Systeme, die Parkverstöße in mehreren Gemeinden überwachen, analysieren und automatisch lösen.",
-        "features": {
-          "citationScraping": "Erfassung und Analyse von Verstößen",
-          "automatedPayment": "Automatisierte Zahlungsabwicklung",
-          "multiState": "Multi-Staaten-Unterstützung (FL, NJ)",
-          "violationTracking": "Verstoßverfolgung und -berichterstattung"
-        }
+      "tollViolation": {
+        "title": "Maut- und Verstoßmanagement",
+        "items": [
+          "Bündelung von Mautgebühren über mehrere Behörden hinweg",
+          "Bearbeitung von Parkverstößen über Zuständigkeitsgrenzen hinweg",
+          "Abrechnung, Abstimmung und Reporting",
+          "Unterstützung für Organisationen mit landesweiten Flotten"
+        ]
       }
     },
-    "technicalExpertise": {
-      "title": "Technische Expertise",
-      "subtitle": "Bewährter Stack für regulierte Branchen.",
-      "backend": "Node.js, ASP.NET Core, PostgreSQL, Redis",
-      "frontend": "React, TypeScript, Material-UI",
-      "cloud": "Azure App Service, AWS, Docker",
-      "payments": "Stripe Connect, PCI DSS-Compliance",
-      "automation": "Playwright, Puppeteer, geplante Workflows",
-      "security": "AML/KYC, SOX, Multi-Tenant-Isolation"
+    "security": {
+      "title": "Sicherheit, Compliance und Datenintegrität",
+      "description": "Die Systeme werden mit starkem Fokus auf Sicherheits- und Compliance-Anforderungen entwickelt.",
+      "features": [
+        "Kontrollierter Zugriff und Identitätsverwaltung",
+        "Datenschutzpraktiken nach Branchenstandards",
+        "Prüfsichere Protokollierung und Berichterstattung",
+        "Isolationsmechanismen für mandantenfähige Umgebungen",
+        "Compliance-Praktiken für die Zahlungsabwicklung"
+      ]
     },
-    "enterpriseExperience": {
-      "title": "Unternehmenserfahrung",
-      "fxcm": "Über 20 Jahre Aufbau von Finanz-Compliance-Systemen bei FXCM, einschließlich Zahlungsabwicklung, regulatorischer Berichterstattung und Back-Office-Operationen für regulierte Handelsplattformen.",
-      "ctm": "Gründete <ctmLink>CTM</ctmLink> — elektronisches Zolldeklarationssystem für das russische Zollamt.",
-      "huur": "Lieferte die Autovermietungsplattform <huurLink>Huur US</huurLink>, die in mehreren Bundesstaaten operiert.",
-      "blueCliff": "Baute die ASP.NET-API <blueCliffLink>Blue Cliff</blueCliffLink> mit einer PostgreSQL-Datenbank, die ihre Retreat-Planungserfahrungen unterstützt."
+    "technology": {
+      "title": "Technologische Kompetenzen",
+      "description": "Die Plattformen basieren auf modernen, weit verbreiteten Technologien, um Nachhaltigkeit und Interoperabilität zu sichern.",
+      "stack": [
+        "Cloud-Infrastruktur auf Microsoft Azure",
+        "Moderne .NET-Plattform und ASP.NET Core",
+        "Verteilte Servicearchitekturen",
+        "Relationale Datenverwaltungssysteme",
+        "Containerisierte Bereitstellungen",
+        "Automatisierte Überwachung und Diagnose"
+      ],
+      "philosophy": "Bei der Technologiewahl steht langfristige Wartbarkeit über kurzlebigen Trends."
     },
-    "deliveryFramework": {
-      "title": "Lieferrahmen",
-      "subtitle": "Orchestrierte Ausführung von der Entdeckung bis zur Skalierung.",
-      "discover": {
-        "title": "Entdecken",
-        "description": "Technische Anforderungszuordnung, Datenbankschema-Design, API-Spezifikation und Cloud-Architekturplanung."
+    "leadership": {
+      "title": "Führung durch den Gründer und Architekten",
+      "description": "Aegis AO Soft wird direkt technisch geführt und nicht rein administrativ gesteuert.",
+      "experience": "Der Gründer bringt jahrzehntelange Erfahrung im Entwurf und in der Umsetzung komplexer Systeme in regulierten Umgebungen mit, darunter:",
+      "domains": [
+        "Infrastruktur für Finanzdienstleistungen",
+        "Systeme zur Zahlungsabwicklung",
+        "Plattformen für regulatorisches Reporting",
+        "Softwareinitiativen im behördlichen Umfeld",
+        "Transaktionssysteme im großen Maßstab"
+      ],
+      "approach": "Dieser Ansatz sichert architektonische Konsistenz, technische Verantwortung und die schnelle Lösung komplexer Probleme."
+    },
+    "delivery": {
+      "title": "Vorgehen bei der Umsetzung",
+      "description": "Projekte folgen einem disziplinierten Lebenszyklus, der Risiken senkt und die Betriebsbereitschaft sichert.",
+      "assessment": {
+        "title": "Analyse",
+        "items": [
+          "Anforderungsanalyse",
+          "Bewertung von Daten und Abläufen",
+          "Architekturdefinition",
+          "Integrationsplanung"
+        ]
       },
-      "build": {
-        "title": "Bauen",
-        "description": "Inkrementelle Lieferung mit Git-basierten Workflows, containerisierten Bereitstellungen, automatisierten Tests und CI/CD-Pipelines."
+      "implementation": {
+        "title": "Umsetzung",
+        "items": [
+          "Inkrementelle Entwicklung",
+          "Sichere Deployment-Pipelines",
+          "Automatisiertes Testen",
+          "Dokumentation des Systemverhaltens"
+        ]
       },
-      "scale": {
-        "title": "Skalieren",
-        "description": "Leistungsoptimierung, Monitoring-Setup (Application Insights), Sicherheitshärtung und Dokumentation."
+      "operational": {
+        "title": "Betriebsunterstützung",
+        "items": [
+          "Performance-Optimierung",
+          "Überwachung und Alarmierung",
+          "Sicherheitshärtung",
+          "Laufende Wartung und Updates"
+        ]
       }
+    },
+    "commitment": {
+      "title": "Verpflichtung zu Zuverlässigkeit und Verantwortung",
+      "description": "Aegis AO Soft arbeitet mit Organisationen, die verlässliche Systeme und einen langfristigen Technologiepartner benötigen. Unser Ziel sind Lösungen, die über ihren gesamten Betriebslebenszyklus stabil, wartbar und prüfbar bleiben."
     }
   },
   "contact": {
@@ -153,7 +237,8 @@
       "benefits": {
         "seniorEngineer": "Über 30 Jahre Auslieferung von Produktionssystemen",
         "regulatedIndustries": "Erfahrung mit regulierten Branchen (Finanzen, Zoll)",
-        "fullStack": "Full-Stack-Lieferung von der Datenbank bis zur Bereitstellung"
+        "fullStack": "Full-Stack-Lieferung von der Datenbank bis zur Bereitstellung",
+        "usBased": "US-Team mit Sitz in New Jersey"
       },
       "getInTouch": "Kontakt Aufnehmen"
     },
@@ -178,31 +263,43 @@
     }
   },
   "vehicleRental": {
-    "title": "Aegis-Rental: Vollständige Fahrzeugvermietungsplattform",
-    "subtitle": "Starten Sie Ihr Eigenes Mietgeschäft in Minuten",
-    "description": "Aegis-Rental ist eine leistungsstarke Multi-Tenant-SaaS-Plattform, die Fahrzeugvermietungsunternehmen ermöglicht, ihre eigene professionelle Mietwebsite schnell und effizient zu starten. Auf moderner Cloud-Architektur aufgebaut, bietet sie alles, was Sie benötigen, um Ihre Flotte, Kunden und Buchungen ab dem ersten Tag zu verwalten.",
+    "title": "MyEZWheels: Mandantenfähige Storefront-Plattform für Fahrzeugvermietung",
+    "subtitle": "Starten Sie Ihre eigene Mietwebsite mit Ihrer Marke in Minuten",
+    "description": "MyEZWheels ist eine mandantenfähige Storefront-Plattform, mit der Fahrzeugvermieter ihre eigene vollständige, professionelle Buchungswebsite betreiben. Jeder Mandant wird über die Domain erkannt — eine kostenlose Subdomain oder Ihre eigene Wunschdomain — mit getrennter Flotte, Preisen, Markenauftritt und Kundendaten, alles über das Betreiberportal konfigurierbar, ohne eine Zeile Code.",
     "languages": {
-      "title": "🌍 5 Unterstützte Sprachen",
-      "english": "🇺🇸 Englisch",
-      "spanish": "🇪🇸 Spanisch (Español)",
-      "portuguese": "🇵🇹 Portugiesisch (Português)",
-      "french": "🇫🇷 Französisch (Français)",
-      "german": "🇩🇪 Deutsch (Deutsch)",
-      "description": "Alle Interface-Elemente, Buchungsbestätigungen, E-Mail-Benachrichtigungen und Kundenkommunikationen sind vollständig lokalisiert."
+      "title": "🌍 15 Unterstützte Sprachen",
+      "list": [
+        "🇺🇸 English",
+        "🇪🇸 Español",
+        "🇵🇹 Português",
+        "🇫🇷 Français",
+        "🇩🇪 Deutsch",
+        "🇮🇹 Italiano",
+        "🇳🇱 Nederlands",
+        "🇵🇱 Polski",
+        "🇺🇦 Українська",
+        "🇷🇺 Русский",
+        "🇹🇷 Türkçe",
+        "🇸🇦 العربية",
+        "🇨🇳 中文",
+        "🇯🇵 日本語",
+        "🇰🇷 한국어"
+      ],
+      "description": "Die Storefront-Texte liegen in der Datenbank und werden automatisch in alle unterstützten Sprachen übersetzt — Oberfläche, Buchungsbestätigungen und Kunden-E-Mails sind lokalisiert, und Texte lassen sich ohne neues Release ändern."
     },
     "features": {
       "title": "🚗 Vollständige Mietfunktionen",
       "intelligentBooking": {
-        "title": "Intelligente Buchung",
-        "voiceAI": "Sprach-KI-gestützte Suche und Buchung — sprechen Sie natürlich, um Fahrzeuge zu finden und zu reservieren",
+        "title": "Online-Buchung",
+        "vehicleSearch": "Suche nach Kategorie, Standort und Datum mit Live-Preisen",
         "realTimeCalendar": "Echtzeit-Verfügbarkeitskalender mit sofortiger Bestätigung",
-        "smartRecommendations": "Intelligente Fahrzeugempfehlungen basierend auf Kundenbedürfnissen",
+        "seasonalPricing": "Saison- und zeitraumbasierte Preise (täglich, wöchentlich, monatlich)",
         "vinRecognition": "FIN-Nummernerkennung für automatische Fahrzeuginformationen"
       },
       "customerVerification": {
-        "title": "Kundenüberprüfung",
-        "blinkID": "BlinkID-Integration für sofortiges Scannen des Führerscheins (Vorder- und Rückseite)",
-        "dataExtraction": "Automatische Datenextraktion und -validierung",
+        "title": "Fahrerprüfung",
+        "phoneCapture": "QR-Code scannen und den Führerschein mit dem Handy des Kunden fotografieren",
+        "dataExtraction": "PDF417-Barcode-Dekodierung und KI-OCR füllen das Formular automatisch aus",
         "ageVerification": "Alters- und Führerscheinablaufverifizierung",
         "documentStorage": "Sichere Dokumentenspeicherung"
       },
@@ -224,8 +321,8 @@
       "multiTenant": {
         "title": "Multi-Tenant-Architektur",
         "brandedWebsite": "Jedes Mietunternehmen erhält seine eigene Markenwebsite",
-        "customDomains": "Benutzerdefinierte Domains (ihrunternehmen.aegis-rental.com)",
-        "uniqueBranding": "Einzigartiges Branding: Logos, Farben, Kontaktinformationen",
+        "customDomains": "Kostenlose Subdomain (ihrunternehmen.myezwheels.com) oder Ihre eigene Wunschdomain",
+        "uniqueBranding": "Eigenes Branding: Logos, Farben, Bilder und Kontaktdaten",
         "isolatedData": "Isolierte Daten — jeder Mieter sieht nur seine eigenen Informationen",
         "customEmails": "Benutzerdefinierte E-Mail-Adressen für Benachrichtigungen"
       },
@@ -256,12 +353,12 @@
     "techStack": {
       "title": "🛠️ Technologie-Stack",
       "frontend": "React mit modernem responsivem Design",
-      "backend": "ASP.NET Core REST API",
-      "database": "PostgreSQL",
+      "backend": "ASP.NET Core REST-API mit Entity Framework Core",
+      "database": "Azure SQL Server",
       "cloud": "Azure-Hosting mit Auto-Scaling",
       "payments": "Stripe Connect",
-      "documentScanning": "BlinkID SDK",
-      "ai": "Spracherkennung und intelligente Empfehlungen"
+      "documentScanning": "PDF417-Barcode-Dekodierung und KI-Dokumenten-OCR",
+      "ai": "Claude AI für Dokumentenerkennung und Content-Übersetzung"
     },
     "customization": {
       "title": "🎨 MULTIDISZIPLINÄRES DESIGN",
@@ -321,8 +418,13 @@
         "mobileFirst": {
           "title": "Mobile-First Design",
           "description": "Responsives Design optimiert für Brasiliens Smartphone-dominierten Markt"
+        },
+        "socialMedia": {
+          "title": "Instagram- & Facebook-Integration",
+          "description": "Vollständige Social-Commerce-Integration — direkter Verkauf über Instagram Shop und Facebook Marketplace, Synchronisierung von Produktkatalogen und Kundenansprache auf sozialen Plattformen"
         }
-      }
+      },
+      "tryNow": "Jetzt testen"
     }
   },
   "booking": {
@@ -343,7 +445,9 @@
     "vehicleRental": "Fahrzeugvermietung",
     "compliance": "Compliance-Automatisierung",
     "booking": "Buchungsplattformen",
-    "copyright": "© {{year}} Aegis AO Soft. Alle Rechte vorbehalten."
+    "copyright": "© {{year}} Aegis AO Soft. Alle Rechte vorbehalten.",
+    "ein": "EIN",
+    "location": "New Jersey, USA"
   },
   "adminGuide": {
     "sectionTitle": "Administrations- und Verkäuferhandbuch",
@@ -369,7 +473,11 @@
           "customer": "Customer — Durchsuchen, kaufen, Bewertungen schreiben",
           "seller": "Seller — Produkte erstellen/verwalten, Verkäufe einsehen, Bestellungen verwalten",
           "tenantAdmin": "TenantAdmin — Verkäufer, Benutzer, Einstellungen, Kategorien, Zahlungen verwalten",
-          "superAdmin": "SuperAdmin — Multi-Tenant-Verwaltung, Shops erstellen, Vollzugriff"
+          "superAdmin": "SuperAdmin — Multi-Tenant-Verwaltung, Shops erstellen, Vollzugriff",
+          "customerLabel": "Kunde:",
+          "sellerLabel": "Verkäufer:",
+          "tenantAdminLabel": "TenantAdmin:",
+          "superAdminLabel": "SuperAdmin:"
         },
         "dashboard": {
           "title": "Dashboard-Übersicht",
@@ -547,7 +655,10 @@
           "title": "Stripe-Konfiguration",
           "sandbox": "Sandbox: Test-API-Schlüssel (pk_test_..., sk_test_...) → Speichern → Testen → Aktivieren",
           "production": "Produktion: Gleiche Schritte mit Live-Schlüsseln. Gründlich testen. Webhook konfigurieren.",
-          "connect": "Stripe Connect: Jeder Verkäufer durchläuft Onboarding. Automatische Zahlungsaufteilung nach Provision."
+          "connect": "Stripe Connect: Jeder Verkäufer durchläuft Onboarding. Automatische Zahlungsaufteilung nach Provision.",
+          "sandboxLabel": "Sandbox:",
+          "productionLabel": "Produktion:",
+          "connectLabel": "Stripe Connect:"
         },
         "mercadopago": {
           "title": "MercadoPago",
@@ -617,6 +728,858 @@
         "intro": "Die Plattform unterstützt 10 Sprachen: Portugiesisch (Haupt), Englisch, Spanisch, Französisch, Deutsch, Italienisch, Japanisch, Russisch, plus indigene Sprachen Guaraní Mbyá und Nheengatu für Kulturerbe-Bewahrung.",
         "tip": "Füllen Sie mindestens Portugiesisch und Englisch aus. Fallback: Portugiesisch."
       }
+    },
+    "tipLabel": "Tipp:"
+  },
+  "brazilianMarketplaceDetail": {
+    "hero": {
+      "title": "Mercadinho25",
+      "subtitle": "Globaler Marktplatz für brasilianisches Kunsthandwerk",
+      "description": "Verbinden Sie brasilianische Kunsthandwerker über KI-gestützte Übersetzung, Social-Commerce-Integration und mandantenfähige Marktplatzarchitektur mit Kunden weltweit. Starten Sie Ihren Kunsthandwerks-Marktplatz noch heute.",
+      "tryDemo": "Demo testen",
+      "visitMarketplace": "Marktplatz besuchen",
+      "stats": {
+        "languages": {
+          "label": "Sprachen",
+          "note": "+ indigene"
+        },
+        "translation": {
+          "value": "KI",
+          "label": "Übersetzung"
+        },
+        "social": {
+          "value": "Social",
+          "label": "Commerce"
+        },
+        "multiTenant": {
+          "value": "Multi",
+          "label": "Mandant"
+        }
+      }
+    },
+    "whatIs": {
+      "title": "Was ist Mercadinho25?",
+      "paragraph1": "Mercadinho25 ist eine cloudbasierte E-Commerce-Plattform, die lokale brasilianische Kunsthandwerker und kleine Händler mit Kunden verbindet, die authentische handgefertigte Artikel, Volkskunst und Alltagsprodukte suchen.",
+      "paragraph2": "Die mandantenfähige Architektur ermöglicht unabhängigen Verkäufern den Betrieb eigener Storefronts unter einem einheitlichen Marktplatz – jeweils mit anpassbaren Produktkatalogen, Preisen und Versandoptionen."
+    },
+    "audience": {
+      "title": "Für wen ist es gedacht?",
+      "artisans": {
+        "label": "Brasilianische Kunsthandwerker",
+        "text": "die traditionelles Handwerk und Volkskunst schaffen"
+      },
+      "vendors": {
+        "label": "Kleine Händler",
+        "text": "die handgefertigte Waren und regionale Produkte verkaufen"
+      },
+      "operators": {
+        "label": "Marktplatzbetreiber",
+        "text": "die Nischen-E-Commerce-Plattformen starten wollen"
+      },
+      "culturalSellers": {
+        "label": "Verkäufer kultureller Produkte",
+        "text": "mit Fokus auf authentisches brasilianisches Kulturerbe"
+      },
+      "socialCommerce": {
+        "label": "Social-Commerce-Unternehmen",
+        "text": "die Verkäufe über Instagram und Facebook nutzen"
+      }
+    },
+    "capabilities": {
+      "title": "Wichtigste Funktionen",
+      "storefronts": {
+        "title": "Mandantenfähige Storefronts",
+        "description": "Unabhängige Verkäuferkonten mit eigenem Branding, individuellem Storefront-Design und persönlicher Identität."
+      },
+      "languages": {
+        "title": "Unterstützung für 10 Sprachen + indigene Sprachen",
+        "description": "Portugiesisch, Englisch, Spanisch, Französisch, Deutsch, Italienisch, Japanisch, Russisch sowie indigene Sprachen (Guaraní Mbyá, Nheengatu) mit vollständiger Lokalisierung.",
+        "heritage": {
+          "title": "Funktion zum Kulturerbe:",
+          "intro": "Besondere Unterstützung für indigene Sprachen Brasiliens:",
+          "guarani": {
+            "label": "Guaraní Mbyá",
+            "text": "(gn-mby) – traditionelle Guarani-Sprache"
+          },
+          "nheengatu": {
+            "label": "Nheengatu",
+            "text": "(yrl) – Lingua franca des Amazonasgebiets"
+          },
+          "note": "Bewahrung und Förderung der kulturellen und sprachlichen Vielfalt Brasiliens durch Handel"
+        }
+      },
+      "aiTranslation": {
+        "title": "KI-Übersetzung",
+        "description": "Automatische Übersetzung von Produktbeschreibungen mit Google Translate API und Claude AI für maximale Reichweite."
+      },
+      "socialCommerce": {
+        "title": "Social Commerce",
+        "description": "Vollständige Integration von Instagram Shop und Facebook Marketplace — direkter Verkauf über soziale Plattformen."
+      },
+      "payments": {
+        "title": "Zahlungsabwicklung",
+        "description": "Integriertes Stripe und MercadoPago mit Provisionsmodell für den Marktplatz und Auszahlungen an Verkäufer."
+      },
+      "shipping": {
+        "title": "Versandintegration",
+        "description": "Correios-Anbindung für den Versand in Brasilien mit Sendungsverfolgung und Abwicklungskoordination."
+      }
+    },
+    "problems": {
+      "title": "Gelöste Probleme",
+      "globalReach": {
+        "label": "Begrenzte globale Reichweite",
+        "text": "Plattform in 10 Sprachen mit KI-Übersetzung + Unterstützung indigener Sprachen"
+      },
+      "setup": {
+        "label": "Komplexer E-Commerce-Aufbau",
+        "text": "Sofort einsatzbereite Marktplatz-Plattform"
+      },
+      "socialSales": {
+        "label": "Schwieriger Verkauf über soziale Medien",
+        "text": "Integrierter Instagram-/Facebook-Handel"
+      },
+      "payments": {
+        "label": "Hürden bei der Zahlungsabwicklung",
+        "text": "Mehrere Gateways inklusive lokaler Optionen"
+      },
+      "inventory": {
+        "label": "Komplexe Bestandsverwaltung",
+        "text": "Umfassendes System zur Händlerverwaltung"
+      },
+      "mobile": {
+        "label": "Eingeschränktes mobiles Einkaufen",
+        "text": "Responsives Design nach dem Mobile-First-Prinzip"
+      }
+    },
+    "categories": {
+      "title": "Zentrale Produktkategorien"
+    },
+    "social": {
+      "title": "Social-Commerce-Integration",
+      "intro": "Umfassende Social-Commerce-Funktionen, mit denen brasilianische Kunsthandwerker direkt über soziale Medien verkaufen und ein weltweites Publikum erreichen.",
+      "instagram": {
+        "title": "Instagram-Shop-Integration",
+        "items": [
+          "Automatische Synchronisierung des Produktkatalogs mit Instagram Shop",
+          "Direkter Checkout innerhalb der Instagram-App",
+          "Produkt-Tagging in Beiträgen und Stories",
+          "Automatisierte Bestandsaktualisierungen",
+          "Mehrsprachige Produktbeschreibungen",
+          "Integrierte Verfolgung der Auftragsabwicklung"
+        ]
+      },
+      "facebook": {
+        "title": "Facebook-Marketplace-Integration",
+        "items": [
+          "Automatische Produktangebote auf Facebook Marketplace",
+          "Shop-Integration in die Facebook-Unternehmensseite",
+          "Zielgerichtete Werbung für Kunsthandwerksprodukte",
+          "Synchronisierung von Kundenbewertungen und Ratings",
+          "Kundensupport über Facebook Messenger",
+          "Anlassbezogene Werbekampagnen"
+        ]
+      },
+      "whatsapp": {
+        "title": "WhatsApp-Business-Integration",
+        "items": [
+          "WhatsApp-Kontaktschaltfläche auf Produktseiten",
+          "Individuelle WhatsApp-Nummern je Verkäufer",
+          "Automatisierte Bestellbestätigungen über WhatsApp",
+          "Teilen des Produktkatalogs über WhatsApp",
+          "Kundensupport und Anfragen",
+          "Benachrichtigungen zum Lieferstatus"
+        ]
+      },
+      "analytics": {
+        "title": "Plattformübergreifende Analysen",
+        "items": [
+          "Einheitliches Analyse-Dashboard für alle Plattformen",
+          "Verfolgung der Performance in sozialen Medien",
+          "Plattformübergreifende Umsatzzuordnung",
+          "Abbildung der Customer Journey",
+          "ROI-Verfolgung für Social-Media-Kampagnen",
+          "Automatisierte Berichte und Auswertungen"
+        ]
+      },
+      "heritage": {
+        "title": "Bewahrung des Kulturerbes",
+        "intro": "Über den kommerziellen Erfolg hinaus bewahrt Mercadinho25 aktiv die kulturelle und sprachliche Vielfalt Brasiliens.",
+        "supportTitle": "Unterstützung indigener Sprachen:",
+        "guarani": {
+          "label": "Guaraní Mbyá",
+          "text": "(gn-mby) – heilige Sprache des Guarani-Volkes"
+        },
+        "nheengatu": {
+          "label": "Nheengatu",
+          "text": "(yrl) – Lingua franca des Amazonasgebiets, \"gute Sprache\""
+        },
+        "note": "Indigene Kunsthandwerker können ihre Arbeiten in ihrer Muttersprache präsentieren – so bleibt die kulturelle Identität erhalten, während globale Märkte erreicht werden."
+      }
+    },
+    "tech": {
+      "title": "Technologie-Stack",
+      "frontend": {
+        "title": "Frontend",
+        "description": "React, TypeScript, Material-UI"
+      },
+      "backend": {
+        "title": "Backend",
+        "description": "Node.js RESTful API, mandantenfähige Architektur"
+      },
+      "database": {
+        "title": "Datenbank",
+        "description": "PostgreSQL mit Mandantenisolierung"
+      },
+      "cloud": {
+        "title": "Cloud",
+        "description": "Azure App Service, automatische Skalierung"
+      },
+      "ai": {
+        "title": "KI & Übersetzung",
+        "description": "Google Translate API, Claude AI"
+      },
+      "integration": {
+        "title": "Integration",
+        "description": "Instagram Graph API, Facebook Business API, MercadoPago"
+      }
+    },
+    "tenants": {
+      "title": "Beispiele aktiver Mandanten",
+      "intro": "Sehen Sie, wie unabhängige Verkäufer innerhalb des Marktplatzes ihre eigenen Storefronts mit eigenem Branding aufbauen. Jeder Mandant steuert Branding, Produkte und Kundenerlebnis vollständig selbst.",
+      "alex": {
+        "title": "Alex' Kunsthandwerk-Werkstatt",
+        "description": "Traditionelle brasilianische Keramik und Töpferwaren. Storefront mit eigenem Branding, individuellem Design und persönlichem Kundenerlebnis.",
+        "linkLabel": "Alex' Shop besuchen"
+      },
+      "joanna": {
+        "title": "Joannas Textilgalerie",
+        "description": "Handgewebte Textilien und Stickereien aus São Paulo. Zeigt individuelles Branding mit Social-Media-Integration und mehrsprachiger Unterstützung.",
+        "linkLabel": "Joannas Shop besuchen"
+      },
+      "callout": {
+        "label": "Mandantenfähige Architektur:",
+        "text": "Jeder Verkäufer erhält eine eigene Subdomain, eigenes Branding, isolierte Daten und volle Kontrolle über die Storefront — alles über eine einzige Plattform verwaltet."
+      }
+    },
+    "adminGuideCta": {
+      "buttonLabel": "Vollständiges Admin-Handbuch ansehen"
+    },
+    "cta": {
+      "title": "Bereit, Kunsthandwerker mit globalen Märkten zu verbinden?",
+      "description": "Starten Sie Ihren eigenen brasilianischen Kunsthandwerks-Marktplatz mit integriertem Social Commerce und KI-Übersetzung.",
+      "startMarketplace": "Marktplatz starten",
+      "visitSite": "Website besuchen",
+      "sellerGuide": "Verkäuferhandbuch"
     }
+  },
+  "myEZTollDetail": {
+    "hero": {
+      "title": "KI-gestützte Maut-, GPS- und Verstoßplattform für Mietwagenflotten",
+      "subtitle": "Enterprise-Plattform, speziell für Autovermietungen und Flottenbetreiber entwickelt, um Mautabwicklung, GPS-basierte Mauterkennung und Verstoßmanagement in allen 50 US-Bundesstaaten und Kanada zu automatisieren — die erste Maut- und Verstoßplattform der Vermietbranche, die KI-Agenten produktiv einsetzt."
+    },
+    "whatIs": {
+      "title": "Was ist MyEZToll?",
+      "p1": "MyEZToll ist eine spezialisierte Plattform für einzelne Organisationen (NICHT mandantenfähig), die ausschließlich für Autovermietungen und Flottenbetreiber entwickelt wurde, die ein umfassendes Maut-, GPS- und Verstoßmanagement benötigen.",
+      "p2": "Anders als generische Lösungen bietet MyEZToll eine dedizierte Infrastruktur für einzelne Flottenbetreiber mit voller Kontrolle über ihre Mautabwicklung und Verstoßprozesse in allen 50 US-Bundesstaaten und Kanada.",
+      "p3": "Die Plattform arbeitet in beide Richtungen: Sie erfasst Gebühren von Mautbehörden und Bußgeldstellen und berechnet Mautgebühren zugleich eigenständig aus GPS-Fahrzeugspuren — eine Fahrt wird also bereits bei der Durchfahrt unter dem Mautportal bepreist, lange bevor die Rechnung der Behörde eintrifft."
+    },
+    "forWhom": {
+      "title": "Für wen ist es gedacht?",
+      "items": [
+        {
+          "label": "Autovermietungen",
+          "text": "mit Betrieb in mehreren Bundesstaaten"
+        },
+        {
+          "label": "Flottenmanagement-Unternehmen",
+          "text": "mit mautintensiven Strecken"
+        },
+        {
+          "label": "Enterprise-Flottenbetreiber",
+          "text": "die automatisierte Compliance suchen"
+        },
+        {
+          "label": "Vermietungs-Franchises",
+          "text": "die zentrales Mautmanagement benötigen"
+        },
+        {
+          "label": "Firmenflotten",
+          "text": "mit häufigen Fahrten auf Mautstraßen"
+        }
+      ]
+    },
+    "capabilities": {
+      "title": "Wichtigste Funktionen",
+      "cards": {
+        "automatedToll": {
+          "title": "Automatisierte Mautabwicklung",
+          "text": "Nahtlose Verarbeitung von Mautgebühren über mehrere Bundesstaaten hinweg mit automatischer Abstimmung und Zahlung."
+        },
+        "parkingViolations": {
+          "title": "Management von Parkverstößen",
+          "text": "Umfassende Verfolgung und Einspruchsprozesse für Parkverstöße mit automatisierter Klärung."
+        },
+        "gpsTolling": {
+          "title": "GPS-basierte Mauterfassung",
+          "text": "GPS-Fahrzeugspuren werden mit einer Datenbank realer Mautstellen und Mautportale abgeglichen und je Buchung bepreist — die Maut ergibt sich aus der Fahrt selbst, nicht erst aus der Behördenrechnung."
+        },
+        "towingAlerts": {
+          "title": "Abschlepp- & Flottenalarme",
+          "text": "Sofortige SMS- und E-Mail-Alarme bei Abschleppen, Zündung ein/aus und Fahrtende — zugestellt an den Betreiber, den aktiven Mieter oder beide."
+        },
+        "thirdPartyGps": {
+          "title": "Integration von Drittanbieter-GPS",
+          "text": "Modulare Telematik-Integrationen — Fleet77 und weitere — bringen Fahrzeuge und Positionen externer Tracker gemeinsam mit unseren eigenen Geräten in eine Flottenansicht."
+        },
+        "aiRateResearch": {
+          "title": "KI-Recherche von Mauttarifen",
+          "text": "KI-Agenten recherchieren eigenständig die Quellen der Mautbehörden, erkennen Tarifänderungen und halten die Mautpreise der Plattform ohne manuelle Eingabe aktuell."
+        },
+        "coverage": {
+          "title": "Abdeckung USA & Kanada",
+          "text": "Alle 50 US-Bundesstaaten sowie kanadische Mautstraßen und Verstöße, darunter Highway 407 ETR, A25 und A30."
+        },
+        "ownerPortal": {
+          "title": "Self-Service-Portal für Betreiber",
+          "text": "Eigenes Portal, in dem Fahrzeughalter Zahlungen und Einspruchsprozesse selbstständig abwickeln."
+        },
+        "analytics": {
+          "title": "Flottenanalysen",
+          "text": "Umfassendes Reporting und Analysen zu Mautkosten, Verstoßtrends und Flottenleistung."
+        },
+        "automation": {
+          "title": "Intelligente Automatisierung",
+          "text": "KI-gestützte Auswertung von Bescheiden und automatisierte Zahlungsabwicklung mit minimalem manuellem Aufwand."
+        }
+      }
+    },
+    "problems": {
+      "title": "Gelöste Probleme",
+      "items": [
+        {
+          "label": "Manuelle Mautabstimmung",
+          "text": "→ Automatisierte Abwicklung in allen Bundesstaaten"
+        },
+        {
+          "label": "Rückstau bei Parkverstößen",
+          "text": "→ Intelligente Auswertung und Einspruchsverwaltung"
+        },
+        {
+          "label": "Komplexe Compliance über Bundesstaaten hinweg",
+          "text": "→ Einheitliche Abdeckung aller 50 Staaten und Kanadas"
+        },
+        {
+          "label": "Maut erst Wochen später bekannt",
+          "text": "→ GPS-basierte Erkennung bepreist die Fahrt sofort"
+        },
+        {
+          "label": "Veraltete Mauttarife",
+          "text": "→ KI-Agenten verfolgen Tarifänderungen der Behörden laufend"
+        },
+        {
+          "label": "Gemischte Tracker-Hardware",
+          "text": "→ GPS-Drittanbieter in einer Flottenansicht integriert"
+        },
+        {
+          "label": "Belastung des Kundenservice",
+          "text": "→ Self-Service-Portal für Betreiber bei Einsprüchen"
+        },
+        {
+          "label": "Administrativer Aufwand",
+          "text": "→ Automatisierte Abläufe und Benachrichtigungen"
+        },
+        {
+          "label": "Mangelnde Kostentransparenz",
+          "text": "→ Reporting und Analysen in Echtzeit"
+        }
+      ]
+    },
+    "ai": {
+      "title": "Künstliche Intelligenz im Flottenbetrieb",
+      "intro": "MyEZToll ist die erste Maut- und Verstoßplattform der Fahrzeugvermietbranche, die KI-Agenten produktiv einsetzt — nicht als Chatbot auf der Oberfläche, sondern als Software, die die operative Arbeit erledigt.",
+      "cards": {
+        "rateResearch": {
+          "title": "Autonome Recherche von Mauttarifen",
+          "items": [
+            "KI-Agenten lesen Quellen und Tariftabellen der Mautbehörden",
+            "Erkennen Tarifänderungen und neue Anlagen automatisch",
+            "Aktualisieren Preise je Mautstelle und je Start-Ziel-Relation in der Plattform",
+            "Selbstheilend: Wiederholungen, alternative Quellen, Prüfläufe",
+            "Testlauf zur Kontrolle, bevor eine Preisänderung übernommen wird"
+          ]
+        },
+        "documents": {
+          "title": "Dokumenten- & Bescheidauswertung",
+          "items": [
+            "KI-Auswertung von Verstoßbescheiden und Mautabrechnungen",
+            "Führerscheinerfassung mit KI-OCR und Barcode-Decodierung",
+            "Automatische Extraktion von Kennzeichen, Daten, Beträgen und Zuständigkeiten",
+            "Strukturierte Daten statt manueller Neuerfassung"
+          ]
+        },
+        "tripMatching": {
+          "title": "Zuordnung von Fahrten & Gebühren",
+          "items": [
+            "Automatische Zuordnung von Mautgebühren zu Fahrzeugen und Buchungen",
+            "GPS-Spuren aufgelöst nach konkreten Mautstellen, Portalen und Fahrtrichtungen",
+            "Erkennung von Dubletten und Fehlzuordnungen über alle Datenquellen",
+            "Gebühren werden ohne manuelle Prüfung dem richtigen Mieter zugeordnet"
+          ]
+        }
+      }
+    },
+    "gps": {
+      "title": "GPS-Tracking, Mauterfassung & Alarme",
+      "intro": "Eine vollständige Telematikschicht in der Plattform: Live-Flottenortung, Fahrtenhistorie, Geofencing und Echtzeit-Alarme — mit unseren eigenen Trackern und GPS-Drittanbietern zugleich, und mit direkter Mautbepreisung aus der Fahrzeugbewegung.",
+      "cards": {
+        "derivedTolls": {
+          "title": "GPS-abgeleitete Maut",
+          "items": [
+            "Landesweite Datenbank von Mautstellen und Mautportalen mit Koordinaten",
+            "Ticketsysteme mit Ein-/Ausfahrt bepreist über Start-Ziel-Matrizen",
+            "Richtungsgenaue Zuordnung bei Brücken und Tunneln in beide Richtungen",
+            "Mautsummen je Buchung, berechnet unmittelbar nach Mietende",
+            "Abstimmung mit den Behördenrechnungen, sobald diese eintreffen",
+            "Mautstellen als Kartenebene über der tatsächlich gefahrenen Route"
+          ]
+        },
+        "liveMap": {
+          "title": "Live-Karte & Fahrtenhistorie",
+          "items": [
+            "Live-Flottenkarte mit aktueller Position jedes erfassten Fahrzeugs",
+            "Fahrterkennung mit Start, Ende, Dauer und Routenverlauf",
+            "Routenwiedergabe je Fahrzeug und je Buchung",
+            "Mautereignisse angezeigt an der Fahrt, aus der sie stammen",
+            "Fahrtansicht direkt aus einer Buchung oder einem Fahrzeugdatensatz"
+          ]
+        },
+        "alerts": {
+          "title": "Echtzeit-Alarme",
+          "labeledItems": [
+            {
+              "label": "Abschlepp-Erkennung",
+              "text": "— das Fahrzeug wird abgeschleppt"
+            },
+            {
+              "label": "Zündung EIN",
+              "text": "— Fahrzeug gestartet"
+            },
+            {
+              "label": "Zündung AUS",
+              "text": "— Fahrzeug abgestellt"
+            },
+            {
+              "label": "Fahrt beendet",
+              "text": "— das Fahrzeug hat seine Fahrt beendet"
+            }
+          ],
+          "items": [
+            "Jeder Alarm per SMS und/oder E-Mail zugestellt",
+            "Zugestellt an den Betreiber, den aktiven Mieter oder beide",
+            "Jeder Alarmtyp einzeln aktivierbar oder deaktivierbar"
+          ]
+        },
+        "theft": {
+          "title": "Diebstahl & Wiederbeschaffung",
+          "items": [
+            "Abschlepp-Alarm binnen Sekunden nach dem Abtransport des Fahrzeugs",
+            "Eigene Erkennung unterscheidet eine echte Fahrt vom Abschleppen",
+            "Betreiber wird sofort benachrichtigt und kann die Position live verfolgen",
+            "Vollständige Positionshistorie für Polizeiberichte und Versicherungsfälle",
+            "Geofence-Zonen melden Bewegungen außerhalb des vereinbarten Gebiets"
+          ]
+        },
+        "geofencing": {
+          "title": "Geofencing",
+          "items": [
+            "Zonen direkt auf der Karte zeichnen — Kreise oder Polygone",
+            "Kreisförmige Zonen über Mittelpunkt und Radius",
+            "Freie Polygone für Stellplätze, Stadtteile und Einsatzgebiete",
+            "Zonen je Flotte bearbeitbar und verwaltbar"
+          ]
+        },
+        "externalProviders": {
+          "title": "Externe GPS-Anbieter",
+          "items": [
+            "Plugin-Architektur für Telematikplattformen von Drittanbietern",
+            "Fleet77-Integration im Produktivbetrieb, weitere Anbieter folgen",
+            "Fahrzeuge und Positionshistorie werden importiert und synchron gehalten",
+            "Eigene und Drittanbieter-Tracker nebeneinander in einer Flottenansicht",
+            "Alarmregeln der Anbieter in unserer Oberfläche: Geschwindigkeit, Leerlauf, Halt, außerhalb der Geschäftszeiten, Abschleppen, schwache Batterie, Verbindungsverlust, GPS-Verlust, starke Beschleunigung, Motorkontrollleuchte, Wartung, Inaktivität"
+          ]
+        },
+        "devices": {
+          "title": "Geräte & Diagnose",
+          "items": [
+            "Zuweisung und Übertragung von Trackern zwischen Fahrzeugen",
+            "Gerätezustand: letzte Ortung, Meldelücken, Konnektivität",
+            "Ansichten nach Funktionsumfang — der Signalsatz jedes Anbieters",
+            "Klare Trennung zwischen unseren Geräten und denen Dritter",
+            "Rohpositionsdaten aufbewahrt für Audit und Einspruchsnachweise"
+          ]
+        }
+      }
+    },
+    "keyFeatures": {
+      "title": "Wichtige Funktionen",
+      "cards": {
+        "singleOrg": {
+          "title": "Architektur für eine einzelne Organisation",
+          "text": "Dedizierte Plattform für einzelne Flottenbetreiber mit vollständiger Datenisolierung und individuellen Abläufen."
+        },
+        "government": {
+          "title": "Behördenanbindung",
+          "text": "Direkte Anbindung an die DMV-Systeme der Bundesstaaten und an kommunale Parkbehörden für Echtzeitdaten."
+        },
+        "canadian": {
+          "title": "Betrieb in Kanada",
+          "text": "Kanadische Mautstraßen und Verstöße werden gemeinsam mit US-Gebühren verarbeitet — Highway 407 ETR, A25 und A30 — grenzüberschreitende Vermietungen laufen in einem Prozess."
+        },
+        "connectors": {
+          "title": "Konnektoren zu Mautbehörden",
+          "text": "Dutzende Integrationen zu Maut- und Bußgeldbehörden, laufend betriebsbereit gehalten, sodass Gebühren ohne manuelle Portal-Logins erfasst werden."
+        },
+        "costOptimization": {
+          "title": "Kostenoptimierung",
+          "text": "Intelligente Routenvorschläge und Mautkostenanalyse zur Senkung der Betriebskosten."
+        },
+        "mobile": {
+          "title": "Mobiler Zugriff",
+          "text": "Mobil optimierte Oberfläche für Flottenmanagement und Verstoßbearbeitung unterwegs."
+        }
+      }
+    },
+    "tech": {
+      "title": "Technologie-Stack",
+      "cards": {
+        "frontend": {
+          "title": "Frontend",
+          "text": "React, responsives Design"
+        },
+        "backend": {
+          "title": "Backend",
+          "text": "ASP.NET Core, robuste API-Architektur"
+        },
+        "database": {
+          "title": "Datenbank",
+          "text": "Azure SQL Server, optimierte Abfragen"
+        },
+        "ai": {
+          "title": "KI",
+          "text": "Claude AI-Agenten für Tarifrecherche, Dokumenten-OCR und Auswertung"
+        },
+        "gps": {
+          "title": "GPS & Telematik",
+          "text": "Eigene Tracker plus Drittanbieter (Fleet77) über Plugins"
+        },
+        "cloud": {
+          "title": "Cloud",
+          "text": "Microsoft Azure, Hochverfügbarkeit"
+        },
+        "automation": {
+          "title": "Automatisierung",
+          "text": "Playwright, Puppeteer Web-Scraping"
+        },
+        "security": {
+          "title": "Sicherheit",
+          "text": "Sicherheit auf Enterprise-Niveau, AML-Compliance"
+        }
+      }
+    },
+    "cta": {
+      "title": "Bereit, Ihren Flottenbetrieb zu automatisieren?",
+      "text": "Beenden Sie manuelle Mautabwicklung und Parkverstoß-Verwaltung mit unserer Enterprise-Lösung.",
+      "requestDemo": "Demo anfragen",
+      "visitSite": "Website besuchen",
+      "ownerPortal": "Betreiberportal"
+    }
+  },
+  "myEZWheelsDetail": {
+    "hero": {
+      "tagline": "Mandantenfähige Storefront-Plattform für die Fahrzeugvermietung",
+      "subtitle": "Starten Sie Ihre eigene Vermietwebsite mit eigenem Branding auf Ihrer Domain. Mandantenfähige Architektur mit datenbankgestützten Inhalten, Storefronts in 15 Sprachen, Führerscheinerfassung per Smartphone und automatisierten Zahlungen.",
+      "tryDemo": "Demo testen",
+      "visitPlatform": "Plattform besuchen",
+      "stats": {
+        "languages": "Sprachen",
+        "multi": "Multi",
+        "tenant": "Mandant",
+        "ai": "KI",
+        "powered": "gestützt",
+        "cloud": "Cloud",
+        "native": "nativ"
+      }
+    },
+    "whatIs": {
+      "title": "Was ist MyEZWheels?",
+      "p1": "MyEZWheels ist eine mandantenfähige Storefront-Plattform, mit der eine Autovermietung eine vollständige, professionelle Buchungswebsite starten kann, ohne sie selbst zu entwickeln. Jeder Mandant wird über den Hostnamen aufgelöst, sodass jedes Unternehmen unter eigener Adresse mit eigener Flotte, eigenen Preisen, eigenem Branding und eigenen Kundendaten arbeitet — vollständig von allen anderen Mandanten isoliert.",
+      "p2": "Starten Sie auf einer kostenlosen Subdomain (yourcompany.myezwheels.com) und wechseln Sie jederzeit auf Ihre eigene Domain. Logos, Farben, Bilder, Seiteninhalte und Kontaktdaten der Standorte sind vollständig im Betreiberportal konfigurierbar — ohne erneutes Deployment, ohne Entwickler."
+    },
+    "forWhom": {
+      "title": "Für wen ist es gedacht?",
+      "items": {
+        "rentalCompanies": {
+          "label": "Autovermietungen",
+          "text": "die ihre Abläufe digitalisieren wollen"
+        },
+        "fleetOperators": {
+          "label": "Flottenbetreiber",
+          "text": "die Direktvermietung an Kunden anbieten wollen"
+        },
+        "entrepreneurs": {
+          "label": "Gründer",
+          "text": "die ein neues Vermietgeschäft aufbauen"
+        },
+        "existingBusinesses": {
+          "label": "Bestehende Vermietunternehmen",
+          "text": "die Altsysteme modernisieren wollen"
+        },
+        "multiLocationChains": {
+          "label": "Vermietketten mit mehreren Standorten",
+          "text": "die zentrale Verwaltung benötigen"
+        },
+        "p2pHosts": {
+          "label": "Peer-to-Peer-Anbieter",
+          "text": "die von reiner Marktplatz-Distribution zu Direktbuchungen wechseln"
+        }
+      }
+    },
+    "capabilities": {
+      "title": "Wichtigste Funktionen",
+      "storefronts": {
+        "title": "Mandantenfähige Storefronts",
+        "text": "Mandant über den Host aufgelöst — Subdomain oder eigene Domain — mit isolierter Flotte, Buchungen, Kunden und Branding je Unternehmen."
+      },
+      "languages": {
+        "title": "Storefronts in 15 Sprachen",
+        "text": "Sämtliche Storefront-Texte liegen in der Datenbank und werden maschinell in 15 Sprachen übersetzt, sodass Formulierungen ohne Code-Release änderbar sind."
+      },
+      "license": {
+        "title": "Führerscheinerfassung per Smartphone",
+        "text": "Der Mieter scannt einen QR-Code und fotografiert seinen Führerschein mit dem Smartphone. PDF417-Barcode-Decodierung und KI-OCR füllen das Formular live aus."
+      },
+      "payments": {
+        "title": "Zahlungen über Stripe Connect",
+        "text": "Kartenzahlungen, Kautionen und automatisierte Auszahlungen auf das eigene Stripe-Konto der Autovermietung, mit Unterstützung mehrerer Währungen."
+      },
+      "fleet": {
+        "title": "Flotten- & Kategorieverwaltung",
+        "text": "Fahrzeugbestand, Kategorien, Fotogalerien, Saisonpreise, Verfügbarkeit und Konfiguration je Standort."
+      },
+      "integrations": {
+        "title": "Plattform-Integrationen",
+        "text": "Buchungen werden mit externen Plattformen synchronisiert, und Maut-, Verstoß- sowie GPS-Daten fließen aus MyEZToll ein — für ein einheitliches Betriebsbild."
+      }
+    },
+    "problems": {
+      "title": "Gelöste Probleme",
+      "items": {
+        "noDirectChannel": {
+          "label": "Kein direkter Vertriebskanal",
+          "text": "Eigene Buchungsseite mit Ihrem Branding auf Ihrer Domain"
+        },
+        "manualBooking": {
+          "label": "Manuelle Buchungsprozesse",
+          "text": "Verfügbarkeit in Echtzeit mit sofortiger Online-Reservierung"
+        },
+        "paperVerification": {
+          "label": "Papierbasierte Prüfung",
+          "text": "Führerschein-Scan per Smartphone mit automatischer Datenübernahme"
+        },
+        "complexPayments": {
+          "label": "Komplexe Zahlungsabwicklung",
+          "text": "Integriertes Stripe Connect mit Kautionen und automatischen Auszahlungen"
+        },
+        "languageBarriers": {
+          "label": "Sprachbarrieren",
+          "text": "Storefront-Inhalte aus der Datenbank in 15 Sprachen übersetzt"
+        },
+        "contentNeedsDeveloper": {
+          "label": "Inhaltsänderungen brauchen Entwickler",
+          "text": "Seiten, Texte, Bilder und Kontakte im Betreiberportal bearbeitbar"
+        },
+        "highDevCosts": {
+          "label": "Hohe Entwicklungskosten",
+          "text": "Startfertige Plattform statt individueller Entwicklung"
+        }
+      }
+    },
+    "brand": {
+      "title": "Ihre Marke, Ihre Domain",
+      "intro": "Jede Storefront wird konfiguriert, nicht programmiert. Mandanten steuern Aussehen und Texte ihrer Website, ohne die Plattform anzufassen.",
+      "domains": {
+        "title": "Domains & Branding",
+        "items": [
+          "Kostenlose Subdomain: yourcompany.myezwheels.com",
+          "Eigene Domain nutzbar",
+          "Logos, Hero-Bilder und Design-Assets hochladen",
+          "Individuelle Farbschemata und Themes",
+          "Adressen, Telefonnummern und Kontakte je Standort"
+        ]
+      },
+      "content": {
+        "title": "Datenbankgestützte Inhalte",
+        "items": [
+          "Storefront-Texte als bearbeitbare Inhaltspakete gespeichert",
+          "Automatische Übersetzung in 15 Sprachen",
+          "Eigene Mandantenseiten (AGB, FAQ, Über uns, Richtlinien)",
+          "Jede Formulierung je Mandant überschreibbar",
+          "Änderungen gehen ohne Deployment live"
+        ]
+      },
+      "booking": {
+        "title": "Buchungs- & Compliance-Prozess",
+        "items": [
+          "Führerschein-Scan und -Prüfung bei der Buchung",
+          "Mietverträge und erforderliche Freigaben",
+          "Autorisierung und Freigabe der Kaution",
+          "Automatisierte Buchungs- und Erinnerungs-E-Mails",
+          "Maut- und Verstoßgebühren an den Mieter weitergeleitet"
+        ]
+      }
+    },
+    "tech": {
+      "title": "Technologie-Stack",
+      "frontend": {
+        "title": "Frontend",
+        "text": "React, TypeScript, modernes responsives Design"
+      },
+      "backend": {
+        "title": "Backend",
+        "text": "ASP.NET Core REST API, Entity Framework Core"
+      },
+      "database": {
+        "title": "Datenbank",
+        "text": "Azure SQL Server"
+      },
+      "cloud": {
+        "title": "Cloud",
+        "text": "Microsoft Azure, automatisch skalierende App Services"
+      },
+      "payments": {
+        "title": "Zahlungen",
+        "text": "Stripe Connect, Unterstützung mehrerer Währungen"
+      },
+      "ai": {
+        "title": "KI & Automatisierung",
+        "text": "Claude AI für Dokumenten-OCR und Inhaltsübersetzung"
+      }
+    },
+    "cta": {
+      "title": "Bereit, Ihr Vermietgeschäft zu starten?",
+      "text": "Bringen Sie Ihre eigene Vermietwebsite mit Ihrem Branding in Minuten an den Start. Ohne Programmierung, ohne IT-Team.",
+      "startTrial": "Kostenlos testen",
+      "visitSite": "Website besuchen",
+      "requestPricing": "Preise anfragen"
+    }
+  },
+  "productCards": {
+    "buttons": {
+      "tryNow": "Jetzt testen",
+      "viewDetails": "Details ansehen"
+    },
+    "myEZWheels": {
+      "home": {
+        "subtitle": "Mandantenfähige Storefront-Plattform für die Fahrzeugvermietung",
+        "description": "Eine Vermietwebsite mit eigenem Branding für jedes Unternehmen — eigene Domain, eigene Flotte, eigene Preise — mit integrierten Buchungen, Zahlungen und Fahrerprüfung.",
+        "items": [
+          "Mandantenfähige Architektur",
+          "Unterstützung für Subdomains und eigene Domains",
+          "Flotten- und Reservierungsverwaltung",
+          "Storefronts in 15 Sprachen",
+          "Führerscheinerfassung per Smartphone",
+          "Zahlungen und Kautionen über Stripe Connect"
+        ]
+      },
+      "products": {
+        "subtitle": "Storefront-Plattform für die Fahrzeugvermietung",
+        "description": "Mandantenfähige Storefronts auf Subdomains oder eigenen Domains, mit Flottenverwaltung, datenbankgestützten Inhalten und 15 Sprachen. Produktivsystem im Einsatz bei Autovermietungen.",
+        "items": [
+          "Mandantenfähige SaaS-Architektur",
+          "Eigene Domains und Branding",
+          "Führerschein-Scan und -Prüfung",
+          "Zahlungen über Stripe Connect",
+          "Lokalisierung in 15 Sprachen"
+        ]
+      }
+    },
+    "mercadinho25": {
+      "home": {
+        "subtitle": "Marktplatz-Plattform für Kunsthandwerksprodukte",
+        "description": "Ein mehrsprachiger E-Commerce-Marktplatz für Kleinunternehmen und unabhängige Produzenten, mit integrierter Automatisierung für ein weltweites Publikum.",
+        "items": [
+          "Mandantenfähiger Marktplatz als SaaS",
+          "Unterstützung für 10 Sprachen (inklusive indigener Sprachen)",
+          "Automatische KI-Übersetzung von Produktbeschreibungen",
+          "Onboarding von Händlern und Katalogverwaltung",
+          "Zahlungs- und Bestellabwicklung",
+          "Optimiert für internationale Nutzer"
+        ]
+      },
+      "products": {
+        "subtitle": "Marktplatz-Plattform für Kunsthandwerksprodukte",
+        "description": "Mandantenfähiger Marktplatz, der brasilianische Kunsthandwerker weltweit vernetzt. KI-Übersetzung, Social Commerce und umfassende Händlerverwaltung.",
+        "items": [
+          "Mandantenfähiger Marktplatz",
+          "Unterstützung für 10 Sprachen (inklusive indigener Sprachen)",
+          "Automatische KI-Übersetzung",
+          "Instagram-/Facebook-Integration",
+          "System zur Händlerverwaltung"
+        ]
+      }
+    },
+    "myEZToll": {
+      "home": {
+        "subtitle": "KI-gestützte Maut-, GPS- und Verstoßplattform für Flottenbetreiber",
+        "description": "Eine spezialisierte Plattform für Autovermietungen und Flottenbetreiber zur Verwaltung von Mautgebühren, GPS-abgeleiteter Maut und Verstößen in den USA und Kanada.",
+        "items": [
+          "Mautabwicklung über Dutzende Mautbehörden",
+          "Verstoßmanagement in allen 50 Bundesstaaten und Kanada",
+          "GPS-basierte Mauterkennung, bepreist je Buchung",
+          "Alarme zu Abschleppen, Zündung und Fahrten per SMS und E-Mail",
+          "Integration von GPS-Drittanbietern (Fleet77 und weitere)",
+          "KI-Agenten recherchieren und aktualisieren Mauttarife",
+          "Betreiberportal für Zahlungen und Einspruchsbearbeitung"
+        ]
+      },
+      "products": {
+        "subtitle": "KI-gestützte Maut-, GPS- & Verstoßplattform",
+        "description": "Enterprise-Plattform für Autovermietungen. Automatisierte Mautabwicklung, GPS-basierte Mauterkennung und Verstoßmanagement in allen 50 US-Bundesstaaten und Kanada.",
+        "items": [
+          "Abdeckung aller 50 US-Bundesstaaten und Kanadas",
+          "Automatisierte Maut- und Verstoßabwicklung",
+          "GPS-basierte Mauterkennung je Buchung",
+          "Alarme zu Abschleppen und Zündung (SMS, E-Mail)",
+          "Integration von GPS-Drittanbietern (Fleet77)",
+          "KI-Agenten halten Mauttarife aktuell",
+          "Self-Service-Portal für Betreiber"
+        ]
+      }
+    },
+    "productsCta": {
+      "title": "Bereit, Ihr Projekt zu besprechen?",
+      "description": "Wir bauen produktionsreife Plattformen, die mit Ihrem Geschäft wachsen. Von mandantenfähigem SaaS bis zu spezialisierten Enterprise-Lösungen.",
+      "learnAboutProcess": "Unser Vorgehen kennenlernen"
+    }
+  },
+  "setPassword": {
+    "title": "Passwort festlegen",
+    "emailPlaceholder": "E-Mail-Adresse eingeben",
+    "passwordLabel": "Passwort",
+    "passwordPlaceholder": "Passwort eingeben",
+    "confirmPasswordLabel": "Passwort wiederholen",
+    "confirmPasswordPlaceholder": "Passwort erneut eingeben",
+    "submit": "Festlegen",
+    "errors": {
+      "passwordsDoNotMatch": "Die Passwörter stimmen nicht überein"
+    }
+  },
+  "mercadinho25": {
+    "title": "In Bearbeitung",
+    "description": "Diese Seite befindet sich derzeit im Aufbau. Bitte schauen Sie bald wieder vorbei."
+  },
+  "languageSwitcher": {
+    "ariaLabel": "Sprache ändern"
   }
 }

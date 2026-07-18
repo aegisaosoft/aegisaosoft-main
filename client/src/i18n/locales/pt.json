@@ -88,6 +88,30 @@
       "title": "Plataforma de Marketplace Multi-Tenant para Produtos Artesanais Brasileiros",
       "description": "Uma plataforma de comércio eletrônico baseada em nuvem que conecta artesãos brasileiros locais e pequenos vendedores com clientes. Totalmente integrado com Instagram e Facebook para comércio social: Lojas multi-tenant, Gestão de catálogo de produtos, Rastreamento de pedidos e entregas, Processamento de pagamentos Stripe.",
       "learnMore": "Saiba Mais"
+    },
+    "myEZToll": {
+      "title": "MyEZToll",
+      "subtitle": "Plataforma de Pedágios, GPS e Infrações com IA para Frotas de Aluguel",
+      "description": "NÃO multi-tenant (plataforma de organização única). Processamento de pagamentos de pedágio, detecção de pedágios por GPS, gestão de infrações e cobertura nos 50 estados dos EUA e no Canadá. Projetado para empresas de aluguel de veículos e operadores de frotas.",
+      "features": {
+        "tollProcessing": "Processamento de pagamentos de pedágio",
+        "parkingManagement": "Gestão de infrações de estacionamento e trânsito",
+        "gpsTolls": "Detecção de pedágios por GPS, precificada por reserva",
+        "fleetMap": "Mapa da frota ao vivo com histórico de viagens e reprodução de rotas",
+        "gpsAlerts": "Alerta de reboque, além de alertas de ignição e de viagem por SMS e e-mail",
+        "geofencing": "Zonas de cerca virtual desenhadas no mapa (círculo ou polígono)",
+        "gpsIntegration": "Integrações de GPS de terceiros (Fleet77 e outros)",
+        "aiFirst": "Primeira plataforma de pedágios do setor de aluguel com agentes de IA em produção",
+        "aiRates": "Agentes de IA pesquisam e atualizam as tarifas de pedágio automaticamente",
+        "usaCoverage": "Cobertura nos 50 estados dos EUA",
+        "canadaCoverage": "Rodovias com pedágio e infrações do Canadá (407 ETR, A25, A30)",
+        "fleetOperators": "Projetado para empresas de aluguel de veículos e operadores de frotas",
+        "ownerPortal": "Portal do proprietário para fluxos de pagamento e contestação"
+      },
+      "learnMore": "Saiba Mais",
+      "visitSite": "Visitar Site",
+      "ownerPortal": "Portal do Proprietário",
+      "featuresTitle": "Recursos da plataforma"
     }
   },
   "about": {
@@ -213,7 +237,8 @@
       "benefits": {
         "seniorEngineer": "Mais de 30 anos entregando sistemas de produção",
         "regulatedIndustries": "Experiência com indústrias reguladas (finanças, alfândega)",
-        "fullStack": "Entrega full-stack do banco de dados à implantação"
+        "fullStack": "Entrega full-stack do banco de dados à implantação",
+        "usBased": "Equipe sediada nos EUA, em New Jersey"
       },
       "getInTouch": "Entrar em Contato"
     },
@@ -238,31 +263,43 @@
     }
   },
   "vehicleRental": {
-    "title": "Aegis-Rental: Plataforma Completa de Gestão de Aluguel de Veículos",
-    "subtitle": "Lance Seu Próprio Negócio de Aluguel em Minutos",
-    "description": "Aegis-Rental é uma plataforma SaaS multi-tenant poderosa que permite que empresas de aluguel de veículos lancem seu próprio site profissional de aluguel de forma rápida e eficiente. Construída sobre uma arquitetura de nuvem moderna, fornece tudo que você precisa para gerenciar sua frota, clientes e reservas desde o primeiro dia.",
+    "title": "MyEZWheels: Plataforma Multi-Tenant de Lojas Online para Aluguel de Veículos",
+    "subtitle": "Lance Seu Próprio Site de Aluguel com Sua Marca em Minutos",
+    "description": "MyEZWheels é uma plataforma multi-tenant que permite que empresas de aluguel de veículos operem seu próprio site de reservas completo e profissional. Cada tenant é identificado pelo domínio — um subdomínio gratuito ou seu próprio domínio personalizado — com frota, preços, marca e dados de clientes isolados, tudo configurável no portal do proprietário sem escrever uma linha de código.",
     "languages": {
-      "title": "🌍 5 Idiomas Suportados",
-      "english": "🇺🇸 Inglês",
-      "spanish": "🇪🇸 Espanhol (Español)",
-      "portuguese": "🇵🇹 Português (Português)",
-      "french": "🇫🇷 Francês (Français)",
-      "german": "🇩🇪 Alemão (Deutsch)",
-      "description": "Todos os elementos da interface, confirmações de reserva, notificações por e-mail e comunicações com clientes estão totalmente localizados."
+      "title": "🌍 15 Idiomas Suportados",
+      "list": [
+        "🇺🇸 English",
+        "🇪🇸 Español",
+        "🇵🇹 Português",
+        "🇫🇷 Français",
+        "🇩🇪 Deutsch",
+        "🇮🇹 Italiano",
+        "🇳🇱 Nederlands",
+        "🇵🇱 Polski",
+        "🇺🇦 Українська",
+        "🇷🇺 Русский",
+        "🇹🇷 Türkçe",
+        "🇸🇦 العربية",
+        "🇨🇳 中文",
+        "🇯🇵 日本語",
+        "🇰🇷 한국어"
+      ],
+      "description": "O texto da loja fica no banco de dados e é traduzido automaticamente para todos os idiomas suportados, então a interface, as confirmações de reserva e os e-mails aos clientes ficam localizados — e os textos podem ser alterados sem publicar código novo."
     },
     "features": {
       "title": "🚗 Recursos Completos do Sistema de Aluguel",
       "intelligentBooking": {
-        "title": "Reserva Inteligente",
-        "voiceAI": "Busca e reserva com IA de voz — fale naturalmente para encontrar e reservar veículos",
+        "title": "Reservas Online",
+        "vehicleSearch": "Busca por categoria, local e data com preços em tempo real",
         "realTimeCalendar": "Calendário de disponibilidade em tempo real com confirmação instantânea",
-        "smartRecommendations": "Recomendações inteligentes de veículos baseadas nas necessidades do cliente",
+        "seasonalPricing": "Preços sazonais e por período (diário, semanal, mensal)",
         "vinRecognition": "Reconhecimento de número VIN para informações automáticas do veículo"
       },
       "customerVerification": {
-        "title": "Verificação de Cliente",
-        "blinkID": "Integração BlinkID para digitalização instantânea de carteira de motorista (frente e verso)",
-        "dataExtraction": "Extração e validação automática de dados",
+        "title": "Verificação do Motorista",
+        "phoneCapture": "Escaneie um QR code e fotografe a CNH pelo celular do cliente",
+        "dataExtraction": "Decodificação do código de barras PDF417 e OCR com IA que preenche o formulário automaticamente",
         "ageVerification": "Verificação de idade e expiração da carteira",
         "documentStorage": "Armazenamento seguro de documentos"
       },
@@ -284,8 +321,8 @@
       "multiTenant": {
         "title": "Arquitetura Multi-Tenant",
         "brandedWebsite": "Cada empresa de aluguel obtém seu próprio site com marca",
-        "customDomains": "Domínios personalizados (suaempresa.aegis-rental.com)",
-        "uniqueBranding": "Marca única: logotipos, cores, informações de contato",
+        "customDomains": "Subdomínio gratuito (suaempresa.myezwheels.com) ou seu próprio domínio personalizado",
+        "uniqueBranding": "Marca própria: logotipos, cores, imagens e informações de contato",
         "isolatedData": "Dados isolados — cada inquilino vê apenas suas próprias informações",
         "customEmails": "Endereços de e-mail personalizados para notificações"
       },
@@ -316,12 +353,12 @@
     "techStack": {
       "title": "🛠️ Stack Tecnológico",
       "frontend": "React com design responsivo moderno",
-      "backend": "API REST ASP.NET Core",
-      "database": "PostgreSQL",
+      "backend": "API REST ASP.NET Core com Entity Framework Core",
+      "database": "Azure SQL Server",
       "cloud": "Hospedagem Azure com auto-escalonamento",
       "payments": "Stripe Connect",
-      "documentScanning": "SDK BlinkID",
-      "ai": "Reconhecimento de voz e recomendações inteligentes"
+      "documentScanning": "Decodificação de código de barras PDF417 e OCR de documentos com IA",
+      "ai": "Claude AI para leitura de documentos e tradução de conteúdo"
     },
     "customization": {
       "title": "🎨 DESIGN MULTIDISCIPLINAR",
@@ -386,7 +423,8 @@
           "title": "Integração com Instagram e Facebook",
           "description": "Integração completa de comércio social — venda diretamente através do Instagram Shop e Facebook Marketplace, sincronize catálogos de produtos e alcance clientes em plataformas sociais"
         }
-      }
+      },
+      "tryNow": "Experimente"
     }
   },
   "booking": {
@@ -407,7 +445,9 @@
     "vehicleRental": "Gestão de Aluguel de Veículos",
     "compliance": "Automação de Conformidade",
     "booking": "Plataformas de Reserva",
-    "copyright": "© {{year}} Aegis AO Soft. Todos os direitos reservados."
+    "copyright": "© {{year}} Aegis AO Soft. Todos os direitos reservados.",
+    "ein": "EIN",
+    "location": "New Jersey, EUA"
   },
   "adminGuide": {
     "sectionTitle": "Guia de Administracao e Vendedor",
@@ -433,7 +473,11 @@
           "customer": "Customer — Navegar, comprar, escrever avaliacoes",
           "seller": "Seller — Criar/gerenciar produtos, ver vendas, gerenciar pedidos",
           "tenantAdmin": "TenantAdmin — Gerenciar vendedores, usuarios, config, categorias, pagamentos",
-          "superAdmin": "SuperAdmin — Gerenciamento multi-tenant, criar lojas, acesso total"
+          "superAdmin": "SuperAdmin — Gerenciamento multi-tenant, criar lojas, acesso total",
+          "customerLabel": "Cliente:",
+          "sellerLabel": "Vendedor:",
+          "tenantAdminLabel": "TenantAdmin:",
+          "superAdminLabel": "SuperAdmin:"
         },
         "dashboard": {
           "title": "Visao Geral do Painel",
@@ -611,7 +655,10 @@
           "title": "Configuracao do Stripe",
           "sandbox": "Sandbox: Insira chaves de teste (pk_test_..., sk_test_...) → Salvar → Testar → Ativar",
           "production": "Producao: Mesmos passos com chaves reais. Teste bem antes de ativar. Configure webhook.",
-          "connect": "Stripe Connect: Cada vendedor completa o onboarding para receber pagamentos. Divisao automatica baseada na comissao."
+          "connect": "Stripe Connect: Cada vendedor completa o onboarding para receber pagamentos. Divisao automatica baseada na comissao.",
+          "sandboxLabel": "Sandbox:",
+          "productionLabel": "Produção:",
+          "connectLabel": "Stripe Connect:"
         },
         "mercadopago": {
           "title": "MercadoPago",
@@ -681,6 +728,858 @@
         "intro": "A plataforma suporta 10 idiomas: Português (principal), Inglês, Espanhol, Francês, Alemão, Italiano, Japonês, Russo, além das línguas indígenas Guaraní Mbyá e Nheengatu para preservação do patrimônio cultural.",
         "tip": "Sempre preencha pelo menos Portugues e Ingles para maximizar o alcance. O sistema usa Portugues como fallback."
       }
+    },
+    "tipLabel": "Dica:"
+  },
+  "brazilianMarketplaceDetail": {
+    "hero": {
+      "title": "Mercadinho25",
+      "subtitle": "Marketplace global de produtos artesanais brasileiros",
+      "description": "Conecte artesãos brasileiros a clientes do mundo todo com tradução por IA, integração com social commerce e arquitetura de marketplace multi-tenant. Lance hoje o seu marketplace de artesanato.",
+      "tryDemo": "Testar demo grátis",
+      "visitMarketplace": "Visitar marketplace",
+      "stats": {
+        "languages": {
+          "label": "Idiomas",
+          "note": "+ indígenas"
+        },
+        "translation": {
+          "value": "IA",
+          "label": "Tradução"
+        },
+        "social": {
+          "value": "Social",
+          "label": "Commerce"
+        },
+        "multiTenant": {
+          "value": "Multi",
+          "label": "Tenant"
+        }
+      }
+    },
+    "whatIs": {
+      "title": "O que é o Mercadinho25?",
+      "paragraph1": "O Mercadinho25 é uma plataforma de e-commerce na nuvem que conecta artesãos e pequenos vendedores brasileiros a clientes que procuram peças artesanais autênticas, arte popular e itens do dia a dia.",
+      "paragraph2": "A arquitetura multi-tenant permite que vendedores independentes operem lojas online com marca própria dentro de um marketplace unificado, cada uma com catálogo, preços e opções de entrega personalizáveis."
+    },
+    "audience": {
+      "title": "Para quem é?",
+      "artisans": {
+        "label": "Artesãos brasileiros",
+        "text": "que criam artesanato tradicional e arte popular"
+      },
+      "vendors": {
+        "label": "Pequenos vendedores",
+        "text": "que vendem produtos feitos à mão e regionais"
+      },
+      "operators": {
+        "label": "Operadores de marketplace",
+        "text": "que querem lançar plataformas de e-commerce de nicho"
+      },
+      "culturalSellers": {
+        "label": "Vendedores de produtos culturais",
+        "text": "focados em itens autênticos da cultura brasileira"
+      },
+      "socialCommerce": {
+        "label": "Negócios de social commerce",
+        "text": "que vendem pelo Instagram e Facebook"
+      }
+    },
+    "capabilities": {
+      "title": "Principais recursos",
+      "storefronts": {
+        "title": "Lojas online multi-tenant",
+        "description": "Contas de vendedor independentes com marca própria, design de loja online exclusivo e identidade personalizada."
+      },
+      "languages": {
+        "title": "Suporte a 10 idiomas + línguas indígenas",
+        "description": "Português, inglês, espanhol, francês, alemão, italiano, japonês, russo, além de línguas indígenas (Guaraní Mbyá, Nheengatu) com localização completa.",
+        "heritage": {
+          "title": "Recurso de patrimônio cultural:",
+          "intro": "Suporte especial a línguas indígenas brasileiras:",
+          "guarani": {
+            "label": "Guaraní Mbyá",
+            "text": "(gn-mby) - língua guarani tradicional"
+          },
+          "nheengatu": {
+            "label": "Nheengatu",
+            "text": "(yrl) - língua geral amazônica"
+          },
+          "note": "Preservando e promovendo a diversidade linguística e cultural do Brasil por meio do comércio"
+        }
+      },
+      "aiTranslation": {
+        "title": "Tradução por IA",
+        "description": "Tradução automática das descrições de produtos com Google Translate API e Claude AI para alcance máximo."
+      },
+      "socialCommerce": {
+        "title": "Social commerce",
+        "description": "Integração completa com Instagram Shop e Facebook Marketplace — venda diretamente pelas redes sociais."
+      },
+      "payments": {
+        "title": "Processamento de pagamentos",
+        "description": "Stripe e MercadoPago integrados, com estrutura de comissão do marketplace e repasses aos vendedores."
+      },
+      "shipping": {
+        "title": "Integração de frete",
+        "description": "Integração com os Correios para envios no Brasil, com rastreio e coordenação das entregas."
+      }
+    },
+    "problems": {
+      "title": "Problemas que resolve",
+      "globalReach": {
+        "label": "Alcance global limitado",
+        "text": "Plataforma em 10 idiomas com tradução por IA + suporte a línguas indígenas"
+      },
+      "setup": {
+        "label": "Montagem complexa do e-commerce",
+        "text": "Plataforma de marketplace pronta para usar"
+      },
+      "socialSales": {
+        "label": "Dificuldade para vender nas redes sociais",
+        "text": "Comércio integrado no Instagram/Facebook"
+      },
+      "payments": {
+        "label": "Barreiras no processamento de pagamentos",
+        "text": "Suporte a vários gateways, com opções locais"
+      },
+      "inventory": {
+        "label": "Complexidade na gestão de estoque",
+        "text": "Sistema completo de gestão de vendedores"
+      },
+      "mobile": {
+        "label": "Limitações nas compras pelo celular",
+        "text": "Design responsivo mobile-first"
+      }
+    },
+    "categories": {
+      "title": "Principais categorias de produtos"
+    },
+    "social": {
+      "title": "Integração com social commerce",
+      "intro": "Recursos completos de social commerce que permitem aos artesãos brasileiros vender diretamente pelas redes sociais e alcançar públicos do mundo todo.",
+      "instagram": {
+        "title": "Integração com Instagram Shop",
+        "items": [
+          "Sincronização automática do catálogo com o Instagram Shop",
+          "Checkout direto dentro do app do Instagram",
+          "Marcação de produtos em posts e stories",
+          "Atualizações automáticas de estoque",
+          "Descrições de produtos em vários idiomas",
+          "Integração com o rastreio dos pedidos"
+        ]
+      },
+      "facebook": {
+        "title": "Integração com Facebook Marketplace",
+        "items": [
+          "Publicação automática de produtos no Facebook Marketplace",
+          "Integração da loja com a página Facebook Business",
+          "Anúncios segmentados para produtos artesanais",
+          "Sincronização de avaliações e notas dos clientes",
+          "Atendimento ao cliente pelo Facebook Messenger",
+          "Campanhas promocionais baseadas em datas e eventos"
+        ]
+      },
+      "whatsapp": {
+        "title": "Integração com WhatsApp Business",
+        "items": [
+          "Botão de contato do WhatsApp nas páginas de produto",
+          "Número de WhatsApp individual por vendedor",
+          "Confirmação automática de pedidos pelo WhatsApp",
+          "Compartilhamento do catálogo pelo WhatsApp",
+          "Atendimento ao cliente e dúvidas",
+          "Notificações do status de entrega"
+        ]
+      },
+      "analytics": {
+        "title": "Analytics multiplataforma",
+        "items": [
+          "Painel de analytics unificado para todas as plataformas",
+          "Acompanhamento do desempenho nas redes sociais",
+          "Atribuição de vendas entre plataformas",
+          "Mapeamento da jornada do cliente",
+          "Acompanhamento do ROI das campanhas em redes sociais",
+          "Relatórios e insights automatizados"
+        ]
+      },
+      "heritage": {
+        "title": "Preservação do patrimônio cultural",
+        "intro": "Além do sucesso comercial, o Mercadinho25 preserva ativamente a diversidade cultural e linguística brasileira.",
+        "supportTitle": "Suporte a línguas indígenas:",
+        "guarani": {
+          "label": "Guaraní Mbyá",
+          "text": "(gn-mby) - língua sagrada do povo guarani"
+        },
+        "nheengatu": {
+          "label": "Nheengatu",
+          "text": "(yrl) - língua geral amazônica, \"a língua boa\""
+        },
+        "note": "Dando aos artesãos indígenas a possibilidade de apresentar seu trabalho na própria língua, preservando a identidade cultural enquanto alcançam mercados globais."
+      }
+    },
+    "tech": {
+      "title": "Stack tecnológico",
+      "frontend": {
+        "title": "Frontend",
+        "description": "React, TypeScript, Material-UI"
+      },
+      "backend": {
+        "title": "Backend",
+        "description": "API RESTful em Node.js, arquitetura multi-tenant"
+      },
+      "database": {
+        "title": "Banco de dados",
+        "description": "PostgreSQL com isolamento por tenant"
+      },
+      "cloud": {
+        "title": "Nuvem",
+        "description": "Azure App Service, escalabilidade automática"
+      },
+      "ai": {
+        "title": "IA e tradução",
+        "description": "Google Translate API, Claude AI"
+      },
+      "integration": {
+        "title": "Integração",
+        "description": "Instagram Graph API, Facebook Business API, MercadoPago"
+      }
+    },
+    "tenants": {
+      "title": "Exemplos de tenants em produção",
+      "intro": "Veja como vendedores independentes criam suas próprias lojas online com marca própria dentro do marketplace. Cada tenant tem controle total sobre sua marca, seus produtos e a experiência do cliente.",
+      "alex": {
+        "title": "Ateliê de artesanato do Alex",
+        "description": "Cerâmica e louça tradicionais brasileiras. Loja online com marca própria, design exclusivo e experiência de compra personalizada.",
+        "linkLabel": "Visitar a loja do Alex"
+      },
+      "joanna": {
+        "title": "Galeria têxtil da Joanna",
+        "description": "Tecidos e bordados feitos à mão em São Paulo. Mostra marca própria com integração às redes sociais e suporte multilíngue.",
+        "linkLabel": "Visitar a loja da Joanna"
+      },
+      "callout": {
+        "label": "Arquitetura multi-tenant:",
+        "text": "Cada vendedor ganha seu próprio subdomínio, marca própria, dados isolados e controle total da loja online — tudo gerenciado em uma única plataforma."
+      }
+    },
+    "adminGuideCta": {
+      "buttonLabel": "Ver guia completo do administrador"
+    },
+    "cta": {
+      "title": "Pronto para conectar artesãos aos mercados globais?",
+      "description": "Lance seu próprio marketplace de artesanato brasileiro com social commerce e tradução por IA já integrados.",
+      "startMarketplace": "Criar seu marketplace",
+      "visitSite": "Visitar site",
+      "sellerGuide": "Guia do vendedor"
     }
+  },
+  "myEZTollDetail": {
+    "hero": {
+      "title": "Plataforma de pedágios, GPS e infrações com IA para frotas de locação",
+      "subtitle": "Plataforma corporativa criada especificamente para locadoras de veículos e operadores de frota automatizarem o processamento de pedágios, a detecção de pedágios por GPS e a gestão de infrações nos 50 estados dos EUA e no Canadá — a primeira plataforma de pedágios e infrações do setor de locação a rodar agentes de IA em produção."
+    },
+    "whatIs": {
+      "title": "O que é o MyEZToll?",
+      "p1": "O MyEZToll é uma plataforma especializada de organização única (NÃO multi-tenant), criada exclusivamente para locadoras de veículos e operadores de frota que precisam de gestão completa de pedágios, GPS e infrações.",
+      "p2": "Diferente de soluções genéricas, o MyEZToll oferece infraestrutura dedicada para cada operador de frota, com controle total sobre seus fluxos de processamento de pedágios e infrações nos 50 estados dos EUA e no Canadá.",
+      "p3": "A plataforma funciona nos dois sentidos: coleta cobranças junto às concessionárias de pedágio e aos órgãos emissores de infrações e, de forma independente, calcula pedágios a partir dos rastros de GPS dos veículos — assim, a viagem é precificada no momento em que o veículo passa pelo pórtico, muito antes de a fatura da concessionária chegar."
+    },
+    "forWhom": {
+      "title": "Para quem é?",
+      "items": [
+        {
+          "label": "Locadoras de veículos",
+          "text": "com operação em vários estados"
+        },
+        {
+          "label": "Empresas de gestão de frota",
+          "text": "que operam rotas com muitos pedágios"
+        },
+        {
+          "label": "Operadores de frota corporativa",
+          "text": "que buscam conformidade automatizada"
+        },
+        {
+          "label": "Franquias de locação",
+          "text": "que precisam de gestão centralizada de pedágios"
+        },
+        {
+          "label": "Frotas corporativas",
+          "text": "com muito trânsito por rodovias com pedágio"
+        }
+      ]
+    },
+    "capabilities": {
+      "title": "Principais recursos",
+      "cards": {
+        "automatedToll": {
+          "title": "Processamento automatizado de pedágios",
+          "text": "Processamento contínuo de cobranças de pedágio em vários estados, com conciliação e pagamento automáticos."
+        },
+        "parkingViolations": {
+          "title": "Gestão de infrações de estacionamento",
+          "text": "Acompanhamento completo e fluxo de contestação para multas de estacionamento, com resolução automatizada."
+        },
+        "gpsTolling": {
+          "title": "Pedágio por GPS",
+          "text": "Os rastros de GPS dos veículos são comparados a uma base de praças e pórticos de pedágio reais e depois precificados por reserva — os pedágios são conhecidos a partir da própria viagem, não apenas pela fatura da concessionária."
+        },
+        "towingAlerts": {
+          "title": "Alertas de reboque e de frota",
+          "text": "Alertas instantâneos por SMS e e-mail para reboque, ignição ligada/desligada e fim de viagem — enviados ao proprietário, ao locatário ativo ou a ambos."
+        },
+        "thirdPartyGps": {
+          "title": "Integração com GPS de terceiros",
+          "text": "Integrações de telemetria plugáveis — Fleet77 e outras — trazem veículos e posições de rastreadores externos junto com nossos próprios dispositivos, em uma visão única da frota."
+        },
+        "aiRateResearch": {
+          "title": "Pesquisa de tarifas de pedágio com IA",
+          "text": "Agentes de IA pesquisam autonomamente as fontes das concessionárias, identificam mudanças de tarifa e mantêm os preços de pedágio da plataforma atualizados sem digitação manual."
+        },
+        "coverage": {
+          "title": "Cobertura nos EUA e no Canadá",
+          "text": "Todos os 50 estados dos EUA, além de rodovias com pedágio e infrações no Canadá, incluindo Highway 407 ETR, A25 e A30."
+        },
+        "ownerPortal": {
+          "title": "Portal de autoatendimento do proprietário",
+          "text": "Portal dedicado para que os proprietários de veículos façam pagamentos e conduzam contestações de forma autônoma."
+        },
+        "analytics": {
+          "title": "Analytics da frota",
+          "text": "Relatórios e análises completos de custos de pedágio, tendências de infrações e desempenho da frota."
+        },
+        "automation": {
+          "title": "Automação inteligente",
+          "text": "Leitura de multas com IA e processamento automatizado de pagamentos, com o mínimo de intervenção manual."
+        }
+      }
+    },
+    "problems": {
+      "title": "Problemas que resolve",
+      "items": [
+        {
+          "label": "Conciliação manual de pedágios",
+          "text": "→ Processamento automatizado em todos os estados"
+        },
+        {
+          "label": "Acúmulo de infrações de estacionamento",
+          "text": "→ Leitura inteligente e gestão de contestações"
+        },
+        {
+          "label": "Complexidade de conformidade entre estados",
+          "text": "→ Cobertura unificada dos 50 estados e do Canadá"
+        },
+        {
+          "label": "Pedágios descobertos semanas depois",
+          "text": "→ A detecção por GPS precifica a viagem enquanto ela acontece"
+        },
+        {
+          "label": "Tarifas de pedágio desatualizadas",
+          "text": "→ Agentes de IA acompanham as mudanças de tarifa continuamente"
+        },
+        {
+          "label": "Rastreadores de fabricantes diferentes",
+          "text": "→ Provedores de GPS de terceiros integrados em uma visão única da frota"
+        },
+        {
+          "label": "Sobrecarga no atendimento ao cliente",
+          "text": "→ Portal de autoatendimento do proprietário para contestações"
+        },
+        {
+          "label": "Carga administrativa",
+          "text": "→ Fluxos e notificações automatizados"
+        },
+        {
+          "label": "Falta de visibilidade dos custos",
+          "text": "→ Relatórios e análises em tempo real"
+        }
+      ]
+    },
+    "ai": {
+      "title": "Inteligência artificial na operação de frotas",
+      "intro": "O MyEZToll é a primeira plataforma de pedágios e infrações do setor de locação de veículos a rodar agentes de IA em produção — não como um chatbot acoplado à interface, mas como software que executa o trabalho operacional.",
+      "cards": {
+        "rateResearch": {
+          "title": "Pesquisa autônoma de tarifas de pedágio",
+          "items": [
+            "Agentes de IA leem fontes e tabelas de tarifas das concessionárias",
+            "Identificam mudanças de tarifa e novas praças automaticamente",
+            "Atualizam os preços por praça e por origem–destino na plataforma",
+            "Autocorreção: novas tentativas, fontes alternativas, rodadas de verificação",
+            "Revisão em modo simulação antes de aplicar qualquer mudança de preço"
+          ]
+        },
+        "documents": {
+          "title": "Inteligência de documentos e multas",
+          "items": [
+            "Leitura por IA de notificações de infração e extratos de pedágio",
+            "Leitura de carteira de motorista com OCR por IA e decodificação de código de barras",
+            "Extração automática de placas, datas, valores e jurisdições",
+            "Dados estruturados em vez de redigitação manual"
+          ]
+        },
+        "tripMatching": {
+          "title": "Correspondência de viagens e cobranças",
+          "items": [
+            "Vinculação automática das cobranças de pedágio a veículos e reservas",
+            "Rastros de GPS resolvidos para praças, pórticos e sentidos específicos",
+            "Detecção de duplicidades e correspondências falsas entre fontes de dados",
+            "Cobranças direcionadas ao locatário correto sem revisão manual"
+          ]
+        }
+      }
+    },
+    "gps": {
+      "title": "Rastreamento GPS, pedágios e alertas",
+      "intro": "Uma camada completa de telemetria embutida na plataforma: rastreamento da frota ao vivo, histórico de viagens, cerca virtual e alertas em tempo real — funcionando tanto com nossos rastreadores quanto com provedores de GPS de terceiros, e alimentando a precificação de pedágios diretamente a partir do movimento do veículo.",
+      "cards": {
+        "derivedTolls": {
+          "title": "Pedágios derivados do GPS",
+          "items": [
+            "Base nacional de praças e pórticos de pedágio com coordenadas",
+            "Sistemas de bilhete de entrada/saída precificados por matrizes de origem–destino",
+            "Correspondência por sentido em pontes e túneis de mão dupla",
+            "Total de pedágios por reserva calculado assim que a locação termina",
+            "Conciliação com as faturas das concessionárias quando elas chegam",
+            "Praças de pedágio exibidas como camada no mapa sobre a rota realmente percorrida"
+          ]
+        },
+        "liveMap": {
+          "title": "Mapa ao vivo e histórico de viagens",
+          "items": [
+            "Mapa da frota ao vivo com a posição atual de cada veículo rastreado",
+            "Detecção de viagens com início, fim, duração e traçado da rota",
+            "Replay da rota por veículo e por reserva",
+            "Eventos de pedágio exibidos na viagem que os gerou",
+            "Visão da viagem aberta direto de uma reserva ou do cadastro do carro"
+          ]
+        },
+        "alerts": {
+          "title": "Alertas em tempo real",
+          "labeledItems": [
+            {
+              "label": "Detecção de reboque",
+              "text": "— o veículo está sendo rebocado"
+            },
+            {
+              "label": "Ignição LIGADA",
+              "text": "— veículo dado a partida"
+            },
+            {
+              "label": "Ignição DESLIGADA",
+              "text": "— veículo desligado"
+            },
+            {
+              "label": "Viagem encerrada",
+              "text": "— o veículo terminou sua viagem"
+            }
+          ],
+          "items": [
+            "Cada alerta entregue por SMS e/ou e-mail",
+            "Enviado ao proprietário, ao locatário ativo ou a ambos",
+            "Cada tipo de alerta ligado ou desligado de forma independente"
+          ]
+        },
+        "theft": {
+          "title": "Furto e recuperação",
+          "items": [
+            "O alerta de reboque dispara em instantes após o veículo ser levado",
+            "Detecção proprietária separa uma viagem real de um reboque",
+            "Proprietário avisado imediatamente, com posição ao vivo para acompanhar",
+            "Histórico completo de posições para boletim de ocorrência e sinistro",
+            "Zonas de cerca virtual sinalizam movimento fora da área acordada"
+          ]
+        },
+        "geofencing": {
+          "title": "Cerca virtual",
+          "items": [
+            "Desenhe zonas direto no mapa — círculos ou polígonos",
+            "Zonas circulares por ponto central e raio",
+            "Polígonos livres para pátios, bairros e áreas de atendimento",
+            "Zonas editadas e gerenciadas por frota"
+          ]
+        },
+        "externalProviders": {
+          "title": "Provedores de GPS externos",
+          "items": [
+            "Arquitetura de plugins para plataformas de telemetria de terceiros",
+            "Integração com a Fleet77 em produção, com mais provedores sendo adicionados",
+            "Veículos e histórico de posições importados e mantidos em sincronia",
+            "Rastreadores próprios e de terceiros lado a lado em uma visão única da frota",
+            "Regras de alerta do provedor exibidas em nossa interface: velocidade, ociosidade, parada, fora do horário, reboque, bateria fraca, perda de comunicação, perda de GPS, aceleração brusca, luz de injeção, manutenção, inatividade"
+          ]
+        },
+        "devices": {
+          "title": "Dispositivos e diagnóstico",
+          "items": [
+            "Atribuição e transferência de rastreadores entre veículos",
+            "Saúde do dispositivo: última posição, falhas de envio, conectividade",
+            "Visões por capacidade — o conjunto de sinais de cada provedor",
+            "Separação clara entre nossos dispositivos e os de terceiros",
+            "Dados brutos de posição mantidos para auditoria e prova em contestações"
+          ]
+        }
+      }
+    },
+    "keyFeatures": {
+      "title": "Principais funcionalidades",
+      "cards": {
+        "singleOrg": {
+          "title": "Arquitetura de organização única",
+          "text": "Plataforma dedicada a cada operador de frota, com isolamento total dos dados e fluxos personalizados."
+        },
+        "government": {
+          "title": "Integração com órgãos públicos",
+          "text": "Integração direta com sistemas do DMV estadual e com órgãos municipais de estacionamento para dados em tempo real."
+        },
+        "canadian": {
+          "title": "Operações no Canadá",
+          "text": "Pedágios e infrações canadenses processados junto com as cobranças dos EUA — Highway 407 ETR, A25 e A30 — com locações entre países tratadas em um único fluxo."
+        },
+        "connectors": {
+          "title": "Conectores de concessionárias de pedágio",
+          "text": "Dezenas de integrações com concessionárias de pedágio e órgãos de infração mantidas em funcionamento contínuo, para que as cobranças sejam coletadas sem login manual nos portais."
+        },
+        "costOptimization": {
+          "title": "Otimização de custos",
+          "text": "Sugestões inteligentes de rota e análise dos custos de pedágio para reduzir as despesas operacionais."
+        },
+        "mobile": {
+          "title": "Acesso móvel",
+          "text": "Interface responsiva para gerenciar a frota e tratar infrações de qualquer lugar."
+        }
+      }
+    },
+    "tech": {
+      "title": "Stack tecnológico",
+      "cards": {
+        "frontend": {
+          "title": "Frontend",
+          "text": "React, design responsivo"
+        },
+        "backend": {
+          "title": "Backend",
+          "text": "ASP.NET Core, arquitetura de API robusta"
+        },
+        "database": {
+          "title": "Banco de dados",
+          "text": "Azure SQL Server, consultas otimizadas"
+        },
+        "ai": {
+          "title": "IA",
+          "text": "Agentes Claude AI para pesquisa de tarifas, OCR de documentos e leitura de dados"
+        },
+        "gps": {
+          "title": "GPS e telemetria",
+          "text": "Rastreadores próprios e provedores de terceiros (Fleet77) via plugins"
+        },
+        "cloud": {
+          "title": "Nuvem",
+          "text": "Microsoft Azure, alta disponibilidade"
+        },
+        "automation": {
+          "title": "Automação",
+          "text": "Coleta web com Playwright e Puppeteer"
+        },
+        "security": {
+          "title": "Segurança",
+          "text": "Segurança de nível corporativo, conformidade AML"
+        }
+      }
+    },
+    "cta": {
+      "title": "Pronto para automatizar a operação da sua frota?",
+      "text": "Elimine o processamento manual de pedágios e a gestão de infrações de estacionamento com nossa solução de nível corporativo.",
+      "requestDemo": "Solicitar demo",
+      "visitSite": "Visitar site",
+      "ownerPortal": "Portal do proprietário"
+    }
+  },
+  "myEZWheelsDetail": {
+    "hero": {
+      "tagline": "Plataforma de lojas online multi-tenant para locação de veículos",
+      "subtitle": "Lance seu site de locação com marca e domínio próprios. Arquitetura multi-tenant com conteúdo vindo do banco de dados, lojas online em 15 idiomas, captura da carteira de motorista pelo celular e pagamentos automatizados.",
+      "tryDemo": "Testar demo grátis",
+      "visitPlatform": "Visitar plataforma",
+      "stats": {
+        "languages": "Idiomas",
+        "multi": "Multi",
+        "tenant": "Tenant",
+        "ai": "IA",
+        "powered": "Integrada",
+        "cloud": "Cloud",
+        "native": "Nativo"
+      }
+    },
+    "whatIs": {
+      "title": "O que é o MyEZWheels?",
+      "p1": "O MyEZWheels é uma plataforma de lojas online multi-tenant que permite a uma locadora de veículos lançar um site de reservas completo e profissional sem precisar construí-lo. Cada tenant é identificado pelo nome do host, então cada empresa opera em seu próprio endereço, com frota, preços, marca e dados de clientes próprios — totalmente isolados dos demais tenants da plataforma.",
+      "p2": "Comece em um subdomínio gratuito (yourcompany.myezwheels.com) e migre para seu domínio próprio quando quiser. Logos, cores, imagens, conteúdo das páginas e dados de contato de cada unidade são configuráveis pelo portal do proprietário — sem novo deploy e sem desenvolvedor."
+    },
+    "forWhom": {
+      "title": "Para quem é?",
+      "items": {
+        "rentalCompanies": {
+          "label": "Locadoras de veículos",
+          "text": "que querem digitalizar sua operação"
+        },
+        "fleetOperators": {
+          "label": "Operadores de frota",
+          "text": "que querem alugar diretamente ao cliente"
+        },
+        "entrepreneurs": {
+          "label": "Empreendedores",
+          "text": "abrindo novos negócios de locação"
+        },
+        "existingBusinesses": {
+          "label": "Locadoras já em operação",
+          "text": "que querem modernizar sistemas antigos"
+        },
+        "multiLocationChains": {
+          "label": "Redes de locação com várias unidades",
+          "text": "que precisam de gestão centralizada"
+        },
+        "p2pHosts": {
+          "label": "Anfitriões peer-to-peer",
+          "text": "que querem sair da dependência de marketplaces e vender direto"
+        }
+      }
+    },
+    "capabilities": {
+      "title": "Principais recursos",
+      "storefronts": {
+        "title": "Lojas online multi-tenant",
+        "text": "Tenant identificado pelo host — subdomínio ou domínio próprio — com frota, reservas, clientes e marca isolados por empresa."
+      },
+      "languages": {
+        "title": "Lojas online em 15 idiomas",
+        "text": "Todo o texto da loja online fica no banco de dados e é traduzido automaticamente para 15 idiomas, então o texto pode mudar sem uma nova versão do código."
+      },
+      "license": {
+        "title": "Captura da carteira de motorista pelo celular",
+        "text": "O locatário lê um QR code e fotografa a carteira pelo celular. A decodificação do código de barras PDF417 e o OCR por IA preenchem o formulário na hora."
+      },
+      "payments": {
+        "title": "Pagamentos com Stripe Connect",
+        "text": "Pagamentos com cartão, cauções e repasses automáticos para a conta Stripe da própria locadora, com suporte a várias moedas."
+      },
+      "fleet": {
+        "title": "Gestão de frota e categorias",
+        "text": "Estoque de veículos, categorias, galerias de fotos, preços sazonais, disponibilidade e configuração por unidade."
+      },
+      "integrations": {
+        "title": "Integrações de plataforma",
+        "text": "As reservas sincronizam com plataformas externas, e dados de pedágio, infrações e GPS chegam do MyEZToll para uma visão operacional única."
+      }
+    },
+    "problems": {
+      "title": "Problemas que resolve",
+      "items": {
+        "noDirectChannel": {
+          "label": "Sem canal de venda direta",
+          "text": "Seu próprio site de reservas, com sua marca e seu domínio"
+        },
+        "manualBooking": {
+          "label": "Processos manuais de reserva",
+          "text": "Disponibilidade em tempo real com reserva online imediata"
+        },
+        "paperVerification": {
+          "label": "Verificação em papel",
+          "text": "Leitura da carteira pelo celular com extração automática dos dados"
+        },
+        "complexPayments": {
+          "label": "Gestão complexa de pagamentos",
+          "text": "Stripe Connect integrado, com cauções e repasses automáticos"
+        },
+        "languageBarriers": {
+          "label": "Barreiras de idioma",
+          "text": "Conteúdo da loja online traduzido para 15 idiomas a partir do banco de dados"
+        },
+        "contentNeedsDeveloper": {
+          "label": "Mudanças de conteúdo dependem de desenvolvedor",
+          "text": "Páginas, textos, imagens e contatos editados pelo portal do proprietário"
+        },
+        "highDevCosts": {
+          "label": "Alto custo de desenvolvimento",
+          "text": "Plataforma pronta para lançar em vez de um sistema sob medida"
+        }
+      }
+    },
+    "brand": {
+      "title": "Sua marca, seu domínio",
+      "intro": "Cada loja online é configurada, não programada. Os tenants controlam a aparência e os textos do site sem tocar na plataforma.",
+      "domains": {
+        "title": "Domínios e marca",
+        "items": [
+          "Subdomínio gratuito: yourcompany.myezwheels.com",
+          "Use seu próprio domínio personalizado",
+          "Envie logos, imagens de destaque e materiais de design",
+          "Esquemas de cores e temas personalizados",
+          "Endereços, telefones e contatos por unidade"
+        ]
+      },
+      "content": {
+        "title": "Conteúdo vindo do banco de dados",
+        "items": [
+          "Texto da loja online guardado em pacotes de conteúdo editáveis",
+          "Tradução automática para 15 idiomas",
+          "Páginas próprias por tenant (termos, FAQ, sobre, políticas)",
+          "Sobrescreva qualquer texto por tenant",
+          "As mudanças entram no ar sem deploy"
+        ]
+      },
+      "booking": {
+        "title": "Fluxo de reserva e conformidade",
+        "items": [
+          "Leitura e validação da carteira de motorista na reserva",
+          "Contratos de locação e aprovações obrigatórias",
+          "Autorização e liberação da caução",
+          "E-mails automáticos de reserva e lembrete",
+          "Cobranças de pedágio e infrações direcionadas ao locatário"
+        ]
+      }
+    },
+    "tech": {
+      "title": "Stack tecnológico",
+      "frontend": {
+        "title": "Frontend",
+        "text": "React, TypeScript, design responsivo moderno"
+      },
+      "backend": {
+        "title": "Backend",
+        "text": "API REST em ASP.NET Core, Entity Framework Core"
+      },
+      "database": {
+        "title": "Banco de dados",
+        "text": "Azure SQL Server"
+      },
+      "cloud": {
+        "title": "Nuvem",
+        "text": "Microsoft Azure, App Services com escalabilidade automática"
+      },
+      "payments": {
+        "title": "Pagamentos",
+        "text": "Stripe Connect, suporte a várias moedas"
+      },
+      "ai": {
+        "title": "IA e automação",
+        "text": "Claude AI para OCR de documentos e tradução de conteúdo"
+      }
+    },
+    "cta": {
+      "title": "Pronto para lançar seu negócio de locação?",
+      "text": "Coloque no ar seu site de locação com marca própria em minutos. Sem programar e sem equipe de TI.",
+      "startTrial": "Testar grátis",
+      "visitSite": "Visitar site",
+      "requestPricing": "Solicitar preços"
+    }
+  },
+  "productCards": {
+    "buttons": {
+      "tryNow": "Experimente",
+      "viewDetails": "Ver detalhes"
+    },
+    "myEZWheels": {
+      "home": {
+        "subtitle": "Plataforma de lojas online multi-tenant para locação de veículos",
+        "description": "Um site de locação com marca própria para cada empresa — domínio, frota e preços próprios — com reservas, pagamentos e verificação do motorista já integrados.",
+        "items": [
+          "Arquitetura multi-tenant",
+          "Suporte a subdomínio e domínio próprio",
+          "Gestão de frota e reservas",
+          "Lojas online em 15 idiomas",
+          "Captura da carteira de motorista pelo celular",
+          "Pagamentos e cauções com Stripe Connect"
+        ]
+      },
+      "products": {
+        "subtitle": "Plataforma de lojas online para locação de veículos",
+        "description": "Lojas online multi-tenant em subdomínios ou domínios próprios, com gestão de frota, conteúdo vindo do banco de dados e suporte a 15 idiomas. Sistema real em produção atendendo locadoras.",
+        "items": [
+          "Arquitetura SaaS multi-tenant",
+          "Domínios e marca personalizados",
+          "Leitura e verificação da carteira de motorista",
+          "Pagamentos com Stripe Connect",
+          "Localização em 15 idiomas"
+        ]
+      }
+    },
+    "mercadinho25": {
+      "home": {
+        "subtitle": "Plataforma de marketplace para produtos artesanais",
+        "description": "Um marketplace de e-commerce multilíngue feito para pequenos negócios e produtores independentes, com automação integrada para alcançar públicos globais.",
+        "items": [
+          "SaaS de marketplace multi-tenant",
+          "Suporte a 10 idiomas (incluindo línguas indígenas)",
+          "Tradução automática das descrições de produtos por IA",
+          "Cadastro de vendedores e gestão de catálogo",
+          "Processamento de pagamentos e pedidos",
+          "Otimizado para usuários internacionais"
+        ]
+      },
+      "products": {
+        "subtitle": "Plataforma de marketplace para produtos artesanais",
+        "description": "Marketplace multi-tenant que conecta artesãos brasileiros ao mundo. Tradução por IA, social commerce e gestão completa de vendedores.",
+        "items": [
+          "Marketplace multi-tenant",
+          "Suporte a 10 idiomas (incluindo línguas indígenas)",
+          "Tradução automática por IA",
+          "Integração com Instagram/Facebook",
+          "Sistema de gestão de vendedores"
+        ]
+      }
+    },
+    "myEZToll": {
+      "home": {
+        "subtitle": "Plataforma de pedágios, GPS e infrações com IA para operadores de frota",
+        "description": "Uma plataforma especializada para locadoras e operadores de frota gerenciarem cobranças de pedágio, pedágios derivados do GPS e infrações nos Estados Unidos e no Canadá.",
+        "items": [
+          "Processamento de pedágios em dezenas de concessionárias",
+          "Gestão de infrações nos 50 estados e no Canadá",
+          "Detecção de pedágios por GPS, precificados por reserva",
+          "Alertas de reboque, ignição e viagem por SMS e e-mail",
+          "Integração com GPS de terceiros (Fleet77 e outros)",
+          "Agentes de IA pesquisando e atualizando tarifas de pedágio",
+          "Portal do proprietário para pagamentos e contestações"
+        ]
+      },
+      "products": {
+        "subtitle": "Plataforma de pedágios, GPS e infrações com IA",
+        "description": "Plataforma corporativa para locadoras de veículos. Processamento automatizado de pedágios, detecção de pedágios por GPS e gestão de infrações nos 50 estados dos EUA e no Canadá.",
+        "items": [
+          "Cobertura nos 50 estados dos EUA e no Canadá",
+          "Processamento automatizado de pedágios e infrações",
+          "Detecção de pedágios por GPS por reserva",
+          "Alertas de reboque e ignição (SMS, e-mail)",
+          "Integração com GPS de terceiros (Fleet77)",
+          "Agentes de IA mantendo as tarifas de pedágio atualizadas",
+          "Portal de autoatendimento do proprietário"
+        ]
+      }
+    },
+    "productsCta": {
+      "title": "Pronto para conversar sobre seu projeto?",
+      "description": "Construímos plataformas prontas para produção que crescem com o seu negócio. De SaaS multi-tenant a soluções corporativas especializadas.",
+      "learnAboutProcess": "Conheça nosso processo"
+    }
+  },
+  "setPassword": {
+    "title": "Definir senha",
+    "emailPlaceholder": "Digite seu e-mail",
+    "passwordLabel": "Senha",
+    "passwordPlaceholder": "Digite sua senha",
+    "confirmPasswordLabel": "Repita a senha",
+    "confirmPasswordPlaceholder": "Digite a senha novamente",
+    "submit": "Definir",
+    "errors": {
+      "passwordsDoNotMatch": "As senhas não coincidem"
+    }
+  },
+  "mercadinho25": {
+    "title": "Em construção",
+    "description": "Esta página está em construção. Volte em breve."
+  },
+  "languageSwitcher": {
+    "ariaLabel": "Mudar idioma"
   }
 }

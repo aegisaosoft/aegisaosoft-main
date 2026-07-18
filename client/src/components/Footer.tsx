@@ -25,8 +25,8 @@ export function Footer() {
         <div className="footer-content">
           <div className="footer-section">
             <h4>{t('footer.company')}</h4>
-            <p>EIN: 41-2444296</p>
-            <p>New Jersey, USA</p>
+            <p>{t('footer.ein')}: 41-2444296</p>
+            <p>{t('footer.location')}</p>
           </div>
           <div className="footer-section">
             <h4>{t('footer.contact')}</h4>

@@ -14,17 +14,29 @@
 
 
 import { Link } from 'react-router-dom'
+import { useTranslation } from 'react-i18next'
+import myEZTollLogo from '../assets/myeztoll-logo.png'
+
+/** List item that keeps inline <strong> markup out of the translation string. */
+type LabeledItem = { label: string; text: string }
 
 export function MyEZTollDetail() {
+  const { t } = useTranslation()
+
+  // Helper casts for i18next arrays returned via returnObjects
+  const list = (key: string) => t(key, { returnObjects: true }) as string[]
+  const labeledList = (key: string) => t(key, { returnObjects: true }) as LabeledItem[]
 
   return (
     <main className="product-detail-page">
       <section className="hero">
         <div className="container">
-          <h1>🛣️ MyEZToll</h1>
-          <h2>Toll & Parking Management Platform for Rental Fleets</h2>
+          <h1 className="product-logo-heading">
+            <img src={myEZTollLogo} alt="MyEZToll" className="product-logo product-logo-lg" />
+          </h1>
+          <h2>{t('myEZTollDetail.hero.title')}</h2>
           <p className="subtitle">
-            Enterprise-grade platform designed specifically for car rental and fleet operators to automate toll processing and parking violation management across all 50 U.S. states.
+            {t('myEZTollDetail.hero.subtitle')}
           </p>
         </div>
       </section>
@@ -34,129 +46,294 @@ export function MyEZTollDetail() {
 
           {/* What is this product */}
           <div className="detail-section">
-            <h2>🎯 What is MyEZToll?</h2>
-            <p>MyEZToll is a specialized, single-organization platform (NOT multi-tenant) built exclusively for car rental companies and fleet operators who need comprehensive toll and parking violation management.</p>
-            <p>Unlike generic solutions, MyEZToll provides dedicated infrastructure for individual fleet operators with complete control over their toll processing and violation workflows across all 50 U.S. states.</p>
+            <h2>🎯 {t('myEZTollDetail.whatIs.title')}</h2>
+            <p>{t('myEZTollDetail.whatIs.p1')}</p>
+            <p>{t('myEZTollDetail.whatIs.p2')}</p>
+            <p>{t('myEZTollDetail.whatIs.p3')}</p>
           </div>
 
           {/* For whom */}
           <div className="detail-section">
-            <h2>🏢 Who is it for?</h2>
+            <h2>🏢 {t('myEZTollDetail.forWhom.title')}</h2>
             <ul>
-              <li><strong>Car rental companies</strong> with multi-state operations</li>
-              <li><strong>Fleet management companies</strong> handling toll-heavy routes</li>
-              <li><strong>Enterprise fleet operators</strong> seeking automated compliance</li>
-              <li><strong>Rental franchises</strong> needing centralized toll management</li>
-              <li><strong>Corporate fleets</strong> with extensive travel across toll roads</li>
+              {labeledList('myEZTollDetail.forWhom.items').map((item) => (
+                <li key={item.label}><strong>{item.label}</strong>{' '}{item.text}</li>
+              ))}
             </ul>
           </div>
 
           {/* Main capabilities */}
           <div className="detail-section">
-            <h2>⚡ Main Capabilities</h2>
+            <h2>⚡ {t('myEZTollDetail.capabilities.title')}</h2>
             <div className="capabilities-grid">
               <div className="capability-card">
-                <h3>🚛 Automated Toll Processing</h3>
-                <p>Seamless processing of toll charges across multiple states with automatic reconciliation and payment.</p>
+                <h3>🚛 {t('myEZTollDetail.capabilities.cards.automatedToll.title')}</h3>
+                <p>{t('myEZTollDetail.capabilities.cards.automatedToll.text')}</p>
               </div>
               <div className="capability-card">
-                <h3>🅿️ Parking Violation Management</h3>
-                <p>Comprehensive tracking and dispute workflow for parking citations with automated resolution.</p>
+                <h3>🅿️ {t('myEZTollDetail.capabilities.cards.parkingViolations.title')}</h3>
+                <p>{t('myEZTollDetail.capabilities.cards.parkingViolations.text')}</p>
               </div>
               <div className="capability-card">
-                <h3>🇺🇸 50-State Coverage</h3>
-                <p>Complete support for all U.S. states and territories with local regulation compliance.</p>
+                <h3>🛰️ {t('myEZTollDetail.capabilities.cards.gpsTolling.title')}</h3>
+                <p>{t('myEZTollDetail.capabilities.cards.gpsTolling.text')}</p>
               </div>
               <div className="capability-card">
-                <h3>⚙️ Owner Self-Service Portal</h3>
-                <p>Dedicated portal for vehicle owners to handle payments and dispute workflows independently.</p>
+                <h3>🚨 {t('myEZTollDetail.capabilities.cards.towingAlerts.title')}</h3>
+                <p>{t('myEZTollDetail.capabilities.cards.towingAlerts.text')}</p>
               </div>
               <div className="capability-card">
-                <h3>📊 Fleet Analytics</h3>
-                <p>Comprehensive reporting and analytics for toll costs, violation trends, and fleet performance.</p>
+                <h3>🔌 {t('myEZTollDetail.capabilities.cards.thirdPartyGps.title')}</h3>
+                <p>{t('myEZTollDetail.capabilities.cards.thirdPartyGps.text')}</p>
               </div>
               <div className="capability-card">
-                <h3>🤖 Intelligent Automation</h3>
-                <p>AI-powered citation parsing and automated payment processing with minimal manual intervention.</p>
+                <h3>🧠 {t('myEZTollDetail.capabilities.cards.aiRateResearch.title')}</h3>
+                <p>{t('myEZTollDetail.capabilities.cards.aiRateResearch.text')}</p>
+              </div>
+              <div className="capability-card">
+                <h3>🇺🇸🇨🇦 {t('myEZTollDetail.capabilities.cards.coverage.title')}</h3>
+                <p>{t('myEZTollDetail.capabilities.cards.coverage.text')}</p>
+              </div>
+              <div className="capability-card">
+                <h3>⚙️ {t('myEZTollDetail.capabilities.cards.ownerPortal.title')}</h3>
+                <p>{t('myEZTollDetail.capabilities.cards.ownerPortal.text')}</p>
+              </div>
+              <div className="capability-card">
+                <h3>📊 {t('myEZTollDetail.capabilities.cards.analytics.title')}</h3>
+                <p>{t('myEZTollDetail.capabilities.cards.analytics.text')}</p>
+              </div>
+              <div className="capability-card">
+                <h3>🤖 {t('myEZTollDetail.capabilities.cards.automation.title')}</h3>
+                <p>{t('myEZTollDetail.capabilities.cards.automation.text')}</p>
               </div>
             </div>
           </div>
 
           {/* Problem it solves */}
           <div className="detail-section">
-            <h2>🔧 Problems it Solves</h2>
+            <h2>🔧 {t('myEZTollDetail.problems.title')}</h2>
             <ul>
-              <li><strong>Manual toll reconciliation</strong> → Automated processing across all states</li>
-              <li><strong>Parking violation backlog</strong> → Intelligent parsing and dispute management</li>
-              <li><strong>Multi-state compliance complexity</strong> → Unified 50-state regulatory coverage</li>
-              <li><strong>Customer service burden</strong> → Self-service owner portal for disputes</li>
-              <li><strong>Administrative overhead</strong> → Automated workflows and notifications</li>
-              <li><strong>Cost visibility issues</strong> → Real-time reporting and analytics</li>
+              {labeledList('myEZTollDetail.problems.items').map((item) => (
+                <li key={item.label}><strong>{item.label}</strong>{' '}{item.text}</li>
+              ))}
             </ul>
+          </div>
+
+          {/* AI */}
+          <div className="detail-section">
+            <h2>🤖 {t('myEZTollDetail.ai.title')}</h2>
+            <p style={{ marginBottom: '2rem', fontSize: '1.1rem' }}>
+              {t('myEZTollDetail.ai.intro')}
+            </p>
+
+            <div className="social-integrations-grid" style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))', gap: '1.5rem' }}>
+
+              <div className="integration-card" style={{ padding: '1.5rem', backgroundColor: 'var(--card-bg)', borderRadius: '0.75rem', border: '1px solid var(--border)' }}>
+                <h3 style={{ color: 'var(--accent)', marginBottom: '1rem' }}>
+                  🔎 {t('myEZTollDetail.ai.cards.rateResearch.title')}
+                </h3>
+                <ul style={{ marginBottom: '1rem', lineHeight: '1.6' }}>
+                  {list('myEZTollDetail.ai.cards.rateResearch.items').map((item) => (
+                    <li key={item}>{item}</li>
+                  ))}
+                </ul>
+              </div>
+
+              <div className="integration-card" style={{ padding: '1.5rem', backgroundColor: 'var(--card-bg)', borderRadius: '0.75rem', border: '1px solid var(--border)' }}>
+                <h3 style={{ color: 'var(--accent)', marginBottom: '1rem' }}>
+                  📄 {t('myEZTollDetail.ai.cards.documents.title')}
+                </h3>
+                <ul style={{ marginBottom: '1rem', lineHeight: '1.6' }}>
+                  {list('myEZTollDetail.ai.cards.documents.items').map((item) => (
+                    <li key={item}>{item}</li>
+                  ))}
+                </ul>
+              </div>
+
+              <div className="integration-card" style={{ padding: '1.5rem', backgroundColor: 'var(--card-bg)', borderRadius: '0.75rem', border: '1px solid var(--border)' }}>
+                <h3 style={{ color: 'var(--accent)', marginBottom: '1rem' }}>
+                  🧭 {t('myEZTollDetail.ai.cards.tripMatching.title')}
+                </h3>
+                <ul style={{ marginBottom: '1rem', lineHeight: '1.6' }}>
+                  {list('myEZTollDetail.ai.cards.tripMatching.items').map((item) => (
+                    <li key={item}>{item}</li>
+                  ))}
+                </ul>
+              </div>
+
+            </div>
+          </div>
+
+          {/* GPS */}
+          <div className="detail-section">
+            <h2>🛰️ {t('myEZTollDetail.gps.title')}</h2>
+            <p style={{ marginBottom: '2rem', fontSize: '1.1rem' }}>
+              {t('myEZTollDetail.gps.intro')}
+            </p>
+
+            <div className="social-integrations-grid" style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))', gap: '1.5rem' }}>
+
+              <div className="integration-card" style={{ padding: '1.5rem', backgroundColor: 'var(--card-bg)', borderRadius: '0.75rem', border: '1px solid var(--border)' }}>
+                <h3 style={{ color: 'var(--accent)', marginBottom: '1rem' }}>
+                  📍 {t('myEZTollDetail.gps.cards.derivedTolls.title')}
+                </h3>
+                <ul style={{ marginBottom: '1rem', lineHeight: '1.6' }}>
+                  {list('myEZTollDetail.gps.cards.derivedTolls.items').map((item) => (
+                    <li key={item}>{item}</li>
+                  ))}
+                </ul>
+              </div>
+
+              <div className="integration-card" style={{ padding: '1.5rem', backgroundColor: 'var(--card-bg)', borderRadius: '0.75rem', border: '1px solid var(--border)' }}>
+                <h3 style={{ color: 'var(--accent)', marginBottom: '1rem' }}>
+                  🗺️ {t('myEZTollDetail.gps.cards.liveMap.title')}
+                </h3>
+                <ul style={{ marginBottom: '1rem', lineHeight: '1.6' }}>
+                  {list('myEZTollDetail.gps.cards.liveMap.items').map((item) => (
+                    <li key={item}>{item}</li>
+                  ))}
+                </ul>
+              </div>
+
+              <div className="integration-card" style={{ padding: '1.5rem', backgroundColor: 'var(--card-bg)', borderRadius: '0.75rem', border: '1px solid var(--border)' }}>
+                <h3 style={{ color: 'var(--accent)', marginBottom: '1rem' }}>
+                  🚨 {t('myEZTollDetail.gps.cards.alerts.title')}
+                </h3>
+                <ul style={{ marginBottom: '1rem', lineHeight: '1.6' }}>
+                  {labeledList('myEZTollDetail.gps.cards.alerts.labeledItems').map((item) => (
+                    <li key={item.label}><strong>{item.label}</strong>{' '}{item.text}</li>
+                  ))}
+                  {list('myEZTollDetail.gps.cards.alerts.items').map((item) => (
+                    <li key={item}>{item}</li>
+                  ))}
+                </ul>
+              </div>
+
+              <div className="integration-card" style={{ padding: '1.5rem', backgroundColor: 'var(--card-bg)', borderRadius: '0.75rem', border: '1px solid var(--border)' }}>
+                <h3 style={{ color: 'var(--accent)', marginBottom: '1rem' }}>
+                  🛡️ {t('myEZTollDetail.gps.cards.theft.title')}
+                </h3>
+                <ul style={{ marginBottom: '1rem', lineHeight: '1.6' }}>
+                  {list('myEZTollDetail.gps.cards.theft.items').map((item) => (
+                    <li key={item}>{item}</li>
+                  ))}
+                </ul>
+              </div>
+
+              <div className="integration-card" style={{ padding: '1.5rem', backgroundColor: 'var(--card-bg)', borderRadius: '0.75rem', border: '1px solid var(--border)' }}>
+                <h3 style={{ color: 'var(--accent)', marginBottom: '1rem' }}>
+                  📐 {t('myEZTollDetail.gps.cards.geofencing.title')}
+                </h3>
+                <ul style={{ marginBottom: '1rem', lineHeight: '1.6' }}>
+                  {list('myEZTollDetail.gps.cards.geofencing.items').map((item) => (
+                    <li key={item}>{item}</li>
+                  ))}
+                </ul>
+              </div>
+
+              <div className="integration-card" style={{ padding: '1.5rem', backgroundColor: 'var(--card-bg)', borderRadius: '0.75rem', border: '1px solid var(--border)' }}>
+                <h3 style={{ color: 'var(--accent)', marginBottom: '1rem' }}>
+                  🔌 {t('myEZTollDetail.gps.cards.externalProviders.title')}
+                </h3>
+                <ul style={{ marginBottom: '1rem', lineHeight: '1.6' }}>
+                  {list('myEZTollDetail.gps.cards.externalProviders.items').map((item) => (
+                    <li key={item}>{item}</li>
+                  ))}
+                </ul>
+              </div>
+
+              <div className="integration-card" style={{ padding: '1.5rem', backgroundColor: 'var(--card-bg)', borderRadius: '0.75rem', border: '1px solid var(--border)' }}>
+                <h3 style={{ color: 'var(--accent)', marginBottom: '1rem' }}>
+                  🔧 {t('myEZTollDetail.gps.cards.devices.title')}
+                </h3>
+                <ul style={{ marginBottom: '1rem', lineHeight: '1.6' }}>
+                  {list('myEZTollDetail.gps.cards.devices.items').map((item) => (
+                    <li key={item}>{item}</li>
+                  ))}
+                </ul>
+              </div>
+
+            </div>
           </div>
 
           {/* Key Features */}
           <div className="detail-section">
-            <h2>🔑 Key Features</h2>
+            <h2>🔑 {t('myEZTollDetail.keyFeatures.title')}</h2>
             <div className="features-grid">
               <div className="feature-item">
-                <h3>🔄 Single-Organization Architecture</h3>
-                <p>Dedicated platform for individual fleet operators with complete data isolation and custom workflows.</p>
+                <h3>🔄 {t('myEZTollDetail.keyFeatures.cards.singleOrg.title')}</h3>
+                <p>{t('myEZTollDetail.keyFeatures.cards.singleOrg.text')}</p>
               </div>
               <div className="feature-item">
-                <h3>🏛️ Government Integration</h3>
-                <p>Direct integration with state DMV systems and municipal parking authorities for real-time data.</p>
+                <h3>🏛️ {t('myEZTollDetail.keyFeatures.cards.government.title')}</h3>
+                <p>{t('myEZTollDetail.keyFeatures.cards.government.text')}</p>
               </div>
               <div className="feature-item">
-                <h3>💰 Cost Optimization</h3>
-                <p>Intelligent routing suggestions and toll cost analysis to minimize operational expenses.</p>
+                <h3>🇨🇦 {t('myEZTollDetail.keyFeatures.cards.canadian.title')}</h3>
+                <p>{t('myEZTollDetail.keyFeatures.cards.canadian.text')}</p>
               </div>
               <div className="feature-item">
-                <h3>📱 Mobile Access</h3>
-                <p>Mobile-responsive interface for on-the-go fleet management and violation handling.</p>
+                <h3>🔗 {t('myEZTollDetail.keyFeatures.cards.connectors.title')}</h3>
+                <p>{t('myEZTollDetail.keyFeatures.cards.connectors.text')}</p>
+              </div>
+              <div className="feature-item">
+                <h3>💰 {t('myEZTollDetail.keyFeatures.cards.costOptimization.title')}</h3>
+                <p>{t('myEZTollDetail.keyFeatures.cards.costOptimization.text')}</p>
+              </div>
+              <div className="feature-item">
+                <h3>📱 {t('myEZTollDetail.keyFeatures.cards.mobile.title')}</h3>
+                <p>{t('myEZTollDetail.keyFeatures.cards.mobile.text')}</p>
               </div>
             </div>
           </div>
 
           {/* Technology Stack */}
           <div className="detail-section">
-            <h2>🛠️ Technology Stack</h2>
+            <h2>🛠️ {t('myEZTollDetail.tech.title')}</h2>
             <div className="tech-grid">
               <div className="tech-category">
-                <h3>Frontend</h3>
-                <p>React, Responsive design</p>
+                <h3>{t('myEZTollDetail.tech.cards.frontend.title')}</h3>
+                <p>{t('myEZTollDetail.tech.cards.frontend.text')}</p>
               </div>
               <div className="tech-category">
-                <h3>Backend</h3>
-                <p>ASP.NET Core, Robust API architecture</p>
+                <h3>{t('myEZTollDetail.tech.cards.backend.title')}</h3>
+                <p>{t('myEZTollDetail.tech.cards.backend.text')}</p>
               </div>
               <div className="tech-category">
-                <h3>Database</h3>
-                <p>PostgreSQL, Optimized queries</p>
+                <h3>{t('myEZTollDetail.tech.cards.database.title')}</h3>
+                <p>{t('myEZTollDetail.tech.cards.database.text')}</p>
               </div>
               <div className="tech-category">
-                <h3>Cloud</h3>
-                <p>Microsoft Azure, High availability</p>
+                <h3>{t('myEZTollDetail.tech.cards.ai.title')}</h3>
+                <p>{t('myEZTollDetail.tech.cards.ai.text')}</p>
               </div>
               <div className="tech-category">
-                <h3>Automation</h3>
-                <p>Playwright, Puppeteer web scraping</p>
+                <h3>{t('myEZTollDetail.tech.cards.gps.title')}</h3>
+                <p>{t('myEZTollDetail.tech.cards.gps.text')}</p>
               </div>
               <div className="tech-category">
-                <h3>Security</h3>
-                <p>Enterprise-grade security, AML compliance</p>
+                <h3>{t('myEZTollDetail.tech.cards.cloud.title')}</h3>
+                <p>{t('myEZTollDetail.tech.cards.cloud.text')}</p>
+              </div>
+              <div className="tech-category">
+                <h3>{t('myEZTollDetail.tech.cards.automation.title')}</h3>
+                <p>{t('myEZTollDetail.tech.cards.automation.text')}</p>
+              </div>
+              <div className="tech-category">
+                <h3>{t('myEZTollDetail.tech.cards.security.title')}</h3>
+                <p>{t('myEZTollDetail.tech.cards.security.text')}</p>
               </div>
             </div>
           </div>
 
           {/* CTA */}
           <div className="cta-section">
-            <h2>Ready to Automate Your Fleet Operations?</h2>
-            <p>Eliminate manual toll processing and parking violation management with our enterprise-grade solution.</p>
+            <h2>{t('myEZTollDetail.cta.title')}</h2>
+            <p>{t('myEZTollDetail.cta.text')}</p>
             <div className="cta-buttons">
-              <Link to="/contact" className="btn btn-primary">Request Demo</Link>
-              <a href="https://myeztoll.com" className="btn btn-secondary" target="_blank" rel="noopener noreferrer">Visit Site</a>
-              <a href="https://owner.myeztoll.com" className="btn btn-secondary" target="_blank" rel="noopener noreferrer">Owner Portal</a>
+              <Link to="/contact" className="btn btn-primary">{t('myEZTollDetail.cta.requestDemo')}</Link>
+              <a href="https://myeztoll.com" className="btn btn-secondary" target="_blank" rel="noopener noreferrer">{t('myEZTollDetail.cta.visitSite')}</a>
+              <a href="https://owner.myeztoll.com" className="btn btn-secondary" target="_blank" rel="noopener noreferrer">{t('myEZTollDetail.cta.ownerPortal')}</a>
             </div>
           </div>
 

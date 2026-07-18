@@ -73,77 +73,161 @@
     },
     "myEZToll": {
       "title": "MyEZToll",
-      "subtitle": "Plateforme de Gestion des Péages et Parkings pour les Flottes de Location",
-      "description": "NON multi-tenant (plateforme d'organisation unique). Traitement des paiements de péage, gestion des infractions de stationnement, couverture dans les 50 états américains. Conçu pour les compagnies de location de voitures et les opérateurs de flottes.",
+      "subtitle": "Plateforme de Péages, GPS et Infractions Dopée à l'IA pour Flottes de Location",
+      "description": "PAS multi-tenant (plateforme mono-organisation). Traitement des paiements de péage, détection des péages par GPS, gestion des infractions et couverture des 50 États américains et du Canada. Conçu pour les sociétés de location de véhicules et les gestionnaires de flottes.",
       "features": {
         "tollProcessing": "Traitement des paiements de péage",
-        "parkingManagement": "Gestion des infractions de stationnement",
-        "usaCoverage": "Couverture dans les 50 états américains",
-        "fleetOperators": "Conçu pour les compagnies de location de voitures et les opérateurs de flottes",
-        "ownerPortal": "Portail propriétaire pour les workflows de paiement et de disputes"
+        "parkingManagement": "Gestion des infractions de stationnement et de circulation",
+        "gpsTolls": "Détection des péages par GPS, tarifée par réservation",
+        "fleetMap": "Carte de flotte en direct avec historique et relecture des trajets",
+        "gpsAlerts": "Alerte de remorquage, plus alertes de contact et de trajet par SMS et e-mail",
+        "geofencing": "Zones de géorepérage tracées sur la carte (cercle ou polygone)",
+        "gpsIntegration": "Intégrations GPS tierces (Fleet77 et autres)",
+        "aiFirst": "Première plateforme de péages du secteur de la location à exploiter des agents IA en production",
+        "aiRates": "Des agents IA recherchent et mettent à jour les tarifs de péage automatiquement",
+        "usaCoverage": "Couverture des 50 États américains",
+        "canadaCoverage": "Routes à péage et infractions au Canada (407 ETR, A25, A30)",
+        "fleetOperators": "Conçu pour les sociétés de location de véhicules et les gestionnaires de flottes",
+        "ownerPortal": "Portail propriétaire pour les paiements et les contestations"
       },
       "learnMore": "En Savoir Plus",
       "visitSite": "Visiter le Site",
-      "ownerPortal": "Portail Propriétaire"
+      "ownerPortal": "Portail Propriétaire",
+      "featuresTitle": "Fonctionnalités de la plateforme"
+    },
+    "vehicleRental": {
+      "title": "Gestion de location de véhicules",
+      "description": "Plateforme SaaS complète pour les sociétés de location, avec architecture multi-tenant, intégration Stripe Connect et opérations automatisées.",
+      "features": {
+        "fleetManagement": "Gestion de flotte et disponibilité",
+        "driverVerification": "Vérification du conducteur (BlinkID)",
+        "securityDeposit": "Gestion des dépôts de garantie",
+        "automatedBilling": "Facturation automatisée",
+        "voiceAI": "🎙️ Assistant vocal IA pour le choix du véhicule",
+        "socialIntegration": "Intégration complète Instagram & Facebook"
+      },
+      "learnMore": "En savoir plus"
+    },
+    "brazilianMarketplace": {
+      "title": "Plateforme de marketplace multi-tenant pour l'artisanat brésilien",
+      "description": "Plateforme e-commerce dans le cloud qui relie les artisans et petits vendeurs brésiliens aux clients en quête d'objets artisanaux authentiques, d'art populaire et de produits du quotidien. Entièrement intégrée à Instagram et Facebook pour le social commerce : vitrines en ligne multi-tenant, gestion du catalogue produits, suivi des commandes et des expéditions, paiements Stripe.",
+      "learnMore": "En savoir plus"
     }
   },
   "about": {
-    "whatWeBuild": {
-      "title": "Ce Que Nous Construisons",
-      "subtitle": "Solutions réelles pour les opérations de location et la conformité réglementaire.",
+    "title": "À propos d'Aegis AO Soft",
+    "subtitle": "Des systèmes logiciels sûrs et fiables pour les environnements réglementés et critiques",
+    "intro": {
+      "description": "Aegis AO Soft développe des systèmes logiciels sûrs et fiables pour les organisations opérant dans des environnements réglementés et critiques. L'entreprise est spécialisée dans les plateformes qui soutiennent la continuité opérationnelle, la conformité réglementaire et le traitement de données à grande échelle.",
+      "leadership": "Fondée et dirigée par un architecte logiciel chevronné, Aegis AO Soft allie un leadership technique de terrain à des décennies d'expérience dans la livraison de systèmes en production pour des secteurs proches du secteur public et des domaines opérationnels complexes."
+    },
+    "missionCritical": {
+      "title": "Systèmes opérationnels critiques",
+      "description": "Nos travaux portent sur des systèmes qui doivent fonctionner en continu et avec précision, souvent sous supervision réglementaire ou sous contraintes opérationnelles.",
+      "areas": {
+        "title": "Domaines types :",
+        "fleet": "Opérations de flotte et de transport",
+        "payments": "Systèmes de paiement et de facturation",
+        "compliance": "Plateformes de conformité et de reporting",
+        "workflow": "Automatisation des processus administratifs",
+        "dataIntensive": "Logiciels opérationnels à forte intensité de données"
+      },
+      "design": "Nos solutions sont conçues pour la fiabilité, l'auditabilité et la maintenabilité à long terme."
+    },
+    "transportation": {
+      "title": "Technologies du transport et de la réglementation",
+      "description": "Aegis AO Soft développe des plateformes dédiées aux opérations liées aux véhicules et aux exigences réglementaires associées.",
       "vehicleRental": {
-        "title": "Gestion de Location de Véhicules",
-        "description": "Plateforme SaaS complète pour les entreprises de location avec architecture multi-tenant, intégration Stripe Connect et opérations automatisées.",
-        "features": {
-          "fleetManagement": "Gestion de flotte et disponibilité",
-          "driverVerification": "Vérification du conducteur (BlinkID)",
-          "securityDeposit": "Gestion des dépôts de garantie",
-          "automatedBilling": "Facturation automatisée"
-        }
+        "title": "Location de véhicules et gestion de flotte",
+        "items": [
+          "Contrôle opérationnel des parcs de véhicules",
+          "Suivi des réservations et de l'utilisation",
+          "Gestion des clients et des contrats",
+          "Intégration du traitement des paiements",
+          "Déploiement multi-sites"
+        ]
       },
-      "complianceAutomation": {
-        "title": "Automatisation de la Conformité",
-        "description": "Systèmes intelligents qui surveillent, analysent et résolvent automatiquement les contraventions de stationnement dans plusieurs municipalités.",
-        "features": {
-          "citationScraping": "Extraction et analyse de contraventions",
-          "automatedPayment": "Traitement automatisé des paiements",
-          "multiState": "Support multi-états (FL, NJ)",
-          "violationTracking": "Suivi et rapports de violations"
-        }
+      "tollViolation": {
+        "title": "Gestion des péages et des infractions",
+        "items": [
+          "Agrégation des frais de péage entre les différents opérateurs",
+          "Traitement des infractions de stationnement selon les juridictions",
+          "Facturation, rapprochement et reporting",
+          "Prise en charge des organisations exploitant des flottes à l'échelle nationale"
+        ]
       }
     },
-    "technicalExpertise": {
-      "title": "Expertise Technique",
-      "subtitle": "Stack éprouvé en production pour les industries réglementées.",
-      "backend": "Node.js, ASP.NET Core, PostgreSQL, Redis",
-      "frontend": "React, TypeScript, Material-UI",
-      "cloud": "Azure App Service, AWS, Docker",
-      "payments": "Stripe Connect, conformité PCI DSS",
-      "automation": "Playwright, Puppeteer, flux de travail planifiés",
-      "security": "AML/KYC, SOX, isolement multi-tenant"
+    "security": {
+      "title": "Sécurité, conformité et intégrité des données",
+      "description": "Nos systèmes sont conçus en mettant fortement l'accent sur la sécurité et la conformité.",
+      "features": [
+        "Accès contrôlé et gestion des identités",
+        "Pratiques de protection des données alignées sur les normes du secteur",
+        "Journalisation et reporting prêts pour l'audit",
+        "Mécanismes d'isolation pour les déploiements multi-tenant",
+        "Pratiques de conformité pour le traitement des paiements"
+      ]
     },
-    "enterpriseExperience": {
-      "title": "Expérience Entreprise",
-      "fxcm": "Plus de 20 ans à construire des systèmes de conformité financière chez FXCM, incluant le traitement des paiements, les rapports réglementaires et les opérations de back-office pour les plateformes de trading réglementées.",
-      "ctm": "A fondé <ctmLink>CTM</ctmLink> — système électronique de déclaration douanière pour les Douanes russes.",
-      "huur": "A livré la plateforme de location de voitures <huurLink>Huur US</huurLink> opérant dans plusieurs états.",
-      "blueCliff": "A construit l'API ASP.NET <blueCliffLink>Blue Cliff</blueCliffLink> avec une base de données PostgreSQL supportant leurs expériences de planification de retraite."
+    "technology": {
+      "title": "Capacités technologiques",
+      "description": "Nos plateformes reposent sur des technologies modernes et largement adoptées, gages de pérennité et d'interopérabilité.",
+      "stack": [
+        "Infrastructure cloud Microsoft Azure",
+        "Plateforme .NET moderne et ASP.NET Core",
+        "Architectures de services distribués",
+        "Systèmes de gestion de données relationnelles",
+        "Déploiements conteneurisés",
+        "Supervision et diagnostics automatisés"
+      ],
+      "philosophy": "Nos choix technologiques privilégient le support à long terme plutôt que les tendances éphémères."
     },
-    "deliveryFramework": {
-      "title": "Cadre de Livraison",
-      "subtitle": "Exécution orchestrée de la découverte à l'échelle.",
-      "discover": {
-        "title": "Découvrir",
-        "description": "Cartographie des exigences techniques, conception du schéma de base de données, spécification de l'API et planification de l'architecture cloud."
+    "leadership": {
+      "title": "Une direction assurée par l'architecte fondateur",
+      "description": "Aegis AO Soft fonctionne sous une direction technique directe plutôt que sous une supervision purement managériale.",
+      "experience": "Le fondateur apporte des décennies d'expérience dans la conception et la mise en œuvre de systèmes complexes en environnement réglementé, notamment :",
+      "domains": [
+        "Infrastructures de services financiers",
+        "Systèmes de traitement des paiements",
+        "Plateformes de reporting réglementaire",
+        "Projets logiciels liés au secteur public",
+        "Systèmes transactionnels à grande échelle"
+      ],
+      "approach": "Cette approche garantit la cohérence architecturale, la responsabilité technique et une résolution rapide des problèmes complexes."
+    },
+    "delivery": {
+      "title": "Approche de livraison",
+      "description": "Les projets suivent un cycle de vie rigoureux visant à réduire les risques et à assurer la préparation opérationnelle.",
+      "assessment": {
+        "title": "Évaluation",
+        "items": [
+          "Analyse des besoins",
+          "Évaluation des données et des flux de travail",
+          "Définition de l'architecture",
+          "Planification des intégrations"
+        ]
       },
-      "build": {
-        "title": "Construire",
-        "description": "Livraison incrémentale avec des flux de travail basés sur Git, déploiements containerisés, tests automatisés et pipelines CI/CD."
+      "implementation": {
+        "title": "Mise en œuvre",
+        "items": [
+          "Développement incrémental",
+          "Pipelines de déploiement sécurisés",
+          "Tests automatisés",
+          "Documentation du comportement du système"
+        ]
       },
-      "scale": {
-        "title": "Mettre à l'échelle",
-        "description": "Optimisation des performances, configuration de la surveillance (Application Insights), durcissement de la sécurité et documentation."
+      "operational": {
+        "title": "Support opérationnel",
+        "items": [
+          "Optimisation des performances",
+          "Supervision et alertes",
+          "Renforcement de la sécurité",
+          "Maintenance et mises à jour continues"
+        ]
       }
+    },
+    "commitment": {
+      "title": "Engagement de fiabilité et de responsabilité",
+      "description": "Aegis AO Soft travaille avec des organisations qui ont besoin de systèmes fiables et d'un partenaire technologique sur le long terme. Notre objectif est de fournir des solutions qui restent stables, maintenables et auditables tout au long de leur cycle de vie opérationnel."
     }
   },
   "contact": {
@@ -153,7 +237,8 @@
       "benefits": {
         "seniorEngineer": "Plus de 30 ans de livraison de systèmes de production",
         "regulatedIndustries": "Expérience avec les industries réglementées (finance, douanes)",
-        "fullStack": "Livraison full-stack de la base de données au déploiement"
+        "fullStack": "Livraison full-stack de la base de données au déploiement",
+        "usBased": "Équipe basée aux États-Unis, dans le New Jersey"
       },
       "getInTouch": "Entrer en Contact"
     },
@@ -178,31 +263,43 @@
     }
   },
   "vehicleRental": {
-    "title": "Aegis-Rental : Plateforme Complète de Gestion de Location de Véhicules",
-    "subtitle": "Lancez Votre Propre Entreprise de Location en Quelques Minutes",
-    "description": "Aegis-Rental est une plateforme SaaS multi-tenant puissante qui permet aux entreprises de location de véhicules de lancer leur propre site web professionnel de location rapidement et efficacement. Construite sur une architecture cloud moderne, elle fournit tout ce dont vous avez besoin pour gérer votre flotte, vos clients et vos réservations dès le premier jour.",
+    "title": "MyEZWheels : Plateforme Multi-Tenant de Sites de Location de Véhicules",
+    "subtitle": "Lancez Votre Propre Site de Location à Votre Marque en Quelques Minutes",
+    "description": "MyEZWheels est une plateforme multi-tenant qui permet aux sociétés de location de véhicules d'exploiter leur propre site de réservation complet et professionnel. Chaque tenant est identifié par son domaine — un sous-domaine gratuit ou votre propre domaine personnalisé — avec une flotte, des tarifs, une identité visuelle et des données clients isolés, le tout configurable depuis le portail propriétaire sans écrire une seule ligne de code.",
     "languages": {
-      "title": "🌍 5 Langues Prises en Charge",
-      "english": "🇺🇸 Anglais",
-      "spanish": "🇪🇸 Espagnol (Español)",
-      "portuguese": "🇵🇹 Portugais (Português)",
-      "french": "🇫🇷 Français (Français)",
-      "german": "🇩🇪 Allemand (Deutsch)",
-      "description": "Tous les éléments de l'interface, les confirmations de réservation, les notifications par e-mail et les communications clients sont entièrement localisés."
+      "title": "🌍 15 Langues Prises en Charge",
+      "list": [
+        "🇺🇸 English",
+        "🇪🇸 Español",
+        "🇵🇹 Português",
+        "🇫🇷 Français",
+        "🇩🇪 Deutsch",
+        "🇮🇹 Italiano",
+        "🇳🇱 Nederlands",
+        "🇵🇱 Polski",
+        "🇺🇦 Українська",
+        "🇷🇺 Русский",
+        "🇹🇷 Türkçe",
+        "🇸🇦 العربية",
+        "🇨🇳 中文",
+        "🇯🇵 日本語",
+        "🇰🇷 한국어"
+      ],
+      "description": "Le texte de la vitrine est stocké en base de données et traduit automatiquement dans toutes les langues prises en charge : l'interface, les confirmations de réservation et les e-mails clients sont localisés — et les textes se modifient sans nouvelle mise en production."
     },
     "features": {
       "title": "🚗 Fonctionnalités Complètes du Système de Location",
       "intelligentBooking": {
-        "title": "Réservation Intelligente",
-        "voiceAI": "Recherche et réservation alimentées par l'IA vocale — parlez naturellement pour trouver et réserver des véhicules",
+        "title": "Réservation en Ligne",
+        "vehicleSearch": "Recherche par catégorie, agence et date avec tarifs en temps réel",
         "realTimeCalendar": "Calendrier de disponibilité en temps réel avec confirmation instantanée",
-        "smartRecommendations": "Recommandations intelligentes de véhicules basées sur les besoins du client",
+        "seasonalPricing": "Tarification saisonnière et par période (jour, semaine, mois)",
         "vinRecognition": "Reconnaissance du numéro VIN pour les informations automatiques du véhicule"
       },
       "customerVerification": {
-        "title": "Vérification Client",
-        "blinkID": "Intégration BlinkID pour la numérisation instantanée du permis de conduire (recto et verso)",
-        "dataExtraction": "Extraction et validation automatiques des données",
+        "title": "Vérification du Conducteur",
+        "phoneCapture": "Scannez un QR code et photographiez le permis depuis le téléphone du client",
+        "dataExtraction": "Décodage du code-barres PDF417 et OCR par IA qui remplit le formulaire automatiquement",
         "ageVerification": "Vérification de l'âge et de l'expiration du permis",
         "documentStorage": "Stockage sécurisé des documents"
       },
@@ -224,8 +321,8 @@
       "multiTenant": {
         "title": "Architecture Multi-Tenant",
         "brandedWebsite": "Chaque entreprise de location obtient son propre site web avec marque",
-        "customDomains": "Domaines personnalisés (votreentreprise.aegis-rental.com)",
-        "uniqueBranding": "Marque unique : logos, couleurs, informations de contact",
+        "customDomains": "Sous-domaine gratuit (votreentreprise.myezwheels.com) ou votre propre domaine personnalisé",
+        "uniqueBranding": "Identité propre : logos, couleurs, visuels et coordonnées",
         "isolatedData": "Données isolées — chaque locataire ne voit que ses propres informations",
         "customEmails": "Adresses e-mail personnalisées pour les notifications"
       },
@@ -256,12 +353,12 @@
     "techStack": {
       "title": "🛠️ Stack Technologique",
       "frontend": "React avec design responsive moderne",
-      "backend": "API REST ASP.NET Core",
-      "database": "PostgreSQL",
+      "backend": "API REST ASP.NET Core avec Entity Framework Core",
+      "database": "Azure SQL Server",
       "cloud": "Hébergement Azure avec auto-scaling",
       "payments": "Stripe Connect",
-      "documentScanning": "SDK BlinkID",
-      "ai": "Reconnaissance vocale et recommandations intelligentes"
+      "documentScanning": "Décodage de code-barres PDF417 et OCR de documents par IA",
+      "ai": "Claude AI pour la lecture de documents et la traduction de contenu"
     },
     "customization": {
       "title": "🎨 DESIGN MULTIDISCIPLINAIRE",
@@ -321,8 +418,13 @@
         "mobileFirst": {
           "title": "Design Mobile-First",
           "description": "Design responsive optimisé pour le marché brésilien dominé par les smartphones"
+        },
+        "socialMedia": {
+          "title": "Intégration Instagram & Facebook",
+          "description": "Intégration complète du social commerce — vendez directement via Instagram Shop et Facebook Marketplace, synchronisez vos catalogues produits et touchez vos clients sur les réseaux sociaux"
         }
-      }
+      },
+      "tryNow": "Essayer"
     }
   },
   "booking": {
@@ -343,7 +445,9 @@
     "vehicleRental": "Gestion de Location de Véhicules",
     "compliance": "Automatisation de la Conformité",
     "booking": "Plateformes de Réservation",
-    "copyright": "© {{year}} Aegis AO Soft. Tous droits réservés."
+    "copyright": "© {{year}} Aegis AO Soft. Tous droits réservés.",
+    "ein": "EIN",
+    "location": "New Jersey, États-Unis"
   },
   "adminGuide": {
     "sectionTitle": "Guide d'Administration et du Vendeur",
@@ -369,7 +473,11 @@
           "customer": "Customer — Parcourir, acheter, écrire des avis",
           "seller": "Seller — Créer/gérer des produits, voir les ventes, gérer les commandes",
           "tenantAdmin": "TenantAdmin — Gérer vendeurs, utilisateurs, paramètres, catégories, paiements",
-          "superAdmin": "SuperAdmin — Gestion multi-tenant, créer des boutiques, accès complet"
+          "superAdmin": "SuperAdmin — Gestion multi-tenant, créer des boutiques, accès complet",
+          "customerLabel": "Client :",
+          "sellerLabel": "Vendeur :",
+          "tenantAdminLabel": "TenantAdmin :",
+          "superAdminLabel": "SuperAdmin :"
         },
         "dashboard": {
           "title": "Aperçu du Tableau de Bord",
@@ -547,7 +655,10 @@
           "title": "Configuration Stripe",
           "sandbox": "Sandbox : Clés API test (pk_test_..., sk_test_...) → Enregistrer → Tester → Activer",
           "production": "Production : Mêmes étapes avec clés réelles. Testez bien. Configurez le webhook.",
-          "connect": "Stripe Connect : Chaque vendeur complète l'onboarding. Répartition automatique des paiements selon la commission."
+          "connect": "Stripe Connect : Chaque vendeur complète l'onboarding. Répartition automatique des paiements selon la commission.",
+          "sandboxLabel": "Bac à sable :",
+          "productionLabel": "Production :",
+          "connectLabel": "Stripe Connect :"
         },
         "mercadopago": {
           "title": "MercadoPago",
@@ -617,6 +728,858 @@
         "intro": "La plateforme supporte 10 langues : Portugais (principal), Anglais, Espagnol, Français, Allemand, Italien, Japonais, Russe, plus les langues indigènes Guaraní Mbyá et Nheengatu pour la préservation du patrimoine culturel.",
         "tip": "Remplissez au minimum Portugais et Anglais pour maximiser la portée. Repli : Portugais."
       }
+    },
+    "tipLabel": "Astuce :"
+  },
+  "brazilianMarketplaceDetail": {
+    "hero": {
+      "title": "Mercadinho25",
+      "subtitle": "Marketplace mondiale des produits artisanaux brésiliens",
+      "description": "Reliez les artisans brésiliens à une clientèle mondiale grâce à la traduction par IA, à l'intégration du social commerce et à une architecture de marketplace multi-tenant. Lancez votre marketplace artisanale dès aujourd'hui.",
+      "tryDemo": "Démo gratuite",
+      "visitMarketplace": "Voir la marketplace",
+      "stats": {
+        "languages": {
+          "label": "Langues",
+          "note": "+ langues autochtones"
+        },
+        "translation": {
+          "value": "IA",
+          "label": "Traduction"
+        },
+        "social": {
+          "value": "Social",
+          "label": "Commerce"
+        },
+        "multiTenant": {
+          "value": "Multi",
+          "label": "Tenant"
+        }
+      }
+    },
+    "whatIs": {
+      "title": "Qu'est-ce que Mercadinho25 ?",
+      "paragraph1": "Mercadinho25 est une plateforme e-commerce dans le cloud qui relie les artisans et petits vendeurs brésiliens aux clients en quête d'objets artisanaux authentiques, d'art populaire et de produits du quotidien.",
+      "paragraph2": "L'architecture multi-tenant permet à des vendeurs indépendants d'exploiter des vitrines en ligne à leur image au sein d'une marketplace unifiée, chacune avec ses propres catalogues, tarifs et options d'expédition."
+    },
+    "audience": {
+      "title": "À qui s'adresse-t-elle ?",
+      "artisans": {
+        "label": "Artisans brésiliens",
+        "text": "créant de l'artisanat traditionnel et de l'art populaire"
+      },
+      "vendors": {
+        "label": "Petits vendeurs",
+        "text": "proposant des produits faits main et régionaux"
+      },
+      "operators": {
+        "label": "Opérateurs de marketplace",
+        "text": "souhaitant lancer des plateformes e-commerce de niche"
+      },
+      "culturalSellers": {
+        "label": "Vendeurs de produits culturels",
+        "text": "axés sur les objets du patrimoine brésilien"
+      },
+      "socialCommerce": {
+        "label": "Entreprises de social commerce",
+        "text": "tirant parti des ventes sur Instagram et Facebook"
+      }
+    },
+    "capabilities": {
+      "title": "Principales fonctionnalités",
+      "storefronts": {
+        "title": "Vitrines en ligne multi-tenant",
+        "description": "Comptes vendeurs indépendants avec image de marque personnalisée, design de vitrine unique et identité sur mesure."
+      },
+      "languages": {
+        "title": "Prise en charge de 10 langues + langues autochtones",
+        "description": "Portugais, anglais, espagnol, français, allemand, italien, japonais, russe, ainsi que des langues autochtones (Guaraní Mbyá, Nheengatu) entièrement localisées.",
+        "heritage": {
+          "title": "Fonction patrimoine culturel :",
+          "intro": "Prise en charge spécifique des langues autochtones du Brésil :",
+          "guarani": {
+            "label": "Guaraní Mbyá",
+            "text": "(gn-mby) - Langue guarani traditionnelle"
+          },
+          "nheengatu": {
+            "label": "Nheengatu",
+            "text": "(yrl) - Lingua franca amazonienne"
+          },
+          "note": "Préserver et promouvoir la diversité linguistique et culturelle du Brésil par le commerce"
+        }
+      },
+      "aiTranslation": {
+        "title": "Traduction par IA",
+        "description": "Traduction automatique des descriptions produits via l'API Google Translate et Claude AI, pour une portée maximale."
+      },
+      "socialCommerce": {
+        "title": "Social commerce",
+        "description": "Intégration complète d'Instagram Shop et de Facebook Marketplace — vendez directement sur les réseaux sociaux."
+      },
+      "payments": {
+        "title": "Traitement des paiements",
+        "description": "Stripe et MercadoPago intégrés, avec structure de commission de marketplace et reversements aux vendeurs."
+      },
+      "shipping": {
+        "title": "Intégration de la livraison",
+        "description": "Intégration Correios pour les expéditions au Brésil, avec suivi et coordination des livraisons."
+      }
+    },
+    "problems": {
+      "title": "Problèmes résolus",
+      "globalReach": {
+        "label": "Portée mondiale limitée",
+        "text": "Plateforme en 10 langues avec traduction IA + langues autochtones"
+      },
+      "setup": {
+        "label": "Mise en place e-commerce complexe",
+        "text": "Plateforme de marketplace prête à l'emploi"
+      },
+      "socialSales": {
+        "label": "Difficultés de vente sur les réseaux sociaux",
+        "text": "Commerce Instagram/Facebook intégré"
+      },
+      "payments": {
+        "label": "Freins au traitement des paiements",
+        "text": "Prise en charge multi-passerelles avec options locales"
+      },
+      "inventory": {
+        "label": "Complexité de la gestion des stocks",
+        "text": "Système complet de gestion des vendeurs"
+      },
+      "mobile": {
+        "label": "Limites de l'achat sur mobile",
+        "text": "Design responsive pensé mobile d'abord"
+      }
+    },
+    "categories": {
+      "title": "Principales catégories de produits"
+    },
+    "social": {
+      "title": "Intégration du social commerce",
+      "intro": "Des fonctionnalités complètes de social commerce qui permettent aux artisans brésiliens de vendre directement sur les réseaux sociaux et de toucher un public mondial.",
+      "instagram": {
+        "title": "Intégration Instagram Shop",
+        "items": [
+          "Synchronisation automatique du catalogue vers Instagram Shop",
+          "Paiement direct dans l'application Instagram",
+          "Identification des produits dans les publications et les stories",
+          "Mises à jour automatiques des stocks",
+          "Descriptions produits multilingues",
+          "Intégration du suivi des expéditions"
+        ]
+      },
+      "facebook": {
+        "title": "Intégration Facebook Marketplace",
+        "items": [
+          "Publication automatique des produits sur Facebook Marketplace",
+          "Intégration de la boutique à la page Facebook Business",
+          "Publicité ciblée pour les produits artisanaux",
+          "Synchronisation des avis et des notes clients",
+          "Support client via Facebook Messenger",
+          "Campagnes promotionnelles liées aux événements"
+        ]
+      },
+      "whatsapp": {
+        "title": "Intégration WhatsApp Business",
+        "items": [
+          "Bouton de contact WhatsApp sur les fiches produits",
+          "Numéro WhatsApp propre à chaque vendeur",
+          "Confirmations de commande automatiques par WhatsApp",
+          "Partage du catalogue produits via WhatsApp",
+          "Support client et demandes de renseignements",
+          "Notifications de statut de livraison"
+        ]
+      },
+      "analytics": {
+        "title": "Analytique multiplateforme",
+        "items": [
+          "Tableau de bord analytique unifié pour toutes les plateformes",
+          "Suivi des performances sur les réseaux sociaux",
+          "Attribution des ventes multiplateformes",
+          "Cartographie du parcours client",
+          "Suivi du ROI des campagnes sur les réseaux sociaux",
+          "Rapports et analyses automatisés"
+        ]
+      },
+      "heritage": {
+        "title": "Préservation du patrimoine culturel",
+        "intro": "Au-delà du succès commercial, Mercadinho25 œuvre activement à la préservation de la diversité culturelle et linguistique du Brésil.",
+        "supportTitle": "Prise en charge des langues autochtones :",
+        "guarani": {
+          "label": "Guaraní Mbyá",
+          "text": "(gn-mby) - Langue sacrée du peuple guarani"
+        },
+        "nheengatu": {
+          "label": "Nheengatu",
+          "text": "(yrl) - Lingua franca amazonienne, « la belle langue »"
+        },
+        "note": "Permettre aux artisans autochtones de présenter leur travail dans leur langue maternelle, en préservant leur identité culturelle tout en accédant aux marchés mondiaux."
+      }
+    },
+    "tech": {
+      "title": "Stack technologique",
+      "frontend": {
+        "title": "Frontend",
+        "description": "React, TypeScript, Material-UI"
+      },
+      "backend": {
+        "title": "Backend",
+        "description": "API RESTful Node.js, architecture multi-tenant"
+      },
+      "database": {
+        "title": "Base de données",
+        "description": "PostgreSQL avec isolation des tenants"
+      },
+      "cloud": {
+        "title": "Cloud",
+        "description": "Azure App Service, mise à l'échelle automatique"
+      },
+      "ai": {
+        "title": "IA & traduction",
+        "description": "API Google Translate, Claude AI"
+      },
+      "integration": {
+        "title": "Intégration",
+        "description": "Instagram Graph API, Facebook Business API, MercadoPago"
+      }
+    },
+    "tenants": {
+      "title": "Exemples de tenants en production",
+      "intro": "Découvrez comment des vendeurs indépendants créent leur propre vitrine en ligne à leur image au sein de la marketplace. Chaque tenant contrôle entièrement son image de marque, ses produits et son expérience client.",
+      "alex": {
+        "title": "L'atelier d'artisanat d'Alex",
+        "description": "Céramiques et poteries traditionnelles brésiliennes. Vitrine en ligne personnalisée, au design unique et à l'expérience client sur mesure.",
+        "linkLabel": "Voir la boutique d'Alex"
+      },
+      "joanna": {
+        "title": "La galerie textile de Joanna",
+        "description": "Textiles tissés main et broderies de São Paulo. Image de marque personnalisée, intégration aux réseaux sociaux et prise en charge multilingue.",
+        "linkLabel": "Voir la boutique de Joanna"
+      },
+      "callout": {
+        "label": "Architecture multi-tenant :",
+        "text": "Chaque vendeur dispose de son sous-domaine, de son image de marque, de données isolées et du contrôle total de sa vitrine — le tout géré depuis une seule plateforme."
+      }
+    },
+    "adminGuideCta": {
+      "buttonLabel": "Voir le guide administrateur complet"
+    },
+    "cta": {
+      "title": "Prêt à relier les artisans aux marchés mondiaux ?",
+      "description": "Lancez votre propre marketplace d'artisanat brésilien avec social commerce et traduction IA intégrés.",
+      "startMarketplace": "Lancer votre marketplace",
+      "visitSite": "Voir le site",
+      "sellerGuide": "Guide vendeur"
     }
+  },
+  "myEZTollDetail": {
+    "hero": {
+      "title": "Plateforme IA de péages, GPS et infractions pour flottes de location",
+      "subtitle": "Plateforme d'entreprise conçue spécifiquement pour les loueurs de voitures et les gestionnaires de flotte, afin d'automatiser le traitement des péages, la détection des péages par GPS et la gestion des infractions dans les 50 États américains et au Canada — la première plateforme de péages et d'infractions du secteur de la location à exécuter des agents IA en production."
+    },
+    "whatIs": {
+      "title": "Qu'est-ce que MyEZToll ?",
+      "p1": "MyEZToll est une plateforme spécialisée mono-organisation (PAS multi-tenant), conçue exclusivement pour les sociétés de location de voitures et les gestionnaires de flotte qui ont besoin d'une gestion complète des péages, du GPS et des infractions.",
+      "p2": "Contrairement aux solutions génériques, MyEZToll offre une infrastructure dédiée à chaque gestionnaire de flotte, avec un contrôle total sur ses processus de péages et d'infractions dans les 50 États américains et au Canada.",
+      "p3": "La plateforme fonctionne dans les deux sens : elle collecte les frais auprès des exploitants de péages et des émetteurs d'infractions, et calcule aussi de façon autonome les péages à partir des traces GPS des véhicules — un trajet est ainsi tarifé dès le passage du portique, bien avant l'arrivée de la facture de l'exploitant."
+    },
+    "forWhom": {
+      "title": "À qui s'adresse-t-elle ?",
+      "items": [
+        {
+          "label": "Sociétés de location de voitures",
+          "text": "opérant dans plusieurs États"
+        },
+        {
+          "label": "Sociétés de gestion de flotte",
+          "text": "gérant des itinéraires à forte densité de péages"
+        },
+        {
+          "label": "Gestionnaires de flotte d'entreprise",
+          "text": "à la recherche d'une conformité automatisée"
+        },
+        {
+          "label": "Franchises de location",
+          "text": "ayant besoin d'une gestion centralisée des péages"
+        },
+        {
+          "label": "Flottes d'entreprise",
+          "text": "circulant beaucoup sur les routes à péage"
+        }
+      ]
+    },
+    "capabilities": {
+      "title": "Principales fonctionnalités",
+      "cards": {
+        "automatedToll": {
+          "title": "Traitement automatisé des péages",
+          "text": "Traitement fluide des frais de péage dans plusieurs États, avec rapprochement et paiement automatiques."
+        },
+        "parkingViolations": {
+          "title": "Gestion des infractions de stationnement",
+          "text": "Suivi complet et processus de contestation des contraventions de stationnement, avec résolution automatisée."
+        },
+        "gpsTolling": {
+          "title": "Péage basé sur le GPS",
+          "text": "Les traces GPS des véhicules sont rapprochées d'une base de barrières et de portiques de péage réels, puis tarifées par réservation — les péages sont connus grâce au trajet lui-même, et pas seulement via la facture de l'exploitant."
+        },
+        "towingAlerts": {
+          "title": "Alertes remorquage et flotte",
+          "text": "Alertes SMS et e-mail instantanées en cas de remorquage, de mise en/hors contact et de fin de trajet — envoyées au propriétaire, au locataire en cours, ou aux deux."
+        },
+        "thirdPartyGps": {
+          "title": "Intégration GPS tierce",
+          "text": "Intégrations télématiques enfichables — Fleet77 et d'autres — qui remontent véhicules et positions depuis des traceurs externes aux côtés de nos propres appareils, dans une vue de flotte unique."
+        },
+        "aiRateResearch": {
+          "title": "Recherche des tarifs de péage par IA",
+          "text": "Des agents IA analysent de façon autonome les sources des exploitants de péages, détectent les changements de tarifs et maintiennent la tarification à jour sans saisie manuelle."
+        },
+        "coverage": {
+          "title": "Couverture États-Unis & Canada",
+          "text": "Les 50 États américains, plus les routes à péage et les infractions au Canada, dont Highway 407 ETR, A25 et A30."
+        },
+        "ownerPortal": {
+          "title": "Portail en libre-service pour propriétaires",
+          "text": "Portail dédié permettant aux propriétaires de véhicules de gérer eux-mêmes paiements et contestations."
+        },
+        "analytics": {
+          "title": "Analytique de flotte",
+          "text": "Rapports et analyses complets sur les coûts de péage, les tendances d'infractions et la performance de la flotte."
+        },
+        "automation": {
+          "title": "Automatisation intelligente",
+          "text": "Analyse des contraventions par IA et traitement automatisé des paiements, avec une intervention manuelle minimale."
+        }
+      }
+    },
+    "problems": {
+      "title": "Problèmes résolus",
+      "items": [
+        {
+          "label": "Rapprochement manuel des péages",
+          "text": "→ Traitement automatisé dans tous les États"
+        },
+        {
+          "label": "Arriéré d'infractions de stationnement",
+          "text": "→ Analyse intelligente et gestion des contestations"
+        },
+        {
+          "label": "Complexité de la conformité multi-États",
+          "text": "→ Couverture unifiée des 50 États et du Canada"
+        },
+        {
+          "label": "Péages découverts des semaines plus tard",
+          "text": "→ La détection GPS tarife le trajet en temps réel"
+        },
+        {
+          "label": "Tarifs de péage obsolètes",
+          "text": "→ Les agents IA suivent en continu les changements de tarifs"
+        },
+        {
+          "label": "Matériel de traceurs hétérogène",
+          "text": "→ Fournisseurs GPS tiers intégrés dans une vue de flotte unique"
+        },
+        {
+          "label": "Charge du service client",
+          "text": "→ Portail propriétaire en libre-service pour les contestations"
+        },
+        {
+          "label": "Charge administrative",
+          "text": "→ Flux de travail et notifications automatisés"
+        },
+        {
+          "label": "Manque de visibilité sur les coûts",
+          "text": "→ Rapports et analyses en temps réel"
+        }
+      ]
+    },
+    "ai": {
+      "title": "L'intelligence artificielle au service des opérations de flotte",
+      "intro": "MyEZToll est la première plateforme de péages et d'infractions du secteur de la location de véhicules à exécuter des agents IA en production — non pas un chatbot greffé sur l'interface, mais un logiciel qui accomplit le travail opérationnel.",
+      "cards": {
+        "rateResearch": {
+          "title": "Recherche autonome des tarifs de péage",
+          "items": [
+            "Des agents IA lisent les sources et grilles tarifaires des exploitants de péages",
+            "Détection automatique des changements de tarifs et des nouvelles infrastructures",
+            "Mise à jour de la tarification par barrière et par origine–destination dans la plateforme",
+            "Auto-réparation : nouvelles tentatives, sources alternatives, passes de vérification",
+            "Revue à blanc avant toute modification tarifaire"
+          ]
+        },
+        "documents": {
+          "title": "Analyse intelligente des documents et contraventions",
+          "items": [
+            "Analyse par IA des avis d'infraction et des relevés de péage",
+            "Lecture du permis de conduire par OCR IA et décodage du code-barres",
+            "Extraction automatique des plaques, dates, montants et juridictions",
+            "Des données structurées plutôt qu'une ressaisie manuelle"
+          ]
+        },
+        "tripMatching": {
+          "title": "Rapprochement des trajets et des frais",
+          "items": [
+            "Rapprochement automatique des frais de péage avec les véhicules et les réservations",
+            "Traces GPS résolues vers des barrières, portiques et sens de circulation précis",
+            "Détection des doublons et des faux rapprochements entre sources de données",
+            "Frais imputés au bon locataire sans revue manuelle"
+          ]
+        }
+      }
+    },
+    "gps": {
+      "title": "Suivi GPS, péages et alertes",
+      "intro": "Une couche télématique complète intégrée à la plateforme : suivi de flotte en direct, historique des trajets, géorepérage et alertes en temps réel — compatible avec nos propres traceurs comme avec les fournisseurs GPS tiers, et alimentant directement la tarification des péages à partir des déplacements du véhicule.",
+      "cards": {
+        "derivedTolls": {
+          "title": "Péages calculés par GPS",
+          "items": [
+            "Base nationale des barrières et portiques de péage avec coordonnées",
+            "Systèmes à ticket entrée/sortie tarifés par matrices origine–destination",
+            "Rapprochement directionnel pour les ponts et tunnels à double sens",
+            "Total des péages par réservation calculé dès la fin de la location",
+            "Rapprochement avec les factures des exploitants à leur arrivée",
+            "Barrières de péage affichées en calque sur l'itinéraire réellement parcouru"
+          ]
+        },
+        "liveMap": {
+          "title": "Carte en direct et historique des trajets",
+          "items": [
+            "Carte de flotte en direct avec la position actuelle de chaque véhicule suivi",
+            "Détection des trajets avec début, fin, durée et tracé de l'itinéraire",
+            "Relecture de l'itinéraire par véhicule et par réservation",
+            "Événements de péage affichés sur le trajet qui les a générés",
+            "Vue du trajet ouverte directement depuis une réservation ou une fiche véhicule"
+          ]
+        },
+        "alerts": {
+          "title": "Alertes en temps réel",
+          "labeledItems": [
+            {
+              "label": "Détection de remorquage",
+              "text": "— le véhicule est en cours de remorquage"
+            },
+            {
+              "label": "Contact mis",
+              "text": "— véhicule démarré"
+            },
+            {
+              "label": "Contact coupé",
+              "text": "— véhicule arrêté"
+            },
+            {
+              "label": "Trajet terminé",
+              "text": "— le véhicule a achevé son trajet"
+            }
+          ],
+          "items": [
+            "Chaque alerte envoyée par SMS et/ou e-mail",
+            "Adressée au propriétaire, au locataire en cours, ou aux deux",
+            "Chaque type d'alerte activable ou désactivable indépendamment"
+          ]
+        },
+        "theft": {
+          "title": "Vol et récupération",
+          "items": [
+            "L'alerte de remorquage se déclenche dans les instants qui suivent l'enlèvement",
+            "Une détection propriétaire distingue un vrai trajet d'un remorquage",
+            "Propriétaire averti immédiatement, avec position en direct à suivre",
+            "Historique complet des positions pour les dépôts de plainte et les déclarations d'assurance",
+            "Les zones de géorepérage signalent tout déplacement hors du périmètre convenu"
+          ]
+        },
+        "geofencing": {
+          "title": "Géorepérage",
+          "items": [
+            "Tracez les zones directement sur la carte — cercles ou polygones",
+            "Zones circulaires définies par un centre et un rayon",
+            "Polygones libres pour parkings, quartiers et zones d'intervention",
+            "Zones modifiables et gérées par flotte"
+          ]
+        },
+        "externalProviders": {
+          "title": "Fournisseurs GPS externes",
+          "items": [
+            "Architecture à plugins pour les plateformes télématiques tierces",
+            "Intégration Fleet77 en production, d'autres fournisseurs en cours d'ajout",
+            "Véhicules et historique des positions importés et tenus à jour",
+            "Traceurs propres et tiers côte à côte dans une vue de flotte unique",
+            "Règles d'alerte du fournisseur affichées dans notre interface : vitesse, ralenti, arrêt, hors horaires, remorquage, batterie faible, perte de communication, perte du GPS, accélération brutale, voyant moteur, maintenance, inactivité"
+          ]
+        },
+        "devices": {
+          "title": "Appareils et diagnostics",
+          "items": [
+            "Affectation et transfert des traceurs entre véhicules",
+            "État des appareils : dernier point, interruptions de remontée, connectivité",
+            "Vues adaptées aux capacités — le jeu de signaux propre à chaque fournisseur",
+            "Distinction claire entre nos appareils et ceux de tiers",
+            "Données de position brutes conservées à des fins d'audit et de preuve en cas de litige"
+          ]
+        }
+      }
+    },
+    "keyFeatures": {
+      "title": "Fonctionnalités clés",
+      "cards": {
+        "singleOrg": {
+          "title": "Architecture mono-organisation",
+          "text": "Plateforme dédiée à chaque gestionnaire de flotte, avec isolation complète des données et flux de travail sur mesure."
+        },
+        "government": {
+          "title": "Intégration aux administrations",
+          "text": "Intégration directe aux systèmes DMV des États et aux services municipaux de stationnement pour des données en temps réel."
+        },
+        "canadian": {
+          "title": "Opérations au Canada",
+          "text": "Routes à péage et infractions canadiennes traitées avec les frais américains — Highway 407 ETR, A25 et A30 — les locations transfrontalières étant gérées dans un flux unique."
+        },
+        "connectors": {
+          "title": "Connecteurs aux exploitants de péages",
+          "text": "Des dizaines d'intégrations aux exploitants de péages et d'infractions maintenues en fonctionnement continu, pour collecter les frais sans connexion manuelle aux portails."
+        },
+        "costOptimization": {
+          "title": "Optimisation des coûts",
+          "text": "Suggestions d'itinéraires intelligentes et analyse des coûts de péage pour réduire les dépenses opérationnelles."
+        },
+        "mobile": {
+          "title": "Accès mobile",
+          "text": "Interface adaptée au mobile pour gérer la flotte et les infractions en déplacement."
+        }
+      }
+    },
+    "tech": {
+      "title": "Stack technologique",
+      "cards": {
+        "frontend": {
+          "title": "Frontend",
+          "text": "React, design responsive"
+        },
+        "backend": {
+          "title": "Backend",
+          "text": "ASP.NET Core, architecture API robuste"
+        },
+        "database": {
+          "title": "Base de données",
+          "text": "Azure SQL Server, requêtes optimisées"
+        },
+        "ai": {
+          "title": "IA",
+          "text": "Agents Claude AI pour la recherche tarifaire, l'OCR de documents et l'analyse"
+        },
+        "gps": {
+          "title": "GPS & télématique",
+          "text": "Traceurs propres et fournisseurs tiers (Fleet77) via plugins"
+        },
+        "cloud": {
+          "title": "Cloud",
+          "text": "Microsoft Azure, haute disponibilité"
+        },
+        "automation": {
+          "title": "Automatisation",
+          "text": "Extraction web avec Playwright et Puppeteer"
+        },
+        "security": {
+          "title": "Sécurité",
+          "text": "Sécurité de niveau entreprise, conformité LBC"
+        }
+      }
+    },
+    "cta": {
+      "title": "Prêt à automatiser vos opérations de flotte ?",
+      "text": "Supprimez le traitement manuel des péages et la gestion des infractions de stationnement grâce à notre solution de niveau entreprise.",
+      "requestDemo": "Demander une démo",
+      "visitSite": "Voir le site",
+      "ownerPortal": "Portail propriétaire"
+    }
+  },
+  "myEZWheelsDetail": {
+    "hero": {
+      "tagline": "Plateforme de vitrines en ligne multi-tenant pour la location de véhicules",
+      "subtitle": "Lancez votre site de location à votre image, sur votre propre domaine. Architecture multi-tenant avec contenu piloté par base de données, vitrines en 15 langues, capture du permis de conduire par téléphone et paiements automatisés.",
+      "tryDemo": "Démo gratuite",
+      "visitPlatform": "Voir la plateforme",
+      "stats": {
+        "languages": "Langues",
+        "multi": "Multi",
+        "tenant": "Tenant",
+        "ai": "IA",
+        "powered": "Propulsé par",
+        "cloud": "Cloud",
+        "native": "Natif"
+      }
+    },
+    "whatIs": {
+      "title": "Qu'est-ce que MyEZWheels ?",
+      "p1": "MyEZWheels est une plateforme de vitrines en ligne multi-tenant qui permet à une société de location de véhicules de lancer un site de réservation complet et professionnel sans le développer. Chaque tenant est identifié par son nom d'hôte : chaque société dispose ainsi de sa propre adresse, avec sa flotte, ses tarifs, son image de marque et ses données clients — totalement isolés des autres tenants de la plateforme.",
+      "p2": "Démarrez sur un sous-domaine gratuit (yourcompany.myezwheels.com) et passez à votre propre domaine quand vous le souhaitez. Logos, couleurs, images, contenu des pages et coordonnées des agences sont tous configurables depuis le portail propriétaire — sans redéploiement ni intervention d'un développeur."
+    },
+    "forWhom": {
+      "title": "À qui s'adresse-t-elle ?",
+      "items": {
+        "rentalCompanies": {
+          "label": "Sociétés de location de voitures",
+          "text": "souhaitant numériser leurs opérations"
+        },
+        "fleetOperators": {
+          "label": "Gestionnaires de flotte",
+          "text": "voulant proposer la location directe aux clients"
+        },
+        "entrepreneurs": {
+          "label": "Entrepreneurs",
+          "text": "lançant une nouvelle activité de location"
+        },
+        "existingBusinesses": {
+          "label": "Sociétés de location établies",
+          "text": "cherchant à moderniser des systèmes vieillissants"
+        },
+        "multiLocationChains": {
+          "label": "Chaînes de location multi-agences",
+          "text": "ayant besoin d'une gestion centralisée"
+        },
+        "p2pHosts": {
+          "label": "Hôtes pair-à-pair",
+          "text": "passant d'une distribution en marketplace à la réservation directe"
+        }
+      }
+    },
+    "capabilities": {
+      "title": "Principales fonctionnalités",
+      "storefronts": {
+        "title": "Vitrines en ligne multi-tenant",
+        "text": "Tenant identifié par l'hôte — sous-domaine ou domaine personnalisé — avec flotte, réservations, clients et image de marque isolés par société."
+      },
+      "languages": {
+        "title": "Vitrines en 15 langues",
+        "text": "Tout le texte de la vitrine est stocké en base et traduit automatiquement en 15 langues : les formulations se modifient sans nouvelle version du code."
+      },
+      "license": {
+        "title": "Capture du permis de conduire par téléphone",
+        "text": "Le locataire scanne un QR code et photographie son permis avec son téléphone. Le décodage du code-barres PDF417 et l'OCR IA remplissent le formulaire en direct."
+      },
+      "payments": {
+        "title": "Paiements Stripe Connect",
+        "text": "Paiements par carte, dépôts de garantie et reversements automatisés vers le compte Stripe de la société de location, avec prise en charge multidevise."
+      },
+      "fleet": {
+        "title": "Gestion de la flotte et des catégories",
+        "text": "Parc de véhicules, catégories, galeries photo, tarification saisonnière, disponibilité et configuration par agence."
+      },
+      "integrations": {
+        "title": "Intégrations de plateformes",
+        "text": "Les réservations se synchronisent avec des plateformes externes, et les données de péages, d'infractions et de GPS remontent depuis MyEZToll pour une vision opérationnelle unique."
+      }
+    },
+    "problems": {
+      "title": "Problèmes résolus",
+      "items": {
+        "noDirectChannel": {
+          "label": "Aucun canal de vente direct",
+          "text": "Votre site de réservation à votre image, sur votre domaine"
+        },
+        "manualBooking": {
+          "label": "Processus de réservation manuels",
+          "text": "Disponibilité en temps réel et réservation en ligne immédiate"
+        },
+        "paperVerification": {
+          "label": "Vérification sur papier",
+          "text": "Scan du permis par téléphone avec extraction automatique des données"
+        },
+        "complexPayments": {
+          "label": "Gestion complexe des paiements",
+          "text": "Stripe Connect intégré, avec dépôts et reversements automatiques"
+        },
+        "languageBarriers": {
+          "label": "Barrières linguistiques",
+          "text": "Contenu de la vitrine traduit en 15 langues depuis la base de données"
+        },
+        "contentNeedsDeveloper": {
+          "label": "Modifier le contenu exige un développeur",
+          "text": "Pages, textes, images et contacts modifiables depuis le portail propriétaire"
+        },
+        "highDevCosts": {
+          "label": "Coûts de développement élevés",
+          "text": "Plateforme prête à lancer plutôt qu'un développement sur mesure"
+        }
+      }
+    },
+    "brand": {
+      "title": "Votre marque, votre domaine",
+      "intro": "Chaque vitrine se configure, elle ne se code pas. Les tenants maîtrisent l'apparence et les textes de leur site sans toucher à la plateforme.",
+      "domains": {
+        "title": "Domaines et image de marque",
+        "items": [
+          "Sous-domaine gratuit : yourcompany.myezwheels.com",
+          "Utilisez votre propre domaine personnalisé",
+          "Téléversez logos, images d'en-tête et ressources graphiques",
+          "Palettes de couleurs et thèmes personnalisés",
+          "Adresses, téléphones et contacts par agence"
+        ]
+      },
+      "content": {
+        "title": "Contenu piloté par base de données",
+        "items": [
+          "Textes de la vitrine stockés sous forme de bundles modifiables",
+          "Traduction automatique en 15 langues",
+          "Pages personnalisées par tenant (CGV, FAQ, à propos, politiques)",
+          "Remplacez n'importe quelle formulation par tenant",
+          "Les modifications sont publiées sans déploiement"
+        ]
+      },
+      "booking": {
+        "title": "Parcours de réservation et de conformité",
+        "items": [
+          "Scan et validation du permis de conduire à la réservation",
+          "Contrats de location et approbations requises",
+          "Autorisation et libération du dépôt de garantie",
+          "E-mails automatiques de réservation et de rappel",
+          "Frais de péage et d'infraction imputés au locataire"
+        ]
+      }
+    },
+    "tech": {
+      "title": "Stack technologique",
+      "frontend": {
+        "title": "Frontend",
+        "text": "React, TypeScript, design responsive moderne"
+      },
+      "backend": {
+        "title": "Backend",
+        "text": "API REST ASP.NET Core, Entity Framework Core"
+      },
+      "database": {
+        "title": "Base de données",
+        "text": "Azure SQL Server"
+      },
+      "cloud": {
+        "title": "Cloud",
+        "text": "Microsoft Azure, App Services à mise à l'échelle automatique"
+      },
+      "payments": {
+        "title": "Paiements",
+        "text": "Stripe Connect, prise en charge multidevise"
+      },
+      "ai": {
+        "title": "IA & automatisation",
+        "text": "Claude AI pour l'OCR de documents et la traduction de contenu"
+      }
+    },
+    "cta": {
+      "title": "Prêt à lancer votre activité de location ?",
+      "text": "Mettez en ligne votre site de location à votre image en quelques minutes. Aucun code, aucune équipe informatique requise.",
+      "startTrial": "Essai gratuit",
+      "visitSite": "Voir le site",
+      "requestPricing": "Demander un tarif"
+    }
+  },
+  "productCards": {
+    "buttons": {
+      "tryNow": "Essayer",
+      "viewDetails": "Détails"
+    },
+    "myEZWheels": {
+      "home": {
+        "subtitle": "Plateforme de vitrines en ligne multi-tenant pour la location de véhicules",
+        "description": "Un site de location à l'image de chaque société — son domaine, sa flotte, ses tarifs — avec réservations, paiements et vérification du conducteur intégrés.",
+        "items": [
+          "Architecture multi-tenant",
+          "Prise en charge des sous-domaines et domaines personnalisés",
+          "Gestion de la flotte et des réservations",
+          "Vitrines en 15 langues",
+          "Capture du permis de conduire par téléphone",
+          "Paiements et dépôts via Stripe Connect"
+        ]
+      },
+      "products": {
+        "subtitle": "Plateforme de vitrines en ligne pour la location de véhicules",
+        "description": "Vitrines en ligne multi-tenant sur sous-domaines ou domaines personnalisés, avec gestion de flotte, contenu piloté par base de données et prise en charge de 15 langues. Système en production utilisé par des sociétés de location.",
+        "items": [
+          "Architecture SaaS multi-tenant",
+          "Domaines et image de marque personnalisés",
+          "Scan et vérification du permis de conduire",
+          "Paiements Stripe Connect",
+          "Localisation en 15 langues"
+        ]
+      }
+    },
+    "mercadinho25": {
+      "home": {
+        "subtitle": "Plateforme de marketplace pour produits artisanaux",
+        "description": "Une marketplace e-commerce multilingue conçue pour les petites entreprises et les producteurs indépendants, avec une automatisation intégrée pour un public mondial.",
+        "items": [
+          "SaaS de marketplace multi-tenant",
+          "Prise en charge de 10 langues (dont des langues autochtones)",
+          "Traduction automatique des descriptions produits par IA",
+          "Intégration des vendeurs et gestion du catalogue",
+          "Traitement des paiements et des commandes",
+          "Optimisée pour les utilisateurs internationaux"
+        ]
+      },
+      "products": {
+        "subtitle": "Plateforme de marketplace pour produits artisanaux",
+        "description": "Marketplace multi-tenant reliant les artisans brésiliens au monde entier. Traduction IA, social commerce et gestion complète des vendeurs.",
+        "items": [
+          "Marketplace multi-tenant",
+          "Prise en charge de 10 langues (dont des langues autochtones)",
+          "Traduction automatique par IA",
+          "Intégration Instagram/Facebook",
+          "Système de gestion des vendeurs"
+        ]
+      }
+    },
+    "myEZToll": {
+      "home": {
+        "subtitle": "Plateforme IA de péages, GPS et infractions pour gestionnaires de flotte",
+        "description": "Une plateforme spécialisée permettant aux sociétés de location et aux gestionnaires de flotte de gérer les frais de péage, les péages calculés par GPS et les infractions aux États-Unis et au Canada.",
+        "items": [
+          "Traitement des péages auprès de dizaines d'exploitants",
+          "Gestion des infractions dans les 50 États et au Canada",
+          "Détection des péages par GPS, tarifés par réservation",
+          "Alertes remorquage, contact et trajet par SMS et e-mail",
+          "Intégration GPS tierce (Fleet77 et autres)",
+          "Agents IA recherchant et mettant à jour les tarifs de péage",
+          "Portail propriétaire pour paiements et contestations"
+        ]
+      },
+      "products": {
+        "subtitle": "Plateforme IA de péages, GPS & infractions",
+        "description": "Plateforme d'entreprise pour les sociétés de location de voitures. Traitement automatisé des péages, détection des péages par GPS et gestion des infractions dans les 50 États américains et au Canada.",
+        "items": [
+          "Couverture des 50 États américains et du Canada",
+          "Traitement automatisé des péages et des infractions",
+          "Détection des péages par GPS, par réservation",
+          "Alertes remorquage et contact (SMS, e-mail)",
+          "Intégration GPS tierce (Fleet77)",
+          "Agents IA maintenant les tarifs de péage à jour",
+          "Portail propriétaire en libre-service"
+        ]
+      }
+    },
+    "productsCta": {
+      "title": "Prêt à discuter de votre projet ?",
+      "description": "Nous construisons des plateformes prêtes pour la production qui évoluent avec votre activité. Du SaaS multi-tenant aux solutions d'entreprise spécialisées.",
+      "learnAboutProcess": "Découvrir notre méthode"
+    }
+  },
+  "setPassword": {
+    "title": "Définir le mot de passe",
+    "emailPlaceholder": "Saisissez votre e-mail",
+    "passwordLabel": "Mot de passe",
+    "passwordPlaceholder": "Saisissez votre mot de passe",
+    "confirmPasswordLabel": "Confirmez le mot de passe",
+    "confirmPasswordPlaceholder": "Saisissez à nouveau votre mot de passe",
+    "submit": "Valider",
+    "errors": {
+      "passwordsDoNotMatch": "Les mots de passe ne correspondent pas"
+    }
+  },
+  "mercadinho25": {
+    "title": "En construction",
+    "description": "Cette page est en cours de construction. Merci de revenir bientôt."
+  },
+  "languageSwitcher": {
+    "ariaLabel": "Changer de langue"
   }
 }

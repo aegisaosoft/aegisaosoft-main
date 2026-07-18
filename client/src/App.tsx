@@ -13,7 +13,7 @@
  */
 
 
-import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom'
 import './App.css'
 import './i18n/config'
 import { Header } from './components/Header'
@@ -22,13 +22,13 @@ import { ScrollToTop } from './components/ScrollToTop'
 import { Home } from './pages/Home'
 import { About } from './pages/About'
 import { Contact } from './pages/Contact'
-import { VehicleRental } from './pages/VehicleRental'
-import { VehicleRentalSetPassword } from './pages/VehicleRentalSetPassword'
+import { MyEZWheels } from './pages/MyEZWheels'
+import { MyEZWheelsSetPassword } from './pages/MyEZWheelsSetPassword'
 import { BrazilianMarketplace } from './pages/BrazilianMarketplace'
 import { Mercadinho25 } from './pages/Mercadinho25'
 import { MyEZToll } from './pages/MyEZToll'
 import { Products } from './pages/Products'
-import { AegisRentalDetail } from './pages/AegisRentalDetail'
+import { MyEZWheelsDetail } from './pages/MyEZWheelsDetail'
 import { BrazilianMarketplaceDetail } from './pages/BrazilianMarketplaceDetail'
 import { MyEZTollDetail } from './pages/MyEZTollDetail'
 import AdminGuide from './pages/AdminGuide'
@@ -44,12 +44,15 @@ function App() {
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/products" element={<Products />} />
-          <Route path="/products/aegis-rental" element={<AegisRentalDetail />} />
+          <Route path="/products/myezwheels" element={<MyEZWheelsDetail />} />
+          <Route path="/products/aegis-rental" element={<Navigate to="/products/myezwheels" replace />} />
           <Route path="/products/brazilian-marketplace" element={<BrazilianMarketplaceDetail />} />
           <Route path="/products/myeztoll" element={<MyEZTollDetail />} />
           <Route path="/admin-guide" element={<AdminGuide />} />
-          <Route path="/vehicle-rental" element={<VehicleRental />} />
-          <Route path="/vehicle-rental/set-password" element={<VehicleRentalSetPassword />} />
+          <Route path="/myezwheels" element={<MyEZWheels />} />
+          <Route path="/myezwheels/set-password" element={<MyEZWheelsSetPassword />} />
+          <Route path="/vehicle-rental" element={<Navigate to="/myezwheels" replace />} />
+          <Route path="/vehicle-rental/set-password" element={<Navigate to="/myezwheels/set-password" replace />} />
           <Route path="/brazilian-marketplace" element={<BrazilianMarketplace />} />
           <Route path="/mercadinho25" element={<Mercadinho25 />} />
           <Route path="/myeztoll" element={<MyEZToll />} />

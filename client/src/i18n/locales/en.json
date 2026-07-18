@@ -91,18 +91,27 @@
     },
     "myEZToll": {
       "title": "MyEZToll",
-      "subtitle": "Toll & Parking Management Platform for Rental Fleets",
-      "description": "NOT multi-tenant (single-organization platform). Toll payment processing, parking violation management, coverage across all 50 U.S. states. Designed for car rental and fleet operators.",
+      "subtitle": "AI-Powered Toll, GPS & Violation Platform for Rental Fleets",
+      "description": "NOT multi-tenant (single-organization platform). Toll payment processing, GPS-based toll detection, violation management, and coverage across all 50 U.S. states and Canada. Designed for car rental and fleet operators.",
       "features": {
         "tollProcessing": "Toll payment processing",
-        "parkingManagement": "Parking violation management",
+        "parkingManagement": "Parking and traffic violation management",
+        "gpsTolls": "GPS-based toll detection, priced per booking",
+        "fleetMap": "Live fleet map with trip history and route playback",
+        "gpsAlerts": "Towing alert plus ignition and trip alerts by SMS and email",
+        "geofencing": "Geofence zones drawn on the map (circle or polygon)",
+        "gpsIntegration": "Third-party GPS integrations (Fleet77 and others)",
+        "aiFirst": "First rental-industry toll platform running AI agents in production",
+        "aiRates": "AI agents research and update toll rates automatically",
         "usaCoverage": "Coverage across all 50 U.S. states",
+        "canadaCoverage": "Canadian toll roads and violations (407 ETR, A25, A30)",
         "fleetOperators": "Designed for car rental and fleet operators",
         "ownerPortal": "Owner portal for payment and dispute workflows"
       },
       "learnMore": "Learn More",
       "visitSite": "Visit Site",
-      "ownerPortal": "Owner Portal"
+      "ownerPortal": "Owner Portal",
+      "featuresTitle": "Platform Features"
     }
   },
   "about": {
@@ -228,7 +237,8 @@
       "benefits": {
         "seniorEngineer": "30+ years shipping production systems",
         "regulatedIndustries": "Experience with regulated industries (finance, customs)",
-        "fullStack": "Full-stack delivery from database to deployment"
+        "fullStack": "Full-stack delivery from database to deployment",
+        "usBased": "U.S.-based team in New Jersey"
       },
       "getInTouch": "Get in Touch"
     },
@@ -253,31 +263,43 @@
     }
   },
   "vehicleRental": {
-    "title": "Aegis-Rental: Complete Vehicle Rental Management Platform",
-    "subtitle": "Launch Your Own Rental Business in Minutes",
-    "description": "Aegis-Rental is a powerful, multi-tenant SaaS platform that enables vehicle rental companies to launch their own professional rental website quickly and efficiently. Built on modern cloud architecture, it provides everything you need to manage your fleet, customers, and bookings from day one.",
+    "title": "MyEZWheels: Multi-Tenant Storefront Platform for Vehicle Rental",
+    "subtitle": "Launch Your Own Branded Rental Site in Minutes",
+    "description": "MyEZWheels is a multi-tenant storefront platform that lets vehicle rental companies run a complete, professional booking website of their own. Every tenant is resolved by hostname — a free subdomain or your own custom domain — with isolated fleet, pricing, branding, and customer data, all configurable from the owner portal without a single line of code.",
     "languages": {
-      "title": "🌍 5 Supported Languages",
-      "english": "🇺🇸 English",
-      "spanish": "🇪🇸 Spanish (Español)",
-      "portuguese": "🇵🇹 Portuguese (Português)",
-      "french": "🇫🇷 French (Français)",
-      "german": "🇩🇪 German (Deutsch)",
-      "description": "All interface elements, booking confirmations, email notifications, and customer communications are fully localized."
+      "title": "🌍 15 Supported Languages",
+      "list": [
+        "🇺🇸 English",
+        "🇪🇸 Español",
+        "🇵🇹 Português",
+        "🇫🇷 Français",
+        "🇩🇪 Deutsch",
+        "🇮🇹 Italiano",
+        "🇳🇱 Nederlands",
+        "🇵🇱 Polski",
+        "🇺🇦 Українська",
+        "🇷🇺 Русский",
+        "🇹🇷 Türkçe",
+        "🇸🇦 العربية",
+        "🇨🇳 中文",
+        "🇯🇵 日本語",
+        "🇰🇷 한국어"
+      ],
+      "description": "Storefront text lives in the database and is machine-translated into every supported language, so interface elements, booking confirmations, and customer emails are all localized — and wording can be changed without a code release."
     },
     "features": {
       "title": "🚗 Complete Rental System Features",
       "intelligentBooking": {
-        "title": "Intelligent Booking",
-        "voiceAI": "Voice AI-powered search and booking — speak naturally to find and reserve vehicles",
+        "title": "Online Booking",
+        "vehicleSearch": "Search by category, location, and date with live pricing",
         "realTimeCalendar": "Real-time availability calendar with instant confirmation",
-        "smartRecommendations": "Smart vehicle recommendations based on customer needs",
-        "vinRecognition": "VIN number recognition for automatic vehicle information"
+        "seasonalPricing": "Seasonal and per-period pricing (daily, weekly, monthly)",
+        "vinRecognition": "VIN recognition for automatic vehicle information"
       },
       "customerVerification": {
-        "title": "Customer Verification",
-        "blinkID": "BlinkID integration for instant driver's license scanning (front & back)",
-        "dataExtraction": "Automatic data extraction and validation",
+        "title": "Driver Verification",
+        "phoneCapture": "Scan a QR code and photograph the license from the renter's phone",
+        "dataExtraction": "PDF417 barcode decoding plus AI OCR fills the form automatically",
         "ageVerification": "Age and license expiration verification",
         "documentStorage": "Secure document storage"
       },
@@ -299,8 +321,8 @@
       "multiTenant": {
         "title": "Multi-Tenant Architecture",
         "brandedWebsite": "Each rental company gets their own branded website",
-        "customDomains": "Custom domains (yourcompany.aegis-rental.com)",
-        "uniqueBranding": "Unique branding: logos, colors, contact information",
+        "customDomains": "Free subdomain (yourcompany.myezwheels.com) or your own custom domain",
+        "uniqueBranding": "Unique branding: logos, colors, imagery, contact information",
         "isolatedData": "Isolated data — each tenant sees only their own information",
         "customEmails": "Custom email addresses for notifications"
       },
@@ -331,12 +353,12 @@
     "techStack": {
       "title": "🛠️ Technology Stack",
       "frontend": "React with modern responsive design",
-      "backend": "ASP.NET Core REST API",
-      "database": "PostgreSQL",
+      "backend": "ASP.NET Core REST API with Entity Framework Core",
+      "database": "Azure SQL Server",
       "cloud": "Azure hosting with auto-scaling",
       "payments": "Stripe Connect",
-      "documentScanning": "BlinkID SDK",
-      "ai": "Voice recognition and intelligent recommendations"
+      "documentScanning": "PDF417 barcode decoding and AI document OCR",
+      "ai": "Claude AI for document reading and content translation"
     },
     "customization": {
       "title": "🎨 MULTI-DISCIPLINARY DESIGN",
@@ -401,7 +423,8 @@
           "title": "Instagram & Facebook Integration",
           "description": "Full social commerce integration — sell directly through Instagram Shop and Facebook Marketplace, sync product catalogs, and reach customers on social platforms"
         }
-      }
+      },
+      "tryNow": "Try Now"
     }
   },
   "booking": {
@@ -422,7 +445,9 @@
     "vehicleRental": "Vehicle Rental Management",
     "compliance": "Compliance Automation",
     "booking": "Booking Platforms",
-    "copyright": "© {{year}} Aegis AO Soft. All rights reserved."
+    "copyright": "© {{year}} Aegis AO Soft. All rights reserved.",
+    "ein": "EIN",
+    "location": "New Jersey, USA"
   },
   "adminGuide": {
     "sectionTitle": "Administration & Seller Guide",
@@ -448,7 +473,11 @@
           "customer": "Customer — Browse, purchase, write reviews",
           "seller": "Seller — Create/manage products, view sales, manage own orders",
           "tenantAdmin": "TenantAdmin — Manage sellers, users, settings, categories, payments",
-          "superAdmin": "SuperAdmin — Multi-tenant management, create tenants, system-wide access"
+          "superAdmin": "SuperAdmin — Multi-tenant management, create tenants, system-wide access",
+          "customerLabel": "Customer:",
+          "sellerLabel": "Seller:",
+          "tenantAdminLabel": "TenantAdmin:",
+          "superAdminLabel": "SuperAdmin:"
         },
         "dashboard": {
           "title": "Dashboard Overview",
@@ -626,7 +655,10 @@
           "title": "Stripe Configuration",
           "sandbox": "Sandbox: Enter test API keys (pk_test_..., sk_test_...) → Save → Test → Activate",
           "production": "Production: Same steps with live keys. Test thoroughly before going live. Configure webhook endpoint.",
-          "connect": "Stripe Connect: Each seller completes onboarding to receive payments. The platform auto-splits payments based on commission rate."
+          "connect": "Stripe Connect: Each seller completes onboarding to receive payments. The platform auto-splits payments based on commission rate.",
+          "sandboxLabel": "Sandbox:",
+          "productionLabel": "Production:",
+          "connectLabel": "Stripe Connect:"
         },
         "mercadopago": {
           "title": "MercadoPago",
@@ -696,6 +728,858 @@
         "intro": "The platform supports 10 languages: Portuguese (primary), English, Spanish, French, German, Italian, Japanese, Russian, plus indigenous languages Guaraní Mbyá and Nheengatu for cultural heritage preservation.",
         "tip": "Always fill in at least Portuguese and English translations for all products and categories to maximize reach. The system falls back to Portuguese if a translation is missing."
       }
+    },
+    "tipLabel": "Tip:"
+  },
+  "brazilianMarketplaceDetail": {
+    "hero": {
+      "title": "Mercadinho25",
+      "subtitle": "Global Marketplace for Brazilian Artisan Products",
+      "description": "Connect Brazilian artisans with global customers through AI-powered translation, social commerce integration, and multi-tenant marketplace architecture. Launch your artisan marketplace today.",
+      "tryDemo": "Try Free Demo",
+      "visitMarketplace": "Visit Marketplace",
+      "stats": {
+        "languages": {
+          "label": "Languages",
+          "note": "+ Indigenous"
+        },
+        "translation": {
+          "value": "AI",
+          "label": "Translation"
+        },
+        "social": {
+          "value": "Social",
+          "label": "Commerce"
+        },
+        "multiTenant": {
+          "value": "Multi",
+          "label": "Tenant"
+        }
+      }
+    },
+    "whatIs": {
+      "title": "What is Mercadinho25?",
+      "paragraph1": "Mercadinho25 is a cloud-based e-commerce platform that connects local Brazilian artisans and small vendors with customers seeking authentic handcrafted items, folk art, and everyday essentials.",
+      "paragraph2": "The multi-tenant architecture enables independent sellers to operate branded storefronts under a unified marketplace, each with customizable product catalogs, pricing, and fulfillment options."
+    },
+    "audience": {
+      "title": "Who is it for?",
+      "artisans": {
+        "label": "Brazilian artisans",
+        "text": "creating traditional crafts and folk art"
+      },
+      "vendors": {
+        "label": "Small vendors",
+        "text": "selling handmade goods and regional products"
+      },
+      "operators": {
+        "label": "Marketplace operators",
+        "text": "wanting to launch niche e-commerce platforms"
+      },
+      "culturalSellers": {
+        "label": "Cultural product sellers",
+        "text": "focusing on authentic Brazilian heritage items"
+      },
+      "socialCommerce": {
+        "label": "Social commerce businesses",
+        "text": "leveraging Instagram and Facebook sales"
+      }
+    },
+    "capabilities": {
+      "title": "Main Capabilities",
+      "storefronts": {
+        "title": "Multi-Tenant Storefronts",
+        "description": "Independent seller accounts with custom branding, unique storefront design, and personalized identity."
+      },
+      "languages": {
+        "title": "10-Language Support + Indigenous Languages",
+        "description": "Portuguese, English, Spanish, French, German, Italian, Japanese, Russian, plus indigenous languages (Guaraní Mbyá, Nheengatu) with full localization.",
+        "heritage": {
+          "title": "Cultural Heritage Feature:",
+          "intro": "Special support for Brazilian indigenous languages:",
+          "guarani": {
+            "label": "Guaraní Mbyá",
+            "text": "(gn-mby) - Traditional Guarani language"
+          },
+          "nheengatu": {
+            "label": "Nheengatu",
+            "text": "(yrl) - Amazonian lingua franca"
+          },
+          "note": "Preserving and promoting Brazil's cultural linguistic diversity through commerce"
+        }
+      },
+      "aiTranslation": {
+        "title": "AI Translation",
+        "description": "Automatic product description translation using Google Translate API and Claude AI for maximum reach."
+      },
+      "socialCommerce": {
+        "title": "Social Commerce",
+        "description": "Full Instagram Shop and Facebook Marketplace integration — sell directly through social platforms."
+      },
+      "payments": {
+        "title": "Payment Processing",
+        "description": "Integrated Stripe and MercadoPago with marketplace commission structure and seller payouts."
+      },
+      "shipping": {
+        "title": "Shipping Integration",
+        "description": "Correios integration for Brazilian shipping with tracking and fulfillment coordination."
+      }
+    },
+    "problems": {
+      "title": "Problems it Solves",
+      "globalReach": {
+        "label": "Limited global reach",
+        "text": "10-language platform with AI translation + indigenous language support"
+      },
+      "setup": {
+        "label": "Complex e-commerce setup",
+        "text": "Ready-to-use marketplace platform"
+      },
+      "socialSales": {
+        "label": "Social media sales challenges",
+        "text": "Integrated Instagram/Facebook commerce"
+      },
+      "payments": {
+        "label": "Payment processing barriers",
+        "text": "Multi-gateway support with local options"
+      },
+      "inventory": {
+        "label": "Inventory management complexity",
+        "text": "Comprehensive vendor management system"
+      },
+      "mobile": {
+        "label": "Mobile shopping limitations",
+        "text": "Mobile-first responsive design"
+      }
+    },
+    "categories": {
+      "title": "Core Product Categories"
+    },
+    "social": {
+      "title": "Social Commerce Integration",
+      "intro": "Comprehensive social commerce features enabling Brazilian artisans to sell directly through social media platforms and reach global audiences.",
+      "instagram": {
+        "title": "Instagram Shop Integration",
+        "items": [
+          "Automatic product catalog sync to Instagram Shop",
+          "Direct checkout within Instagram app",
+          "Product tagging in posts and stories",
+          "Automated inventory updates",
+          "Multi-language product descriptions",
+          "Order fulfillment tracking integration"
+        ]
+      },
+      "facebook": {
+        "title": "Facebook Marketplace Integration",
+        "items": [
+          "Automatic product listings on Facebook Marketplace",
+          "Facebook Business page shop integration",
+          "Targeted advertising for artisan products",
+          "Customer reviews and rating sync",
+          "Facebook Messenger customer support",
+          "Event-based promotional campaigns"
+        ]
+      },
+      "whatsapp": {
+        "title": "WhatsApp Business Integration",
+        "items": [
+          "WhatsApp contact button on product pages",
+          "Individual WhatsApp numbers per seller",
+          "Automated order confirmations via WhatsApp",
+          "Product catalog sharing through WhatsApp",
+          "Customer support and inquiries",
+          "Delivery status notifications"
+        ]
+      },
+      "analytics": {
+        "title": "Multi-Platform Analytics",
+        "items": [
+          "Unified analytics dashboard for all platforms",
+          "Social media performance tracking",
+          "Cross-platform sales attribution",
+          "Customer journey mapping",
+          "ROI tracking for social media campaigns",
+          "Automated reporting and insights"
+        ]
+      },
+      "heritage": {
+        "title": "Cultural Heritage Preservation",
+        "intro": "Beyond commercial success, Mercadinho25 actively preserves Brazilian cultural and linguistic diversity.",
+        "supportTitle": "Indigenous Language Support:",
+        "guarani": {
+          "label": "Guaraní Mbyá",
+          "text": "(gn-mby) - Sacred language of the Guarani people"
+        },
+        "nheengatu": {
+          "label": "Nheengatu",
+          "text": "(yrl) - Amazonian lingua franca, \"good language\""
+        },
+        "note": "Empowering indigenous artisans to showcase their work in their native languages, preserving cultural identity while reaching global markets."
+      }
+    },
+    "tech": {
+      "title": "Technology Stack",
+      "frontend": {
+        "title": "Frontend",
+        "description": "React, TypeScript, Material-UI"
+      },
+      "backend": {
+        "title": "Backend",
+        "description": "Node.js RESTful API, Multi-tenant architecture"
+      },
+      "database": {
+        "title": "Database",
+        "description": "PostgreSQL with tenant isolation"
+      },
+      "cloud": {
+        "title": "Cloud",
+        "description": "Azure App Service, Auto-scaling"
+      },
+      "ai": {
+        "title": "AI & Translation",
+        "description": "Google Translate API, Claude AI"
+      },
+      "integration": {
+        "title": "Integration",
+        "description": "Instagram Graph API, Facebook Business API, MercadoPago"
+      }
+    },
+    "tenants": {
+      "title": "Live Tenant Examples",
+      "intro": "See how independent sellers create their own branded storefronts within the marketplace. Each tenant has complete control over their branding, products, and customer experience.",
+      "alex": {
+        "title": "Alex's Artisan Workshop",
+        "description": "Traditional Brazilian ceramics and pottery. Custom branded storefront with unique design and personalized customer experience.",
+        "linkLabel": "Visit Alex's Store"
+      },
+      "joanna": {
+        "title": "Joanna's Textile Gallery",
+        "description": "Handwoven textiles and embroidery from São Paulo. Showcases custom branding with social media integration and multilingual support.",
+        "linkLabel": "Visit Joanna's Store"
+      },
+      "callout": {
+        "label": "Multi-Tenant Architecture:",
+        "text": "Each seller gets their own subdomain, custom branding, isolated data, and complete storefront control — all managed from a single platform."
+      }
+    },
+    "adminGuideCta": {
+      "buttonLabel": "View Complete Admin Guide"
+    },
+    "cta": {
+      "title": "Ready to Connect Artisans with Global Markets?",
+      "description": "Launch your own Brazilian artisan marketplace with built-in social commerce and AI translation.",
+      "startMarketplace": "Start Your Marketplace",
+      "visitSite": "Visit Site",
+      "sellerGuide": "Seller Guide"
     }
+  },
+  "myEZTollDetail": {
+    "hero": {
+      "title": "AI-Powered Toll, GPS & Violation Platform for Rental Fleets",
+      "subtitle": "Enterprise-grade platform designed specifically for car rental and fleet operators to automate toll processing, GPS-based toll detection, and violation management across all 50 U.S. states and Canada — the first toll and violation platform in the rental industry to run AI agents in production."
+    },
+    "whatIs": {
+      "title": "What is MyEZToll?",
+      "p1": "MyEZToll is a specialized, single-organization platform (NOT multi-tenant) built exclusively for car rental companies and fleet operators who need comprehensive toll, GPS, and violation management.",
+      "p2": "Unlike generic solutions, MyEZToll provides dedicated infrastructure for individual fleet operators with complete control over their toll processing and violation workflows across all 50 U.S. states and Canada.",
+      "p3": "The platform works from both directions: it collects charges from toll authorities and violation issuers, and it independently computes tolls from GPS vehicle traces — so a trip is priced the moment the vehicle passes the gantry, long before the agency invoice arrives."
+    },
+    "forWhom": {
+      "title": "Who is it for?",
+      "items": [
+        {
+          "label": "Car rental companies",
+          "text": "with multi-state operations"
+        },
+        {
+          "label": "Fleet management companies",
+          "text": "handling toll-heavy routes"
+        },
+        {
+          "label": "Enterprise fleet operators",
+          "text": "seeking automated compliance"
+        },
+        {
+          "label": "Rental franchises",
+          "text": "needing centralized toll management"
+        },
+        {
+          "label": "Corporate fleets",
+          "text": "with extensive travel across toll roads"
+        }
+      ]
+    },
+    "capabilities": {
+      "title": "Main Capabilities",
+      "cards": {
+        "automatedToll": {
+          "title": "Automated Toll Processing",
+          "text": "Seamless processing of toll charges across multiple states with automatic reconciliation and payment."
+        },
+        "parkingViolations": {
+          "title": "Parking Violation Management",
+          "text": "Comprehensive tracking and dispute workflow for parking citations with automated resolution."
+        },
+        "gpsTolling": {
+          "title": "GPS-Based Tolling",
+          "text": "Vehicle GPS traces are matched against a database of real toll booths and gantries, then priced per booking — tolls are known from the trip itself, not only from the agency invoice."
+        },
+        "towingAlerts": {
+          "title": "Towing & Fleet Alerts",
+          "text": "Instant SMS and email alerts for towing, ignition on/off, and trip end — routed to the owner, the active renter, or both."
+        },
+        "thirdPartyGps": {
+          "title": "Third-Party GPS Integration",
+          "text": "Pluggable telematics integrations — Fleet77 and others — bring vehicles and positions from external trackers alongside our own devices, under one fleet view."
+        },
+        "aiRateResearch": {
+          "title": "AI Toll Rate Research",
+          "text": "AI agents autonomously research toll authority sources, discover rate changes, and keep the platform's toll pricing current without manual data entry."
+        },
+        "coverage": {
+          "title": "U.S. & Canada Coverage",
+          "text": "All 50 U.S. states plus Canadian toll roads and violations, including Highway 407 ETR, A25, and A30."
+        },
+        "ownerPortal": {
+          "title": "Owner Self-Service Portal",
+          "text": "Dedicated portal for vehicle owners to handle payments and dispute workflows independently."
+        },
+        "analytics": {
+          "title": "Fleet Analytics",
+          "text": "Comprehensive reporting and analytics for toll costs, violation trends, and fleet performance."
+        },
+        "automation": {
+          "title": "Intelligent Automation",
+          "text": "AI-powered citation parsing and automated payment processing with minimal manual intervention."
+        }
+      }
+    },
+    "problems": {
+      "title": "Problems it Solves",
+      "items": [
+        {
+          "label": "Manual toll reconciliation",
+          "text": "→ Automated processing across all states"
+        },
+        {
+          "label": "Parking violation backlog",
+          "text": "→ Intelligent parsing and dispute management"
+        },
+        {
+          "label": "Multi-state compliance complexity",
+          "text": "→ Unified 50-state and Canadian coverage"
+        },
+        {
+          "label": "Tolls discovered weeks late",
+          "text": "→ GPS-based detection prices the trip as it happens"
+        },
+        {
+          "label": "Outdated toll rates",
+          "text": "→ AI agents track authority rate changes continuously"
+        },
+        {
+          "label": "Mixed tracker hardware",
+          "text": "→ Third-party GPS providers integrated into one fleet view"
+        },
+        {
+          "label": "Customer service burden",
+          "text": "→ Self-service owner portal for disputes"
+        },
+        {
+          "label": "Administrative overhead",
+          "text": "→ Automated workflows and notifications"
+        },
+        {
+          "label": "Cost visibility issues",
+          "text": "→ Real-time reporting and analytics"
+        }
+      ]
+    },
+    "ai": {
+      "title": "Artificial Intelligence in Fleet Operations",
+      "intro": "MyEZToll is the first toll and violation platform in the vehicle rental industry to run AI agents in production — not as a chatbot bolted onto the interface, but as software that does the operational work.",
+      "cards": {
+        "rateResearch": {
+          "title": "Autonomous Toll Rate Research",
+          "items": [
+            "AI agents read toll authority sources and rate schedules",
+            "Discover rate changes and new facilities automatically",
+            "Update per-booth and origin–destination pricing in the platform",
+            "Self-healing: retries, alternate sources, verification passes",
+            "Dry-run review before any pricing change is applied"
+          ]
+        },
+        "documents": {
+          "title": "Document & Citation Intelligence",
+          "items": [
+            "AI parsing of violation notices and toll statements",
+            "Driver's license reading with AI OCR and barcode decoding",
+            "Automated extraction of plates, dates, amounts, and jurisdictions",
+            "Structured data instead of manual re-typing"
+          ]
+        },
+        "tripMatching": {
+          "title": "Trip & Charge Matching",
+          "items": [
+            "Automatic matching of toll charges to vehicles and bookings",
+            "GPS traces resolved to specific booths, gantries, and directions",
+            "Duplicate and false-match detection across data sources",
+            "Charges routed to the right renter without manual review"
+          ]
+        }
+      }
+    },
+    "gps": {
+      "title": "GPS Tracking, Tolling & Alerts",
+      "intro": "A complete telematics layer built into the platform: live fleet tracking, trip history, geofencing, and real-time alerts — working with both our own trackers and third-party GPS providers, and feeding toll pricing directly from vehicle movement.",
+      "cards": {
+        "derivedTolls": {
+          "title": "GPS-Derived Tolls",
+          "items": [
+            "Nationwide database of toll booths and gantries with coordinates",
+            "Entry/exit ticket systems priced by origin–destination matrices",
+            "Directional matching for two-way bridges and tunnels",
+            "Per-booking toll totals computed as soon as the rental ends",
+            "Reconciliation with agency invoices when they arrive",
+            "Toll booths shown as a map layer over the actual route driven"
+          ]
+        },
+        "liveMap": {
+          "title": "Live Map & Trip History",
+          "items": [
+            "Live fleet map with current position of every tracked vehicle",
+            "Trip detection with start, end, duration, and route track",
+            "Route playback per vehicle and per booking",
+            "Toll events shown on the trip that produced them",
+            "Trip view opened straight from a booking or a car record"
+          ]
+        },
+        "alerts": {
+          "title": "Real-Time Alerts",
+          "labeledItems": [
+            {
+              "label": "Towing detection",
+              "text": "— the vehicle is being towed away"
+            },
+            {
+              "label": "Ignition ON",
+              "text": "— vehicle started"
+            },
+            {
+              "label": "Ignition OFF",
+              "text": "— vehicle shut down"
+            },
+            {
+              "label": "Trip ended",
+              "text": "— vehicle has finished its trip"
+            }
+          ],
+          "items": [
+            "Each alert delivered by SMS and/or email",
+            "Routed to the owner, the active renter, or both",
+            "Every alert type switched on or off independently"
+          ]
+        },
+        "theft": {
+          "title": "Theft & Recovery",
+          "items": [
+            "Tow alert fires within moments of the vehicle being taken",
+            "Proprietary detection separates a real trip from a tow-away",
+            "Owner notified immediately, with live position to follow",
+            "Full position history for police reports and insurance claims",
+            "Geofence zones flag movement outside the agreed area"
+          ]
+        },
+        "geofencing": {
+          "title": "Geofencing",
+          "items": [
+            "Draw zones directly on the map — circles or polygons",
+            "Circular zones by center point and radius",
+            "Free-form polygons for lots, districts, and service areas",
+            "Zones edited and managed per fleet"
+          ]
+        },
+        "externalProviders": {
+          "title": "External GPS Providers",
+          "items": [
+            "Plugin architecture for third-party telematics platforms",
+            "Fleet77 integration in production, more providers being added",
+            "Vehicles and position history imported and kept in sync",
+            "Own and third-party trackers side by side in one fleet view",
+            "Provider alert rules surfaced in our interface: speed, idle, stop, after hours, tow, low battery, lost communication, lost GPS, harsh acceleration, check engine, maintenance, inactivity"
+          ]
+        },
+        "devices": {
+          "title": "Devices & Diagnostics",
+          "items": [
+            "Tracker assignment and transfer between vehicles",
+            "Device health: last fix, reporting gaps, connectivity",
+            "Capability-aware views — each provider's own signal set",
+            "Clear separation between our devices and third-party ones",
+            "Raw position data retained for audit and dispute evidence"
+          ]
+        }
+      }
+    },
+    "keyFeatures": {
+      "title": "Key Features",
+      "cards": {
+        "singleOrg": {
+          "title": "Single-Organization Architecture",
+          "text": "Dedicated platform for individual fleet operators with complete data isolation and custom workflows."
+        },
+        "government": {
+          "title": "Government Integration",
+          "text": "Direct integration with state DMV systems and municipal parking authorities for real-time data."
+        },
+        "canadian": {
+          "title": "Canadian Operations",
+          "text": "Canadian toll roads and violations processed alongside U.S. charges — Highway 407 ETR, A25, and A30 — with cross-border rentals handled in a single workflow."
+        },
+        "connectors": {
+          "title": "Toll Authority Connectors",
+          "text": "Dozens of toll and violation authority integrations kept working continuously, so charges are collected without manual portal logins."
+        },
+        "costOptimization": {
+          "title": "Cost Optimization",
+          "text": "Intelligent routing suggestions and toll cost analysis to minimize operational expenses."
+        },
+        "mobile": {
+          "title": "Mobile Access",
+          "text": "Mobile-responsive interface for on-the-go fleet management and violation handling."
+        }
+      }
+    },
+    "tech": {
+      "title": "Technology Stack",
+      "cards": {
+        "frontend": {
+          "title": "Frontend",
+          "text": "React, Responsive design"
+        },
+        "backend": {
+          "title": "Backend",
+          "text": "ASP.NET Core, Robust API architecture"
+        },
+        "database": {
+          "title": "Database",
+          "text": "Azure SQL Server, Optimized queries"
+        },
+        "ai": {
+          "title": "AI",
+          "text": "Claude AI agents for rate research, document OCR, and parsing"
+        },
+        "gps": {
+          "title": "GPS & Telematics",
+          "text": "Own trackers plus third-party providers (Fleet77) via plugins"
+        },
+        "cloud": {
+          "title": "Cloud",
+          "text": "Microsoft Azure, High availability"
+        },
+        "automation": {
+          "title": "Automation",
+          "text": "Playwright, Puppeteer web scraping"
+        },
+        "security": {
+          "title": "Security",
+          "text": "Enterprise-grade security, AML compliance"
+        }
+      }
+    },
+    "cta": {
+      "title": "Ready to Automate Your Fleet Operations?",
+      "text": "Eliminate manual toll processing and parking violation management with our enterprise-grade solution.",
+      "requestDemo": "Request Demo",
+      "visitSite": "Visit Site",
+      "ownerPortal": "Owner Portal"
+    }
+  },
+  "myEZWheelsDetail": {
+    "hero": {
+      "tagline": "Multi-Tenant Storefront Platform for Vehicle Rental",
+      "subtitle": "Launch your own branded rental website on your own domain. Multi-tenant architecture with database-driven content, 15-language storefronts, phone-based driver's license capture, and automated payments.",
+      "tryDemo": "Try Free Demo",
+      "visitPlatform": "Visit Platform",
+      "stats": {
+        "languages": "Languages",
+        "multi": "Multi",
+        "tenant": "Tenant",
+        "ai": "AI",
+        "powered": "Powered",
+        "cloud": "Cloud",
+        "native": "Native"
+      }
+    },
+    "whatIs": {
+      "title": "What is MyEZWheels?",
+      "p1": "MyEZWheels is a multi-tenant storefront platform that lets a vehicle rental company launch a complete, professional booking website without building one. Every tenant is resolved by hostname, so each company runs on its own address with its own fleet, pricing, branding, and customer data — fully isolated from every other tenant on the platform.",
+      "p2": "Start on a free subdomain (yourcompany.myezwheels.com) and move to your own custom domain whenever you are ready. Logos, colors, imagery, page content, and location contact details are all configurable from the owner portal — no redeploy, no developer involved."
+    },
+    "forWhom": {
+      "title": "Who is it for?",
+      "items": {
+        "rentalCompanies": {
+          "label": "Car rental companies",
+          "text": "looking to digitize their operations"
+        },
+        "fleetOperators": {
+          "label": "Fleet operators",
+          "text": "wanting to offer direct customer rentals"
+        },
+        "entrepreneurs": {
+          "label": "Entrepreneurs",
+          "text": "starting new rental businesses"
+        },
+        "existingBusinesses": {
+          "label": "Existing rental businesses",
+          "text": "seeking to modernize legacy systems"
+        },
+        "multiLocationChains": {
+          "label": "Multi-location rental chains",
+          "text": "needing centralized management"
+        },
+        "p2pHosts": {
+          "label": "Peer-to-peer hosts",
+          "text": "moving off marketplace-only distribution to direct bookings"
+        }
+      }
+    },
+    "capabilities": {
+      "title": "Main Capabilities",
+      "storefronts": {
+        "title": "Multi-Tenant Storefronts",
+        "text": "Tenant resolved by host — subdomain or custom domain — with isolated fleet, bookings, customers, and branding per company."
+      },
+      "languages": {
+        "title": "15-Language Storefronts",
+        "text": "All storefront text lives in the database and is machine-translated into 15 languages, so wording can be changed without a code release."
+      },
+      "license": {
+        "title": "Phone Driver's License Capture",
+        "text": "The renter scans a QR code and photographs their license on their phone. PDF417 barcode decoding plus AI OCR fills the form live."
+      },
+      "payments": {
+        "title": "Stripe Connect Payments",
+        "text": "Card payments, security deposits, and automated payouts to the rental company's own Stripe account, with multi-currency support."
+      },
+      "fleet": {
+        "title": "Fleet & Category Management",
+        "text": "Vehicle inventory, categories, photo galleries, seasonal pricing, availability, and per-location configuration."
+      },
+      "integrations": {
+        "title": "Platform Integrations",
+        "text": "Bookings sync with external platforms, and toll, violation, and GPS data flow in from MyEZToll for a single operational picture."
+      }
+    },
+    "problems": {
+      "title": "Problems it Solves",
+      "items": {
+        "noDirectChannel": {
+          "label": "No direct sales channel",
+          "text": "Your own branded booking site on your own domain"
+        },
+        "manualBooking": {
+          "label": "Manual booking processes",
+          "text": "Real-time availability with instant online reservation"
+        },
+        "paperVerification": {
+          "label": "Paper-based verification",
+          "text": "Phone-based license scanning with automatic data extraction"
+        },
+        "complexPayments": {
+          "label": "Complex payment handling",
+          "text": "Integrated Stripe Connect with deposits and automatic payouts"
+        },
+        "languageBarriers": {
+          "label": "Language barriers",
+          "text": "Storefront content translated into 15 languages from the database"
+        },
+        "contentNeedsDeveloper": {
+          "label": "Content changes need a developer",
+          "text": "Pages, text, images, and contacts edited from the owner portal"
+        },
+        "highDevCosts": {
+          "label": "High development costs",
+          "text": "Ready-to-launch platform instead of a custom build"
+        }
+      }
+    },
+    "brand": {
+      "title": "Your Brand, Your Domain",
+      "intro": "Every storefront is configured, not coded. Tenants control how their site looks and reads without touching the platform.",
+      "domains": {
+        "title": "Domains & Branding",
+        "items": [
+          "Free subdomain: yourcompany.myezwheels.com",
+          "Bring your own custom domain",
+          "Upload logos, hero images, and design assets",
+          "Custom color schemes and themes",
+          "Per-location addresses, phones, and contacts"
+        ]
+      },
+      "content": {
+        "title": "Database-Driven Content",
+        "items": [
+          "Storefront text stored as editable content bundles",
+          "Automatic translation into 15 languages",
+          "Custom tenant pages (terms, FAQ, about, policies)",
+          "Override any wording per tenant",
+          "Changes go live without a deployment"
+        ]
+      },
+      "booking": {
+        "title": "Booking & Compliance Flow",
+        "items": [
+          "Driver's license scan and validation at booking",
+          "Rental agreements and required approvals",
+          "Security deposit authorization and release",
+          "Automated booking and reminder emails",
+          "Toll and violation charges routed to the renter"
+        ]
+      }
+    },
+    "tech": {
+      "title": "Technology Stack",
+      "frontend": {
+        "title": "Frontend",
+        "text": "React, TypeScript, Modern responsive design"
+      },
+      "backend": {
+        "title": "Backend",
+        "text": "ASP.NET Core REST API, Entity Framework Core"
+      },
+      "database": {
+        "title": "Database",
+        "text": "Azure SQL Server"
+      },
+      "cloud": {
+        "title": "Cloud",
+        "text": "Microsoft Azure, Auto-scaling App Services"
+      },
+      "payments": {
+        "title": "Payments",
+        "text": "Stripe Connect, Multi-currency support"
+      },
+      "ai": {
+        "title": "AI & Automation",
+        "text": "Claude AI for document OCR and content translation"
+      }
+    },
+    "cta": {
+      "title": "Ready to Launch Your Rental Business?",
+      "text": "Get your own branded rental website up and running in minutes. No coding required, no IT team needed.",
+      "startTrial": "Start Free Trial",
+      "visitSite": "Visit Site",
+      "requestPricing": "Request Pricing"
+    }
+  },
+  "productCards": {
+    "buttons": {
+      "tryNow": "Try Now",
+      "viewDetails": "View Details"
+    },
+    "myEZWheels": {
+      "home": {
+        "subtitle": "Multi-Tenant Storefront Platform for Vehicle Rental",
+        "description": "A branded rental website for every company — own domain, own fleet, own pricing — with bookings, payments, and driver verification built in.",
+        "items": [
+          "Multi-tenant architecture",
+          "Subdomain and custom domain support",
+          "Fleet and reservation management",
+          "15-language storefronts",
+          "Phone-based driver's license capture",
+          "Stripe Connect payments and deposits"
+        ]
+      },
+      "products": {
+        "subtitle": "Vehicle Rental Storefront Platform",
+        "description": "Multi-tenant storefronts on subdomains or custom domains, with fleet management, database-driven content, and 15-language support. Real production system serving rental companies.",
+        "items": [
+          "Multi-tenant SaaS architecture",
+          "Custom domains and branding",
+          "Driver's license scan and verification",
+          "Stripe Connect payments",
+          "15-language localization"
+        ]
+      }
+    },
+    "mercadinho25": {
+      "home": {
+        "subtitle": "Marketplace Platform for Artisan Products",
+        "description": "A multilingual e-commerce marketplace designed for small businesses and independent producers, with built-in automation for global audiences.",
+        "items": [
+          "Multi-tenant marketplace SaaS",
+          "10-language support (including indigenous languages)",
+          "AI automatic translation of product descriptions",
+          "Vendor onboarding and catalog management",
+          "Payment and order processing",
+          "Optimized for international users"
+        ]
+      },
+      "products": {
+        "subtitle": "Marketplace Platform for Artisan Products",
+        "description": "Multi-tenant marketplace connecting Brazilian artisans globally. AI translation, social commerce, and comprehensive vendor management.",
+        "items": [
+          "Multi-tenant marketplace",
+          "10-language support (including indigenous languages)",
+          "AI automatic translation",
+          "Instagram/Facebook integration",
+          "Vendor management system"
+        ]
+      }
+    },
+    "myEZToll": {
+      "home": {
+        "subtitle": "AI-Powered Toll, GPS and Violation Platform for Fleet Operators",
+        "description": "A specialized platform for rental companies and fleet operators to manage toll charges, GPS-derived tolls, and violations across the United States and Canada.",
+        "items": [
+          "Toll processing across dozens of toll authorities",
+          "Violation management across all 50 states and Canada",
+          "GPS-based toll detection, priced per booking",
+          "Towing, ignition and trip alerts by SMS and email",
+          "Third-party GPS integration (Fleet77 and others)",
+          "AI agents researching and updating toll rates",
+          "Owner portal for payments and dispute handling"
+        ]
+      },
+      "products": {
+        "subtitle": "AI-Powered Toll, GPS & Violation Platform",
+        "description": "Enterprise platform for car rental companies. Automated toll processing, GPS-based toll detection, and violation management across all 50 U.S. states and Canada.",
+        "items": [
+          "U.S. 50-state and Canadian coverage",
+          "Automated toll and violation processing",
+          "GPS-based toll detection per booking",
+          "Towing and ignition alerts (SMS, email)",
+          "Third-party GPS integration (Fleet77)",
+          "AI agents keeping toll rates current",
+          "Owner self-service portal"
+        ]
+      }
+    },
+    "productsCta": {
+      "title": "Ready to Discuss Your Project?",
+      "description": "We build production-ready platforms that scale with your business. From multi-tenant SaaS to specialized enterprise solutions.",
+      "learnAboutProcess": "Learn About Our Process"
+    }
+  },
+  "setPassword": {
+    "title": "Set Password",
+    "emailPlaceholder": "Enter your email",
+    "passwordLabel": "Password",
+    "passwordPlaceholder": "Enter your password",
+    "confirmPasswordLabel": "Retype Password",
+    "confirmPasswordPlaceholder": "Retype your password",
+    "submit": "Set",
+    "errors": {
+      "passwordsDoNotMatch": "Passwords do not match"
+    }
+  },
+  "mercadinho25": {
+    "title": "Under Construction",
+    "description": "This page is currently under construction. Please check back soon."
+  },
+  "languageSwitcher": {
+    "ariaLabel": "Change language"
   }
 }

@@ -15,22 +15,25 @@
 
 import { useTranslation } from 'react-i18next'
 import { Link } from 'react-router-dom'
+import ezMark from '../assets/ez-mark.png'
 import '../App.css'
 
-export function VehicleRental() {
+export function MyEZWheels() {
   const { t } = useTranslation()
+  const languages = t('vehicleRental.languages.list', { returnObjects: true }) as string[]
 
   return (
     <main className="rental-page">
       <section className="hero" style={{ paddingTop: '6rem', paddingBottom: '0.5rem' }}>
         <div className="container">
+          <img src={ezMark} alt="" className="product-mark product-mark-hero" />
           <h1>{t('vehicleRental.title')}</h1>
           <p className="subtitle">
             {t('vehicleRental.subtitle')}
           </p>
           {/* Top Try Now button - centered under subtitle */}
           <div style={{ display: 'flex', justifyContent: 'center', marginTop: '2rem', marginBottom: '2rem' }}>
-            <Link to="/vehicle-rental/set-password" className="try-now-btn try-now-top" style={{ textDecoration: 'none' }}>Try Now</Link>
+            <Link to="/myezwheels/set-password" className="try-now-btn try-now-top" style={{ textDecoration: 'none' }}>Try Now</Link>
           </div>
           <p>
             {t('vehicleRental.description')}
@@ -42,11 +45,9 @@ export function VehicleRental() {
         <div className="container">
           <h2 style={{ marginBottom: '1rem' }}>{t('vehicleRental.languages.title')}</h2>
           <div className="languages-row">
-            <span className="language-badge">{t('vehicleRental.languages.english')}</span>
-            <span className="language-badge">{t('vehicleRental.languages.spanish')}</span>
-            <span className="language-badge">{t('vehicleRental.languages.portuguese')}</span>
-            <span className="language-badge">{t('vehicleRental.languages.french')}</span>
-            <span className="language-badge">{t('vehicleRental.languages.german')}</span>
+            {languages.map((language) => (
+              <span className="language-badge" key={language}>{language}</span>
+            ))}
           </div>
           <p style={{ marginTop: '1rem', marginBottom: '0', color: '#666', textAlign: 'center' }}>
             {t('vehicleRental.languages.description')}
@@ -62,9 +63,9 @@ export function VehicleRental() {
             <article className="service-card">
               <h3>{t('vehicleRental.features.intelligentBooking.title')}</h3>
               <ul>
-                <li>{t('vehicleRental.features.intelligentBooking.voiceAI')}</li>
+                <li>{t('vehicleRental.features.intelligentBooking.vehicleSearch')}</li>
                 <li>{t('vehicleRental.features.intelligentBooking.realTimeCalendar')}</li>
-                <li>{t('vehicleRental.features.intelligentBooking.smartRecommendations')}</li>
+                <li>{t('vehicleRental.features.intelligentBooking.seasonalPricing')}</li>
                 <li>{t('vehicleRental.features.intelligentBooking.vinRecognition')}</li>
               </ul>
             </article>
@@ -72,7 +73,7 @@ export function VehicleRental() {
             <article className="service-card">
               <h3>{t('vehicleRental.features.customerVerification.title')}</h3>
               <ul>
-                <li>{t('vehicleRental.features.customerVerification.blinkID')}</li>
+                <li>{t('vehicleRental.features.customerVerification.phoneCapture')}</li>
                 <li>{t('vehicleRental.features.customerVerification.dataExtraction')}</li>
                 <li>{t('vehicleRental.features.customerVerification.ageVerification')}</li>
                 <li>{t('vehicleRental.features.customerVerification.documentStorage')}</li>
@@ -204,7 +205,7 @@ export function VehicleRental() {
           </p>
           {/* Bottom Try Now button - centered under tagline */}
           <div style={{ display: 'flex', justifyContent: 'center', marginTop: '2rem' }}>
-            <Link to="/vehicle-rental/set-password" className="try-now-btn try-now-bottom" style={{ textDecoration: 'none' }}>Try Now</Link>
+            <Link to="/myezwheels/set-password" className="try-now-btn try-now-bottom" style={{ textDecoration: 'none' }}>Try Now</Link>
           </div>
         </div>
       </section>
@@ -217,11 +218,11 @@ export function VehicleRental() {
           <div className="tech-badges">
             <span className="tech-badge">React</span>
             <span className="tech-badge">ASP.NET Core</span>
-            <span className="tech-badge">PostgreSQL</span>
+            <span className="tech-badge">Azure SQL</span>
             <span className="tech-badge">Azure</span>
             <span className="tech-badge">Stripe Connect</span>
-            <span className="tech-badge">BlinkID</span>
-            <span className="tech-badge">AI/Voice</span>
+            <span className="tech-badge">License OCR</span>
+            <span className="tech-badge">Claude AI</span>
           </div>
         </div>
       </section>

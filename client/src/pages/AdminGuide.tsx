@@ -140,7 +140,7 @@ export default function AdminGuide() {
                 borderLeft: '3px solid var(--accent)',
                 fontSize: '0.85rem'
               }}>
-                <strong>Tip:</strong> {t('adminGuide.sections.gettingStarted.login.tip')}
+                <strong>{t('adminGuide.tipLabel')}</strong> {t('adminGuide.sections.gettingStarted.login.tip')}
               </div>
             </div>
 
@@ -149,10 +149,12 @@ export default function AdminGuide() {
               <h3 style={{ marginBottom: '0.6rem', fontSize: '1.2rem' }}>{t('adminGuide.sections.gettingStarted.roles.title')}</h3>
               <p style={{ marginBottom: '0.8rem', fontSize: '0.9rem' }}>{t('adminGuide.sections.gettingStarted.roles.intro')}</p>
               <ul style={{ paddingLeft: '1.2rem', lineHeight: '1.6', fontSize: '0.9rem' }}>
-                <li style={{ marginBottom: '0.2rem' }}><strong>Customer:</strong> {t('adminGuide.sections.gettingStarted.roles.customer')}</li>
-                <li style={{ marginBottom: '0.2rem' }}><strong>Seller:</strong> {t('adminGuide.sections.gettingStarted.roles.seller')}</li>
-                <li style={{ marginBottom: '0.2rem' }}><strong>TenantAdmin:</strong> {t('adminGuide.sections.gettingStarted.roles.tenantAdmin')}</li>
-                <li style={{ marginBottom: '0.2rem' }}><strong>SuperAdmin:</strong> {t('adminGuide.sections.gettingStarted.roles.superAdmin')}</li>
+                {/* Role label/text pairs: markup stays in JSX, both parts come from translations */}
+                {['customer', 'seller', 'tenantAdmin', 'superAdmin'].map((role) => (
+                  <li key={role} style={{ marginBottom: '0.2rem' }}>
+                    <strong>{t(`adminGuide.sections.gettingStarted.roles.${role}Label`)}</strong> {t(`adminGuide.sections.gettingStarted.roles.${role}`)}
+                  </li>
+                ))}
               </ul>
             </div>
 
@@ -210,7 +212,7 @@ export default function AdminGuide() {
                   borderLeft: '3px solid var(--accent)',
                   fontSize: '0.8rem'
                 }}>
-                  <strong>Tip:</strong> {t('adminGuide.sections.products.categories.attributes.tip')}
+                  <strong>{t('adminGuide.tipLabel')}</strong> {t('adminGuide.sections.products.categories.attributes.tip')}
                 </div>
               </div>
             </div>
@@ -242,7 +244,7 @@ export default function AdminGuide() {
                 borderLeft: '3px solid var(--accent)',
                 fontSize: '0.8rem'
               }}>
-                <strong>Tip:</strong> {t('adminGuide.sections.products.phoneUpload.tip')}
+                <strong>{t('adminGuide.tipLabel')}</strong> {t('adminGuide.sections.products.phoneUpload.tip')}
               </div>
             </div>
 
@@ -263,7 +265,7 @@ export default function AdminGuide() {
                 borderLeft: '3px solid var(--accent)',
                 fontSize: '0.8rem'
               }}>
-                <strong>Tip:</strong> {t('adminGuide.sections.products.autoTranslate.tip')}
+                <strong>{t('adminGuide.tipLabel')}</strong> {t('adminGuide.sections.products.autoTranslate.tip')}
               </div>
             </div>
 
@@ -284,7 +286,7 @@ export default function AdminGuide() {
                 borderLeft: '3px solid var(--accent)',
                 fontSize: '0.8rem'
               }}>
-                <strong>Tip:</strong> {t('adminGuide.sections.products.variants.tip')}
+                <strong>{t('adminGuide.tipLabel')}</strong> {t('adminGuide.sections.products.variants.tip')}
               </div>
             </div>
 
@@ -340,7 +342,7 @@ export default function AdminGuide() {
                 borderLeft: '3px solid var(--accent)',
                 fontSize: '0.8rem'
               }}>
-                <strong>Tip:</strong> {t('adminGuide.sections.store.tenants.tip')}
+                <strong>{t('adminGuide.tipLabel')}</strong> {t('adminGuide.sections.store.tenants.tip')}
               </div>
             </div>
 
@@ -373,13 +375,13 @@ export default function AdminGuide() {
             <div style={{ marginBottom: '2rem' }}>
               <h3 style={{ marginBottom: '0.6rem', fontSize: '1.2rem' }}>{t('adminGuide.sections.payments.stripe.title')}</h3>
               <div style={{ marginBottom: '0.8rem', fontSize: '0.9rem' }}>
-                <strong>Sandbox:</strong> {t('adminGuide.sections.payments.stripe.sandbox')}
+                <strong>{t('adminGuide.sections.payments.stripe.sandboxLabel')}</strong> {t('adminGuide.sections.payments.stripe.sandbox')}
               </div>
               <div style={{ marginBottom: '0.8rem', fontSize: '0.9rem' }}>
-                <strong>Production:</strong> {t('adminGuide.sections.payments.stripe.production')}
+                <strong>{t('adminGuide.sections.payments.stripe.productionLabel')}</strong> {t('adminGuide.sections.payments.stripe.production')}
               </div>
               <div style={{ fontSize: '0.9rem' }}>
-                <strong>Stripe Connect:</strong> {t('adminGuide.sections.payments.stripe.connect')}
+                <strong>{t('adminGuide.sections.payments.stripe.connectLabel')}</strong> {t('adminGuide.sections.payments.stripe.connect')}
               </div>
             </div>
 
@@ -462,7 +464,7 @@ export default function AdminGuide() {
               borderLeft: '3px solid var(--accent)',
               fontSize: '0.8rem'
             }}>
-              <strong>Tip:</strong> {t('adminGuide.sections.languages.tip')}
+              <strong>{t('adminGuide.tipLabel')}</strong> {t('adminGuide.sections.languages.tip')}
             </div>
           </div>
         )}

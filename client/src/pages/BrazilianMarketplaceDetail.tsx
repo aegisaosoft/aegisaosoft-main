@@ -23,32 +23,32 @@ export function BrazilianMarketplaceDetail() {
     <main className="product-detail-page">
       <section className="hero" style={{ backgroundColor: 'var(--card-bg)', padding: '4rem 0' }}>
         <div className="container">
-          <h1 style={{ fontSize: '3rem', marginBottom: '1rem', textAlign: 'center' }}>🛒 Mercadinho25</h1>
-          <h2 style={{ fontSize: '1.5rem', color: 'var(--accent)', marginBottom: '1rem', textAlign: 'center' }}>Global Marketplace for Brazilian Artisan Products</h2>
+          <h1 style={{ fontSize: '3rem', marginBottom: '1rem', textAlign: 'center' }}>🛒 {t('brazilianMarketplaceDetail.hero.title')}</h1>
+          <h2 style={{ fontSize: '1.5rem', color: 'var(--accent)', marginBottom: '1rem', textAlign: 'center' }}>{t('brazilianMarketplaceDetail.hero.subtitle')}</h2>
           <p className="subtitle" style={{ fontSize: '1.2rem', textAlign: 'center', maxWidth: '800px', margin: '0 auto 2rem' }}>
-            Connect Brazilian artisans with global customers through AI-powered translation, social commerce integration, and multi-tenant marketplace architecture. Launch your artisan marketplace today.
+            {t('brazilianMarketplaceDetail.hero.description')}
           </p>
           <div className="hero-actions" style={{ textAlign: 'center', marginBottom: '2rem' }}>
-            <a href="https://mercadinho25.com/demo" className="btn btn-primary" target="_blank" rel="noopener noreferrer" style={{ fontSize: '1.1rem', padding: '1rem 2rem', marginRight: '1rem' }}>Try Free Demo</a>
-            <a href="https://mercadinho25.com" className="btn btn-secondary" target="_blank" rel="noopener noreferrer" style={{ fontSize: '1.1rem', padding: '1rem 2rem' }}>Visit Marketplace</a>
+            <a href="https://mercadinho25.com/demo" className="btn btn-primary" target="_blank" rel="noopener noreferrer" style={{ fontSize: '1.1rem', padding: '1rem 2rem', marginRight: '1rem' }}>{t('brazilianMarketplaceDetail.hero.tryDemo')}</a>
+            <a href="https://mercadinho25.com" className="btn btn-secondary" target="_blank" rel="noopener noreferrer" style={{ fontSize: '1.1rem', padding: '1rem 2rem' }}>{t('brazilianMarketplaceDetail.hero.visitMarketplace')}</a>
           </div>
           <div className="hero-stats" style={{ display: 'flex', justifyContent: 'center', gap: '2rem', flexWrap: 'wrap' }}>
             <div style={{ textAlign: 'center' }}>
               <div style={{ fontSize: '2rem', fontWeight: 'bold', color: 'var(--accent)' }}>10</div>
-              <div style={{ fontSize: '0.9rem', color: 'var(--text-muted)' }}>Languages</div>
-              <div style={{ fontSize: '0.7rem', color: 'var(--text-muted)', marginTop: '0.2rem' }}>+ Indigenous</div>
+              <div style={{ fontSize: '0.9rem', color: 'var(--text-muted)' }}>{t('brazilianMarketplaceDetail.hero.stats.languages.label')}</div>
+              <div style={{ fontSize: '0.7rem', color: 'var(--text-muted)', marginTop: '0.2rem' }}>{t('brazilianMarketplaceDetail.hero.stats.languages.note')}</div>
             </div>
             <div style={{ textAlign: 'center' }}>
-              <div style={{ fontSize: '2rem', fontWeight: 'bold', color: 'var(--accent)' }}>AI</div>
-              <div style={{ fontSize: '0.9rem', color: 'var(--text-muted)' }}>Translation</div>
+              <div style={{ fontSize: '2rem', fontWeight: 'bold', color: 'var(--accent)' }}>{t('brazilianMarketplaceDetail.hero.stats.translation.value')}</div>
+              <div style={{ fontSize: '0.9rem', color: 'var(--text-muted)' }}>{t('brazilianMarketplaceDetail.hero.stats.translation.label')}</div>
             </div>
             <div style={{ textAlign: 'center' }}>
-              <div style={{ fontSize: '2rem', fontWeight: 'bold', color: 'var(--accent)' }}>Social</div>
-              <div style={{ fontSize: '0.9rem', color: 'var(--text-muted)' }}>Commerce</div>
+              <div style={{ fontSize: '2rem', fontWeight: 'bold', color: 'var(--accent)' }}>{t('brazilianMarketplaceDetail.hero.stats.social.value')}</div>
+              <div style={{ fontSize: '0.9rem', color: 'var(--text-muted)' }}>{t('brazilianMarketplaceDetail.hero.stats.social.label')}</div>
             </div>
             <div style={{ textAlign: 'center' }}>
-              <div style={{ fontSize: '2rem', fontWeight: 'bold', color: 'var(--accent)' }}>Multi</div>
-              <div style={{ fontSize: '0.9rem', color: 'var(--text-muted)' }}>Tenant</div>
+              <div style={{ fontSize: '2rem', fontWeight: 'bold', color: 'var(--accent)' }}>{t('brazilianMarketplaceDetail.hero.stats.multiTenant.value')}</div>
+              <div style={{ fontSize: '0.9rem', color: 'var(--text-muted)' }}>{t('brazilianMarketplaceDetail.hero.stats.multiTenant.label')}</div>
             </div>
           </div>
         </div>
@@ -59,184 +59,172 @@ export function BrazilianMarketplaceDetail() {
 
           {/* What is this product */}
           <div className="detail-section">
-            <h2>🎯 What is Mercadinho25?</h2>
-            <p>Mercadinho25 is a cloud-based e-commerce platform that connects local Brazilian artisans and small vendors with customers seeking authentic handcrafted items, folk art, and everyday essentials.</p>
-            <p>The multi-tenant architecture enables independent sellers to operate branded storefronts under a unified marketplace, each with customizable product catalogs, pricing, and fulfillment options.</p>
+            <h2>🎯 {t('brazilianMarketplaceDetail.whatIs.title')}</h2>
+            <p>{t('brazilianMarketplaceDetail.whatIs.paragraph1')}</p>
+            <p>{t('brazilianMarketplaceDetail.whatIs.paragraph2')}</p>
           </div>
 
           {/* For whom */}
           <div className="detail-section">
-            <h2>🏢 Who is it for?</h2>
+            <h2>🏢 {t('brazilianMarketplaceDetail.audience.title')}</h2>
             <ul>
-              <li><strong>Brazilian artisans</strong> creating traditional crafts and folk art</li>
-              <li><strong>Small vendors</strong> selling handmade goods and regional products</li>
-              <li><strong>Marketplace operators</strong> wanting to launch niche e-commerce platforms</li>
-              <li><strong>Cultural product sellers</strong> focusing on authentic Brazilian heritage items</li>
-              <li><strong>Social commerce businesses</strong> leveraging Instagram and Facebook sales</li>
+              <li><strong>{t('brazilianMarketplaceDetail.audience.artisans.label')}</strong> {t('brazilianMarketplaceDetail.audience.artisans.text')}</li>
+              <li><strong>{t('brazilianMarketplaceDetail.audience.vendors.label')}</strong> {t('brazilianMarketplaceDetail.audience.vendors.text')}</li>
+              <li><strong>{t('brazilianMarketplaceDetail.audience.operators.label')}</strong> {t('brazilianMarketplaceDetail.audience.operators.text')}</li>
+              <li><strong>{t('brazilianMarketplaceDetail.audience.culturalSellers.label')}</strong> {t('brazilianMarketplaceDetail.audience.culturalSellers.text')}</li>
+              <li><strong>{t('brazilianMarketplaceDetail.audience.socialCommerce.label')}</strong> {t('brazilianMarketplaceDetail.audience.socialCommerce.text')}</li>
             </ul>
           </div>
 
           {/* Main capabilities */}
           <div className="detail-section">
-            <h2>⚡ Main Capabilities</h2>
+            <h2>⚡ {t('brazilianMarketplaceDetail.capabilities.title')}</h2>
             <div className="capabilities-grid">
               <div className="capability-card">
-                <h3>🏪 Multi-Tenant Storefronts</h3>
-                <p>Independent seller accounts with custom branding, unique storefront design, and personalized identity.</p>
+                <h3>🏪 {t('brazilianMarketplaceDetail.capabilities.storefronts.title')}</h3>
+                <p>{t('brazilianMarketplaceDetail.capabilities.storefronts.description')}</p>
               </div>
               <div className="capability-card">
-                <h3>🌍 10-Language Support + Indigenous Languages</h3>
-                <p>Portuguese, English, Spanish, French, German, Italian, Japanese, Russian, plus indigenous languages (Guaraní Mbyá, Nheengatu) with full localization.</p>
+                <h3>🌍 {t('brazilianMarketplaceDetail.capabilities.languages.title')}</h3>
+                <p>{t('brazilianMarketplaceDetail.capabilities.languages.description')}</p>
                 <div style={{ marginTop: '0.8rem', padding: '0.8rem', backgroundColor: 'rgba(var(--accent-rgb), 0.1)', borderRadius: '0.5rem', borderLeft: '3px solid var(--accent)' }}>
-                  <strong style={{ color: 'var(--accent)' }}>🏛️ Cultural Heritage Feature:</strong>
+                  <strong style={{ color: 'var(--accent)' }}>🏛️ {t('brazilianMarketplaceDetail.capabilities.languages.heritage.title')}</strong>
                   <br />
-                  <span style={{ fontSize: '0.9rem' }}>Special support for Brazilian indigenous languages:</span>
+                  <span style={{ fontSize: '0.9rem' }}>{t('brazilianMarketplaceDetail.capabilities.languages.heritage.intro')}</span>
                   <ul style={{ margin: '0.5rem 0 0', paddingLeft: '1.2rem', fontSize: '0.85rem' }}>
-                    <li><strong>Guaraní Mbyá</strong> (gn-mby) - Traditional Guarani language</li>
-                    <li><strong>Nheengatu</strong> (yrl) - Amazonian lingua franca</li>
+                    <li><strong>{t('brazilianMarketplaceDetail.capabilities.languages.heritage.guarani.label')}</strong> {t('brazilianMarketplaceDetail.capabilities.languages.heritage.guarani.text')}</li>
+                    <li><strong>{t('brazilianMarketplaceDetail.capabilities.languages.heritage.nheengatu.label')}</strong> {t('brazilianMarketplaceDetail.capabilities.languages.heritage.nheengatu.text')}</li>
                   </ul>
                   <div style={{ fontSize: '0.8rem', fontStyle: 'italic', marginTop: '0.5rem', color: 'var(--text-secondary)' }}>
-                    Preserving and promoting Brazil's cultural linguistic diversity through commerce
+                    {t('brazilianMarketplaceDetail.capabilities.languages.heritage.note')}
                   </div>
                 </div>
               </div>
               <div className="capability-card">
-                <h3>🤖 AI Translation</h3>
-                <p>Automatic product description translation using Google Translate API and Claude AI for maximum reach.</p>
+                <h3>🤖 {t('brazilianMarketplaceDetail.capabilities.aiTranslation.title')}</h3>
+                <p>{t('brazilianMarketplaceDetail.capabilities.aiTranslation.description')}</p>
               </div>
               <div className="capability-card">
-                <h3>📱 Social Commerce</h3>
-                <p>Full Instagram Shop and Facebook Marketplace integration — sell directly through social platforms.</p>
+                <h3>📱 {t('brazilianMarketplaceDetail.capabilities.socialCommerce.title')}</h3>
+                <p>{t('brazilianMarketplaceDetail.capabilities.socialCommerce.description')}</p>
               </div>
               <div className="capability-card">
-                <h3>💳 Payment Processing</h3>
-                <p>Integrated Stripe and MercadoPago with marketplace commission structure and seller payouts.</p>
+                <h3>💳 {t('brazilianMarketplaceDetail.capabilities.payments.title')}</h3>
+                <p>{t('brazilianMarketplaceDetail.capabilities.payments.description')}</p>
               </div>
               <div className="capability-card">
-                <h3>📦 Shipping Integration</h3>
-                <p>Correios integration for Brazilian shipping with tracking and fulfillment coordination.</p>
+                <h3>📦 {t('brazilianMarketplaceDetail.capabilities.shipping.title')}</h3>
+                <p>{t('brazilianMarketplaceDetail.capabilities.shipping.description')}</p>
               </div>
             </div>
           </div>
 
           {/* Problem it solves */}
           <div className="detail-section">
-            <h2>🔧 Problems it Solves</h2>
+            <h2>🔧 {t('brazilianMarketplaceDetail.problems.title')}</h2>
             <ul>
-              <li><strong>Limited global reach</strong> → 10-language platform with AI translation + indigenous language support</li>
-              <li><strong>Complex e-commerce setup</strong> → Ready-to-use marketplace platform</li>
-              <li><strong>Social media sales challenges</strong> → Integrated Instagram/Facebook commerce</li>
-              <li><strong>Payment processing barriers</strong> → Multi-gateway support with local options</li>
-              <li><strong>Inventory management complexity</strong> → Comprehensive vendor management system</li>
-              <li><strong>Mobile shopping limitations</strong> → Mobile-first responsive design</li>
+              <li><strong>{t('brazilianMarketplaceDetail.problems.globalReach.label')}</strong> → {t('brazilianMarketplaceDetail.problems.globalReach.text')}</li>
+              <li><strong>{t('brazilianMarketplaceDetail.problems.setup.label')}</strong> → {t('brazilianMarketplaceDetail.problems.setup.text')}</li>
+              <li><strong>{t('brazilianMarketplaceDetail.problems.socialSales.label')}</strong> → {t('brazilianMarketplaceDetail.problems.socialSales.text')}</li>
+              <li><strong>{t('brazilianMarketplaceDetail.problems.payments.label')}</strong> → {t('brazilianMarketplaceDetail.problems.payments.text')}</li>
+              <li><strong>{t('brazilianMarketplaceDetail.problems.inventory.label')}</strong> → {t('brazilianMarketplaceDetail.problems.inventory.text')}</li>
+              <li><strong>{t('brazilianMarketplaceDetail.problems.mobile.label')}</strong> → {t('brazilianMarketplaceDetail.problems.mobile.text')}</li>
             </ul>
           </div>
 
           {/* Core Offerings */}
           <div className="detail-section">
-            <h2>🎨 Core Product Categories</h2>
+            <h2>🎨 {t('brazilianMarketplaceDetail.categories.title')}</h2>
             <div className="offerings-grid">
               <div className="offering-card">
-                <h3>Traditional Folk Crafts (Artesanato)</h3>
-                <p>Ceramics, woodwork, textiles, lacework</p>
+                <h3>{t('brazilianMarketplace.page.coreOfferings.traditionalCrafts.title')}</h3>
+                <p>{t('brazilianMarketplace.page.coreOfferings.traditionalCrafts.description')}</p>
               </div>
               <div className="offering-card">
-                <h3>Regional Handmade Goods</h3>
-                <p>Leather items, woven baskets, embroidery</p>
+                <h3>{t('brazilianMarketplace.page.coreOfferings.regionalGoods.title')}</h3>
+                <p>{t('brazilianMarketplace.page.coreOfferings.regionalGoods.description')}</p>
               </div>
               <div className="offering-card">
-                <h3>Everyday Essentials</h3>
-                <p>Household sundries and daily necessities</p>
+                <h3>{t('brazilianMarketplace.page.coreOfferings.everydayEssentials.title')}</h3>
+                <p>{t('brazilianMarketplace.page.coreOfferings.everydayEssentials.description')}</p>
               </div>
               <div className="offering-card">
-                <h3>Souvenirs & Decorative Pieces</h3>
-                <p>Items representing Brazilian cultural heritage</p>
+                <h3>{t('brazilianMarketplace.page.coreOfferings.souvenirs.title')}</h3>
+                <p>{t('brazilianMarketplace.page.coreOfferings.souvenirs.description')}</p>
               </div>
             </div>
           </div>
 
           {/* Social Media Integration */}
           <div className="detail-section">
-            <h2>📱 Social Commerce Integration</h2>
+            <h2>📱 {t('brazilianMarketplaceDetail.social.title')}</h2>
             <p style={{ marginBottom: '2rem', fontSize: '1.1rem' }}>
-              Comprehensive social commerce features enabling Brazilian artisans to sell directly through social media platforms and reach global audiences.
+              {t('brazilianMarketplaceDetail.social.intro')}
             </p>
 
             <div className="social-integrations-grid" style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))', gap: '1.5rem' }}>
 
               <div className="integration-card" style={{ padding: '1.5rem', backgroundColor: 'var(--card-bg)', borderRadius: '0.75rem', border: '1px solid var(--border)' }}>
                 <h3 style={{ color: 'var(--accent)', marginBottom: '1rem', display: 'flex', alignItems: 'center' }}>
-                  🛒 Instagram Shop Integration
+                  🛒 {t('brazilianMarketplaceDetail.social.instagram.title')}
                 </h3>
                 <ul style={{ marginBottom: '1rem', lineHeight: '1.6' }}>
-                  <li>Automatic product catalog sync to Instagram Shop</li>
-                  <li>Direct checkout within Instagram app</li>
-                  <li>Product tagging in posts and stories</li>
-                  <li>Automated inventory updates</li>
-                  <li>Multi-language product descriptions</li>
-                  <li>Order fulfillment tracking integration</li>
+                  {(t('brazilianMarketplaceDetail.social.instagram.items', { returnObjects: true }) as string[]).map((item) => (
+                    <li key={item}>{item}</li>
+                  ))}
                 </ul>
               </div>
 
               <div className="integration-card" style={{ padding: '1.5rem', backgroundColor: 'var(--card-bg)', borderRadius: '0.75rem', border: '1px solid var(--border)' }}>
                 <h3 style={{ color: 'var(--accent)', marginBottom: '1rem', display: 'flex', alignItems: 'center' }}>
-                  📘 Facebook Marketplace Integration
+                  📘 {t('brazilianMarketplaceDetail.social.facebook.title')}
                 </h3>
                 <ul style={{ marginBottom: '1rem', lineHeight: '1.6' }}>
-                  <li>Automatic product listings on Facebook Marketplace</li>
-                  <li>Facebook Business page shop integration</li>
-                  <li>Targeted advertising for artisan products</li>
-                  <li>Customer reviews and rating sync</li>
-                  <li>Facebook Messenger customer support</li>
-                  <li>Event-based promotional campaigns</li>
+                  {(t('brazilianMarketplaceDetail.social.facebook.items', { returnObjects: true }) as string[]).map((item) => (
+                    <li key={item}>{item}</li>
+                  ))}
                 </ul>
               </div>
 
               <div className="integration-card" style={{ padding: '1.5rem', backgroundColor: 'var(--card-bg)', borderRadius: '0.75rem', border: '1px solid var(--border)' }}>
                 <h3 style={{ color: 'var(--accent)', marginBottom: '1rem', display: 'flex', alignItems: 'center' }}>
-                  💬 WhatsApp Business Integration
+                  💬 {t('brazilianMarketplaceDetail.social.whatsapp.title')}
                 </h3>
                 <ul style={{ marginBottom: '1rem', lineHeight: '1.6' }}>
-                  <li>WhatsApp contact button on product pages</li>
-                  <li>Individual WhatsApp numbers per seller</li>
-                  <li>Automated order confirmations via WhatsApp</li>
-                  <li>Product catalog sharing through WhatsApp</li>
-                  <li>Customer support and inquiries</li>
-                  <li>Delivery status notifications</li>
+                  {(t('brazilianMarketplaceDetail.social.whatsapp.items', { returnObjects: true }) as string[]).map((item) => (
+                    <li key={item}>{item}</li>
+                  ))}
                 </ul>
               </div>
 
               <div className="integration-card" style={{ padding: '1.5rem', backgroundColor: 'var(--card-bg)', borderRadius: '0.75rem', border: '1px solid var(--border)' }}>
                 <h3 style={{ color: 'var(--accent)', marginBottom: '1rem', display: 'flex', alignItems: 'center' }}>
-                  🌍 Multi-Platform Analytics
+                  🌍 {t('brazilianMarketplaceDetail.social.analytics.title')}
                 </h3>
                 <ul style={{ marginBottom: '1rem', lineHeight: '1.6' }}>
-                  <li>Unified analytics dashboard for all platforms</li>
-                  <li>Social media performance tracking</li>
-                  <li>Cross-platform sales attribution</li>
-                  <li>Customer journey mapping</li>
-                  <li>ROI tracking for social media campaigns</li>
-                  <li>Automated reporting and insights</li>
+                  {(t('brazilianMarketplaceDetail.social.analytics.items', { returnObjects: true }) as string[]).map((item) => (
+                    <li key={item}>{item}</li>
+                  ))}
                 </ul>
               </div>
 
               <div className="integration-card" style={{ padding: '1.5rem', backgroundColor: 'var(--card-bg)', borderRadius: '0.75rem', border: '2px solid var(--accent)' }}>
                 <h3 style={{ color: 'var(--accent)', marginBottom: '1rem', display: 'flex', alignItems: 'center' }}>
-                  🏛️ Cultural Heritage Preservation
+                  🏛️ {t('brazilianMarketplaceDetail.social.heritage.title')}
                 </h3>
                 <div style={{ marginBottom: '1rem' }}>
                   <p style={{ marginBottom: '0.8rem', fontSize: '0.95rem', lineHeight: '1.6' }}>
-                    Beyond commercial success, Mercadinho25 actively preserves Brazilian cultural and linguistic diversity.
+                    {t('brazilianMarketplaceDetail.social.heritage.intro')}
                   </p>
                   <div style={{ backgroundColor: 'rgba(var(--accent-rgb), 0.1)', padding: '1rem', borderRadius: '0.5rem' }}>
-                    <h4 style={{ margin: '0 0 0.5rem', color: 'var(--accent)', fontSize: '1rem' }}>Indigenous Language Support:</h4>
+                    <h4 style={{ margin: '0 0 0.5rem', color: 'var(--accent)', fontSize: '1rem' }}>{t('brazilianMarketplaceDetail.social.heritage.supportTitle')}</h4>
                     <ul style={{ lineHeight: '1.6', fontSize: '0.9rem', margin: 0 }}>
-                      <li><strong>Guaraní Mbyá</strong> (gn-mby) - Sacred language of the Guarani people</li>
-                      <li><strong>Nheengatu</strong> (yrl) - Amazonian lingua franca, "good language"</li>
+                      <li><strong>{t('brazilianMarketplaceDetail.social.heritage.guarani.label')}</strong> {t('brazilianMarketplaceDetail.social.heritage.guarani.text')}</li>
+                      <li><strong>{t('brazilianMarketplaceDetail.social.heritage.nheengatu.label')}</strong> {t('brazilianMarketplaceDetail.social.heritage.nheengatu.text')}</li>
                     </ul>
                   </div>
                   <p style={{ marginTop: '0.8rem', fontSize: '0.85rem', fontStyle: 'italic', color: 'var(--text-secondary)' }}>
-                    Empowering indigenous artisans to showcase their work in their native languages, preserving cultural identity while reaching global markets.
+                    {t('brazilianMarketplaceDetail.social.heritage.note')}
                   </p>
                 </div>
               </div>
@@ -246,40 +234,40 @@ export function BrazilianMarketplaceDetail() {
 
           {/* Technology Stack */}
           <div className="detail-section">
-            <h2>🛠️ Technology Stack</h2>
+            <h2>🛠️ {t('brazilianMarketplaceDetail.tech.title')}</h2>
             <div className="tech-grid">
               <div className="tech-category">
-                <h3>Frontend</h3>
-                <p>React, TypeScript, Material-UI</p>
+                <h3>{t('brazilianMarketplaceDetail.tech.frontend.title')}</h3>
+                <p>{t('brazilianMarketplaceDetail.tech.frontend.description')}</p>
               </div>
               <div className="tech-category">
-                <h3>Backend</h3>
-                <p>Node.js RESTful API, Multi-tenant architecture</p>
+                <h3>{t('brazilianMarketplaceDetail.tech.backend.title')}</h3>
+                <p>{t('brazilianMarketplaceDetail.tech.backend.description')}</p>
               </div>
               <div className="tech-category">
-                <h3>Database</h3>
-                <p>PostgreSQL with tenant isolation</p>
+                <h3>{t('brazilianMarketplaceDetail.tech.database.title')}</h3>
+                <p>{t('brazilianMarketplaceDetail.tech.database.description')}</p>
               </div>
               <div className="tech-category">
-                <h3>Cloud</h3>
-                <p>Azure App Service, Auto-scaling</p>
+                <h3>{t('brazilianMarketplaceDetail.tech.cloud.title')}</h3>
+                <p>{t('brazilianMarketplaceDetail.tech.cloud.description')}</p>
               </div>
               <div className="tech-category">
-                <h3>AI & Translation</h3>
-                <p>Google Translate API, Claude AI</p>
+                <h3>{t('brazilianMarketplaceDetail.tech.ai.title')}</h3>
+                <p>{t('brazilianMarketplaceDetail.tech.ai.description')}</p>
               </div>
               <div className="tech-category">
-                <h3>Integration</h3>
-                <p>Instagram Graph API, Facebook Business API, MercadoPago</p>
+                <h3>{t('brazilianMarketplaceDetail.tech.integration.title')}</h3>
+                <p>{t('brazilianMarketplaceDetail.tech.integration.description')}</p>
               </div>
             </div>
           </div>
 
           {/* Live Examples - Tenant Storefronts */}
           <div className="detail-section">
-            <h2>🏪 Live Tenant Examples</h2>
+            <h2>🏪 {t('brazilianMarketplaceDetail.tenants.title')}</h2>
             <p style={{ fontSize: '1.1rem', marginBottom: '2rem', color: 'var(--text-secondary)' }}>
-              See how independent sellers create their own branded storefronts within the marketplace. Each tenant has complete control over their branding, products, and customer experience.
+              {t('brazilianMarketplaceDetail.tenants.intro')}
             </p>
 
             <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(350px, 1fr))', gap: '2rem', marginBottom: '2rem' }}>
@@ -302,9 +290,9 @@ export function BrazilianMarketplaceDetail() {
                 e.currentTarget.style.boxShadow = 'none'
               }}>
                 <div style={{ fontSize: '3rem', marginBottom: '1rem' }}>🎨</div>
-                <h3 style={{ color: 'var(--accent)', marginBottom: '1rem' }}>Alex's Artisan Workshop</h3>
+                <h3 style={{ color: 'var(--accent)', marginBottom: '1rem' }}>{t('brazilianMarketplaceDetail.tenants.alex.title')}</h3>
                 <p style={{ marginBottom: '1.5rem', color: 'var(--text-secondary)', lineHeight: '1.6' }}>
-                  Traditional Brazilian ceramics and pottery. Custom branded storefront with unique design and personalized customer experience.
+                  {t('brazilianMarketplaceDetail.tenants.alex.description')}
                 </p>
                 <a
                   href="https://alex.mercadinho25.com"
@@ -313,7 +301,7 @@ export function BrazilianMarketplaceDetail() {
                   rel="noopener noreferrer"
                   style={{ marginBottom: '0.5rem', display: 'inline-block', width: '200px' }}
                 >
-                  🌐 Visit Alex's Store
+                  🌐 {t('brazilianMarketplaceDetail.tenants.alex.linkLabel')}
                 </a>
                 <div style={{ fontSize: '0.9rem', color: 'var(--text-muted)', fontStyle: 'italic' }}>
                   alex.mercadinho25.com
@@ -338,9 +326,9 @@ export function BrazilianMarketplaceDetail() {
                 e.currentTarget.style.boxShadow = 'none'
               }}>
                 <div style={{ fontSize: '3rem', marginBottom: '1rem' }}>🧵</div>
-                <h3 style={{ color: 'var(--accent)', marginBottom: '1rem' }}>Joanna's Textile Gallery</h3>
+                <h3 style={{ color: 'var(--accent)', marginBottom: '1rem' }}>{t('brazilianMarketplaceDetail.tenants.joanna.title')}</h3>
                 <p style={{ marginBottom: '1.5rem', color: 'var(--text-secondary)', lineHeight: '1.6' }}>
-                  Handwoven textiles and embroidery from São Paulo. Showcases custom branding with social media integration and multilingual support.
+                  {t('brazilianMarketplaceDetail.tenants.joanna.description')}
                 </p>
                 <a
                   href="https://joanna.mercadinho25.com"
@@ -349,7 +337,7 @@ export function BrazilianMarketplaceDetail() {
                   rel="noopener noreferrer"
                   style={{ marginBottom: '0.5rem', display: 'inline-block', width: '200px' }}
                 >
-                  🌐 Visit Joanna's Store
+                  🌐 {t('brazilianMarketplaceDetail.tenants.joanna.linkLabel')}
                 </a>
                 <div style={{ fontSize: '0.9rem', color: 'var(--text-muted)', fontStyle: 'italic' }}>
                   joanna.mercadinho25.com
@@ -366,7 +354,7 @@ export function BrazilianMarketplaceDetail() {
               textAlign: 'center'
             }}>
               <p style={{ margin: 0, color: 'var(--accent)', fontWeight: '500' }}>
-                💡 <strong>Multi-Tenant Architecture:</strong> Each seller gets their own subdomain, custom branding, isolated data, and complete storefront control — all managed from a single platform.
+                💡 <strong>{t('brazilianMarketplaceDetail.tenants.callout.label')}</strong> {t('brazilianMarketplaceDetail.tenants.callout.text')}
               </p>
             </div>
           </div>
@@ -396,19 +384,19 @@ export function BrazilianMarketplaceDetail() {
                 textDecoration: 'none',
                 display: 'inline-block'
               }}>
-                📚 View Complete Admin Guide
+                📚 {t('brazilianMarketplaceDetail.adminGuideCta.buttonLabel')}
               </Link>
             </div>
           </div>
 
           {/* CTA */}
           <div className="cta-section">
-            <h2>Ready to Connect Artisans with Global Markets?</h2>
-            <p>Launch your own Brazilian artisan marketplace with built-in social commerce and AI translation.</p>
+            <h2>{t('brazilianMarketplaceDetail.cta.title')}</h2>
+            <p>{t('brazilianMarketplaceDetail.cta.description')}</p>
             <div className="cta-buttons">
-              <Link to="/contact" className="btn btn-primary">Start Your Marketplace</Link>
-              <a href="https://mercadinho25.com" className="btn btn-secondary" target="_blank" rel="noopener noreferrer">Visit Site</a>
-              <Link to="/admin-guide" className="btn btn-secondary">Seller Guide</Link>
+              <Link to="/contact" className="btn btn-primary">{t('brazilianMarketplaceDetail.cta.startMarketplace')}</Link>
+              <a href="https://mercadinho25.com" className="btn btn-secondary" target="_blank" rel="noopener noreferrer">{t('brazilianMarketplaceDetail.cta.visitSite')}</a>
+              <Link to="/admin-guide" className="btn btn-secondary">{t('brazilianMarketplaceDetail.cta.sellerGuide')}</Link>
             </div>
           </div>
 
