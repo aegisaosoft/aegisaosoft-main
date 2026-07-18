@@ -256,6 +256,61 @@ export function MyEZTollDetail() {
             </div>
           </div>
 
+          {/* Booking platform integrations */}
+          <div className="detail-section">
+            <h2>🔗 {t('myEZTollDetail.bookingIntegrations.title')}</h2>
+            <p style={{ marginBottom: '2rem', fontSize: '1.1rem' }}>
+              {t('myEZTollDetail.bookingIntegrations.intro')}
+            </p>
+
+            <div className="social-integrations-grid" style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))', gap: '1.5rem' }}>
+
+              <div className="integration-card integration-card-live" style={{ padding: '1.5rem', backgroundColor: 'var(--card-bg)', borderRadius: '0.75rem', border: '2px solid var(--accent)' }}>
+                <div className="integration-badge">{t('myEZTollDetail.bookingIntegrations.badges.live')}</div>
+                <h3 style={{ color: 'var(--accent)', marginBottom: '1rem' }}>
+                  🏢 {t('myEZTollDetail.bookingIntegrations.cards.hqRental.title')}
+                </h3>
+                <p style={{ marginBottom: '1rem' }}>{t('myEZTollDetail.bookingIntegrations.cards.hqRental.text')}</p>
+                <ul style={{ marginBottom: '1rem', lineHeight: '1.6' }}>
+                  {list('myEZTollDetail.bookingIntegrations.cards.hqRental.items').map((item) => (
+                    <li key={item}>{item}</li>
+                  ))}
+                </ul>
+              </div>
+
+              <div className="integration-card integration-card-live" style={{ padding: '1.5rem', backgroundColor: 'var(--card-bg)', borderRadius: '0.75rem', border: '2px solid var(--accent)' }}>
+                <div className="integration-badge">{t('myEZTollDetail.bookingIntegrations.badges.live')}</div>
+                <h3 style={{ color: 'var(--accent)', marginBottom: '1rem' }}>
+                  🚘 {t('myEZTollDetail.bookingIntegrations.cards.turo.title')}
+                </h3>
+                <p style={{ marginBottom: '1rem' }}>{t('myEZTollDetail.bookingIntegrations.cards.turo.text')}</p>
+                <ul style={{ marginBottom: '1rem', lineHeight: '1.6' }}>
+                  {list('myEZTollDetail.bookingIntegrations.cards.turo.items').map((item) => (
+                    <li key={item}>{item}</li>
+                  ))}
+                </ul>
+              </div>
+
+              <div className="integration-card" style={{ padding: '1.5rem', backgroundColor: 'var(--card-bg)', borderRadius: '0.75rem', border: '1px dashed var(--border)' }}>
+                <div className="integration-badge integration-badge-soon">{t('myEZTollDetail.bookingIntegrations.badges.inDevelopment')}</div>
+                <h3 style={{ color: 'var(--accent)', marginBottom: '1rem' }}>
+                  🧩 {t('myEZTollDetail.bookingIntegrations.cards.upcoming.title')}
+                </h3>
+                <p style={{ marginBottom: '1rem' }}>{t('myEZTollDetail.bookingIntegrations.cards.upcoming.text')}</p>
+                <ul style={{ marginBottom: '1rem', lineHeight: '1.6' }}>
+                  {list('myEZTollDetail.bookingIntegrations.cards.upcoming.items').map((item) => (
+                    <li key={item}>{item}</li>
+                  ))}
+                </ul>
+              </div>
+
+            </div>
+
+            <p style={{ marginTop: '1.5rem', fontSize: '1.05rem' }}>
+              {t('myEZTollDetail.bookingIntegrations.outro')}
+            </p>
+          </div>
+
           {/* Key Features */}
           <div className="detail-section">
             <h2>🔑 {t('myEZTollDetail.keyFeatures.title')}</h2>

@@ -41,6 +41,14 @@
         "title": "Soluções Habilitadas por IA",
         "description": "Integrar capacidades de IA como reconhecimento de voz, tradução automática e automação inteligente."
       },
+      "aiTollRates": {
+        "title": "Busca de Tarifas de Pedágio com IA",
+        "description": "Agentes de IA que leem as fontes das autoridades de pedágio, detectam mudanças de tarifas e mantêm os preços atualizados automaticamente — em produção nos EUA e no Canadá."
+      },
+      "gpsNavigation": {
+        "title": "Rastreamento GPS e Navegação",
+        "description": "Telemática de frotas de ponta a ponta: rastreamento ao vivo, histórico de viagens, cercas virtuais e alertas em tempo real — com nossos próprios dispositivos ou provedores de GPS terceirizados."
+      },
       "technicalSupport": {
         "title": "Suporte Técnico de Longo Prazo",
         "description": "Manutenção contínua, desenvolvimento de recursos e parceria técnica para suas plataformas."
@@ -1293,6 +1301,51 @@
       "requestDemo": "Solicitar demo",
       "visitSite": "Visitar site",
       "ownerPortal": "Portal do proprietário"
+    },
+    "bookingIntegrations": {
+      "title": "Integrações com plataformas de reserva",
+      "intro": "As frotas não começam do zero — elas já usam um sistema de reservas. O MyEZToll se conecta a ele, de modo que veículos, reservas e locatários entram automaticamente e cada pedágio e infração cai no contrato de locação certo, cobrado da pessoa certa.",
+      "badges": {
+        "live": "Em produção",
+        "inDevelopment": "Em desenvolvimento"
+      },
+      "cards": {
+        "hqRental": {
+          "title": "HQ Rental",
+          "text": "Nossa integração mais profunda, em produção. Os dados de frota e reservas ficam sincronizados nos dois sentidos, e as cobranças voltam para o contrato de locação.",
+          "items": [
+            "Sincronização bidirecional de veículos, reservas e contatos",
+            "Pedágios e infrações lançados como itens do contrato",
+            "Locatário identificado automaticamente em cada cobrança",
+            "Faturamento ao proprietário e conciliação de repasses",
+            "Suporte a frotas com várias unidades e franquias"
+          ]
+        },
+        "turo": {
+          "title": "Turo",
+          "text": "Suporte peer-to-peer completo, em produção. Viagens, hóspedes e veículos são identificados no Turo, para que os pedágios do anfitrião deixem de ser uma caça manual.",
+          "items": [
+            "Viagens e dados do hóspede importados automaticamente",
+            "Pedágios vinculados exatamente à viagem e ao hóspede",
+            "Cobranças direcionadas ao hóspede, e não ao anfitrião",
+            "Reembolso e liquidação de pedágios acompanhados de ponta a ponta",
+            "Várias contas Turo sob uma única frota"
+          ]
+        },
+        "upcoming": {
+          "title": "Mais plataformas a caminho",
+          "text": "Outros seis sistemas de reservas estão em desenvolvimento ativo, sobre a mesma interface de provedor.",
+          "items": [
+            "EasyRentPro",
+            "RENTALL",
+            "RentCentric",
+            "Renteon",
+            "TSD",
+            "Wheelbase"
+          ]
+        }
+      },
+      "outro": "Cada plataforma é um plugin por trás de uma interface comum, então adicionar um sistema de reservas é um conector — não uma reconstrução. Diga-nos qual você usa e daremos prioridade a ele."
     }
   },
   "myEZWheelsDetail": {
@@ -1472,6 +1525,48 @@
       "startTrial": "Testar grátis",
       "visitSite": "Visitar site",
       "requestPricing": "Solicitar preços"
+    },
+    "bookingIntegrations": {
+      "title": "Integrações com plataformas de reserva",
+      "intro": "O MyEZWheels funciona junto com o sistema de reservas que você já usa. Mantenha seu back office atual e acrescente uma loja online com sua marca — ou migre tudo aos poucos, no seu ritmo.",
+      "badges": {
+        "live": "Em produção",
+        "inDevelopment": "Em desenvolvimento"
+      },
+      "cards": {
+        "hqRental": {
+          "title": "HQ Rental",
+          "text": "Integração em produção com sincronização bidirecional, para que sua loja online e seu back office nunca divirjam sobre o que está disponível.",
+          "items": [
+            "Veículos e disponibilidade sincronizados nos dois sentidos",
+            "Reservas criadas online aparecem no seu back office",
+            "Registros de clientes e contratos sempre alinhados",
+            "Cobranças e extras conciliados automaticamente"
+          ]
+        },
+        "turo": {
+          "title": "Turo",
+          "text": "Opere reservas diretas e o Turo lado a lado. Anfitriões peer-to-peer mantêm a visibilidade no marketplace enquanto constroem um canal próprio.",
+          "items": [
+            "Viagens e hóspedes do Turo importados em uma única visão da frota",
+            "Um só calendário para reservas diretas e viagens do marketplace",
+            "Pedágios e cobranças direcionados ao hóspede correto",
+            "Suporte a várias contas Turo"
+          ]
+        },
+        "upcoming": {
+          "title": "Mais plataformas a caminho",
+          "text": "Outros seis sistemas de reservas estão em desenvolvimento ativo, sobre a mesma arquitetura de plugins.",
+          "items": [
+            "EasyRentPro",
+            "RENTALL",
+            "RentCentric",
+            "Renteon",
+            "TSD",
+            "Wheelbase"
+          ]
+        }
+      }
     }
   },
   "productCards": {
@@ -1489,6 +1584,7 @@
           "Gestão de frota e reservas",
           "Lojas online em 15 idiomas",
           "Captura da carteira de motorista pelo celular",
+          "Funciona em conjunto com Turo e HQ Rental",
           "Pagamentos e cauções com Stripe Connect"
         ]
       },
@@ -1500,6 +1596,7 @@
           "Domínios e marca personalizados",
           "Leitura e verificação da carteira de motorista",
           "Pagamentos com Stripe Connect",
+          "Integrações com Turo e HQ Rental",
           "Localização em 15 idiomas"
         ]
       }
@@ -1540,6 +1637,7 @@
           "Alertas de reboque, ignição e viagem por SMS e e-mail",
           "Integração com GPS de terceiros (Fleet77 e outros)",
           "Agentes de IA pesquisando e atualizando tarifas de pedágio",
+          "Integrações nativas com Turo e HQ Rental",
           "Portal do proprietário para pagamentos e contestações"
         ]
       },
@@ -1553,6 +1651,7 @@
           "Alertas de reboque e ignição (SMS, e-mail)",
           "Integração com GPS de terceiros (Fleet77)",
           "Agentes de IA mantendo as tarifas de pedágio atualizadas",
+          "Integrações com Turo e HQ Rental",
           "Portal de autoatendimento do proprietário"
         ]
       }

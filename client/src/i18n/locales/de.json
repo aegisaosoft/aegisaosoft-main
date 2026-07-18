@@ -41,6 +41,14 @@
         "title": "KI-Gestützte Lösungen",
         "description": "KI-Fähigkeiten wie Spracherkennung, automatische Übersetzung und intelligente Automatisierung integrieren."
       },
+      "aiTollRates": {
+        "title": "KI-gestützte Recherche von Mauttarifen",
+        "description": "KI-Agenten, die Quellen der Mautbehörden auswerten, Tarifänderungen erkennen und die Preisdaten automatisch aktuell halten — im Produktivbetrieb in den USA und Kanada."
+      },
+      "gpsNavigation": {
+        "title": "GPS-Ortung & Navigation",
+        "description": "Flottentelematik von A bis Z: Live-Ortung, Fahrtenhistorie, Geofencing und Echtzeit-Warnungen — mit eigenen Geräten oder GPS-Anbietern von Drittanbietern."
+      },
       "technicalSupport": {
         "title": "Langzeit-Technischer Support",
         "description": "Kontinuierliche Wartung, Feature-Entwicklung und technische Partnerschaft für Ihre Plattformen."
@@ -1293,6 +1301,51 @@
       "requestDemo": "Demo anfragen",
       "visitSite": "Website besuchen",
       "ownerPortal": "Betreiberportal"
+    },
+    "bookingIntegrations": {
+      "title": "Integrationen mit Buchungsplattformen",
+      "intro": "Flotten fangen nicht bei null an — sie betreiben bereits ein Buchungssystem. MyEZToll dockt daran an: Fahrzeuge, Reservierungen und Mieter fließen automatisch ein, und jede Maut und jeder Verstoß landet im richtigen Mietvertrag, abgerechnet auf die richtige Person.",
+      "badges": {
+        "live": "Im Produktivbetrieb",
+        "inDevelopment": "In Entwicklung"
+      },
+      "cards": {
+        "hqRental": {
+          "title": "HQ Rental",
+          "text": "Unsere tiefste Integration, im Produktivbetrieb. Flotten- und Reservierungsdaten bleiben in beide Richtungen synchron, und Gebühren werden zurück in den Mietvertrag geschrieben.",
+          "items": [
+            "Bidirektionale Synchronisierung von Fahrzeugen, Reservierungen und Kontakten",
+            "Maut und Verstöße als Vertragspositionen zurückgeschrieben",
+            "Mieter für jede Gebühr automatisch ermittelt",
+            "Betreiberabrechnung und Auszahlungsabgleich",
+            "Unterstützung für Mehrstandort- und Franchise-Flotten"
+          ]
+        },
+        "turo": {
+          "title": "Turo",
+          "text": "Vollständige Peer-to-Peer-Unterstützung, im Produktivbetrieb. Fahrten, Gäste und Fahrzeuge werden aus Turo aufgelöst, damit die Maut für Anbieter keine manuelle Sucherei mehr ist.",
+          "items": [
+            "Fahrten und Gastdaten automatisch importiert",
+            "Maut exakt der Fahrt und dem Gast zugeordnet",
+            "Gebühren dem Gast statt dem Anbieter zugewiesen",
+            "Mauterstattung und Abrechnung durchgängig nachverfolgt",
+            "Mehrere Turo-Konten unter einer Flotte"
+          ]
+        },
+        "upcoming": {
+          "title": "Weitere Plattformen in Vorbereitung",
+          "text": "Sechs weitere Buchungssysteme befinden sich in aktiver Entwicklung, aufgebaut auf derselben Provider-Schnittstelle.",
+          "items": [
+            "EasyRentPro",
+            "RENTALL",
+            "RentCentric",
+            "Renteon",
+            "TSD",
+            "Wheelbase"
+          ]
+        }
+      },
+      "outro": "Jede Plattform ist ein Plugin hinter einer gemeinsamen Schnittstelle — ein Buchungssystem zu ergänzen ist damit ein Konnektor und kein Neubau. Sagen Sie uns, welches System Sie einsetzen, und wir priorisieren es."
     }
   },
   "myEZWheelsDetail": {
@@ -1472,6 +1525,48 @@
       "startTrial": "Kostenlos testen",
       "visitSite": "Website besuchen",
       "requestPricing": "Preise anfragen"
+    },
+    "bookingIntegrations": {
+      "title": "Integrationen mit Buchungsplattformen",
+      "intro": "MyEZWheels läuft parallel zu dem Buchungssystem, das Sie bereits nutzen. Behalten Sie Ihr bestehendes Backoffice und setzen Sie eine Storefront mit Ihrer Marke darauf — oder migrieren Sie alles schrittweise, in Ihrem eigenen Tempo.",
+      "badges": {
+        "live": "Im Produktivbetrieb",
+        "inDevelopment": "In Entwicklung"
+      },
+      "cards": {
+        "hqRental": {
+          "title": "HQ Rental",
+          "text": "Produktiv eingesetzte Integration mit bidirektionaler Synchronisierung, damit Storefront und Backoffice bei der Verfügbarkeit nie auseinanderlaufen.",
+          "items": [
+            "Fahrzeuge und Verfügbarkeiten in beide Richtungen synchronisiert",
+            "Online erstellte Reservierungen erscheinen in Ihrem Backoffice",
+            "Kunden- und Vertragsdaten bleiben abgeglichen",
+            "Gebühren und Zusatzleistungen automatisch abgestimmt"
+          ]
+        },
+        "turo": {
+          "title": "Turo",
+          "text": "Betreiben Sie Direktbuchungen und Turo nebeneinander. Peer-to-Peer-Anbieter behalten ihre Sichtbarkeit im Marktplatz und bauen zugleich einen eigenen Kanal auf.",
+          "items": [
+            "Turo-Fahrten und -Gäste in einer Flottenansicht importiert",
+            "Ein Kalender für Direktbuchungen und Marktplatz-Fahrten",
+            "Maut und Gebühren dem richtigen Gast zugewiesen",
+            "Mehrere Turo-Konten unterstützt"
+          ]
+        },
+        "upcoming": {
+          "title": "Weitere Plattformen in Vorbereitung",
+          "text": "Sechs weitere Buchungssysteme befinden sich in aktiver Entwicklung auf derselben Plugin-Architektur.",
+          "items": [
+            "EasyRentPro",
+            "RENTALL",
+            "RentCentric",
+            "Renteon",
+            "TSD",
+            "Wheelbase"
+          ]
+        }
+      }
     }
   },
   "productCards": {
@@ -1489,6 +1584,7 @@
           "Flotten- und Reservierungsverwaltung",
           "Storefronts in 15 Sprachen",
           "Führerscheinerfassung per Smartphone",
+          "Läuft parallel zu Turo und HQ Rental",
           "Zahlungen und Kautionen über Stripe Connect"
         ]
       },
@@ -1500,6 +1596,7 @@
           "Eigene Domains und Branding",
           "Führerschein-Scan und -Prüfung",
           "Zahlungen über Stripe Connect",
+          "Turo- und HQ Rental-Integrationen",
           "Lokalisierung in 15 Sprachen"
         ]
       }
@@ -1540,6 +1637,7 @@
           "Alarme zu Abschleppen, Zündung und Fahrten per SMS und E-Mail",
           "Integration von GPS-Drittanbietern (Fleet77 und weitere)",
           "KI-Agenten recherchieren und aktualisieren Mauttarife",
+          "Integrierte Anbindung an Turo und HQ Rental",
           "Betreiberportal für Zahlungen und Einspruchsbearbeitung"
         ]
       },
@@ -1553,6 +1651,7 @@
           "Alarme zu Abschleppen und Zündung (SMS, E-Mail)",
           "Integration von GPS-Drittanbietern (Fleet77)",
           "KI-Agenten halten Mauttarife aktuell",
+          "Turo- und HQ Rental-Integrationen",
           "Self-Service-Portal für Betreiber"
         ]
       }

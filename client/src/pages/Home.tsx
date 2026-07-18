@@ -155,6 +155,16 @@ export function Home() {
             </article>
 
             <article className="service-card">
+              <h3>🧠 {t('home.services.aiTollRates.title')}</h3>
+              <p>{t('home.services.aiTollRates.description')}</p>
+            </article>
+
+            <article className="service-card">
+              <h3>🛰️ {t('home.services.gpsNavigation.title')}</h3>
+              <p>{t('home.services.gpsNavigation.description')}</p>
+            </article>
+
+            <article className="service-card">
               <h3>🛠️ {t('home.services.technicalSupport.title')}</h3>
               <p>{t('home.services.technicalSupport.description')}</p>
             </article>

@@ -41,6 +41,14 @@
         "title": "AI-Enabled Solutions",
         "description": "Integrate AI capabilities like voice recognition, automatic translation, and intelligent automation."
       },
+      "aiTollRates": {
+        "title": "AI-Powered Toll Rate Discovery",
+        "description": "AI agents that read toll authority sources, discover rate changes, and keep pricing data current automatically — running in production across the U.S. and Canada."
+      },
+      "gpsNavigation": {
+        "title": "GPS Tracking & Navigation",
+        "description": "Fleet telematics built end to end: live tracking, trip history, geofencing, and real-time alerts — with our own devices or third-party GPS providers."
+      },
       "technicalSupport": {
         "title": "Long-term Technical Support",
         "description": "Ongoing maintenance, feature development, and technical partnership for your platforms."
@@ -1293,6 +1301,51 @@
       "requestDemo": "Request Demo",
       "visitSite": "Visit Site",
       "ownerPortal": "Owner Portal"
+    },
+    "bookingIntegrations": {
+      "title": "Booking Platform Integrations",
+      "intro": "Fleets do not start from scratch — they already run a booking system. MyEZToll plugs into it, so vehicles, reservations, and renters flow in automatically and every toll and violation lands on the right rental agreement, charged to the right person.",
+      "badges": {
+        "live": "In production",
+        "inDevelopment": "In development"
+      },
+      "cards": {
+        "hqRental": {
+          "title": "HQ Rental",
+          "text": "Our deepest integration, running in production. Fleet and reservation data stay in sync both ways, and charges are pushed back onto the rental agreement.",
+          "items": [
+            "Two-way sync of vehicles, reservations, and contacts",
+            "Tolls and violations pushed back as agreement line items",
+            "Renter identified automatically for every charge",
+            "Owner billing and payout reconciliation",
+            "Multi-location and franchise fleets supported"
+          ]
+        },
+        "turo": {
+          "title": "Turo",
+          "text": "Full peer-to-peer support, running in production. Trips, guests, and vehicles are resolved from Turo so host tolls stop being a manual chase.",
+          "items": [
+            "Trips and guest details imported automatically",
+            "Tolls matched to the exact trip and guest",
+            "Charges routed to the guest instead of the host",
+            "Toll reimbursement and settlement tracked end to end",
+            "Multiple Turo accounts under one fleet"
+          ]
+        },
+        "upcoming": {
+          "title": "More platforms on the way",
+          "text": "Six further booking systems are in active development, built on the same provider interface.",
+          "items": [
+            "EasyRentPro",
+            "RENTALL",
+            "RentCentric",
+            "Renteon",
+            "TSD",
+            "Wheelbase"
+          ]
+        }
+      },
+      "outro": "Every platform is a plugin behind one common interface, so adding a booking system is a connector — not a rebuild. Tell us which one you run and we will prioritise it."
     }
   },
   "myEZWheelsDetail": {
@@ -1472,6 +1525,48 @@
       "startTrial": "Start Free Trial",
       "visitSite": "Visit Site",
       "requestPricing": "Request Pricing"
+    },
+    "bookingIntegrations": {
+      "title": "Booking Platform Integrations",
+      "intro": "MyEZWheels runs alongside the booking system you already use. Keep your existing back office and add a branded storefront on top — or move everything over gradually, at your own pace.",
+      "badges": {
+        "live": "In production",
+        "inDevelopment": "In development"
+      },
+      "cards": {
+        "hqRental": {
+          "title": "HQ Rental",
+          "text": "Production integration with two-way synchronisation, so your storefront and your back office never disagree about what is available.",
+          "items": [
+            "Vehicles and availability synchronised both ways",
+            "Reservations created online appear in your back office",
+            "Customer and contract records kept aligned",
+            "Charges and extras reconciled automatically"
+          ]
+        },
+        "turo": {
+          "title": "Turo",
+          "text": "Run direct bookings and Turo side by side. Peer-to-peer hosts keep marketplace exposure while building a channel they own.",
+          "items": [
+            "Turo trips and guests imported into one fleet view",
+            "One calendar across direct bookings and marketplace trips",
+            "Tolls and charges routed to the correct guest",
+            "Multiple Turo accounts supported"
+          ]
+        },
+        "upcoming": {
+          "title": "More platforms on the way",
+          "text": "Six further booking systems are in active development on the same plugin architecture.",
+          "items": [
+            "EasyRentPro",
+            "RENTALL",
+            "RentCentric",
+            "Renteon",
+            "TSD",
+            "Wheelbase"
+          ]
+        }
+      }
     }
   },
   "productCards": {
@@ -1489,6 +1584,7 @@
           "Fleet and reservation management",
           "15-language storefronts",
           "Phone-based driver's license capture",
+          "Works alongside Turo and HQ Rental",
           "Stripe Connect payments and deposits"
         ]
       },
@@ -1500,6 +1596,7 @@
           "Custom domains and branding",
           "Driver's license scan and verification",
           "Stripe Connect payments",
+          "Turo and HQ Rental integrations",
           "15-language localization"
         ]
       }
@@ -1540,6 +1637,7 @@
           "Towing, ignition and trip alerts by SMS and email",
           "Third-party GPS integration (Fleet77 and others)",
           "AI agents researching and updating toll rates",
+          "Turo and HQ Rental integrations built in",
           "Owner portal for payments and dispute handling"
         ]
       },
@@ -1553,6 +1651,7 @@
           "Towing and ignition alerts (SMS, email)",
           "Third-party GPS integration (Fleet77)",
           "AI agents keeping toll rates current",
+          "Turo and HQ Rental integrations",
           "Owner self-service portal"
         ]
       }

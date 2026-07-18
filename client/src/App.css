@@ -1199,3 +1199,25 @@ h2 {
     height: 4.5rem;
   }
 }
+
+/* Booking platform integration cards — live vs upcoming */
+.integration-card {
+  position: relative;
+}
+.integration-badge {
+  display: inline-block;
+  margin-bottom: 0.75rem;
+  padding: 0.2rem 0.6rem;
+  border-radius: 999px;
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  background: var(--accent);
+  color: #ffffff;
+}
+.integration-badge-soon {
+  background: transparent;
+  color: var(--text-muted);
+  border: 1px solid var(--border);
+}

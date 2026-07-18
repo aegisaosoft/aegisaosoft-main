@@ -170,6 +170,57 @@ export function MyEZWheelsDetail() {
             </div>
           </div>
 
+          {/* Booking platform integrations */}
+          <div className="detail-section">
+            <h2>🔗 {t('myEZWheelsDetail.bookingIntegrations.title')}</h2>
+            <p style={{ marginBottom: '2rem', fontSize: '1.1rem' }}>
+              {t('myEZWheelsDetail.bookingIntegrations.intro')}
+            </p>
+
+            <div className="social-integrations-grid" style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))', gap: '1.5rem' }}>
+
+              <div className="integration-card" style={{ padding: '1.5rem', backgroundColor: 'var(--card-bg)', borderRadius: '0.75rem', border: '2px solid var(--accent)' }}>
+                <div className="integration-badge">{t('myEZWheelsDetail.bookingIntegrations.badges.live')}</div>
+                <h3 style={{ color: 'var(--accent)', marginBottom: '1rem' }}>
+                  🏢 {t('myEZWheelsDetail.bookingIntegrations.cards.hqRental.title')}
+                </h3>
+                <p style={{ marginBottom: '1rem' }}>{t('myEZWheelsDetail.bookingIntegrations.cards.hqRental.text')}</p>
+                <ul style={{ marginBottom: '1rem', lineHeight: '1.6' }}>
+                  {(t('myEZWheelsDetail.bookingIntegrations.cards.hqRental.items', { returnObjects: true }) as string[]).map((item) => (
+                    <li key={item}>{item}</li>
+                  ))}
+                </ul>
+              </div>
+
+              <div className="integration-card" style={{ padding: '1.5rem', backgroundColor: 'var(--card-bg)', borderRadius: '0.75rem', border: '2px solid var(--accent)' }}>
+                <div className="integration-badge">{t('myEZWheelsDetail.bookingIntegrations.badges.live')}</div>
+                <h3 style={{ color: 'var(--accent)', marginBottom: '1rem' }}>
+                  🚘 {t('myEZWheelsDetail.bookingIntegrations.cards.turo.title')}
+                </h3>
+                <p style={{ marginBottom: '1rem' }}>{t('myEZWheelsDetail.bookingIntegrations.cards.turo.text')}</p>
+                <ul style={{ marginBottom: '1rem', lineHeight: '1.6' }}>
+                  {(t('myEZWheelsDetail.bookingIntegrations.cards.turo.items', { returnObjects: true }) as string[]).map((item) => (
+                    <li key={item}>{item}</li>
+                  ))}
+                </ul>
+              </div>
+
+              <div className="integration-card" style={{ padding: '1.5rem', backgroundColor: 'var(--card-bg)', borderRadius: '0.75rem', border: '1px dashed var(--border)' }}>
+                <div className="integration-badge integration-badge-soon">{t('myEZWheelsDetail.bookingIntegrations.badges.inDevelopment')}</div>
+                <h3 style={{ color: 'var(--accent)', marginBottom: '1rem' }}>
+                  🧩 {t('myEZWheelsDetail.bookingIntegrations.cards.upcoming.title')}
+                </h3>
+                <p style={{ marginBottom: '1rem' }}>{t('myEZWheelsDetail.bookingIntegrations.cards.upcoming.text')}</p>
+                <ul style={{ marginBottom: '1rem', lineHeight: '1.6' }}>
+                  {(t('myEZWheelsDetail.bookingIntegrations.cards.upcoming.items', { returnObjects: true }) as string[]).map((item) => (
+                    <li key={item}>{item}</li>
+                  ))}
+                </ul>
+              </div>
+
+            </div>
+          </div>
+
           {/* Technology Stack */}
           <div className="detail-section">
             <h2>🛠️ {t('myEZWheelsDetail.tech.title')}</h2>
