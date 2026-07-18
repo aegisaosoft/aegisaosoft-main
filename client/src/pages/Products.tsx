@@ -36,7 +36,7 @@ export function Products() {
           <div className="services-grid">
 
             {/* MyEZWheels */}
-            <article className="service-card" style={{ display: 'grid', gridTemplateRows: 'auto auto auto 1fr auto', minHeight: '560px', padding: '1.5rem' }}>
+            <article className="service-card card-clickable" style={{ display: 'grid', gridTemplateRows: 'auto auto auto 1fr auto', minHeight: '560px', padding: '1.5rem' }}>
               <h3 className="product-card-heading" style={{ fontSize: '1.1rem', marginBottom: '0.5rem', gridRow: '1' }}>
                 <img src={ezMark} alt="" className="product-mark" />
                 MyEZWheels
@@ -54,7 +54,7 @@ export function Products() {
 
               <div className="product-actions" style={{ gridRow: '5', paddingTop: '1rem' }}>
                 <div style={{ marginBottom: '0.5rem' }}>
-                  <Link to="/products/myezwheels" className="btn btn-primary" style={{ fontSize: '0.8rem', padding: '0.6rem 1.2rem', width: '100%', textAlign: 'center', display: 'block' }}>{t('productCards.buttons.viewDetails')}</Link>
+                  <Link to="/products/myezwheels" className="btn btn-primary card-stretched-link" style={{ fontSize: '0.8rem', padding: '0.6rem 1.2rem', width: '100%', textAlign: 'center', display: 'block' }}>{t('productCards.buttons.viewDetails')}</Link>
                 </div>
                 <div style={{ marginBottom: '0.5rem' }}>
                   <a href="https://myezwheels.com" className="btn btn-secondary" target="_blank" rel="noopener noreferrer" style={{ fontSize: '0.8rem', padding: '0.6rem 1.2rem', width: '100%', textAlign: 'center', display: 'block' }}>{t('home.products.visitSite')}</a>
@@ -66,7 +66,7 @@ export function Products() {
             </article>
 
             {/* Mercadinho25 */}
-            <article className="service-card" style={{ display: 'grid', gridTemplateRows: 'auto auto auto 1fr auto', minHeight: '560px', padding: '1.5rem' }}>
+            <article className="service-card card-clickable" style={{ display: 'grid', gridTemplateRows: 'auto auto auto 1fr auto', minHeight: '560px', padding: '1.5rem' }}>
               <h3 style={{ fontSize: '1.1rem', marginBottom: '0.5rem', gridRow: '1' }}>🛒 Mercadinho25</h3>
               <p className="product-subtitle" style={{ fontSize: '0.8rem', fontWeight: '600', marginBottom: '0.75rem', color: 'var(--accent)', gridRow: '2' }}>{t('productCards.mercadinho25.products.subtitle')}</p>
               <p style={{ fontSize: '0.85rem', lineHeight: '1.5', marginBottom: '1rem', gridRow: '3' }}>{t('productCards.mercadinho25.products.description')}</p>
@@ -81,7 +81,7 @@ export function Products() {
 
               <div className="product-actions" style={{ gridRow: '5', paddingTop: '1rem' }}>
                 <div style={{ marginBottom: '0.5rem' }}>
-                  <Link to="/products/brazilian-marketplace" className="btn btn-primary" style={{ fontSize: '0.8rem', padding: '0.6rem 1.2rem', width: '100%', textAlign: 'center', display: 'block' }}>{t('productCards.buttons.viewDetails')}</Link>
+                  <Link to="/products/brazilian-marketplace" className="btn btn-primary card-stretched-link" style={{ fontSize: '0.8rem', padding: '0.6rem 1.2rem', width: '100%', textAlign: 'center', display: 'block' }}>{t('productCards.buttons.viewDetails')}</Link>
                 </div>
                 <div style={{ marginBottom: '0.5rem' }}>
                   <a href="https://mercadinho25.com" className="btn btn-secondary" target="_blank" rel="noopener noreferrer" style={{ fontSize: '0.8rem', padding: '0.6rem 1.2rem', width: '100%', textAlign: 'center', display: 'block' }}>{t('home.products.visitSite')}</a>
@@ -93,7 +93,7 @@ export function Products() {
             </article>
 
             {/* MyEZToll */}
-            <article className="service-card" style={{ display: 'grid', gridTemplateRows: 'auto auto auto 1fr auto', minHeight: '560px', padding: '1.5rem' }}>
+            <article className="service-card card-clickable" style={{ display: 'grid', gridTemplateRows: 'auto auto auto 1fr auto', minHeight: '560px', padding: '1.5rem' }}>
               <h3 className="product-card-heading" style={{ fontSize: '1.1rem', marginBottom: '0.5rem', gridRow: '1' }}>
                 <img src={ezMark} alt="" className="product-mark" />
                 MyEZToll
@@ -111,7 +111,7 @@ export function Products() {
 
               <div className="product-actions" style={{ gridRow: '5', paddingTop: '1rem' }}>
                 <div style={{ marginBottom: '0.5rem' }}>
-                  <Link to="/products/myeztoll" className="btn btn-primary" style={{ fontSize: '0.8rem', padding: '0.6rem 1.2rem', width: '100%', textAlign: 'center', display: 'block' }}>{t('productCards.buttons.viewDetails')}</Link>
+                  <Link to="/products/myeztoll" className="btn btn-primary card-stretched-link" style={{ fontSize: '0.8rem', padding: '0.6rem 1.2rem', width: '100%', textAlign: 'center', display: 'block' }}>{t('productCards.buttons.viewDetails')}</Link>
                 </div>
                 <div style={{ marginBottom: '0.5rem' }}>
                   <a href="https://myeztoll.com" className="btn btn-secondary" target="_blank" rel="noopener noreferrer" style={{ fontSize: '0.8rem', padding: '0.6rem 1.2rem', width: '100%', textAlign: 'center', display: 'block' }}>{t('home.products.visitSite')}</a>

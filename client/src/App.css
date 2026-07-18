@@ -1221,3 +1221,28 @@ h2 {
   color: var(--text-muted);
   border: 1px solid var(--border);
 }
+
+/* Product cards: clicking anywhere on the card follows its Learn More link.
+   The stretched pseudo-element belongs to that link, so there is still exactly
+   one real link for keyboard and screen-reader users. */
+.service-card.card-clickable {
+  position: relative;
+  cursor: pointer;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+.service-card.card-clickable:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.12);
+}
+.service-card.card-clickable .card-stretched-link::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  border-radius: inherit;
+}
+/* The remaining buttons sit above the stretched overlay and keep their own targets. */
+.service-card.card-clickable .product-actions a:not(.card-stretched-link) {
+  position: relative;
+  z-index: 2;
+}
