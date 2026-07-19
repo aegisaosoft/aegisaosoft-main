@@ -57,6 +57,18 @@
   line-height: 1.6 !important;
 }
 
+/* The services column carries the full service list, so it spans two grid tracks
+   and lays its links out in sub-columns instead of one very tall list. */
+.footer-section-wide {
+  grid-column: span 2 !important;
+}
+
+.footer-links-grid {
+  display: grid !important;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)) !important;
+  column-gap: 2rem !important;
+}
+
 .footer-section a:hover {
   color: #3b82f6 !important;
   text-decoration: underline !important;
@@ -83,6 +95,14 @@
   .footer-content {
     grid-template-columns: 1fr !important;
     text-align: center !important;
+  }
+
+  .footer-section-wide {
+    grid-column: span 1 !important;
+  }
+
+  .footer-links-grid {
+    grid-template-columns: 1fr !important;
   }
 
   .footer {

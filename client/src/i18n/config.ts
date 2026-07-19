@@ -24,6 +24,9 @@ import de from './locales/de.json'
 import it from './locales/it.json'
 import ja from './locales/ja.json'
 import ru from './locales/ru.json'
+import hi from './locales/hi.json'
+import zhHans from './locales/zh-Hans.json'
+import zhHant from './locales/zh-Hant.json'
 import gnMby from './locales/gn-mby.json'
 import yrl from './locales/yrl.json'
 
@@ -40,10 +43,23 @@ i18n
       it: { translation: it },
       ja: { translation: ja },
       ru: { translation: ru },
+      hi: { translation: hi },
+      'zh-Hans': { translation: zhHans },
+      'zh-Hant': { translation: zhHant },
       'gn-mby': { translation: gnMby },
       yrl: { translation: yrl },
     },
-    fallbackLng: 'en',
+    // Browsers report Chinese as zh-CN / zh-TW / zh-HK, never as the script tags
+    // we key the bundles by, so map the region tags onto the right script first.
+    fallbackLng: {
+      zh: ['zh-Hans', 'en'],
+      'zh-CN': ['zh-Hans', 'en'],
+      'zh-SG': ['zh-Hans', 'en'],
+      'zh-TW': ['zh-Hant', 'en'],
+      'zh-HK': ['zh-Hant', 'en'],
+      'zh-MO': ['zh-Hant', 'en'],
+      default: ['en'],
+    },
     debug: false,
     interpolation: {
       escapeValue: false,

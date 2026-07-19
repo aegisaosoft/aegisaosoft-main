@@ -1,0 +1,2142 @@
+{
+  "header": {
+    "home": "首页",
+    "about": "关于我们",
+    "products": "产品",
+    "contact": "联系我们"
+  },
+  "home": {
+    "title": "基于 Microsoft Azure 的企业级软件平台与云解决方案",
+    "subtitle": "我们为真实业务场景设计并交付生产级软件系统——从多租户 SaaS 平台，到面向车队运营、电商平台和支付的专业解决方案。",
+    "cta": {
+      "primary": "洽谈您的项目",
+      "secondary": "了解我们的产品"
+    },
+    "products": {
+      "title": "我们的产品",
+      "subtitle": "面向国际市场、支撑真实业务运营的生产级平台。",
+      "visitSite": "访问网站",
+      "learnMore": "了解更多"
+    },
+    "services": {
+      "title": "解决方案与服务",
+      "subtitle": "定制开发服务，助力企业运营现代化，扩展技术能力。",
+      "customSaaS": {
+        "title": "定制 SaaS 开发",
+        "description": "基于现代云架构，端到端开发多租户 SaaS 平台。"
+      },
+      "cloudArchitecture": {
+        "title": "云架构与现代化改造",
+        "description": "迁移至 Azure/AWS，具备自动伸缩、监控能力，并遵循安全最佳实践。"
+      },
+      "systemIntegration": {
+        "title": "系统集成",
+        "description": "将现有系统与现代 API、支付处理平台和第三方服务打通。"
+      },
+      "legacyReplacement": {
+        "title": "遗留系统替换",
+        "description": "在保留原有业务逻辑的前提下，用现代技术改造陈旧系统。"
+      },
+      "aiSolutions": {
+        "title": "AI 赋能解决方案",
+        "description": "集成语音识别、自动翻译、智能自动化等 AI 能力。"
+      },
+      "aiTollRates": {
+        "title": "AI 驱动的通行费费率发现",
+        "description": "AI 智能体自动读取收费机构数据源、发现费率变化并持续更新价格数据——已在美国和加拿大全境投入生产运行。"
+      },
+      "gpsNavigation": {
+        "title": "GPS 跟踪与导航",
+        "description": "端到端自研车队车联网：实时定位、行程历史、电子围栏与实时告警——支持我们自有设备或第三方 GPS 服务商。"
+      },
+      "technicalSupport": {
+        "title": "长期技术支持",
+        "description": "为您的平台提供持续维护、功能迭代与长期技术合作。"
+      }
+    },
+    "architecture": {
+      "title": "架构与技术",
+      "subtitle": "我们的平台采用现代且成熟的技术构建，确保可靠性、安全性与可扩展性。",
+      "items": [
+        "Microsoft Azure 云平台",
+        "现代 .NET（6–9）与 ASP.NET Core",
+        "REST API 与分布式系统",
+        "Entity Framework Core",
+        "微服务架构",
+        "高可用与容错能力",
+        "CI/CD 与 DevOps 实践",
+        "安全与数据保护",
+        "按需集成 AI 能力"
+      ]
+    },
+    "about": {
+      "title": "关于 Aegis AO Soft",
+      "description": "Aegis AO Soft 专注于为真实业务运营开发生产级软件平台。我们看重的是长期可靠性、可扩展性与可维护性，而非短命的原型产品。",
+      "mission": "我们服务于将软件视为核心业务组成部分的组织，交付可持续稳定运行并不断演进的系统。",
+      "leadership": "由一位资深软件架构师带领，拥有数十年跨行业构建关键业务系统的经验。"
+    },
+    "finalCta": {
+      "title": "有项目需求，或正在寻找可靠的技术合作伙伴？",
+      "button": "洽谈您的项目"
+    },
+    "vehicleRental": {
+      "title": "车辆租赁管理",
+      "description": "面向租赁公司的完整 SaaS 平台，具备多租户架构、Stripe Connect 集成与自动化运营能力。",
+      "features": {
+        "fleetManagement": "车队管理与可用性调度",
+        "driverVerification": "驾驶员身份核验（BlinkID）",
+        "securityDeposit": "押金处理",
+        "automatedBilling": "自动化计费",
+        "voiceAI": "🎙️ AI 语音助手辅助选车",
+        "socialIntegration": "完整集成 Instagram 与 Facebook"
+      },
+      "learnMore": "了解更多"
+    },
+    "brazilianMarketplace": {
+      "title": "巴西手工艺品多租户电商平台",
+      "description": "一个基于云的电商平台，将巴西本地手工艺人和小微商家与寻求正宗手工制品、民间艺术和日常好物的顾客连接起来。深度集成 Instagram 与 Facebook，支持社交电商：多租户店铺、商品目录管理、订单与履约跟踪、Stripe 支付处理。",
+      "learnMore": "了解更多"
+    },
+    "myEZToll": {
+      "title": "MyEZToll",
+      "subtitle": "面向租赁车队的 AI 驱动通行费、GPS 与违章管理平台",
+      "description": "非多租户架构（单组织平台）。提供通行费支付处理、基于 GPS 的通行费识别、违章管理，覆盖美国全部 50 个州及加拿大。专为汽车租赁与车队运营商打造。",
+      "features": {
+        "tollProcessing": "通行费支付处理",
+        "parkingManagement": "停车与交通违章管理",
+        "gpsTolls": "基于 GPS 的通行费识别，按订单精确计费",
+        "fleetMap": "实时车队地图，支持行程历史与轨迹回放",
+        "gpsAlerts": "拖车告警，以及点火与行程告警，通过 SMS 和邮件推送",
+        "geofencing": "在地图上绘制电子围栏区域（圆形或多边形）",
+        "gpsIntegration": "第三方 GPS 集成（Fleet77 等）",
+        "aiFirst": "租赁行业首个将 AI 智能体投入生产运行的通行费平台",
+        "aiRates": "AI 智能体自动调研并更新通行费费率",
+        "usaCoverage": "覆盖美国全部 50 个州",
+        "canadaCoverage": "加拿大收费公路与违章（407 ETR、A25、A30）",
+        "fleetOperators": "专为汽车租赁与车队运营商设计",
+        "ownerPortal": "车主门户，支持支付与申诉流程"
+      },
+      "learnMore": "了解更多",
+      "visitSite": "访问网站",
+      "ownerPortal": "车主门户",
+      "featuresTitle": "平台功能"
+    }
+  },
+  "about": {
+    "title": "关于 Aegis AO Soft",
+    "subtitle": "面向受监管与关键业务场景的安全、可靠软件系统",
+    "intro": {
+      "description": "Aegis AO Soft 为在受监管和关键业务环境中运营的组织开发安全、可靠的软件系统。公司专注于支撑业务连续性、合规要求与大规模数据处理的平台。",
+      "leadership": "Aegis AO Soft 由一位资深软件架构师创立并领导，将一线技术领导力与数十年为政府相关行业和复杂业务领域交付生产系统的经验相结合。"
+    },
+    "missionCritical": {
+      "title": "关键业务运营系统",
+      "description": "我们的工作聚焦于必须持续、准确运行的系统，这些系统往往还需满足监管要求或运营约束。",
+      "areas": {
+        "title": "典型领域包括：",
+        "fleet": "车队与运输运营",
+        "payments": "支付与计费系统",
+        "compliance": "合规与报送平台",
+        "workflow": "行政流程的工作流自动化",
+        "dataIntensive": "数据密集型运营软件"
+      },
+      "design": "解决方案在设计上兼顾可靠性、可审计性与长期可维护性。"
+    },
+    "transportation": {
+      "title": "交通运输与监管科技",
+      "description": "Aegis AO Soft 开发支撑车辆相关运营及配套监管要求的平台。",
+      "vehicleRental": {
+        "title": "车辆租赁与车队管理",
+        "items": [
+          "车辆库存的运营管控",
+          "预订与使用率跟踪",
+          "客户与合同管理",
+          "支付处理集成",
+          "多网点部署"
+        ]
+      },
+      "tollViolation": {
+        "title": "通行费与违章管理",
+        "items": [
+          "跨收费机构的通行费汇总",
+          "跨辖区的停车违章处理",
+          "计费、对账与报表",
+          "支持在全国范围运营车队的组织"
+        ]
+      }
+    },
+    "security": {
+      "title": "安全、合规与数据完整性",
+      "description": "系统在设计上高度重视安全性与合规性。",
+      "features": [
+        "受控访问与身份管理",
+        "符合行业标准的数据保护实践",
+        "满足审计要求的日志与报表",
+        "多租户部署的隔离机制",
+        "支付处理合规实践"
+      ]
+    },
+    "technology": {
+      "title": "技术能力",
+      "description": "平台采用现代且广泛应用的技术构建，确保可持续性与互操作性。",
+      "stack": [
+        "Microsoft Azure 云基础设施",
+        "现代 .NET 平台与 ASP.NET Core",
+        "分布式服务架构",
+        "关系型数据管理系统",
+        "容器化部署",
+        "自动化监控与诊断"
+      ],
+      "philosophy": "技术选型以长期可支持性为先，而非追逐短期潮流。"
+    },
+    "leadership": {
+      "title": "创始人兼架构师的技术领导",
+      "description": "Aegis AO Soft 由技术负责人直接领导，而非单纯的管理式监督。",
+      "experience": "创始人拥有数十年在受监管环境中设计和实现复杂系统的经验，涵盖：",
+      "domains": [
+        "金融服务基础设施",
+        "支付处理系统",
+        "监管报送平台",
+        "政府相关软件项目",
+        "大规模交易系统"
+      ],
+      "approach": "这一模式确保了架构的一致性、技术上的责任担当，以及复杂问题的快速解决。"
+    },
+    "delivery": {
+      "title": "交付方式",
+      "description": "项目遵循严谨的生命周期管理，以降低风险并保障上线就绪。",
+      "assessment": {
+        "title": "评估",
+        "items": [
+          "需求分析",
+          "数据与业务流程评估",
+          "架构定义",
+          "集成规划"
+        ]
+      },
+      "implementation": {
+        "title": "实施",
+        "items": [
+          "增量式开发",
+          "安全的部署流水线",
+          "自动化测试",
+          "系统行为文档化"
+        ]
+      },
+      "operational": {
+        "title": "运维支持",
+        "items": [
+          "性能调优",
+          "监控与告警",
+          "安全加固",
+          "持续维护与更新"
+        ]
+      }
+    },
+    "commitment": {
+      "title": "对可靠性与责任的承诺",
+      "description": "Aegis AO Soft 与需要稳定可靠系统和长期技术伙伴的组织合作。我们的目标是交付在整个运营生命周期中始终稳定、易维护、可审计的解决方案。"
+    }
+  },
+  "contact": {
+    "letsConnect": {
+      "title": "与我们联系",
+      "description": "告诉我们您的需求——租赁运营、合规自动化或预订系统。我们将提供技术架构建议与交付时间规划。",
+      "benefits": {
+        "seniorEngineer": "30 余年生产系统交付经验",
+        "regulatedIndustries": "拥有受监管行业经验（金融、海关）",
+        "fullStack": "从数据库到部署的全栈交付",
+        "usBased": "位于 New Jersey 的美国本土团队"
+      },
+      "getInTouch": "取得联系"
+    },
+    "form": {
+      "title": "介绍一下您的项目",
+      "description": "我们将战略、交付与运营统一协同，帮助团队上线并扩展满足监管与客户需求的平台。",
+      "email": "邮箱",
+      "location": "所在地",
+      "locationValue": "New Jersey, USA • 服务覆盖北美与欧洲",
+      "name": "姓名",
+      "namePlaceholder": "张三",
+      "emailLabel": "邮箱",
+      "emailPlaceholder": "jane@company.com",
+      "company": "公司",
+      "companyPlaceholder": "您的公司或项目",
+      "projectDetails": "项目详情",
+      "projectDetailsPlaceholder": "请分享您的目标、时间安排与面临的挑战。",
+      "submit": "提交咨询",
+      "submitting": "发送中…",
+      "success": "感谢您的来信——我们的团队将在一个工作日内与您联系。",
+      "error": "暂时无法处理您的请求。请稍后重试，或发送邮件至 aegisaosoft@gmail.com。"
+    }
+  },
+  "vehicleRental": {
+    "title": "MyEZWheels：面向汽车租赁行业的多租户店铺平台",
+    "subtitle": "几分钟即可上线属于你自己的品牌租车网站",
+    "description": "MyEZWheels 是一套多租户店铺平台，让汽车租赁公司拥有完整、专业的自有预订网站。每个租户通过主机名进行识别——可使用免费二级域名，也可绑定自有域名——车队、价格、品牌形象与客户数据彼此隔离，全部可在车主后台配置，无需编写任何代码。",
+    "languages": {
+      "title": "🌍 支持 15 种语言",
+      "list": [
+        "🇺🇸 English",
+        "🇪🇸 Español",
+        "🇵🇹 Português",
+        "🇫🇷 Français",
+        "🇩🇪 Deutsch",
+        "🇮🇹 Italiano",
+        "🇳🇱 Nederlands",
+        "🇵🇱 Polski",
+        "🇺🇦 Українська",
+        "🇷🇺 Русский",
+        "🇹🇷 Türkçe",
+        "🇸🇦 العربية",
+        "🇨🇳 中文",
+        "🇯🇵 日本語",
+        "🇰🇷 한국어"
+      ],
+      "description": "店铺文案存储于数据库中，并自动机器翻译为所有支持的语言，因此界面元素、预订确认信息和客户邮件均已本地化——调整措辞也无需重新发版。"
+    },
+    "features": {
+      "title": "🚗 完整的租赁系统功能",
+      "intelligentBooking": {
+        "title": "在线预订",
+        "vehicleSearch": "按车型、取车地点和日期搜索，实时显示价格",
+        "realTimeCalendar": "实时可租日历，即时确认订单",
+        "seasonalPricing": "季节性定价与多周期计价（按日、按周、按月）",
+        "vinRecognition": "VIN 识别，自动获取车辆信息"
+      },
+      "customerVerification": {
+        "title": "驾驶员核验",
+        "phoneCapture": "扫描二维码，用租客手机拍摄驾照",
+        "dataExtraction": "PDF417 条码解析结合 AI OCR，自动填写表单",
+        "ageVerification": "年龄与驾照有效期核验",
+        "documentStorage": "证件安全存储"
+      },
+      "paymentProcessing": {
+        "title": "支付处理",
+        "stripeConnect": "集成 Stripe Connect，支付流程顺畅无阻",
+        "multiCurrency": "多币种支持，覆盖南北美洲所有国家",
+        "securityDeposit": "押金管理（支持 31 天以上的预授权冻结）",
+        "automatedRefunds": "自动退款与争议处理",
+        "directPayouts": "款项直接结算至租赁公司账户"
+      },
+      "fleetManagement": {
+        "title": "车队管理",
+        "inventory": "完整的车辆库存管理",
+        "maintenance": "保养计划与跟踪",
+        "statusUpdates": "车辆状态实时更新",
+        "photoGallery": "图片相册与参数配置"
+      },
+      "multiTenant": {
+        "title": "多租户架构",
+        "brandedWebsite": "每家租赁公司都拥有自己的品牌网站",
+        "customDomains": "免费二级域名（yourcompany.myezwheels.com）或绑定自有域名",
+        "uniqueBranding": "专属品牌形象：标志、配色、图片、联系方式",
+        "isolatedData": "数据隔离——每个租户只能看到自己的信息",
+        "customEmails": "自定义通知发件邮箱"
+      },
+      "communication": {
+        "title": "消息通知系统",
+        "bookingConfirmations": "预订确认自动发送",
+        "reminders": "取车与还车提醒（提前 24 小时）",
+        "paymentConfirmations": "支付确认并附带账单",
+        "emailVerification": "邮箱验证与密码重置",
+        "localizedEmails": "所有邮件均按客户偏好语言本地化"
+      },
+      "socialMedia": {
+        "title": "📱 社交媒体集成",
+        "instagram": "完整对接 Instagram——自动发帖展示你的车队",
+        "facebook": "对接 Facebook 主页，客户可直接从主页下单",
+        "reviewSync": "客户评价跨平台同步",
+        "adIntegration": "集成 Facebook 与 Instagram 广告，助力推广"
+      }
+    },
+    "openSite": {
+      "title": "⚡ 几分钟开通你的专属租车网站",
+      "signUp": "注册——创建你的公司账户",
+      "configure": "配置——上传标志、设置配色和联系方式",
+      "addVehicles": "添加车辆——批量导入或手动录入车队",
+      "goLive": "上线——你的专属租车网站已就绪",
+      "noCoding": "无需编写代码，无需 IT 团队，配置完成即可上线。"
+    },
+    "techStack": {
+      "title": "🛠️ 技术栈",
+      "frontend": "React，现代响应式设计",
+      "backend": "ASP.NET Core REST API，搭配 Entity Framework Core",
+      "database": "Azure SQL Server",
+      "cloud": "Azure 云托管，支持自动扩缩容",
+      "payments": "Stripe Connect",
+      "documentScanning": "PDF417 条码解析与 AI 证件 OCR",
+      "ai": "Claude AI 负责证件识别与内容翻译"
+    },
+    "customization": {
+      "title": "🎨 全方位设计定制",
+      "description": "你的租车网站可完全自定义。只需几次点击，即可与品牌形象保持一致。",
+      "features": {
+        "colors": "自定义配色方案与主题",
+        "logo": "你的标志与品牌元素",
+        "layout": "灵活的页面布局",
+        "domain": "支持自定义域名"
+      },
+      "professional": "需要专业的设计支持？我们的合作设计工作室可为你的业务量身打造独特出众的设计。"
+    },
+    "tagline": "你的旅程，我们的承诺。"
+  },
+  "brazilianMarketplace": {
+    "page": {
+      "title": "面向巴西手工艺品的多租户电商平台",
+      "subtitle": "让巴西手工艺人连接全球顾客",
+      "description": "这是一个基于云的电商平台，把巴西本地手工艺人和小微商家与寻找正宗手工制品、民间艺术和日用好物的顾客连接起来。多租户架构让独立卖家在统一的市场中运营各自的品牌店铺，商品目录、定价和履约方式均可自主设置。",
+      "coreOfferings": {
+        "title": "核心品类",
+        "traditionalCrafts": {
+          "title": "传统民间手工艺（Artesanato）",
+          "description": "陶艺、木作、纺织品、蕾丝花边"
+        },
+        "regionalGoods": {
+          "title": "地方手工制品",
+          "description": "皮具、编织篮筐、刺绣"
+        },
+        "everydayEssentials": {
+          "title": "日常必需品",
+          "description": "家居杂货与日用商品"
+        },
+        "souvenirs": {
+          "title": "纪念品与装饰摆件",
+          "description": "展现巴西文化传统的商品"
+        }
+      },
+      "features": {
+        "title": "平台功能",
+        "storefronts": {
+          "title": "卖家独立店铺",
+          "description": "每位卖家均可自定义品牌，拥有专属的店铺设计与形象"
+        },
+        "paymentProcessing": {
+          "title": "统一支付处理",
+          "description": "平台佣金机制，支付流程安全可靠"
+        },
+        "multiLanguage": {
+          "title": "多语言支持",
+          "description": "完整支持 10 种语言，包括葡萄牙语、英语、西班牙语，以及巴西原住民语言（瓜拉尼-姆比亚语、内恩加图语），让文化商品的表达更加地道"
+        },
+        "shipping": {
+          "title": "物流与履约",
+          "description": "集成物流与履约协同，订单处理顺畅高效"
+        },
+        "mobileFirst": {
+          "title": "移动优先设计",
+          "description": "响应式设计，专为以手机为主的巴西市场优化"
+        },
+        "socialMedia": {
+          "title": "Instagram 与 Facebook 集成",
+          "description": "完整的社交电商能力——通过 Instagram Shop 和 Facebook Marketplace 直接销售，同步商品目录，在社交平台触达顾客"
+        }
+      },
+      "tryNow": "立即体验"
+    }
+  },
+  "booking": {
+    "title": "预订与发现",
+    "subtitle": "面向静修中心与体验服务商的用户端平台，支持实时可用性查询与集成支付。",
+    "description": "面向静修中心与体验服务商的用户端平台，支持实时可用性查询与集成支付。",
+    "features": {
+      "resortSearch": "度假村/场地搜索与筛选",
+      "bookingManagement": "预订管理",
+      "paymentProcessing": "支付处理",
+      "multiLanguage": "多语言支持"
+    }
+  },
+  "footer": {
+    "company": "Aegis AO Soft LLC",
+    "contact": "联系方式",
+    "services": "服务",
+    "copyright": "© {{year}} Aegis AO Soft. 保留所有权利。",
+    "ein": "EIN",
+    "location": "New Jersey, USA"
+  },
+  "adminGuide": {
+    "sectionTitle": "管理与卖家指南",
+    "sectionSubtitle": "Mercadinho25 商城的完整管理指南",
+    "recommendationTip": "为获得最准确的自动翻译效果，请使用葡萄牙语或英语填写商品名称和描述。",
+    "sections": {
+      "gettingStarted": {
+        "title": "1. 快速上手",
+        "intro": "Mercadinho25 是一个多租户电商平台，专为巴西手工艺品打造。本指南介绍控制台中所有可用的管理功能。",
+        "login": {
+          "title": "登录",
+          "steps": [
+            "打开你的店铺网址（例如 yourstore.mercadinho25.com）",
+            "点击顶部导航栏中的\"登录\"",
+            "输入邮箱和密码",
+            "登录后点击头像，选择\"控制台\""
+          ],
+          "tip": "默认管理员账号：admin@mercadinho.com.br ｜ 密码在初始化设置时自行设定"
+        },
+        "roles": {
+          "title": "用户角色",
+          "intro": "平台采用基于角色的访问控制（RBAC），共分四个级别：",
+          "customer": "顾客 —— 浏览、购买、发表评价",
+          "seller": "卖家 —— 创建和管理商品、查看销售数据、处理自己的订单",
+          "tenantAdmin": "租户管理员 —— 管理卖家、用户、设置、分类和支付",
+          "superAdmin": "超级管理员 —— 多租户管理、创建租户、拥有全系统权限",
+          "customerLabel": "顾客：",
+          "sellerLabel": "卖家：",
+          "tenantAdminLabel": "租户管理员：",
+          "superAdminLabel": "超级管理员："
+        },
+        "dashboard": {
+          "title": "控制台概览",
+          "intro": "主控制台一目了然地展示关键指标：",
+          "items": [
+            "商品总数：店铺中在售商品的数量",
+            "订单总数：全部订单，并显示待处理订单数",
+            "营业额：按货币格式显示的销售总额",
+            "活跃卖家：商城中已通过审核的卖家数量"
+          ]
+        }
+      },
+      "products": {
+        "title": "2. 商品管理",
+        "categories": {
+          "title": "管理分类",
+          "intro": "分类用于组织商品目录。依次进入 控制台 > 商品 > 分类。",
+          "steps": [
+            "点击\"添加分类\"新建一个分类",
+            "用当前界面语言输入分类名称",
+            "勾选\"自动翻译\"，可将名称自动翻译成全部 10 种语言（含原住民语言）",
+            "设置分类 slug（适合用于网址的名称，可自动生成）",
+            "如需子分类，可选择一个上级分类（形成层级结构）",
+            "切换\"启用\"开关来控制是否对外显示",
+            "点击\"保存\"创建分类"
+          ],
+          "translations": {
+            "title": "分类翻译",
+            "intro": "每个分类名称都会保存为平台支持的全部 10 种语言（含原住民语言）：",
+            "items": [
+              "自动翻译通过 Google Translate 或 Claude AI 生成译文",
+              "API 会根据用户的界面语言返回对应的本地化名称",
+              "任何自动生成的名称都可以手动修改覆盖",
+              "缺少译文时先回退到葡萄牙语，再回退到第一个可用语言"
+            ]
+          },
+          "attributes": {
+            "title": "为分类添加属性类型",
+            "intro": "属性类型用于定义商品的规格选项（例如颜色、尺码、材质）：",
+            "steps": [
+              "打开分类编辑弹窗",
+              "滚动到\"属性类型\"区域",
+              "点击\"添加属性类型\"——可从已有项中选择，也可新建",
+              "新建时：填写全部 10 种语言的名称（带国家/文化标识），slug 会自动生成",
+              "配置显示顺序（层级）和\"必填\"开关",
+              "点击齿轮图标管理属性值（例如颜色下的红色、蓝色、绿色）",
+              "每个属性值支持多语言名称和可选的 HEX 颜色代码",
+              "删除属性类型会一并删除所有相关规格数据，请谨慎操作",
+              "点击\"保存\"生效"
+            ],
+            "tip": "显示顺序很重要：第一个属性类型作为顶层选择器，第二个作为下一层。属性值逐级联动——下层选项会根据上层的选择进行筛选。"
+          }
+        },
+        "creating": {
+          "title": "创建商品",
+          "steps": [
+            "点击\"添加商品\"",
+            "填写名称、描述、故事（均为多语言字段）",
+            "设置价格：基础价、促销价（可选）、货币",
+            "上传图片（拖放或从文件选择器中选取）",
+            "选择分类和子分类",
+            "配置规格，并分别设置价格和库存",
+            "设置库存数量和 SKU",
+            "设置状态：草稿、上架或已归档",
+            "点击\"保存\"发布"
+          ]
+        },
+        "phoneUpload": {
+          "title": "用手机上传图片（二维码）",
+          "intro": "直接用手机摄像头上传商品照片：",
+          "steps": [
+            "点击\"从手机上传\"按钮（手机图标）",
+            "在电脑端：用手机摄像头扫描二维码",
+            "在手机端：应用会自动跳转到拍照上传页面",
+            "拍摄照片——照片会实时上传到商品表单",
+            "上传进行中会显示绿色提示\"正在等待照片…\"",
+            "完成后点击\"完成 —— 添加图片\""
+          ],
+          "tip": "二维码会话有时间限制，两台设备必须处于同一网络。二维码过期后可以重新生成。"
+        },
+        "autoTranslate": {
+          "title": "自动翻译",
+          "intro": "平台可将商品名称和描述翻译成所有支持的语言：",
+          "steps": [
+            "用葡萄牙语或英语填写名称和描述（推荐，准确度最高）",
+            "勾选\"自动翻译\"复选框（闪光图标 ✨）",
+            "保存时，系统会自动翻译成其余 7 种语言",
+            "使用 Google Translate API 或 Claude AI（由管理员配置）",
+            "保存后可自行检查并手动修改任意译文"
+          ],
+          "tip": "同时支持语音转文字：点击任意文本框旁的麦克风图标，即可用所选语言口述输入。"
+        },
+        "variants": {
+          "title": "为商品添加规格",
+          "intro": "当所选分类设置了属性类型时，规格区域会自动出现：",
+          "steps": [
+            "选择分类——属性类型会自动加载（例如颜色、尺码）",
+            "勾选复选框逐个启用属性类型（严格按层级顺序）",
+            "勾选具体的属性值（例如颜色下的红色、蓝色；尺码下的 S、M、L）",
+            "点击某个值将其高亮（绿色边框）。全部高亮 = 正在编辑该具体规格",
+            "价格面板随之切换：\"基础价格\" ↔ \"规格价格：颜色：红色，尺码：大码\"",
+            "为每种组合设置售价、原价和库存",
+            "未单独设价的规格将沿用商品的基础价",
+            "取消勾选某个值会自动删除所有相关的规格数据"
+          ],
+          "tip": "颜色属性会显示色块。规格名称会自动生成各语言版本（例如\"红色 / 大码\"）。蓝色信息面板会提示你当前编辑的是基础价还是规格价。"
+        },
+        "bulkOps": {
+          "title": "批量操作与搜索",
+          "items": [
+            "按商品名称或 SKU 搜索",
+            "按状态（草稿、上架、已归档）和分类筛选",
+            "批量分享到 Facebook、Instagram 或 Etsy",
+            "批量修改状态（上架、归档、转为草稿）"
+          ]
+        },
+        "shipments": {
+          "title": "发货管理",
+          "items": [
+            "查看所有发货记录及状态跟踪",
+            "创建面单（巴西境内对接 Correios）",
+            "实时跟踪包裹状态更新",
+            "直接在控制台打印面单",
+            "状态包括：待处理、已生成面单、已交寄、运输中、派送中、已签收、已退回、丢失、已取消"
+          ]
+        },
+        "reports": {
+          "title": "报表与分析",
+          "items": [
+            "销售分析：营业额图表、订单趋势、热销商品",
+            "订单标签页：完整历史记录，支持筛选和分页",
+            "导出数据以便进行外部分析",
+            "按日期区间查看各项指标"
+          ]
+        }
+      },
+      "store": {
+        "title": "3. 店铺管理",
+        "tenants": {
+          "title": "租户管理（仅超级管理员）",
+          "intro": "依次进入 控制台 > 店铺 > 租户，即可管理多个店铺。",
+          "steps": [
+            "点击\"添加租户\"创建新的商城",
+            "配置：店铺名称、子域名、自定义域名（可选）",
+            "设置佣金比例（默认 10%）",
+            "指定一名租户管理员",
+            "按需启用或停用租户"
+          ],
+          "tip": "创建租户时会自动配置子域名和自定义域名，所有 DNS 记录均自动开通，无需手动处理。"
+        },
+        "sellers": {
+          "title": "卖家管理",
+          "items": [
+            "查看所有卖家及其数据（商品数、销量、评分）",
+            "审核通过或驳回待处理的卖家申请",
+            "编辑卖家资料（店铺名称、简介、所在地）",
+            "切换\"精选\"状态以获得更醒目的展示位",
+            "查看 Stripe Connect 的入驻状态",
+            "按状态筛选：待审核、已通过、已停用"
+          ]
+        },
+        "users": {
+          "title": "用户管理",
+          "items": [
+            "查看所有注册用户及其当前角色",
+            "修改用户角色（顾客、卖家、租户管理员）",
+            "只有超级管理员才能授予超级管理员角色",
+            "按姓名、邮箱或角色搜索和筛选"
+          ]
+        }
+      },
+      "payments": {
+        "title": "4. 支付设置",
+        "stripe": {
+          "title": "Stripe 配置",
+          "sandbox": "沙箱环境：填入测试 API 密钥（pk_test_...、sk_test_...）→ 保存 → 测试 → 启用",
+          "production": "生产环境：步骤相同，改用正式密钥。正式上线前请充分测试，并配置 webhook 回调地址。",
+          "connect": "Stripe Connect：每位卖家需完成入驻流程才能收款。平台会按佣金比例自动分账。",
+          "sandboxLabel": "沙箱环境：",
+          "productionLabel": "生产环境：",
+          "connectLabel": "Stripe Connect："
+        },
+        "mercadopago": {
+          "title": "MercadoPago",
+          "items": [
+            "启用或停用 MercadoPago 支付",
+            "配置商城手续费比例",
+            "设置默认货币（BRL）",
+            "启用 Checkout Pro 以获得顺畅的结算流程",
+            "支持：信用卡/借记卡、PIX、Boleto"
+          ]
+        },
+        "shipping": {
+          "title": "物流（Correios）",
+          "items": [
+            "为巴西境内配送配置 Correios 对接",
+            "设置运费和配送方式",
+            "按地区启用或停用配送方式",
+            "配置包邮门槛金额"
+          ]
+        }
+      },
+      "integrations": {
+        "title": "5. 渠道集成",
+        "google": {
+          "title": "Google Shopping",
+          "steps": [
+            "复制系统生成的商品数据源网址",
+            "注册 Google Merchant Center 账号",
+            "在 Merchant Center > Products > Feeds 中添加该数据源网址",
+            "配置相关设置（国家、语言、货币）",
+            "提交审核"
+          ]
+        },
+        "etsy": {
+          "title": "Etsy 集成",
+          "items": [
+            "通过 OAuth 关联你的 Etsy 店铺",
+            "同步商品并自动创建商品列表",
+            "在控制台中管理 Etsy 订单",
+            "查看分析数据和销售情况",
+            "批量将商品发布到 Etsy"
+          ]
+        },
+        "social": {
+          "title": "社交媒体",
+          "items": [
+            "Facebook 与 Instagram：关联商务主页、分享商品、配置 Meta 商品数据源",
+            "WhatsApp Business：为每位卖家配置号码，在商品页开启联系按钮",
+            "配置数据源语言及翻译优先级"
+          ]
+        }
+      },
+      "branding": {
+        "title": "6. 品牌与个性化",
+        "items": [
+          "Logo：上传店铺标志（用于页头和邮件）",
+          "Favicon：自定义浏览器标签页图标",
+          "配色：主色（#2E7D32）、辅助色（#FFC107）、强调色",
+          "字体：自定义字体系列",
+          "横幅图片：首页主视觉图",
+          "宣传标语与店铺简介",
+          "自定义 CSS，实现进阶样式效果"
+        ]
+      },
+      "languages": {
+        "title": "7. 语言设置",
+        "intro": "平台支持 10 种语言：葡萄牙语（主语言）、英语、西班牙语、法语、德语、意大利语、日语、俄语，另有原住民语言 Guaraní Mbyá 和 Nheengatu，用于保护文化遗产。",
+        "tip": "请至少为所有商品和分类填写葡萄牙语和英语译文，以覆盖更多受众。若缺少译文，系统会回退到葡萄牙语。"
+      }
+    },
+    "tipLabel": "提示："
+  },
+  "brazilianMarketplaceDetail": {
+    "hero": {
+      "title": "Mercadinho25",
+      "subtitle": "面向全球的巴西手工艺品电商平台",
+      "description": "借助 AI 翻译、社交电商集成与多租户市场架构，让巴西手工艺人连接全球顾客。立即开启你的手工艺品电商平台。",
+      "tryDemo": "免费试用演示",
+      "visitMarketplace": "访问平台",
+      "stats": {
+        "languages": {
+          "label": "种语言",
+          "note": "+ 原住民语言"
+        },
+        "translation": {
+          "value": "AI",
+          "label": "翻译"
+        },
+        "social": {
+          "value": "社交",
+          "label": "电商"
+        },
+        "multiTenant": {
+          "value": "多",
+          "label": "租户"
+        }
+      }
+    },
+    "whatIs": {
+      "title": "Mercadinho25 是什么？",
+      "paragraph1": "Mercadinho25 是一个基于云的电商平台，把巴西本地手工艺人和小微商家与寻找正宗手工制品、民间艺术和日用好物的顾客连接起来。",
+      "paragraph2": "多租户架构让独立卖家在统一的市场中运营各自的品牌店铺，商品目录、定价和履约方式均可自主设置。"
+    },
+    "audience": {
+      "title": "适合谁使用？",
+      "artisans": {
+        "label": "巴西手工艺人",
+        "text": "创作传统手工艺与民间艺术作品"
+      },
+      "vendors": {
+        "label": "小微商家",
+        "text": "销售手工制品与地方特色商品"
+      },
+      "operators": {
+        "label": "平台运营方",
+        "text": "希望搭建垂直细分的电商平台"
+      },
+      "culturalSellers": {
+        "label": "文化商品卖家",
+        "text": "专注于正宗的巴西传统文化商品"
+      },
+      "socialCommerce": {
+        "label": "社交电商从业者",
+        "text": "依托 Instagram 和 Facebook 开展销售"
+      }
+    },
+    "capabilities": {
+      "title": "核心能力",
+      "storefronts": {
+        "title": "多租户店铺",
+        "description": "独立的卖家账户，支持自定义品牌、专属店铺设计与个性化形象。"
+      },
+      "languages": {
+        "title": "10 种语言支持 + 原住民语言",
+        "description": "葡萄牙语、英语、西班牙语、法语、德语、意大利语、日语、俄语，以及原住民语言（瓜拉尼-姆比亚语、内恩加图语），均已完整本地化。",
+        "heritage": {
+          "title": "文化传承特色：",
+          "intro": "特别支持巴西原住民语言：",
+          "guarani": {
+            "label": "瓜拉尼-姆比亚语",
+            "text": "（gn-mby）- 瓜拉尼人的传统语言"
+          },
+          "nheengatu": {
+            "label": "内恩加图语",
+            "text": "（yrl）- 亚马逊地区的通用语"
+          },
+          "note": "以商业为纽带，守护并推广巴西的文化与语言多样性"
+        }
+      },
+      "aiTranslation": {
+        "title": "AI 翻译",
+        "description": "使用 Google Translate API 与 Claude AI 自动翻译商品描述，覆盖更广人群。"
+      },
+      "socialCommerce": {
+        "title": "社交电商",
+        "description": "完整集成 Instagram Shop 与 Facebook Marketplace——直接在社交平台上销售。"
+      },
+      "payments": {
+        "title": "支付处理",
+        "description": "集成 Stripe 与 MercadoPago，支持平台佣金机制与卖家结算。"
+      },
+      "shipping": {
+        "title": "物流集成",
+        "description": "对接 Correios 巴西邮政，支持物流跟踪与履约协同。"
+      }
+    },
+    "problems": {
+      "title": "解决的问题",
+      "globalReach": {
+        "label": "海外触达有限",
+        "text": "10 种语言平台，配备 AI 翻译并支持原住民语言"
+      },
+      "setup": {
+        "label": "电商搭建复杂",
+        "text": "开箱即用的电商平台"
+      },
+      "socialSales": {
+        "label": "社交媒体销售困难",
+        "text": "集成 Instagram/Facebook 电商能力"
+      },
+      "payments": {
+        "label": "支付处理门槛高",
+        "text": "多网关支持，兼顾本地支付方式"
+      },
+      "inventory": {
+        "label": "库存管理繁琐",
+        "text": "完善的卖家管理系统"
+      },
+      "mobile": {
+        "label": "移动端购物体验受限",
+        "text": "移动优先的响应式设计"
+      }
+    },
+    "categories": {
+      "title": "核心商品类目"
+    },
+    "social": {
+      "title": "社交电商集成",
+      "intro": "全面的社交电商功能，让巴西手工艺人直接通过社交媒体平台销售，触达全球受众。",
+      "instagram": {
+        "title": "Instagram Shop 集成",
+        "items": [
+          "商品目录自动同步至 Instagram Shop",
+          "在 Instagram 应用内直接结账",
+          "在帖子和快拍中标记商品",
+          "库存自动更新",
+          "多语言商品描述",
+          "订单履约跟踪集成"
+        ]
+      },
+      "facebook": {
+        "title": "Facebook Marketplace 集成",
+        "items": [
+          "商品自动上架至 Facebook Marketplace",
+          "对接 Facebook 主页商店",
+          "面向手工艺品的精准广告投放",
+          "客户评价与评分同步",
+          "Facebook Messenger 客户服务",
+          "基于节点活动的促销推广"
+        ]
+      },
+      "whatsapp": {
+        "title": "WhatsApp Business 集成",
+        "items": [
+          "商品页面内置 WhatsApp 联系按钮",
+          "每位卖家配备独立的 WhatsApp 号码",
+          "通过 WhatsApp 自动发送订单确认",
+          "通过 WhatsApp 分享商品目录",
+          "客户支持与咨询答疑",
+          "配送状态通知"
+        ]
+      },
+      "analytics": {
+        "title": "多平台数据分析",
+        "items": [
+          "覆盖所有平台的统一数据看板",
+          "社交媒体运营效果跟踪",
+          "跨平台销售归因",
+          "客户旅程分析",
+          "社交媒体推广的 ROI 跟踪",
+          "自动生成报表与洞察"
+        ]
+      },
+      "heritage": {
+        "title": "文化传承保护",
+        "intro": "除了商业成果，Mercadinho25 也在积极守护巴西的文化与语言多样性。",
+        "supportTitle": "原住民语言支持：",
+        "guarani": {
+          "label": "瓜拉尼-姆比亚语",
+          "text": "（gn-mby）- 瓜拉尼民族的神圣语言"
+        },
+        "nheengatu": {
+          "label": "内恩加图语",
+          "text": "（yrl）- 亚马逊地区通用语，意为“美好的语言”"
+        },
+        "note": "让原住民手工艺人用母语展示自己的作品，在走向全球市场的同时守护文化认同。"
+      }
+    },
+    "tech": {
+      "title": "技术栈",
+      "frontend": {
+        "title": "前端",
+        "description": "React、TypeScript、Material-UI"
+      },
+      "backend": {
+        "title": "后端",
+        "description": "Node.js RESTful API，多租户架构"
+      },
+      "database": {
+        "title": "数据库",
+        "description": "PostgreSQL，支持租户数据隔离"
+      },
+      "cloud": {
+        "title": "云服务",
+        "description": "Azure App Service，自动扩缩容"
+      },
+      "ai": {
+        "title": "AI 与翻译",
+        "description": "Google Translate API、Claude AI"
+      },
+      "integration": {
+        "title": "集成能力",
+        "description": "Instagram Graph API、Facebook Business API、MercadoPago"
+      }
+    },
+    "tenants": {
+      "title": "真实租户案例",
+      "intro": "看看独立卖家如何在平台内搭建自己的品牌店铺。每个租户都能完全掌控自己的品牌形象、商品与客户体验。",
+      "alex": {
+        "title": "Alex 手工艺作坊",
+        "description": "巴西传统陶艺与陶瓷制品。品牌定制店铺，设计独特，客户体验个性化。",
+        "linkLabel": "访问 Alex 的店铺"
+      },
+      "joanna": {
+        "title": "Joanna 纺织艺廊",
+        "description": "来自圣保罗的手工织物与刺绣。展示定制品牌形象，并集成社交媒体与多语言支持。",
+        "linkLabel": "访问 Joanna 的店铺"
+      },
+      "callout": {
+        "label": "多租户架构：",
+        "text": "每位卖家都拥有专属二级域名、自定义品牌、隔离的数据和完整的店铺控制权——全部在同一个平台中管理。"
+      }
+    },
+    "adminGuideCta": {
+      "buttonLabel": "查看完整管理员指南"
+    },
+    "cta": {
+      "title": "准备好让手工艺人对接全球市场了吗？",
+      "description": "开启你自己的巴西手工艺品电商平台，内置社交电商与 AI 翻译能力。",
+      "startMarketplace": "创建你的电商平台",
+      "visitSite": "访问网站",
+      "sellerGuide": "卖家指南"
+    }
+  },
+  "myEZTollDetail": {
+    "hero": {
+      "title": "面向租赁车队的 AI 驱动通行费、GPS 与违章管理平台",
+      "subtitle": "专为汽车租赁与车队运营商打造的企业级平台，可在全美 50 个州及加拿大自动完成通行费处理、基于 GPS 的通行费识别与违章管理——租赁行业首个将 AI 智能体投入生产运行的通行费与违章平台。"
+    },
+    "whatIs": {
+      "title": "什么是 MyEZToll？",
+      "p1": "MyEZToll 是一套专用的单组织平台（非多租户），专为需要全面管理通行费、GPS 与违章的汽车租赁公司和车队运营商打造。",
+      "p2": "与通用方案不同，MyEZToll 为每一家车队运营商提供专属基础设施，让您在全美 50 个州及加拿大范围内完全掌控自己的通行费处理与违章流程。",
+      "p3": "平台从两个方向同时运作：一方面向收费机构和违章签发方归集费用，另一方面独立地依据车辆 GPS 轨迹计算通行费——车辆通过龙门架的那一刻行程即完成计价，远早于机构账单送达。"
+    },
+    "forWhom": {
+      "title": "适用于谁？",
+      "items": [
+        {
+          "label": "汽车租赁公司",
+          "text": "跨州经营"
+        },
+        {
+          "label": "车队管理公司",
+          "text": "承运收费路段密集的线路"
+        },
+        {
+          "label": "大型车队运营商",
+          "text": "寻求自动化合规管理"
+        },
+        {
+          "label": "租赁加盟商",
+          "text": "需要集中化的通行费管理"
+        },
+        {
+          "label": "企业公务车队",
+          "text": "收费公路行驶里程较大"
+        }
+      ]
+    },
+    "capabilities": {
+      "title": "核心能力",
+      "cards": {
+        "automatedToll": {
+          "title": "通行费自动处理",
+          "text": "跨多州顺畅处理通行费账单，自动对账并完成支付。"
+        },
+        "parkingViolations": {
+          "title": "停车违章管理",
+          "text": "全面跟踪停车罚单并提供申诉流程，实现自动化处理与结案。"
+        },
+        "gpsTolling": {
+          "title": "基于 GPS 的通行费计算",
+          "text": "将车辆 GPS 轨迹与真实收费站及龙门架数据库进行匹配，并按预订计价——通行费直接来自行程本身，而不只依赖机构账单。"
+        },
+        "towingAlerts": {
+          "title": "拖车与车队告警",
+          "text": "拖车、点火开启/关闭、行程结束即时触发短信与邮件告警——可发送给车主、当前承租人或两者。"
+        },
+        "thirdPartyGps": {
+          "title": "第三方 GPS 集成",
+          "text": "可插拔的车联网集成——Fleet77 及其他厂商——将外部追踪设备的车辆与位置数据与自有设备汇入同一个车队视图。"
+        },
+        "aiRateResearch": {
+          "title": "AI 通行费费率研究",
+          "text": "AI 智能体自主检索收费机构信息源，发现费率变动，无需人工录入即可保持平台通行费定价最新。"
+        },
+        "coverage": {
+          "title": "覆盖美国与加拿大",
+          "text": "覆盖全美 50 个州，以及加拿大的收费公路与违章，包括 Highway 407 ETR、A25 和 A30。"
+        },
+        "ownerPortal": {
+          "title": "车主自助门户",
+          "text": "为车主提供专属门户，可自主完成付款与申诉流程。"
+        },
+        "analytics": {
+          "title": "车队数据分析",
+          "text": "针对通行费成本、违章趋势与车队绩效提供全面的报表与分析。"
+        },
+        "automation": {
+          "title": "智能自动化",
+          "text": "AI 驱动的罚单解析与自动付款处理，几乎无需人工干预。"
+        }
+      }
+    },
+    "problems": {
+      "title": "解决的问题",
+      "items": [
+        {
+          "label": "人工通行费对账",
+          "text": "→ 全州范围自动化处理"
+        },
+        {
+          "label": "停车违章积压",
+          "text": "→ 智能解析与申诉管理"
+        },
+        {
+          "label": "跨州合规复杂",
+          "text": "→ 统一覆盖 50 州与加拿大"
+        },
+        {
+          "label": "通行费数周后才发现",
+          "text": "→ 基于 GPS 的识别在行程发生时即完成计价"
+        },
+        {
+          "label": "费率数据过时",
+          "text": "→ AI 智能体持续跟踪机构费率变动"
+        },
+        {
+          "label": "追踪硬件品牌混杂",
+          "text": "→ 第三方 GPS 服务商统一汇入同一车队视图"
+        },
+        {
+          "label": "客服压力大",
+          "text": "→ 车主自助申诉门户"
+        },
+        {
+          "label": "行政管理负担重",
+          "text": "→ 自动化流程与通知"
+        },
+        {
+          "label": "成本不透明",
+          "text": "→ 实时报表与分析"
+        }
+      ]
+    },
+    "ai": {
+      "title": "车队运营中的人工智能",
+      "intro": "MyEZToll 是汽车租赁行业首个将 AI 智能体投入生产运行的通行费与违章平台——不是在界面上外挂一个聊天机器人，而是真正承担运营工作的软件。",
+      "cards": {
+        "rateResearch": {
+          "title": "自主通行费费率研究",
+          "items": [
+            "AI 智能体研读收费机构信息源与费率表",
+            "自动发现费率变动与新增收费设施",
+            "在平台中更新按收费站及起讫点的定价",
+            "自愈机制：自动重试、切换备用信息源、复核校验",
+            "任何定价变更生效前均先进行试运行复核"
+          ]
+        },
+        "documents": {
+          "title": "文档与罚单智能识别",
+          "items": [
+            "AI 解析违章通知书与通行费对账单",
+            "通过 AI OCR 与条码解码读取驾驶证信息",
+            "自动提取车牌、日期、金额与管辖区",
+            "直接得到结构化数据，无需人工重新录入"
+          ]
+        },
+        "tripMatching": {
+          "title": "行程与费用匹配",
+          "items": [
+            "将通行费自动匹配到对应车辆与预订",
+            "GPS 轨迹精确解析到具体收费站、龙门架与行驶方向",
+            "跨数据源识别重复记录与错误匹配",
+            "费用无需人工复核即可归集到正确的承租人"
+          ]
+        }
+      }
+    },
+    "gps": {
+      "title": "GPS 追踪、通行费与告警",
+      "intro": "平台内置完整的车联网层：车队实时追踪、行程历史、电子围栏与实时告警——同时支持自有追踪设备与第三方 GPS 服务商，并直接以车辆行驶数据驱动通行费计价。",
+      "cards": {
+        "derivedTolls": {
+          "title": "基于 GPS 推算的通行费",
+          "items": [
+            "覆盖全美的收费站与龙门架坐标数据库",
+            "出入口取卡式收费系统按起讫点矩阵计价",
+            "双向桥梁与隧道按行驶方向精准匹配",
+            "租期一结束即计算出每笔预订的通行费合计",
+            "机构账单送达后自动对账核销",
+            "在实际行驶路线上以地图图层展示收费站"
+          ]
+        },
+        "liveMap": {
+          "title": "实时地图与行程历史",
+          "items": [
+            "车队实时地图，展示每辆受监控车辆的当前位置",
+            "行程识别，含起点、终点、时长与路线轨迹",
+            "按车辆和按预订回放行驶路线",
+            "在产生通行费的行程上直接标注通行费事件",
+            "可从预订或车辆记录一键打开行程视图"
+          ]
+        },
+        "alerts": {
+          "title": "实时告警",
+          "labeledItems": [
+            {
+              "label": "拖车识别",
+              "text": "——车辆正在被拖走"
+            },
+            {
+              "label": "点火开启",
+              "text": "——车辆已启动"
+            },
+            {
+              "label": "点火关闭",
+              "text": "——车辆已熄火"
+            },
+            {
+              "label": "行程结束",
+              "text": "——车辆已完成本次行程"
+            }
+          ],
+          "items": [
+            "每条告警均可通过短信和/或邮件送达",
+            "可发送给车主、当前承租人或两者",
+            "每类告警均可独立开启或关闭"
+          ]
+        },
+        "theft": {
+          "title": "防盗与追回",
+          "items": [
+            "车辆被拖走后数秒内即触发拖车告警",
+            "自研识别算法可区分正常行驶与被拖走",
+            "第一时间通知车主，并可实时跟踪位置",
+            "完整的位置历史，可用于报警笔录与保险理赔",
+            "电子围栏可标记驶出约定区域的行为"
+          ]
+        },
+        "geofencing": {
+          "title": "电子围栏",
+          "items": [
+            "直接在地图上绘制区域——圆形或多边形",
+            "按中心点与半径设置圆形区域",
+            "自由绘制多边形，适用于停车场、街区与服务范围",
+            "按车队分别编辑与管理各类区域"
+          ]
+        },
+        "externalProviders": {
+          "title": "外部 GPS 服务商",
+          "items": [
+            "面向第三方车联网平台的插件式架构",
+            "Fleet77 集成已投入生产，更多服务商陆续接入",
+            "车辆与位置历史自动导入并保持同步",
+            "自有与第三方追踪设备在同一车队视图中并列呈现",
+            "服务商告警规则在我方界面统一呈现：超速、怠速、停车、非工作时段、拖车、电量低、失联、GPS 失锁、急加速、发动机故障、保养提醒、长期未使用"
+          ]
+        },
+        "devices": {
+          "title": "设备与诊断",
+          "items": [
+            "追踪设备在车辆之间的分配与转移",
+            "设备健康状况：最近定位、上报中断、连接状态",
+            "按能力自适应的视图——呈现各服务商各自的信号集",
+            "清晰区分自有设备与第三方设备",
+            "保留原始位置数据，用于审计与争议取证"
+          ]
+        }
+      }
+    },
+    "keyFeatures": {
+      "title": "主要特性",
+      "cards": {
+        "singleOrg": {
+          "title": "单组织架构",
+          "text": "为单一车队运营商提供专属平台，数据完全隔离，流程可定制。"
+        },
+        "government": {
+          "title": "政务系统对接",
+          "text": "直连各州 DMV 系统与市政停车管理机构，获取实时数据。"
+        },
+        "canadian": {
+          "title": "加拿大业务",
+          "text": "加拿大收费公路与违章可与美国费用一并处理——Highway 407 ETR、A25 和 A30——跨境租赁在同一流程中完成。"
+        },
+        "connectors": {
+          "title": "收费机构连接器",
+          "text": "数十个通行费与违章机构集成持续稳定运行，无需人工登录门户即可归集费用。"
+        },
+        "costOptimization": {
+          "title": "成本优化",
+          "text": "智能路线建议与通行费成本分析，帮助降低运营支出。"
+        },
+        "mobile": {
+          "title": "移动端访问",
+          "text": "响应式移动界面，随时随地管理车队与处理违章。"
+        }
+      }
+    },
+    "tech": {
+      "title": "技术栈",
+      "cards": {
+        "frontend": {
+          "title": "前端",
+          "text": "React，响应式设计"
+        },
+        "backend": {
+          "title": "后端",
+          "text": "ASP.NET Core，稳健的 API 架构"
+        },
+        "database": {
+          "title": "数据库",
+          "text": "Azure SQL Server，查询性能优化"
+        },
+        "ai": {
+          "title": "AI",
+          "text": "Claude AI 智能体，用于费率研究、文档 OCR 与解析"
+        },
+        "gps": {
+          "title": "GPS 与车联网",
+          "text": "自有追踪设备，并通过插件接入第三方服务商（Fleet77）"
+        },
+        "cloud": {
+          "title": "云平台",
+          "text": "Microsoft Azure，高可用架构"
+        },
+        "automation": {
+          "title": "自动化",
+          "text": "Playwright、Puppeteer 网页采集"
+        },
+        "security": {
+          "title": "安全",
+          "text": "企业级安全防护，符合反洗钱（AML）合规要求"
+        }
+      }
+    },
+    "cta": {
+      "title": "准备好让车队运营自动化了吗？",
+      "text": "借助我们的企业级解决方案，彻底告别人工通行费处理与停车违章管理。",
+      "requestDemo": "预约演示",
+      "visitSite": "访问网站",
+      "ownerPortal": "车主门户"
+    },
+    "bookingIntegrations": {
+      "title": "预订平台集成",
+      "intro": "车队无需从零开始——您已经在使用某套预订系统。MyEZToll 直接对接其中，车辆、预订与承租人信息自动流入，每一笔通行费和违章都会落到正确的租赁合同上，并向正确的人收取。",
+      "badges": {
+        "live": "已投入生产",
+        "inDevelopment": "开发中"
+      },
+      "cards": {
+        "hqRental": {
+          "title": "HQ Rental",
+          "text": "我们最深度的集成，已投入生产运行。车队与预订数据双向保持同步，费用可回写至租赁合同。",
+          "items": [
+            "车辆、预订与联系人双向同步",
+            "通行费与违章以合同明细行的形式回写",
+            "每笔费用自动识别对应承租人",
+            "车主账单与分账对账",
+            "支持多门店与加盟车队"
+          ]
+        },
+        "turo": {
+          "title": "Turo",
+          "text": "完整支持点对点租赁，已投入生产运行。行程、租客与车辆信息自动从 Turo 解析，房东再也不用人工追缴通行费。",
+          "items": [
+            "自动导入行程与租客信息",
+            "通行费精确匹配到具体行程与租客",
+            "费用直接向租客收取，而非房东承担",
+            "通行费代偿与结算全流程跟踪",
+            "同一车队下可管理多个 Turo 账号"
+          ]
+        },
+        "upcoming": {
+          "title": "更多平台即将上线",
+          "text": "另有六套预订系统正在开发中，均基于同一套服务商接口构建。",
+          "items": [
+            "EasyRentPro",
+            "RENTALL",
+            "RentCentric",
+            "Renteon",
+            "TSD",
+            "Wheelbase"
+          ]
+        }
+      },
+      "outro": "每个平台都是同一通用接口背后的一个插件，因此接入新的预订系统只需开发连接器，无需重构。告诉我们您在用哪一套，我们会优先支持。"
+    }
+  },
+  "myEZWheelsDetail": {
+    "hero": {
+      "tagline": "面向汽车租赁行业的多租户门店平台",
+      "subtitle": "在您自己的域名上快速上线专属品牌的租车网站。多租户架构、数据库驱动的内容管理、15 种语言门店、手机端驾照采集以及自动化收款，一应俱全。",
+      "tryDemo": "免费试用演示",
+      "visitPlatform": "访问平台",
+      "stats": {
+        "languages": "种语言",
+        "multi": "多",
+        "tenant": "租户",
+        "ai": "AI",
+        "powered": "驱动",
+        "cloud": "云",
+        "native": "原生"
+      }
+    },
+    "whatIs": {
+      "title": "什么是 MyEZWheels？",
+      "p1": "MyEZWheels 是一个多租户门店平台，让汽车租赁公司无需自行开发，即可拥有一套完整、专业的在线预订网站。每个租户按主机名解析，因此每家公司都运行在自己的网址上，拥有独立的车队、定价、品牌形象和客户数据，与平台上的其他租户完全隔离。",
+      "p2": "先用免费二级域名（yourcompany.myezwheels.com）起步，随时可以切换到自己的自定义域名。标识、配色、图片、页面内容和门店联系方式均可在业主后台自助配置，无需重新部署，也无需开发人员介入。"
+    },
+    "forWhom": {
+      "title": "适用于哪些客户？",
+      "items": {
+        "rentalCompanies": {
+          "label": "汽车租赁公司",
+          "text": "希望实现业务数字化"
+        },
+        "fleetOperators": {
+          "label": "车队运营方",
+          "text": "希望直接面向客户开展租赁业务"
+        },
+        "entrepreneurs": {
+          "label": "创业者",
+          "text": "正在筹备新的租车业务"
+        },
+        "existingBusinesses": {
+          "label": "现有租赁企业",
+          "text": "希望升级改造老旧系统"
+        },
+        "multiLocationChains": {
+          "label": "多网点连锁租赁企业",
+          "text": "需要集中化统一管理"
+        },
+        "p2pHosts": {
+          "label": "个人车主（P2P 房东）",
+          "text": "希望摆脱只依赖第三方平台，转向直接预订"
+        }
+      }
+    },
+    "capabilities": {
+      "title": "核心能力",
+      "storefronts": {
+        "title": "多租户门店",
+        "text": "按主机名（二级域名或自定义域名）解析租户，每家公司的车队、订单、客户和品牌形象彼此隔离。"
+      },
+      "languages": {
+        "title": "15 种语言门店",
+        "text": "门店文案全部存放在数据库中，并自动翻译成 15 种语言，修改措辞无需重新发版。"
+      },
+      "license": {
+        "title": "手机端驾照采集",
+        "text": "租客扫描二维码，用手机拍摄驾照。PDF417 条码解析结合 AI OCR，实时自动填写表单。"
+      },
+      "payments": {
+        "title": "Stripe Connect 收款",
+        "text": "支持银行卡支付、押金预授权，以及自动结算到租赁公司自有的 Stripe 账户，并支持多币种。"
+      },
+      "fleet": {
+        "title": "车队与车型管理",
+        "text": "车辆库存、车型分类、图片相册、季节性定价、可用性以及各网点的独立配置。"
+      },
+      "integrations": {
+        "title": "平台集成",
+        "text": "订单与外部平台双向同步，通行费、违章和 GPS 数据由 MyEZToll 汇入，形成统一的运营视图。"
+      }
+    },
+    "problems": {
+      "title": "帮您解决的问题",
+      "items": {
+        "noDirectChannel": {
+          "label": "缺少直销渠道",
+          "text": "在自有域名上拥有专属品牌的预订网站"
+        },
+        "manualBooking": {
+          "label": "人工处理预订流程",
+          "text": "实时可用性查询，即时在线预订"
+        },
+        "paperVerification": {
+          "label": "纸质材料人工核验",
+          "text": "手机扫描驾照，自动提取证件信息"
+        },
+        "complexPayments": {
+          "label": "支付处理繁琐",
+          "text": "集成 Stripe Connect，支持押金与自动结算"
+        },
+        "languageBarriers": {
+          "label": "语言障碍",
+          "text": "门店内容直接从数据库翻译成 15 种语言"
+        },
+        "contentNeedsDeveloper": {
+          "label": "改内容都要找开发",
+          "text": "页面、文案、图片和联系方式均可在业主后台自行编辑"
+        },
+        "highDevCosts": {
+          "label": "开发成本高昂",
+          "text": "开箱即用的成熟平台，无需定制开发"
+        }
+      }
+    },
+    "brand": {
+      "title": "您的品牌，您的域名",
+      "intro": "每个门店都是配置出来的，而不是写代码写出来的。租户无需改动平台，即可自主掌控网站的外观与文案。",
+      "domains": {
+        "title": "域名与品牌形象",
+        "items": [
+          "免费二级域名：yourcompany.myezwheels.com",
+          "支持绑定自有的自定义域名",
+          "上传标识、首屏大图和设计素材",
+          "自定义配色方案与主题",
+          "按网点设置地址、电话和联系人"
+        ]
+      },
+      "content": {
+        "title": "数据库驱动的内容",
+        "items": [
+          "门店文案以可编辑的内容包形式存储",
+          "自动翻译成 15 种语言",
+          "自定义租户页面（条款、常见问题、关于我们、政策）",
+          "可按租户覆盖任意措辞",
+          "改动无需部署即刻生效"
+        ]
+      },
+      "booking": {
+        "title": "预订与合规流程",
+        "items": [
+          "下单时扫描并校验驾照",
+          "租赁协议与必要的审批环节",
+          "押金预授权与解冻",
+          "自动发送预订确认与提醒邮件",
+          "通行费与违章费用自动归集到租客名下"
+        ]
+      }
+    },
+    "tech": {
+      "title": "技术栈",
+      "frontend": {
+        "title": "前端",
+        "text": "React、TypeScript，现代响应式设计"
+      },
+      "backend": {
+        "title": "后端",
+        "text": "ASP.NET Core REST API、Entity Framework Core"
+      },
+      "database": {
+        "title": "数据库",
+        "text": "Azure SQL Server"
+      },
+      "cloud": {
+        "title": "云服务",
+        "text": "Microsoft Azure，自动伸缩的 App Services"
+      },
+      "payments": {
+        "title": "支付",
+        "text": "Stripe Connect，支持多币种"
+      },
+      "ai": {
+        "title": "AI 与自动化",
+        "text": "由 Claude AI 提供证件 OCR 与内容翻译能力"
+      }
+    },
+    "cta": {
+      "title": "准备好开启您的租车业务了吗？",
+      "text": "几分钟即可上线属于您自己的品牌租车网站。无需编写代码，也不用组建 IT 团队。",
+      "startTrial": "开始免费试用",
+      "visitSite": "访问网站",
+      "requestPricing": "咨询报价"
+    },
+    "bookingIntegrations": {
+      "title": "预订平台集成",
+      "intro": "MyEZWheels 可与您现有的预订系统并行运行。保留原有的后台系统，在其之上加一个品牌门店；也可以按自己的节奏逐步全面迁移。",
+      "badges": {
+        "live": "已上线",
+        "inDevelopment": "开发中"
+      },
+      "cards": {
+        "hqRental": {
+          "title": "HQ Rental",
+          "text": "已投入生产的双向同步集成，让门店与后台系统对车辆可用情况始终保持一致。",
+          "items": [
+            "车辆与可用性双向同步",
+            "线上创建的订单自动进入后台系统",
+            "客户与合同记录保持一致",
+            "费用与附加项自动对账"
+          ]
+        },
+        "turo": {
+          "title": "Turo",
+          "text": "直接预订与 Turo 并行运营。个人车主既能保留平台曝光，又能建立属于自己的销售渠道。",
+          "items": [
+            "Turo 行程与租客统一汇入同一车队视图",
+            "直接预订与平台行程共用一份日历",
+            "通行费与各项费用准确归集到对应租客",
+            "支持绑定多个 Turo 账户"
+          ]
+        },
+        "upcoming": {
+          "title": "更多平台即将接入",
+          "text": "另有六套预订系统正基于同一插件架构积极开发中。",
+          "items": [
+            "EasyRentPro",
+            "RENTALL",
+            "RentCentric",
+            "Renteon",
+            "TSD",
+            "Wheelbase"
+          ]
+        }
+      }
+    }
+  },
+  "productCards": {
+    "buttons": {
+      "tryNow": "立即体验",
+      "viewDetails": "查看详情",
+      "viewSource": "查看源码"
+    },
+    "myEZWheels": {
+      "home": {
+        "subtitle": "面向汽车租赁行业的多租户门店平台",
+        "description": "为每家公司打造专属品牌的租车网站——自有域名、自有车队、自有定价，内置预订、支付与驾驶员身份核验。",
+        "items": [
+          "多租户架构",
+          "支持二级域名与自定义域名",
+          "车队与订单管理",
+          "15 种语言门店",
+          "手机端驾照采集",
+          "可与 Turo 和 HQ Rental 并行使用",
+          "Stripe Connect 支付与押金"
+        ]
+      },
+      "products": {
+        "subtitle": "汽车租赁门店平台",
+        "description": "支持二级域名或自定义域名的多租户门店，具备车队管理、数据库驱动的内容管理和 15 种语言支持。已在生产环境为多家租赁公司稳定服务。",
+        "items": [
+          "多租户 SaaS 架构",
+          "自定义域名与品牌形象",
+          "驾照扫描与身份核验",
+          "Stripe Connect 支付",
+          "Turo 与 HQ Rental 集成",
+          "15 种语言本地化"
+        ]
+      }
+    },
+    "mercadinho25": {
+      "home": {
+        "subtitle": "手工艺产品交易市场平台",
+        "description": "专为小微企业和独立生产者打造的多语言电商交易市场，内置面向全球受众的自动化能力。",
+        "items": [
+          "多租户交易市场 SaaS",
+          "10 种语言支持（含原住民语言）",
+          "AI 自动翻译商品描述",
+          "商家入驻与商品目录管理",
+          "支付与订单处理",
+          "针对国际用户优化"
+        ]
+      },
+      "products": {
+        "subtitle": "手工艺产品交易市场平台",
+        "description": "让巴西手工艺人走向全球的多租户交易市场，提供 AI 翻译、社交电商和全面的商家管理能力。",
+        "items": [
+          "多租户交易市场",
+          "10 种语言支持（含原住民语言）",
+          "AI 自动翻译",
+          "Instagram/Facebook 集成",
+          "商家管理系统"
+        ]
+      }
+    },
+    "myEZToll": {
+      "home": {
+        "subtitle": "面向车队运营方的 AI 通行费、GPS 与违章管理平台",
+        "description": "专为租赁公司和车队运营方打造的平台，用于管理全美和加拿大范围内的通行费账单、GPS 推算通行费以及各类违章。",
+        "items": [
+          "对接数十家收费机构，自动处理通行费",
+          "覆盖全美 50 个州及加拿大的违章处理",
+          "基于 GPS 的通行费识别，按订单计价",
+          "拖车、点火与行程告警，支持短信和邮件",
+          "对接第三方 GPS 设备（Fleet77 等）",
+          "AI 智能体持续调研并更新收费标准",
+          "内置 Turo 与 HQ Rental 集成",
+          "业主后台，自助完成付款与申诉处理"
+        ]
+      },
+      "products": {
+        "subtitle": "AI 通行费、GPS 与违章管理平台",
+        "description": "面向汽车租赁公司的企业级平台。自动处理通行费、基于 GPS 识别通行费，并覆盖全美 50 个州及加拿大的违章管理。",
+        "items": [
+          "覆盖美国 50 个州及加拿大",
+          "通行费与违章自动化处理",
+          "按订单进行的 GPS 通行费识别",
+          "拖车与点火告警（短信、邮件）",
+          "对接第三方 GPS 设备（Fleet77）",
+          "AI 智能体保持收费标准实时更新",
+          "Turo 与 HQ Rental 集成",
+          "业主自助服务门户"
+        ]
+      }
+    },
+    "productsCta": {
+      "title": "准备好聊聊您的项目了吗？",
+      "description": "我们打造可随业务规模成长的生产级平台，从多租户 SaaS 到专业的企业级解决方案。",
+      "learnAboutProcess": "了解我们的服务流程"
+    },
+    "aegisLocalizer": {
+      "home": {
+        "subtitle": "适用于任意代码库的 AI 本地化工具",
+        "description": "只需指定代码库和目标语言。它会自动找出硬编码的界面文案，用 Claude 完成翻译，并改写源码改为读取标准资源文件。",
+        "items": [
+          "自动识别硬编码的界面文案",
+          "C# 采用 Roslyn 精准解析，其他语言使用容错词法分析",
+          "支持 .NET、web、Android、Apple 和 Flutter",
+          "输出 .resx、i18next JSON、strings.xml、.strings 和 .arb",
+          "改写源代码，改为读取资源项",
+          "离线噪声过滤，在首次调用前就降低 API 成本",
+          "增量运行：只有新增或改写过的文案才产生费用",
+          "使用您自己的 Anthropic API 密钥"
+        ]
+      },
+      "products": {
+        "subtitle": "适用于任意代码库的 AI 本地化工具",
+        "description": "一套 CLI 和本地 GUI 工具，扫描项目中面向用户的文案，用 Claude 进行分类和翻译，并改写源码以使用资源文件。支持五类技术栈，提供备份和占位符校验。",
+        "items": [
+          "五大平台：.NET、web、Android、Apple、Flutter",
+          "由 Claude 驱动的分类与翻译",
+          "自动改写源码，并保留逐字节备份",
+          "对每条译文进行占位符校验",
+          "只合并、不覆盖：人工修改的内容不会丢失",
+          "CI 模式下发现新的硬编码文案即让构建失败"
+        ]
+      }
+    },
+    "hueControl": {
+      "home": {
+        "subtitle": "Philips Hue 照明的 Windows 桌面应用",
+        "description": "Hue 一直没为 Windows 推出的桌面控制中心：灯具、房间、场景、传感器和开关，全部在一个原生应用中通过本地网络管理。",
+        "items": [
+          "原生 Windows 应用，无需手机",
+          "灯具、房间、区域和场景集中于一个窗口",
+          "可添加、重命名和移除任意 Hue 设备",
+          "为调光开关绑定房间与场景",
+          "多个网桥可归入同一个「家」",
+          "仅走本地网络，数据不出本机",
+          "10 种界面语言，完整支持从右到左排版",
+          "深色与浅色主题，免费开源"
+        ]
+      },
+      "products": {
+        "subtitle": "Philips Hue 照明的 Windows 桌面应用",
+        "description": "一款原生 WPF 应用，可在 Windows 上管理 Philips Hue 照明系统：完整的设备管理、场景编辑、开关编程和多网桥支持，直接与局域网内的网桥通信。",
+        "items": [
+          "完整的设备管理，不只是开灯关灯",
+          "场景与房间编辑，支持颜色预览",
+          "调光开关编程，显示电池状态",
+          "多网桥、多住宅一键切换",
+          "纯本地运行，无需云账号，无遥测数据",
+          "10 种语言，支持从右到左排版，深色与浅色主题"
+        ]
+      }
+    }
+  },
+  "setPassword": {
+    "title": "设置密码",
+    "emailPlaceholder": "请输入您的邮箱",
+    "passwordLabel": "密码",
+    "passwordPlaceholder": "请输入您的密码",
+    "confirmPasswordLabel": "确认密码",
+    "confirmPasswordPlaceholder": "请再次输入您的密码",
+    "submit": "设置",
+    "errors": {
+      "passwordsDoNotMatch": "两次输入的密码不一致"
+    }
+  },
+  "mercadinho25": {
+    "title": "建设中",
+    "description": "此页面正在建设中，请稍后再来查看。"
+  },
+  "languageSwitcher": {
+    "ariaLabel": "切换语言"
+  },
+  "aegisLocalizerDetail": {
+    "hero": {
+      "title": "面向任意代码库的 AI 本地化",
+      "subtitle": "只需指定代码库和目标语言。它会找出硬编码字符串，用 Claude 完成翻译，并改写源码以从资源文件读取文本。"
+    },
+    "whatIs": {
+      "title": "Aegis Localizer 是什么",
+      "p1": "每个应用最初都是把字符串直接写在代码里的。要让这样的应用支持第二种语言，通常意味着开发者逐个文件手工阅读，判断哪些字符串真正会被用户看到，把它们迁移到资源文件，再改写所有调用点。这是一项缓慢而机械的工作，没有人愿意做第二遍。",
+      "p2": "Aegis Localizer 替你完成这一遍。它解析你的源码，把面向用户的文本与 URL、SQL、标识符等机器字符串区分开，让 Claude 对模棱两可的情况进行分类，把剩下的内容翻译成你指定的语言，按你的技术栈所需的格式写出资源文件；在你允许的情况下，还会改写源码，让代码从这些资源中读取文本。",
+      "p3": "它天生适合反复运行。判定结果和译文都会被缓存，因此在没有变化的地方，第二次运行不产生任何成本；英文原文改写后对应译文会失效并重新翻译，而新增语言则可以复用已经付费完成的分类结果。"
+    },
+    "forWhom": {
+      "title": "适用对象",
+      "items": [
+        {
+          "label": "走向多语言的产品团队：",
+          "text": "已有的单语言应用，如今需要在五个、十个乃至二十个市场上线。"
+        },
+        {
+          "label": ".NET 团队：",
+          "text": "C# 通过 Roslyn 解析，逐字字符串、原始字符串和内插字符串都能被正确解码，并带有精确的源码位置区间。"
+        },
+        {
+          "label": "Web、移动与跨平台团队：",
+          "text": "React、Vue、Svelte、Android、iOS 和 Flutter 项目都由同一条流水线处理。"
+        },
+        {
+          "label": "平台与构建工程师：",
+          "text": "仅扫描模式配合 JSON 输出，可将工具变成 CI 关卡，在代码评审阶段就发现新增的硬编码字符串。"
+        },
+        {
+          "label": "代理商与咨询公司：",
+          "text": "用一个下午完成客户代码库的本地化，而不是报出一个耗时数周的手工项目。"
+        }
+      ]
+    },
+    "pipeline": {
+      "title": "工作原理",
+      "intro": "六个阶段，每一个都以尽可能少地消耗你的 API 预算为目标，并且在没有把握时宁可拒绝处理，也不去猜测。",
+      "cards": {
+        "scan": {
+          "title": "精确扫描",
+          "text": "C# 经由 Roslyn 处理，可在逐字字符串、原始字符串和内插字符串上获得精确的源码位置区间。其他技术栈使用容错词法分析器，屏蔽注释和已有的资源查找调用，同时保留字节偏移量，确保修改落在正确位置。"
+        },
+        "filter": {
+          "title": "离线噪声过滤",
+          "text": "URL、文件路径、GUID、MIME 类型、SQL、日期格式、SCREAMING_SNAKE 常量，以及 nameof、switch 模式、路由特性和 Android id 等结构性上下文，都会在本地被剔除。在这一步被过滤掉的内容永远不会发送到 API，因此你无需为其付费。"
+        },
+        "classify": {
+          "title": "Claude 分类",
+          "text": "通过过滤的内容交由 Claude 分类，采用强制工具调用，因此返回结果是经过 schema 校验的 JSON，包含是否面向用户的判定、判定理由和资源键。这一步与语言无关，并且会被缓存。"
+        },
+        "resources": {
+          "title": "资源包",
+          "text": "译文按你的技术栈所需的格式写出，并与已有内容合并。已有的人工修改过的译文会被保留，绝不覆盖。"
+        },
+        "rewrite": {
+          "title": "源码改写",
+          "text": "启用 apply 参数后，调用点会被改写为资源查找。每个被修改的文件都会先做逐字节备份；扫描之后发生过变化的文件会被跳过，而不是被破坏。"
+        },
+        "incremental": {
+          "title": "增量运行",
+          "text": "工具会记录每条译文对应的英文原文。改写原文后，译文即失效并重新翻译；若没有任何改动，本次运行完全不产生成本。"
+        }
+      }
+    },
+    "stacks": {
+      "title": "支持的技术栈",
+      "intro": "五个平台，各有专属的读取器、资源格式和改写方式。自动平台检测会分析项目目录结构，并且每个技术栈都附带一个可运行的示例项目。",
+      "labels": {
+        "reads": "读取：",
+        "writes": "写入：",
+        "rewrites": "改写为："
+      },
+      "outro": "开启自动检测后，只需把工具指向一个代码仓库，它在读取第一个字符串之前就能判断出适用哪一种技术栈。"
+    },
+    "safety": {
+      "title": "安全性与正确性",
+      "intro": "漏掉一个字符串，代价是一分钟。构建失败，代价是一个下午。本工具刻意设计为：只要改写无法被证明是正确的，就报告而不是猜测。",
+      "items": [
+        {
+          "label": "逐字节备份：",
+          "text": "工具改写的每个文件都会先复制一份，因此任何一次运行都可以被完整撤销。"
+        },
+        {
+          "label": "区间校验：",
+          "text": "在扫描与改写之间被编辑过的文件会被跳过，而不会按过期的偏移量打补丁。"
+        },
+        {
+          "label": "占位符校验：",
+          "text": "如果译文丢失或凭空增加了 {0}、%s 或 {{count}} 这类占位符，会在写入资源文件之前被拒绝。"
+        },
+        {
+          "label": "宁缺毋错：",
+          "text": "翻译失败时该键保持缺失，应用会回退到英文，下次运行会重新尝试。"
+        },
+        {
+          "label": "合并而非覆盖：",
+          "text": "资源存储会合并进已有的资源包，人工订正过的译文将保持订正后的状态。"
+        },
+        {
+          "label": "经 schema 校验的模型输出：",
+          "text": "分类通过强制工具调用完成，因此流水线消费的是结构化数据，而不是解析自然语言文本。"
+        }
+      ]
+    },
+    "problems": {
+      "title": "它解决的问题",
+      "items": [
+        {
+          "label": "手工提取这一遍：",
+          "text": "不必再逐个文件阅读，去判断哪些字符串真正会被用户看到。"
+        },
+        {
+          "label": "AI 翻译的成本：",
+          "text": "离线过滤加上可缓存、与语言无关的分类步骤，意味着只有可能有意义的字符串才会被送到 API。"
+        },
+        {
+          "label": "增加第十种语言：",
+          "text": "分类只需付费一次；每新增一种语言只需为翻译本身付费。"
+        },
+        {
+          "label": "文案改动后的偏移：",
+          "text": "译文与其来源英文原文相关联，因此改写过的文本会被检测出来并重新翻译。"
+        },
+        {
+          "label": "新代码带来的回退：",
+          "text": "仅扫描模式配合 JSON 输出，可以在有人新增硬编码字符串时让构建失败。"
+        },
+        {
+          "label": "译文中的格式错误：",
+          "text": "占位符校验能捕获那类只在运行时、且只在团队里没人懂的语言中才会暴露的缺陷。"
+        }
+      ]
+    },
+    "delivery": {
+      "title": "运行方式",
+      "cards": {
+        "cli": {
+          "title": "命令行工具",
+          "text": "以 .NET 全局工具的形式安装，对项目目录执行单条命令即可运行，支持仅扫描和应用两种模式。"
+        },
+        "gui": {
+          "title": "本地 Web GUI",
+          "text": "ui 命令会在空闲端口上启动本地 Web 界面并打开浏览器，适合不想琢磨命令行参数的用户。"
+        },
+        "binaries": {
+          "title": "自包含二进制文件",
+          "text": "为 Windows x64、Apple 芯片与 Intel 版 macOS 以及 Linux x64 提供独立构建，无需预先安装运行时。"
+        },
+        "ci": {
+          "title": "CI 集成",
+          "text": "JSON 输出配合仅扫描模式，可构成一道构建关卡，报告每一个新增的硬编码字符串，同时不改动工作区。"
+        },
+        "byok": {
+          "title": "自带密钥",
+          "text": "工具使用你自己的密钥访问 Anthropic API，翻译支出在你自己的账户中清晰可见、完全可控。"
+        },
+        "hosted": {
+          "title": "托管模式",
+          "text": "同一个 Web 应用也可以作为托管服务运行：它接收上传的压缩包并放入按请求隔离的沙箱，拒绝访问服务器路径，也绝不消耗运营方的额度。"
+        }
+      }
+    },
+    "limits": {
+      "title": "它不做什么",
+      "intro": "明确边界也是设计的一部分。本工具旨在消除机械性的工作，而不是替你为发布结果负责。",
+      "items": [
+        "它不能替代人工审校面向客户的文案、品牌调性或法律文本。",
+        "它不会重构你应用的本地化架构；它会遵循你的技术栈已有的资源约定。",
+        "它不会改动那些无法安全改写的字符串；这些会报告给你自行处理。",
+        "它不会运行你的构建或测试，请照常检查 diff 并自行运行。",
+        "它不做布局工作：不同语言之间的文本长度差异，仍需你自己在设计上加以应对。"
+      ]
+    },
+    "tech": {
+      "title": "技术栈",
+      "cards": {
+        "core": {
+          "title": "核心",
+          "text": "基于 .NET 9 的 C#，构建为跨平台控制台应用，并配有共享核心库。"
+        },
+        "parsing": {
+          "title": "解析",
+          "text": "C# 使用 Roslyn（Microsoft.CodeAnalysis.CSharp），另有为 TypeScript、JavaScript、Vue、Svelte、Kotlin、Java、Swift、Objective-C、Dart、XML 和 HTML 专门打造的容错词法分析器。"
+        },
+        "ai": {
+          "title": "AI",
+          "text": "通过 Messages API 使用 Anthropic Claude，以强制工具调用实现经 schema 校验的分类，并支持批量请求和受控并发。"
+        },
+        "web": {
+          "title": "GUI",
+          "text": "ASP.NET Core minimal API，提供无依赖、无需构建步骤的 HTML、CSS 和 JavaScript 前端。"
+        },
+        "formats": {
+          "title": "资源格式",
+          "text": "RESX、i18next JSON、Android strings.xml、Apple .strings 和 Flutter ARB，每种格式都有各自的合并式存储实现。"
+        },
+        "testing": {
+          "title": "测试",
+          "text": "xUnit 测试套件完全离线运行，针对模拟模型执行，因此无需消耗任何 token 即可验证整条流水线。"
+        },
+        "platforms": {
+          "title": "运行平台",
+          "text": "Windows、macOS 和 Linux，可作为 .NET 全局工具或自包含二进制文件运行。"
+        },
+        "privacy": {
+          "title": "数据处理",
+          "text": "只有候选字符串会被发送给模型；被过滤掉的机器字符串以及你的其余源码始终不会离开本机。"
+        }
+      }
+    },
+    "cta": {
+      "title": "让你的应用走向多语言",
+      "text": "无论是一款需要进入新市场的产品，还是一整批被困在单一语言里的应用，我们都可以与你一起完成第一遍处理，并在任何改动被应用之前先向你展示 diff。",
+      "contact": "联系我们",
+      "sourceCode": "在 GitHub 上查看源码",
+      "licenseNote": "Aegis Localizer 是专有软件。源码公开仅供阅读和审阅；它并非开源软件，商业使用需获得 Aegis AO Soft LLC 的授权许可。"
+    }
+  },
+  "hueControlDetail": {
+    "hero": {
+      "title": "你的 Philips Hue 灯具的 Windows 控制中心",
+      "subtitle": "一款原生桌面应用，用于管理灯具、房间、场景、传感器和开关，直接在局域网内与你的桥接器通信。"
+    },
+    "whatIs": {
+      "title": "HueControl 是什么",
+      "p1": "Philips Hue 有手机、平板和语音助手应用，却始终没有一款真正的 Windows 桌面应用。如果你整天坐在电脑前，想调节身处房间的灯光，就得去拿手机。",
+      "p2": "HueControl 填补了这一空白。它是一款原生 Windows 应用，通过局域网直接连接你的 Hue 桥接器，在一个窗口中呈现全部内容：每一盏灯、每一个房间、区域和场景，以及那些更简单的桌面工具所忽略的传感器、插座和开关。",
+      "p3": "它不止于开关。你可以添加和移除设备、重命名设备、创建和编辑房间、区域与场景，设定调光开关的行为，查看配件电量，并把多个桥接器分组为「家庭」进行管理，随时即刻切换。"
+    },
+    "forWhom": {
+      "title": "适用对象",
+      "items": [
+        {
+          "label": "使用 Hue 灯具的 Windows 用户：",
+          "text": "任何在桌前办公、宁愿用键盘而不是手机来调节灯光的人。"
+        },
+        {
+          "label": "大型安装环境的用户：",
+          "text": "跨多个桥接器的多个房间、区域、传感器和开关，全部集中在一个窗口中。"
+        },
+        {
+          "label": "注重隐私的家庭：",
+          "text": "应用只与你自己网络内的桥接器通信；没有云账户，也没有遥测数据。"
+        },
+        {
+          "label": "家庭自动化爱好者：",
+          "text": "官方手机应用中操作繁琐或隐藏起来的设备管理和开关编程功能，这里都能轻松完成。"
+        },
+        {
+          "label": "开发者：",
+          "text": "结构清晰、零依赖的 WPF 与 MVVM 代码库，以 GPL-3.0 发布，可自由阅读和修改。"
+        }
+      ]
+    },
+    "capabilities": {
+      "title": "功能一览",
+      "cards": {
+        "lights": {
+          "title": "灯具与房间",
+          "text": "按灯具和按房间开关，配有同步联动的亮度滑块。所有内容按房间和设备类型分组，即使是大型安装环境也一目了然。"
+        },
+        "color": {
+          "title": "颜色与色温",
+          "text": "取色器在自身、Hue 色彩空间与色温之间进行精确换算，屏幕上选定的颜色就是灯具实际呈现的颜色。"
+        },
+        "devices": {
+          "title": "设备管理",
+          "text": "搜索并添加新的灯具、插座、运动传感器、调光开关和按钮；重命名设备；移除不再使用的设备。是完整的管理，而不只是控制。"
+        },
+        "switches": {
+          "title": "开关编程",
+          "text": "把调光开关绑定到某个房间，让 ON 按钮直接调用该房间的场景，并可一眼查看配件电量和最近活动。"
+        },
+        "scenes": {
+          "title": "场景与区域",
+          "text": "创建、重命名和删除房间、区域与场景，内置 Relax、Concentrate、Energize、Savanna Sunset 等 Hue 预设，并以渲染后的颜色预览呈现。"
+        },
+        "bridges": {
+          "title": "多桥接器支持",
+          "text": "把多个桥接器分组为「家庭」，可即刻切换。设备发现通过 Hue 发现服务完成，当网络受限时可回退到手动输入 IP。"
+        },
+        "local": {
+          "title": "仅限本地网络",
+          "text": "应用直接调用局域网内桥接器的 REST API。桥接器信息保存在你自己的 Windows 用户配置中，不会发送到任何其他地方。"
+        },
+        "languages": {
+          "title": "十种语言",
+          "text": "界面提供十种语言，包括支持完整从右到左布局的阿拉伯语和希伯来语，并可实时切换语言，无需重启。"
+        },
+        "themes": {
+          "title": "深色与浅色主题",
+          "text": "自定义无边框窗口，可切换深色和浅色配色，无论你以何种方式使用 Windows 都能自然融入。"
+        }
+      }
+    },
+    "problems": {
+      "title": "它解决的问题",
+      "items": [
+        {
+          "label": "没有官方 Windows 应用：",
+          "text": "这正是本产品存在的意义；Hue 提供了移动端和语音端，却没有桌面端。"
+        },
+        {
+          "label": "总要去拿手机：",
+          "text": "工作时调节灯光不应该还需要第二台设备。"
+        },
+        {
+          "label": "只能控制的桌面工具：",
+          "text": "大多数第三方工具只能开关灯具；这一款还能添加、移除、重命名和配置它们。"
+        },
+        {
+          "label": "开关配置：",
+          "text": "在手机应用里，设定调光按钮的行为藏得很深，而在这里非常直接。"
+        },
+        {
+          "label": "不止一个桥接器：",
+          "text": "大型或跨楼宇的安装环境可作为「家庭」管理，随时即刻切换。"
+        },
+        {
+          "label": "对云端的依赖：",
+          "text": "灯具就在你的网络里，控制它们的应用也应当在你的网络里工作。"
+        }
+      ]
+    },
+    "privacy": {
+      "title": "隐私与数据",
+      "intro": "设计原则很简单：你的照明是一套本地系统，那么控制它的软件也应当像本地系统一样运作。",
+      "items": [
+        "所有通信都通过 REST API 发往你本地网络中的 Hue 桥接器。",
+        "无需账户、无需登录，我们也不运营任何云服务。",
+        "桥接器连接信息本地保存在你的 Windows 用户配置中。",
+        "不收集任何形式的分析、追踪或遥测数据。",
+        "只有在定位桥接器时才会访问 Hue 发现服务，如果你不希望如此，也可以手动输入 IP。",
+        "完整源码以 GPL-3.0 公开，因此以上每一条声明都可以被核验。"
+      ]
+    },
+    "languages": {
+      "title": "语言与无障碍",
+      "intro": "界面是完整翻译的，而非部分本地化，布局会随语言自适应，而不是默认文本一定从左向右排列。",
+      "items": [
+        "英语、西班牙语、葡萄牙语、法语、德语和俄语。",
+        "阿拉伯语和希伯来语，支持完整的从右到左布局镜像。",
+        "简体中文和繁体中文。",
+        "语言实时切换，无需重启应用。",
+        "每一条界面字符串都已翻译，而不只是主要界面。"
+      ]
+    },
+    "tech": {
+      "title": "技术栈",
+      "cards": {
+        "platform": {
+          "title": "平台",
+          "text": "基于 .NET 9 的 C#，面向 Windows 10 和 11 的桌面应用。"
+        },
+        "ui": {
+          "title": "用户界面",
+          "text": "WPF，采用自定义无边框窗口外观，以及可切换的深色和浅色主题资源字典。"
+        },
+        "architecture": {
+          "title": "架构",
+          "text": "手写 MVVM：可观察对象、同步与异步中继命令、滑块输入防抖，以及分组集合。"
+        },
+        "bridge": {
+          "title": "桥接器集成",
+          "text": "Philips Hue 本地桥接器 REST API，包括在局域网内提供 Hue Bridge 根证书的 HTTPS 桥接器。"
+        },
+        "dependencies": {
+          "title": "依赖项",
+          "text": "零第三方 NuGet 包。应用完全基于 .NET 基础类库和 WPF 构建。"
+        },
+        "i18n": {
+          "title": "本地化",
+          "text": "自定义字符串目录覆盖整个界面的十种语言，并针对从右到左的区域设置进行流向镜像。"
+        },
+        "testing": {
+          "title": "测试",
+          "text": "xUnit 测试套件配有桩化的 HTTP 处理器以支持离线运行，另有可选启用的、针对真实桥接器的测试。"
+        },
+        "license": {
+          "title": "许可协议",
+          "text": "基于 GPL-3.0 的免费开源软件，完整源码可在 GitHub 上获取。"
+        }
+      }
+    },
+    "requirements": {
+      "title": "系统要求",
+      "items": [
+        "Windows 10 或 Windows 11。",
+        "同一本地网络中的 Philips Hue 桥接器。",
+        ".NET 9 桌面运行时，或包含该运行时的自包含构建版本。",
+        "首次连接时需实际按一次桥接器上的按钮，以授权本应用。"
+      ]
+    },
+    "cta": {
+      "title": "试用 HueControl",
+      "text": "该应用功能完备且开源。你可以阅读代码、自行构建，或者在需要打包版本或为你的安装环境定制修改时与我们联系。",
+      "sourceCode": "在 GitHub 上查看源码",
+      "privacyPolicy": "隐私政策",
+      "contact": "联系我们",
+      "trademarkNote": "HueControl 是一款独立应用，与 Signify N.V. 或 Philips 无隶属关系，亦未获得其认可或赞助。「Philips Hue」是 Signify Holding 的商标。"
+    }
+  }
+}

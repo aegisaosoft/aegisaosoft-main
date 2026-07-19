@@ -16,6 +16,18 @@
 import { useTranslation } from 'react-i18next'
 import './Footer.css'
 
+/** Service keys under home.services, in the order they appear on the home page. */
+const SERVICE_KEYS = [
+  'customSaaS',
+  'cloudArchitecture',
+  'systemIntegration',
+  'legacyReplacement',
+  'aiSolutions',
+  'aiTollRates',
+  'gpsNavigation',
+  'technicalSupport',
+] as const
+
 export function Footer() {
   const { t } = useTranslation()
 
@@ -32,11 +44,13 @@ export function Footer() {
             <h4>{t('footer.contact')}</h4>
             <a href="mailto:aegisaosoft@gmail.com">aegisaosoft@gmail.com</a>
           </div>
-          <div className="footer-section">
+          <div className="footer-section footer-section-wide">
             <h4>{t('footer.services')}</h4>
-            <a href="/about#services">{t('footer.vehicleRental')}</a>
-            <a href="/about#services">{t('footer.compliance')}</a>
-            <a href="/about#services">{t('footer.booking')}</a>
+            <div className="footer-links-grid">
+              {SERVICE_KEYS.map((key) => (
+                <a key={key} href="/#services">{t(`home.services.${key}.title`)}</a>
+              ))}
+            </div>
           </div>
         </div>
         <p className="footer-meta">{t('footer.copyright', { year: new Date().getFullYear() })}</p>

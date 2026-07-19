@@ -23,12 +23,33 @@ const languages = [
   { code: 'pt', name: 'Português', flag: '🇧🇷' },
   { code: 'fr', name: 'Français', flag: '🇫🇷' },
   { code: 'de', name: 'Deutsch', flag: '🇩🇪' },
+  { code: 'ru', name: 'Русский', flag: '🇷🇺' },
+  { code: 'zh-Hans', name: '简体中文', flag: '🇨🇳' },
+  { code: 'zh-Hant', name: '繁體中文', flag: '🇹🇼' },
+  { code: 'hi', name: 'हिन्दी', flag: '🇮🇳' },
 ]
+
+/**
+ * Detection reports region tags (en-US, zh-CN, zh-TW), not the codes the bundles
+ * are keyed by, so resolve those onto an entry we can actually label.
+ */
+function resolveLanguage(code: string) {
+  const exact = languages.find((lang) => lang.code === code)
+  if (exact) return exact
+
+  if (code.startsWith('zh')) {
+    const traditional = /Hant|TW|HK|MO/i.test(code)
+    return languages.find((lang) => lang.code === (traditional ? 'zh-Hant' : 'zh-Hans')) || languages[0]
+  }
+
+  const base = code.split('-')[0]
+  return languages.find((lang) => lang.code === base) || languages[0]
+}
 
 export function LanguageSwitcher() {
   const { t, i18n } = useTranslation()
 
-  const currentLanguage = languages.find((lang) => lang.code === i18n.language) || languages[0]
+  const currentLanguage = resolveLanguage(i18n.language || 'en')
 
   const changeLanguage = (langCode: string) => {
     i18n.changeLanguage(langCode)

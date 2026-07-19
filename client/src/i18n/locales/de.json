@@ -450,9 +450,6 @@
     "company": "Aegis AO Soft LLC",
     "contact": "Kontakt",
     "services": "Dienstleistungen",
-    "vehicleRental": "Fahrzeugvermietung",
-    "compliance": "Compliance-Automatisierung",
-    "booking": "Buchungsplattformen",
     "copyright": "© {{year}} Aegis AO Soft. Alle Rechte vorbehalten.",
     "ein": "EIN",
     "location": "New Jersey, USA"
@@ -1572,7 +1569,8 @@
   "productCards": {
     "buttons": {
       "tryNow": "Jetzt testen",
-      "viewDetails": "Details ansehen"
+      "viewDetails": "Details ansehen",
+      "viewSource": "Quellcode ansehen"
     },
     "myEZWheels": {
       "home": {
@@ -1660,6 +1658,62 @@
       "title": "Bereit, Ihr Projekt zu besprechen?",
       "description": "Wir bauen produktionsreife Plattformen, die mit Ihrem Geschäft wachsen. Von mandantenfähigem SaaS bis zu spezialisierten Enterprise-Lösungen.",
       "learnAboutProcess": "Unser Vorgehen kennenlernen"
+    },
+    "aegisLocalizer": {
+      "home": {
+        "subtitle": "KI-Lokalisierungswerkzeug für jede Codebasis",
+        "description": "Sie geben eine Codebasis und eine Sprache an. Das Werkzeug findet die fest im Code stehenden UI-Texte, übersetzt sie mit Claude und schreibt Ihren Quellcode so um, dass er echte Ressourcendateien verwendet.",
+        "items": [
+          "Findet fest codierte UI-Texte automatisch",
+          "Roslyn-genaues Parsing für C#, tolerante Lexer für alles Übrige",
+          "Unterstützt .NET, Web, Android, Apple und Flutter",
+          "Schreibt .resx, i18next JSON, strings.xml, .strings und .arb",
+          "Schreibt den Quellcode auf Ressourcenzugriffe um",
+          "Offline-Rauschfilter senkt die API-Kosten schon vor dem ersten Aufruf",
+          "Inkrementelle Läufe: nur neue oder umformulierte Texte kosten Geld",
+          "Mit eigenem Anthropic-API-Schlüssel nutzbar"
+        ]
+      },
+      "products": {
+        "subtitle": "KI-Lokalisierungswerkzeug für jede Codebasis",
+        "description": "Ein CLI und eine lokale GUI, die ein Projekt nach benutzersichtbaren Texten durchsuchen, sie mit Claude klassifizieren, in jede beliebige Sprache übersetzen und den Quellcode auf Ressourcendateien umschreiben. Fünf Technologie-Stacks werden unterstützt, inklusive Backups und Platzhalterprüfung.",
+        "items": [
+          "Fünf Plattformen: .NET, Web, Android, Apple, Flutter",
+          "Klassifizierung und Übersetzung mit Claude",
+          "Automatisches Umschreiben des Quellcodes mit Byte-für-Byte-Backups",
+          "Platzhalterprüfung bei jeder Übersetzung",
+          "Zusammenführen statt Überschreiben: manuelle Korrekturen bleiben erhalten",
+          "CI-Modus lässt den Build bei neuen fest codierten Texten fehlschlagen"
+        ]
+      }
+    },
+    "hueControl": {
+      "home": {
+        "subtitle": "Windows-Desktop-App für Philips Hue Beleuchtung",
+        "description": "Die Desktop-Steuerzentrale, die Hue für Windows nie geliefert hat: Leuchten, Räume, Szenen, Sensoren und Schalter – alles in einer nativen App in Ihrem lokalen Netzwerk.",
+        "items": [
+          "Native Windows-App, kein Smartphone nötig",
+          "Leuchten, Räume, Zonen und Szenen in einem Fenster",
+          "Beliebige Hue-Geräte hinzufügen, umbenennen und entfernen",
+          "Dimmschalter für Räume und Szenen programmieren",
+          "Mehrere Bridges zu Zuhause-Gruppen zusammengefasst",
+          "Nur lokales Netzwerk – nichts verlässt Ihren Rechner",
+          "10 UI-Sprachen mit vollständiger RTL-Unterstützung",
+          "Dunkles und helles Design, kostenlos und quelloffen"
+        ]
+      },
+      "products": {
+        "subtitle": "Windows-Desktop-App für Philips Hue Beleuchtung",
+        "description": "Eine native WPF-Anwendung zur Steuerung von Philips Hue Installationen unter Windows: vollständige Geräteverwaltung, Szenenbearbeitung, Schalterprogrammierung und Multi-Bridge-Unterstützung – in direkter Kommunikation mit der Bridge in Ihrem LAN.",
+        "items": [
+          "Vollständige Geräteverwaltung, nicht nur Ein/Aus",
+          "Szenen- und Raumbearbeitung mit Farbvorschau",
+          "Programmierung von Dimmschaltern samt Batteriestatus",
+          "Umschalten zwischen mehreren Bridges und Zuhause-Gruppen",
+          "Rein lokal, kein Cloud-Konto, keine Telemetrie",
+          "10 Sprachen, RTL-Unterstützung, dunkles und helles Design"
+        ]
+      }
     }
   },
   "setPassword": {
@@ -1680,5 +1734,409 @@
   },
   "languageSwitcher": {
     "ariaLabel": "Sprache ändern"
+  },
+  "aegisLocalizerDetail": {
+    "hero": {
+      "title": "KI-Lokalisierung für jede Codebasis",
+      "subtitle": "Sie geben eine Codebasis und eine Sprache an. Das Werkzeug findet die fest im Code stehenden UI-Texte, übersetzt sie mit Claude und schreibt Ihren Quellcode auf Ressourcendateien um."
+    },
+    "whatIs": {
+      "title": "Was Aegis Localizer ist",
+      "p1": "Jede Anwendung beginnt mit Texten, die direkt in den Code geschrieben werden. Diese Anwendung eine zweite Sprache sprechen zu lassen bedeutet üblicherweise, dass eine Entwicklerin oder ein Entwickler jede Datei von Hand durchgeht, entscheidet, welche Texte Benutzer tatsächlich zu sehen bekommen, sie in Ressourcendateien überführt und anschließend die Aufrufstellen umschreibt. Das ist langsame, mechanische Arbeit, die niemand zweimal machen möchte.",
+      "p2": "Aegis Localizer übernimmt diesen Durchgang für Sie. Es parst Ihren Quellcode, trennt benutzersichtbaren Text von Maschinen-Strings wie URLs, SQL und Bezeichnern, lässt Claude die uneindeutigen Fälle klassifizieren, übersetzt den Rest in die von Ihnen gewünschten Sprachen, schreibt die Ressourcendateien in dem Format, das Ihr Stack erwartet, und schreibt auf Wunsch den Quellcode so um, dass er aus diesen Ressourcen liest.",
+      "p3": "Es ist für den wiederholten Einsatz gebaut. Klassifizierungsergebnisse und Übersetzungen werden zwischengespeichert, sodass ein zweiter Lauf dort nichts kostet, wo sich nichts geändert hat: Ein umformulierter englischer Text wird als veraltet erkannt und neu übersetzt, während eine neue Sprache die bereits bezahlte Klassifizierungsarbeit wiederverwendet."
+    },
+    "forWhom": {
+      "title": "Für wen es gedacht ist",
+      "items": [
+        {
+          "label": "Produktteams auf dem Weg zur Mehrsprachigkeit:",
+          "text": "eine bestehende einsprachige Anwendung, die jetzt in fünf, zehn oder zwanzig Märkten ausgeliefert werden soll."
+        },
+        {
+          "label": ".NET-Teams:",
+          "text": "C# wird mit Roslyn geparst, sodass verbatim, raw und interpolierte Strings korrekt und mit exakten Quellcode-Positionen erkannt werden."
+        },
+        {
+          "label": "Web-, Mobile- und Cross-Platform-Teams:",
+          "text": "React-, Vue-, Svelte-, Android-, iOS- und Flutter-Projekte durchlaufen dieselbe Pipeline."
+        },
+        {
+          "label": "Plattform- und Build-Engineers:",
+          "text": "der reine Scan-Modus mit JSON-Ausgabe macht aus dem Werkzeug ein CI-Gate, das neue fest codierte Texte schon im Review erkennt."
+        },
+        {
+          "label": "Agenturen und Beratungen:",
+          "text": "lokalisieren Sie eine Kunden-Codebasis an einem Nachmittag, statt ein mehrwöchiges manuelles Projekt anzubieten."
+        }
+      ]
+    },
+    "pipeline": {
+      "title": "So funktioniert es",
+      "intro": "Sechs Stufen, jede darauf ausgelegt, so wenig wie möglich von Ihrem API-Budget zu verbrauchen – und im Zweifelsfall lieber abzulehnen als zu raten.",
+      "cards": {
+        "scan": {
+          "title": "Präzises Scannen",
+          "text": "C# läuft durch Roslyn und liefert exakte Quellcode-Positionen für verbatim, raw und interpolierte Strings. Andere Stacks nutzen tolerante Lexer, die Kommentare und bestehende Ressourcenzugriffe ausblenden, dabei aber die Byte-Offsets erhalten – so landen Änderungen genau an der richtigen Stelle."
+        },
+        "filter": {
+          "title": "Offline-Rauschfilter",
+          "text": "URLs, Dateipfade, GUIDs, MIME-Typen, SQL, Datumsmuster, SCREAMING_SNAKE-Konstanten und struktureller Kontext wie nameof, switch-Muster, Routen-Attribute und Android-IDs werden lokal aussortiert. Nichts davon wird jemals an die API geschickt – Sie zahlen also nie dafür."
+        },
+        "classify": {
+          "title": "Klassifizierung durch Claude",
+          "text": "Was den Filter übersteht, wird von Claude über einen erzwungenen Tool-Aufruf klassifiziert. Die Antwort kommt als schemavalidiertes JSON zurück – mit einem Urteil zur Benutzersichtbarkeit, einer Begründung und einem Ressourcenschlüssel. Dieser Durchgang ist sprachunabhängig und wird zwischengespeichert."
+        },
+        "resources": {
+          "title": "Ressourcenbündel",
+          "text": "Übersetzungen werden in dem Format geschrieben, das Ihr Stack erwartet, und mit dem Vorhandenen zusammengeführt. Bestehende, von Hand bearbeitete Übersetzungen bleiben erhalten und werden nie überschrieben."
+        },
+        "rewrite": {
+          "title": "Umschreiben des Quellcodes",
+          "text": "Mit dem Apply-Flag werden die Aufrufstellen auf Ressourcenzugriffe umgeschrieben. Jede berührte Datei wird zuvor Byte für Byte gesichert, und jede seit dem Scan geänderte Datei wird übersprungen statt beschädigt."
+        },
+        "incremental": {
+          "title": "Inkrementelle Läufe",
+          "text": "Das Werkzeug merkt sich, aus welchem englischen Text jede Übersetzung entstanden ist. Formulieren Sie einen Text um, gilt die Übersetzung als veraltet und wird neu erstellt; ändern Sie nichts, kostet der Lauf überhaupt nichts."
+        }
+      }
+    },
+    "stacks": {
+      "title": "Unterstützte Stacks",
+      "intro": "Fünf Plattformen, jede mit eigenem Reader, eigenem Ressourcenformat und eigenem Umschreibstil. Die automatische Plattformerkennung untersucht den Projektbaum, und für jeden Stack liegt ein lauffähiges Beispielprojekt bei.",
+      "labels": {
+        "reads": "Liest:",
+        "writes": "Schreibt:",
+        "rewrites": "Schreibt um zu:"
+      },
+      "outro": "Richten Sie das Werkzeug mit automatischer Erkennung auf ein Repository, und es ermittelt selbst, welcher dieser Fälle zutrifft, bevor es den ersten Text einliest."
+    },
+    "safety": {
+      "title": "Sicherheit und Korrektheit",
+      "intro": "Ein übersehener Text kostet Sie eine Minute. Ein kaputter Build kostet Sie einen Nachmittag. Das Werkzeug ist bewusst so gebaut, dass es meldet statt rät, sobald ein Umschreiben nicht nachweislich korrekt ist.",
+      "items": [
+        {
+          "label": "Byte-für-Byte-Backups:",
+          "text": "jede Datei, die das Werkzeug umschreibt, wird zuvor kopiert – jeder Lauf lässt sich vollständig rückgängig machen."
+        },
+        {
+          "label": "Positionsprüfung:",
+          "text": "eine zwischen Scan und Umschreiben bearbeitete Datei wird übersprungen und nicht an veralteten Offsets verändert."
+        },
+        {
+          "label": "Platzhalterprüfung:",
+          "text": "eine Übersetzung, die einen Platzhalter wie {0}, %s oder {{count}} verliert oder erfindet, wird abgelehnt, bevor sie in einer Ressourcendatei landet."
+        },
+        {
+          "label": "Fehlend schlägt falsch:",
+          "text": "bei einer fehlgeschlagenen Übersetzung bleibt der Schlüssel leer, sodass die Anwendung auf Englisch zurückfällt und der nächste Lauf es erneut versucht."
+        },
+        {
+          "label": "Zusammenführen statt Überschreiben:",
+          "text": "Ressourcenspeicher werden in bestehende Bündel eingefügt, sodass von Hand korrigierte Übersetzungen korrigiert bleiben."
+        },
+        {
+          "label": "Schemavalidierte Modellausgabe:",
+          "text": "die Klassifizierung läuft über einen erzwungenen Tool-Aufruf, sodass die Pipeline strukturierte Daten verarbeitet, statt Fließtext zu parsen."
+        }
+      ]
+    },
+    "problems": {
+      "title": "Probleme, die es löst",
+      "items": [
+        {
+          "label": "Der manuelle Extraktionsdurchgang:",
+          "text": "kein Durchlesen jeder einzelnen Datei mehr, um zu entscheiden, welche Texte Benutzer tatsächlich sehen."
+        },
+        {
+          "label": "Kosten der KI-Übersetzung:",
+          "text": "ein Offline-Filter und eine zwischengespeicherte, sprachunabhängige Klassifizierung sorgen dafür, dass die API nur zu Texten befragt wird, die überhaupt relevant sein könnten."
+        },
+        {
+          "label": "Die zehnte Sprache hinzufügen:",
+          "text": "die Klassifizierung wird einmal bezahlt; jede weitere Sprache kostet nur noch die Übersetzung selbst."
+        },
+        {
+          "label": "Abweichungen nach einer Textänderung:",
+          "text": "Übersetzungen werden gegen das Englisch nachverfolgt, aus dem sie entstanden sind – umformulierter Text wird erkannt und neu übersetzt."
+        },
+        {
+          "label": "Rückfälle bei neuem Code:",
+          "text": "der reine Scan-Modus mit JSON-Ausgabe kann einen Build fehlschlagen lassen, wenn jemand einen neuen fest codierten Text einfügt."
+        },
+        {
+          "label": "Kaputte Formatierung in Übersetzungen:",
+          "text": "die Platzhalterprüfung fängt genau die Fehlerklasse ab, die sonst erst zur Laufzeit in einer Sprache auffällt, die niemand im Team liest."
+        }
+      ]
+    },
+    "delivery": {
+      "title": "Einsatzmöglichkeiten",
+      "cards": {
+        "cli": {
+          "title": "Kommandozeilenwerkzeug",
+          "text": "Installation als globales .NET-Tool und Ausführung als einzelner Befehl auf einem Projektverzeichnis, mit reinem Scan-Modus und Apply-Modus."
+        },
+        "gui": {
+          "title": "Lokale Web-GUI",
+          "text": "Ein ui-Befehl startet eine lokale Weboberfläche auf einem freien Port und öffnet den Browser – für alle, die sich nicht mit Flags beschäftigen möchten."
+        },
+        "binaries": {
+          "title": "Eigenständige Binaries",
+          "text": "Standalone-Builds für Windows x64, macOS auf Apple Silicon und Intel sowie Linux x64 – ganz ohne vorherige Runtime-Installation."
+        },
+        "ci": {
+          "title": "CI-Integration",
+          "text": "JSON-Ausgabe plus reiner Scan-Modus ergeben ein Build-Gate, das jeden neuen fest codierten Text meldet, ohne den Arbeitsstand anzufassen."
+        },
+        "byok": {
+          "title": "Eigener API-Schlüssel",
+          "text": "Das Werkzeug spricht mit der Anthropic-API über Ihren eigenen Schlüssel, sodass die Übersetzungskosten auf Ihrem eigenen Konto sichtbar und kontrollierbar bleiben."
+        },
+        "hosted": {
+          "title": "Gehosteter Betrieb",
+          "text": "Dieselbe Webanwendung kann als gehosteter Dienst laufen: Sie nimmt ein hochgeladenes Archiv in eine Sandbox pro Anfrage entgegen, weist Serverpfade ab und verbraucht nie das Guthaben des Betreibers."
+        }
+      }
+    },
+    "limits": {
+      "title": "Was es nicht leistet",
+      "intro": "Die Grenzen offen zu benennen gehört zum Konzept. Das Werkzeug soll die mechanische Arbeit abnehmen, nicht die Verantwortung für Ihr Release.",
+      "items": [
+        "Es ersetzt keine menschliche Prüfung bei kundenseitigen Texten, Markensprache oder Rechtstexten.",
+        "Es baut die Lokalisierungsarchitektur Ihrer Anwendung nicht um, sondern fügt sich in die Ressourcenkonventionen ein, die Ihr Stack bereits nutzt.",
+        "Es fasst keine Texte an, die es nicht sicher umschreiben kann – diese werden zur Bearbeitung an Sie gemeldet.",
+        "Es führt weder Ihren Build noch Ihre Tests aus; prüfen Sie das Diff und starten Sie beides wie gewohnt selbst.",
+        "Es übernimmt keine Layout-Arbeit: unterschiedliche Textlängen zwischen Sprachen müssen Sie weiterhin selbst einplanen."
+      ]
+    },
+    "tech": {
+      "title": "Technologie-Stack",
+      "cards": {
+        "core": {
+          "title": "Kern",
+          "text": "C# auf .NET 9, umgesetzt als plattformübergreifende Konsolenanwendung mit gemeinsam genutzter Kernbibliothek."
+        },
+        "parsing": {
+          "title": "Parsing",
+          "text": "Roslyn (Microsoft.CodeAnalysis.CSharp) für C#, dazu eigens entwickelte tolerante Lexer für TypeScript, JavaScript, Vue, Svelte, Kotlin, Java, Swift, Objective-C, Dart, XML und HTML."
+        },
+        "ai": {
+          "title": "KI",
+          "text": "Anthropic Claude über die Messages API, mit erzwungenen Tool-Aufrufen für schemavalidierte Klassifizierung, gebündelten Anfragen und begrenzter Parallelität."
+        },
+        "web": {
+          "title": "GUI",
+          "text": "ASP.NET Core Minimal APIs, die ein abhängigkeitsfreies Frontend aus HTML, CSS und JavaScript ohne Build-Schritt ausliefern."
+        },
+        "formats": {
+          "title": "Ressourcenformate",
+          "text": "RESX, i18next JSON, Android strings.xml, Apple .strings und Flutter ARB – jeweils mit eigenem zusammenführendem Speicher."
+        },
+        "testing": {
+          "title": "Tests",
+          "text": "xUnit-Suite, die vollständig offline gegen ein Fake-Modell läuft, sodass sich die Pipeline verifizieren lässt, ohne ein einziges Token zu verbrauchen."
+        },
+        "platforms": {
+          "title": "Läuft auf",
+          "text": "Windows, macOS und Linux – als globales .NET-Tool oder als eigenständiges Binary."
+        },
+        "privacy": {
+          "title": "Datenverarbeitung",
+          "text": "An das Modell werden ausschließlich Kandidaten-Texte gesendet; herausgefilterte Maschinen-Strings und der Rest Ihres Quellcodes verlassen den Rechner nie."
+        }
+      }
+    },
+    "cta": {
+      "title": "Lokalisieren Sie Ihre Anwendung",
+      "text": "Ob ein einzelnes Produkt in einen neuen Markt soll oder ein ganzes Anwendungsportfolio in einer einzigen Sprache feststeckt – wir führen den ersten Durchgang gemeinsam mit Ihnen durch und zeigen Ihnen das Diff, bevor irgendetwas übernommen wird.",
+      "contact": "Sprechen Sie mit uns",
+      "sourceCode": "Quellcode auf GitHub ansehen",
+      "licenseNote": "Aegis Localizer ist proprietäre Software. Der Quellcode wird veröffentlicht, damit er gelesen und geprüft werden kann; er ist nicht Open Source, und die kommerzielle Nutzung erfordert eine Lizenz von Aegis AO Soft LLC."
+    }
+  },
+  "hueControlDetail": {
+    "hero": {
+      "title": "Die Windows-Steuerzentrale für Ihre Philips Hue Leuchten",
+      "subtitle": "Eine native Desktop-App zur Verwaltung von Leuchten, Räumen, Szenen, Sensoren und Schaltern – in direkter Kommunikation mit Ihrer Bridge im lokalen Netzwerk."
+    },
+    "whatIs": {
+      "title": "Was HueControl ist",
+      "p1": "Philips Hue hat Apps für Smartphones, Tablets und Sprachassistenten. Eine richtige Windows-Desktop-Anwendung gab es nie. Wer den ganzen Tag am PC sitzt, muss zum Steuern des Lichts im eigenen Zimmer zum Handy greifen.",
+      "p2": "HueControl schließt diese Lücke. Es ist eine native Windows-Anwendung, die sich über das lokale Netzwerk direkt mit Ihrer Hue Bridge verbindet und Ihnen alles in einem Fenster zeigt: jede Leuchte, jeden Raum, jede Zone und jede Szene – dazu die Sensoren, Steckdosen und Schalter, die einfachere Desktop-Werkzeuge ignorieren.",
+      "p3": "Es geht weit über Ein und Aus hinaus. Sie können Geräte hinzufügen und entfernen, sie umbenennen, Räume, Zonen und Szenen anlegen und bearbeiten, die Funktion eines Dimmschalters programmieren, den Batteriestand von Zubehör prüfen und mehrere Bridges als Zuhause-Gruppen verwalten – mit sofortigem Wechsel zwischen ihnen."
+    },
+    "forWhom": {
+      "title": "Für wen es gedacht ist",
+      "items": [
+        {
+          "label": "Windows-Nutzer mit Hue-Leuchten:",
+          "text": "alle, die am Schreibtisch arbeiten und das Licht lieber über die Tastatur als über das Handy steuern."
+        },
+        {
+          "label": "Menschen mit großen Installationen:",
+          "text": "mehrere Räume, Zonen, Sensoren und Schalter über mehr als eine Bridge hinweg – alles in einem einzigen Fenster."
+        },
+        {
+          "label": "Datenschutzbewusste Haushalte:",
+          "text": "die Anwendung spricht ausschließlich mit der Bridge in Ihrem eigenen Netzwerk; es gibt kein Cloud-Konto und keine Telemetrie."
+        },
+        {
+          "label": "Hausautomations-Enthusiasten:",
+          "text": "Geräteverwaltung und Schalterprogrammierung, die die offizielle Mobile-App umständlich macht oder versteckt."
+        },
+        {
+          "label": "Entwickler:",
+          "text": "eine saubere, abhängigkeitsfreie WPF- und MVVM-Codebasis, veröffentlicht unter GPL-3.0 und offen zum Lesen und Ändern."
+        }
+      ]
+    },
+    "capabilities": {
+      "title": "Was es kann",
+      "cards": {
+        "lights": {
+          "title": "Leuchten und Räume",
+          "text": "Ein- und Ausschalten je Leuchte und je Raum mit synchronisierten Helligkeitsreglern. Alles ist nach Raum und Gerätetyp gruppiert, sodass auch eine große Installation übersichtlich bleibt."
+        },
+        "color": {
+          "title": "Farbe und Farbtemperatur",
+          "text": "Eine Farbauswahl mit korrekter Umrechnung zwischen Auswahlfeld, Hue-Farbraum und Farbtemperatur – was Sie am Bildschirm wählen, gibt die Lampe auch aus."
+        },
+        "devices": {
+          "title": "Geräteverwaltung",
+          "text": "Neue Leuchten, Steckdosen, Bewegungsmelder, Dimmschalter und Taster suchen und hinzufügen, umbenennen und nicht mehr vorhandene Geräte entfernen. Vollständige Verwaltung, nicht bloß Steuerung."
+        },
+        "switches": {
+          "title": "Schalterprogrammierung",
+          "text": "Binden Sie einen Dimmschalter an einen Raum, sodass seine EIN-Taste die Szene dieses Raums aufruft – und sehen Sie Batteriestand und letzte Aktivität des Zubehörs auf einen Blick."
+        },
+        "scenes": {
+          "title": "Szenen und Zonen",
+          "text": "Räume, Zonen und Szenen anlegen, umbenennen und löschen, mit integrierten Hue-Voreinstellungen wie Relax, Concentrate, Energize und Savanna Sunset, dargestellt mit gerenderter Farbvorschau."
+        },
+        "bridges": {
+          "title": "Mehrere Bridges",
+          "text": "Fassen Sie mehrere Bridges zu Zuhause-Gruppen zusammen und wechseln Sie sofort zwischen ihnen. Die Suche läuft über den Hue-Discovery-Dienst und fällt auf manuelle IP-Eingabe zurück, wenn das Netzwerk sie blockiert."
+        },
+        "local": {
+          "title": "Nur lokales Netzwerk",
+          "text": "Die App spricht direkt mit der REST API der Bridge in Ihrem LAN. Die Bridge-Daten werden in Ihrem eigenen Windows-Profil gespeichert, und es wird nichts an andere Stellen gesendet."
+        },
+        "languages": {
+          "title": "Zehn Sprachen",
+          "text": "Die Oberfläche wird in zehn Sprachen ausgeliefert, darunter Arabisch und Hebräisch mit vollständigem Rechts-nach-links-Layout, und die Sprache lässt sich im laufenden Betrieb ohne Neustart umschalten."
+        },
+        "themes": {
+          "title": "Dunkles und helles Design",
+          "text": "Ein eigenes rahmenloses Fenster mit austauschbaren dunklen und hellen Farbpaletten – die App passt sich an, wie auch immer Sie Windows nutzen."
+        }
+      }
+    },
+    "problems": {
+      "title": "Probleme, die es löst",
+      "items": [
+        {
+          "label": "Keine offizielle Windows-App:",
+          "text": "genau die Lücke, für die es dieses Produkt gibt; Hue liefert Mobile und Sprache, aber keinen Desktop."
+        },
+        {
+          "label": "Zum Handy greifen:",
+          "text": "das Licht während der Arbeit zu ändern sollte kein zweites Gerät erfordern."
+        },
+        {
+          "label": "Desktop-Werkzeuge, die nur steuern:",
+          "text": "die meisten Drittanbieter-Tools schalten Leuchten nur ein und aus; dieses hier fügt sie hinzu, entfernt, benennt und konfiguriert sie."
+        },
+        {
+          "label": "Schalterkonfiguration:",
+          "text": "die Programmierung einer Dimmertaste ist in der Mobile-App tief vergraben und hier unkompliziert."
+        },
+        {
+          "label": "Mehr als eine Bridge:",
+          "text": "große Installationen oder solche über mehrere Gebäude werden als Zuhause-Gruppen mit sofortigem Wechsel abgebildet."
+        },
+        {
+          "label": "Cloud-Abhängigkeit:",
+          "text": "die Leuchten hängen in Ihrem Netzwerk, also sollte auch die Steuerungs-App in Ihrem Netzwerk funktionieren."
+        }
+      ]
+    },
+    "privacy": {
+      "title": "Datenschutz und Daten",
+      "intro": "Das Gestaltungsprinzip ist einfach: Ihre Beleuchtung ist ein lokales System, also sollte sich die Software, die sie steuert, auch wie eines verhalten.",
+      "items": [
+        "Die gesamte Kommunikation läuft über die REST API zur Hue Bridge in Ihrem lokalen Netzwerk.",
+        "Kein Konto, keine Anmeldung und kein von uns betriebener Cloud-Dienst.",
+        "Die Verbindungsdaten der Bridge werden lokal in Ihrem Windows-Benutzerprofil gespeichert.",
+        "Es werden keinerlei Analysedaten, Tracking-Daten oder Telemetrie erhoben.",
+        "Der Hue-Discovery-Dienst wird ausschließlich zum Auffinden einer Bridge kontaktiert; wer das nicht möchte, kann die IP manuell eingeben.",
+        "Der vollständige Quellcode ist unter GPL-3.0 öffentlich, sodass sich jede dieser Aussagen überprüfen lässt."
+      ]
+    },
+    "languages": {
+      "title": "Sprachen und Barrierefreiheit",
+      "intro": "Die Oberfläche ist vollständig übersetzt, nicht nur teilweise lokalisiert, und das Layout passt sich der Sprache an, statt Text von links nach rechts vorauszusetzen.",
+      "items": [
+        "Englisch, Spanisch, Portugiesisch, Französisch, Deutsch und Russisch.",
+        "Arabisch und Hebräisch mit vollständiger Spiegelung des Layouts von rechts nach links.",
+        "Vereinfachtes und traditionelles Chinesisch.",
+        "Sprachwechsel im laufenden Betrieb, ohne Neustart der Anwendung.",
+        "Jeder Text der Oberfläche ist übersetzt, nicht nur die Hauptbildschirme."
+      ]
+    },
+    "tech": {
+      "title": "Technologie-Stack",
+      "cards": {
+        "platform": {
+          "title": "Plattform",
+          "text": "C# auf .NET 9, ausgelegt auf Windows 10 und 11 als Desktop-Anwendung."
+        },
+        "ui": {
+          "title": "Benutzeroberfläche",
+          "text": "WPF mit eigenem rahmenlosem Fensterchrom und austauschbaren Ressourcenwörterbüchern für dunkles und helles Design."
+        },
+        "architecture": {
+          "title": "Architektur",
+          "text": "Handgeschriebenes MVVM: Observable Objects, synchrone und asynchrone Relay Commands, Entprellung der Regler-Eingaben und gruppierte Collections."
+        },
+        "bridge": {
+          "title": "Bridge-Anbindung",
+          "text": "Lokale REST API der Philips Hue Bridge, einschließlich HTTPS-Bridges, die das Hue-Bridge-Stammzertifikat im LAN vorweisen."
+        },
+        "dependencies": {
+          "title": "Abhängigkeiten",
+          "text": "Null NuGet-Pakete von Drittanbietern. Die Anwendung basiert vollständig auf der .NET-Basisklassenbibliothek und WPF."
+        },
+        "i18n": {
+          "title": "Lokalisierung",
+          "text": "Ein eigener String-Katalog, der die gesamte Oberfläche in zehn Sprachen abdeckt, inklusive Umkehrung der Leserichtung für Rechts-nach-links-Sprachen."
+        },
+        "testing": {
+          "title": "Tests",
+          "text": "xUnit-Suite mit gestubbtem HTTP-Handler für Offline-Läufe, dazu optionale Tests gegen eine echte Bridge."
+        },
+        "license": {
+          "title": "Lizenz",
+          "text": "Kostenlos und quelloffen unter GPL-3.0, mit vollständigem Quellcode auf GitHub."
+        }
+      }
+    },
+    "requirements": {
+      "title": "Voraussetzungen",
+      "items": [
+        "Windows 10 oder Windows 11.",
+        "Eine Philips Hue Bridge im selben lokalen Netzwerk.",
+        "Die .NET 9 Desktop Runtime oder ein eigenständiger Build, der sie mitbringt.",
+        "Einmaliger physischer Zugriff auf die Bridge-Taste, um die App bei der ersten Verbindung zu autorisieren."
+      ]
+    },
+    "cta": {
+      "title": "HueControl ausprobieren",
+      "text": "Die Anwendung ist fertig und quelloffen. Lesen Sie den Code, bauen Sie ihn selbst – oder melden Sie sich, wenn Sie einen fertig paketierten Build oder eine Anpassung für Ihre Installation wünschen.",
+      "sourceCode": "Quellcode auf GitHub ansehen",
+      "privacyPolicy": "Datenschutzerklärung",
+      "contact": "Kontakt aufnehmen",
+      "trademarkNote": "HueControl ist eine unabhängige Anwendung und steht in keiner Verbindung zu Signify N.V. oder Philips, wird von diesen weder unterstützt noch gesponsert. \"Philips Hue\" ist eine Marke von Signify Holding."
+    }
   }
 }

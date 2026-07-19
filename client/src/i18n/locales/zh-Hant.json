@@ -1,0 +1,2142 @@
+{
+  "header": {
+    "home": "首頁",
+    "about": "關於我們",
+    "products": "產品",
+    "contact": "聯絡我們"
+  },
+  "home": {
+    "title": "建構於 Microsoft Azure 的企業級軟體平台與雲端解決方案",
+    "subtitle": "我們為真實企業設計並交付正式營運等級的軟體系統——從多租戶 SaaS 平台，到車隊營運、電商市集與支付領域的專用解決方案。",
+    "cta": {
+      "primary": "洽談您的專案",
+      "secondary": "瀏覽我們的產品"
+    },
+    "products": {
+      "title": "我們的產品",
+      "subtitle": "為國際市場實際營運需求打造、可立即上線的平台。",
+      "visitSite": "前往網站",
+      "learnMore": "了解更多"
+    },
+    "services": {
+      "title": "解決方案與服務",
+      "subtitle": "以客製化開發服務，翻新您的營運流程並擴展技術能量。",
+      "customSaaS": {
+        "title": "客製化 SaaS 開發",
+        "description": "採用現代雲端架構，完整開發多租戶 SaaS 平台。"
+      },
+      "cloudArchitecture": {
+        "title": "雲端架構與現代化",
+        "description": "遷移至 Azure／AWS，具備自動擴展、監控與資安最佳實務。"
+      },
+      "systemIntegration": {
+        "title": "系統整合",
+        "description": "將既有系統與現代 API、金流服務商及第三方服務串接。"
+      },
+      "legacyReplacement": {
+        "title": "老舊系統汰換",
+        "description": "以現行技術翻新過時系統，同時完整保留原有業務邏輯。"
+      },
+      "aiSolutions": {
+        "title": "AI 驅動解決方案",
+        "description": "整合語音辨識、自動翻譯與智慧自動化等 AI 能力。"
+      },
+      "aiTollRates": {
+        "title": "AI 通行費費率探勘",
+        "description": "AI agent 自動讀取收費機構資料來源、偵測費率異動並持續更新價格資料——已在全美與加拿大正式營運。"
+      },
+      "gpsNavigation": {
+        "title": "GPS 追蹤與導航",
+        "description": "端到端自建的車隊車聯網：即時定位、行程紀錄、地理圍籬與即時警示——可搭配自有裝置或第三方 GPS 供應商。"
+      },
+      "technicalSupport": {
+        "title": "長期技術支援",
+        "description": "為您的平台提供持續維運、功能開發與長期技術夥伴關係。"
+      }
+    },
+    "architecture": {
+      "title": "架構與技術",
+      "subtitle": "我們的平台採用成熟的現代技術打造，確保可靠性、安全性與擴展性。",
+      "items": [
+        "Microsoft Azure 雲端平台",
+        "現代 .NET（6–9）與 ASP.NET Core",
+        "REST API 與分散式系統",
+        "Entity Framework Core",
+        "微服務架構",
+        "高可用性與容錯機制",
+        "CI/CD 與 DevOps 實務",
+        "資安與資料保護",
+        "適度導入 AI 整合"
+      ]
+    },
+    "about": {
+      "title": "關於 Aegis AO Soft",
+      "description": "Aegis AO Soft 專注開發支撐真實商業營運的正式軟體平台。我們追求的是長期可靠性、擴展性與可維護性，而非曇花一現的原型。",
+      "mission": "我們服務的客戶以軟體作為業務核心，因此交付的系統從設計之初就以持續運作、長期演進為目標。",
+      "leadership": "由資深軟體架構師領軍，具備跨產業打造關鍵任務系統的數十年經驗。"
+    },
+    "finalCta": {
+      "title": "有專案構想，或正在尋找可靠的技術夥伴？",
+      "button": "洽談您的專案"
+    },
+    "vehicleRental": {
+      "title": "車輛租賃管理",
+      "description": "為租賃業者打造的完整 SaaS 平台，具備多租戶架構、Stripe Connect 整合與自動化營運流程。",
+      "features": {
+        "fleetManagement": "車隊管理與可租狀態",
+        "driverVerification": "駕駛人身分驗證（BlinkID）",
+        "securityDeposit": "押金處理",
+        "automatedBilling": "自動化帳務",
+        "voiceAI": "🎙️ AI 語音助理協助選車",
+        "socialIntegration": "完整整合 Instagram 與 Facebook"
+      },
+      "learnMore": "了解更多"
+    },
+    "brazilianMarketplace": {
+      "title": "巴西手工藝品多租戶電商市集平台",
+      "description": "以雲端為基礎的電商平台，串聯巴西在地工匠與小型賣家，服務尋找正宗手工藝品、民俗藝術與日常生活用品的消費者。全面整合 Instagram 與 Facebook 社群電商：多租戶店面、商品目錄管理、訂單與出貨追蹤、Stripe 金流處理。",
+      "learnMore": "了解更多"
+    },
+    "myEZToll": {
+      "title": "MyEZToll",
+      "subtitle": "為租賃車隊打造的 AI 通行費、GPS 與違規管理平台",
+      "description": "非多租戶架構（單一組織平台）。提供通行費支付處理、GPS 通行費偵測、違規案件管理，涵蓋全美 50 州與加拿大。專為汽車租賃與車隊業者設計。",
+      "features": {
+        "tollProcessing": "通行費支付處理",
+        "parkingManagement": "停車與交通違規管理",
+        "gpsTolls": "以 GPS 偵測通行費，並依訂單計價",
+        "fleetMap": "即時車隊地圖，含行程紀錄與路線回放",
+        "gpsAlerts": "拖吊警示，以及以 SMS 與電子郵件發送的發動與行程警示",
+        "geofencing": "可在地圖上繪製地理圍籬區域（圓形或多邊形）",
+        "gpsIntegration": "第三方 GPS 整合（Fleet77 等）",
+        "aiFirst": "業界首個在正式環境運行 AI agent 的租賃通行費平台",
+        "aiRates": "AI agent 自動研究並更新通行費費率",
+        "usaCoverage": "涵蓋全美 50 州",
+        "canadaCoverage": "加拿大收費道路與違規（407 ETR、A25、A30）",
+        "fleetOperators": "專為汽車租賃與車隊業者設計",
+        "ownerPortal": "車主入口網站，處理付款與申訴流程"
+      },
+      "learnMore": "了解更多",
+      "visitSite": "前往網站",
+      "ownerPortal": "車主入口網站",
+      "featuresTitle": "平台功能"
+    }
+  },
+  "about": {
+    "title": "關於 Aegis AO Soft",
+    "subtitle": "為受監管與關鍵任務環境打造安全可靠的軟體系統",
+    "intro": {
+      "description": "Aegis AO Soft 為在受監管與關鍵任務環境中運作的組織開發安全可靠的軟體系統。我們專精於支撐營運不中斷、法規遵循與大規模資料處理的平台。",
+      "leadership": "Aegis AO Soft 由資深軟體架構師創立並領導，結合親力親為的技術領導風格，以及數十年為近公部門產業與複雜營運領域交付正式系統的經驗。"
+    },
+    "missionCritical": {
+      "title": "關鍵任務營運系統",
+      "description": "我們的工作聚焦於必須持續且精準運作的系統，這些系統往往還須面對法規監理或營運限制。",
+      "areas": {
+        "title": "常見應用領域包括：",
+        "fleet": "車隊與運輸營運",
+        "payments": "支付與帳務系統",
+        "compliance": "法遵與報表平台",
+        "workflow": "行政流程自動化",
+        "dataIntensive": "資料密集型營運軟體"
+      },
+      "design": "所有解決方案皆以可靠性、可稽核性與長期可維護性為設計核心。"
+    },
+    "transportation": {
+      "title": "運輸與法規科技",
+      "description": "Aegis AO Soft 開發支援車輛相關營運及其法規需求的平台。",
+      "vehicleRental": {
+        "title": "車輛租賃與車隊管理",
+        "items": [
+          "車輛庫存的營運管控",
+          "預約與使用率追蹤",
+          "客戶與合約管理",
+          "金流處理整合",
+          "多據點部署"
+        ]
+      },
+      "tollViolation": {
+        "title": "通行費與違規管理",
+        "items": [
+          "跨收費機構的通行費彙整",
+          "跨轄區的停車違規處理",
+          "帳務、對帳與報表",
+          "支援經營全國性車隊的組織"
+        ]
+      }
+    },
+    "security": {
+      "title": "資安、法遵與資料完整性",
+      "description": "系統在設計時即高度重視資安與法規遵循考量。",
+      "features": [
+        "存取控管與身分管理",
+        "符合產業標準的資料保護實務",
+        "可供稽核的日誌與報表",
+        "多租戶部署的隔離機制",
+        "金流處理的法遵實務"
+      ]
+    },
+    "technology": {
+      "title": "技術能力",
+      "description": "平台採用現代且廣泛採用的技術打造，確保永續發展與互通性。",
+      "stack": [
+        "Microsoft Azure 雲端基礎架構",
+        "現代 .NET 平台與 ASP.NET Core",
+        "分散式服務架構",
+        "關聯式資料管理系統",
+        "容器化部署",
+        "自動化監控與診斷"
+      ],
+      "philosophy": "技術選型以長期可支援性為優先，而非追逐短期潮流。"
+    },
+    "leadership": {
+      "title": "創辦人兼架構師的領導模式",
+      "description": "Aegis AO Soft 由技術領導直接主導，而非單純的管理層督導。",
+      "experience": "創辦人具備數十年在受監管環境中設計並實作複雜系統的經驗，涵蓋：",
+      "domains": [
+        "金融服務基礎架構",
+        "支付處理系統",
+        "法規申報平台",
+        "政府相關軟體專案",
+        "大規模交易系統"
+      ],
+      "approach": "此模式確保架構一致性、技術當責，並能快速解決複雜問題。"
+    },
+    "delivery": {
+      "title": "交付方法",
+      "description": "專案遵循嚴謹的生命週期管理，以降低風險並確保營運就緒。",
+      "assessment": {
+        "title": "評估",
+        "items": [
+          "需求分析",
+          "資料與工作流程評估",
+          "架構定義",
+          "整合規劃"
+        ]
+      },
+      "implementation": {
+        "title": "實作",
+        "items": [
+          "漸進式開發",
+          "安全的部署管線",
+          "自動化測試",
+          "系統行為文件化"
+        ]
+      },
+      "operational": {
+        "title": "維運支援",
+        "items": [
+          "效能調校",
+          "監控與警示",
+          "資安強化",
+          "持續維護與更新"
+        ]
+      }
+    },
+    "commitment": {
+      "title": "對可靠與當責的承諾",
+      "description": "Aegis AO Soft 與需要穩定系統及長期技術夥伴的組織合作。我們的目標是交付在整個營運生命週期中都能保持穩定、易於維護且可稽核的解決方案。"
+    }
+  },
+  "contact": {
+    "letsConnect": {
+      "title": "與我們聯繫",
+      "description": "歡迎分享您的需求——租賃營運、法遵自動化或預訂系統皆可。我們將提供技術架構建議與交付時程規劃。",
+      "benefits": {
+        "seniorEngineer": "30 年以上正式系統交付經驗",
+        "regulatedIndustries": "具受監管產業經驗（金融、海關）",
+        "fullStack": "從資料庫到部署的全端交付",
+        "usBased": "位於美國 New Jersey 的在地團隊"
+      },
+      "getInTouch": "聯絡我們"
+    },
+    "form": {
+      "title": "談談您的專案",
+      "description": "我們整合策略、交付與營運，協助團隊推出並擴展兼顧法規要求與客戶需求的平台。",
+      "email": "電子郵件",
+      "location": "地點",
+      "locationValue": "New Jersey, USA • 服務範圍涵蓋北美與歐洲",
+      "name": "姓名",
+      "namePlaceholder": "王小明",
+      "emailLabel": "電子郵件",
+      "emailPlaceholder": "jane@company.com",
+      "company": "公司",
+      "companyPlaceholder": "您的公司或專案名稱",
+      "projectDetails": "專案詳情",
+      "projectDetailsPlaceholder": "請說明您的目標、時程與面臨的挑戰。",
+      "submit": "送出諮詢",
+      "submitting": "傳送中…",
+      "success": "感謝您的來信——我們的團隊將於一個工作日內與您聯繫。",
+      "error": "目前無法處理您的請求，請稍後再試，或來信 aegisaosoft@gmail.com。"
+    }
+  },
+  "vehicleRental": {
+    "title": "MyEZWheels：車輛租賃多租戶線上門市平台",
+    "subtitle": "數分鐘內建立專屬品牌的租車網站",
+    "description": "MyEZWheels 是一套多租戶線上門市平台，讓車輛租賃公司擁有完整且專業的自有預訂網站。每個租戶皆以主機名稱識別——可使用免費子網域或您自有的網域——車隊、定價、品牌與客戶資料完全隔離，全部可在車主入口網站中設定，無需撰寫任何程式碼。",
+    "languages": {
+      "title": "🌍 支援 15 種語言",
+      "list": [
+        "🇺🇸 English",
+        "🇪🇸 Español",
+        "🇵🇹 Português",
+        "🇫🇷 Français",
+        "🇩🇪 Deutsch",
+        "🇮🇹 Italiano",
+        "🇳🇱 Nederlands",
+        "🇵🇱 Polski",
+        "🇺🇦 Українська",
+        "🇷🇺 Русский",
+        "🇹🇷 Türkçe",
+        "🇸🇦 العربية",
+        "🇨🇳 中文",
+        "🇯🇵 日本語",
+        "🇰🇷 한국어"
+      ],
+      "description": "線上門市的文字內容存放於資料庫中，並以機器翻譯轉換為所有支援的語言，因此介面元素、預訂確認信與客戶郵件皆已在地化——且無需重新發布程式即可修改用字。"
+    },
+    "features": {
+      "title": "🚗 完整的租賃系統功能",
+      "intelligentBooking": {
+        "title": "線上預訂",
+        "vehicleSearch": "依車輛類別、地點與日期搜尋，並即時顯示價格",
+        "realTimeCalendar": "即時可租狀況日曆，立即完成確認",
+        "seasonalPricing": "季節性與分期定價（日租、週租、月租）",
+        "vinRecognition": "VIN 車身號碼辨識，自動帶入車輛資訊"
+      },
+      "customerVerification": {
+        "title": "駕駛人驗證",
+        "phoneCapture": "掃描 QR Code，直接以承租人手機拍攝駕照",
+        "dataExtraction": "PDF417 條碼解碼搭配 AI OCR，自動填寫表單",
+        "ageVerification": "年齡與駕照到期日驗證",
+        "documentStorage": "安全的文件儲存"
+      },
+      "paymentProcessing": {
+        "title": "金流處理",
+        "stripeConnect": "整合 Stripe Connect，提供順暢的付款體驗",
+        "multiCurrency": "支援南北美洲各國的多幣別交易",
+        "securityDeposit": "押金處理（支援 31 天以上的預先授權）",
+        "automatedRefunds": "自動退款與爭議款處理",
+        "directPayouts": "直接撥款至租賃公司帳戶"
+      },
+      "fleetManagement": {
+        "title": "車隊管理",
+        "inventory": "完整的車輛庫存管理",
+        "maintenance": "保養排程與追蹤",
+        "statusUpdates": "即時車輛狀態更新",
+        "photoGallery": "車輛照片集與規格資訊"
+      },
+      "multiTenant": {
+        "title": "多租戶架構",
+        "brandedWebsite": "每間租賃公司皆擁有專屬品牌網站",
+        "customDomains": "免費子網域（yourcompany.myezwheels.com）或您自有的網域",
+        "uniqueBranding": "專屬品牌識別：標誌、色彩、圖像與聯絡資訊",
+        "isolatedData": "資料完全隔離——各租戶僅能看見自己的資訊",
+        "customEmails": "可自訂通知信件的寄件地址"
+      },
+      "communication": {
+        "title": "訊息通知系統",
+        "bookingConfirmations": "自動發送預訂確認",
+        "reminders": "取車與還車提醒（提前 24 小時）",
+        "paymentConfirmations": "附帶帳單的付款確認",
+        "emailVerification": "電子郵件驗證與密碼重設",
+        "localizedEmails": "所有郵件皆以客戶偏好的語言呈現"
+      },
+      "socialMedia": {
+        "title": "📱 社群媒體整合",
+        "instagram": "完整整合 Instagram——自動發文展示您的車隊",
+        "facebook": "整合 Facebook 商業工具——直接從粉絲專頁接受預訂",
+        "reviewSync": "客戶評價跨平台同步",
+        "adIntegration": "整合 Facebook 與 Instagram 廣告，輕鬆推廣行銷"
+      }
+    },
+    "openSite": {
+      "title": "⚡ 數分鐘內開設專屬租車網站",
+      "signUp": "註冊——建立您的公司帳戶",
+      "configure": "設定——加入標誌、色彩與聯絡資訊",
+      "addVehicles": "新增車輛——匯入或手動建立您的車隊",
+      "goLive": "正式上線——專屬租車網站即刻就緒",
+      "noCoding": "無需撰寫程式，也不需要 IT 團隊。設定完成即可上線。"
+    },
+    "techStack": {
+      "title": "🛠️ 技術架構",
+      "frontend": "React 打造的現代化響應式介面",
+      "backend": "ASP.NET Core REST API，搭配 Entity Framework Core",
+      "database": "Azure SQL Server",
+      "cloud": "Azure 雲端代管，支援自動擴充",
+      "payments": "Stripe Connect",
+      "documentScanning": "PDF417 條碼解碼與 AI 文件 OCR",
+      "ai": "以 Claude AI 進行文件辨識與內容翻譯"
+    },
+    "customization": {
+      "title": "🎨 跨領域設計",
+      "description": "您的租車網站可完全自訂，只要點幾下就能完美呈現品牌形象。",
+      "features": {
+        "colors": "自訂配色與佈景主題",
+        "logo": "您的標誌與品牌識別",
+        "layout": "彈性的頁面版型",
+        "domain": "支援自訂網域"
+      },
+      "professional": "需要專業設計協助嗎？我們的合作設計工作室可為您的業務量身打造獨一無二的出色設計。"
+    },
+    "tagline": "您的旅程，我們的承諾。"
+  },
+  "brazilianMarketplace": {
+    "page": {
+      "title": "巴西手工藝品多租戶市集平台",
+      "subtitle": "連結巴西工藝師與全球顧客",
+      "description": "這是一套雲端電子商務平台，將巴西在地工藝師與小型賣家，和尋找道地手工製品、民俗藝術與日常用品的顧客連結起來。多租戶架構讓獨立賣家能在統一的市集下經營自有品牌門市，各自擁有可自訂的商品目錄、定價與出貨選項。",
+      "coreOfferings": {
+        "title": "核心商品",
+        "traditionalCrafts": {
+          "title": "傳統民俗工藝（Artesanato）",
+          "description": "陶瓷、木工、織品、蕾絲"
+        },
+        "regionalGoods": {
+          "title": "地方手工製品",
+          "description": "皮革製品、編織籃、刺繡"
+        },
+        "everydayEssentials": {
+          "title": "日常必需品",
+          "description": "家庭雜貨與生活用品"
+        },
+        "souvenirs": {
+          "title": "紀念品與裝飾擺件",
+          "description": "展現巴西文化傳統的商品"
+        }
+      },
+      "features": {
+        "title": "平台功能",
+        "storefronts": {
+          "title": "賣家專屬門市",
+          "description": "每位賣家皆可自訂品牌，打造獨特的門市設計與識別形象"
+        },
+        "paymentProcessing": {
+          "title": "集中式金流處理",
+          "description": "市集抽成機制搭配安全的付款流程"
+        },
+        "multiLanguage": {
+          "title": "多語言支援",
+          "description": "完整支援 10 種語言，包含葡萄牙文、英文、西班牙文，以及巴西原住民語言（Guaraní Mbyá、Nheengatu），成就真正的文化商務"
+        },
+        "shipping": {
+          "title": "物流與出貨",
+          "description": "整合物流與出貨協調機制，訂單處理更順暢"
+        },
+        "mobileFirst": {
+          "title": "行動優先設計",
+          "description": "響應式設計，專為以智慧型手機為主的巴西市場最佳化"
+        },
+        "socialMedia": {
+          "title": "Instagram 與 Facebook 整合",
+          "description": "完整的社群電商整合——透過 Instagram Shop 與 Facebook Marketplace 直接銷售、同步商品目錄，在社群平台觸及顧客"
+        }
+      },
+      "tryNow": "立即試用"
+    }
+  },
+  "booking": {
+    "title": "預訂與探索",
+    "subtitle": "為靜修中心與體驗服務業者打造的前台平台，具備即時空位查詢與整合金流。",
+    "description": "為靜修中心與體驗服務業者打造的前台平台，具備即時空位查詢與整合金流。",
+    "features": {
+      "resortSearch": "度假村／場地搜尋與篩選",
+      "bookingManagement": "預訂管理",
+      "paymentProcessing": "金流處理",
+      "multiLanguage": "多語系支援"
+    }
+  },
+  "footer": {
+    "company": "Aegis AO Soft LLC",
+    "contact": "聯絡方式",
+    "services": "服務項目",
+    "copyright": "© {{year}} Aegis AO Soft. 保留所有權利。",
+    "ein": "EIN",
+    "location": "New Jersey, USA"
+  },
+  "adminGuide": {
+    "sectionTitle": "管理與賣家指南",
+    "sectionSubtitle": "管理 Mercadinho25 市集的完整指南",
+    "recommendationTip": "為取得最準確的自動翻譯結果，請以葡萄牙文或英文輸入商品名稱與說明。",
+    "sections": {
+      "gettingStarted": {
+        "title": "1. 開始使用",
+        "intro": "Mercadinho25 是專為巴西手工藝品打造的多租戶電子商務市集平台。本指南涵蓋控制台中所有可用的管理功能。",
+        "login": {
+          "title": "登入",
+          "steps": [
+            "前往您的商店網址（例如 yourstore.mercadinho25.com）",
+            "點選頂端導覽列的「登入」",
+            "輸入您的電子郵件與密碼",
+            "登入後點選個人頭像，選擇「控制台」"
+          ],
+          "tip": "預設管理員帳號：admin@mercadinho.com.br｜密碼於初始設定時建立"
+        },
+        "roles": {
+          "title": "使用者角色",
+          "intro": "平台採用角色式存取控制（RBAC），共分四個層級：",
+          "customer": "顧客 — 瀏覽、購買、撰寫評論",
+          "seller": "賣家 — 建立／管理商品、檢視銷售、管理自己的訂單",
+          "tenantAdmin": "TenantAdmin — 管理賣家、使用者、設定、分類與付款",
+          "superAdmin": "SuperAdmin — 多租戶管理、建立租戶、系統層級存取",
+          "customerLabel": "顧客：",
+          "sellerLabel": "賣家：",
+          "tenantAdminLabel": "TenantAdmin：",
+          "superAdminLabel": "SuperAdmin："
+        },
+        "dashboard": {
+          "title": "控制台總覽",
+          "intro": "主控台一目了然地呈現各項關鍵指標：",
+          "items": [
+            "商品總數：商店中上架商品的數量",
+            "訂單總數：所有訂單，並顯示待處理訂單數",
+            "營收：銷售總營收，並依幣別格式顯示",
+            "有效賣家：市集中已核准的賣家數量"
+          ]
+        }
+      },
+      "products": {
+        "title": "2. 商品管理",
+        "categories": {
+          "title": "管理分類",
+          "intro": "分類用來組織商品目錄。請前往「控制台 > 商品 > 分類」。",
+          "steps": [
+            "點選「新增分類」以建立新分類",
+            "以目前使用的語言輸入分類名稱",
+            "勾選「自動翻譯」，即可將名稱自動翻譯成全部 10 種語言（含原住民語言）",
+            "設定分類代稱（適用於網址的名稱，可自動產生）",
+            "可視需要指定上層分類以建立子分類（階層結構）",
+            "切換「啟用」以控制顯示與否",
+            "點選「儲存」以建立分類"
+          ],
+          "translations": {
+            "title": "分類翻譯",
+            "intro": "每個分類名稱都會以平台的全部 10 種語言儲存（含原住民語言）：",
+            "items": [
+              "自動翻譯透過 Google Translate 或 Claude AI 產生譯文",
+              "API 會依使用者的介面語言回傳在地化名稱",
+              "您可以手動覆寫任何自動翻譯的名稱",
+              "缺少的翻譯會回退為葡萄牙文，其次為第一個可用的語言"
+            ]
+          },
+          "attributes": {
+            "title": "為分類新增屬性類型",
+            "intro": "屬性類型定義商品的規格選項（例如顏色、尺寸、材質）：",
+            "steps": [
+              "開啟分類編輯視窗",
+              "捲動至「屬性類型」區段",
+              "點選「新增屬性類型」— 可從既有項目選取或建立新項目",
+              "建立新項目時：輸入全部 10 種語言的名稱（附國家／文化旗標），代稱會自動產生",
+              "設定顯示順序（階層）與「必填」開關",
+              "點選齒輪圖示以管理屬性值（例如顏色底下的紅、藍、綠）",
+              "每個屬性值皆支援多語名稱與選填的 HEX 色碼",
+              "移除屬性類型會刪除所有相關的規格資料，請謹慎使用",
+              "點選「儲存」以套用"
+            ],
+            "tip": "顯示順序很重要：第一個屬性類型會成為最上層選項，第二個則為次一層。屬性值採連動方式 — 下層選項會依上層的選擇進行篩選。"
+          }
+        },
+        "creating": {
+          "title": "建立商品",
+          "steps": [
+            "點選「新增商品」",
+            "填寫名稱、說明、故事（多語欄位）",
+            "設定價格：基本價、特價（選填）、幣別",
+            "上傳圖片（拖放或使用檔案選取器）",
+            "選擇分類與子分類",
+            "設定規格，並可個別指定價格／庫存",
+            "設定庫存數量與 SKU",
+            "設定狀態：草稿、上架或封存",
+            "點選「儲存」以發佈"
+          ]
+        },
+        "phoneUpload": {
+          "title": "從手機上傳圖片（QR Code）",
+          "intro": "直接以手機相機上傳商品照片：",
+          "steps": [
+            "點選「從手機上傳」按鈕（智慧型手機圖示）",
+            "在電腦上：用手機相機掃描 QR Code",
+            "在行動裝置上：應用程式會自動導向拍照頁面",
+            "開始拍照 — 照片會即時上傳至商品表單",
+            "進行中會顯示綠色的「等待照片中…」指示",
+            "完成後點選「完成 — 加入圖片」"
+          ],
+          "tip": "QR 連線工作階段有時間限制，兩台裝置必須位於同一個網路。若已過期，可重新產生 QR Code。"
+        },
+        "autoTranslate": {
+          "title": "自動翻譯",
+          "intro": "平台會將商品名稱與說明翻譯成所有支援的語言：",
+          "steps": [
+            "以葡萄牙文或英文填寫名稱與說明（建議如此，準確度最佳）",
+            "勾選「自動翻譯」核取方塊（閃亮圖示 ✨）",
+            "儲存時，系統會自動翻譯成其他 7 種語言",
+            "使用 Google Translate API 或 Claude AI（由管理員設定）",
+            "儲存後可檢視並手動修改任何譯文"
+          ],
+          "tip": "另提供語音輸入功能：點選任一文字欄位旁的麥克風圖示，即可用所選語言口述輸入。"
+        },
+        "variants": {
+          "title": "為商品新增規格",
+          "intro": "當所選分類含有屬性類型時，規格區段會自動出現：",
+          "steps": [
+            "選擇分類 — 屬性類型會自動載入（例如顏色、尺寸）",
+            "勾選核取方塊以啟用各個屬性類型（須依嚴格的階層順序）",
+            "勾選特定屬性值（例如顏色底下的紅、藍；尺寸底下的 S、M、L）",
+            "點選屬性值可將其標示（綠色外框）。全部標示後即代表正在編輯特定規格",
+            "價格面板會切換：「基本價格」↔「規格價格：顏色：紅、尺寸：大」",
+            "為每個組合設定價格、原價與庫存",
+            "未設定專屬價格的規格會沿用商品的基本價",
+            "取消勾選某個屬性值時，會自動移除所有相關的規格資料"
+          ],
+          "tip": "顏色屬性會顯示色票。規格名稱會自動以所有語言產生（例如「紅／大」）。藍色資訊面板會提示您目前正在編輯基本價格或規格價格。"
+        },
+        "bulkOps": {
+          "title": "批次操作與搜尋",
+          "items": [
+            "依商品名稱或 SKU 搜尋",
+            "依狀態（草稿、上架、封存）與分類篩選",
+            "批次分享至 Facebook、Instagram 或 Etsy",
+            "批次變更狀態（上架、封存、轉為草稿）"
+          ]
+        },
+        "shipments": {
+          "title": "出貨",
+          "items": [
+            "檢視所有出貨紀錄與狀態追蹤",
+            "建立寄件標籤（巴西地區整合 Correios）",
+            "即時追蹤包裹狀態更新",
+            "直接從控制台列印標籤",
+            "狀態：待處理、已建立標籤、已寄出、運送中、派送中、已送達、已退回、遺失、已取消"
+          ]
+        },
+        "reports": {
+          "title": "報表與分析",
+          "items": [
+            "銷售分析：營收圖表、訂單趨勢、熱銷商品",
+            "訂單分頁：完整紀錄，支援篩選與分頁",
+            "匯出資料以供外部分析",
+            "依日期區間檢視各項指標"
+          ]
+        }
+      },
+      "store": {
+        "title": "3. 商店管理",
+        "tenants": {
+          "title": "租戶管理（僅限 SuperAdmin）",
+          "intro": "前往「控制台 > 商店 > 租戶」以管理多個商店。",
+          "steps": [
+            "點選「新增租戶」以建立新的市集",
+            "設定：商店名稱、子網域、自訂網域（選填）",
+            "設定抽成比例（預設 10%）",
+            "指派一位租戶管理員使用者",
+            "視需要啟用或停用租戶"
+          ],
+          "tip": "建立租戶時會自動設定子網域與自訂網域，所有 DNS 記錄皆自動佈建，無須人工介入。"
+        },
+        "sellers": {
+          "title": "賣家管理",
+          "items": [
+            "檢視所有賣家及其統計資料（商品數、銷售額、評分）",
+            "核准或婉拒待審核的賣家申請",
+            "編輯賣家資料（商店名稱、說明、所在地）",
+            "切換「精選」狀態以取得顯眼版位",
+            "檢視 Stripe Connect 開通狀態",
+            "依狀態篩選：待審核、已核准、已停權"
+          ]
+        },
+        "users": {
+          "title": "使用者管理",
+          "items": [
+            "檢視所有已註冊使用者及其目前角色",
+            "變更使用者角色（顧客、賣家、TenantAdmin）",
+            "只有 SuperAdmin 可以指派 SuperAdmin 角色",
+            "依姓名、電子郵件或角色搜尋及篩選"
+          ]
+        }
+      },
+      "payments": {
+        "title": "4. 付款設定",
+        "stripe": {
+          "title": "Stripe 設定",
+          "sandbox": "沙箱：輸入測試用 API 金鑰（pk_test_...、sk_test_...）→ 儲存 → 測試 → 啟用",
+          "production": "正式環境：步驟相同，但改用正式金鑰。上線前請充分測試，並設定 webhook 端點。",
+          "connect": "Stripe Connect：每位賣家須完成開通程序才能收款。平台會依抽成比例自動拆分款項。",
+          "sandboxLabel": "沙箱：",
+          "productionLabel": "正式環境：",
+          "connectLabel": "Stripe Connect："
+        },
+        "mercadopago": {
+          "title": "MercadoPago",
+          "items": [
+            "啟用或停用 MercadoPago 付款",
+            "設定市集手續費百分比",
+            "設定預設幣別（BRL）",
+            "啟用 Checkout Pro 以取得順暢流程",
+            "支援：信用卡／簽帳金融卡、PIX、Boleto"
+          ]
+        },
+        "shipping": {
+          "title": "物流（Correios）",
+          "items": [
+            "設定 Correios 整合以供巴西境內配送",
+            "設定運費與配送選項",
+            "依地區啟用或停用配送方式",
+            "設定免運門檻"
+          ]
+        }
+      },
+      "integrations": {
+        "title": "5. 市集整合",
+        "google": {
+          "title": "Google Shopping",
+          "steps": [
+            "複製系統產生的商品資料饋給網址",
+            "建立 Google Merchant Center 帳戶",
+            "在「Merchant Center > 產品 > 資料饋給」中加入饋給網址",
+            "設定各項參數（國家／地區、語言、幣別）",
+            "送出審核"
+          ]
+        },
+        "etsy": {
+          "title": "Etsy 整合",
+          "items": [
+            "透過 OAuth 連接您的 Etsy 商店",
+            "同步商品並自動建立刊登",
+            "在控制台管理 Etsy 訂單",
+            "檢視分析與銷售資料",
+            "批次將商品發佈至 Etsy"
+          ]
+        },
+        "social": {
+          "title": "社群媒體",
+          "items": [
+            "Facebook 與 Instagram：連接商家專頁、分享商品、設定 Meta 商品資料饋給",
+            "WhatsApp Business：為每位賣家設定號碼，並在商品頁面啟用聯絡按鈕",
+            "設定饋給語言與翻譯優先順序"
+          ]
+        }
+      },
+      "branding": {
+        "title": "6. 品牌與客製化",
+        "items": [
+          "標誌：上傳商店標誌（頁首與電子郵件）",
+          "網站圖示：自訂瀏覽器分頁圖示",
+          "色彩：主色（#2E7D32）、輔色（#FFC107）、強調色",
+          "字體排版：自訂字型系列",
+          "橫幅圖片：首頁主視覺圖",
+          "標語與關於我們文字",
+          "自訂 CSS 以進行進階樣式設計"
+        ]
+      },
+      "languages": {
+        "title": "7. 語言設定",
+        "intro": "平台支援 10 種語言：葡萄牙文（主要）、英文、西班牙文、法文、德文、義大利文、日文、俄文，另加上原住民語言瓜拉尼姆比亞語與內恩加圖語，以保存文化資產。",
+        "tip": "請務必為所有商品與分類至少填寫葡萄牙文與英文翻譯，以擴大觸及範圍。若缺少翻譯，系統會回退為葡萄牙文。"
+      }
+    },
+    "tipLabel": "提示："
+  },
+  "brazilianMarketplaceDetail": {
+    "hero": {
+      "title": "Mercadinho25",
+      "subtitle": "巴西手工藝品全球市集",
+      "description": "透過 AI 翻譯、社群電商整合與多租戶市集架構，將巴西工藝師與全球顧客串連起來。立即打造您的手工藝市集。",
+      "tryDemo": "免費試用展示版",
+      "visitMarketplace": "前往市集",
+      "stats": {
+        "languages": {
+          "label": "語言",
+          "note": "＋原住民語言"
+        },
+        "translation": {
+          "value": "AI",
+          "label": "翻譯"
+        },
+        "social": {
+          "value": "社群",
+          "label": "電商"
+        },
+        "multiTenant": {
+          "value": "多",
+          "label": "租戶"
+        }
+      }
+    },
+    "whatIs": {
+      "title": "什麼是 Mercadinho25？",
+      "paragraph1": "Mercadinho25 是一套雲端電子商務平台，將巴西在地工藝師與小型賣家，和尋找道地手工製品、民俗藝術與日常用品的顧客連結起來。",
+      "paragraph2": "多租戶架構讓獨立賣家能在統一的市集下經營自有品牌門市，各自擁有可自訂的商品目錄、定價與出貨選項。"
+    },
+    "audience": {
+      "title": "適合哪些人？",
+      "artisans": {
+        "label": "巴西工藝師",
+        "text": "創作傳統工藝與民俗藝術"
+      },
+      "vendors": {
+        "label": "小型賣家",
+        "text": "銷售手工製品與地方特產"
+      },
+      "operators": {
+        "label": "市集經營者",
+        "text": "希望打造利基型電商平台"
+      },
+      "culturalSellers": {
+        "label": "文化商品賣家",
+        "text": "專注於道地的巴西文化傳統商品"
+      },
+      "socialCommerce": {
+        "label": "社群電商業者",
+        "text": "善用 Instagram 與 Facebook 進行銷售"
+      }
+    },
+    "capabilities": {
+      "title": "主要功能",
+      "storefronts": {
+        "title": "多租戶門市",
+        "description": "獨立的賣家帳戶，可自訂品牌、專屬門市設計與個人化識別形象。"
+      },
+      "languages": {
+        "title": "支援 10 種語言＋原住民語言",
+        "description": "葡萄牙文、英文、西班牙文、法文、德文、義大利文、日文、俄文，另加原住民語言（Guaraní Mbyá、Nheengatu），皆提供完整在地化。",
+        "heritage": {
+          "title": "文化傳承特色：",
+          "intro": "特別支援巴西原住民語言：",
+          "guarani": {
+            "label": "Guaraní Mbyá",
+            "text": "（gn-mby）－ 傳統瓜拉尼語"
+          },
+          "nheengatu": {
+            "label": "Nheengatu",
+            "text": "（yrl）－ 亞馬遜地區通用語"
+          },
+          "note": "藉由商業活動保存並推廣巴西的文化與語言多樣性"
+        }
+      },
+      "aiTranslation": {
+        "title": "AI 翻譯",
+        "description": "運用 Google Translate API 與 Claude AI 自動翻譯商品說明，觸及最廣泛的客群。"
+      },
+      "socialCommerce": {
+        "title": "社群電商",
+        "description": "完整整合 Instagram Shop 與 Facebook Marketplace——直接透過社群平台銷售。"
+      },
+      "payments": {
+        "title": "金流處理",
+        "description": "整合 Stripe 與 MercadoPago，內建市集抽成機制與賣家撥款功能。"
+      },
+      "shipping": {
+        "title": "物流整合",
+        "description": "整合 Correios 巴西郵政物流，提供包裹追蹤與出貨協調。"
+      }
+    },
+    "problems": {
+      "title": "解決的問題",
+      "globalReach": {
+        "label": "全球觸及有限",
+        "text": "10 種語言平台，搭配 AI 翻譯與原住民語言支援"
+      },
+      "setup": {
+        "label": "電商建置複雜",
+        "text": "開箱即用的市集平台"
+      },
+      "socialSales": {
+        "label": "社群媒體銷售困難",
+        "text": "整合 Instagram／Facebook 電商"
+      },
+      "payments": {
+        "label": "金流處理門檻高",
+        "text": "支援多家金流閘道與在地付款方式"
+      },
+      "inventory": {
+        "label": "庫存管理繁瑣",
+        "text": "完善的賣家管理系統"
+      },
+      "mobile": {
+        "label": "行動購物體驗受限",
+        "text": "行動優先的響應式設計"
+      }
+    },
+    "categories": {
+      "title": "核心商品類別"
+    },
+    "social": {
+      "title": "社群電商整合",
+      "intro": "完整的社群電商功能，讓巴西工藝師能直接透過社群媒體平台銷售，觸及全球客群。",
+      "instagram": {
+        "title": "Instagram Shop 整合",
+        "items": [
+          "商品目錄自動同步至 Instagram Shop",
+          "直接在 Instagram App 內完成結帳",
+          "在貼文與限時動態中標註商品",
+          "自動更新庫存",
+          "多語言商品說明",
+          "整合訂單出貨追蹤"
+        ]
+      },
+      "facebook": {
+        "title": "Facebook Marketplace 整合",
+        "items": [
+          "自動於 Facebook Marketplace 刊登商品",
+          "整合 Facebook 商業粉絲專頁商店",
+          "針對手工藝品投放精準廣告",
+          "同步客戶評價與評分",
+          "透過 Facebook Messenger 提供客服",
+          "依活動檔期規劃促銷方案"
+        ]
+      },
+      "whatsapp": {
+        "title": "WhatsApp Business 整合",
+        "items": [
+          "商品頁面設有 WhatsApp 聯絡按鈕",
+          "每位賣家擁有專屬 WhatsApp 號碼",
+          "透過 WhatsApp 自動發送訂單確認",
+          "以 WhatsApp 分享商品目錄",
+          "客戶服務與詢問處理",
+          "配送狀態通知"
+        ]
+      },
+      "analytics": {
+        "title": "跨平台數據分析",
+        "items": [
+          "整合所有平台的統一分析儀表板",
+          "社群媒體成效追蹤",
+          "跨平台銷售歸因",
+          "顧客旅程分析",
+          "社群媒體行銷活動的 ROI 追蹤",
+          "自動化報表與洞察"
+        ]
+      },
+      "heritage": {
+        "title": "文化傳承保存",
+        "intro": "除了商業成就之外，Mercadinho25 更積極保存巴西的文化與語言多樣性。",
+        "supportTitle": "原住民語言支援：",
+        "guarani": {
+          "label": "Guaraní Mbyá",
+          "text": "（gn-mby）－ 瓜拉尼族的神聖語言"
+        },
+        "nheengatu": {
+          "label": "Nheengatu",
+          "text": "（yrl）－ 亞馬遜地區通用語，意為「美好的語言」"
+        },
+        "note": "讓原住民工藝師能以母語展示自己的作品，在拓展全球市場的同時保存文化認同。"
+      }
+    },
+    "tech": {
+      "title": "技術架構",
+      "frontend": {
+        "title": "前端",
+        "description": "React、TypeScript、Material-UI"
+      },
+      "backend": {
+        "title": "後端",
+        "description": "Node.js RESTful API、多租戶架構"
+      },
+      "database": {
+        "title": "資料庫",
+        "description": "PostgreSQL，具備租戶資料隔離"
+      },
+      "cloud": {
+        "title": "雲端",
+        "description": "Azure App Service、自動擴充"
+      },
+      "ai": {
+        "title": "AI 與翻譯",
+        "description": "Google Translate API、Claude AI"
+      },
+      "integration": {
+        "title": "整合",
+        "description": "Instagram Graph API、Facebook Business API、MercadoPago"
+      }
+    },
+    "tenants": {
+      "title": "實際租戶範例",
+      "intro": "看看獨立賣家如何在市集中打造自有品牌門市。每位租戶都能完全掌控自己的品牌形象、商品與顧客體驗。",
+      "alex": {
+        "title": "Alex 的工藝工作室",
+        "description": "巴西傳統陶瓷與陶器。專屬品牌門市，具備獨特設計與個人化的顧客體驗。",
+        "linkLabel": "前往 Alex 的商店"
+      },
+      "joanna": {
+        "title": "Joanna 的織品藝廊",
+        "description": "來自聖保羅的手工織品與刺繡。展現專屬品牌形象，並整合社群媒體與多語言支援。",
+        "linkLabel": "前往 Joanna 的商店"
+      },
+      "callout": {
+        "label": "多租戶架構：",
+        "text": "每位賣家皆擁有專屬子網域、自訂品牌、隔離的資料與完整的門市控制權——全部在單一平台上管理。"
+      }
+    },
+    "adminGuideCta": {
+      "buttonLabel": "查看完整管理員指南"
+    },
+    "cta": {
+      "title": "準備好讓工藝師接軌全球市場了嗎？",
+      "description": "打造您專屬的巴西手工藝市集，內建社群電商與 AI 翻譯功能。",
+      "startMarketplace": "建立您的市集",
+      "visitSite": "前往網站",
+      "sellerGuide": "賣家指南"
+    }
+  },
+  "myEZTollDetail": {
+    "hero": {
+      "title": "為租車車隊打造的 AI 通行費、GPS 與違規管理平台",
+      "subtitle": "專為租車業者與車隊營運商設計的企業級平台，自動化處理美國 50 州與加拿大全境的通行費作業、GPS 通行費偵測與違規管理——租賃產業中第一個將 AI 代理實際投入正式營運的通行費與違規平台。"
+    },
+    "whatIs": {
+      "title": "什麼是 MyEZToll？",
+      "p1": "MyEZToll 是專為租車公司與車隊營運商打造的單一組織專屬平台（非多租戶架構），滿足全方位的通行費、GPS 與違規管理需求。",
+      "p2": "有別於通用型方案，MyEZToll 為個別車隊營運商提供專屬基礎架構，讓您完全掌控美國 50 州與加拿大全境的通行費作業與違規處理流程。",
+      "p3": "平台從兩個方向同時運作：一方面從通行費機構與違規開單單位收取費用，另一方面獨立依據車輛 GPS 軌跡計算通行費——車輛通過收費門架的當下即完成計價，遠早於機構帳單寄達。"
+    },
+    "forWhom": {
+      "title": "適合哪些客戶？",
+      "items": [
+        {
+          "label": "租車公司",
+          "text": "跨州營運"
+        },
+        {
+          "label": "車隊管理公司",
+          "text": "行經大量收費路段"
+        },
+        {
+          "label": "企業車隊營運商",
+          "text": "尋求自動化法遵管理"
+        },
+        {
+          "label": "租車加盟體系",
+          "text": "需要集中化通行費管理"
+        },
+        {
+          "label": "企業自有車隊",
+          "text": "頻繁行駛收費道路"
+        }
+      ]
+    },
+    "capabilities": {
+      "title": "主要功能",
+      "cards": {
+        "automatedToll": {
+          "title": "通行費自動處理",
+          "text": "跨州通行費無縫處理，自動完成對帳與付款。"
+        },
+        "parkingViolations": {
+          "title": "停車違規管理",
+          "text": "完整追蹤停車罰單並提供申訴流程，自動化結案處理。"
+        },
+        "gpsTolling": {
+          "title": "GPS 通行費計算",
+          "text": "車輛 GPS 軌跡比對真實收費站與門架資料庫，再依預訂逐筆計價——通行費直接由行程本身得出，不必只等機構帳單。"
+        },
+        "towingAlerts": {
+          "title": "拖吊與車隊警示",
+          "text": "拖吊、引擎啟動／熄火與行程結束即時發送簡訊與電子郵件警示，可指定通知車主、當前承租人或雙方。"
+        },
+        "thirdPartyGps": {
+          "title": "第三方 GPS 整合",
+          "text": "外掛式車聯網整合——Fleet77 及其他供應商——將外部追蹤器的車輛與位置資料與自有裝置整合於同一車隊視圖。"
+        },
+        "aiRateResearch": {
+          "title": "AI 通行費率研究",
+          "text": "AI 代理自主研讀通行費機構資料來源、偵測費率異動，無需人工輸入即可維持平台通行費計價最新狀態。"
+        },
+        "coverage": {
+          "title": "美國與加拿大覆蓋範圍",
+          "text": "涵蓋美國 50 州，以及加拿大收費道路與違規案件，包含 Highway 407 ETR、A25 與 A30。"
+        },
+        "ownerPortal": {
+          "title": "車主自助入口網站",
+          "text": "專屬入口網站，讓車主自行處理付款與申訴流程。"
+        },
+        "analytics": {
+          "title": "車隊數據分析",
+          "text": "針對通行費成本、違規趨勢與車隊績效提供完整報表與分析。"
+        },
+        "automation": {
+          "title": "智慧自動化",
+          "text": "AI 罰單解析與自動付款處理，大幅減少人工介入。"
+        }
+      }
+    },
+    "problems": {
+      "title": "解決哪些問題",
+      "items": [
+        {
+          "label": "人工核對通行費",
+          "text": "→ 全州自動化處理"
+        },
+        {
+          "label": "停車違規案件積壓",
+          "text": "→ 智慧解析與申訴管理"
+        },
+        {
+          "label": "跨州法遵複雜度",
+          "text": "→ 統一涵蓋美國 50 州與加拿大"
+        },
+        {
+          "label": "通行費數週後才發現",
+          "text": "→ GPS 偵測即時完成行程計價"
+        },
+        {
+          "label": "通行費率過時",
+          "text": "→ AI 代理持續追蹤機構費率異動"
+        },
+        {
+          "label": "追蹤器硬體品牌混雜",
+          "text": "→ 第三方 GPS 供應商整合至同一車隊視圖"
+        },
+        {
+          "label": "客服負擔沉重",
+          "text": "→ 車主自助入口網站處理申訴"
+        },
+        {
+          "label": "行政作業成本高",
+          "text": "→ 自動化流程與通知"
+        },
+        {
+          "label": "成本不透明",
+          "text": "→ 即時報表與分析"
+        }
+      ]
+    },
+    "ai": {
+      "title": "車隊營運中的人工智慧",
+      "intro": "MyEZToll 是租車產業中第一個將 AI 代理實際投入正式營運的通行費與違規平台——不是介面上外掛的聊天機器人，而是真正承擔營運工作的軟體。",
+      "cards": {
+        "rateResearch": {
+          "title": "自主通行費率研究",
+          "items": [
+            "AI 代理研讀通行費機構資料來源與費率表",
+            "自動發現費率異動與新增收費設施",
+            "更新平台內各收費站與起訖點計價資料",
+            "自我修復機制：重試、替代來源、驗證比對",
+            "任何計價異動套用前皆先進行試跑檢視"
+          ]
+        },
+        "documents": {
+          "title": "文件與罰單智慧解析",
+          "items": [
+            "以 AI 解析違規通知與通行費帳單",
+            "透過 AI OCR 與條碼解碼讀取駕照資料",
+            "自動擷取車牌、日期、金額與管轄機關",
+            "產出結構化資料，免除人工重新鍵入"
+          ]
+        },
+        "tripMatching": {
+          "title": "行程與費用比對",
+          "items": [
+            "通行費自動比對至對應車輛與預訂",
+            "GPS 軌跡解析至特定收費站、門架與行駛方向",
+            "跨資料來源偵測重複與誤配紀錄",
+            "費用自動歸屬至正確承租人，無需人工審核"
+          ]
+        }
+      }
+    },
+    "gps": {
+      "title": "GPS 追蹤、通行費計算與警示",
+      "intro": "平台內建完整車聯網層：即時車隊追蹤、行程紀錄、地理圍籬與即時警示——同時支援自有追蹤器與第三方 GPS 供應商，並直接以車輛動態驅動通行費計價。",
+      "cards": {
+        "derivedTolls": {
+          "title": "GPS 推算通行費",
+          "items": [
+            "全美收費站與門架座標資料庫",
+            "進出票證系統依起訖點矩陣計價",
+            "雙向橋樑與隧道的方向性比對",
+            "租期結束即計算該筆預訂的通行費總額",
+            "機構帳單寄達後自動核對",
+            "收費站以圖層方式疊加於實際行駛路線上"
+          ]
+        },
+        "liveMap": {
+          "title": "即時地圖與行程紀錄",
+          "items": [
+            "即時車隊地圖顯示每輛追蹤車輛的目前位置",
+            "行程偵測含起訖時間、時長與路線軌跡",
+            "依車輛與預訂回放行駛路線",
+            "通行費事件標示於產生該費用的行程上",
+            "可直接從預訂或車輛紀錄開啟行程檢視"
+          ]
+        },
+        "alerts": {
+          "title": "即時警示",
+          "labeledItems": [
+            {
+              "label": "拖吊偵測",
+              "text": "——車輛正遭拖吊"
+            },
+            {
+              "label": "引擎啟動",
+              "text": "——車輛已發動"
+            },
+            {
+              "label": "引擎熄火",
+              "text": "——車輛已熄火"
+            },
+            {
+              "label": "行程結束",
+              "text": "——車輛已完成行程"
+            }
+          ],
+          "items": [
+            "每則警示皆可透過簡訊及／或電子郵件發送",
+            "可指定通知車主、當前承租人或雙方",
+            "每一種警示類型皆可獨立開啟或關閉"
+          ]
+        },
+        "theft": {
+          "title": "竊盜與尋回",
+          "items": [
+            "車輛遭移動後數秒內即觸發拖吊警示",
+            "獨家偵測技術可區分正常行程與遭拖吊",
+            "立即通知車主，並可持續追蹤即時位置",
+            "完整位置紀錄可供報案與保險理賠使用",
+            "地理圍籬可標記超出約定範圍的移動"
+          ]
+        },
+        "geofencing": {
+          "title": "地理圍籬",
+          "items": [
+            "直接在地圖上繪製區域——圓形或多邊形",
+            "以中心點與半徑設定圓形區域",
+            "自由多邊形適用於停車場、行政區與服務範圍",
+            "區域可依車隊分別編輯與管理"
+          ]
+        },
+        "externalProviders": {
+          "title": "外部 GPS 供應商",
+          "items": [
+            "採外掛架構串接第三方車聯網平台",
+            "Fleet77 整合已正式上線，並持續新增更多供應商",
+            "車輛與位置紀錄自動匯入並保持同步",
+            "自有與第三方追蹤器並列於同一車隊視圖",
+            "供應商警示規則於本平台介面呈現：超速、怠速、停車、非工作時段、拖吊、電量過低、失去通訊、GPS 訊號中斷、急加速、引擎故障燈、保養提醒、閒置未動"
+          ]
+        },
+        "devices": {
+          "title": "裝置與診斷",
+          "items": [
+            "追蹤器可指派並在車輛之間轉移",
+            "裝置健康狀態：最後定位、回報中斷、連線狀況",
+            "依功能支援度呈現各供應商的專屬訊號項目",
+            "自有裝置與第三方裝置清楚區分",
+            "保留原始位置資料，供稽核與申訴舉證使用"
+          ]
+        }
+      }
+    },
+    "keyFeatures": {
+      "title": "重點特色",
+      "cards": {
+        "singleOrg": {
+          "title": "單一組織專屬架構",
+          "text": "為個別車隊營運商提供專屬平台，資料完全隔離並可自訂作業流程。"
+        },
+        "government": {
+          "title": "政府系統整合",
+          "text": "直接串接各州 DMV 系統與市政停車主管機關，取得即時資料。"
+        },
+        "canadian": {
+          "title": "加拿大營運支援",
+          "text": "加拿大收費道路與違規案件與美國費用一併處理——包含 Highway 407 ETR、A25 與 A30——跨境租賃可於單一流程完成。"
+        },
+        "connectors": {
+          "title": "通行費機構連接器",
+          "text": "數十個通行費與違規機構的整合持續穩定運作，無需人工登入各家入口網站即可收取費用。"
+        },
+        "costOptimization": {
+          "title": "成本最佳化",
+          "text": "智慧路線建議與通行費成本分析，有效降低營運支出。"
+        },
+        "mobile": {
+          "title": "行動裝置存取",
+          "text": "支援行動裝置的響應式介面，隨時隨地管理車隊與處理違規案件。"
+        }
+      }
+    },
+    "tech": {
+      "title": "技術架構",
+      "cards": {
+        "frontend": {
+          "title": "前端",
+          "text": "React、響應式設計"
+        },
+        "backend": {
+          "title": "後端",
+          "text": "ASP.NET Core、穩健的 API 架構"
+        },
+        "database": {
+          "title": "資料庫",
+          "text": "Azure SQL Server、查詢最佳化"
+        },
+        "ai": {
+          "title": "AI",
+          "text": "Claude AI 代理負責費率研究、文件 OCR 與資料解析"
+        },
+        "gps": {
+          "title": "GPS 與車聯網",
+          "text": "自有追蹤器並透過外掛串接第三方供應商（Fleet77）"
+        },
+        "cloud": {
+          "title": "雲端",
+          "text": "Microsoft Azure、高可用性"
+        },
+        "automation": {
+          "title": "自動化",
+          "text": "Playwright、Puppeteer 網頁資料擷取"
+        },
+        "security": {
+          "title": "資訊安全",
+          "text": "企業級資安防護、符合 AML 法遵要求"
+        }
+      }
+    },
+    "cta": {
+      "title": "準備好讓車隊營運全面自動化了嗎？",
+      "text": "採用我們的企業級解決方案，徹底擺脫人工通行費作業與停車違規管理。",
+      "requestDemo": "預約產品展示",
+      "visitSite": "前往網站",
+      "ownerPortal": "車主入口網站"
+    },
+    "bookingIntegrations": {
+      "title": "預訂平台整合",
+      "intro": "車隊不必從零開始——您原本就有預訂系統。MyEZToll 直接與其串接，車輛、預訂與承租人資料自動同步匯入，每一筆通行費與違規都能對應到正確的租賃合約，並向正確的對象收費。",
+      "badges": {
+        "live": "正式上線",
+        "inDevelopment": "開發中"
+      },
+      "cards": {
+        "hqRental": {
+          "title": "HQ Rental",
+          "text": "我們整合最深入的平台，已正式上線。車隊與預訂資料雙向同步，費用亦可回寫至租賃合約。",
+          "items": [
+            "車輛、預訂與聯絡人雙向同步",
+            "通行費與違規以合約明細項目回寫",
+            "每筆費用自動辨識對應承租人",
+            "車主帳務與撥款對帳",
+            "支援多據點與加盟車隊"
+          ]
+        },
+        "turo": {
+          "title": "Turo",
+          "text": "完整支援 P2P 模式，已正式上線。行程、承租人與車輛資料自 Turo 自動解析，車主不必再人工追討通行費。",
+          "items": [
+            "自動匯入行程與承租人資料",
+            "通行費精準比對至特定行程與承租人",
+            "費用歸屬至承租人而非車主",
+            "通行費代墊與結算全程追蹤",
+            "同一車隊可管理多個 Turo 帳號"
+          ]
+        },
+        "upcoming": {
+          "title": "更多平台即將推出",
+          "text": "另有六套預訂系統正積極開發中，皆建構於同一套供應商介面之上。",
+          "items": [
+            "EasyRentPro",
+            "RENTALL",
+            "RentCentric",
+            "Renteon",
+            "TSD",
+            "Wheelbase"
+          ]
+        }
+      },
+      "outro": "每個平台都是同一套共通介面下的外掛模組，因此新增預訂系統只需開發連接器，而非重建系統。告訴我們您使用哪一套，我們會優先支援。"
+    }
+  },
+  "myEZWheelsDetail": {
+    "hero": {
+      "tagline": "車輛租賃專用的多租戶店面平台",
+      "subtitle": "在您自己的網域上，推出專屬品牌的租車網站。多租戶架構搭配資料庫驅動的內容、15 種語言店面、手機駕照擷取與自動化付款。",
+      "tryDemo": "免費試用展示",
+      "visitPlatform": "前往平台",
+      "stats": {
+        "languages": "種語言",
+        "multi": "多",
+        "tenant": "租戶",
+        "ai": "AI",
+        "powered": "驅動",
+        "cloud": "雲端",
+        "native": "原生"
+      }
+    },
+    "whatIs": {
+      "title": "什麼是 MyEZWheels？",
+      "p1": "MyEZWheels 是一套多租戶店面平台，讓車輛租賃公司無須自行開發，就能推出完整而專業的線上預訂網站。每個租戶皆以主機名稱識別，因此每家公司都在自己的網址上運作，擁有專屬的車隊、定價、品牌與客戶資料，並與平台上其他租戶完全隔離。",
+      "p2": "先從免費子網域（yourcompany.myezwheels.com）開始，隨時可在準備就緒後轉移到自有網域。標誌、色彩、圖像、頁面內容與各據點聯絡資訊，全部可在車主入口網站中設定，無須重新部署，也不需要工程師介入。"
+    },
+    "forWhom": {
+      "title": "適合哪些對象？",
+      "items": {
+        "rentalCompanies": {
+          "label": "租車公司",
+          "text": "希望將營運數位化"
+        },
+        "fleetOperators": {
+          "label": "車隊業者",
+          "text": "想直接向客戶提供租賃服務"
+        },
+        "entrepreneurs": {
+          "label": "創業者",
+          "text": "正要開創全新的租賃事業"
+        },
+        "existingBusinesses": {
+          "label": "既有租賃業者",
+          "text": "希望汰換老舊系統、邁向現代化"
+        },
+        "multiLocationChains": {
+          "label": "多據點連鎖租賃業者",
+          "text": "需要集中化管理"
+        },
+        "p2pHosts": {
+          "label": "個人對個人出租車主",
+          "text": "想擺脫僅靠平台曝光，轉向直接接單"
+        }
+      }
+    },
+    "capabilities": {
+      "title": "主要功能",
+      "storefronts": {
+        "title": "多租戶店面",
+        "text": "以主機名稱識別租戶（子網域或自有網域），每家公司的車隊、訂單、客戶與品牌形象皆彼此隔離。"
+      },
+      "languages": {
+        "title": "15 種語言店面",
+        "text": "所有店面文字都存放在資料庫中，並自動翻譯成 15 種語言，因此修改文案無須重新發版。"
+      },
+      "license": {
+        "title": "手機駕照擷取",
+        "text": "承租人掃描 QR Code，用手機拍攝駕照。PDF417 條碼解碼搭配 AI OCR，即時填入表單。"
+      },
+      "payments": {
+        "title": "Stripe Connect 付款",
+        "text": "支援信用卡付款、保證金與自動撥款至租賃公司自己的 Stripe 帳戶，並支援多幣別。"
+      },
+      "fleet": {
+        "title": "車隊與車型管理",
+        "text": "車輛庫存、車型分類、相片集、季節性定價、可租狀態與各據點設定。"
+      },
+      "integrations": {
+        "title": "平台整合",
+        "text": "訂單與外部平台同步，通行費、違規與 GPS 資料則由 MyEZToll 匯入，整合為單一營運全貌。"
+      }
+    },
+    "problems": {
+      "title": "解決哪些問題",
+      "items": {
+        "noDirectChannel": {
+          "label": "缺乏直接銷售通路",
+          "text": "在自有網域上建立專屬品牌的訂車網站"
+        },
+        "manualBooking": {
+          "label": "人工作業的訂車流程",
+          "text": "即時查看可租狀態，線上立即完成預訂"
+        },
+        "paperVerification": {
+          "label": "紙本身分驗證",
+          "text": "以手機掃描駕照並自動擷取資料"
+        },
+        "complexPayments": {
+          "label": "繁瑣的金流處理",
+          "text": "整合 Stripe Connect，涵蓋保證金與自動撥款"
+        },
+        "languageBarriers": {
+          "label": "語言隔閡",
+          "text": "店面內容由資料庫翻譯成 15 種語言"
+        },
+        "contentNeedsDeveloper": {
+          "label": "改內容還要找工程師",
+          "text": "頁面、文字、圖片與聯絡資訊都可在車主入口網站編輯"
+        },
+        "highDevCosts": {
+          "label": "高昂的開發成本",
+          "text": "以隨開即用的平台取代客製開發"
+        }
+      }
+    },
+    "brand": {
+      "title": "您的品牌，您的網域",
+      "intro": "每個店面都是「設定」出來的，而不是「寫」出來的。租戶無須碰觸平台程式，即可掌控網站的外觀與文案。",
+      "domains": {
+        "title": "網域與品牌形象",
+        "items": [
+          "免費子網域：yourcompany.myezwheels.com",
+          "可使用自有網域",
+          "上傳標誌、主視覺圖片與設計素材",
+          "自訂配色方案與佈景主題",
+          "各據點的地址、電話與聯絡人"
+        ]
+      },
+      "content": {
+        "title": "資料庫驅動的內容",
+        "items": [
+          "店面文字以可編輯的內容組合形式儲存",
+          "自動翻譯成 15 種語言",
+          "自訂租戶頁面（條款、常見問題、關於我們、政策）",
+          "可依租戶覆寫任何文案",
+          "變更即時上線，無須部署"
+        ]
+      },
+      "booking": {
+        "title": "預訂與合規流程",
+        "items": [
+          "訂車時掃描並驗證駕照",
+          "租賃合約與必要的審核核准",
+          "保證金授權與釋出",
+          "自動寄送訂單確認與提醒郵件",
+          "通行費與違規罰款轉嫁給承租人"
+        ]
+      }
+    },
+    "tech": {
+      "title": "技術架構",
+      "frontend": {
+        "title": "前端",
+        "text": "React、TypeScript、現代化響應式設計"
+      },
+      "backend": {
+        "title": "後端",
+        "text": "ASP.NET Core REST API、Entity Framework Core"
+      },
+      "database": {
+        "title": "資料庫",
+        "text": "Azure SQL Server"
+      },
+      "cloud": {
+        "title": "雲端",
+        "text": "Microsoft Azure、自動擴充的 App Service"
+      },
+      "payments": {
+        "title": "付款",
+        "text": "Stripe Connect、多幣別支援"
+      },
+      "ai": {
+        "title": "AI 與自動化",
+        "text": "以 Claude AI 進行文件 OCR 與內容翻譯"
+      }
+    },
+    "cta": {
+      "title": "準備好開創您的租賃事業了嗎？",
+      "text": "幾分鐘內就能讓專屬品牌的租車網站上線。無須寫程式，也不需要 IT 團隊。",
+      "startTrial": "開始免費試用",
+      "visitSite": "前往網站",
+      "requestPricing": "洽詢報價"
+    },
+    "bookingIntegrations": {
+      "title": "訂車平台整合",
+      "intro": "MyEZWheels 可與您現有的訂車系統併行運作。保留既有的後台，再疊上一個專屬品牌的店面，或依自己的步調逐步完成移轉。",
+      "badges": {
+        "live": "已上線",
+        "inDevelopment": "開發中"
+      },
+      "cards": {
+        "hqRental": {
+          "title": "HQ Rental",
+          "text": "已上線的整合，支援雙向同步，讓您的店面與後台對於可租車輛的認知永遠一致。",
+          "items": [
+            "車輛與可租狀態雙向同步",
+            "線上成立的訂單會出現在您的後台",
+            "客戶與合約資料保持一致",
+            "費用與加購項目自動對帳"
+          ]
+        },
+        "turo": {
+          "title": "Turo",
+          "text": "直接接單與 Turo 併行經營。個人出租車主既能保有平台曝光，也能建立屬於自己的通路。",
+          "items": [
+            "Turo 行程與房客匯入統一的車隊檢視",
+            "直接訂單與平台行程共用同一份行事曆",
+            "通行費與其他費用正確歸屬到對應房客",
+            "支援多個 Turo 帳戶"
+          ]
+        },
+        "upcoming": {
+          "title": "更多平台即將推出",
+          "text": "另有六套訂車系統正以相同的外掛架構積極開發中。",
+          "items": [
+            "EasyRentPro",
+            "RENTALL",
+            "RentCentric",
+            "Renteon",
+            "TSD",
+            "Wheelbase"
+          ]
+        }
+      }
+    }
+  },
+  "productCards": {
+    "buttons": {
+      "tryNow": "立即試用",
+      "viewDetails": "查看詳情",
+      "viewSource": "查看原始碼"
+    },
+    "myEZWheels": {
+      "home": {
+        "subtitle": "車輛租賃專用的多租戶店面平台",
+        "description": "為每家公司打造專屬品牌的租車網站，擁有自己的網域、車隊與定價，並內建訂車、付款與駕駛人身分驗證。",
+        "items": [
+          "多租戶架構",
+          "支援子網域與自有網域",
+          "車隊與訂單管理",
+          "15 種語言店面",
+          "以手機擷取駕照",
+          "可與 Turo 及 HQ Rental 併行運作",
+          "Stripe Connect 付款與保證金"
+        ]
+      },
+      "products": {
+        "subtitle": "車輛租賃店面平台",
+        "description": "在子網域或自有網域上建立多租戶店面，具備車隊管理、資料庫驅動的內容與 15 種語言支援。實際上線運作、服務多家租賃公司的系統。",
+        "items": [
+          "多租戶 SaaS 架構",
+          "自有網域與品牌形象",
+          "駕照掃描與驗證",
+          "Stripe Connect 付款",
+          "Turo 與 HQ Rental 整合",
+          "15 種語言在地化"
+        ]
+      }
+    },
+    "mercadinho25": {
+      "home": {
+        "subtitle": "手工藝產品專屬的市集平台",
+        "description": "專為小型企業與獨立生產者打造的多語言電商市集，內建面向全球消費者的自動化功能。",
+        "items": [
+          "多租戶市集 SaaS",
+          "支援 10 種語言（包含原住民語言）",
+          "以 AI 自動翻譯商品描述",
+          "賣家開通與商品目錄管理",
+          "付款與訂單處理",
+          "針對國際使用者最佳化"
+        ]
+      },
+      "products": {
+        "subtitle": "手工藝產品專屬的市集平台",
+        "description": "串連巴西手工藝師傅與全球買家的多租戶市集。具備 AI 翻譯、社群電商與完整的賣家管理功能。",
+        "items": [
+          "多租戶市集",
+          "支援 10 種語言（包含原住民語言）",
+          "AI 自動翻譯",
+          "Instagram／Facebook 整合",
+          "賣家管理系統"
+        ]
+      }
+    },
+    "myEZToll": {
+      "home": {
+        "subtitle": "車隊業者專用的 AI 通行費、GPS 與違規管理平台",
+        "description": "專為租車公司與車隊業者打造的平台，管理全美與加拿大的通行費、GPS 推算通行費與交通違規。",
+        "items": [
+          "涵蓋數十家收費機構的通行費處理",
+          "涵蓋全美 50 州與加拿大的違規管理",
+          "以 GPS 偵測通行費，並依訂單計價",
+          "拖吊、發動與行程警示，透過 SMS 與電子郵件通知",
+          "整合第三方 GPS（Fleet77 等）",
+          "以 AI 代理研究並更新通行費率",
+          "內建 Turo 與 HQ Rental 整合",
+          "車主入口網站可處理付款與申訴"
+        ]
+      },
+      "products": {
+        "subtitle": "AI 通行費、GPS 與違規管理平台",
+        "description": "為租車公司打造的企業級平台。自動化通行費處理、以 GPS 偵測通行費，並涵蓋全美 50 州與加拿大的違規管理。",
+        "items": [
+          "涵蓋美國 50 州與加拿大",
+          "自動化的通行費與違規處理",
+          "依訂單以 GPS 偵測通行費",
+          "拖吊與發動警示（SMS、電子郵件）",
+          "整合第三方 GPS（Fleet77）",
+          "以 AI 代理持續更新通行費率",
+          "Turo 與 HQ Rental 整合",
+          "車主自助服務入口網站"
+        ]
+      }
+    },
+    "productsCta": {
+      "title": "準備好討論您的專案了嗎？",
+      "description": "我們打造能隨您的業務規模一同成長的正式上線平台，從多租戶 SaaS 到專門的企業級解決方案。",
+      "learnAboutProcess": "了解我們的作業流程"
+    },
+    "aegisLocalizer": {
+      "home": {
+        "subtitle": "適用於任何程式碼庫的 AI 在地化工具",
+        "description": "指定一個程式碼庫與一種語言，它就會找出寫死的 UI 字串，交由 Claude 翻譯，並改寫您的原始碼改用正規的資源檔。",
+        "items": [
+          "自動找出寫死的 UI 字串",
+          "C# 採用 Roslyn 精準剖析，其他語言使用容錯詞法分析",
+          "支援 .NET、網頁、Android、Apple 與 Flutter",
+          "可產出 .resx、i18next JSON、strings.xml、.strings 與 .arb",
+          "改寫原始碼，改為查詢資源檔",
+          "離線雜訊過濾，在第一次呼叫前就先降低 API 成本",
+          "增量執行：只有新增或改寫過的字串才會產生費用",
+          "使用您自己的 Anthropic API 金鑰"
+        ]
+      },
+      "products": {
+        "subtitle": "適用於任何程式碼庫的 AI 在地化工具",
+        "description": "一套 CLI 與本機 GUI，掃描專案中面向使用者的字串，交由 Claude 分類、翻譯成任何語言，並改寫原始碼改用資源檔。支援五種技術堆疊，並提供備份與參數佔位符驗證。",
+        "items": [
+          "五種平台：.NET、網頁、Android、Apple、Flutter",
+          "由 Claude 驅動的分類與翻譯",
+          "自動改寫原始碼，並保留位元完全相同的備份",
+          "每則翻譯都會驗證參數佔位符",
+          "只合併、不覆寫：手動修改得以保留",
+          "CI 模式會在出現新的寫死字串時讓建置失敗"
+        ]
+      }
+    },
+    "hueControl": {
+      "home": {
+        "subtitle": "Philips Hue 照明專用的 Windows 桌面應用程式",
+        "description": "Hue 始終沒為 Windows 推出的桌面控制中心：燈具、房間、情境、感測器與開關，全都集中在一個區域網路上的原生應用程式。",
+        "items": [
+          "原生 Windows 應用程式，不需手機",
+          "燈具、房間、區域與情境集中於同一視窗",
+          "可新增、重新命名及移除任何 Hue 裝置",
+          "將調光開關設定對應到房間與情境",
+          "多個橋接器可群組為多個住家",
+          "僅在區域網路運作，資料不離開您的電腦",
+          "10 種介面語言，完整支援由右至左書寫",
+          "深色與淺色主題，免費且開放原始碼"
+        ]
+      },
+      "products": {
+        "subtitle": "Philips Hue 照明專用的 Windows 桌面應用程式",
+        "description": "一套原生 WPF 應用程式，可在 Windows 上控管 Philips Hue 設備：完整的裝置管理、情境編輯、開關設定與多橋接器支援，直接與區域網路上的橋接器通訊。",
+        "items": [
+          "完整的裝置管理，不只是開關燈",
+          "情境與房間編輯，並提供色彩預覽",
+          "調光開關設定與電池狀態顯示",
+          "多橋接器與多住家切換",
+          "純本機運作，不需雲端帳號，也不回傳遙測資料",
+          "10 種語言、由右至左書寫支援、深色與淺色主題"
+        ]
+      }
+    }
+  },
+  "setPassword": {
+    "title": "設定密碼",
+    "emailPlaceholder": "請輸入您的電子郵件",
+    "passwordLabel": "密碼",
+    "passwordPlaceholder": "請輸入您的密碼",
+    "confirmPasswordLabel": "再次輸入密碼",
+    "confirmPasswordPlaceholder": "請再次輸入您的密碼",
+    "submit": "設定",
+    "errors": {
+      "passwordsDoNotMatch": "兩次輸入的密碼不一致"
+    }
+  },
+  "mercadinho25": {
+    "title": "建置中",
+    "description": "此頁面目前正在建置中，敬請稍後再回來查看。"
+  },
+  "languageSwitcher": {
+    "ariaLabel": "變更語言"
+  },
+  "aegisLocalizerDetail": {
+    "hero": {
+      "title": "適用於任何程式碼庫的 AI 在地化方案",
+      "subtitle": "指定一個程式碼庫與一種語言即可。它會找出硬編碼的 UI 字串，交由 Claude 翻譯，並改寫原始碼改用資源檔。"
+    },
+    "whatIs": {
+      "title": "認識 Aegis Localizer",
+      "p1": "每一套應用程式最初都把字串直接寫在程式碼裡。要讓它支援第二種語言，通常代表開發者得逐一檔案手動閱讀、判斷哪些字串是使用者真正看得到的、把它們搬進資源檔，然後再改寫所有呼叫處。這是緩慢又機械的工作，沒有人想做第二次。",
+      "p2": "Aegis Localizer 替你完成這道流程。它會剖析原始碼，將面向使用者的文字與 URL、SQL、識別碼之類的機器字串區分開來，把模稜兩可的案例交給 Claude 判定，將剩下的內容翻譯成你指定的語言，以你的技術堆疊所需的格式寫出資源檔；當你下達指示時，它還會改寫原始碼，讓程式改從這些資源讀取文字。",
+      "p3": "它就是為了反覆執行而設計。判定結果與翻譯都會快取，因此沒有變動的地方，第二次執行不需任何成本；改寫過的英文字串會被標記為過期並重新翻譯，而新增語言則可沿用先前已付費完成的分類成果。"
+    },
+    "forWhom": {
+      "title": "適合誰使用",
+      "items": [
+        {
+          "label": "邁向多語的產品團隊：",
+          "text": "既有的單語應用程式，如今需要在五個、十個甚至二十個市場上線。"
+        },
+        {
+          "label": ".NET 團隊：",
+          "text": "C# 以 Roslyn 剖析，因此逐字字串、原始字串與內插字串都能正確解碼，並取得精準的原始碼範圍。"
+        },
+        {
+          "label": "網頁、行動與跨平台團隊：",
+          "text": "React、Vue、Svelte、Android、iOS 與 Flutter 專案都採用同一套流程處理。"
+        },
+        {
+          "label": "平台與建置工程師：",
+          "text": "僅掃描模式搭配 JSON 輸出，可將工具變成 CI 關卡，在程式碼審查階段攔截新出現的硬編碼字串。"
+        },
+        {
+          "label": "代理商與顧問公司：",
+          "text": "用一個下午完成客戶程式碼庫的在地化，而不是報價一個為期數週的人工專案。"
+        }
+      ]
+    },
+    "pipeline": {
+      "title": "運作方式",
+      "intro": "共六個階段，每一階段都力求盡量少耗用你的 API 預算，並且在無法確定時選擇拒絕處理，而不是憑猜測行事。",
+      "cards": {
+        "scan": {
+          "title": "精準掃描",
+          "text": "C# 透過 Roslyn 取得逐字字串、原始字串與內插字串的精確原始碼範圍。其他技術堆疊則使用容錯詞法分析器，遮蔽註解與既有的資源查詢，同時保留位元組位移，讓每一處修改都落在正確位置。"
+        },
+        "filter": {
+          "title": "離線雜訊過濾",
+          "text": "URL、檔案路徑、GUID、MIME 類型、SQL、日期格式、SCREAMING_SNAKE 常數，以及 nameof、switch 模式、路由屬性與 Android id 之類的結構性內容，都會在本機捨棄。在此被過濾掉的內容永遠不會送到 API，你也就不必為它付費。"
+        },
+        "classify": {
+          "title": "Claude 分類",
+          "text": "通過過濾的字串會由 Claude 透過強制工具呼叫進行分類，因此回傳的是經結構描述驗證的 JSON，內含是否面向使用者的判定、判定理由與資源鍵。此階段與語言無關，並且會快取。"
+        },
+        "resources": {
+          "title": "資源套件",
+          "text": "翻譯會以你的技術堆疊所需的格式寫出，並與既有內容合併。已由人工編修的翻譯會保留下來，絕不覆寫。"
+        },
+        "rewrite": {
+          "title": "原始碼改寫",
+          "text": "加上套用旗標後，呼叫處會改寫為資源查詢。每個被更動的檔案都會先做位元組級備份；自掃描以來曾變動的檔案則會跳過，而不會被破壞。"
+        },
+        "incremental": {
+          "title": "增量執行",
+          "text": "工具會記住每筆翻譯所依據的英文原文。改寫字串後它就會過期並重新翻譯；什麼都沒改，這次執行就完全不花成本。"
+        }
+      }
+    },
+    "stacks": {
+      "title": "支援的技術堆疊",
+      "intro": "五種平台，各有專屬的讀取器、資源格式與改寫方式。自動平台偵測會檢視專案目錄樹，且每種堆疊都附有可執行的範例專案。",
+      "labels": {
+        "reads": "讀取：",
+        "writes": "寫出：",
+        "rewrites": "改寫為："
+      },
+      "outro": "以自動偵測模式指向一個版本庫，它在讀取第一個字串之前，就會判斷出適用其中哪一種。"
+    },
+    "safety": {
+      "title": "安全性與正確性",
+      "intro": "漏掉一個字串，只花你一分鐘；建置壞掉，卻要賠上一個下午。本工具刻意設計成：只要改寫無法確保正確，就回報而不猜測。",
+      "items": [
+        {
+          "label": "位元組級備份：",
+          "text": "工具改寫的每個檔案都會先行複製，因此任何一次執行都能完整還原。"
+        },
+        {
+          "label": "範圍驗證：",
+          "text": "在掃描與改寫之間被編輯過的檔案會直接跳過，不會依過期位移套用修補。"
+        },
+        {
+          "label": "預留位置驗證：",
+          "text": "若翻譯遺失或憑空多出 {0}、%s 或 {{count}} 之類的預留位置，會在寫入資源檔之前就被拒絕。"
+        },
+        {
+          "label": "寧缺勿錯：",
+          "text": "翻譯失敗時會讓該鍵保持缺漏，使應用程式回退到英文，並在下次執行時重試。"
+        },
+        {
+          "label": "合併而非覆寫：",
+          "text": "資源儲存會合併進既有的套件，因此人工修正過的翻譯會維持修正後的內容。"
+        },
+        {
+          "label": "經結構描述驗證的模型輸出：",
+          "text": "分類透過強制工具呼叫進行，因此流程取用的是結構化資料，而非解析散文。"
+        }
+      ]
+    },
+    "problems": {
+      "title": "它解決的問題",
+      "items": [
+        {
+          "label": "人工抽取流程：",
+          "text": "不必再逐一檔案閱讀，只為判斷哪些字串是使用者真正看得到的。"
+        },
+        {
+          "label": "AI 翻譯的成本：",
+          "text": "離線過濾加上可快取、與語言無關的分類階段，代表只有可能重要的字串才會送去問 API。"
+        },
+        {
+          "label": "新增第十種語言：",
+          "text": "分類只需付費一次；每新增一種語言，只需負擔翻譯本身的費用。"
+        },
+        {
+          "label": "文案修改後的落差：",
+          "text": "翻譯會與其對應的英文原文綁定追蹤，因此改寫過的文字會被偵測並重做。"
+        },
+        {
+          "label": "新程式碼造成的退步：",
+          "text": "僅掃描模式搭配 JSON 輸出，可在有人新增硬編碼字串時讓建置失敗。"
+        },
+        {
+          "label": "翻譯中格式損壞：",
+          "text": "預留位置驗證能攔下那類只有在執行階段、且在團隊裡沒人看得懂的語言中才會現形的錯誤。"
+        }
+      ]
+    },
+    "delivery": {
+      "title": "執行方式",
+      "cards": {
+        "cli": {
+          "title": "命令列工具",
+          "text": "以 .NET 全域工具安裝，對專案目錄執行單一指令即可，並提供僅掃描與套用兩種模式。"
+        },
+        "gui": {
+          "title": "本機網頁 GUI",
+          "text": "ui 指令會在閒置的連接埠上啟動本機網頁介面並開啟瀏覽器，適合不想操心指令旗標的使用者。"
+        },
+        "binaries": {
+          "title": "獨立執行檔",
+          "text": "提供 Windows x64、Apple 晶片與 Intel 版 macOS，以及 Linux x64 的獨立組建，無須先安裝執行環境。"
+        },
+        "ci": {
+          "title": "CI 整合",
+          "text": "JSON 輸出搭配僅掃描模式，可組成建置關卡，回報每一個新出現的硬編碼字串，而不更動工作目錄。"
+        },
+        "byok": {
+          "title": "自備金鑰",
+          "text": "工具使用你自己的金鑰連線 Anthropic API，因此翻譯支出在你自己的帳戶中清楚可見、可控。"
+        },
+        "hosted": {
+          "title": "託管模式",
+          "text": "同一套網頁應用程式也能以託管服務運行：它會將上傳的封存檔接收進每次請求專屬的沙箱，拒絕存取伺服器路徑，且絕不動用營運方的額度。"
+        }
+      }
+    },
+    "limits": {
+      "title": "它不做的事",
+      "intro": "明確界定範圍也是設計的一部分。本工具旨在消除機械性的工作，而非替你的版本發布承擔責任。",
+      "items": [
+        "它不能取代面向客戶的文案、品牌語調或法律文字的人工審閱。",
+        "它不會重構你的應用程式在地化架構；它會沿用你的技術堆疊既有的資源慣例。",
+        "它不會碰那些無法安全改寫的字串；這些會另行回報，交由你處理。",
+        "它不會執行你的建置或測試，因此請照常檢閱差異並自行執行。",
+        "它不處理版面配置：不同語言之間的文字長度變化，仍需由你自行設計因應。"
+      ]
+    },
+    "tech": {
+      "title": "技術堆疊",
+      "cards": {
+        "core": {
+          "title": "核心",
+          "text": "以 .NET 9 上的 C# 開發，建置為跨平台主控台應用程式，並搭配共用的核心函式庫。"
+        },
+        "parsing": {
+          "title": "剖析",
+          "text": "C# 使用 Roslyn（Microsoft.CodeAnalysis.CSharp），另有為 TypeScript、JavaScript、Vue、Svelte、Kotlin、Java、Swift、Objective-C、Dart、XML 與 HTML 量身打造的容錯詞法分析器。"
+        },
+        "ai": {
+          "title": "AI",
+          "text": "透過 Messages API 使用 Anthropic Claude，以強制工具呼叫達成經結構描述驗證的分類，並支援批次請求與受限併發。"
+        },
+        "web": {
+          "title": "GUI",
+          "text": "ASP.NET Core minimal API 提供無相依套件的 HTML、CSS 與 JavaScript 前端，無須任何建置步驟。"
+        },
+        "formats": {
+          "title": "資源格式",
+          "text": "RESX、i18next JSON、Android strings.xml、Apple .strings 與 Flutter ARB，各自具備專屬的合併式儲存。"
+        },
+        "testing": {
+          "title": "測試",
+          "text": "xUnit 測試套件可完全離線針對假模型執行，因此驗證整條流程不需消耗任何 token。"
+        },
+        "platforms": {
+          "title": "執行平台",
+          "text": "Windows、macOS 與 Linux，可作為 .NET 全域工具或獨立執行檔。"
+        },
+        "privacy": {
+          "title": "資料處理",
+          "text": "只有候選字串會送給模型；被過濾掉的機器字串與其餘原始碼永遠不會離開你的機器。"
+        }
+      }
+    },
+    "cta": {
+      "title": "為你的應用程式在地化",
+      "text": "無論是單一產品要進軍新市場，或是一整批應用程式受困於單一語言，我們都能與你一起跑完第一輪流程，並在套用任何變更前先讓你檢視差異。",
+      "contact": "與我們聯絡",
+      "sourceCode": "在 GitHub 檢視原始碼",
+      "licenseNote": "Aegis Localizer 為專有軟體。原始碼公開是為了供人閱讀與審閱；它並非開放原始碼，商業使用須取得 Aegis AO Soft LLC 的授權。"
+    }
+  },
+  "hueControlDetail": {
+    "hero": {
+      "title": "你的 Philips Hue 燈光專屬 Windows 控制中心",
+      "subtitle": "原生桌面應用程式，用於管理燈具、房間、情境、感測器與開關，並在區域網路上直接與你的橋接器通訊。"
+    },
+    "whatIs": {
+      "title": "認識 HueControl",
+      "p1": "Philips Hue 有手機、平板與語音助理的應用程式，卻始終沒有一套像樣的 Windows 桌面應用程式。如果你整天坐在電腦前，想調整同一個房間的燈光，還得拿起手機。",
+      "p2": "HueControl 補上了這個缺口。它是一套原生 Windows 應用程式，透過區域網路直接連上你的 Hue 橋接器，把一切集中在單一視窗中：所有燈具、房間、區域與情境，還有簡易桌面工具通常忽略的感測器、插座與開關。",
+      "p3": "它不只是開與關。你可以新增與移除裝置、重新命名、建立與編輯房間、區域與情境、設定調光開關的行為、查看配件電量，並管理多個橋接器並分組為住家，隨時即刻切換。"
+    },
+    "forWhom": {
+      "title": "適合誰使用",
+      "items": [
+        {
+          "label": "使用 Hue 燈具的 Windows 使用者：",
+          "text": "任何在桌前工作、寧可用鍵盤而非手機調整燈光的人。"
+        },
+        {
+          "label": "擁有大型佈署的使用者：",
+          "text": "橫跨多個橋接器的多個房間、區域、感測器與開關，全部集中在單一視窗。"
+        },
+        {
+          "label": "重視隱私的家庭：",
+          "text": "應用程式只與你自家網路上的橋接器通訊；沒有雲端帳號，也沒有遙測資料。"
+        },
+        {
+          "label": "智慧家庭愛好者：",
+          "text": "官方行動應用程式操作繁瑣或藏得很深的裝置管理與開關設定功能。"
+        },
+        {
+          "label": "開發者：",
+          "text": "簡潔、無第三方相依的 WPF 與 MVVM 程式碼庫，以 GPL-3.0 授權發布，可自由閱讀與修改。"
+        }
+      ]
+    },
+    "capabilities": {
+      "title": "它能做什麼",
+      "cards": {
+        "lights": {
+          "title": "燈具與房間",
+          "text": "支援單一燈具與整個房間的開關，並具備同步的亮度滑桿。所有項目依房間與裝置類型分組，讓大型佈署也一目了然。"
+        },
+        "color": {
+          "title": "顏色與色溫",
+          "text": "顏色選擇器在選色器、Hue 色彩空間與色溫之間正確換算，讓你在螢幕上挑選的顏色，就是燈具實際呈現的顏色。"
+        },
+        "devices": {
+          "title": "裝置管理",
+          "text": "搜尋並新增燈具、插座、動作感測器、調光開關與按鈕；重新命名；移除你已不再擁有的裝置。是完整管理，而不只是控制。"
+        },
+        "switches": {
+          "title": "開關設定",
+          "text": "將調光開關繫結到某個房間，讓它的 ON 按鈕喚起該房間的情境，並一眼掌握配件電量與最後活動時間。"
+        },
+        "scenes": {
+          "title": "情境與區域",
+          "text": "建立、重新命名與刪除房間、區域與情境，內建 Relax、Concentrate、Energize 與 Savanna Sunset 等 Hue 預設情境，並以彩現的色彩預覽呈現。"
+        },
+        "bridges": {
+          "title": "多台橋接器",
+          "text": "將多台橋接器分組為住家並即刻切換。探索作業透過 Hue 探索服務進行，若網路阻擋則回退為手動輸入 IP。"
+        },
+        "local": {
+          "title": "僅限區域網路",
+          "text": "應用程式直接與你 LAN 上的橋接器 REST API 通訊。橋接器資訊儲存在你自己的 Windows 設定檔中，不會傳送到任何其他地方。"
+        },
+        "languages": {
+          "title": "十種語言",
+          "text": "介面提供十種語言，包含具備完整由右至左版面的阿拉伯文與希伯來文，並可即時切換語言，無須重新啟動。"
+        },
+        "themes": {
+          "title": "深色與淺色佈景主題",
+          "text": "自訂的無邊框視窗搭配可切換的深色與淺色配色，讓應用程式契合你使用 Windows 的方式。"
+        }
+      }
+    },
+    "problems": {
+      "title": "它解決的問題",
+      "items": [
+        {
+          "label": "沒有官方 Windows 應用程式：",
+          "text": "這正是本產品存在要填補的缺口；Hue 推出了行動與語音方案，卻沒有桌面版。"
+        },
+        {
+          "label": "還得去拿手機：",
+          "text": "工作時調整燈光，不該還要動用第二台裝置。"
+        },
+        {
+          "label": "只能控制的桌面工具：",
+          "text": "多數第三方工具只能切換燈具開關；這一套還能新增、移除、重新命名與設定它們。"
+        },
+        {
+          "label": "開關設定：",
+          "text": "調光按鈕的行為設定在行動應用程式裡藏得很深，在這裡卻直截了當。"
+        },
+        {
+          "label": "不只一台橋接器：",
+          "text": "大型或跨建築的佈署可視為住家管理，並即刻切換。"
+        },
+        {
+          "label": "對雲端的依賴：",
+          "text": "燈具就在你的網路上，控制它們的應用程式當然也該在你的網路上運作。"
+        }
+      ]
+    },
+    "privacy": {
+      "title": "隱私與資料",
+      "intro": "設計原則很簡單：你的燈光是一套本機系統，那麼控制它的軟體也該表現得像一套本機系統。",
+      "items": [
+        "所有通訊都透過 REST API 送往你區域網路上的 Hue 橋接器。",
+        "不需帳號、不需登入，也沒有由我們營運的雲端服務。",
+        "橋接器連線資訊儲存在你本機的 Windows 使用者設定檔中。",
+        "不蒐集任何形式的分析、追蹤或遙測資料。",
+        "只有在尋找橋接器時才會連線 Hue 探索服務，若你不希望如此，也可以手動輸入 IP。",
+        "完整原始碼以 GPL-3.0 公開，因此上述每一項聲明都能自行查證。"
+      ]
+    },
+    "languages": {
+      "title": "語言與無障礙",
+      "intro": "介面是完整翻譯，而非部分在地化，且版面會隨語言調整，不會預設文字一定由左至右。",
+      "items": [
+        "英文、西班牙文、葡萄牙文、法文、德文與俄文。",
+        "阿拉伯文與希伯來文，具備完整的由右至左版面翻轉。",
+        "簡體中文與繁體中文。",
+        "語言即時切換，無須重新啟動應用程式。",
+        "每一個介面字串都經過翻譯，不只是主要畫面。"
+      ]
+    },
+    "tech": {
+      "title": "技術堆疊",
+      "cards": {
+        "platform": {
+          "title": "平台",
+          "text": "以 .NET 9 上的 C# 開發，以桌面應用程式形式支援 Windows 10 與 11。"
+        },
+        "ui": {
+          "title": "使用者介面",
+          "text": "WPF，搭配自訂的無邊框視窗外框，以及可切換的深色與淺色佈景主題資源字典。"
+        },
+        "architecture": {
+          "title": "架構",
+          "text": "手工打造的 MVVM：可觀察物件、同步與非同步轉送命令、滑桿輸入去彈跳，以及分組集合。"
+        },
+        "bridge": {
+          "title": "橋接器整合",
+          "text": "Philips Hue 本機橋接器 REST API，包含在 LAN 上出示 Hue Bridge 根憑證的 HTTPS 橋接器。"
+        },
+        "dependencies": {
+          "title": "相依套件",
+          "text": "零第三方 NuGet 套件。整套應用程式完全建立在 .NET 基底類別庫與 WPF 之上。"
+        },
+        "i18n": {
+          "title": "在地化",
+          "text": "自訂字串目錄涵蓋十種語言的完整介面，並針對由右至左的語系翻轉排列方向。"
+        },
+        "testing": {
+          "title": "測試",
+          "text": "xUnit 測試套件搭配樁化的 HTTP 處理常式以供離線執行，另有可選加入、實際操作真實橋接器的測試。"
+        },
+        "license": {
+          "title": "授權",
+          "text": "以 GPL-3.0 免費開放原始碼，完整原始碼可於 GitHub 取得。"
+        }
+      }
+    },
+    "requirements": {
+      "title": "系統需求",
+      "items": [
+        "Windows 10 或 Windows 11。",
+        "與電腦位於同一區域網路的 Philips Hue 橋接器。",
+        ".NET 9 Desktop Runtime，或內含此執行環境的獨立組建。",
+        "首次連線時需實際按一次橋接器上的按鈕，以授權應用程式。"
+      ]
+    },
+    "cta": {
+      "title": "試用 HueControl",
+      "text": "這套應用程式已開發完成並開放原始碼。你可以閱讀程式碼、自行建置，或與我們聯絡，若你想要打包好的組建或針對自身佈署的客製調整。",
+      "sourceCode": "在 GitHub 檢視原始碼",
+      "privacyPolicy": "隱私權政策",
+      "contact": "聯絡我們",
+      "trademarkNote": "HueControl 為獨立開發的應用程式，與 Signify N.V. 或 Philips 並無關聯，亦未獲其背書或贊助。「Philips Hue」為 Signify Holding 的商標。"
+    }
+  }
+}

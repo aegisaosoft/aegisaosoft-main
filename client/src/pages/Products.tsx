@@ -122,6 +122,54 @@ export function Products() {
               </div>
             </article>
 
+            {/* Aegis Localizer */}
+            <article className="service-card card-clickable" style={{ display: 'grid', gridTemplateRows: 'auto auto auto 1fr auto', minHeight: '560px', padding: '1.5rem' }}>
+              <h3 style={{ fontSize: '1.1rem', marginBottom: '0.5rem', gridRow: '1' }}>🌐 Aegis Localizer</h3>
+              <p className="product-subtitle" style={{ fontSize: '0.8rem', fontWeight: '600', marginBottom: '0.75rem', color: 'var(--accent)', gridRow: '2' }}>{t('productCards.aegisLocalizer.products.subtitle')}</p>
+              <p style={{ fontSize: '0.85rem', lineHeight: '1.5', marginBottom: '1rem', gridRow: '3' }}>{t('productCards.aegisLocalizer.products.description')}</p>
+
+              <div style={{ gridRow: '4', alignSelf: 'start' }}>
+                <ul style={{ fontSize: '0.8rem', lineHeight: '1.4', paddingLeft: '1rem', margin: '0' }}>
+                  {(t('productCards.aegisLocalizer.products.items', { returnObjects: true }) as string[]).map((item) => (
+                    <li key={item} style={{ marginBottom: '0.3rem' }}>{item}</li>
+                  ))}
+                </ul>
+              </div>
+
+              <div className="product-actions" style={{ gridRow: '5', paddingTop: '1rem' }}>
+                <div style={{ marginBottom: '0.5rem' }}>
+                  <Link to="/products/aegis-localizer" className="btn btn-primary card-stretched-link" style={{ fontSize: '0.8rem', padding: '0.6rem 1.2rem', width: '100%', textAlign: 'center', display: 'block' }}>{t('productCards.buttons.viewDetails')}</Link>
+                </div>
+                <div style={{ marginBottom: '0.5rem' }}>
+                  <a href="https://github.com/aegisaosoft/aegis-localizer" className="btn btn-secondary" target="_blank" rel="noopener noreferrer" style={{ fontSize: '0.8rem', padding: '0.6rem 1.2rem', width: '100%', textAlign: 'center', display: 'block' }}>{t('productCards.buttons.viewSource')}</a>
+                </div>
+              </div>
+            </article>
+
+            {/* HueControl */}
+            <article className="service-card card-clickable" style={{ display: 'grid', gridTemplateRows: 'auto auto auto 1fr auto', minHeight: '560px', padding: '1.5rem' }}>
+              <h3 style={{ fontSize: '1.1rem', marginBottom: '0.5rem', gridRow: '1' }}>💡 HueControl</h3>
+              <p className="product-subtitle" style={{ fontSize: '0.8rem', fontWeight: '600', marginBottom: '0.75rem', color: 'var(--accent)', gridRow: '2' }}>{t('productCards.hueControl.products.subtitle')}</p>
+              <p style={{ fontSize: '0.85rem', lineHeight: '1.5', marginBottom: '1rem', gridRow: '3' }}>{t('productCards.hueControl.products.description')}</p>
+
+              <div style={{ gridRow: '4', alignSelf: 'start' }}>
+                <ul style={{ fontSize: '0.8rem', lineHeight: '1.4', paddingLeft: '1rem', margin: '0' }}>
+                  {(t('productCards.hueControl.products.items', { returnObjects: true }) as string[]).map((item) => (
+                    <li key={item} style={{ marginBottom: '0.3rem' }}>{item}</li>
+                  ))}
+                </ul>
+              </div>
+
+              <div className="product-actions" style={{ gridRow: '5', paddingTop: '1rem' }}>
+                <div style={{ marginBottom: '0.5rem' }}>
+                  <Link to="/products/huecontrol" className="btn btn-primary card-stretched-link" style={{ fontSize: '0.8rem', padding: '0.6rem 1.2rem', width: '100%', textAlign: 'center', display: 'block' }}>{t('productCards.buttons.viewDetails')}</Link>
+                </div>
+                <div style={{ marginBottom: '0.5rem' }}>
+                  <a href="https://github.com/aegisaosoft/huecontrol" className="btn btn-secondary" target="_blank" rel="noopener noreferrer" style={{ fontSize: '0.8rem', padding: '0.6rem 1.2rem', width: '100%', textAlign: 'center', display: 'block' }}>{t('productCards.buttons.viewSource')}</a>
+                </div>
+              </div>
+            </article>
+
           </div>
         </div>
       </section>
