@@ -207,6 +207,11 @@ export function Home() {
             </article>
 
             <article className="service-card">
+              <h3>📱 {t('home.services.mobileApps.title')}</h3>
+              <p>{t('home.services.mobileApps.description')}</p>
+            </article>
+
+            <article className="service-card">
               <h3>🛠️ {t('home.services.technicalSupport.title')}</h3>
               <p>{t('home.services.technicalSupport.description')}</p>
             </article>
@@ -222,6 +227,36 @@ export function Home() {
         <div className="container">
           <h2>{t('home.architecture.title')}</h2>
           <p className="section-subtitle">{t('home.architecture.subtitle')}</p>
+
+          {/* AI leads the architecture story, so it gets a full-width feature above the grid */}
+          <div style={{
+            marginTop: '2rem',
+            padding: '2rem',
+            borderRadius: '0.75rem',
+            border: '1px solid var(--border)',
+            borderLeft: '5px solid var(--accent)',
+            backgroundColor: 'var(--card-bg)',
+          }}>
+            <p style={{
+              fontSize: '0.75rem',
+              fontWeight: '700',
+              letterSpacing: '0.08em',
+              textTransform: 'uppercase',
+              color: 'var(--accent)',
+              marginBottom: '0.5rem',
+            }}>
+              {t('home.architecture.aiHighlight.label')}
+            </p>
+            <h3 style={{ fontSize: '1.5rem', fontWeight: '700', marginBottom: '0.75rem' }}>
+              🤖 {t('home.architecture.aiHighlight.title')}
+            </h3>
+            <p style={{ fontSize: '1.05rem', lineHeight: '1.6', marginBottom: '1rem' }}>
+              {t('home.architecture.aiHighlight.text')}
+            </p>
+            <Link to="/about" className="btn btn-primary" style={{ fontSize: '0.9rem', padding: '0.6rem 1.4rem' }}>
+              {t('home.architecture.aiHighlight.link')}
+            </Link>
+          </div>
 
           <div className="tech-grid" style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))', gap: '1.5rem', marginTop: '2rem' }}>
             {(t('home.architecture.items', { returnObjects: true }) as string[]).map((item, index) => (

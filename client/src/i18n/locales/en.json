@@ -52,6 +52,10 @@
       "technicalSupport": {
         "title": "Long-term Technical Support",
         "description": "Ongoing maintenance, feature development, and technical partnership for your platforms."
+      },
+      "mobileApps": {
+        "title": "Android and iOS App Development",
+        "description": "Native and cross-platform mobile applications built with .NET MAUI: one C# codebase, real Android and iOS builds, sharing models and API clients with the backend."
       }
     },
     "architecture": {
@@ -59,15 +63,21 @@
       "subtitle": "Our platforms are built using modern, proven technologies to ensure reliability, security, and scalability.",
       "items": [
         "Microsoft Azure cloud platform",
-        "Modern .NET (6–9) and ASP.NET Core",
+        "Modern .NET (6–10) and ASP.NET Core",
         "REST APIs and distributed systems",
         "Entity Framework Core",
         "Microservices architecture",
         "High availability and fault tolerance",
         "CI/CD and DevOps practices",
         "Security and data protection",
-        "AI integration where appropriate"
-      ]
+        ".NET MAUI apps for Android and iOS"
+      ],
+      "aiHighlight": {
+        "label": "Built in, not bolted on",
+        "title": "Artificial intelligence across the stack",
+        "text": "AI is a first-class part of our architecture, not an add-on. Agents keep external reference data current on their own, documents and photographs are read into structured fields, incoming messages are parsed into operational records, and entire products are localized into dozens of languages automatically. Every model call returns schema-validated data, is cached against its inputs, and stays traceable to its source.",
+        "link": "How we use AI"
+      }
     },
     "about": {
       "title": "About Aegis AO Soft",
@@ -127,7 +137,8 @@
     "subtitle": "Secure, reliable software systems for regulated and mission-critical environments",
     "intro": {
       "description": "Aegis AO Soft develops secure, reliable software systems for organizations operating in regulated and mission-critical environments. The company specializes in platforms that support operational continuity, regulatory compliance, and large-scale data processing.",
-      "leadership": "Founded and led by a veteran software architect, Aegis AO Soft combines hands-on technical leadership with decades of experience delivering production systems for government-adjacent industries and complex operational domains."
+      "leadership": "Founded and led by a veteran software architect, Aegis AO Soft combines hands-on technical leadership with decades of experience delivering production systems for government-adjacent industries and complex operational domains.",
+      "ai": "Artificial intelligence is a working part of that engineering rather than a layer added on top. It localizes our platforms into dozens of languages, keeps external reference data current without anyone rechecking it by hand, and reads the documents and messages that our clients' operations actually arrive as — under the same reliability requirements as every other part of the system."
     },
     "missionCritical": {
       "title": "Mission-Critical Operational Systems",
@@ -236,6 +247,63 @@
     "commitment": {
       "title": "Commitment to Reliability and Accountability",
       "description": "Aegis AO Soft engages with organizations that require dependable systems and a long-term technology partner. Our objective is to deliver solutions that remain stable, maintainable, and auditable throughout their operational lifecycle."
+    },
+    "ai": {
+      "title": "Artificial Intelligence in Our Products",
+      "description": "We treat AI as an engineering component, not a feature to advertise. It is used where a task genuinely requires judgment over unstructured input — language, documents, messages, or sources that change without notice — and deterministic code is used everywhere else.",
+      "cards": {
+        "localization": {
+          "title": "Localization and Translation at Scale",
+          "text": "Reaching a new market should not mean rewriting an application by hand.",
+          "items": [
+            "Aegis Localizer scans a codebase, separates user-facing text from machine strings, translates it and rewrites the source to read from resource files — across .NET, web, Android, Apple and Flutter projects.",
+            "Marketplace product descriptions written by a seller in one language are translated automatically into every language the storefront serves, including indigenous languages with almost no translation market.",
+            "Rental storefronts run in 15 languages, and this website itself is published in 9, produced through the same pipeline.",
+            "Translations are validated before they ship: a rendering that loses or invents a formatting placeholder is rejected rather than published."
+          ]
+        },
+        "agents": {
+          "title": "Autonomous Agents That Maintain Data",
+          "text": "Some data goes stale on someone else's schedule. Agents keep it current instead of a person rechecking it by hand.",
+          "items": [
+            "Toll rates change by authority decision, without announcement. Research agents read the toll authorities' own published sources, detect changes and update pricing across the United States and Canada.",
+            "Agents work through the obstacles a human researcher would: navigating portals, handling sources that publish rates only as interactive calculators rather than tables.",
+            "Findings are recorded with their source, so every rate can be traced back to where it came from and reviewed before it takes effect.",
+            "The same pattern applies wherever an external reference dataset has to stay accurate without a person watching it."
+          ]
+        },
+        "documents": {
+          "title": "Documents and Images",
+          "text": "Operational systems receive information as photographs and scans, not as clean data.",
+          "items": [
+            "Driver's licences are captured by phone camera and read into structured fields for verification.",
+            "Machine-readable barcodes are decoded first and treated as authoritative; visual recognition fills only what the barcode does not carry.",
+            "Results are cross-checked between sources rather than trusted from a single reading.",
+            "The same approach extends to invoices, statements and other operational paperwork that arrives as an image."
+          ]
+        },
+        "messages": {
+          "title": "Unstructured Messages and Events",
+          "text": "Integrations are often one-way: a partner platform sends email, not an API call.",
+          "items": [
+            "Booking notifications from partner rental platforms are parsed into structured reservations — dates, vehicle, driver, identifiers.",
+            "Templates change without warning. When a message no longer matches the expected shape, an AI pass recovers the meaning instead of the integration silently failing.",
+            "Deterministic parsing runs first and AI only handles what it could not resolve, which keeps both cost and unpredictability down.",
+            "Anything still ambiguous is flagged for a person rather than guessed at."
+          ]
+        }
+      },
+      "principles": {
+        "title": "How we keep it dependable:",
+        "items": [
+          "Models return schema-validated structured data, never free-form prose the system has to interpret.",
+          "Cheap deterministic filters run before any model call, so the expensive step only sees what actually needs judgment.",
+          "Results are cached and tracked against their inputs: unchanged work is never paid for twice, and changed input is detected and redone.",
+          "Every AI-derived value keeps a link to its source and remains reviewable by a person.",
+          "When confidence is low the system reports instead of guessing — a missing value is recoverable, a confidently wrong one is not."
+        ]
+      },
+      "philosophy": "AI earns its place in a product by removing work that would otherwise be done by hand, under the same reliability requirements as the rest of the system."
     }
   },
   "contact": {
@@ -1047,7 +1115,7 @@
         },
         "ownerPortal": {
           "title": "Owner Self-Service Portal",
-          "text": "Dedicated portal for vehicle owners to handle payments and dispute workflows independently."
+          "text": "Dedicated portal for fleet owners and rental companies to handle payments and dispute workflows independently."
         },
         "analytics": {
           "title": "Fleet Analytics",
@@ -1251,7 +1319,7 @@
         },
         "mobile": {
           "title": "Mobile Access",
-          "text": "Mobile-responsive interface for on-the-go fleet management and violation handling."
+          "text": "Native Android and iOS apps built with .NET MAUI, plus a mobile-responsive web interface, for fleet management and violation handling away from a desk."
         }
       }
     },
@@ -1260,7 +1328,7 @@
       "cards": {
         "frontend": {
           "title": "Frontend",
-          "text": "React, Responsive design"
+          "text": "React, responsive design, .NET MAUI apps for Android and iOS"
         },
         "backend": {
           "title": "Backend",
@@ -1343,6 +1411,48 @@
         }
       },
       "outro": "Every platform is a plugin behind one common interface, so adding a booking system is a connector — not a rebuild. Tell us which one you run and we will prioritise it."
+    },
+    "mobile": {
+      "title": "Mobile Applications",
+      "intro": "Fleet work happens away from a desk. The platform ships companion mobile apps built with .NET MAUI — a single C# codebase compiled to native Android and iOS builds, sharing its models and API clients with the backend so the phone and the web never disagree about what a booking looks like.",
+      "cards": {
+        "owner": {
+          "title": "Fleet Owner App",
+          "items": [
+            "Tolls and violations per vehicle and per booking",
+            "Payment and charge status while away from the office",
+            "Alerts delivered straight to the phone",
+            "The same account and permissions as the owner portal"
+          ]
+        },
+        "capture": {
+          "title": "Capture in the Field",
+          "items": [
+            "Driver's licence capture with the phone camera",
+            "Barcode decoding plus visual recognition, verified against each other",
+            "Documents feed the same verification pipeline as the web",
+            "Works where a scanner and a desktop are not available"
+          ]
+        },
+        "platform": {
+          "title": "One Codebase, Native Builds",
+          "items": [
+            ".NET MAUI on modern .NET, written in C#",
+            "Native Android and iOS builds from the same source",
+            "Shared models and API clients with the server, so contracts cannot drift",
+            "The same engineers maintain the backend and the apps"
+          ]
+        },
+        "distribution": {
+          "title": "Distribution and Updates",
+          "items": [
+            "Signed Android release builds distributed as a direct download",
+            "Updates reach operators without waiting on a store review cycle",
+            "Versioned releases so a fleet can stay on a known build",
+            "Store distribution where a client's rollout requires it"
+          ]
+        }
+      }
     }
   },
   "myEZWheelsDetail": {

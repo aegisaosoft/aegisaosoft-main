@@ -25,6 +25,7 @@ const SERVICE_KEYS = [
   'aiSolutions',
   'aiTollRates',
   'gpsNavigation',
+  'mobileApps',
   'technicalSupport',
 ] as const
 

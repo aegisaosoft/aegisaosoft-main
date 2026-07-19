@@ -52,6 +52,10 @@
       "technicalSupport": {
         "title": "Support Technique à Long Terme",
         "description": "Maintenance continue, développement de fonctionnalités et partenariat technique pour vos plateformes."
+      },
+      "mobileApps": {
+        "title": "Développement d'applications Android et iOS",
+        "description": "Applications mobiles natives et multiplateformes développées avec .NET MAUI : une seule base de code C#, de véritables builds natifs Android et iOS, partageant modèles et clients d'API avec le backend."
       }
     },
     "architecture": {
@@ -59,15 +63,21 @@
       "subtitle": "Nos plateformes sont construites en utilisant des technologies modernes et éprouvées pour garantir la fiabilité, la sécurité et l'évolutivité.",
       "items": [
         "Plateforme cloud Microsoft Azure",
-        ".NET Moderne (6–9) et ASP.NET Core",
-        "APIs REST et systèmes distribués",
+        ".NET moderne (6–10) et ASP.NET Core",
+        "API REST et systèmes distribués",
         "Entity Framework Core",
-        "Architecture de microservices",
+        "Architecture en microservices",
         "Haute disponibilité et tolérance aux pannes",
         "Pratiques CI/CD et DevOps",
         "Sécurité et protection des données",
-        "Intégration IA quand approprié"
-      ]
+        "Applications .NET MAUI pour Android et iOS"
+      ],
+      "aiHighlight": {
+        "label": "Intégrée, non rapportée",
+        "title": "L'intelligence artificielle à tous les niveaux",
+        "text": "L'IA fait partie intégrante de notre architecture, ce n'est pas un module complémentaire. Des agents maintiennent à jour de façon autonome les données de référence externes, les documents et les photographies sont convertis en champs structurés, les messages entrants sont analysés puis transformés en enregistrements opérationnels, et des produits entiers sont localisés automatiquement dans des dizaines de langues. Chaque appel de modèle renvoie des données validées par schéma, est mis en cache selon ses entrées et reste traçable jusqu'à sa source.",
+        "link": "Notre usage de l'IA"
+      }
     },
     "about": {
       "title": "À propos d'Aegis AO Soft",
@@ -96,11 +106,11 @@
         "usaCoverage": "Couverture des 50 États américains",
         "canadaCoverage": "Routes à péage et infractions au Canada (407 ETR, A25, A30)",
         "fleetOperators": "Conçu pour les sociétés de location de véhicules et les gestionnaires de flottes",
-        "ownerPortal": "Portail propriétaire pour les paiements et les contestations"
+        "ownerPortal": "Portail de l'exploitant de flotte pour les paiements et les contestations"
       },
       "learnMore": "En Savoir Plus",
       "visitSite": "Visiter le Site",
-      "ownerPortal": "Portail Propriétaire",
+      "ownerPortal": "Portail propriétaire",
       "featuresTitle": "Fonctionnalités de la plateforme"
     },
     "vehicleRental": {
@@ -127,7 +137,8 @@
     "subtitle": "Des systèmes logiciels sûrs et fiables pour les environnements réglementés et critiques",
     "intro": {
       "description": "Aegis AO Soft développe des systèmes logiciels sûrs et fiables pour les organisations opérant dans des environnements réglementés et critiques. L'entreprise est spécialisée dans les plateformes qui soutiennent la continuité opérationnelle, la conformité réglementaire et le traitement de données à grande échelle.",
-      "leadership": "Fondée et dirigée par un architecte logiciel chevronné, Aegis AO Soft allie un leadership technique de terrain à des décennies d'expérience dans la livraison de systèmes en production pour des secteurs proches du secteur public et des domaines opérationnels complexes."
+      "leadership": "Fondée et dirigée par un architecte logiciel chevronné, Aegis AO Soft allie un leadership technique de terrain à des décennies d'expérience dans la livraison de systèmes en production pour des secteurs proches du secteur public et des domaines opérationnels complexes.",
+      "ai": "L'intelligence artificielle est un rouage de cette ingénierie, et non une couche ajoutée par-dessus. Elle localise nos plateformes dans des dizaines de langues, maintient à jour les données de référence externes sans que personne ait à les revérifier à la main, et lit les documents et les messages sous la forme desquels parviennent réellement les opérations de nos clients — avec les mêmes exigences de fiabilité que toute autre partie du système."
     },
     "missionCritical": {
       "title": "Systèmes opérationnels critiques",
@@ -236,6 +247,63 @@
     "commitment": {
       "title": "Engagement de fiabilité et de responsabilité",
       "description": "Aegis AO Soft travaille avec des organisations qui ont besoin de systèmes fiables et d'un partenaire technologique sur le long terme. Notre objectif est de fournir des solutions qui restent stables, maintenables et auditables tout au long de leur cycle de vie opérationnel."
+    },
+    "ai": {
+      "title": "L'intelligence artificielle dans nos produits",
+      "description": "Nous considérons l'IA comme un composant d'ingénierie, non comme une fonctionnalité à mettre en avant. Nous l'employons là où une tâche exige réellement un jugement sur des données non structurées — langue, documents, messages ou sources qui évoluent sans préavis — et nous recourons à du code déterministe partout ailleurs.",
+      "cards": {
+        "localization": {
+          "title": "Localisation et traduction à grande échelle",
+          "text": "Aborder un nouveau marché ne devrait pas imposer de réécrire une application à la main.",
+          "items": [
+            "Aegis Localizer analyse une base de code, distingue les textes destinés à l'utilisateur des chaînes techniques, les traduit et réécrit le code source pour qu'il lise des fichiers de ressources — sur des projets .NET, web, Android, Apple et Flutter.",
+            "Les descriptions produit rédigées par un vendeur dans une langue sont traduites automatiquement dans toutes les langues couvertes par la vitrine, y compris des langues autochtones pour lesquelles il n'existe pratiquement pas de marché de la traduction.",
+            "Les vitrines de location fonctionnent en 15 langues et ce site lui-même est publié en 9, le tout produit par la même chaîne de traitement.",
+            "Les traductions sont validées avant leur mise en ligne : un rendu qui perd ou invente un marqueur de formatage est rejeté plutôt que publié."
+          ]
+        },
+        "agents": {
+          "title": "Des agents autonomes qui tiennent les données à jour",
+          "text": "Certaines données se périment au rythme d'un tiers. Des agents les maintiennent à jour, sans qu'une personne ait à les revérifier manuellement.",
+          "items": [
+            "Les tarifs de péage évoluent sur décision de chaque exploitant, sans annonce préalable. Nos agents de recherche consultent les sources publiées par les exploitants eux-mêmes, détectent les changements et mettent à jour la tarification aux États-Unis et au Canada.",
+            "Les agents franchissent les mêmes obstacles qu'un chercheur humain : naviguer dans des portails, exploiter des sources qui ne publient leurs tarifs que sous forme de calculateurs interactifs plutôt que de tableaux.",
+            "Chaque constat est consigné avec sa source : tout tarif peut ainsi être retracé jusqu'à son origine et vérifié avant son entrée en vigueur.",
+            "Le même principe s'applique dès qu'un référentiel de données externe doit rester exact sans surveillance humaine permanente."
+          ]
+        },
+        "documents": {
+          "title": "Documents et images",
+          "text": "Les systèmes métier reçoivent l'information sous forme de photographies et de numérisations, et non de données propres.",
+          "items": [
+            "Les permis de conduire sont photographiés depuis un téléphone puis convertis en champs structurés à des fins de vérification.",
+            "Les codes-barres lisibles par machine sont décodés en premier et font foi ; la reconnaissance visuelle ne complète que ce que le code-barres ne contient pas.",
+            "Les résultats sont recoupés entre plusieurs sources plutôt que retenus sur la base d'une seule lecture.",
+            "La même approche s'étend aux factures, aux relevés et aux autres documents d'exploitation qui arrivent sous forme d'image."
+          ]
+        },
+        "messages": {
+          "title": "Messages et événements non structurés",
+          "text": "Les intégrations sont souvent à sens unique : la plateforme partenaire envoie un e-mail, pas un appel d'API.",
+          "items": [
+            "Les notifications de réservation émises par les plateformes de location partenaires sont converties en réservations structurées : dates, véhicule, conducteur, identifiants.",
+            "Les modèles de message changent sans préavis. Lorsqu'un message ne correspond plus au format attendu, un traitement par IA en restitue le sens au lieu de laisser l'intégration échouer silencieusement.",
+            "L'analyse déterministe s'exécute en premier et l'IA ne traite que ce qu'elle n'a pas su résoudre, ce qui limite à la fois le coût et l'imprévisibilité.",
+            "Tout ce qui demeure ambigu est signalé à une personne plutôt que deviné."
+          ]
+        }
+      },
+      "principles": {
+        "title": "Comment nous en assurons la fiabilité :",
+        "items": [
+          "Les modèles renvoient des données structurées validées par un schéma, jamais du texte libre que le système devrait interpréter.",
+          "Des filtres déterministes peu coûteux s'exécutent avant tout appel à un modèle, afin que l'étape coûteuse ne traite que ce qui relève réellement du jugement.",
+          "Les résultats sont mis en cache et rattachés à leurs entrées : un travail inchangé n'est jamais payé deux fois, et toute entrée modifiée est détectée puis retraitée.",
+          "Chaque valeur issue de l'IA conserve un lien vers sa source et reste vérifiable par une personne.",
+          "Lorsque le degré de confiance est faible, le système le signale au lieu de deviner : une valeur manquante se rattrape, une valeur fausse affirmée avec assurance non."
+        ]
+      },
+      "philosophy": "L'IA justifie sa place dans un produit en supprimant un travail qui serait autrement effectué à la main, et ce sous les mêmes exigences de fiabilité que le reste du système."
     }
   },
   "contact": {
@@ -273,7 +341,7 @@
   "vehicleRental": {
     "title": "MyEZWheels : Plateforme Multi-Tenant de Sites de Location de Véhicules",
     "subtitle": "Lancez Votre Propre Site de Location à Votre Marque en Quelques Minutes",
-    "description": "MyEZWheels est une plateforme multi-tenant qui permet aux sociétés de location de véhicules d'exploiter leur propre site de réservation complet et professionnel. Chaque tenant est identifié par son domaine — un sous-domaine gratuit ou votre propre domaine personnalisé — avec une flotte, des tarifs, une identité visuelle et des données clients isolés, le tout configurable depuis le portail propriétaire sans écrire une seule ligne de code.",
+    "description": "MyEZWheels est une plateforme multi-tenant qui permet aux sociétés de location de véhicules d'exploiter leur propre site de réservation complet et professionnel. Chaque tenant est identifié par son domaine — un sous-domaine gratuit ou votre propre domaine personnalisé — avec une flotte, des tarifs, une identité visuelle et des données clients isolés, le tout configurable depuis le portail du propriétaire de flotte sans écrire une seule ligne de code.",
     "languages": {
       "title": "🌍 15 Langues Prises en Charge",
       "list": [
@@ -1031,7 +1099,7 @@
         },
         "towingAlerts": {
           "title": "Alertes remorquage et flotte",
-          "text": "Alertes SMS et e-mail instantanées en cas de remorquage, de mise en/hors contact et de fin de trajet — envoyées au propriétaire, au locataire en cours, ou aux deux."
+          "text": "Alertes instantanées par SMS et par e-mail en cas de remorquage, de mise en marche ou à l'arrêt du contact et de fin de trajet : transmises à l'exploitant de flotte, au locataire en cours ou aux deux."
         },
         "thirdPartyGps": {
           "title": "Intégration GPS tierce",
@@ -1046,8 +1114,8 @@
           "text": "Les 50 États américains, plus les routes à péage et les infractions au Canada, dont Highway 407 ETR, A25 et A30."
         },
         "ownerPortal": {
-          "title": "Portail en libre-service pour propriétaires",
-          "text": "Portail dédié permettant aux propriétaires de véhicules de gérer eux-mêmes paiements et contestations."
+          "title": "Portail en libre-service de l'exploitant de flotte",
+          "text": "Portail dédié aux propriétaires de flotte et aux sociétés de location pour gérer les paiements et les contestations en toute autonomie."
         },
         "analytics": {
           "title": "Analytique de flotte",
@@ -1088,7 +1156,7 @@
         },
         {
           "label": "Charge du service client",
-          "text": "→ Portail propriétaire en libre-service pour les contestations"
+          "text": "→ Portail en libre-service du propriétaire de flotte pour les contestations"
         },
         {
           "label": "Charge administrative",
@@ -1180,18 +1248,18 @@
             }
           ],
           "items": [
-            "Chaque alerte envoyée par SMS et/ou e-mail",
-            "Adressée au propriétaire, au locataire en cours, ou aux deux",
-            "Chaque type d'alerte activable ou désactivable indépendamment"
+            "Chaque alerte est transmise par SMS et/ou par e-mail",
+            "Transmise à l'exploitant de flotte, au locataire en cours ou aux deux",
+            "Chaque type d'alerte s'active ou se désactive indépendamment"
           ]
         },
         "theft": {
           "title": "Vol et récupération",
           "items": [
-            "L'alerte de remorquage se déclenche dans les instants qui suivent l'enlèvement",
+            "L'alerte de remorquage se déclenche dans les instants qui suivent l'enlèvement du véhicule",
             "Une détection propriétaire distingue un vrai trajet d'un remorquage",
-            "Propriétaire averti immédiatement, avec position en direct à suivre",
-            "Historique complet des positions pour les dépôts de plainte et les déclarations d'assurance",
+            "L'exploitant de flotte est averti immédiatement, avec la position en direct qui suit",
+            "Historique complet des positions pour les dépôts de plainte et les déclarations de sinistre",
             "Les zones de géorepérage signalent tout déplacement hors du périmètre convenu"
           ]
         },
@@ -1251,7 +1319,7 @@
         },
         "mobile": {
           "title": "Accès mobile",
-          "text": "Interface adaptée au mobile pour gérer la flotte et les infractions en déplacement."
+          "text": "Applications natives Android et iOS développées avec .NET MAUI, ainsi qu'une interface web responsive, pour gérer la flotte et traiter les infractions loin d'un bureau."
         }
       }
     },
@@ -1260,7 +1328,7 @@
       "cards": {
         "frontend": {
           "title": "Frontend",
-          "text": "React, design responsive"
+          "text": "React, design responsive, applications .NET MAUI pour Android et iOS"
         },
         "backend": {
           "title": "Backend",
@@ -1311,11 +1379,11 @@
           "title": "HQ Rental",
           "text": "Notre intégration la plus poussée, en production. Les données de flotte et de réservation restent synchronisées dans les deux sens, et les frais sont réinjectés dans le contrat de location.",
           "items": [
-            "Synchronisation bidirectionnelle des véhicules, réservations et contacts",
-            "Péages et infractions réinjectés en lignes de contrat",
-            "Locataire identifié automatiquement pour chaque frais",
-            "Facturation propriétaire et rapprochement des reversements",
-            "Flottes multi-agences et franchises prises en charge"
+            "Synchronisation bidirectionnelle des véhicules, des réservations et des contacts",
+            "Péages et infractions renvoyés sous forme de lignes de contrat",
+            "Locataire identifié automatiquement pour chaque facturation",
+            "Facturation de l'exploitant de flotte et rapprochement des reversements",
+            "Prise en charge des flottes multisites et en franchise"
           ]
         },
         "turo": {
@@ -1343,6 +1411,48 @@
         }
       },
       "outro": "Chaque plateforme est un plugin derrière une interface commune : ajouter un système de réservation relève du connecteur — pas de la reconstruction. Dites-nous lequel vous utilisez et nous le prioriserons."
+    },
+    "mobile": {
+      "title": "Applications mobiles",
+      "intro": "La gestion de flotte se fait rarement derrière un bureau. La plateforme est livrée avec des applications mobiles compagnons développées avec .NET MAUI — une base de code C# unique compilée en builds natifs Android et iOS, partageant ses modèles et ses clients d'API avec le backend, afin que le téléphone et le web ne divergent jamais sur ce qu'est une réservation.",
+      "cards": {
+        "owner": {
+          "title": "Application de l'exploitant de flotte",
+          "items": [
+            "Péages et infractions par véhicule et par réservation",
+            "État des paiements et des facturations hors du bureau",
+            "Alertes transmises directement sur le téléphone",
+            "Le même compte et les mêmes autorisations que le portail de l'exploitant de flotte"
+          ]
+        },
+        "capture": {
+          "title": "Saisie sur le terrain",
+          "items": [
+            "Capture du permis de conduire avec l'appareil photo du téléphone",
+            "Décodage du code-barres et reconnaissance visuelle, vérifiés l'un par l'autre",
+            "Les documents alimentent la même chaîne de vérification que le web",
+            "Fonctionne là où ni scanner ni poste de travail ne sont disponibles"
+          ]
+        },
+        "platform": {
+          "title": "Une base de code, des builds natifs",
+          "items": [
+            ".NET MAUI sur .NET moderne, écrit en C#",
+            "Builds natifs Android et iOS à partir des mêmes sources",
+            "Modèles et clients d'API partagés avec le serveur, pour que les contrats ne divergent pas",
+            "Les mêmes ingénieurs maintiennent le backend et les applications"
+          ]
+        },
+        "distribution": {
+          "title": "Distribution et mises à jour",
+          "items": [
+            "Builds Android signés, distribués en téléchargement direct",
+            "Les mises à jour parviennent aux exploitants sans attendre le cycle de validation d'un store",
+            "Des versions numérotées pour qu'une flotte puisse rester sur un build connu",
+            "Distribution via les stores lorsque le déploiement d'un client l'exige"
+          ]
+        }
+      }
     }
   },
   "myEZWheelsDetail": {
@@ -1364,7 +1474,7 @@
     "whatIs": {
       "title": "Qu'est-ce que MyEZWheels ?",
       "p1": "MyEZWheels est une plateforme de vitrines en ligne multi-tenant qui permet à une société de location de véhicules de lancer un site de réservation complet et professionnel sans le développer. Chaque tenant est identifié par son nom d'hôte : chaque société dispose ainsi de sa propre adresse, avec sa flotte, ses tarifs, son image de marque et ses données clients — totalement isolés des autres tenants de la plateforme.",
-      "p2": "Démarrez sur un sous-domaine gratuit (yourcompany.myezwheels.com) et passez à votre propre domaine quand vous le souhaitez. Logos, couleurs, images, contenu des pages et coordonnées des agences sont tous configurables depuis le portail propriétaire — sans redéploiement ni intervention d'un développeur."
+      "p2": "Démarrez sur un sous-domaine gratuit (yourcompany.myezwheels.com) et passez à votre propre domaine quand vous le souhaitez. Logos, couleurs, images, contenu des pages et coordonnées des agences sont tous configurables depuis le portail du propriétaire de flotte — sans redéploiement ni intervention d'un développeur."
     },
     "forWhom": {
       "title": "À qui s'adresse-t-elle ?",
@@ -1447,7 +1557,7 @@
         },
         "contentNeedsDeveloper": {
           "label": "Modifier le contenu exige un développeur",
-          "text": "Pages, textes, images et contacts modifiables depuis le portail propriétaire"
+          "text": "Pages, textes, images et contacts modifiés depuis le portail de l'exploitant de flotte"
         },
         "highDevCosts": {
           "label": "Coûts de développement élevés",
@@ -1629,14 +1739,14 @@
         "subtitle": "Plateforme IA de péages, GPS et infractions pour gestionnaires de flotte",
         "description": "Une plateforme spécialisée permettant aux sociétés de location et aux gestionnaires de flotte de gérer les frais de péage, les péages calculés par GPS et les infractions aux États-Unis et au Canada.",
         "items": [
-          "Traitement des péages auprès de dizaines d'exploitants",
+          "Traitement des péages auprès de dizaines d'exploitants de réseaux à péage",
           "Gestion des infractions dans les 50 États et au Canada",
-          "Détection des péages par GPS, tarifés par réservation",
-          "Alertes remorquage, contact et trajet par SMS et e-mail",
-          "Intégration GPS tierce (Fleet77 et autres)",
-          "Agents IA recherchant et mettant à jour les tarifs de péage",
-          "Intégrations Turo et HQ Rental natives",
-          "Portail propriétaire pour paiements et contestations"
+          "Détection des péages par GPS, tarifée par réservation",
+          "Alertes de remorquage, de contact et de trajet par SMS et e-mail",
+          "Intégration de GPS tiers (Fleet77 et autres)",
+          "Agents IA qui recherchent et mettent à jour les tarifs de péage",
+          "Intégrations Turo et HQ Rental incluses",
+          "Portail de l'exploitant de flotte pour les paiements et les contestations"
         ]
       },
       "products": {
@@ -1646,11 +1756,11 @@
           "Couverture des 50 États américains et du Canada",
           "Traitement automatisé des péages et des infractions",
           "Détection des péages par GPS, par réservation",
-          "Alertes remorquage et contact (SMS, e-mail)",
-          "Intégration GPS tierce (Fleet77)",
-          "Agents IA maintenant les tarifs de péage à jour",
+          "Alertes de remorquage et de contact (SMS, e-mail)",
+          "Intégration de GPS tiers (Fleet77)",
+          "Agents IA qui maintiennent les tarifs de péage à jour",
           "Intégrations Turo et HQ Rental",
-          "Portail propriétaire en libre-service"
+          "Portail en libre-service de l'exploitant de flotte"
         ]
       }
     },

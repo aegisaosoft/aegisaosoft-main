@@ -52,22 +52,32 @@
       "technicalSupport": {
         "title": "Langzeit-Technischer Support",
         "description": "Kontinuierliche Wartung, Feature-Entwicklung und technische Partnerschaft für Ihre Plattformen."
+      },
+      "mobileApps": {
+        "title": "App-Entwicklung für Android und iOS",
+        "description": "Native und plattformübergreifende mobile Anwendungen auf Basis von .NET MAUI: eine C#-Codebasis, echte native Android- und iOS-Builds, mit gemeinsamen Modellen und API-Clients für das Backend."
       }
     },
     "architecture": {
       "title": "Architektur und Technologie",
       "subtitle": "Unsere Plattformen werden mit modernen, bewährten Technologien gebaut, um Zuverlässigkeit, Sicherheit und Skalierbarkeit zu gewährleisten.",
       "items": [
-        "Microsoft Azure Cloud-Plattform",
-        "Modernes .NET (6–9) und ASP.NET Core",
+        "Cloud-Plattform Microsoft Azure",
+        "Modernes .NET (6–10) und ASP.NET Core",
         "REST-APIs und verteilte Systeme",
         "Entity Framework Core",
         "Microservices-Architektur",
-        "Hohe Verfügbarkeit und Fehlertoleranz",
+        "Hochverfügbarkeit und Fehlertoleranz",
         "CI/CD- und DevOps-Praktiken",
         "Sicherheit und Datenschutz",
-        "KI-Integration wo angemessen"
-      ]
+        ".NET MAUI-Apps für Android und iOS"
+      ],
+      "aiHighlight": {
+        "label": "Eingebaut, nicht angeflanscht",
+        "title": "Künstliche Intelligenz über den gesamten Stack",
+        "text": "KI ist ein fester Bestandteil unserer Architektur, kein Add-on. Agenten halten externe Referenzdaten eigenständig aktuell, Dokumente und Fotos werden in strukturierte Felder überführt, eingehende Nachrichten werden zu operativen Datensätzen ausgewertet, und ganze Produkte werden automatisch in Dutzende Sprachen lokalisiert. Jeder Modellaufruf liefert schemavalidierte Daten, wird anhand seiner Eingaben zwischengespeichert und bleibt bis zur Quelle nachvollziehbar.",
+        "link": "Unser Einsatz von KI"
+      }
     },
     "about": {
       "title": "Über Aegis AO Soft",
@@ -96,7 +106,7 @@
         "usaCoverage": "Abdeckung aller 50 US-Bundesstaaten",
         "canadaCoverage": "Kanadische Mautstraßen und Verstöße (407 ETR, A25, A30)",
         "fleetOperators": "Entwickelt für Autovermietungen und Flottenbetreiber",
-        "ownerPortal": "Betreiberportal für Zahlungs- und Einspruchsprozesse"
+        "ownerPortal": "Portal für Flottenbetreiber für Zahlungs- und Einspruchsprozesse"
       },
       "learnMore": "Mehr Erfahren",
       "visitSite": "Website Besuchen",
@@ -127,7 +137,8 @@
     "subtitle": "Sichere, zuverlässige Softwaresysteme für regulierte und geschäftskritische Umgebungen",
     "intro": {
       "description": "Aegis AO Soft entwickelt sichere, zuverlässige Softwaresysteme für Organisationen in regulierten und geschäftskritischen Umgebungen. Das Unternehmen ist auf Plattformen spezialisiert, die betriebliche Kontinuität, regulatorische Konformität und die Verarbeitung großer Datenmengen unterstützen.",
-      "leadership": "Gegründet und geführt von einem erfahrenen Softwarearchitekten, verbindet Aegis AO Soft praxisnahe technische Führung mit jahrzehntelanger Erfahrung im Aufbau produktiver Systeme für behördennahe Branchen und komplexe operative Bereiche."
+      "leadership": "Gegründet und geführt von einem erfahrenen Softwarearchitekten, verbindet Aegis AO Soft praxisnahe technische Führung mit jahrzehntelanger Erfahrung im Aufbau produktiver Systeme für behördennahe Branchen und komplexe operative Bereiche.",
+      "ai": "Künstliche Intelligenz ist ein funktionierender Teil dieser Ingenieursarbeit und keine nachträglich aufgesetzte Schicht. Sie lokalisiert unsere Plattformen in Dutzende Sprachen, hält externe Referenzdaten aktuell, ohne dass jemand sie von Hand nachprüfen muss, und liest die Dokumente und Nachrichten, in deren Form die Abläufe unserer Kunden tatsächlich eintreffen – unter denselben Zuverlässigkeitsanforderungen wie jeder andere Teil des Systems."
     },
     "missionCritical": {
       "title": "Geschäftskritische Betriebssysteme",
@@ -236,6 +247,63 @@
     "commitment": {
       "title": "Verpflichtung zu Zuverlässigkeit und Verantwortung",
       "description": "Aegis AO Soft arbeitet mit Organisationen, die verlässliche Systeme und einen langfristigen Technologiepartner benötigen. Unser Ziel sind Lösungen, die über ihren gesamten Betriebslebenszyklus stabil, wartbar und prüfbar bleiben."
+    },
+    "ai": {
+      "title": "Künstliche Intelligenz in unseren Produkten",
+      "description": "Wir betrachten KI als technische Komponente, nicht als Funktion, mit der man wirbt. Wir setzen sie dort ein, wo eine Aufgabe tatsächlich Urteilsvermögen über unstrukturierte Eingaben erfordert – Sprache, Dokumente, Nachrichten oder Quellen, die sich ohne Vorankündigung ändern – und verwenden überall sonst deterministischen Code.",
+      "cards": {
+        "localization": {
+          "title": "Lokalisierung und Übersetzung im großen Maßstab",
+          "text": "Der Eintritt in einen neuen Markt sollte nicht bedeuten, eine Anwendung von Hand neu zu schreiben.",
+          "items": [
+            "Aegis Localizer durchsucht eine Codebasis, trennt benutzersichtbare Texte von internen Zeichenketten, übersetzt sie und schreibt den Quellcode so um, dass er aus Ressourcendateien liest – über .NET-, Web-, Android-, Apple- und Flutter-Projekte hinweg.",
+            "Produktbeschreibungen, die ein Verkäufer in einer Sprache verfasst, werden automatisch in alle Sprachen übersetzt, die der Shop bedient – einschließlich indigener Sprachen, für die es praktisch keinen Übersetzungsmarkt gibt.",
+            "Die Vermietungs-Shops laufen in 15 Sprachen, und diese Website selbst erscheint in 9 – erzeugt über dieselbe Verarbeitungskette.",
+            "Übersetzungen werden vor der Auslieferung geprüft: Eine Fassung, die einen Formatierungsplatzhalter verliert oder hinzuerfindet, wird abgewiesen statt veröffentlicht."
+          ]
+        },
+        "agents": {
+          "title": "Autonome Agenten, die Daten aktuell halten",
+          "text": "Manche Daten veralten nach dem Zeitplan Dritter. Agenten halten sie aktuell, statt dass eine Person sie von Hand nachprüft.",
+          "items": [
+            "Mautsätze ändern sich durch Beschluss der jeweiligen Betreiber, ohne Ankündigung. Unsere Rechercheagenten werten die von den Mautbetreibern selbst veröffentlichten Quellen aus, erkennen Änderungen und aktualisieren die Preise in den Vereinigten Staaten und Kanada.",
+            "Die Agenten bewältigen dieselben Hürden wie ein menschlicher Rechercheur: Sie navigieren durch Portale und erschließen Quellen, die ihre Sätze nur über interaktive Rechner statt in Tabellenform bereitstellen.",
+            "Jedes Ergebnis wird samt Quelle festgehalten, sodass sich jeder Satz bis zu seinem Ursprung zurückverfolgen und vor dem Inkrafttreten prüfen lässt.",
+            "Dasselbe Muster greift überall dort, wo ein externer Referenzdatenbestand korrekt bleiben muss, ohne dass jemand ihn beobachtet."
+          ]
+        },
+        "documents": {
+          "title": "Dokumente und Bilder",
+          "text": "Operative Systeme erhalten Informationen als Fotos und Scans, nicht als saubere Daten.",
+          "items": [
+            "Führerscheine werden mit der Handykamera erfasst und für die Prüfung in strukturierte Felder überführt.",
+            "Maschinenlesbare Barcodes werden zuerst dekodiert und gelten als maßgeblich; die visuelle Erkennung ergänzt nur das, was der Barcode nicht enthält.",
+            "Ergebnisse werden zwischen mehreren Quellen abgeglichen, statt einer einzelnen Auswertung zu vertrauen.",
+            "Derselbe Ansatz gilt für Rechnungen, Abrechnungen und weitere betriebliche Unterlagen, die als Bild eingehen."
+          ]
+        },
+        "messages": {
+          "title": "Unstrukturierte Nachrichten und Ereignisse",
+          "text": "Integrationen verlaufen häufig nur in eine Richtung: Die Partnerplattform verschickt eine E-Mail, keinen API-Aufruf.",
+          "items": [
+            "Buchungsbenachrichtigungen von Partner-Vermietplattformen werden in strukturierte Reservierungen überführt – Zeiträume, Fahrzeug, Fahrer, Kennungen.",
+            "Vorlagen ändern sich ohne Vorwarnung. Entspricht eine Nachricht nicht mehr dem erwarteten Aufbau, erschließt ein KI-Durchlauf ihren Inhalt, statt die Integration stillschweigend scheitern zu lassen.",
+            "Die deterministische Auswertung läuft zuerst, und die KI übernimmt nur, was dort ungelöst blieb – das hält Kosten wie Unwägbarkeiten gering.",
+            "Was danach weiterhin mehrdeutig bleibt, wird einer Person vorgelegt und nicht erraten."
+          ]
+        }
+      },
+      "principles": {
+        "title": "So sichern wir die Verlässlichkeit:",
+        "items": [
+          "Modelle liefern schemavalidierte strukturierte Daten zurück, niemals Fließtext, den das System erst interpretieren müsste.",
+          "Günstige deterministische Filter laufen vor jedem Modellaufruf, sodass der teure Schritt nur das erreicht, was tatsächlich Urteilsvermögen erfordert.",
+          "Ergebnisse werden zwischengespeichert und ihren Eingaben zugeordnet: Unveränderte Arbeit wird nie zweimal bezahlt, geänderte Eingaben werden erkannt und neu verarbeitet.",
+          "Jeder aus KI abgeleitete Wert behält die Verbindung zu seiner Quelle und bleibt für eine Person nachprüfbar.",
+          "Bei geringer Zuverlässigkeit meldet das System dies, statt zu raten – ein fehlender Wert lässt sich nachholen, ein mit Überzeugung falscher nicht."
+        ]
+      },
+      "philosophy": "KI rechtfertigt ihren Platz in einem Produkt, indem sie Arbeit beseitigt, die sonst von Hand erledigt würde – und das unter denselben Verlässlichkeitsanforderungen wie der Rest des Systems."
     }
   },
   "contact": {
@@ -273,7 +341,7 @@
   "vehicleRental": {
     "title": "MyEZWheels: Mandantenfähige Storefront-Plattform für Fahrzeugvermietung",
     "subtitle": "Starten Sie Ihre eigene Mietwebsite mit Ihrer Marke in Minuten",
-    "description": "MyEZWheels ist eine mandantenfähige Storefront-Plattform, mit der Fahrzeugvermieter ihre eigene vollständige, professionelle Buchungswebsite betreiben. Jeder Mandant wird über die Domain erkannt — eine kostenlose Subdomain oder Ihre eigene Wunschdomain — mit getrennter Flotte, Preisen, Markenauftritt und Kundendaten, alles über das Betreiberportal konfigurierbar, ohne eine Zeile Code.",
+    "description": "MyEZWheels ist eine mandantenfähige Storefront-Plattform, mit der Fahrzeugvermieter ihre eigene vollständige, professionelle Buchungswebsite betreiben. Jeder Mandant wird über die Domain erkannt — eine kostenlose Subdomain oder Ihre eigene Wunschdomain — mit getrennter Flotte, Preisen, Markenauftritt und Kundendaten, alles über das Fuhrparkbetreiber-Portal konfigurierbar, ohne eine Zeile Code.",
     "languages": {
       "title": "🌍 15 Unterstützte Sprachen",
       "list": [
@@ -1031,7 +1099,7 @@
         },
         "towingAlerts": {
           "title": "Abschlepp- & Flottenalarme",
-          "text": "Sofortige SMS- und E-Mail-Alarme bei Abschleppen, Zündung ein/aus und Fahrtende — zugestellt an den Betreiber, den aktiven Mieter oder beide."
+          "text": "Sofortige Benachrichtigungen per SMS und E-Mail bei Abschleppvorgängen, Zündung ein/aus und Fahrtende – zugestellt an den Flottenbetreiber, den aktuellen Mieter oder an beide."
         },
         "thirdPartyGps": {
           "title": "Integration von Drittanbieter-GPS",
@@ -1046,8 +1114,8 @@
           "text": "Alle 50 US-Bundesstaaten sowie kanadische Mautstraßen und Verstöße, darunter Highway 407 ETR, A25 und A30."
         },
         "ownerPortal": {
-          "title": "Self-Service-Portal für Betreiber",
-          "text": "Eigenes Portal, in dem Fahrzeughalter Zahlungen und Einspruchsprozesse selbstständig abwickeln."
+          "title": "Self-Service-Portal für Flottenbetreiber",
+          "text": "Eigenes Portal für Fuhrparkbetreiber und Autovermietungen, um Zahlungen und Einspruchsprozesse eigenständig abzuwickeln."
         },
         "analytics": {
           "title": "Flottenanalysen",
@@ -1088,7 +1156,7 @@
         },
         {
           "label": "Belastung des Kundenservice",
-          "text": "→ Self-Service-Portal für Betreiber bei Einsprüchen"
+          "text": "→ Self-Service-Portal für Fuhrparkbetreiber bei Einsprüchen"
         },
         {
           "label": "Administrativer Aufwand",
@@ -1180,18 +1248,18 @@
             }
           ],
           "items": [
-            "Jeder Alarm per SMS und/oder E-Mail zugestellt",
-            "Zugestellt an den Betreiber, den aktiven Mieter oder beide",
-            "Jeder Alarmtyp einzeln aktivierbar oder deaktivierbar"
+            "Jede Benachrichtigung wird per SMS und/oder E-Mail zugestellt",
+            "Zugestellt an den Flottenbetreiber, den aktuellen Mieter oder an beide",
+            "Jeder Benachrichtigungstyp lässt sich einzeln ein- und ausschalten"
           ]
         },
         "theft": {
           "title": "Diebstahl & Wiederbeschaffung",
           "items": [
-            "Abschlepp-Alarm binnen Sekunden nach dem Abtransport des Fahrzeugs",
-            "Eigene Erkennung unterscheidet eine echte Fahrt vom Abschleppen",
-            "Betreiber wird sofort benachrichtigt und kann die Position live verfolgen",
-            "Vollständige Positionshistorie für Polizeiberichte und Versicherungsfälle",
+            "Die Abschleppwarnung wird innerhalb von Augenblicken nach dem Abtransport des Fahrzeugs ausgelöst",
+            "Eine eigene Erkennung unterscheidet eine echte Fahrt von einem Abschleppvorgang",
+            "Der Flottenbetreiber wird sofort benachrichtigt, die Live-Position folgt",
+            "Vollständige Positionshistorie für Polizeianzeigen und Versicherungsansprüche",
             "Geofence-Zonen melden Bewegungen außerhalb des vereinbarten Gebiets"
           ]
         },
@@ -1251,7 +1319,7 @@
         },
         "mobile": {
           "title": "Mobiler Zugriff",
-          "text": "Mobil optimierte Oberfläche für Flottenmanagement und Verstoßbearbeitung unterwegs."
+          "text": "Native Android- und iOS-Apps auf Basis von .NET MAUI sowie eine mobil optimierte Weboberfläche für Flottenmanagement und Verstoßbearbeitung fernab des Schreibtisches."
         }
       }
     },
@@ -1260,7 +1328,7 @@
       "cards": {
         "frontend": {
           "title": "Frontend",
-          "text": "React, responsives Design"
+          "text": "React, Responsive Design, .NET MAUI-Apps für Android und iOS"
         },
         "backend": {
           "title": "Backend",
@@ -1311,11 +1379,11 @@
           "title": "HQ Rental",
           "text": "Unsere tiefste Integration, im Produktivbetrieb. Flotten- und Reservierungsdaten bleiben in beide Richtungen synchron, und Gebühren werden zurück in den Mietvertrag geschrieben.",
           "items": [
-            "Bidirektionale Synchronisierung von Fahrzeugen, Reservierungen und Kontakten",
-            "Maut und Verstöße als Vertragspositionen zurückgeschrieben",
-            "Mieter für jede Gebühr automatisch ermittelt",
-            "Betreiberabrechnung und Auszahlungsabgleich",
-            "Unterstützung für Mehrstandort- und Franchise-Flotten"
+            "Bidirektionale Synchronisierung von Fahrzeugen, Buchungen und Kontakten",
+            "Maut und Verstöße werden als Vertragspositionen zurückgespielt",
+            "Mieter wird für jede Belastung automatisch ermittelt",
+            "Abrechnung gegenüber dem Flottenbetreiber und Abgleich der Auszahlungen",
+            "Unterstützung für Flotten mit mehreren Standorten und Franchise-Betrieben"
           ]
         },
         "turo": {
@@ -1343,6 +1411,48 @@
         }
       },
       "outro": "Jede Plattform ist ein Plugin hinter einer gemeinsamen Schnittstelle — ein Buchungssystem zu ergänzen ist damit ein Konnektor und kein Neubau. Sagen Sie uns, welches System Sie einsetzen, und wir priorisieren es."
+    },
+    "mobile": {
+      "title": "Mobile Anwendungen",
+      "intro": "Flottenarbeit findet nicht am Schreibtisch statt. Zur Plattform gehören begleitende mobile Apps auf Basis von .NET MAUI — eine einzige C#-Codebasis, kompiliert zu nativen Android- und iOS-Builds, die ihre Modelle und API-Clients mit dem Backend teilt, sodass Telefon und Web sich nie darüber uneinig sind, wie eine Buchung aussieht.",
+      "cards": {
+        "owner": {
+          "title": "App für Flottenbetreiber",
+          "items": [
+            "Maut und Verstöße je Fahrzeug und je Buchung",
+            "Zahlungs- und Belastungsstatus auch außerhalb des Büros",
+            "Benachrichtigungen direkt auf das Telefon",
+            "Dasselbe Konto und dieselben Berechtigungen wie im Flottenbetreiber-Portal"
+          ]
+        },
+        "capture": {
+          "title": "Erfassung im Außeneinsatz",
+          "items": [
+            "Erfassung des Führerscheins mit der Telefonkamera",
+            "Barcode-Dekodierung und visuelle Erkennung, gegenseitig abgeglichen",
+            "Dokumente durchlaufen dieselbe Prüfstrecke wie im Web",
+            "Funktioniert dort, wo weder Scanner noch Desktop verfügbar sind"
+          ]
+        },
+        "platform": {
+          "title": "Eine Codebasis, native Builds",
+          "items": [
+            ".NET MAUI auf modernem .NET, in C# geschrieben",
+            "Native Android- und iOS-Builds aus derselben Quelle",
+            "Gemeinsame Modelle und API-Clients mit dem Server, damit Verträge nicht auseinanderlaufen",
+            "Dieselben Entwickler betreuen Backend und Apps"
+          ]
+        },
+        "distribution": {
+          "title": "Verteilung und Updates",
+          "items": [
+            "Signierte Android-Release-Builds als direkter Download",
+            "Updates erreichen die Betreiber ohne Wartezeit auf ein Store-Review",
+            "Versionierte Releases, damit eine Flotte auf einem bekannten Build bleiben kann",
+            "Store-Verteilung, wenn der Rollout eines Kunden dies erfordert"
+          ]
+        }
+      }
     }
   },
   "myEZWheelsDetail": {
@@ -1364,7 +1474,7 @@
     "whatIs": {
       "title": "Was ist MyEZWheels?",
       "p1": "MyEZWheels ist eine mandantenfähige Storefront-Plattform, mit der eine Autovermietung eine vollständige, professionelle Buchungswebsite starten kann, ohne sie selbst zu entwickeln. Jeder Mandant wird über den Hostnamen aufgelöst, sodass jedes Unternehmen unter eigener Adresse mit eigener Flotte, eigenen Preisen, eigenem Branding und eigenen Kundendaten arbeitet — vollständig von allen anderen Mandanten isoliert.",
-      "p2": "Starten Sie auf einer kostenlosen Subdomain (yourcompany.myezwheels.com) und wechseln Sie jederzeit auf Ihre eigene Domain. Logos, Farben, Bilder, Seiteninhalte und Kontaktdaten der Standorte sind vollständig im Betreiberportal konfigurierbar — ohne erneutes Deployment, ohne Entwickler."
+      "p2": "Starten Sie auf einer kostenlosen Subdomain (yourcompany.myezwheels.com) und wechseln Sie jederzeit auf Ihre eigene Domain. Logos, Farben, Bilder, Seiteninhalte und Kontaktdaten der Standorte sind vollständig im Fuhrparkbetreiber-Portal konfigurierbar — ohne erneutes Deployment, ohne Entwickler."
     },
     "forWhom": {
       "title": "Für wen ist es gedacht?",
@@ -1447,7 +1557,7 @@
         },
         "contentNeedsDeveloper": {
           "label": "Inhaltsänderungen brauchen Entwickler",
-          "text": "Seiten, Texte, Bilder und Kontakte im Betreiberportal bearbeitbar"
+          "text": "Seiten, Texte, Bilder und Kontakte werden im Flottenbetreiber-Portal bearbeitet"
         },
         "highDevCosts": {
           "label": "Hohe Entwicklungskosten",
@@ -1629,28 +1739,28 @@
         "subtitle": "KI-gestützte Maut-, GPS- und Verstoßplattform für Flottenbetreiber",
         "description": "Eine spezialisierte Plattform für Autovermietungen und Flottenbetreiber zur Verwaltung von Mautgebühren, GPS-abgeleiteter Maut und Verstößen in den USA und Kanada.",
         "items": [
-          "Mautabwicklung über Dutzende Mautbehörden",
-          "Verstoßmanagement in allen 50 Bundesstaaten und Kanada",
-          "GPS-basierte Mauterkennung, bepreist je Buchung",
-          "Alarme zu Abschleppen, Zündung und Fahrten per SMS und E-Mail",
-          "Integration von GPS-Drittanbietern (Fleet77 und weitere)",
-          "KI-Agenten recherchieren und aktualisieren Mauttarife",
-          "Integrierte Anbindung an Turo und HQ Rental",
-          "Betreiberportal für Zahlungen und Einspruchsbearbeitung"
+          "Mautabwicklung über Dutzende von Mautbetreibern",
+          "Verstoßmanagement in allen 50 Bundesstaaten und in Kanada",
+          "GPS-gestützte Mauterkennung, je Buchung abgerechnet",
+          "Benachrichtigungen zu Abschleppen, Zündung und Fahrten per SMS und E-Mail",
+          "Anbindung von GPS-Systemen anderer Anbieter (Fleet77 und weitere)",
+          "KI-Agenten recherchieren und aktualisieren Mautgebühren",
+          "Integrationen für Turo und HQ Rental bereits enthalten",
+          "Flottenbetreiber-Portal für Zahlungen und Einspruchsbearbeitung"
         ]
       },
       "products": {
         "subtitle": "KI-gestützte Maut-, GPS- & Verstoßplattform",
         "description": "Enterprise-Plattform für Autovermietungen. Automatisierte Mautabwicklung, GPS-basierte Mauterkennung und Verstoßmanagement in allen 50 US-Bundesstaaten und Kanada.",
         "items": [
-          "Abdeckung aller 50 US-Bundesstaaten und Kanadas",
-          "Automatisierte Maut- und Verstoßabwicklung",
-          "GPS-basierte Mauterkennung je Buchung",
-          "Alarme zu Abschleppen und Zündung (SMS, E-Mail)",
-          "Integration von GPS-Drittanbietern (Fleet77)",
-          "KI-Agenten halten Mauttarife aktuell",
-          "Turo- und HQ Rental-Integrationen",
-          "Self-Service-Portal für Betreiber"
+          "Abdeckung in allen 50 US-Bundesstaaten und in Kanada",
+          "Automatisierte Abwicklung von Maut und Verstößen",
+          "GPS-gestützte Mauterkennung je Buchung",
+          "Benachrichtigungen zu Abschleppen und Zündung (SMS, E-Mail)",
+          "Anbindung von GPS-Systemen anderer Anbieter (Fleet77)",
+          "KI-Agenten halten die Mautgebühren aktuell",
+          "Integrationen für Turo und HQ Rental",
+          "Self-Service-Portal für Flottenbetreiber"
         ]
       }
     },
