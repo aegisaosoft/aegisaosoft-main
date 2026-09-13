@@ -1473,7 +1473,7 @@
     },
     "whatIs": {
       "title": "Was ist MyEZWheels?",
-      "p1": "MyEZWheels ist eine mandantenfähige Storefront-Plattform, mit der eine Autovermietung eine vollständige, professionelle Buchungswebsite starten kann, ohne sie selbst zu entwickeln. Jeder Mandant wird über den Hostnamen aufgelöst, sodass jedes Unternehmen unter eigener Adresse mit eigener Flotte, eigenen Preisen, eigenem Branding und eigenen Kundendaten arbeitet — vollständig von allen anderen Mandanten isoliert.",
+      "p1": "MyEZWheels ist eine Software-as-a-Service-Plattform von Aegis AO Soft für die Verwaltung von Mietwagenflotten. Sie ermöglicht einer Autovermietung, eine vollständige, professionelle Buchungswebsite zu starten, ohne sie selbst zu entwickeln: Jeder Mandant wird über den Hostnamen aufgelöst, sodass jedes Unternehmen unter eigener Adresse mit eigener Flotte, eigenen Preisen, eigenem Branding und eigenen Kundendaten arbeitet — vollständig von allen anderen Mandanten isoliert.",
       "p2": "Starten Sie auf einer kostenlosen Subdomain (yourcompany.myezwheels.com) und wechseln Sie jederzeit auf Ihre eigene Domain. Logos, Farben, Bilder, Seiteninhalte und Kontaktdaten der Standorte sind vollständig im Fuhrparkbetreiber-Portal konfigurierbar — ohne erneutes Deployment, ohne Entwickler."
     },
     "forWhom": {

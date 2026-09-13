@@ -1473,7 +1473,7 @@
     },
     "whatIs": {
       "title": "O que é o MyEZWheels?",
-      "p1": "O MyEZWheels é uma plataforma de lojas online multi-tenant que permite a uma locadora de veículos lançar um site de reservas completo e profissional sem precisar construí-lo. Cada tenant é identificado pelo nome do host, então cada empresa opera em seu próprio endereço, com frota, preços, marca e dados de clientes próprios — totalmente isolados dos demais tenants da plataforma.",
+      "p1": "O MyEZWheels é uma plataforma de software como serviço da Aegis AO Soft para a gestão de frotas de aluguel de veículos. Permite a uma locadora lançar um site de reservas completo e profissional sem precisar construí-lo: cada tenant é identificado pelo nome do host, então cada empresa opera em seu próprio endereço, com frota, preços, marca e dados de clientes próprios — totalmente isolados dos demais tenants da plataforma.",
       "p2": "Comece em um subdomínio gratuito (yourcompany.myezwheels.com) e migre para seu domínio próprio quando quiser. Logos, cores, imagens, conteúdo das páginas e dados de contato de cada unidade são configuráveis pelo portal do proprietário da frota — sem novo deploy e sem desenvolvedor."
     },
     "forWhom": {

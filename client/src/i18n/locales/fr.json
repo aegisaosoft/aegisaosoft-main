@@ -1473,7 +1473,7 @@
     },
     "whatIs": {
       "title": "Qu'est-ce que MyEZWheels ?",
-      "p1": "MyEZWheels est une plateforme de vitrines en ligne multi-tenant qui permet à une société de location de véhicules de lancer un site de réservation complet et professionnel sans le développer. Chaque tenant est identifié par son nom d'hôte : chaque société dispose ainsi de sa propre adresse, avec sa flotte, ses tarifs, son image de marque et ses données clients — totalement isolés des autres tenants de la plateforme.",
+      "p1": "MyEZWheels est une plateforme de logiciel en tant que service (SaaS) d'Aegis AO Soft dédiée à la gestion de flottes de location de véhicules. Elle permet à une société de location de lancer un site de réservation complet et professionnel sans le développer : chaque tenant est identifié par son nom d'hôte, si bien que chaque société dispose de sa propre adresse, avec sa flotte, ses tarifs, son image de marque et ses données clients — totalement isolés des autres tenants de la plateforme.",
       "p2": "Démarrez sur un sous-domaine gratuit (yourcompany.myezwheels.com) et passez à votre propre domaine quand vous le souhaitez. Logos, couleurs, images, contenu des pages et coordonnées des agences sont tous configurables depuis le portail du propriétaire de flotte — sans redéploiement ni intervention d'un développeur."
     },
     "forWhom": {
