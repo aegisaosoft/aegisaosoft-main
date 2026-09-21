@@ -2248,5 +2248,11 @@
       "contact": "Contact Us",
       "trademarkNote": "HueControl is an independent application and is not affiliated with, endorsed by, or sponsored by Signify N.V. or Philips. \"Philips Hue\" is a trademark of Signify Holding."
     }
+  },
+  "notFound": {
+    "title": "This page does not exist",
+    "subtitle": "The address you followed is not part of this site — it may have been mistyped, or it may have moved.",
+    "home": "Go to the home page",
+    "products": "See the products"
   }
 }

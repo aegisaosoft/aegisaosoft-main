@@ -4,7 +4,53 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/png" href="/favicon.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Aegis AO Soft</title>
+
+    <!--
+      The shell's own metadata, which is what a crawler is handed for any address that has no
+      snapshot yet. SeoHead replaces all of it per route once the app runs, and
+      scripts/prerender.js bakes the per-route version into each snapshot — this is the floor,
+      not the ceiling. The canonical is the home page deliberately: the shell IS the home page
+      until something says otherwise.
+    -->
+    <title>Aegis AO Soft — AI-Powered Enterprise Software Platforms</title>
+    <meta
+      name="description"
+      content="We build production-grade systems for real operations: multi-tenant SaaS, fleet management, marketplaces and payments, with AI agents working inside them."
+    />
+    <meta name="robots" content="index, follow, max-image-preview:large" />
+    <link rel="canonical" href="https://aegisaosoft.com/" />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Aegis AO Soft" />
+    <meta property="og:title" content="Aegis AO Soft — AI-Powered Enterprise Software Platforms" />
+    <meta
+      property="og:description"
+      content="We build production-grade systems for real operations: multi-tenant SaaS, fleet management, marketplaces and payments, with AI agents working inside them."
+    />
+    <meta property="og:url" content="https://aegisaosoft.com/" />
+    <meta property="og:image" content="https://aegisaosoft.com/hero-bg.jpg" />
+    <meta name="twitter:card" content="summary_large_image" />
+
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "@id": "https://aegisaosoft.com/#organization",
+        "name": "Aegis AO Soft",
+        "legalName": "Aegis AO Soft LLC",
+        "url": "https://aegisaosoft.com/",
+        "logo": "https://aegisaosoft.com/favicon.png",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "34 Middletown Ave",
+          "addressLocality": "Atlantic Highlands",
+          "addressRegion": "NJ",
+          "postalCode": "07716",
+          "addressCountry": "US"
+        },
+        "sameAs": ["https://myeztoll.com", "https://github.com/aegisaosoft"]
+      }
+    </script>
   </head>
   <body>
     <div id="root"></div>

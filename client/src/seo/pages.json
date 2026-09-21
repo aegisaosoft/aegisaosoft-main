@@ -1,0 +1,100 @@
+{
+  "_comment": [
+    "Every address this site has, with the title and description that address alone gets.",
+    "One file rather than four, because four readers need the same list and none of them can",
+    "import the others: the React app (SeoHead writes these tags into the document head), the",
+    "Express server (an address that is not here is not a page, so it answers 404 instead of a",
+    "copy of the home page), scripts/generate-seo.js (robots.txt and sitemap.xml) and",
+    "scripts/prerender.js (one snapshot per route, so a crawler that runs no JavaScript is",
+    "handed the page rather than an empty <div id=\"root\">).",
+    "noindex: an address that exists and works, but has no business in a search result.",
+    "redirects: addresses the router answers with <Navigate>, which a crawler reads as a second",
+    "copy of the target page — the server answers them with a 301 before the app loads."
+  ],
+  "site": "https://aegisaosoft.com",
+  "defaultImage": "/hero-bg.jpg",
+  "pages": [
+    {
+      "path": "/",
+      "title": "Aegis AO Soft — AI-Powered Enterprise Software Platforms",
+      "description": "We build production-grade systems for real operations: multi-tenant SaaS, fleet management, marketplaces and payments, with AI agents working inside them."
+    },
+    {
+      "path": "/about",
+      "title": "About Aegis AO Soft",
+      "description": "A New Jersey software company building secure, reliable systems for regulated and mission-critical environments — who we are and how we deliver."
+    },
+    {
+      "path": "/contact",
+      "title": "Contact Aegis AO Soft",
+      "description": "Talk to the people who build the platforms: project enquiries, partnership questions and support for MyEZToll, MyEZWheels and Mercadinho25."
+    },
+    {
+      "path": "/products",
+      "title": "Products — Aegis AO Soft",
+      "description": "Five shipped products: MyEZToll for rental fleets, the MyEZWheels storefront platform, the Mercadinho25 marketplace, Aegis Localizer and HueControl."
+    },
+    {
+      "path": "/products/myeztoll",
+      "title": "MyEZToll — toll, GPS and violation platform for rental fleets",
+      "description": "Toll processing, GPS-derived toll detection and violation rebilling for car rental and fleet operators across the United States and Canada."
+    },
+    {
+      "path": "/products/myezwheels",
+      "title": "MyEZWheels — multi-tenant storefront platform for vehicle rental",
+      "description": "Launch a branded rental website on your own domain: multi-tenant architecture, 15-language storefronts, licence capture by phone and automated payments."
+    },
+    {
+      "path": "/products/brazilian-marketplace",
+      "title": "Mercadinho25 — marketplace platform for Brazilian artisan products",
+      "description": "The platform behind Mercadinho25: AI translation, social commerce integration and multi-tenant marketplace architecture for artisan sellers."
+    },
+    {
+      "path": "/products/aegis-localizer",
+      "title": "Aegis Localizer — AI localization for any codebase",
+      "description": "Point it at a codebase and a language: it finds the hardcoded UI strings, translates them with Claude and rewrites the source to use resource files."
+    },
+    {
+      "path": "/products/huecontrol",
+      "title": "HueControl — Windows control centre for Philips Hue",
+      "description": "A free native Windows app for lights, rooms, scenes, sensors and dimmer switches, talking straight to the Hue bridge on the local network."
+    },
+    {
+      "path": "/myeztoll",
+      "title": "MyEZToll for fleet operators — what the platform does",
+      "description": "How tolls, parking, GPS-derived charges and violations reach the renter who incurred them, and what a fleet operator sees while it happens."
+    },
+    {
+      "path": "/myezwheels",
+      "title": "MyEZWheels — your own rental storefront, in 15 languages",
+      "description": "Intelligent booking, driver verification and payments on a storefront your customers reach at your own domain, translated into fifteen languages."
+    },
+    {
+      "path": "/brazilian-marketplace",
+      "title": "Brazilian artisan marketplace — global reach for local makers",
+      "description": "Artisan sellers in Brazil, customers everywhere: translation, social commerce and logistics in one marketplace built for cross-border selling."
+    },
+    {
+      "path": "/mercadinho25",
+      "title": "Mercadinho25 — Brazilian artisan products, worldwide",
+      "description": "The live Mercadinho25 store: handmade Brazilian products offered to buyers abroad, with listings translated as they are published."
+    },
+    {
+      "path": "/admin-guide",
+      "title": "Administrator guide — Aegis AO Soft",
+      "description": "Internal administration notes for the Aegis AO Soft site — not part of the public site and not listed in the sitemap.",
+      "noindex": true
+    },
+    {
+      "path": "/myezwheels/set-password",
+      "title": "Set your password — MyEZWheels",
+      "description": "Choose the password for a MyEZWheels account, from the link sent to the address the account was registered with.",
+      "noindex": true
+    }
+  ],
+  "redirects": {
+    "/products/aegis-rental": "/products/myezwheels",
+    "/vehicle-rental": "/myezwheels",
+    "/vehicle-rental/set-password": "/myezwheels/set-password"
+  }
+}

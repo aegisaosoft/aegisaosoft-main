@@ -11,6 +11,60 @@ const PORT = process.env.PORT || 5000
 const publicDir = path.join(__dirname, 'public')
 const indexFile = path.join(publicDir, 'index.html')
 
+/*
+ * The addresses this site has, and the ones it only pretends to have.
+ *
+ * Deployed beside the build (the workflow copies client/src/seo/pages.json into public/), so
+ * the server, the app and the sitemap cannot disagree about what a page is. If the file is
+ * missing the server keeps working exactly as it did before — every path gets the shell.
+ */
+const seoFile = path.join(publicDir, 'pages.json')
+const seo = fs.existsSync(seoFile)
+  ? JSON.parse(fs.readFileSync(seoFile, 'utf8'))
+  : { pages: [], redirects: {} }
+const KNOWN_PATHS = new Set(seo.pages.map((page) => page.path))
+const REDIRECTS = seo.redirects || {}
+
+// Express trusts X-Forwarded-* behind Azure's front end, which is how req.hostname is the
+// name the visitor typed rather than the container's.
+app.set('trust proxy', 1)
+
+/*
+ * One site, one hostname.
+ *
+ * Both aegisaosoft.com and www.aegisaosoft.com answered 200 with byte-identical HTML, and
+ * neither said which of them was the page. Search Console's verdict was the predictable one —
+ * "the page is a duplicate, no canonical was declared by the user" — and the home page went
+ * unindexed. Every other hostname now redirects here instead of serving a copy. localhost is
+ * the dev server and the tests; *.azurewebsites.net is how Azure's health probes and the
+ * deployment tooling reach the app, so it keeps serving, marked not to be indexed.
+ */
+const CANONICAL_HOST = (process.env.CANONICAL_HOST || 'aegisaosoft.com').toLowerCase()
+const isLocalHost = (host) =>
+  host === '' || host === 'localhost' || host === '127.0.0.1' || host === '[::1]'
+
+app.use((req, res, next) => {
+  const host = (req.hostname || '').toLowerCase()
+  if (host === CANONICAL_HOST || isLocalHost(host)) return next()
+  if (host.endsWith('.azurewebsites.net')) {
+    res.set('X-Robots-Tag', 'noindex')
+    return next()
+  }
+  // Only what a crawler follows is redirected: a 301 would strip the body of the contact
+  // form's POST, and nothing indexes one.
+  if (req.method !== 'GET' && req.method !== 'HEAD') return next()
+  return res.redirect(301, `https://${CANONICAL_HOST}${req.originalUrl}`)
+})
+
+/*
+ * The addresses the router answers with <Navigate>. To a visitor that is a redirect; to a
+ * crawler it is a second address returning the same page, which is how a site accumulates
+ * duplicates of itself. Answered here, before the app ever loads.
+ */
+for (const [from, to] of Object.entries(REDIRECTS)) {
+  app.get(from, (_req, res) => res.redirect(301, to))
+}
+
 app.use(cors())
 app.use(express.json())
 
@@ -20,9 +74,16 @@ app.use((req, res, next) => {
   next()
 })
 
-// Serve static files from React build
+/*
+ * Serve static files from the build.
+ *
+ * index:false and redirect:false leave a directory request to the catch-all below, which
+ * answers /about with the snapshot itself. Without redirect:false, serve-static replies 301
+ * /about/ — and /about, the address the canonical tag and the sitemap name, must not redirect
+ * to a different one.
+ */
 if (fs.existsSync(publicDir)) {
-  app.use(express.static(publicDir, { fallthrough: true }))
+  app.use(express.static(publicDir, { fallthrough: true, index: false, redirect: false }))
 }
 
 // API Routes
@@ -58,19 +119,44 @@ app.post('/api/contact', (req, res) => {
   })
 })
 
-// Catch-all route for React Router - serve index.html for all non-API routes
-// This must be AFTER all other routes
-app.use((req, res, next) => {
-  // If we've reached here and it's not an API route, serve the React app
-  if (fs.existsSync(indexFile)) {
+/*
+ * Catch-all for React Router — after every other route.
+ *
+ * Two things it does that the plain `sendFile(indexFile)` it replaced did not:
+ *
+ * 1. Serves the snapshot scripts/prerender.js wrote for this address, if there is one, so a
+ *    crawler that runs no JavaScript is handed the rendered page instead of an empty shell.
+ *
+ * 2. Answers 404 for an address that is not a page. Serving the shell with a 200 for anything
+ *    at all is a soft 404: every guessed path becomes another copy of the home page in the
+ *    index, and a crawler can mint them indefinitely. The body is still the app — a visitor
+ *    who mistyped sees the site, not a bare error — with the robots tag inverted so a crawler
+ *    that ignores the status code is told the same thing twice.
+ */
+app.use((req, res) => {
+  if (!fs.existsSync(indexFile)) {
+    return res.status(404).json({
+      status: 'error',
+      message: `Route ${req.originalUrl} not found.`,
+    })
+  }
+
+  const isPage = KNOWN_PATHS.size === 0 || KNOWN_PATHS.has(req.path)
+
+  if (isPage) {
+    const snapshot = path.join(publicDir, req.path, 'index.html')
+    if (snapshot.startsWith(publicDir) && fs.existsSync(snapshot)) {
+      return res.sendFile(snapshot)
+    }
     return res.sendFile(indexFile)
   }
-  
-  // If index.html doesn't exist, return 404
-  res.status(404).json({
-    status: 'error',
-    message: `Route ${req.originalUrl} not found.`,
-  })
+
+  // The built shell carries extra attributes on the tag, so match the element rather than the
+  // exact spelling index.html happens to use.
+  const shell = fs
+    .readFileSync(indexFile, 'utf8')
+    .replace(/<meta name="robots"[^>]*>/, '<meta name="robots" content="noindex, follow" />')
+  return res.status(404).type('html').send(shell)
 })
 
 // Error handler

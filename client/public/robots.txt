@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+Disallow: /admin-guide
+Disallow: /myezwheels/set-password
+
+Sitemap: https://aegisaosoft.com/sitemap.xml

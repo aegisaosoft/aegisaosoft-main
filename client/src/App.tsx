@@ -19,6 +19,7 @@ import './i18n/config'
 import { Header } from './components/Header'
 import { Footer } from './components/Footer'
 import { ScrollToTop } from './components/ScrollToTop'
+import { SeoHead } from './seo/SeoHead'
 import { Home } from './pages/Home'
 import { About } from './pages/About'
 import { Contact } from './pages/Contact'
@@ -34,11 +35,14 @@ import { MyEZTollDetail } from './pages/MyEZTollDetail'
 import { AegisLocalizerDetail } from './pages/AegisLocalizerDetail'
 import { HueControlDetail } from './pages/HueControlDetail'
 import AdminGuide from './pages/AdminGuide'
+import { NotFound } from './pages/NotFound'
 
 function App() {
   return (
     <BrowserRouter>
       <ScrollToTop />
+      {/* The page's title, description and canonical, written from the address itself. */}
+      <SeoHead />
       <div className="page">
         <Header />
         <Routes>
@@ -60,6 +64,8 @@ function App() {
           <Route path="/brazilian-marketplace" element={<BrazilianMarketplace />} />
           <Route path="/mercadinho25" element={<Mercadinho25 />} />
           <Route path="/myeztoll" element={<MyEZToll />} />
+          {/* The server answers these with a 404; this is what the visitor reads. */}
+          <Route path="*" element={<NotFound />} />
         </Routes>
         <Footer />
       </div>

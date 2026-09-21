@@ -38,6 +38,28 @@ jobs:
           npm run build
           echo "✅ React client built successfully"
 
+      # Writes client/dist/<route>/index.html for every page, so a crawler that runs no
+      # JavaScript is handed the rendered page instead of an empty <div id="root">. Uses the
+      # runner's own Chrome; puppeteer-core is the driver only, with no browser download.
+      # Deliberately non-blocking: a prerender that cannot run leaves the site as the plain SPA
+      # it has always been, which is not a reason to stop a deploy.
+      - name: 'Prerender pages'
+        continue-on-error: true
+        run: |
+          npm install --no-save puppeteer-core
+          node scripts/prerender.js
+        env:
+          PUPPETEER_EXECUTABLE_PATH: /usr/bin/google-chrome
+
+      # What the server actually answers: one canonical per address, a redirect from every
+      # other hostname, 404 for an address the site does not have. This one does block — the
+      # bugs it catches are invisible in a browser and cost the site its place in the index.
+      - name: 'Check the site'
+        run: |
+          node scripts/stage-public.js
+          node scripts/check-site.js
+          rm -rf server/public
+
       - name: 'Create minimal deployment package'
         run: |
           mkdir -p deploy/server deploy/server/public
@@ -46,6 +68,10 @@ jobs:
           rm -rf deploy/server/node_modules
 
           cp -r client/dist/. deploy/server/public/
+
+          # The page table the server reads to tell a page from a guessed path, and to answer
+          # the router's own redirects with a 301. It lives in client/src, which is not deployed.
+          cp client/src/seo/pages.json deploy/server/public/pages.json
 
           if [ -f web.config ]; then
             cp web.config deploy/

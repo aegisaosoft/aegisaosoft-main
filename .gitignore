@@ -162,3 +162,9 @@ bower_components/
 .env
 .env.local
 .env.*.local
+
+# Staged build for the local site check (npm run verify)
+server/public/
+
+# Local Claude Code settings are per-machine and never belong in a repository
+.claude/settings.local.json
