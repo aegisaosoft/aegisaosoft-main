@@ -1680,7 +1680,9 @@
     "buttons": {
       "tryNow": "Jetzt testen",
       "viewDetails": "Details ansehen",
-      "viewSource": "Quellcode ansehen"
+      "viewSource": "Quellcode ansehen",
+      "googlePlay": "Jetzt bei Google Play",
+      "googlePlaySoon": "Demnächst bei Google Play"
     },
     "myEZWheels": {
       "home": {
@@ -1822,6 +1824,34 @@
           "Umschalten zwischen mehreren Bridges und Zuhause-Gruppen",
           "Rein lokal, kein Cloud-Konto, keine Telemetrie",
           "10 Sprachen, RTL-Unterstützung, dunkles und helles Design"
+        ]
+      }
+    },
+    "ownerApp": {
+      "home": {
+        "subtitle": "Android-App für Flottenbesitzer",
+        "description": "Das MyEZToll-Besitzerportal für die Hosentasche: Fahrzeuge, Buchungen, Abbuchungen, Streitfälle und Verstöße Ihrer Mietflotte auf dem Smartphone.",
+        "items": [
+          "Dashboard mit fehlgeschlagenen Abbuchungen und offenem Saldo",
+          "Fahrzeuge, Buchungen und Fahrer mit Suche",
+          "Abbuchungen mit Zeitraum- und Statusfiltern",
+          "Streitfälle mit Fotos direkt von der Kamera beantworten",
+          "Synchronisiert Ihre Turo-Flotte mit MyEZToll",
+          "Verstoßliste mit Behörde, Kennzeichen und Betrag",
+          "Kostenlos für Flottenbesitzer, Anmeldung mit Ihrem Portal-Konto"
+        ]
+      },
+      "products": {
+        "subtitle": "Android-App für Flottenbesitzer",
+        "description": "Eine native .NET MAUI-Begleit-App zum MyEZToll-Besitzerportal: Flotten-Dashboard, Buchungen, Abbuchungen, Streitfälle und Verstöße, mit Nachweisen für Streitfälle direkt aus der Smartphone-Kamera.",
+        "items": [
+          "Flotten-Dashboard mit den Kennzahlen, die Aufmerksamkeit erfordern",
+          "Buchungen nach Status, Abbuchungen nach Datum und Status gefiltert",
+          "Nachweise für Streitfälle aus der Kamera oder der System-Fotoauswahl",
+          "Turo-Flottensynchronisierung: Inserate mit den Fahrzeugen Ihrer Flotte verknüpft",
+          "Verstöße und Fahrer, durchsuchbar",
+          "Keine Standortverfolgung, keine Werbe-ID",
+          "Gleiches Konto und gleiche Daten wie owner.myeztoll.com"
         ]
       }
     }
@@ -2247,6 +2277,164 @@
       "privacyPolicy": "Datenschutzerklärung",
       "contact": "Kontakt aufnehmen",
       "trademarkNote": "HueControl ist eine unabhängige Anwendung und steht in keiner Verbindung zu Signify N.V. oder Philips, wird von diesen weder unterstützt noch gesponsert. \"Philips Hue\" ist eine Marke von Signify Holding."
+    }
+  },
+  "ownerAppDetail": {
+    "hero": {
+      "title": "Das MyEZToll-Besitzerportal auf Ihrem Smartphone",
+      "subtitle": "Eine Android-App für Flottenbesitzer, die ihre Fahrzeuge vermieten: Sehen Sie, was Ihre Flotte eingenommen hat, welche Abbuchungen fehlgeschlagen sind und welche Streitfälle auf eine Antwort warten — wo auch immer Sie sind."
+    },
+    "whatIs": {
+      "title": "Was MyEZToll Owner ist",
+      "p1": "MyEZToll verarbeitet Maut, Parkgebühren und Verstöße für Mietflotten und gibt jede Gebühr an den Mieter weiter, der sie verursacht hat. Besitzer verfolgen all das im Web-Besitzerportal, das für den Schreibtisch gemacht ist.",
+      "p2": "MyEZToll Owner ist die mobile App für dasselbe Konto. Sie öffnet mit einem Dashboard der Zahlen, die Aufmerksamkeit erfordern — fehlgeschlagene Abbuchungen, zu beantwortende Streitfälle, der offene Saldo — und führt von dort zu Ihren Fahrzeugen, Buchungen, Abbuchungen, Verstößen und Fahrern.",
+      "p3": "Sie ist ein eigenständiges Produkt mit eigenem Release-Zyklus, aber kein separater Dienst: Sie meldet sich mit Ihrem Besitzerportal-Konto an und zeigt dieselben Daten, sodass nichts doppelt eingerichtet werden muss."
+    },
+    "forWhom": {
+      "title": "Für wen sie gedacht ist",
+      "items": [
+        {
+          "label": "Besitzer von Mietflotten",
+          "text": "die Buchungen und Auszahlungen zwischen zwei Übergaben prüfen möchten statt erst am Abend."
+        },
+        {
+          "label": "Peer-to-Peer-Hosts",
+          "text": "deren Autos auf Vermietplattformen Geld verdienen und deren Maut und Verstöße MyEZToll weiterberechnet."
+        },
+        {
+          "label": "Besitzer unterwegs",
+          "text": "die den Einspruch eines Mieters mit einem vor Ort aufgenommenen Foto beantworten müssen."
+        },
+        {
+          "label": "Flottenadministratoren",
+          "text": "die mehrere Fahrzeuge und Fahrer gleichzeitig im Blick behalten."
+        }
+      ]
+    },
+    "capabilities": {
+      "title": "Wichtigste Funktionen",
+      "cards": {
+        "dashboard": {
+          "title": "Flotten-Dashboard",
+          "text": "Fahrzeuge, Fahrer, fehlgeschlagene Abbuchungen, diesen Monat bezahlt, zu beantwortende Streitfälle und der offene Saldo — der erste Bildschirm nach der Anmeldung."
+        },
+        "vehicles": {
+          "title": "Fahrzeuge",
+          "text": "Jedes Auto der Flotte, durchsuchbar nach Kennzeichen, Bundesstaat oder ID, mit VIN, Farbe, Kilometerstand und Preis auf der Detailseite."
+        },
+        "bookings": {
+          "title": "Buchungen",
+          "text": "Alle Buchungen mit Filtern für ausstehend, bestätigt, abgeschlossen und storniert sowie allen Details zu jeder einzelnen."
+        },
+        "charges": {
+          "title": "Abbuchungen und Saldo",
+          "text": "Der offene Saldo, seine Aufteilung und der Status des Auszahlungskontos sowie jede Abbuchung mit Zeitraum, Suche und Statusfiltern."
+        },
+        "disputes": {
+          "title": "Streitfälle mit Nachweisen",
+          "text": "Öffnen Sie die Streitfälle, die Mieter eröffnet haben, und fügen Sie Nachweise hinzu, indem Sie ein Foto aufnehmen oder eines aus der Galerie wählen."
+        },
+        "violations": {
+          "title": "Verstöße",
+          "text": "Bußgeldbescheide gegen die Flotte: Nummer, ausstellende Behörde, Kennzeichen, Ausstellungsdatum und Betrag."
+        },
+        "drivers": {
+          "title": "Fahrer",
+          "text": "Die Fahrer, die Ihre Fahrzeuge gemietet haben, durchsuchbar und mit ihren Details nur einen Tipp entfernt."
+        },
+        "account": {
+          "title": "Kontoverwaltung",
+          "text": "Melden Sie sich in Ihrem Profil ab oder löschen Sie das Konto direkt in der App, mit doppelter Bestätigung."
+        }
+      }
+    },
+    "turo": {
+      "title": "Turo-Flottensynchronisierung",
+      "p1": "MyEZToll nutzt diese App, um die Flotte eines Turo-Hosts synchron zu halten. Die App liest die öffentliche Turo-Profilseite des Hosts über das Smartphone des Besitzers, MyEZToll erkennt darin die Fahrzeuge und verknüpft jedes Turo-Inserat mit dem passenden Fahrzeug der Flotte, sodass Maut und Verstöße der richtigen Turo-Fahrt und dem richtigen Mieter zugeordnet werden.",
+      "p2": "Ein Turo-Passwort wird nicht benötigt, und die Server von MyEZToll verbinden sich nie selbst mit Turo: Die Seite ist dieselbe öffentliche Seite, die jeder öffnen kann, und wird über die eigene Verbindung des Smartphones gelesen. Fahrten gelangen über die Buchungs-E-Mails von Turo zu MyEZToll; die App liefert die Flotte, mit der diese Fahrten abgeglichen werden.",
+      "p3": "Die Synchronisierung läuft rund um die Uhr im Hintergrund, unter einer Benachrichtigung, die darauf hinweist, und startet nach einem Neustart des Smartphones von selbst wieder.",
+      "note": "Turo ist eine Marke von Turo Inc. MyEZToll ist ein unabhängiger Dienst und steht in keiner Verbindung zu Turo, wird von Turo weder unterstützt noch gesponsert."
+    },
+    "problems": {
+      "title": "Welche Probleme sie löst",
+      "items": [
+        {
+          "label": "Fehlgeschlagene Abbuchungen werden zu spät bemerkt.",
+          "text": "Das Dashboard zeigt sie auf dem ersten Bildschirm, sodass eine abgelehnte Karte noch am selben Tag auffällt."
+        },
+        {
+          "label": "Streitfälle werden am Laptop beantwortet.",
+          "text": "Der Nachweis ist ein Foto des Autos, aufgenommen und angehängt dort, wo das Auto steht."
+        },
+        {
+          "label": "Eine Buchung prüfen heißt, einen Computer suchen.",
+          "text": "Buchungen, Fahrzeuge und Fahrer sind nur einen Tipp entfernt, mit Pull-to-Refresh in jeder Liste."
+        },
+        {
+          "label": "Zwei Systeme, die synchron bleiben müssen.",
+          "text": "Die App ist ein Fenster auf dasselbe Besitzerkonto, keine zweite Kopie der Daten."
+        }
+      ]
+    },
+    "privacy": {
+      "title": "Datenschutz",
+      "intro": "Worauf die App zugreift und was sie unberührt lässt:",
+      "items": [
+        "Keine Standortberechtigung und keine Standortverfolgung",
+        "Keine Werbe-ID, keine Werbung",
+        "Keine Weitergabe von Daten an Dritte",
+        "Fotos werden über die Android-System-Fotoauswahl gewählt, ohne Speicherberechtigungen",
+        "Die Kamera wird nur verwendet, wenn Sie Nachweise zu einem Streitfall anhängen",
+        "Anmelde-Tokens werden im sicheren Speicher der Plattform aufbewahrt"
+      ]
+    },
+    "tech": {
+      "title": "Technologie-Stack",
+      "cards": {
+        "platform": {
+          "title": "Plattform",
+          "text": ".NET 10 MAUI, C#, eine Codebasis für Android mit einem iOS-Ziel im selben Projekt"
+        },
+        "backend": {
+          "title": "Backend",
+          "text": "Die MyEZToll-API — dieselben Endpunkte und Daten wie das Web-Besitzerportal"
+        },
+        "security": {
+          "title": "Sicherheit",
+          "text": "Anmeldung mit E-Mail und Passwort für Besitzer- und Admin-Konten, Zugriffstokens werden automatisch erneuert und im sicheren Speicher abgelegt"
+        },
+        "photos": {
+          "title": "Fotos",
+          "text": "Android-System-Fotoauswahl ab Android 13, darunter die Dokumentauswahl, Kameraaufnahme für Nachweise"
+        },
+        "updates": {
+          "title": "Updates",
+          "text": "Eine Versionsprüfung beim Start informiert, wenn ein Update erforderlich ist"
+        },
+        "distribution": {
+          "title": "Vertrieb",
+          "text": "Android App Bundle auf Google Play für 32- und 64-Bit-ARM- sowie x86-64-Geräte, zusätzlich als direkter Download aus dem Besitzerportal"
+        }
+      }
+    },
+    "requirements": {
+      "title": "Voraussetzungen",
+      "items": [
+        "Android 5.0 oder höher",
+        "Ein MyEZToll-Besitzerkonto (dasselbe, das Sie auf owner.myeztoll.com nutzen)",
+        "Für die Turo-Flottensynchronisierung: ein Turo-Hostprofil und die App, installiert auf einem Smartphone, das online bleibt",
+        "Eine Internetverbindung — Daten werden live geladen, es gibt keinen Offline-Modus",
+        "Kostenloser Download und kostenlose Nutzung"
+      ]
+    },
+    "cta": {
+      "title": "MyEZToll Owner holen",
+      "text": "Schon bei MyEZToll? Installieren Sie die App und melden Sie sich mit Ihrem Besitzerportal-Konto an. Neu auf der Plattform? Starten Sie im Besitzerportal oder sprechen Sie mit uns.",
+      "googlePlay": "Jetzt bei Google Play",
+      "googlePlaySoon": "Demnächst bei Google Play",
+      "ownerPortal": "Besitzerportal öffnen",
+      "platform": "Über die MyEZToll-Plattform",
+      "contact": "Kontakt"
     }
   }
 }

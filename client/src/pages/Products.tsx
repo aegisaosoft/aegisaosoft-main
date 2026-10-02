@@ -16,6 +16,7 @@
 import { useTranslation } from 'react-i18next'
 import { Link } from 'react-router-dom'
 import ezMark from '../assets/ez-mark.png'
+import { OWNER_APP_PLAY_URL, OWNER_APP_ON_PLAY } from '../products/ownerApp'
 
 export function Products() {
   const { t } = useTranslation()
@@ -118,6 +119,35 @@ export function Products() {
                 </div>
                 <div style={{ marginBottom: '0.5rem' }}>
                   <a href="https://owner.myeztoll.com" className="btn btn-secondary" target="_blank" rel="noopener noreferrer" style={{ fontSize: '0.8rem', padding: '0.6rem 1.2rem', width: '100%', textAlign: 'center', display: 'block' }}>{t('home.myEZToll.ownerPortal')}</a>
+                </div>
+              </div>
+            </article>
+
+            {/* MyEZToll Owner */}
+            <article className="service-card card-clickable" style={{ display: 'grid', gridTemplateRows: 'auto auto auto 1fr auto', minHeight: '560px', padding: '1.5rem' }}>
+              <h3 className="product-card-heading" style={{ fontSize: '1.1rem', marginBottom: '0.5rem', gridRow: '1' }}>
+                <img src={ezMark} alt="" className="product-mark" />
+                MyEZToll Owner
+              </h3>
+              <p className="product-subtitle" style={{ fontSize: '0.8rem', fontWeight: '600', marginBottom: '0.75rem', color: 'var(--accent)', gridRow: '2' }}>{t('productCards.ownerApp.products.subtitle')}</p>
+              <p style={{ fontSize: '0.85rem', lineHeight: '1.5', marginBottom: '1rem', gridRow: '3' }}>{t('productCards.ownerApp.products.description')}</p>
+              <div style={{ gridRow: '4', alignSelf: 'start' }}>
+                <ul style={{ fontSize: '0.8rem', lineHeight: '1.4', paddingLeft: '1rem', margin: '0' }}>
+                  {(t('productCards.ownerApp.products.items', { returnObjects: true }) as string[]).map((item) => (
+                    <li key={item} style={{ marginBottom: '0.3rem' }}>{item}</li>
+                  ))}
+                </ul>
+              </div>
+              <div className="product-actions" style={{ gridRow: '5', paddingTop: '1rem' }}>
+                <div style={{ marginBottom: '0.5rem' }}>
+                  <Link to="/products/myeztoll-owner" className="btn btn-primary card-stretched-link" style={{ fontSize: '0.8rem', padding: '0.6rem 1.2rem', width: '100%', textAlign: 'center', display: 'block' }}>{t('productCards.buttons.viewDetails')}</Link>
+                </div>
+                <div style={{ marginBottom: '0.5rem' }}>
+                  {OWNER_APP_ON_PLAY ? (
+                    <a href={OWNER_APP_PLAY_URL} className="btn btn-secondary" target="_blank" rel="noopener noreferrer" style={{ fontSize: '0.8rem', padding: '0.6rem 1.2rem', width: '100%', textAlign: 'center', display: 'block' }}>{t('productCards.buttons.googlePlay')}</a>
+                  ) : (
+                    <span className="btn btn-secondary" aria-disabled="true" style={{ fontSize: '0.8rem', padding: '0.6rem 1.2rem', width: '100%', textAlign: 'center', display: 'block', opacity: 0.6, cursor: 'default' }}>{t('productCards.buttons.googlePlaySoon')}</span>
+                  )}
                 </div>
               </div>
             </article>

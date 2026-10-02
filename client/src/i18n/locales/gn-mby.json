@@ -86,5 +86,197 @@
       "visitSite": "Jehecha página",
       "ownerPortal": "Portal Dueño"
     }
+  },
+  "productCards": {
+    "buttons": {
+      "googlePlay": "Ejapyhy Google Play-pe",
+      "googlePlaySoon": "Oúta Google Play-pe"
+    },
+    "ownerApp": {
+      "home": {
+        "subtitle": "Aplicación Android dueño flota kuérape g̃uarã",
+        "description": "Portal Dueño MyEZToll nde ryvápe: automóvil, reserva, cobro, disputa ha violación nde flota alquiler-pe g̃uarã, nde celular-pe.",
+        "items": [
+          "Panel cobro ojavyva'ekue ha saldo pendiente reheve",
+          "Automóvil, reserva ha conductor kuéra jeheka reheve",
+          "Cobro ára ha estado filtro reheve",
+          "Embohovái disputa foto cámara-gui reheve",
+          "Ombojoja nde flota Turo MyEZToll ndive",
+          "Violación lista agencia, placa ha monto reheve",
+          "Dueño flota-pe g̃uarã repy'ỹre, eike nde cuenta portal-pegua reheve"
+        ]
+      },
+      "products": {
+        "subtitle": "Aplicación Android dueño flota kuérape g̃uarã",
+        "description": "Aplicación nativa .NET MAUI Portal Dueño MyEZToll ndive: panel flota, reserva, cobro, disputa ha violación, prueba disputa-pegua ojegueraha cámara celular-gui voi.",
+        "items": [
+          "Panel flota número oikotevẽva ñangareko reheve",
+          "Reserva estado rupi, cobro ára ha estado rupi",
+          "Prueba disputa-pegua cámara térã selector foto sistema-gui",
+          "Sincronización flota Turo: anuncio ojoaju nde flota automóvil ndive",
+          "Violación ha conductor kuéra, jeheka reheve",
+          "Ndojesarekói ubicación, ndaipóri ID publicidad",
+          "Peteĩchagua cuenta ha dato owner.myeztoll.com ndive"
+        ]
+      }
+    }
+  },
+  "ownerAppDetail": {
+    "hero": {
+      "title": "Portal Dueño MyEZToll, nde celular-pe",
+      "subtitle": "Aplicación Android dueño flota kuéra omoalquiláva iautomóvil-pe g̃uarã: ehecha mba'e ohupyty nde flota, mba'e cobro ojavy ha mba'e disputa oha'arõ embohovái, oĩháicha reĩ."
+    },
+    "whatIs": {
+      "title": "Mba'épa MyEZToll Owner",
+      "p1": "MyEZToll oñangareko peaje, estacionamiento ha violación flota alquiler-pegua rehe ha ombohasa peteĩteĩ cobro alquilador ojapova'ekue-pe. Dueño kuéra ohecha upe mba'e opa portal dueño web-pe, ojejapova'ekue escritorio-pe g̃uarã.",
+      "p2": "MyEZToll Owner ha'e aplicación celular-pegua upe cuenta peteĩchagua-pe g̃uarã. Ojepe'a panel número oikotevẽva ñangareko reheve — cobro ojavyva'ekue, disputa embohováiva'erã, saldo pendiente — ha upégui ndegueraha nde automóvil, reserva, cobro, violación ha conductor kuéra-pe.",
+      "p3": "Ha'e producto ijeheguiete orekóva iciclo lanzamiento, ha katu nda'éi servicio ambue: oike nde cuenta portal dueño-pegua reheve ha ohechauka umi dato peteĩchagua, upévare ndaipóri mba'eve emoĩ va'erã mokõi jey."
+    },
+    "forWhom": {
+      "title": "Mávape g̃uarã",
+      "items": [
+        {
+          "label": "Dueño flota alquiler-pegua",
+          "text": "oipotáva ohecha reserva ha pago entrega pa'ũme, ndaha'éi ára opa jave."
+        },
+        {
+          "label": "Anfitrión peer-to-peer",
+          "text": "iautomóvil ohupytýva plataforma alquiler-pe ha ipeaje ha violación MyEZToll omboepy jey."
+        },
+        {
+          "label": "Dueño escritorio-gui mombyry",
+          "text": "oikotevẽva embohovái alquilador disputa foto upépe voi ojegueraha reheve."
+        },
+        {
+          "label": "Administrador flota-pegua",
+          "text": "oñangarekóva heta automóvil ha conductor rehe peteĩ jave."
+        }
+      ]
+    },
+    "capabilities": {
+      "title": "Capacidad Tenondegua",
+      "cards": {
+        "dashboard": {
+          "title": "Panel Flota",
+          "text": "Automóvil, conductor, cobro ojavyva'ekue, ojehepyme'ẽva ko jasýpe, disputa embohováiva'erã ha saldo pendiente — pantalla peteĩha eike rire."
+        },
+        "vehicles": {
+          "title": "Automóvil",
+          "text": "Opa automóvil flota-pegua, jeheka placa, estado térã ID rupi, VIN, color, kilometraje ha precio reheve página detalle-pe."
+        },
+        "bookings": {
+          "title": "Reserva",
+          "text": "Opa reserva filtro pendiente, aprobado, completado ha cancelado reheve, ha peteĩteĩ detalle henyhẽva."
+        },
+        "charges": {
+          "title": "Cobro ha Saldo",
+          "text": "Saldo pendiente, mba'éicha oñemboja'o ha estado cuenta pago-pegua, avei opa cobro ára, jeheka ha estado filtro reheve."
+        },
+        "disputes": {
+          "title": "Disputa Prueba reheve",
+          "text": "Ejepe'a disputa alquilador kuéra omoĩva'ekue ha emoĩ prueba eguenohẽvo foto térã eiporavóvo galería-gui."
+        },
+        "violations": {
+          "title": "Violación",
+          "text": "Multa flota rehe: número, agencia ome'ẽva, placa, ára oñeme'ẽhague ha monto."
+        },
+        "drivers": {
+          "title": "Conductor",
+          "text": "Conductor kuéra omoalquilava'ekue nde automóvil, jeheka reheve, idetalle peteĩ toque-pe."
+        },
+        "account": {
+          "title": "Cuenta Ñangareko",
+          "text": "Esẽ nde perfil-gui, térã embogue cuenta aplicación-gui voi, mokõi confirmación reheve."
+        }
+      }
+    },
+    "turo": {
+      "title": "Sincronización Flota Turo",
+      "p1": "MyEZToll oipuru ko aplicación oñongatu hag̃ua anfitrión Turo flota ojojaháicha. Aplicación omoñe'ẽ anfitrión página perfil Turo público dueño celular-gui, MyEZToll oiporavo automóvil upégui ha ombojoaju peteĩteĩ anuncio Turo automóvil ojoguaháva flota-pe, upéicha peaje ha violación oñemoĩ viaje Turo ha alquilador hekopete rehe.",
+      "p2": "Ndojeikotevẽi contraseña Turo ha servidor MyEZToll-pegua araka'eve noñembojoajúi Turo ndive ijeheguiete: página ha'e upe página público oimeraẽva ombojurujakuaáva, oñemoñe'ẽva celular conexión voi rupive. Viaje og̃uahẽ MyEZToll-pe Turo email reserva-pegua rupive; aplicación ome'ẽ flota umi viaje oñembojojahápe.",
+      "p3": "Sincronización omba'apo ára ha pyhare segundo plano-pe, peteĩ notificación he'íva upéva guýpe, ha oñepyrũjey ijeheguiete celular oñemoñepyrũjey rire.",
+      "note": "Turo ha'e marca Turo Inc. mba'e. MyEZToll ha'e servicio ijeheguiete ha ndojoajúi, ndojeguerohorýi ni ndojepatrocinái Turo rupive."
+    },
+    "problems": {
+      "title": "Apañuãi Omoĩporãva",
+      "items": [
+        {
+          "label": "Cobro ojavyva'ekue ojehecha tarde.",
+          "text": "Panel omoĩ pantalla peteĩha-pe, upévare tarjeta oñembotovéva ojehecha upe ára voi."
+        },
+        {
+          "label": "Disputa ojembohovái laptop-gui.",
+          "text": "Prueba ha'e automóvil foto, ojegueraha ha oñemoĩ automóvil oĩháme."
+        },
+        {
+          "label": "Reserva jehecha oikotevẽ computadora.",
+          "text": "Reserva, automóvil ha conductor peteĩ toque-pe, pull-to-refresh opa lista-pe."
+        },
+        {
+          "label": "Mokõi sistema ojoja va'erã.",
+          "text": "Aplicación ha'e ovetã upe cuenta dueño peteĩchagua-pe, ndaha'éi dato copia mokõiha."
+        }
+      ]
+    },
+    "privacy": {
+      "title": "Privacidad",
+      "intro": "Mba'épa aplicación oipuru, ha mba'épa ohejapa:",
+      "items": [
+        "Ndaipóri permiso ubicación ha ndojesarekói ubicación",
+        "Ndaipóri ID publicidad, ndaipóri publicidad",
+        "Dato noñemoherakuãi tercero kuérape",
+        "Foto ojeporavo selector foto sistema Android rupi, permiso almacenamiento'ỹre",
+        "Cámara ojepuru emoĩ jave prueba disputa-pegua añoite",
+        "Token jeike-pegua oñeñongatu almacenamiento seguro plataforma-pegua-pe"
+      ]
+    },
+    "tech": {
+      "title": "Tecnología",
+      "cards": {
+        "platform": {
+          "title": "Plataforma",
+          "text": ".NET 10 MAUI, C#, peteĩ código Android-pe g̃uarã ha iOS target upe proyecto peteĩchagua-pe"
+        },
+        "backend": {
+          "title": "Backend",
+          "text": "API MyEZToll — umi endpoint ha dato peteĩchagua portal dueño web-pegua"
+        },
+        "security": {
+          "title": "Seguridad",
+          "text": "Jeike email ha contraseña reheve cuenta dueño ha admin-pe g̃uarã, token acceso oñembopyahu ijeheguiete ha oñeñongatu almacenamiento seguro-pe"
+        },
+        "photos": {
+          "title": "Foto",
+          "text": "Selector foto sistema Android Android 13 ha ipyahuvévape, selector documento umi itujavévape, cámara prueba-pe g̃uarã"
+        },
+        "updates": {
+          "title": "Ñembopyahu",
+          "text": "Versión jehesa'ỹijo ñepyrũme oikuaauka usuario-pe oikotevẽ jave ñembopyahu"
+        },
+        "distribution": {
+          "title": "Ñemboja'o",
+          "text": "Android App Bundle Google Play-pe dispositivo ARM 32 ha 64 bit ha x86-64-pe g̃uarã, ha avei descarga directa portal dueño-gui"
+        }
+      }
+    },
+    "requirements": {
+      "title": "Mba'e Oikotevẽva",
+      "items": [
+        "Android 5.0 térã ipyahuvéva",
+        "Cuenta dueño MyEZToll-pegua (upe reipurúva owner.myeztoll.com-pe)",
+        "Sincronización flota Turo-pe g̃uarã: perfil anfitrión Turo-pegua ha aplicación ojemoĩva celular opytáva online-pe",
+        "Conexión internet — dato oñemyenyhẽ upe javete, ndaipóri modo offline",
+        "Repy'ỹre ejapyhy ha eipuru"
+      ]
+    },
+    "cta": {
+      "title": "Ejapyhy MyEZToll Owner",
+      "text": "¿Reipurúma MyEZToll? Emoĩ aplicación ha eike nde cuenta portal dueño-pegua reheve. ¿Pyahu plataforma-pe? Eñepyrũ portal dueño-pe térã eñe'ẽ ore ndive.",
+      "googlePlay": "Ejapyhy Google Play-pe",
+      "googlePlaySoon": "Oúta Google Play-pe",
+      "ownerPortal": "Ejepe'a Portal Dueño",
+      "platform": "Plataforma MyEZToll rehegua",
+      "contact": "Eñe'ẽ ore ndive"
+    }
   }
 }

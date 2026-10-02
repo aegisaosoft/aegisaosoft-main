@@ -111,6 +111,17 @@ const titleOf = (html) => {
     }
   }
 
+  /*
+   * Every route the app declares is listed here too. The server answers an address that is
+   * not in pages.json with a 404, so a new product page added to App.tsx alone works under
+   * `vite dev` and is a 404 in production.
+   */
+  const appSource = fs.readFileSync(path.join(ROOT, 'client', 'src', 'App.tsx'), 'utf8');
+  const known = new Set([...seo.pages.map((p) => p.path), ...Object.keys(seo.redirects || {})]);
+  for (const [, route] of appSource.matchAll(/<Route path="([^"*]+)"/g)) {
+    if (!known.has(route)) fail(`App.tsx routes ${route}, but pages.json does not list it`);
+  }
+
   /* ------------------------------------------------------------------ what the server says */
 
   const server = spawn(process.execPath, [path.join(ROOT, 'server', 'index.js')], {

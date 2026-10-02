@@ -34,6 +34,7 @@ import { BrazilianMarketplaceDetail } from './pages/BrazilianMarketplaceDetail'
 import { MyEZTollDetail } from './pages/MyEZTollDetail'
 import { AegisLocalizerDetail } from './pages/AegisLocalizerDetail'
 import { HueControlDetail } from './pages/HueControlDetail'
+import { OwnerAppDetail } from './pages/OwnerAppDetail'
 import AdminGuide from './pages/AdminGuide'
 import { NotFound } from './pages/NotFound'
 
@@ -56,6 +57,7 @@ function App() {
           <Route path="/products/myeztoll" element={<MyEZTollDetail />} />
           <Route path="/products/aegis-localizer" element={<AegisLocalizerDetail />} />
           <Route path="/products/huecontrol" element={<HueControlDetail />} />
+          <Route path="/products/myeztoll-owner" element={<OwnerAppDetail />} />
           <Route path="/admin-guide" element={<AdminGuide />} />
           <Route path="/myezwheels" element={<MyEZWheels />} />
           <Route path="/myezwheels/set-password" element={<MyEZWheelsSetPassword />} />

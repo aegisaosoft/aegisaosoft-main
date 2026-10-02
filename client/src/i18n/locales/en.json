@@ -1680,7 +1680,9 @@
     "buttons": {
       "tryNow": "Try Now",
       "viewDetails": "View Details",
-      "viewSource": "View Source"
+      "viewSource": "View Source",
+      "googlePlay": "Get it on Google Play",
+      "googlePlaySoon": "Coming soon to Google Play"
     },
     "myEZWheels": {
       "home": {
@@ -1822,6 +1824,34 @@
           "Multi-bridge and multi-home switching",
           "Local-only, no cloud account, no telemetry",
           "10 languages, RTL support, dark and light themes"
+        ]
+      }
+    },
+    "ownerApp": {
+      "home": {
+        "subtitle": "Android App for Fleet Owners",
+        "description": "The MyEZToll owner portal in your pocket: vehicles, bookings, charges, disputes and violations for your rental fleet, on your phone.",
+        "items": [
+          "Dashboard with failed charges and pending balance",
+          "Vehicles, bookings and drivers with search",
+          "Charges with date range and status filters",
+          "Answer disputes with photos from the camera",
+          "Syncs your Turo fleet into MyEZToll",
+          "Violation list with agency, plate and amount",
+          "Free for fleet owners, sign in with your portal account"
+        ]
+      },
+      "products": {
+        "subtitle": "Android App for Fleet Owners",
+        "description": "A native .NET MAUI companion to the MyEZToll owner portal: the fleet dashboard, bookings, charges, disputes and violations, with dispute evidence captured straight from the phone camera.",
+        "items": [
+          "Fleet dashboard with the figures that need attention",
+          "Bookings filtered by status, charges by date and status",
+          "Dispute evidence from the camera or the system photo picker",
+          "Turo fleet sync: listings linked to the cars in your fleet",
+          "Violations and drivers, searchable",
+          "No location tracking, no advertising ID",
+          "Same account and data as owner.myeztoll.com"
         ]
       }
     }
@@ -2247,6 +2277,164 @@
       "privacyPolicy": "Privacy Policy",
       "contact": "Contact Us",
       "trademarkNote": "HueControl is an independent application and is not affiliated with, endorsed by, or sponsored by Signify N.V. or Philips. \"Philips Hue\" is a trademark of Signify Holding."
+    }
+  },
+  "ownerAppDetail": {
+    "hero": {
+      "title": "The MyEZToll owner portal, on your phone",
+      "subtitle": "An Android app for fleet owners who rent out their vehicles: see what your fleet earned, which charges failed and which disputes are waiting for an answer, wherever you are."
+    },
+    "whatIs": {
+      "title": "What MyEZToll Owner Is",
+      "p1": "MyEZToll processes tolls, parking and violations for rental fleets and passes each charge on to the renter who incurred it. Owners follow all of that in the web owner portal, which is built for a desk.",
+      "p2": "MyEZToll Owner is the mobile app for the same account. It opens on a dashboard with the numbers that need attention — failed charges, disputes to answer, the pending balance — and from there takes you to your vehicles, bookings, charges, violations and drivers.",
+      "p3": "It is a standalone product with its own release cycle, but it is not a separate service: it signs in with your owner portal account and shows the same data, so nothing has to be set up twice."
+    },
+    "forWhom": {
+      "title": "Who It Is For",
+      "items": [
+        {
+          "label": "Rental fleet owners",
+          "text": "who want to check bookings and payouts between handovers rather than at the end of the day."
+        },
+        {
+          "label": "Peer-to-peer hosts",
+          "text": "whose cars earn on rental platforms and whose tolls and violations MyEZToll rebills."
+        },
+        {
+          "label": "Owners away from a desk",
+          "text": "who need to answer a renter's dispute with a photo taken on the spot."
+        },
+        {
+          "label": "Fleet administrators",
+          "text": "who keep an eye on several vehicles and drivers at once."
+        }
+      ]
+    },
+    "capabilities": {
+      "title": "Main Capabilities",
+      "cards": {
+        "dashboard": {
+          "title": "Fleet Dashboard",
+          "text": "Vehicles, drivers, failed charges, paid this month, disputes to answer and the pending balance — the first screen after sign-in."
+        },
+        "vehicles": {
+          "title": "Vehicles",
+          "text": "Every car in the fleet, searchable by plate, state or ID, with VIN, colour, mileage and price on the detail page."
+        },
+        "bookings": {
+          "title": "Bookings",
+          "text": "All bookings with filters for pending, approved, completed and canceled, and the full details of each one."
+        },
+        "charges": {
+          "title": "Charges and Balance",
+          "text": "The pending balance, how it is distributed and the payout account status, plus every charge with date range, search and status filters."
+        },
+        "disputes": {
+          "title": "Disputes with Evidence",
+          "text": "Open the disputes renters raised and add evidence by taking a photo or picking one from the gallery."
+        },
+        "violations": {
+          "title": "Violations",
+          "text": "Citations against the fleet: number, issuing agency, plate, issue date and amount."
+        },
+        "drivers": {
+          "title": "Drivers",
+          "text": "The drivers who rented your vehicles, searchable, with their details one tap away."
+        },
+        "account": {
+          "title": "Account Control",
+          "text": "Sign out from your profile, or delete the account from the app itself, with a double confirmation."
+        }
+      }
+    },
+    "turo": {
+      "title": "Turo Fleet Sync",
+      "p1": "MyEZToll uses this app to keep a Turo host's fleet in sync. The app reads the host's public Turo profile page from the owner's phone, MyEZToll picks the vehicles out of it and links each Turo listing to the matching car in the fleet, so tolls and violations are attributed to the right Turo trip and the right renter.",
+      "p2": "No Turo password is involved and MyEZToll's servers never connect to Turo themselves: the page is the same public page anyone can open, read from the phone's own connection. Trips reach MyEZToll from Turo's booking emails; the app supplies the fleet those trips are matched against.",
+      "p3": "The sync runs around the clock in the background, under a notification that says so, and starts again by itself after the phone restarts.",
+      "note": "Turo is a trademark of Turo Inc. MyEZToll is an independent service and is not affiliated with, endorsed by, or sponsored by Turo."
+    },
+    "problems": {
+      "title": "Problems It Solves",
+      "items": [
+        {
+          "label": "Failed charges noticed late.",
+          "text": "The dashboard puts them on the first screen, so a declined card is seen the same day."
+        },
+        {
+          "label": "Disputes answered from a laptop.",
+          "text": "Evidence is a photo of the car, taken and attached where the car is."
+        },
+        {
+          "label": "Checking a booking means finding a computer.",
+          "text": "Bookings, vehicles and drivers are a tap away, with pull-to-refresh on every list."
+        },
+        {
+          "label": "Two systems to keep in step.",
+          "text": "The app is a window onto the same owner account, not a second copy of the data."
+        }
+      ]
+    },
+    "privacy": {
+      "title": "Privacy",
+      "intro": "What the app touches, and what it leaves alone:",
+      "items": [
+        "No location permission and no location tracking",
+        "No advertising ID, no ads",
+        "Data is not shared with third parties",
+        "Photos are chosen through the Android system photo picker, without storage permissions",
+        "The camera is used only when you attach dispute evidence",
+        "Sign-in tokens are kept in the platform's secure storage"
+      ]
+    },
+    "tech": {
+      "title": "Technology Stack",
+      "cards": {
+        "platform": {
+          "title": "Platform",
+          "text": ".NET 10 MAUI, C#, one codebase for Android with an iOS target in the same project"
+        },
+        "backend": {
+          "title": "Backend",
+          "text": "The MyEZToll API — the same endpoints and data as the web owner portal"
+        },
+        "security": {
+          "title": "Security",
+          "text": "Email and password sign-in for owner and admin accounts, access tokens refreshed automatically and kept in secure storage"
+        },
+        "photos": {
+          "title": "Photos",
+          "text": "Android system photo picker on Android 13 and later, document picker below it, camera capture for evidence"
+        },
+        "updates": {
+          "title": "Updates",
+          "text": "A version check at start-up tells the user when an update is required"
+        },
+        "distribution": {
+          "title": "Distribution",
+          "text": "Android App Bundle on Google Play for 32- and 64-bit ARM and x86-64 devices, plus a direct download from the owner portal"
+        }
+      }
+    },
+    "requirements": {
+      "title": "Requirements",
+      "items": [
+        "Android 5.0 or later",
+        "A MyEZToll owner account (the one you use at owner.myeztoll.com)",
+        "For the Turo fleet sync: a Turo host profile and the app installed on a phone that stays online",
+        "An internet connection — data loads live, there is no offline mode",
+        "Free to download and use"
+      ]
+    },
+    "cta": {
+      "title": "Get MyEZToll Owner",
+      "text": "Already on MyEZToll? Install the app and sign in with your owner portal account. New to the platform? Start in the owner portal or talk to us.",
+      "googlePlay": "Get it on Google Play",
+      "googlePlaySoon": "Coming soon to Google Play",
+      "ownerPortal": "Open Owner Portal",
+      "platform": "About the MyEZToll Platform",
+      "contact": "Contact Us"
     }
   },
   "notFound": {

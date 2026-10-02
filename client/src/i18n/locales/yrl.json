@@ -86,5 +86,197 @@
       "visitSite": "Yamaã página",
       "ownerPortal": "Portal Yara"
     }
+  },
+  "productCards": {
+    "buttons": {
+      "googlePlay": "Yasuaxara Google Play upé",
+      "googlePlaySoon": "Uri kuri Google Play upé"
+    },
+    "ownerApp": {
+      "home": {
+        "subtitle": "Aplicativu Android flota yara-itá arama",
+        "description": "Portal Yara MyEZToll indé pikasu upé: kaá-itá, reserva-itá, kobransa-itá, disputa-itá yuíri violación-itá indé flota alquiler arama, indé celular upé.",
+        "items": [
+          "Painel kobransa ukuaíra waá-itá yuíri saldo pendente irũ",
+          "Kaá-itá, reserva-itá yuíri motorista-itá sikaisawa irũ",
+          "Kobransa-itá ara yuíri estado filtro irũ",
+          "Resuaxara disputa-itá fotu kámera suí irũ",
+          "Umuyumuyaué ndé flota Turo MyEZToll irũ",
+          "Violación-itá lista agência, placa yuíri valor irũ",
+          "Ti repagari flota yara-itá arama, reike indé konta portal irũ"
+        ]
+      },
+      "products": {
+        "subtitle": "Aplicativu Android flota yara-itá arama",
+        "description": "Aplicativu nativu .NET MAUI Portal Yara MyEZToll irũ: painel flota, reserva-itá, kobransa-itá, disputa-itá yuíri violación-itá, prova disputa arama resenúi celular kámera suí ape.",
+        "items": [
+          "Painel flota número-itá tekotevê maãsawa irũ",
+          "Reserva-itá estado rupí, kobransa-itá ara yuíri estado rupí",
+          "Prova disputa arama kámera térã sistema fotu seletor suí",
+          "Sincronização flota Turo: anúnciu-itá upuxi ndé flota kaá-itá irũ",
+          "Violación-itá yuíri motorista-itá, sikaisawa irũ",
+          "Ti umaã lugar, ti urikú ID publicidade",
+          "Peteĩ konta yuíri mbaé kuaa owner.myeztoll.com irũ"
+        ]
+      }
+    }
+  },
+  "ownerAppDetail": {
+    "hero": {
+      "title": "Portal Yara MyEZToll, indé celular upé",
+      "subtitle": "Aplicativu Android flota yara-itá arama umualugari waá aintá kaá: remaã maã taá indé flota usuaxara, maã kobransa ukuaíra yuíri maã disputa uyururé resuaxara, mairamé resikué."
+    },
+    "whatIs": {
+      "title": "Maã taá MyEZToll Owner",
+      "p1": "MyEZToll utrapalha peaje, estacionamento yuíri violación-itá flota alquiler arama yuíri umbuu kobransa yepé-yepé alugadoru uyapó waá supé. Yara-itá umaã panhẽ yawé portal yara web upé, uyapó waá mesa arama.",
+      "p2": "MyEZToll Owner aplicativu celular arama peteĩ konta ãna. Upiri painel irũ número-itá tekotevê maãsawa — kobransa ukuaíra waá, disputa resuaxara arama, saldo pendente — yuíri ape suí resú indé kaá-itá, reserva-itá, kobransa-itá, violación-itá yuíri motorista-itá kití.",
+      "p3": "Mbaé aintá yaué urikú waá aintá ciclo lançamentu, maa ti serviço amú: ureike indé konta portal yara irũ yuíri umukameẽ peteĩ mbaé kuaa, ti tekotevê reyapó mukũi yeí."
+    },
+    "forWhom": {
+      "title": "Awá arama",
+      "items": [
+        {
+          "label": "Flota alquiler yara-itá",
+          "text": "ukuaari umaã reserva-itá yuíri dinheru kaá entrega mbytépe, ti ara upawa ramé."
+        },
+        {
+          "label": "Anfitrião peer-to-peer",
+          "text": "aintá kaá usuaxara dinheru plataforma alquiler upé yuíri aintá peaje yuíri violación MyEZToll ukobrari yeí."
+        },
+        {
+          "label": "Yara-itá mesa suí apekatu",
+          "text": "tekotevê usuaxara alugadoru disputa fotu ape ãna usenúi waá irũ."
+        },
+        {
+          "label": "Flota administradoru-itá",
+          "text": "umaã heta kaá yuíri motorista-itá peteĩ ramé."
+        }
+      ]
+    },
+    "capabilities": {
+      "title": "Katupyry Ruaxara",
+      "cards": {
+        "dashboard": {
+          "title": "Painel Flota",
+          "text": "Kaá-itá, motorista-itá, kobransa ukuaíra waá, upaga waá kuá yasí upé, disputa resuaxara arama yuíri saldo pendente — tela yepesaua reike riré."
+        },
+        "vehicles": {
+          "title": "Kaá-itá",
+          "text": "Panhẽ kaá flota upé, sikaisawa placa, estado térã ID rupí, VIN, kúri, kilometragem yuíri preço irũ página detalhe upé."
+        },
+        "bookings": {
+          "title": "Reserva-itá",
+          "text": "Panhẽ reserva-itá filtro pendente, aprovado, completo yuíri cancelado irũ, yuíri yepé-yepé detalhe panhẽ."
+        },
+        "charges": {
+          "title": "Kobransa yuíri Saldo",
+          "text": "Saldo pendente, mamé taá umusasá yuíri estado konta dinheru arama, yuíri panhẽ kobransa ara, sikaisawa yuíri estado filtro irũ."
+        },
+        "disputes": {
+          "title": "Disputa-itá Prova irũ",
+          "text": "Rupiri disputa-itá alugadoru-itá umuapú waá yuíri remuĩ prova resenúi fotu térã reiporavo galeria suí."
+        },
+        "violations": {
+          "title": "Violación-itá",
+          "text": "Multa-itá flota resé: número, agência umeẽ waá, placa, ara umeẽ yuíri valor."
+        },
+        "drivers": {
+          "title": "Motorista-itá",
+          "text": "Motorista-itá umualugari waá indé kaá, sikaisawa irũ, aintá detalhe peteĩ toque upé."
+        },
+        "account": {
+          "title": "Konta Rikuyara",
+          "text": "Resẽ indé perfil suí, térã remunhã konta aplicativu suí ape, mukũi confirmação irũ."
+        }
+      }
+    },
+    "turo": {
+      "title": "Sincronização Flota Turo",
+      "p1": "MyEZToll upurú kuá aplicativu umuyumuyaué arama anfitrião Turo flota. Aplicativu umburandu anfitrião página perfil Turo público yara celular suí, MyEZToll upurawaka kaá-itá aé suí yuíri umupuxi yepé-yepé anúnciu Turo kaá ukuaú waá flota upé irũ, kuíri peaje yuíri violación-itá usú Turo viagem yuíri alugadoru supi waá supé.",
+      "p2": "Ti uputari senha Turo yuíri servidor-itá MyEZToll ti mairamé umupuxi Turo irũ aintá yaué: página aé página público panhẽ mira upudi upirari, umburandu waá celular conexão ãna rupí. Viagem-itá usika MyEZToll upé Turo email reserva rupí; aplicativu umeẽ flota kuá viagem-itá uyumuyaué waá irũ.",
+      "p3": "Sincronização umbaraíri ara-pukú yuíri pituna segundo plano upé, yepé notificação umbeú waá aé wirpe, yuíri upitá umbaraíri yuíri aintá yaué celular uyupirũ yuíri riré.",
+      "note": "Turo marca Turo Inc. suí. MyEZToll serviço aintá yaué yuíri ti uyupuxi, ti uaprovari, ti upatrocinari Turo rupí."
+    },
+    "problems": {
+      "title": "Apañuãi Upuranga waá",
+      "items": [
+        {
+          "label": "Kobransa ukuaíra waá umaã tarde.",
+          "text": "Painel umuĩ tela yepesaua upé, kuíri cartão ti ukuaú waá umaã kuá ara ãna."
+        },
+        {
+          "label": "Disputa-itá usuaxara laptop suí.",
+          "text": "Prova kaá fotu, usenúi yuíri umuĩ mamé kaá urikú."
+        },
+        {
+          "label": "Remaã reserva tekotevê resikari computadoru.",
+          "text": "Reserva-itá, kaá-itá yuíri motorista-itá peteĩ toque upé, pull-to-refresh panhẽ lista upé."
+        },
+        {
+          "label": "Mukũi sistema tekotevê uyuíri.",
+          "text": "Aplicativu ukena peteĩ konta yara arama, ti mbaé kuaa cópia mukũisawa."
+        }
+      ]
+    },
+    "privacy": {
+      "title": "Privacidade",
+      "intro": "Mbaá aplicativu upurú, yuíri mbaá aé usarirú:",
+      "items": [
+        "Ti urikú permissão lugar yuíri ti umaã lugar",
+        "Ti urikú ID publicidade, ti publicidade",
+        "Mbaé kuaa ti umeẽ amú-itá supé",
+        "Fotu-itá uiporavo sistema Android fotu seletor rupí, permissão armazenamento ti",
+        "Kámera upurú remuĩ ramé prova disputa arama ãna",
+        "Token reikesawa usaru armazenamento seguro plataforma upé"
+      ]
+    },
+    "tech": {
+      "title": "Tecnología",
+      "cards": {
+        "platform": {
+          "title": "Plataforma",
+          "text": ".NET 10 MAUI, C#, peteĩ código Android arama yuíri iOS target peteĩ projeto upé"
+        },
+        "backend": {
+          "title": "Backend",
+          "text": "API MyEZToll — peteĩ endpoint-itá yuíri mbaé kuaa portal yara web irũ"
+        },
+        "security": {
+          "title": "Seguridad",
+          "text": "Reikesawa email yuíri senha irũ konta yara yuíri admin arama, token acesso upyahu aintá yaué yuíri usaru armazenamento seguro upé"
+        },
+        "photos": {
+          "title": "Fotu-itá",
+          "text": "Sistema Android fotu seletor Android 13 yuíri pyahu-itá upé, documento seletor tuiué-itá upé, kámera prova arama"
+        },
+        "updates": {
+          "title": "Upyahusawa",
+          "text": "Versão maãsawa uyupirú ramé umbeú usuário supé tekotevê ramé upyahusawa"
+        },
+        "distribution": {
+          "title": "Musasawa",
+          "text": "Android App Bundle Google Play upé ARM 32 yuíri 64 bit yuíri x86-64 dispositivo-itá arama, yuíri download directo portal yara suí"
+        }
+      }
+    },
+    "requirements": {
+      "title": "Maã Tekotevê",
+      "items": [
+        "Android 5.0 térã pyahu-itá",
+        "Konta yara MyEZToll (indé upurú waá owner.myeztoll.com upé)",
+        "Sincronização flota Turo arama: perfil anfitrião Turo yuíri aplicativu umuĩ waá celular upitá waá online upé",
+        "Internet — mbaé kuaa uyururi ape ramé, ti urikú modo offline",
+        "Ti repagari resuaxara yuíri repurú arama"
+      ]
+    },
+    "cta": {
+      "title": "Resuaxara MyEZToll Owner",
+      "text": "¿Repurú ana MyEZToll? Remuĩ aplicativu yuíri reike indé konta portal yara irũ. ¿Pyahu plataforma upé? Reyupirú portal yara upé térã repurunguetá yané irũ.",
+      "googlePlay": "Yasuaxara Google Play upé",
+      "googlePlaySoon": "Uri kuri Google Play upé",
+      "ownerPortal": "Rupiri Portal Yara",
+      "platform": "Plataforma MyEZToll resé",
+      "contact": "Purundusawa"
+    }
   }
 }

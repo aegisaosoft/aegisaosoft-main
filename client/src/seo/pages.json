@@ -32,7 +32,7 @@
     {
       "path": "/products",
       "title": "Products — Aegis AO Soft",
-      "description": "Five shipped products: MyEZToll for rental fleets, the MyEZWheels storefront platform, the Mercadinho25 marketplace, Aegis Localizer and HueControl."
+      "description": "Six shipped products: MyEZToll for rental fleets and its MyEZToll Owner Android app, the MyEZWheels storefront platform, the Mercadinho25 marketplace, Aegis Localizer and HueControl."
     },
     {
       "path": "/products/myeztoll",
@@ -58,6 +58,11 @@
       "path": "/products/huecontrol",
       "title": "HueControl — Windows control centre for Philips Hue",
       "description": "A free native Windows app for lights, rooms, scenes, sensors and dimmer switches, talking straight to the Hue bridge on the local network."
+    },
+    {
+      "path": "/products/myeztoll-owner",
+      "title": "MyEZToll Owner — Android app for rental fleet owners",
+      "description": "The MyEZToll owner portal on your phone and the app behind MyEZToll's Turo integration: fleet dashboard, bookings, charges, disputes with photo evidence and violations."
     },
     {
       "path": "/myeztoll",
