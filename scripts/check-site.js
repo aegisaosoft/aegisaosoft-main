@@ -163,6 +163,14 @@ const titleOf = (html) => {
   if (built.to !== 'alex@aegisaosoft.com') fail(`contact mail goes to ${built.to}, expected alex@aegisaosoft.com`);
   if (built.replyTo.address !== 'pat@example.com') fail('contact mail does not reply to the visitor');
   if (built.from.address !== 'alex@aegisaosoft.com') fail('contact mail is not sent from the SMTP mailbox itself');
+  // "Received" is on the company's clock, not UTC — and follows daylight saving.
+  for (const [instant, expected] of [
+    ['2026-10-02T02:16:00Z', 'Received: Thu, Oct 1, 2026, 10:16 PM EDT'],
+    ['2026-01-15T17:05:00Z', 'Received: Thu, Jan 15, 2026, 12:05 PM EST'],
+  ]) {
+    const text = contactMail.buildMessage(contactMail.readInquiry(visitor).inquiry, {}, new Date(instant)).text;
+    if (!text.includes(expected)) fail(`contact mail for ${instant} does not say "${expected}"`);
+  }
   for (const [why, bad] of [
     ['missing message', { ...visitor, message: ' ' }],
     ['line break in the name (header injection)', { ...visitor, name: 'Pat\r\nBcc: x@example.com' }],
