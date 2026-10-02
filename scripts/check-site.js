@@ -42,6 +42,22 @@ const get = (urlPath, headers = {}) =>
     req.setTimeout(15000, () => req.destroy(new Error(`timed out on ${urlPath}`)));
   });
 
+const post = (urlPath, payload) =>
+  new Promise((resolve, reject) => {
+    const body = JSON.stringify(payload);
+    const req = http.request(`${BASE}${urlPath}`, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json', 'Content-Length': Buffer.byteLength(body) },
+    }, (res) => {
+      let text = '';
+      res.on('data', (chunk) => { text += chunk; });
+      res.on('end', () => resolve({ status: res.statusCode, body: text }));
+    });
+    req.on('error', reject);
+    req.setTimeout(15000, () => req.destroy(new Error(`timed out on POST ${urlPath}`)));
+    req.end(body);
+  });
+
 const waitForServer = async () => {
   for (let attempt = 0; attempt < 40; attempt += 1) {
     try {
@@ -136,11 +152,33 @@ const titleOf = (html) => {
   if (bundle.includes('aegisaosoft@gmail.com')) fail('the site still shows aegisaosoft@gmail.com as a contact address');
   if (bundle && !bundle.includes('alex@aegisaosoft.com')) fail('the site does not show alex@aegisaosoft.com anywhere');
 
+  /*
+   * The contact form reaches the company inbox. It used to post to http://localhost:5000 (a dev
+   * default baked into every production build) and the server only logged what arrived.
+   */
+  if (bundle.includes('localhost:5000')) fail("the built app still calls http://localhost:5000 — the contact form would post to the visitor's own machine");
+  const contactMail = require(path.join(ROOT, 'server', 'contactMail.js'));
+  const visitor = { name: 'Pat Example', email: 'pat@example.com', company: 'Example Fleet', message: 'Hello' };
+  const built = contactMail.buildMessage(contactMail.readInquiry(visitor).inquiry, { SMTP_USER: 'alex@aegisaosoft.com' });
+  if (built.to !== 'alex@aegisaosoft.com') fail(`contact mail goes to ${built.to}, expected alex@aegisaosoft.com`);
+  if (built.replyTo.address !== 'pat@example.com') fail('contact mail does not reply to the visitor');
+  if (built.from.address !== 'alex@aegisaosoft.com') fail('contact mail is not sent from the SMTP mailbox itself');
+  for (const [why, bad] of [
+    ['missing message', { ...visitor, message: ' ' }],
+    ['line break in the name (header injection)', { ...visitor, name: 'Pat\r\nBcc: x@example.com' }],
+    ['malformed email', { ...visitor, email: 'pat@' }],
+    ['oversized message', { ...visitor, message: 'x'.repeat(5001) }],
+  ]) {
+    if (!contactMail.readInquiry(bad).error) fail(`contact form accepted a ${why}`);
+  }
+  if (contactMail.createTransport({}) !== null) fail('contact form claims a mail transport with no SMTP credentials');
+
   /* ------------------------------------------------------------------ what the server says */
 
   const server = spawn(process.execPath, [path.join(ROOT, 'server', 'index.js')], {
     cwd: ROOT,
-    env: { ...process.env, PORT: String(PORT), NODE_ENV: 'production' },
+    // json transport: the contact form builds and "sends" its mail without an SMTP server.
+    env: { ...process.env, PORT: String(PORT), NODE_ENV: 'production', CONTACT_MAIL_TRANSPORT: 'json' },
     stdio: 'ignore',
   });
 
@@ -212,6 +250,12 @@ const titleOf = (html) => {
       }
       if (!res.body.includes('<div id="root">')) fail(`${ghost} did not return the app shell`);
     }
+
+    // The contact form answers 400 for an incomplete inquiry and 200 once the mail is handed over.
+    const incomplete = await post('/api/contact', { name: 'Pat', email: 'pat@example.com' });
+    if (incomplete.status !== 400) fail(`incomplete contact inquiry answered ${incomplete.status}, expected 400`);
+    const sent = await post('/api/contact', { name: 'Pat', email: 'pat@example.com', message: 'Hello' });
+    if (sent.status !== 200) fail(`contact inquiry answered ${sent.status}, expected 200`);
 
     // The API is still there, and still JSON.
     const health = await get('/api/health');

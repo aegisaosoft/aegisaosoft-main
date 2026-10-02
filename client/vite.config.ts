@@ -22,5 +22,8 @@ export default defineConfig({
   server: {
     port: 5173,
     open: true,
+    // The app calls /api on its own origin (as in production, where Express serves both);
+    // in development that origin is Vite, so hand /api to the Express server.
+    proxy: { '/api': 'http://localhost:5000' },
   },
 })

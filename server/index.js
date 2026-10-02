@@ -3,6 +3,7 @@ const fs = require('fs')
 const express = require('express')
 const cors = require('cors')
 const dotenv = require('dotenv')
+const { readInquiry, buildMessage, createTransport } = require('./contactMail')
 
 dotenv.config()
 
@@ -95,23 +96,46 @@ app.get('/api/health', (_req, res) => {
   })
 })
 
-app.post('/api/contact', (req, res) => {
-  const { name, email, company, message } = req.body ?? {}
+/*
+ * The contact form. The inquiry is emailed to the company inbox (see contactMail.js); it used to be
+ * written to the log and nothing else. A visitor is only told "received" once the mail server has
+ * accepted the message — otherwise the page shows its error, which gives the address to write to.
+ */
+const contactMailer = createTransport()
+if (!contactMailer) console.warn('contact form: SMTP_USER / SMTP_PASS not set, inquiries cannot be delivered')
 
-  if (!name || !email || !message) {
-    return res.status(400).json({
-      status: 'error',
-      message: 'Name, email, and message are required.',
-    })
+// A few inquiries per address per window is plenty for a person and nothing for a script.
+const CONTACT_WINDOW_MS = 10 * 60 * 1000
+const CONTACT_MAX_PER_WINDOW = 5
+const contactHits = new Map()
+const clientAddress = (req) =>
+  String(req.headers['x-forwarded-for'] || req.socket.remoteAddress || '').split(',')[0].trim()
+
+app.post('/api/contact', async (req, res) => {
+  const now = Date.now()
+  const who = clientAddress(req)
+  const recent = (contactHits.get(who) || []).filter((t) => now - t < CONTACT_WINDOW_MS)
+  if (recent.length >= CONTACT_MAX_PER_WINDOW) {
+    return res.status(429).json({ status: 'error', message: 'Too many messages. Please try again later.' })
   }
 
-  console.log('New contact inquiry received:', {
-    name,
-    email,
-    company: company ?? 'N/A',
-    message,
-    receivedAt: new Date().toISOString(),
-  })
+  const { inquiry, error } = readInquiry(req.body)
+  if (error) return res.status(400).json({ status: 'error', message: error })
+
+  if (!contactMailer) {
+    return res.status(503).json({ status: 'error', message: 'The contact form is not available right now.' })
+  }
+
+  recent.push(now)
+  contactHits.set(who, recent)
+
+  try {
+    await contactMailer.sendMail(buildMessage(inquiry))
+  } catch (err) {
+    // The visitor's text is not logged: it is personal data, and the page tells them where to write.
+    console.error('contact form: sending failed:', err.message)
+    return res.status(502).json({ status: 'error', message: 'Your message could not be sent.' })
+  }
 
   return res.status(200).json({
     status: 'success',

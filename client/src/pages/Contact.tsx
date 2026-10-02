@@ -41,7 +41,10 @@ export function Contact() {
   const [feedback, setFeedback] = useState('')
 
   const apiBaseUrl = useMemo(
-    () => import.meta.env.VITE_API_BASE_URL ?? 'http://localhost:5000',
+    // Same origin by default: Express serves both the page and /api/contact. The old fallback,
+    // http://localhost:5000, was baked into every production build (no VITE_API_BASE_URL in CI),
+    // so the live form posted to the visitor's own machine and always failed.
+    () => import.meta.env.VITE_API_BASE_URL ?? '',
     [],
   )
 
