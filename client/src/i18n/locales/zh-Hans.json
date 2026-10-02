@@ -1645,7 +1645,8 @@
       "viewDetails": "查看详情",
       "viewSource": "查看源码",
       "googlePlay": "下载应用，请到 Google Play",
-      "googlePlaySoon": "即将登陆 Google Play"
+      "googlePlaySoon": "即将登陆 Google Play",
+      "microsoftStore": "从 Microsoft Store 获取"
     },
     "myEZWheels": {
       "home": {

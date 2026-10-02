@@ -90,7 +90,8 @@
   "productCards": {
     "buttons": {
       "googlePlay": "Ejapyhy Google Play-pe",
-      "googlePlaySoon": "Oúta Google Play-pe"
+      "googlePlaySoon": "Oúta Google Play-pe",
+      "microsoftStore": "Ejapyhy Microsoft Store-pe"
     },
     "ownerApp": {
       "home": {

@@ -15,6 +15,8 @@
 
 import { Link } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
+import { HUECONTROL_STORE_URL } from '../products/hueControl'
+import { MicrosoftStoreButton } from '../components/MicrosoftStoreButton'
 
 /** List item that keeps inline <strong> markup out of the translation string. */
 type LabeledItem = { label: string; text: string }
@@ -192,6 +194,7 @@ export function HueControlDetail() {
             <h2>{t('hueControlDetail.cta.title')}</h2>
             <p>{t('hueControlDetail.cta.text')}</p>
             <div className="cta-buttons">
+              <MicrosoftStoreButton href={HUECONTROL_STORE_URL} />
               <a href="https://github.com/aegisaosoft/huecontrol" className="btn btn-primary" target="_blank" rel="noopener noreferrer">{t('hueControlDetail.cta.sourceCode')}</a>
               <a href="https://aegisaosoft.github.io/huecontrol/" className="btn btn-secondary" target="_blank" rel="noopener noreferrer">{t('hueControlDetail.cta.privacyPolicy')}</a>
               <Link to="/contact" className="btn btn-secondary">{t('hueControlDetail.cta.contact')}</Link>

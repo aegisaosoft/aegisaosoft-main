@@ -90,7 +90,8 @@
   "productCards": {
     "buttons": {
       "googlePlay": "Google Play で手に入れよう",
-      "googlePlaySoon": "Google Play で近日公開"
+      "googlePlaySoon": "Google Play で近日公開",
+      "microsoftStore": "Microsoft Store から入手"
     },
     "ownerApp": {
       "home": {

@@ -153,6 +153,20 @@ const titleOf = (html) => {
   if (bundle && !bundle.includes('alex@aegisaosoft.com')) fail('the site does not show alex@aegisaosoft.com anywhere');
 
   /*
+   * HueControl is live in the Microsoft Store as "Light Control for Hue". Its cards and product page
+   * link there, and the button text exists in every locale — a missing key renders as the raw key.
+   */
+  if (bundle && !bundle.includes('https://apps.microsoft.com/detail/9PFF2PQZD3BX')) {
+    fail('the site does not link HueControl to its Microsoft Store listing');
+  }
+  const localesDir = path.join(ROOT, 'client', 'src', 'i18n', 'locales');
+  for (const file of fs.readdirSync(localesDir).filter((f) => f.endsWith('.json'))) {
+    const locale = JSON.parse(fs.readFileSync(path.join(localesDir, file), 'utf8'));
+    const label = locale.productCards && locale.productCards.buttons && locale.productCards.buttons.microsoftStore;
+    if (!label || !label.includes('Microsoft Store')) fail(`${file} has no productCards.buttons.microsoftStore text`);
+  }
+
+  /*
    * The contact form reaches the company inbox. It used to post to http://localhost:5000 (a dev
    * default baked into every production build) and the server only logged what arrived.
    */

@@ -90,7 +90,8 @@
   "productCards": {
     "buttons": {
       "googlePlay": "Disponibile su Google Play",
-      "googlePlaySoon": "Presto disponibile su Google Play"
+      "googlePlaySoon": "Presto disponibile su Google Play",
+      "microsoftStore": "Disponibile su Microsoft Store"
     },
     "ownerApp": {
       "home": {

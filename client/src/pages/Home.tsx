@@ -17,6 +17,8 @@ import { Link } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
 import ezMark from '../assets/ez-mark.png'
 import { OWNER_APP_PLAY_URL, OWNER_APP_ON_PLAY } from '../products/ownerApp'
+import { HUECONTROL_STORE_URL } from '../products/hueControl'
+import { MicrosoftStoreButton } from '../components/MicrosoftStoreButton'
 import '../App.css'
 
 export function Home() {
@@ -184,6 +186,9 @@ export function Home() {
               <div className="product-actions" style={{ gridRow: '5', paddingTop: '1rem' }}>
                 <div style={{ marginBottom: '0.5rem' }}>
                   <Link to="/products/huecontrol" className="btn btn-primary card-stretched-link" style={{ fontSize: '0.8rem', padding: '0.6rem 1.2rem', width: '100%', textAlign: 'center', display: 'block' }}>{t('home.products.learnMore')}</Link>
+                </div>
+                <div style={{ marginBottom: '0.5rem' }}>
+                  <MicrosoftStoreButton href={HUECONTROL_STORE_URL} style={{ fontSize: '0.8rem', padding: '0.6rem 1.2rem', width: '100%', display: 'flex' }} />
                 </div>
                 <div style={{ marginBottom: '0.5rem' }}>
                   <a href="https://github.com/aegisaosoft/huecontrol" className="btn btn-secondary" target="_blank" rel="noopener noreferrer" style={{ fontSize: '0.8rem', padding: '0.6rem 1.2rem', width: '100%', textAlign: 'center', display: 'block' }}>{t('productCards.buttons.viewSource')}</a>
