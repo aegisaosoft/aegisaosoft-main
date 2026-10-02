@@ -20,9 +20,6 @@ import myEZTollLogo from '../assets/myeztoll-logo.png'
 /** List item that keeps inline <strong> markup out of the translation string. */
 type LabeledItem = { label: string; text: string }
 
-/** Mobile app cards, rendered in the order listed here. */
-const mobileCards = ['platform', 'owner', 'capture', 'distribution'] as const
-
 export function MyEZTollDetail() {
   const { t } = useTranslation()
 
@@ -345,27 +342,13 @@ export function MyEZTollDetail() {
             </div>
           </div>
 
-          {/* Mobile applications */}
+          {/* The phone app is its own product, with its own page */}
           <div className="detail-section">
             <h2>📱 {t('myEZTollDetail.mobile.title')}</h2>
-            <p style={{ marginBottom: '2rem', fontSize: '1.1rem' }}>
-              {t('myEZTollDetail.mobile.intro')}
+            <p style={{ marginBottom: '1.5rem', fontSize: '1.1rem' }}>
+              {t('myEZTollDetail.mobile.text')}
             </p>
-
-            <div className="social-integrations-grid" style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))', gap: '1.5rem' }}>
-              {mobileCards.map((card) => (
-                <div key={card} className="integration-card" style={{ padding: '1.5rem', backgroundColor: 'var(--card-bg)', borderRadius: '0.75rem', border: '1px solid var(--border)' }}>
-                  <h3 style={{ color: 'var(--accent)', marginBottom: '1rem' }}>
-                    {t(`myEZTollDetail.mobile.cards.${card}.title`)}
-                  </h3>
-                  <ul style={{ marginBottom: '0', lineHeight: '1.6' }}>
-                    {list(`myEZTollDetail.mobile.cards.${card}.items`).map((item) => (
-                      <li key={item}>{item}</li>
-                    ))}
-                  </ul>
-                </div>
-              ))}
-            </div>
+            <Link to="/products/myeztoll-owner" className="btn btn-primary">{t('myEZTollDetail.mobile.link')}</Link>
           </div>
 
           {/* Technology Stack */}

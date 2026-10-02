@@ -1319,7 +1319,7 @@
         },
         "mobile": {
           "title": "Mobile Access",
-          "text": "Native Android and iOS apps built with .NET MAUI, plus a mobile-responsive web interface, for fleet management and violation handling away from a desk."
+          "text": "A mobile-responsive owner portal on any phone, plus MyEZToll Owner, a separate Android app for fleet owners."
         }
       }
     },
@@ -1328,7 +1328,7 @@
       "cards": {
         "frontend": {
           "title": "Frontend",
-          "text": "React, responsive design, .NET MAUI apps for Android and iOS"
+          "text": "React and responsive design for the web portals"
         },
         "backend": {
           "title": "Backend",
@@ -1413,46 +1413,9 @@
       "outro": "Every platform is a plugin behind one common interface, so adding a booking system is a connector — not a rebuild. Tell us which one you run and we will prioritise it."
     },
     "mobile": {
-      "title": "Mobile Applications",
-      "intro": "Fleet work happens away from a desk. The platform ships companion mobile apps built with .NET MAUI — a single C# codebase compiled to native Android and iOS builds, sharing its models and API clients with the backend so the phone and the web never disagree about what a booking looks like.",
-      "cards": {
-        "owner": {
-          "title": "Fleet Owner App",
-          "items": [
-            "Tolls and violations per vehicle and per booking",
-            "Payment and charge status while away from the office",
-            "Alerts delivered straight to the phone",
-            "The same account and permissions as the owner portal"
-          ]
-        },
-        "capture": {
-          "title": "Capture in the Field",
-          "items": [
-            "Driver's licence capture with the phone camera",
-            "Barcode decoding plus visual recognition, verified against each other",
-            "Documents feed the same verification pipeline as the web",
-            "Works where a scanner and a desktop are not available"
-          ]
-        },
-        "platform": {
-          "title": "One Codebase, Native Builds",
-          "items": [
-            ".NET MAUI on modern .NET, written in C#",
-            "Native Android and iOS builds from the same source",
-            "Shared models and API clients with the server, so contracts cannot drift",
-            "The same engineers maintain the backend and the apps"
-          ]
-        },
-        "distribution": {
-          "title": "Distribution and Updates",
-          "items": [
-            "Signed Android release builds distributed as a direct download",
-            "Updates reach operators without waiting on a store review cycle",
-            "Versioned releases so a fleet can stay on a known build",
-            "Store distribution where a client's rollout requires it"
-          ]
-        }
-      }
+      "title": "Mobile App: MyEZToll Owner",
+      "text": "The phone side of MyEZToll is a product of its own. MyEZToll Owner brings the owner portal to Android and runs the always-on agent that keeps a Turo host's fleet in sync with MyEZToll.",
+      "link": "About MyEZToll Owner"
     }
   },
   "myEZWheelsDetail": {

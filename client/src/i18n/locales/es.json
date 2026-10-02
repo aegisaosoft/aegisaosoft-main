@@ -1319,7 +1319,7 @@
         },
         "mobile": {
           "title": "Acceso móvil",
-          "text": "Aplicaciones nativas de Android e iOS creadas con .NET MAUI, además de una interfaz web adaptable a móviles, para la gestión de flotas y el tratamiento de infracciones fuera de la oficina."
+          "text": "Un portal de propietarios adaptable a móviles en cualquier teléfono, además de MyEZToll Owner, una app de Android independiente para propietarios de flotas."
         }
       }
     },
@@ -1328,7 +1328,7 @@
       "cards": {
         "frontend": {
           "title": "Frontend",
-          "text": "React, diseño adaptable, aplicaciones .NET MAUI para Android e iOS"
+          "text": "React y diseño adaptable para los portales web"
         },
         "backend": {
           "title": "Backend",
@@ -1413,46 +1413,9 @@
       "outro": "Cada plataforma es un plugin detrás de una interfaz común, así que añadir un sistema de reservas es un conector — no una reconstrucción. Díganos cuál utiliza y le daremos prioridad."
     },
     "mobile": {
-      "title": "Aplicaciones móviles",
-      "intro": "El trabajo con flotas ocurre lejos de un escritorio. La plataforma incluye aplicaciones móviles complementarias creadas con .NET MAUI: una única base de código C# compilada en versiones nativas de Android e iOS, que comparte sus modelos y clientes de API con el backend, de modo que el teléfono y la web nunca discrepan sobre cómo es una reserva.",
-      "cards": {
-        "owner": {
-          "title": "App para el operador de flota",
-          "items": [
-            "Peajes e infracciones por vehículo y por reserva",
-            "Estado de pagos y cargos fuera de la oficina",
-            "Alertas entregadas directamente en el teléfono",
-            "La misma cuenta y los mismos permisos que el portal del operador de flota"
-          ]
-        },
-        "capture": {
-          "title": "Captura sobre el terreno",
-          "items": [
-            "Captura de la licencia de conducir con la cámara del teléfono",
-            "Decodificación de código de barras y reconocimiento visual, verificados entre sí",
-            "Los documentos alimentan la misma canalización de verificación que la web",
-            "Funciona donde no hay un escáner ni un ordenador de escritorio"
-          ]
-        },
-        "platform": {
-          "title": "Una base de código, compilaciones nativas",
-          "items": [
-            ".NET MAUI sobre .NET moderno, escrito en C#",
-            "Compilaciones nativas de Android e iOS desde el mismo código fuente",
-            "Modelos y clientes de API compartidos con el servidor, para que los contratos no se desvíen",
-            "Los mismos ingenieros mantienen el backend y las aplicaciones"
-          ]
-        },
-        "distribution": {
-          "title": "Distribución y actualizaciones",
-          "items": [
-            "Versiones firmadas de Android distribuidas como descarga directa",
-            "Las actualizaciones llegan a los operadores sin esperar el ciclo de revisión de una tienda",
-            "Versiones etiquetadas para que una flota pueda permanecer en una compilación conocida",
-            "Distribución en tiendas cuando el despliegue de un cliente lo requiere"
-          ]
-        }
-      }
+      "title": "App móvil: MyEZToll Owner",
+      "text": "La parte móvil de MyEZToll es un producto en sí mismo. MyEZToll Owner lleva el portal de propietarios a Android y ejecuta el agente siempre activo que mantiene sincronizada con MyEZToll la flota de un anfitrión de Turo.",
+      "link": "Acerca de MyEZToll Owner"
     }
   },
   "myEZWheelsDetail": {
