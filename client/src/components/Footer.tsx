@@ -43,7 +43,7 @@ export function Footer() {
           </div>
           <div className="footer-section">
             <h4>{t('footer.contact')}</h4>
-            <a href="mailto:aegisaosoft@gmail.com">aegisaosoft@gmail.com</a>
+            <a href="mailto:alex@aegisaosoft.com">alex@aegisaosoft.com</a>
             <a
               href="https://www.linkedin.com/company/aegis-ao-soft/"
               target="_blank"

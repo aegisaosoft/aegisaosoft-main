@@ -122,6 +122,20 @@ const titleOf = (html) => {
     if (!known.has(route)) fail(`App.tsx routes ${route}, but pages.json does not list it`);
   }
 
+  /*
+   * The public contact address is alex@aegisaosoft.com — on the company's own domain, which is what
+   * Google Play and the Microsoft Store verify the developer against. The old Gmail inbox must not
+   * creep back in through the footer, the contact page or a translated error message.
+   */
+  const assetsDir = path.join(PUBLIC_DIR, 'assets');
+  const bundle = fs.existsSync(assetsDir)
+    ? fs.readdirSync(assetsDir).filter((f) => f.endsWith('.js'))
+      .map((f) => fs.readFileSync(path.join(assetsDir, f), 'utf8')).join('\n')
+    : '';
+  if (!bundle) fail('no built JavaScript in server/public/assets — run npm run build and npm run stage first');
+  if (bundle.includes('aegisaosoft@gmail.com')) fail('the site still shows aegisaosoft@gmail.com as a contact address');
+  if (bundle && !bundle.includes('alex@aegisaosoft.com')) fail('the site does not show alex@aegisaosoft.com anywhere');
+
   /* ------------------------------------------------------------------ what the server says */
 
   const server = spawn(process.execPath, [path.join(ROOT, 'server', 'index.js')], {

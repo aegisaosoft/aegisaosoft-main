@@ -96,7 +96,7 @@ export function Contact() {
                 </div>
               ))}
             </div>
-            <a href="mailto:aegisaosoft@gmail.com" className="btn btn-primary">
+            <a href="mailto:alex@aegisaosoft.com" className="btn btn-primary">
               {t('contact.letsConnect.getInTouch')}
             </a>
           </div>
@@ -111,7 +111,7 @@ export function Contact() {
               <p>{t('contact.form.description')}</p>
               <div className="contact-meta">
                 <span>{t('contact.form.email')}</span>
-                <a href="mailto:aegisaosoft@gmail.com">aegisaosoft@gmail.com</a>
+                <a href="mailto:alex@aegisaosoft.com">alex@aegisaosoft.com</a>
               </div>
               <div className="contact-meta">
                 <span>{t('contact.form.location')}</span>
