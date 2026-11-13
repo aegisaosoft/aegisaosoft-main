@@ -1818,6 +1818,34 @@
           "Même compte et mêmes données que owner.myeztoll.com"
         ]
       }
+    },
+    "sewGen": {
+      "home": {
+        "subtitle": "Générateur de broderies et de monogrammes par IA",
+        "description": "Transforme un logo, une image ou un dessin en fichier pour machine à broder, ou compose un monogramme à partir de modèles prêts. Voyez d'abord le rendu en fil et ne payez que si le résultat vous plaît.",
+        "items": [
+          "Importez un logo, une image ou un dessin",
+          "Modèles de monogrammes et de textes pour casquettes, serviettes, vestes et plus",
+          "Décrivez un motif en mots et laissez l'IA le dessiner",
+          "Aperçu en fil et simulation des points avant de payer",
+          "DST, PES, JEF, EXP, VP3, XXX et d'autres formats",
+          "Modes Débutant et Expert",
+          "4,99 $ par motif, sans compte",
+          "Site en 15 langues"
+        ]
+      },
+      "products": {
+        "subtitle": "Générateur de broderies et de monogrammes par IA",
+        "description": "Un service en ligne qui crée des fichiers de broderie machine à partir de vos propres images, monogrammes et textes, montre le rendu du motif en fil et ne facture que les motifs que vous gardez.",
+        "items": [
+          "Logos, images, dessins et motifs décrits à l'IA",
+          "Modèles prêts pour casquettes, serviettes, peignoirs, T-shirts et coussins",
+          "Nuanciers de marques de fil, préréglages de tissu et simulation des points",
+          "Fichiers pour Brother, Janome, Bernina, Pfaff, Tajima, Melco et d'autres",
+          "4,99 $ par motif plus 1 $ par format supplémentaire",
+          "Sans compte, paiements via Stripe"
+        ]
+      }
     }
   },
   "setPassword": {
@@ -2398,6 +2426,120 @@
       "googlePlaySoon": "Bientôt disponible sur Google Play",
       "ownerPortal": "Ouvrir le portail propriétaire",
       "platform": "À propos de la plateforme MyEZToll",
+      "contact": "Nous contacter"
+    }
+  },
+  "sewGenDetail": {
+    "hero": {
+      "title": "Des fichiers de broderie machine à partir de vos propres motifs",
+      "subtitle": "Importez un logo, une image ou un dessin, ou composez un monogramme, voyez le rendu en fil et téléchargez le fichier de points pour votre machine. Ne payez que si le résultat vous plaît."
+    },
+    "whatIs": {
+      "title": "Ce qu'est SewGen",
+      "p1": "SewGen est un service en ligne qui transforme des images en fichiers pour machines à broder. Vous importez un logo, une image ou un dessin à la main, ou composez un monogramme ou un texte, et SewGen crée les points.",
+      "p2": "Avant de payer quoi que ce soit, vous voyez un aperçu du motif en fil, avec une simulation des points et les couleurs des nuanciers des principales marques de fil. Si le résultat ne vous plaît pas, modifiez-le ou partez simplement.",
+      "p3": "Quand il vous convient, vous payez ce motif et téléchargez le fichier dans le format que lit votre machine. Ni compte ni abonnement ne sont nécessaires. SewGen ouvre aussi les fichiers PES et DST terminés."
+    },
+    "forWhom": {
+      "title": "Pour qui",
+      "items": [
+        {
+          "label": "Brodeurs à domicile :",
+          "text": "un monogramme sur une serviette, un prénom sur le T-shirt d'un enfant ou un logo sur une casquette, sans apprendre de logiciel de numérisation."
+        },
+        {
+          "label": "Créateurs et petits ateliers :",
+          "text": "cadeaux personnalisés et petites commandes, avec des modèles prêts pour les articles les plus brodés."
+        },
+        {
+          "label": "Entreprises et équipes :",
+          "text": "leur propre logo sur des casquettes, des dos de vestes, des T-shirts et des tote bags."
+        },
+        {
+          "label": "Utilisateurs expérimentés :",
+          "text": "le mode Expert pour un contrôle plus fin de la façon dont le motif est brodé."
+        }
+      ]
+    },
+    "capabilities": {
+      "title": "Ce qu'il fait",
+      "cards": {
+        "upload": {
+          "title": "Vos propres images",
+          "text": "Importez un logo, une image ou un dessin et SewGen le transforme en points."
+        },
+        "monogram": {
+          "title": "Monogrammes et textes",
+          "text": "Modèles prêts pour casquettes, dos de vestes, serviettes, peignoirs, vêtements d'enfants, T-shirts, coussins, serviettes de table et tote bags, avec polices, symboles, versets et prières."
+        },
+        "ai": {
+          "title": "Décrivez-le à l'IA",
+          "text": "Vous ne savez pas par où commencer ? Décrivez le motif en mots et laissez l'IA le dessiner pour vous."
+        },
+        "preview": {
+          "title": "Aperçu en fil",
+          "text": "Voyez le rendu du motif une fois brodé, avec une simulation des points, avant de payer quoi que ce soit."
+        },
+        "threads": {
+          "title": "Fils et tissus",
+          "text": "Couleurs de fil issues des nuanciers des marques et préréglages de tissu, pour que l'aperçu corresponde à ce que vous allez utiliser."
+        },
+        "formats": {
+          "title": "Fichiers pour votre machine",
+          "text": "DST, PES, PEC, JEF, EXP, VP3, XXX, U01, TBF, TAP et d'autres formats pour machines domestiques et professionnelles."
+        },
+        "modes": {
+          "title": "Débutant et Expert",
+          "text": "Le mode Débutant reste simple ; le mode Expert ouvre les réglages pour ceux qui veulent plus de contrôle."
+        },
+        "open": {
+          "title": "Ouvrir des fichiers existants",
+          "text": "Ouvrez des fichiers PES et DST terminés pour les voir dans le même aperçu."
+        }
+      }
+    },
+    "formats": {
+      "title": "Formats de fichier et machines",
+      "intro": "Un motif peut être téléchargé dans le format que lit votre machine ou dans plusieurs formats à la fois.",
+      "items": [
+        {
+          "label": "Formats :",
+          "text": "DST, PES, PEC, JEF, EXP, VP3, XXX, U01, TBF, TAP et d'autres."
+        },
+        {
+          "label": "Machines domestiques :",
+          "text": "Brother, Baby Lock, Janome, Bernina, Husqvarna Viking, Pfaff et Singer."
+        },
+        {
+          "label": "Machines professionnelles :",
+          "text": "Tajima, Barudan, Happy et Melco."
+        }
+      ]
+    },
+    "pricing": {
+      "title": "Tarifs",
+      "intro": "Vous ne payez un motif qu'après l'avoir vu et s'il vous plaît.",
+      "items": [
+        "4,99 $ par motif.",
+        "1 $ par format de fichier supplémentaire du même motif.",
+        "Sans compte et sans abonnement.",
+        "Les paiements par carte sont traités par Stripe."
+      ]
+    },
+    "languages": {
+      "title": "Langues",
+      "intro": "Le site SewGen est disponible en quinze langues.",
+      "items": [
+        "Anglais, espagnol, français, allemand, italien et polonais.",
+        "Bulgare, russe et grec.",
+        "Hébreu, arabe et ourdou.",
+        "Sanskrit, chinois simplifié et chinois traditionnel."
+      ]
+    },
+    "cta": {
+      "title": "Essayez SewGen",
+      "text": "Créez un motif et voyez son rendu en fil avant de payer quoi que ce soit.",
+      "openSite": "Ouvrir SewGen",
       "contact": "Nous contacter"
     }
   }

@@ -1818,6 +1818,34 @@
           "Same account and data as owner.myeztoll.com"
         ]
       }
+    },
+    "sewGen": {
+      "home": {
+        "subtitle": "AI Embroidery & Monogram Generator",
+        "description": "Turn a logo, picture or drawing into a machine embroidery file, or build a monogram from ready templates. See it in thread first and pay only when you like the result.",
+        "items": [
+          "Upload a logo, picture or drawing",
+          "Monogram and text templates for caps, towels, jackets and more",
+          "Describe a design in words and let AI draw it",
+          "Thread preview and stitch simulation before you pay",
+          "DST, PES, JEF, EXP, VP3, XXX and other formats",
+          "Beginner and Expert modes",
+          "$4.99 per design, no account needed",
+          "Site in 15 languages"
+        ]
+      },
+      "products": {
+        "subtitle": "AI Embroidery & Monogram Generator",
+        "description": "An online service that makes machine embroidery files from your own artwork, monograms and text, shows how the design will look in thread, and charges only for the designs you keep.",
+        "items": [
+          "Logos, pictures, drawings and AI-described designs",
+          "Ready templates for caps, towels, bathrobes, T-shirts and pillows",
+          "Thread brand charts, fabric presets and stitch simulation",
+          "Files for Brother, Janome, Bernina, Pfaff, Tajima, Melco and more",
+          "$4.99 per design plus $1 per extra format",
+          "No account, payments through Stripe"
+        ]
+      }
     }
   },
   "setPassword": {
@@ -2406,5 +2434,119 @@
     "subtitle": "The address you followed is not part of this site — it may have been mistyped, or it may have moved.",
     "home": "Go to the home page",
     "products": "See the products"
+  },
+  "sewGenDetail": {
+    "hero": {
+      "title": "Machine Embroidery Files from Your Own Designs",
+      "subtitle": "Upload a logo, picture or drawing, or build a monogram, see how it will look in thread, and download the stitch file for your machine. Pay only when you like the result."
+    },
+    "whatIs": {
+      "title": "What SewGen Is",
+      "p1": "SewGen is an online service that turns artwork into machine embroidery files. You upload a logo, a picture or a hand drawing, or build a monogram or text design, and SewGen makes the stitches.",
+      "p2": "Before you pay anything, you see a preview of how the design will look in thread, with a stitch simulation and colours from the major thread brand charts. If you do not like the result, change it or simply leave.",
+      "p3": "When you are happy with it, you pay for that design and download the file in the format your machine reads. No account and no subscription are needed. SewGen can also open finished PES and DST files."
+    },
+    "forWhom": {
+      "title": "Who It Is For",
+      "items": [
+        {
+          "label": "Home embroiderers:",
+          "text": "a monogram on a towel, a name on a child's shirt or a logo on a cap, without learning digitizing software."
+        },
+        {
+          "label": "Crafters and small shops:",
+          "text": "personalised gifts and small orders, with ready templates for the items people embroider most."
+        },
+        {
+          "label": "Businesses and teams:",
+          "text": "their own logo on caps, jacket backs, T-shirts and tote bags."
+        },
+        {
+          "label": "Experienced users:",
+          "text": "Expert mode for finer control over how the design is stitched."
+        }
+      ]
+    },
+    "capabilities": {
+      "title": "What It Does",
+      "cards": {
+        "upload": {
+          "title": "Your Own Artwork",
+          "text": "Upload a logo, a picture or a drawing and SewGen turns it into stitches."
+        },
+        "monogram": {
+          "title": "Monograms and Text",
+          "text": "Ready templates for caps, jacket backs, towels, bathrobes, kids' clothes, T-shirts, pillows, napkins and tote bags, with fonts, symbols, verses and prayers."
+        },
+        "ai": {
+          "title": "Describe It to AI",
+          "text": "Not sure where to start? Describe the design in words and let AI draw it for you."
+        },
+        "preview": {
+          "title": "Preview in Thread",
+          "text": "See how the design will look once it is stitched, with a stitch simulation, before you pay for anything."
+        },
+        "threads": {
+          "title": "Threads and Fabrics",
+          "text": "Thread colours from brand charts and fabric presets, so the preview matches what you are actually going to use."
+        },
+        "formats": {
+          "title": "Files for Your Machine",
+          "text": "DST, PES, PEC, JEF, EXP, VP3, XXX, U01, TBF, TAP and other formats for home and commercial machines."
+        },
+        "modes": {
+          "title": "Beginner and Expert",
+          "text": "Beginner mode keeps things simple; Expert mode opens the settings for people who want more control."
+        },
+        "open": {
+          "title": "Open Existing Files",
+          "text": "Open finished PES and DST files to look at them in the same preview."
+        }
+      }
+    },
+    "formats": {
+      "title": "File Formats and Machines",
+      "intro": "One design can be downloaded in the format your machine reads, or in several formats at once.",
+      "items": [
+        {
+          "label": "Formats:",
+          "text": "DST, PES, PEC, JEF, EXP, VP3, XXX, U01, TBF, TAP and others."
+        },
+        {
+          "label": "Home machines:",
+          "text": "Brother, Baby Lock, Janome, Bernina, Husqvarna Viking, Pfaff and Singer."
+        },
+        {
+          "label": "Commercial machines:",
+          "text": "Tajima, Barudan, Happy and Melco."
+        }
+      ]
+    },
+    "pricing": {
+      "title": "Pricing",
+      "intro": "You pay for a design only once you have seen it and like it.",
+      "items": [
+        "$4.99 per design.",
+        "$1 for each additional file format of the same design.",
+        "No account and no subscription.",
+        "Card payments are processed by Stripe."
+      ]
+    },
+    "languages": {
+      "title": "Languages",
+      "intro": "The SewGen site is available in fifteen languages.",
+      "items": [
+        "English, Spanish, French, German, Italian and Polish.",
+        "Bulgarian, Russian and Greek.",
+        "Hebrew, Arabic and Urdu.",
+        "Sanskrit, Simplified Chinese and Traditional Chinese."
+      ]
+    },
+    "cta": {
+      "title": "Try SewGen",
+      "text": "Make a design and see how it looks in thread before you pay anything.",
+      "openSite": "Open SewGen",
+      "contact": "Contact Us"
+    }
   }
 }

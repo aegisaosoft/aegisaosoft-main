@@ -167,6 +167,17 @@ const titleOf = (html) => {
   }
 
   /*
+   * SewGen lives on its own site. Its cards and product page send visitors to https://sewgen.com,
+   * and every fully translated locale (the ones that carry the other product pages) has its texts.
+   */
+  if (bundle && !bundle.includes('https://sewgen.com')) fail('the site does not link SewGen to https://sewgen.com');
+  for (const file of fs.readdirSync(localesDir).filter((f) => f.endsWith('.json'))) {
+    const locale = JSON.parse(fs.readFileSync(path.join(localesDir, file), 'utf8'));
+    if (!locale.hueControlDetail) continue; // partial locale, falls back to English like every other product page
+    if (!locale.sewGenDetail || !locale.productCards.sewGen) fail(`${file} has no SewGen card or product page texts`);
+  }
+
+  /*
    * The contact form reaches the company inbox. It used to post to http://localhost:5000 (a dev
    * default baked into every production build) and the server only logged what arrived.
    */

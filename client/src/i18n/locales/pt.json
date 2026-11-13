@@ -1818,6 +1818,34 @@
           "Mesma conta e mesmos dados de owner.myeztoll.com"
         ]
       }
+    },
+    "sewGen": {
+      "home": {
+        "subtitle": "Gerador de bordados e monogramas com IA",
+        "description": "Transforma um logotipo, uma imagem ou um desenho em um arquivo para máquina de bordar, ou cria um monograma a partir de modelos prontos. Veja primeiro em linha e pague só se gostar do resultado.",
+        "items": [
+          "Envie um logotipo, uma imagem ou um desenho",
+          "Modelos de monogramas e textos para bonés, toalhas, jaquetas e mais",
+          "Descreva um desenho em palavras e deixe a IA desenhá-lo",
+          "Pré-visualização em linha e simulação de pontos antes de pagar",
+          "DST, PES, JEF, EXP, VP3, XXX e outros formatos",
+          "Modos Iniciante e Especialista",
+          "$4.99 por desenho, sem precisar de conta",
+          "Site em 15 idiomas"
+        ]
+      },
+      "products": {
+        "subtitle": "Gerador de bordados e monogramas com IA",
+        "description": "Um serviço online que cria arquivos de bordado à máquina a partir das suas próprias imagens, monogramas e textos, mostra como o desenho ficará em linha e cobra apenas pelos desenhos que você leva.",
+        "items": [
+          "Logotipos, imagens, desenhos e designs descritos à IA",
+          "Modelos prontos para bonés, toalhas, roupões, camisetas e almofadas",
+          "Cartelas de cores de marcas de linha, predefinições de tecido e simulação de pontos",
+          "Arquivos para Brother, Janome, Bernina, Pfaff, Tajima, Melco e outras",
+          "$4.99 por desenho mais $1 por formato extra",
+          "Sem conta, pagamentos via Stripe"
+        ]
+      }
     }
   },
   "setPassword": {
@@ -2398,6 +2426,120 @@
       "googlePlaySoon": "Em breve no Google Play",
       "ownerPortal": "Abrir portal do proprietário",
       "platform": "Sobre a plataforma MyEZToll",
+      "contact": "Fale conosco"
+    }
+  },
+  "sewGenDetail": {
+    "hero": {
+      "title": "Arquivos de bordado à máquina a partir dos seus próprios desenhos",
+      "subtitle": "Envie um logotipo, uma imagem ou um desenho, ou crie um monograma, veja como ficará em linha e baixe o arquivo de pontos para a sua máquina. Pague só se gostar do resultado."
+    },
+    "whatIs": {
+      "title": "O que é o SewGen",
+      "p1": "O SewGen é um serviço online que transforma imagens em arquivos para máquinas de bordar. Você envia um logotipo, uma imagem ou um desenho feito à mão, ou cria um monograma ou um texto, e o SewGen gera os pontos.",
+      "p2": "Antes de pagar qualquer coisa, você vê uma pré-visualização de como o desenho ficará em linha, com simulação de pontos e cores das cartelas das principais marcas de linha. Se não gostar do resultado, altere-o ou simplesmente saia.",
+      "p3": "Quando estiver satisfeito, você paga por esse desenho e baixa o arquivo no formato que a sua máquina lê. Não é preciso conta nem assinatura. O SewGen também abre arquivos PES e DST prontos."
+    },
+    "forWhom": {
+      "title": "Para quem é",
+      "items": [
+        {
+          "label": "Bordado em casa:",
+          "text": "um monograma em uma toalha, um nome na camiseta de uma criança ou um logotipo em um boné, sem aprender software de digitalização."
+        },
+        {
+          "label": "Artesãos e pequenos ateliês:",
+          "text": "presentes personalizados e pequenas encomendas, com modelos prontos para as peças mais bordadas."
+        },
+        {
+          "label": "Empresas e equipes:",
+          "text": "o próprio logotipo em bonés, costas de jaquetas, camisetas e ecobags."
+        },
+        {
+          "label": "Usuários experientes:",
+          "text": "o modo Especialista oferece controle mais fino sobre como o desenho é bordado."
+        }
+      ]
+    },
+    "capabilities": {
+      "title": "O que faz",
+      "cards": {
+        "upload": {
+          "title": "As suas próprias imagens",
+          "text": "Envie um logotipo, uma imagem ou um desenho e o SewGen o transforma em pontos."
+        },
+        "monogram": {
+          "title": "Monogramas e textos",
+          "text": "Modelos prontos para bonés, costas de jaquetas, toalhas, roupões, roupa infantil, camisetas, almofadas, guardanapos e ecobags, com fontes, símbolos, versos e orações."
+        },
+        "ai": {
+          "title": "Descreva à IA",
+          "text": "Não sabe por onde começar? Descreva o desenho em palavras e deixe a IA desenhá-lo por você."
+        },
+        "preview": {
+          "title": "Pré-visualização em linha",
+          "text": "Veja como o desenho ficará depois de bordado, com simulação de pontos, antes de pagar qualquer coisa."
+        },
+        "threads": {
+          "title": "Linhas e tecidos",
+          "text": "Cores de linha das cartelas das marcas e predefinições de tecido, para que a pré-visualização corresponda ao que você vai usar."
+        },
+        "formats": {
+          "title": "Arquivos para a sua máquina",
+          "text": "DST, PES, PEC, JEF, EXP, VP3, XXX, U01, TBF, TAP e outros formatos para máquinas domésticas e industriais."
+        },
+        "modes": {
+          "title": "Iniciante e Especialista",
+          "text": "O modo Iniciante mantém tudo simples; o modo Especialista abre as configurações para quem quer mais controle."
+        },
+        "open": {
+          "title": "Abrir arquivos existentes",
+          "text": "Abra arquivos PES e DST prontos para vê-los na mesma pré-visualização."
+        }
+      }
+    },
+    "formats": {
+      "title": "Formatos de arquivo e máquinas",
+      "intro": "Um desenho pode ser baixado no formato que a sua máquina lê ou em vários formatos de uma vez.",
+      "items": [
+        {
+          "label": "Formatos:",
+          "text": "DST, PES, PEC, JEF, EXP, VP3, XXX, U01, TBF, TAP e outros."
+        },
+        {
+          "label": "Máquinas domésticas:",
+          "text": "Brother, Baby Lock, Janome, Bernina, Husqvarna Viking, Pfaff e Singer."
+        },
+        {
+          "label": "Máquinas industriais:",
+          "text": "Tajima, Barudan, Happy e Melco."
+        }
+      ]
+    },
+    "pricing": {
+      "title": "Preços",
+      "intro": "Você só paga por um desenho depois de vê-lo e gostar dele.",
+      "items": [
+        "$4.99 por desenho.",
+        "$1 por cada formato de arquivo adicional do mesmo desenho.",
+        "Sem conta e sem assinatura.",
+        "Os pagamentos com cartão são processados pela Stripe."
+      ]
+    },
+    "languages": {
+      "title": "Idiomas",
+      "intro": "O site do SewGen está disponível em quinze idiomas.",
+      "items": [
+        "Inglês, espanhol, francês, alemão, italiano e polonês.",
+        "Búlgaro, russo e grego.",
+        "Hebraico, árabe e urdu.",
+        "Sânscrito, chinês simplificado e chinês tradicional."
+      ]
+    },
+    "cta": {
+      "title": "Experimente o SewGen",
+      "text": "Crie um desenho e veja como ele fica em linha antes de pagar qualquer coisa.",
+      "openSite": "Abrir o SewGen",
       "contact": "Fale conosco"
     }
   }

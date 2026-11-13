@@ -1818,6 +1818,34 @@
           "Gleiches Konto und gleiche Daten wie owner.myeztoll.com"
         ]
       }
+    },
+    "sewGen": {
+      "home": {
+        "subtitle": "KI-Generator für Stickmotive und Monogramme",
+        "description": "Macht aus einem Logo, Bild oder einer Zeichnung eine Datei für die Stickmaschine oder baut ein Monogramm aus fertigen Vorlagen. Erst im Garn ansehen, nur bezahlen, wenn das Ergebnis gefällt.",
+        "items": [
+          "Logo, Bild oder Zeichnung hochladen",
+          "Monogramm- und Textvorlagen für Caps, Handtücher, Jacken und mehr",
+          "Ein Motiv in Worten beschreiben und von der KI zeichnen lassen",
+          "Garnvorschau und Stichsimulation vor der Zahlung",
+          "DST, PES, JEF, EXP, VP3, XXX und weitere Formate",
+          "Modi für Einsteiger und Experten",
+          "4,99 $ pro Motiv, kein Konto nötig",
+          "Website in 15 Sprachen"
+        ]
+      },
+      "products": {
+        "subtitle": "KI-Generator für Stickmotive und Monogramme",
+        "description": "Ein Onlinedienst, der aus eigenen Bildern, Monogrammen und Texten Maschinenstickdateien erstellt, zeigt, wie das Motiv im Garn aussehen wird, und nur die Motive berechnet, die Sie behalten.",
+        "items": [
+          "Logos, Bilder, Zeichnungen und per KI beschriebene Motive",
+          "Fertige Vorlagen für Caps, Handtücher, Bademäntel, T-Shirts und Kissen",
+          "Farbkarten von Garnmarken, Stoffvorgaben und Stichsimulation",
+          "Dateien für Brother, Janome, Bernina, Pfaff, Tajima, Melco und mehr",
+          "4,99 $ pro Motiv plus 1 $ pro zusätzlichem Format",
+          "Kein Konto, Zahlung über Stripe"
+        ]
+      }
     }
   },
   "setPassword": {
@@ -2398,6 +2426,120 @@
       "googlePlaySoon": "Demnächst bei Google Play",
       "ownerPortal": "Besitzerportal öffnen",
       "platform": "Über die MyEZToll-Plattform",
+      "contact": "Kontakt"
+    }
+  },
+  "sewGenDetail": {
+    "hero": {
+      "title": "Maschinenstickdateien aus Ihren eigenen Motiven",
+      "subtitle": "Laden Sie ein Logo, Bild oder eine Zeichnung hoch oder bauen Sie ein Monogramm, sehen Sie, wie es im Garn aussieht, und laden Sie die Stickdatei für Ihre Maschine herunter. Bezahlt wird nur, wenn das Ergebnis gefällt."
+    },
+    "whatIs": {
+      "title": "Was SewGen ist",
+      "p1": "SewGen ist ein Onlinedienst, der Bilder in Dateien für Stickmaschinen umwandelt. Sie laden ein Logo, ein Bild oder eine Handzeichnung hoch oder bauen ein Monogramm oder einen Text, und SewGen erzeugt die Stiche.",
+      "p2": "Bevor Sie etwas bezahlen, sehen Sie eine Vorschau, wie das Motiv im Garn aussehen wird, mit Stichsimulation und Farben aus den Farbkarten der großen Garnmarken. Gefällt Ihnen das Ergebnis nicht, ändern Sie es oder gehen einfach.",
+      "p3": "Wenn es passt, bezahlen Sie dieses Motiv und laden die Datei im Format Ihrer Maschine herunter. Weder Konto noch Abo sind nötig. SewGen öffnet außerdem fertige PES- und DST-Dateien."
+    },
+    "forWhom": {
+      "title": "Für wen",
+      "items": [
+        {
+          "label": "Hobbysticker:",
+          "text": "ein Monogramm auf dem Handtuch, ein Name auf dem Kindershirt oder ein Logo auf der Cap, ohne Punch-Software lernen zu müssen."
+        },
+        {
+          "label": "Kreative und kleine Werkstätten:",
+          "text": "personalisierte Geschenke und kleine Aufträge, mit fertigen Vorlagen für die am häufigsten bestickten Artikel."
+        },
+        {
+          "label": "Unternehmen und Teams:",
+          "text": "das eigene Logo auf Caps, Jackenrücken, T-Shirts und Stofftaschen."
+        },
+        {
+          "label": "Erfahrene Nutzer:",
+          "text": "der Expertenmodus für feinere Kontrolle darüber, wie das Motiv gestickt wird."
+        }
+      ]
+    },
+    "capabilities": {
+      "title": "Was es kann",
+      "cards": {
+        "upload": {
+          "title": "Eigene Bilder",
+          "text": "Laden Sie ein Logo, ein Bild oder eine Zeichnung hoch, und SewGen macht daraus Stiche."
+        },
+        "monogram": {
+          "title": "Monogramme und Texte",
+          "text": "Fertige Vorlagen für Caps, Jackenrücken, Handtücher, Bademäntel, Kinderkleidung, T-Shirts, Kissen, Servietten und Stofftaschen, mit Schriften, Symbolen, Versen und Gebeten."
+        },
+        "ai": {
+          "title": "Der KI beschreiben",
+          "text": "Kein Plan, wo Sie anfangen sollen? Beschreiben Sie das Motiv in Worten und lassen Sie es von der KI zeichnen."
+        },
+        "preview": {
+          "title": "Vorschau im Garn",
+          "text": "Sehen Sie mit Stichsimulation, wie das Motiv gestickt aussehen wird, bevor Sie etwas bezahlen."
+        },
+        "threads": {
+          "title": "Garne und Stoffe",
+          "text": "Garnfarben aus den Farbkarten der Marken und Stoffvorgaben, damit die Vorschau zu dem passt, was Sie tatsächlich verwenden."
+        },
+        "formats": {
+          "title": "Dateien für Ihre Maschine",
+          "text": "DST, PES, PEC, JEF, EXP, VP3, XXX, U01, TBF, TAP und weitere Formate für Haushalts- und Industriemaschinen."
+        },
+        "modes": {
+          "title": "Einsteiger und Experte",
+          "text": "Der Einsteigermodus bleibt einfach; der Expertenmodus öffnet die Einstellungen für alle, die mehr Kontrolle wollen."
+        },
+        "open": {
+          "title": "Vorhandene Dateien öffnen",
+          "text": "Öffnen Sie fertige PES- und DST-Dateien, um sie in derselben Vorschau anzusehen."
+        }
+      }
+    },
+    "formats": {
+      "title": "Dateiformate und Maschinen",
+      "intro": "Ein Motiv lässt sich im Format Ihrer Maschine oder in mehreren Formaten gleichzeitig herunterladen.",
+      "items": [
+        {
+          "label": "Formate:",
+          "text": "DST, PES, PEC, JEF, EXP, VP3, XXX, U01, TBF, TAP und weitere."
+        },
+        {
+          "label": "Haushaltsmaschinen:",
+          "text": "Brother, Baby Lock, Janome, Bernina, Husqvarna Viking, Pfaff und Singer."
+        },
+        {
+          "label": "Industriemaschinen:",
+          "text": "Tajima, Barudan, Happy und Melco."
+        }
+      ]
+    },
+    "pricing": {
+      "title": "Preise",
+      "intro": "Sie bezahlen ein Motiv erst, wenn Sie es gesehen haben und es Ihnen gefällt.",
+      "items": [
+        "4,99 $ pro Motiv.",
+        "1 $ für jedes weitere Dateiformat desselben Motivs.",
+        "Kein Konto und kein Abo.",
+        "Kartenzahlungen werden über Stripe abgewickelt."
+      ]
+    },
+    "languages": {
+      "title": "Sprachen",
+      "intro": "Die SewGen-Website ist in fünfzehn Sprachen verfügbar.",
+      "items": [
+        "Englisch, Spanisch, Französisch, Deutsch, Italienisch und Polnisch.",
+        "Bulgarisch, Russisch und Griechisch.",
+        "Hebräisch, Arabisch und Urdu.",
+        "Sanskrit, vereinfachtes und traditionelles Chinesisch."
+      ]
+    },
+    "cta": {
+      "title": "SewGen ausprobieren",
+      "text": "Erstellen Sie ein Motiv und sehen Sie, wie es im Garn aussieht, bevor Sie irgendetwas bezahlen.",
+      "openSite": "SewGen öffnen",
       "contact": "Kontakt"
     }
   }
