@@ -1093,6 +1093,10 @@
           "title": "Parking Violation Management",
           "text": "Comprehensive tracking and dispute workflow for parking citations with automated resolution."
         },
+        "mailboxFines": {
+          "title": "Fines That Arrive by Email",
+          "text": "Every fleet has its own company mailbox. A parking, camera or toll-by-mail notice sent or forwarded there, as a PDF, a photo or the email itself and in any language, is read, matched to the car by plate and handled like any other fine."
+        },
         "gpsTolling": {
           "title": "GPS-Based Tolling",
           "text": "Vehicle GPS traces are matched against a database of real toll booths and gantries, then priced per booking — tolls are known from the trip itself, not only from the agency invoice."

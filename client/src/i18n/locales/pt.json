@@ -1093,6 +1093,10 @@
           "title": "Gestão de infrações de estacionamento",
           "text": "Acompanhamento completo e fluxo de contestação para multas de estacionamento, com resolução automatizada."
         },
+        "mailboxFines": {
+          "title": "Multas que chegam por e-mail",
+          "text": "Cada frota tem a sua própria caixa de correio. Uma notificação de estacionamento, câmera ou pedágio enviada ou encaminhada para lá, em PDF, foto ou no próprio e-mail e em qualquer idioma, é lida, associada ao carro pela placa e tratada como qualquer outra multa."
+        },
         "gpsTolling": {
           "title": "Pedágio por GPS",
           "text": "Os rastros de GPS dos veículos são comparados a uma base de praças e pórticos de pedágio reais e depois precificados por reserva — os pedágios são conhecidos a partir da própria viagem, não apenas pela fatura da concessionária."

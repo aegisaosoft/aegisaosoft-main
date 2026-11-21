@@ -75,6 +75,10 @@ export function MyEZTollDetail() {
                 <p>{t('myEZTollDetail.capabilities.cards.parkingViolations.text')}</p>
               </div>
               <div className="capability-card">
+                <h3>📧 {t('myEZTollDetail.capabilities.cards.mailboxFines.title')}</h3>
+                <p>{t('myEZTollDetail.capabilities.cards.mailboxFines.text')}</p>
+              </div>
+              <div className="capability-card">
                 <h3>🛰️ {t('myEZTollDetail.capabilities.cards.gpsTolling.title')}</h3>
                 <p>{t('myEZTollDetail.capabilities.cards.gpsTolling.text')}</p>
               </div>
