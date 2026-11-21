@@ -279,5 +279,381 @@
       "platform": "Informazioni sulla piattaforma MyEZToll",
       "contact": "Contattaci"
     }
+  },
+  "myEZTollDetail": {
+    "hero": {
+      "title": "Piattaforma AI per pedaggi, GPS e multe delle flotte a noleggio",
+      "subtitle": "Piattaforma di livello enterprise pensata per autonoleggi e gestori di flotte: automatizza il trattamento dei pedaggi, il rilevamento dei pedaggi tramite GPS e la gestione delle multe in tutti i 50 stati USA e in Canada. È la prima piattaforma per pedaggi e multe del settore noleggio a usare agenti AI in produzione."
+    },
+    "whatIs": {
+      "title": "Che cos'è MyEZToll?",
+      "p1": "MyEZToll è una piattaforma specializzata per una singola organizzazione (NON multi-tenant), creata esclusivamente per autonoleggi e gestori di flotte che hanno bisogno di una gestione completa di pedaggi, GPS e multe.",
+      "p2": "A differenza delle soluzioni generiche, MyEZToll offre un'infrastruttura dedicata a ogni singolo gestore di flotta, con pieno controllo sul trattamento dei pedaggi e sui flussi delle multe in tutti i 50 stati USA e in Canada.",
+      "p3": "La piattaforma lavora in entrambe le direzioni: raccoglie gli addebiti da enti dei pedaggi ed emittenti delle multe e calcola in modo indipendente i pedaggi dai tracciati GPS dei veicoli, così un viaggio ha il suo prezzo nel momento in cui il veicolo passa sotto il portale, molto prima che arrivi la fattura dell'ente."
+    },
+    "forWhom": {
+      "title": "A chi è rivolto?",
+      "items": [
+        {
+          "label": "Autonoleggi",
+          "text": "che operano in più stati"
+        },
+        {
+          "label": "Società di gestione flotte",
+          "text": "con percorsi ricchi di pedaggi"
+        },
+        {
+          "label": "Grandi gestori di flotte",
+          "text": "che cercano conformità automatizzata"
+        },
+        {
+          "label": "Franchising di noleggio",
+          "text": "che hanno bisogno di una gestione centralizzata dei pedaggi"
+        },
+        {
+          "label": "Flotte aziendali",
+          "text": "che viaggiano molto su strade a pedaggio"
+        }
+      ]
+    },
+    "capabilities": {
+      "title": "Funzionalità principali",
+      "cards": {
+        "automatedToll": {
+          "title": "Gestione automatica dei pedaggi",
+          "text": "Trattamento fluido degli addebiti di pedaggio in più stati, con riconciliazione e pagamento automatici."
+        },
+        "parkingViolations": {
+          "title": "Gestione delle multe per sosta",
+          "text": "Monitoraggio completo e flusso di contestazione per le multe di sosta, con risoluzione automatizzata."
+        },
+        "mailboxFines": {
+          "title": "Multe che arrivano via e-mail",
+          "text": "Ogni flotta ha la propria casella aziendale. Un avviso di sosta, autovelox o pedaggio inviato o inoltrato lì, in PDF, foto o nel testo della mail e in qualsiasi lingua, viene letto, abbinato all'auto tramite la targa e gestito come qualsiasi altra multa."
+        },
+        "gpsTolling": {
+          "title": "Pedaggi da GPS",
+          "text": "I tracciati GPS dei veicoli vengono confrontati con un database di caselli e portali reali e poi valorizzati per prenotazione: i pedaggi si conoscono dal viaggio stesso, non solo dalla fattura dell'ente."
+        },
+        "towingAlerts": {
+          "title": "Rimozione e avvisi sulla flotta",
+          "text": "Avvisi immediati via SMS ed e-mail per rimozione forzata, accensione/spegnimento e fine viaggio, inviati al proprietario, al noleggiatore attivo o a entrambi."
+        },
+        "thirdPartyGps": {
+          "title": "Integrazione GPS di terze parti",
+          "text": "Integrazioni telematiche a plugin, Fleet77 e altre, portano veicoli e posizioni dai tracker esterni accanto ai nostri dispositivi, in un'unica vista della flotta."
+        },
+        "aiRateResearch": {
+          "title": "Ricerca AI delle tariffe di pedaggio",
+          "text": "Agenti AI consultano in autonomia le fonti degli enti dei pedaggi, individuano i cambi di tariffa e mantengono aggiornati i prezzi della piattaforma senza inserimento manuale."
+        },
+        "coverage": {
+          "title": "Copertura USA e Canada",
+          "text": "Tutti i 50 stati USA più le strade a pedaggio e le multe canadesi, tra cui Highway 407 ETR, A25 e A30."
+        },
+        "ownerPortal": {
+          "title": "Portale self-service per i proprietari",
+          "text": "Portale dedicato con cui proprietari di flotte e autonoleggi gestiscono in autonomia pagamenti e contestazioni."
+        },
+        "analytics": {
+          "title": "Analisi della flotta",
+          "text": "Report e analisi completi su costi dei pedaggi, andamento delle multe e prestazioni della flotta."
+        },
+        "automation": {
+          "title": "Automazione intelligente",
+          "text": "Lettura delle multe con l'AI ed elaborazione automatica dei pagamenti con un intervento manuale minimo."
+        }
+      }
+    },
+    "problems": {
+      "title": "Problemi che risolve",
+      "items": [
+        {
+          "label": "Riconciliazione manuale dei pedaggi",
+          "text": "→ Elaborazione automatica in tutti gli stati"
+        },
+        {
+          "label": "Arretrato di multe per sosta",
+          "text": "→ Lettura intelligente e gestione delle contestazioni"
+        },
+        {
+          "label": "Complessità della conformità in più stati",
+          "text": "→ Copertura unificata di 50 stati e del Canada"
+        },
+        {
+          "label": "Pedaggi scoperti settimane dopo",
+          "text": "→ Il rilevamento GPS valorizza il viaggio mentre avviene"
+        },
+        {
+          "label": "Tariffe di pedaggio non aggiornate",
+          "text": "→ Agenti AI seguono di continuo i cambi di tariffa degli enti"
+        },
+        {
+          "label": "Tracker di marche diverse",
+          "text": "→ Fornitori GPS di terze parti integrati in un'unica vista della flotta"
+        },
+        {
+          "label": "Carico sul servizio clienti",
+          "text": "→ Portale self-service per le contestazioni"
+        },
+        {
+          "label": "Lavoro amministrativo",
+          "text": "→ Flussi e notifiche automatici"
+        },
+        {
+          "label": "Scarsa visibilità dei costi",
+          "text": "→ Report e analisi in tempo reale"
+        }
+      ]
+    },
+    "ai": {
+      "title": "Intelligenza artificiale nella gestione della flotta",
+      "intro": "MyEZToll è la prima piattaforma per pedaggi e multe del settore noleggio a usare agenti AI in produzione: non un chatbot aggiunto all'interfaccia, ma software che svolge il lavoro operativo.",
+      "cards": {
+        "rateResearch": {
+          "title": "Ricerca autonoma delle tariffe",
+          "items": [
+            "Gli agenti AI leggono le fonti e i tariffari degli enti dei pedaggi",
+            "Individuano automaticamente cambi di tariffa e nuove infrastrutture",
+            "Aggiornano nella piattaforma i prezzi per casello e per tratta origine–destinazione",
+            "Autocorrezione: nuovi tentativi, fonti alternative, passaggi di verifica",
+            "Revisione in prova prima di applicare qualsiasi modifica di prezzo"
+          ]
+        },
+        "documents": {
+          "title": "Intelligenza su documenti e multe",
+          "items": [
+            "Lettura AI degli avvisi di multa e degli estratti dei pedaggi",
+            "Lettura della patente con OCR AI e decodifica del codice a barre",
+            "Estrazione automatica di targhe, date, importi e giurisdizioni",
+            "Dati strutturati invece di ribattere tutto a mano"
+          ]
+        },
+        "tripMatching": {
+          "title": "Abbinamento di viaggi e addebiti",
+          "items": [
+            "Abbinamento automatico degli addebiti di pedaggio a veicoli e prenotazioni",
+            "Tracciati GPS ricondotti a caselli, portali e direzioni specifici",
+            "Rilevamento di duplicati e falsi abbinamenti tra le fonti di dati",
+            "Addebiti indirizzati al noleggiatore giusto senza revisione manuale"
+          ]
+        }
+      }
+    },
+    "gps": {
+      "title": "Tracciamento GPS, pedaggi e avvisi",
+      "intro": "Uno strato telematico completo integrato nella piattaforma: tracciamento della flotta in tempo reale, storico dei viaggi, geofencing e avvisi immediati. Funziona sia con i nostri tracker sia con fornitori GPS di terze parti e alimenta i prezzi dei pedaggi direttamente dal movimento del veicolo.",
+      "cards": {
+        "derivedTolls": {
+          "title": "Pedaggi calcolati dal GPS",
+          "items": [
+            "Database nazionale di caselli e portali con coordinate",
+            "Sistemi a biglietto d'ingresso/uscita valorizzati con matrici origine–destinazione",
+            "Abbinamento per direzione su ponti e tunnel a doppio senso",
+            "Totale dei pedaggi per prenotazione calcolato appena termina il noleggio",
+            "Riconciliazione con le fatture degli enti quando arrivano",
+            "Caselli mostrati come livello della mappa sul percorso effettivamente seguito"
+          ]
+        },
+        "liveMap": {
+          "title": "Mappa live e storico dei viaggi",
+          "items": [
+            "Mappa live della flotta con la posizione attuale di ogni veicolo tracciato",
+            "Rilevamento dei viaggi con inizio, fine, durata e traccia del percorso",
+            "Riproduzione del percorso per veicolo e per prenotazione",
+            "Eventi di pedaggio mostrati sul viaggio che li ha generati",
+            "Vista del viaggio aperta direttamente da una prenotazione o dalla scheda dell'auto"
+          ]
+        },
+        "alerts": {
+          "title": "Avvisi in tempo reale",
+          "labeledItems": [
+            {
+              "label": "Rilevamento rimozione",
+              "text": "— il veicolo viene portato via dal carro attrezzi"
+            },
+            {
+              "label": "Accensione",
+              "text": "— veicolo avviato"
+            },
+            {
+              "label": "Spegnimento",
+              "text": "— veicolo spento"
+            },
+            {
+              "label": "Fine viaggio",
+              "text": "— il veicolo ha concluso il viaggio"
+            }
+          ],
+          "items": [
+            "Ogni avviso inviato via SMS e/o e-mail",
+            "Indirizzato al proprietario, al noleggiatore attivo o a entrambi",
+            "Ogni tipo di avviso si attiva o disattiva separatamente"
+          ]
+        },
+        "theft": {
+          "title": "Furto e recupero",
+          "items": [
+            "L'avviso di rimozione scatta pochi istanti dopo che il veicolo viene portato via",
+            "Un rilevamento proprietario distingue un viaggio reale da una rimozione",
+            "Il proprietario viene avvisato subito, con la posizione live da seguire",
+            "Storico completo delle posizioni per denunce e pratiche assicurative",
+            "Le zone di geofencing segnalano movimenti fuori dall'area concordata"
+          ]
+        },
+        "geofencing": {
+          "title": "Geofencing",
+          "items": [
+            "Disegna le zone direttamente sulla mappa: cerchi o poligoni",
+            "Zone circolari definite da centro e raggio",
+            "Poligoni liberi per parcheggi, quartieri e aree di servizio",
+            "Zone modificate e gestite per singola flotta"
+          ]
+        },
+        "externalProviders": {
+          "title": "Fornitori GPS esterni",
+          "items": [
+            "Architettura a plugin per piattaforme telematiche di terze parti",
+            "Integrazione Fleet77 in produzione, altri fornitori in arrivo",
+            "Veicoli e storico delle posizioni importati e mantenuti sincronizzati",
+            "Tracker propri e di terze parti fianco a fianco in un'unica vista della flotta",
+            "Regole di avviso del fornitore mostrate nella nostra interfaccia: velocità, minimo, sosta, fuori orario, rimozione, batteria scarica, comunicazione persa, GPS perso, accelerazione brusca, spia motore, manutenzione, inattività"
+          ]
+        },
+        "devices": {
+          "title": "Dispositivi e diagnostica",
+          "items": [
+            "Assegnazione dei tracker e trasferimento tra veicoli",
+            "Stato del dispositivo: ultimo fix, interruzioni di invio, connettività",
+            "Viste adatte alle capacità: l'insieme di segnali di ciascun fornitore",
+            "Netta separazione tra i nostri dispositivi e quelli di terze parti",
+            "Dati di posizione grezzi conservati per audit e prove nelle contestazioni"
+          ]
+        }
+      }
+    },
+    "keyFeatures": {
+      "title": "Caratteristiche principali",
+      "cards": {
+        "singleOrg": {
+          "title": "Architettura a singola organizzazione",
+          "text": "Piattaforma dedicata a ogni gestore di flotta, con isolamento completo dei dati e flussi personalizzati."
+        },
+        "government": {
+          "title": "Integrazione con le amministrazioni",
+          "text": "Integrazione diretta con i sistemi DMV statali e con le autorità comunali della sosta per dati in tempo reale."
+        },
+        "canadian": {
+          "title": "Operatività in Canada",
+          "text": "Strade a pedaggio e multe canadesi trattate insieme agli addebiti USA, Highway 407 ETR, A25 e A30, con i noleggi transfrontalieri gestiti in un unico flusso."
+        },
+        "connectors": {
+          "title": "Connettori con gli enti dei pedaggi",
+          "text": "Decine di integrazioni con enti dei pedaggi ed emittenti delle multe mantenute sempre funzionanti, così gli addebiti si raccolgono senza accessi manuali ai portali."
+        },
+        "costOptimization": {
+          "title": "Ottimizzazione dei costi",
+          "text": "Suggerimenti di percorso intelligenti e analisi dei costi dei pedaggi per ridurre le spese operative."
+        },
+        "mobile": {
+          "title": "Accesso da mobile",
+          "text": "Un portale per proprietari ottimizzato per qualsiasi telefono, più MyEZToll Owner, un'app Android separata per i proprietari di flotte."
+        }
+      }
+    },
+    "tech": {
+      "title": "Stack tecnologico",
+      "cards": {
+        "frontend": {
+          "title": "Frontend",
+          "text": "React e design responsive per i portali web"
+        },
+        "backend": {
+          "title": "Backend",
+          "text": "ASP.NET Core, architettura API solida"
+        },
+        "database": {
+          "title": "Database",
+          "text": "Azure SQL Server, query ottimizzate"
+        },
+        "ai": {
+          "title": "AI",
+          "text": "Agenti Claude AI per ricerca tariffe, OCR dei documenti e lettura"
+        },
+        "gps": {
+          "title": "GPS e telematica",
+          "text": "Tracker propri più fornitori di terze parti (Fleet77) tramite plugin"
+        },
+        "cloud": {
+          "title": "Cloud",
+          "text": "Microsoft Azure, alta disponibilità"
+        },
+        "automation": {
+          "title": "Automazione",
+          "text": "Web scraping con Playwright e Puppeteer"
+        },
+        "security": {
+          "title": "Sicurezza",
+          "text": "Sicurezza di livello enterprise, conformità AML"
+        }
+      }
+    },
+    "cta": {
+      "title": "Pronto ad automatizzare la tua flotta?",
+      "text": "Elimina la gestione manuale di pedaggi e multe per sosta con la nostra soluzione di livello enterprise.",
+      "requestDemo": "Richiedi una demo",
+      "visitSite": "Visita il sito",
+      "ownerPortal": "Portale proprietari"
+    },
+    "bookingIntegrations": {
+      "title": "Integrazioni con le piattaforme di prenotazione",
+      "intro": "Le flotte non partono da zero: usano già un sistema di prenotazione. MyEZToll si collega a quello, così veicoli, prenotazioni e noleggiatori arrivano in automatico e ogni pedaggio e ogni multa finiscono sul contratto di noleggio giusto, addebitati alla persona giusta.",
+      "badges": {
+        "live": "In produzione",
+        "inDevelopment": "In sviluppo"
+      },
+      "cards": {
+        "hqRental": {
+          "title": "HQ Rental",
+          "text": "La nostra integrazione più profonda, in produzione. Flotta e prenotazioni restano sincronizzate nei due sensi e gli addebiti vengono riportati sul contratto di noleggio.",
+          "items": [
+            "Sincronizzazione bidirezionale di veicoli, prenotazioni e contatti",
+            "Pedaggi e multe riportati come voci del contratto",
+            "Noleggiatore identificato automaticamente per ogni addebito",
+            "Fatturazione al proprietario e riconciliazione dei pagamenti",
+            "Supporto a flotte con più sedi e in franchising"
+          ]
+        },
+        "turo": {
+          "title": "Turo",
+          "text": "Supporto completo al noleggio tra privati, in produzione. Viaggi, ospiti e veicoli vengono ricavati da Turo, così i pedaggi dell'host non vanno più inseguiti a mano.",
+          "items": [
+            "Viaggi e dati degli ospiti importati automaticamente",
+            "Pedaggi abbinati al viaggio e all'ospite esatti",
+            "Addebiti indirizzati all'ospite invece che all'host",
+            "Rimborso e saldo dei pedaggi seguiti dall'inizio alla fine",
+            "Più account Turo in un'unica flotta"
+          ]
+        },
+        "upcoming": {
+          "title": "Altre piattaforme in arrivo",
+          "text": "Altri sei sistemi di prenotazione sono in sviluppo attivo, sulla stessa interfaccia per i fornitori.",
+          "items": [
+            "EasyRentPro",
+            "RENTALL",
+            "RentCentric",
+            "Renteon",
+            "TSD",
+            "Wheelbase"
+          ]
+        }
+      },
+      "outro": "Ogni piattaforma è un plugin dietro un'unica interfaccia comune, quindi aggiungere un sistema di prenotazione significa scrivere un connettore, non ricostruire tutto. Dicci quale usi e gli daremo la priorità."
+    },
+    "mobile": {
+      "title": "App mobile: MyEZToll Owner",
+      "text": "La parte mobile di MyEZToll è un prodotto a sé. MyEZToll Owner porta il portale per proprietari su Android ed esegue l'agente sempre attivo che mantiene la flotta di un host Turo sincronizzata con MyEZToll.",
+      "link": "Scopri MyEZToll Owner"
+    }
   }
 }
