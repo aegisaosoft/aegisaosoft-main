@@ -1093,6 +1093,10 @@
           "title": "Gestion des infractions de stationnement",
           "text": "Suivi complet et processus de contestation des contraventions de stationnement, avec résolution automatisée."
         },
+        "mailboxFines": {
+          "title": "Amendes reçues par e-mail",
+          "text": "Chaque flotte dispose de sa propre boîte mail. Un avis de stationnement, de radar ou de péage envoyé ou transféré à cette adresse, en PDF, en photo ou dans le corps du mail et dans n’importe quelle langue, est lu, rattaché au véhicule par sa plaque et traité comme toute autre amende."
+        },
         "gpsTolling": {
           "title": "Péage basé sur le GPS",
           "text": "Les traces GPS des véhicules sont rapprochées d'une base de barrières et de portiques de péage réels, puis tarifées par réservation — les péages sont connus grâce au trajet lui-même, et pas seulement via la facture de l'exploitant."

@@ -1093,6 +1093,10 @@
           "title": "Gestión de infracciones de estacionamiento",
           "text": "Seguimiento integral y flujo de impugnación de multas de estacionamiento, con resolución automatizada."
         },
+        "mailboxFines": {
+          "title": "Multas que llegan por correo",
+          "text": "Cada flota tiene su propio buzón de empresa. Un aviso de estacionamiento, cámara o peaje por correo enviado o reenviado ahí, en PDF, foto o el correo mismo y en cualquier idioma, se lee, se vincula con el auto por la placa y se maneja como cualquier otra multa."
+        },
         "gpsTolling": {
           "title": "Peajes basados en GPS",
           "text": "Los recorridos GPS de los vehículos se cruzan con una base de datos de casetas y pórticos de peaje reales y se tarifican por reserva: los peajes se conocen a partir del propio viaje, no solo de la factura de la agencia."

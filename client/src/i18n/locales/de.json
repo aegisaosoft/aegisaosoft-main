@@ -1093,6 +1093,10 @@
           "title": "Management von Parkverstößen",
           "text": "Umfassende Verfolgung und Einspruchsprozesse für Parkverstöße mit automatisierter Klärung."
         },
+        "mailboxFines": {
+          "title": "Bußgelder per E-Mail",
+          "text": "Jede Flotte hat ein eigenes Firmenpostfach. Ein Park-, Blitzer- oder Mautbescheid, der dorthin geschickt oder weitergeleitet wird, als PDF, Foto oder als E-Mail selbst und in jeder Sprache, wird gelesen, über das Kennzeichen dem Fahrzeug zugeordnet und wie jedes andere Bußgeld bearbeitet."
+        },
         "gpsTolling": {
           "title": "GPS-basierte Mauterfassung",
           "text": "GPS-Fahrzeugspuren werden mit einer Datenbank realer Mautstellen und Mautportale abgeglichen und je Buchung bepreist — die Maut ergibt sich aus der Fahrt selbst, nicht erst aus der Behördenrechnung."
