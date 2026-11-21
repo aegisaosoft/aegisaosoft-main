@@ -27,6 +27,8 @@ const languages = [
   { code: 'zh-Hans', name: '简体中文', flag: '🇨🇳' },
   { code: 'zh-Hant', name: '繁體中文', flag: '🇹🇼' },
   { code: 'hi', name: 'हिन्दी', flag: '🇮🇳' },
+  { code: 'it', name: 'Italiano', flag: '🇮🇹' },
+  { code: 'ja', name: '日本語', flag: '🇯🇵' },
 ]
 
 /**
