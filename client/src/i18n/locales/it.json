@@ -44,6 +44,18 @@
       "technicalSupport": {
         "title": "Supporto Tecnico a Lungo Termine",
         "description": "Manutenzione continua, sviluppo di funzionalità e partnership tecnica per le tue piattaforme."
+      },
+      "aiTollRates": {
+        "title": "Rilevamento delle tariffe dei pedaggi con l'AI",
+        "description": "Agenti AI che leggono le fonti delle autorità dei pedaggi, rilevano le variazioni tariffarie e mantengono aggiornati automaticamente i dati sui prezzi — in produzione negli Stati Uniti e in Canada."
+      },
+      "gpsNavigation": {
+        "title": "Tracciamento GPS e navigazione",
+        "description": "Telematica per flotte sviluppata end-to-end: tracciamento in tempo reale, cronologia dei viaggi, geofencing e avvisi in tempo reale — con i nostri dispositivi o con fornitori GPS di terze parti."
+      },
+      "mobileApps": {
+        "title": "Sviluppo di app Android e iOS",
+        "description": "Applicazioni mobili native e multipiattaforma sviluppate con .NET MAUI: un'unica codebase C#, build Android e iOS reali, con modelli e client API condivisi con il backend."
       }
     },
     "architecture": {
@@ -59,7 +71,13 @@
         "Pratiche CI/CD e DevOps",
         "Sicurezza e protezione dei dati",
         "Integrazione IA quando appropriato"
-      ]
+      ],
+      "aiHighlight": {
+        "label": "Integrata, non aggiunta",
+        "title": "Intelligenza artificiale in tutto lo stack",
+        "text": "L'AI è una parte fondamentale della nostra architettura, non un componente aggiuntivo. Gli agenti mantengono aggiornati in autonomia i dati di riferimento esterni, documenti e fotografie vengono letti e trasformati in campi strutturati, i messaggi in arrivo vengono analizzati e convertiti in record operativi e interi prodotti vengono localizzati automaticamente in decine di lingue. Ogni chiamata al modello restituisce dati validati rispetto a uno schema, viene memorizzata in cache in base ai suoi input e resta tracciabile fino alla sua fonte.",
+        "link": "Come usiamo l'AI"
+      }
     },
     "about": {
       "title": "Informazioni su Aegis AO Soft",
@@ -80,18 +98,48 @@
         "parkingManagement": "Gestione violazioni parcheggio",
         "usaCoverage": "Copertura in tutti i 50 stati USA",
         "fleetOperators": "Progettata per compagnie di noleggio auto e operatori di flotte",
-        "ownerPortal": "Portale proprietario per flussi di lavoro di pagamento e controversie"
+        "ownerPortal": "Portale proprietario per flussi di lavoro di pagamento e controversie",
+        "gpsTolls": "Rilevamento dei pedaggi tramite GPS, con prezzo per prenotazione",
+        "fleetMap": "Mappa della flotta in tempo reale con cronologia dei viaggi e riproduzione del percorso",
+        "gpsAlerts": "Avviso di rimozione forzata, oltre ad avvisi di accensione e di viaggio via SMS ed email",
+        "geofencing": "Zone di geofence disegnate sulla mappa (cerchio o poligono)",
+        "gpsIntegration": "Integrazioni GPS di terze parti (Fleet77 e altre)",
+        "aiFirst": "La prima piattaforma di pedaggi del settore del noleggio con agenti AI in produzione",
+        "aiRates": "Gli agenti AI ricercano e aggiornano automaticamente le tariffe dei pedaggi",
+        "canadaCoverage": "Strade a pedaggio e multe in Canada (407 ETR, A25, A30)"
       },
       "learnMore": "Scopri di Più",
       "visitSite": "Visita il Sito",
-      "ownerPortal": "Portale Proprietario"
+      "ownerPortal": "Portale Proprietario",
+      "featuresTitle": "Funzionalità della piattaforma"
+    },
+    "vehicleRental": {
+      "title": "Gestione del noleggio di veicoli",
+      "description": "Piattaforma SaaS completa per società di noleggio con architettura multi-tenant, integrazione con Stripe Connect e operazioni automatizzate.",
+      "features": {
+        "fleetManagement": "Gestione della flotta e della disponibilità",
+        "driverVerification": "Verifica del conducente (BlinkID)",
+        "securityDeposit": "Gestione del deposito cauzionale",
+        "automatedBilling": "Fatturazione automatizzata",
+        "voiceAI": "🎙️ Assistente vocale AI per la scelta del veicolo",
+        "socialIntegration": "Integrazione completa con Instagram e Facebook"
+      },
+      "learnMore": "Scopri di più"
+    },
+    "brazilianMarketplace": {
+      "title": "Piattaforma di marketplace multi-tenant per prodotti artigianali brasiliani",
+      "description": "Una piattaforma e-commerce basata sul cloud che mette in contatto artigiani e piccoli venditori locali brasiliani con clienti in cerca di prodotti artigianali autentici, arte popolare e articoli di uso quotidiano. Completamente integrata con Instagram e Facebook per il social commerce: storefront multi-tenant, gestione del catalogo prodotti, monitoraggio di ordini ed evasione, elaborazione dei pagamenti con Stripe.",
+      "learnMore": "Scopri di più"
     }
   },
   "productCards": {
     "buttons": {
       "googlePlay": "Disponibile su Google Play",
       "googlePlaySoon": "Presto disponibile su Google Play",
-      "microsoftStore": "Disponibile su Microsoft Store"
+      "microsoftStore": "Disponibile su Microsoft Store",
+      "tryNow": "Provalo ora",
+      "viewDetails": "Vedi dettagli",
+      "viewSource": "Vedi sorgente"
     },
     "ownerApp": {
       "home": {
@@ -118,6 +166,177 @@
           "Violazioni e conducenti, con ricerca",
           "Nessun tracciamento della posizione, nessun ID pubblicità",
           "Stesso account e stessi dati di owner.myeztoll.com"
+        ]
+      }
+    },
+    "myEZWheels": {
+      "home": {
+        "subtitle": "Piattaforma storefront multi-tenant per il noleggio di veicoli",
+        "description": "Un sito di noleggio con il proprio marchio per ogni azienda — dominio, flotta e prezzi propri — con prenotazioni, pagamenti e verifica dei conducenti integrati.",
+        "items": [
+          "Architettura multi-tenant",
+          "Supporto per sottodomini e domini personalizzati",
+          "Gestione di flotta e prenotazioni",
+          "Storefront in 15 lingue",
+          "Acquisizione della patente con il telefono",
+          "Funziona insieme a Turo e HQ Rental",
+          "Pagamenti e depositi con Stripe Connect"
+        ]
+      },
+      "products": {
+        "subtitle": "Piattaforma storefront per il noleggio di veicoli",
+        "description": "Storefront multi-tenant su sottodomini o domini personalizzati, con gestione della flotta, contenuti gestiti da database e supporto per 15 lingue. Un sistema reale in produzione al servizio di aziende di noleggio.",
+        "items": [
+          "Architettura SaaS multi-tenant",
+          "Domini e branding personalizzati",
+          "Scansione e verifica della patente",
+          "Pagamenti con Stripe Connect",
+          "Integrazioni con Turo e HQ Rental",
+          "Localizzazione in 15 lingue"
+        ]
+      }
+    },
+    "mercadinho25": {
+      "home": {
+        "subtitle": "Piattaforma marketplace per prodotti artigianali",
+        "description": "Un marketplace e-commerce multilingue pensato per piccole imprese e produttori indipendenti, con automazione integrata per un pubblico globale.",
+        "items": [
+          "Marketplace SaaS multi-tenant",
+          "Supporto per 10 lingue (comprese lingue indigene)",
+          "Traduzione automatica con IA delle descrizioni dei prodotti",
+          "Onboarding dei venditori e gestione del catalogo",
+          "Elaborazione di pagamenti e ordini",
+          "Ottimizzato per utenti internazionali"
+        ]
+      },
+      "products": {
+        "subtitle": "Piattaforma marketplace per prodotti artigianali",
+        "description": "Marketplace multi-tenant che collega gli artigiani brasiliani al mondo intero. Traduzione con IA, social commerce e gestione completa dei venditori.",
+        "items": [
+          "Marketplace multi-tenant",
+          "Supporto per 10 lingue (comprese lingue indigene)",
+          "Traduzione automatica con IA",
+          "Integrazione con Instagram/Facebook",
+          "Sistema di gestione dei venditori"
+        ]
+      }
+    },
+    "myEZToll": {
+      "home": {
+        "subtitle": "Piattaforma basata sull'IA per pedaggi, GPS e multe per gestori di flotte",
+        "description": "Una piattaforma specializzata per aziende di noleggio e gestori di flotte per gestire addebiti di pedaggio, pedaggi rilevati via GPS e multe negli Stati Uniti e in Canada.",
+        "items": [
+          "Elaborazione dei pedaggi di decine di enti autostradali",
+          "Gestione delle multe in tutti i 50 stati e in Canada",
+          "Rilevamento dei pedaggi via GPS, con prezzo per prenotazione",
+          "Avvisi di traino, accensione e viaggio via SMS ed e-mail",
+          "Integrazione con GPS di terze parti (Fleet77 e altri)",
+          "Agenti IA che ricercano e aggiornano le tariffe dei pedaggi",
+          "Integrazioni con Turo e HQ Rental incluse",
+          "Portale per i proprietari per pagamenti e gestione delle contestazioni"
+        ]
+      },
+      "products": {
+        "subtitle": "Piattaforma basata sull'IA per pedaggi, GPS e multe",
+        "description": "Piattaforma enterprise per aziende di autonoleggio. Elaborazione automatizzata dei pedaggi, rilevamento dei pedaggi via GPS e gestione delle multe in tutti i 50 stati USA e in Canada.",
+        "items": [
+          "Copertura di tutti i 50 stati USA e del Canada",
+          "Elaborazione automatizzata di pedaggi e multe",
+          "Rilevamento dei pedaggi via GPS per prenotazione",
+          "Avvisi di traino e accensione (SMS, e-mail)",
+          "Integrazione con GPS di terze parti (Fleet77)",
+          "Agenti IA che mantengono aggiornate le tariffe dei pedaggi",
+          "Integrazioni con Turo e HQ Rental",
+          "Portale self-service per i proprietari"
+        ]
+      }
+    },
+    "productsCta": {
+      "title": "Pronto a parlare del tuo progetto?",
+      "description": "Realizziamo piattaforme pronte per la produzione che crescono con la tua attività. Dal SaaS multi-tenant alle soluzioni enterprise specializzate.",
+      "learnAboutProcess": "Scopri il nostro processo"
+    },
+    "aegisLocalizer": {
+      "home": {
+        "subtitle": "Strumento di localizzazione con IA per qualsiasi codebase",
+        "description": "Indicagli un codebase e una lingua. Trova le stringhe dell'interfaccia scritte direttamente nel codice, le traduce con Claude e riscrive il tuo codice sorgente perché usi file di risorse adeguati.",
+        "items": [
+          "Trova automaticamente le stringhe dell'interfaccia scritte nel codice",
+          "Analisi precisa con Roslyn per C#, lexer tolleranti per gli altri linguaggi",
+          "Supporta .NET, web, Android, Apple e Flutter",
+          "Genera file .resx, JSON i18next, strings.xml, .strings e .arb",
+          "Riscrive il codice sorgente per usare la ricerca nelle risorse",
+          "Il filtro offline del rumore riduce i costi API prima della prima chiamata",
+          "Esecuzioni incrementali: si pagano solo le stringhe nuove o riformulate",
+          "Usa la tua chiave API Anthropic"
+        ]
+      },
+      "products": {
+        "subtitle": "Strumento di localizzazione con IA per qualsiasi codebase",
+        "description": "Una CLI e una GUI locale che analizzano un progetto alla ricerca delle stringhe rivolte all'utente, le classificano con Claude, le traducono in qualsiasi lingua e riscrivono il codice sorgente per usare file di risorse. Cinque stack supportati, con backup e validazione dei segnaposto.",
+        "items": [
+          "Cinque piattaforme: .NET, web, Android, Apple, Flutter",
+          "Classificazione e traduzione basate su Claude",
+          "Riscrittura automatica del codice sorgente con backup byte per byte",
+          "Validazione dei segnaposto su ogni traduzione",
+          "Unisce, non sovrascrive mai: le modifiche manuali restano",
+          "La modalità CI fa fallire la build se compaiono nuove stringhe scritte nel codice"
+        ]
+      }
+    },
+    "hueControl": {
+      "home": {
+        "subtitle": "App desktop per Windows per l'illuminazione Philips Hue",
+        "description": "Il centro di controllo desktop che Hue non ha mai rilasciato per Windows: luci, stanze, scene, sensori e interruttori, tutto da un'unica app nativa sulla tua rete locale.",
+        "items": [
+          "App nativa per Windows, nessun telefono necessario",
+          "Luci, stanze, zone e scene in un'unica finestra",
+          "Aggiungi, rinomina e rimuovi qualsiasi dispositivo Hue",
+          "Programma i dimmer per stanze e scene",
+          "Più bridge raggruppati in abitazioni",
+          "Solo rete locale, nulla lascia il tuo computer",
+          "10 lingue dell'interfaccia con pieno supporto RTL",
+          "Temi scuro e chiaro, gratuita e open source"
+        ]
+      },
+      "products": {
+        "subtitle": "App desktop per Windows per l'illuminazione Philips Hue",
+        "description": "Un'applicazione WPF nativa per controllare gli impianti Philips Hue da Windows: gestione completa dei dispositivi, modifica delle scene, programmazione degli interruttori e supporto per più bridge, comunicando direttamente con il bridge sulla tua LAN.",
+        "items": [
+          "Gestione completa dei dispositivi, non solo acceso/spento",
+          "Modifica di scene e stanze con anteprime dei colori",
+          "Programmazione dei dimmer con stato della batteria",
+          "Passaggio tra più bridge e più abitazioni",
+          "Solo locale, nessun account cloud, nessuna telemetria",
+          "10 lingue, supporto RTL, temi scuro e chiaro"
+        ]
+      }
+    },
+    "sewGen": {
+      "home": {
+        "subtitle": "Generatore di ricami e monogrammi con IA",
+        "description": "Trasforma un logo, un'immagine o un disegno in un file per ricamatrice, oppure crea un monogramma partendo da modelli pronti. Guardalo prima ricamato e paga solo se il risultato ti piace.",
+        "items": [
+          "Carica un logo, un'immagine o un disegno",
+          "Modelli di monogrammi e testi per cappellini, asciugamani, giacche e altro",
+          "Descrivi un design a parole e lascia che l'IA lo disegni",
+          "Anteprima del filo e simulazione dei punti prima di pagare",
+          "DST, PES, JEF, EXP, VP3, XXX e altri formati",
+          "Modalità Principiante ed Esperto",
+          "4,99 $ per design, nessun account necessario",
+          "Sito in 15 lingue"
+        ]
+      },
+      "products": {
+        "subtitle": "Generatore di ricami e monogrammi con IA",
+        "description": "Un servizio online che crea file per ricamatrice a partire dai tuoi disegni, monogrammi e testi, mostra come apparirà il design ricamato e fa pagare solo i design che decidi di tenere.",
+        "items": [
+          "Loghi, immagini, disegni e design descritti all'IA",
+          "Modelli pronti per cappellini, asciugamani, accappatoi, T-shirt e cuscini",
+          "Cartelle colori dei filati per marca, preimpostazioni dei tessuti e simulazione dei punti",
+          "File per Brother, Janome, Bernina, Pfaff, Tajima, Melco e altri",
+          "4,99 $ per design più 1 $ per ogni formato aggiuntivo",
+          "Nessun account, pagamenti tramite Stripe"
         ]
       }
     }
@@ -654,6 +873,1684 @@
       "title": "App mobile: MyEZToll Owner",
       "text": "La parte mobile di MyEZToll è un prodotto a sé. MyEZToll Owner porta il portale per proprietari su Android ed esegue l'agente sempre attivo che mantiene la flotta di un host Turo sincronizzata con MyEZToll.",
       "link": "Scopri MyEZToll Owner"
+    }
+  },
+  "adminGuide": {
+    "sectionTitle": "Guida per amministratori e venditori",
+    "sectionSubtitle": "Guida completa alla gestione del tuo marketplace Mercadinho25",
+    "recommendationTip": "Per traduzioni automatiche più accurate, inserisci nomi e descrizioni dei prodotti in portoghese o in inglese.",
+    "sections": {
+      "gettingStarted": {
+        "title": "1. Primi passi",
+        "intro": "Mercadinho25 è una piattaforma di marketplace e-commerce multi-tenant pensata per i prodotti artigianali brasiliani. Questa guida descrive tutte le funzioni amministrative disponibili nella Dashboard.",
+        "login": {
+          "title": "Accesso",
+          "steps": [
+            "Vai all'URL del tuo negozio (ad es. yourstore.mercadinho25.com)",
+            "Fai clic su \"Accedi\" nella barra di navigazione in alto",
+            "Inserisci la tua email e la password",
+            "Dopo l'accesso, fai clic sul tuo avatar e seleziona \"Dashboard\""
+          ],
+          "tip": "Credenziali amministratore predefinite: admin@mercadinho.com.br | Password impostata durante la configurazione iniziale"
+        },
+        "roles": {
+          "title": "Ruoli utente",
+          "intro": "La piattaforma utilizza un controllo degli accessi basato sui ruoli (RBAC) con quattro livelli:",
+          "customer": "Customer — Navigare, acquistare, scrivere recensioni",
+          "seller": "Seller — Creare/gestire prodotti, vedere le vendite, gestire i propri ordini",
+          "tenantAdmin": "TenantAdmin — Gestire venditori, utenti, impostazioni, categorie, pagamenti",
+          "superAdmin": "SuperAdmin — Gestione multi-tenant, creazione di tenant, accesso a tutto il sistema",
+          "customerLabel": "Customer:",
+          "sellerLabel": "Seller:",
+          "tenantAdminLabel": "TenantAdmin:",
+          "superAdminLabel": "SuperAdmin:"
+        },
+        "dashboard": {
+          "title": "Panoramica della Dashboard",
+          "intro": "La dashboard principale mostra a colpo d'occhio le metriche chiave:",
+          "items": [
+            "Prodotti totali: numero di prodotti attivi nel tuo negozio",
+            "Ordini totali: tutti gli ordini, con il numero di ordini in attesa",
+            "Ricavi: ricavi totali delle vendite con formattazione della valuta",
+            "Venditori attivi: numero di venditori approvati nel tuo marketplace"
+          ]
+        }
+      },
+      "products": {
+        "title": "2. Gestione dei prodotti",
+        "categories": {
+          "title": "Gestione delle categorie",
+          "intro": "Le categorie organizzano il tuo catalogo prodotti. Vai su Dashboard > Prodotti > Categorie.",
+          "steps": [
+            "Fai clic su \"Aggiungi categoria\" per creare una nuova categoria",
+            "Inserisci il nome della categoria nella lingua corrente",
+            "Seleziona \"Traduzione automatica\" per tradurre automaticamente il nome in tutte le 10 lingue (incluse le lingue indigene)",
+            "Imposta lo slug della categoria (nome adatto agli URL, generato automaticamente)",
+            "Facoltativamente, imposta una categoria padre per le sottocategorie (struttura gerarchica)",
+            "Attiva o disattiva \"Attiva\" per controllarne la visibilità",
+            "Fai clic su \"Salva\" per creare la categoria"
+          ],
+          "translations": {
+            "title": "Traduzioni delle categorie",
+            "intro": "Il nome di ogni categoria viene salvato in tutte le 10 lingue della piattaforma (incluse le lingue indigene):",
+            "items": [
+              "La traduzione automatica genera le traduzioni tramite Google Translate o Claude AI",
+              "L'API restituisce i nomi localizzati in base alla lingua dell'interfaccia dell'utente",
+              "Puoi sovrascrivere manualmente qualsiasi nome tradotto automaticamente",
+              "Le traduzioni mancanti ricadono sul portoghese, poi sulla prima disponibile"
+            ]
+          },
+          "attributes": {
+            "title": "Aggiungere tipi di attributo a una categoria",
+            "intro": "I tipi di attributo definiscono le opzioni di variante dei prodotti (ad es. Colore, Taglia, Materiale):",
+            "steps": [
+              "Apri la finestra di modifica della categoria",
+              "Scorri fino alla sezione \"Tipi di attributo\"",
+              "Fai clic su \"Aggiungi tipo di attributo\" — scegline uno esistente o creane uno nuovo",
+              "Quando ne crei uno nuovo: inserisci i nomi in tutte le 10 lingue (con le bandiere di paese/cultura), lo slug si genera automaticamente",
+              "Configura l'ordine di visualizzazione (gerarchia) e l'opzione Obbligatorio",
+              "Fai clic sull'icona dell'ingranaggio per gestire i valori (ad es. Rosso, Blu, Verde per Colore)",
+              "Ogni valore supporta nomi multilingue e codici colore HEX facoltativi",
+              "La rimozione di un tipo di attributo elimina tutti i dati delle varianti collegate — usala con cautela",
+              "Fai clic su \"Salva\" per applicare"
+            ],
+            "tip": "L'ordine di visualizzazione è importante: il primo tipo di attributo diventa il selettore di primo livello, il secondo diventa il livello successivo. I valori sono a cascata — i livelli inferiori vengono filtrati in base alle selezioni dei livelli superiori."
+          }
+        },
+        "creating": {
+          "title": "Creare un prodotto",
+          "steps": [
+            "Fai clic su \"Aggiungi prodotto\"",
+            "Compila Nome, Descrizione, Storia (campi multilingue)",
+            "Imposta i prezzi: prezzo base, prezzo scontato (facoltativo), valuta",
+            "Carica le immagini (trascina e rilascia o selettore file)",
+            "Seleziona categoria e sottocategoria",
+            "Configura le varianti con prezzi/scorte individuali",
+            "Imposta la quantità in magazzino e lo SKU",
+            "Imposta lo stato: Bozza, Attivo o Archiviato",
+            "Fai clic su \"Salva\" per pubblicare"
+          ]
+        },
+        "phoneUpload": {
+          "title": "Caricare immagini dal telefono (codice QR)",
+          "intro": "Carica le foto dei prodotti direttamente dalla fotocamera del telefono:",
+          "steps": [
+            "Fai clic sul pulsante \"Carica dal telefono\" (icona dello smartphone)",
+            "Da desktop: scansiona il codice QR con la fotocamera del telefono",
+            "Da mobile: l'app ti reindirizza automaticamente alla pagina di acquisizione fotografica",
+            "Scatta le foto — vengono caricate in tempo reale nel modulo del prodotto",
+            "Un indicatore verde mostra \"In attesa delle foto...\" mentre è attivo",
+            "Fai clic su \"Fatto — Aggiungi immagini\" al termine"
+          ],
+          "tip": "La sessione QR ha una durata limitata. Entrambi i dispositivi devono essere sulla stessa rete. Se il codice QR scade, puoi rigenerarlo."
+        },
+        "autoTranslate": {
+          "title": "Traduzione automatica",
+          "intro": "La piattaforma traduce i nomi e le descrizioni dei prodotti in tutte le lingue supportate:",
+          "steps": [
+            "Compila Nome e Descrizione in portoghese o in inglese (consigliato per la massima accuratezza)",
+            "Seleziona la casella \"Traduzione automatica\" (icona scintillante ✨)",
+            "Al salvataggio, il sistema traduce automaticamente in tutte le altre 7 lingue",
+            "Utilizza l'API di Google Translate o Claude AI (configurati dall'amministratore)",
+            "Dopo il salvataggio, rivedi e modifica manualmente qualsiasi traduzione"
+          ],
+          "tip": "È disponibile anche la dettatura vocale: fai clic sull'icona del microfono accanto a qualsiasi campo di testo per dettare nella lingua selezionata."
+        },
+        "variants": {
+          "title": "Aggiungere varianti a un prodotto",
+          "intro": "Quando la categoria selezionata ha tipi di attributo, la sezione delle varianti compare automaticamente:",
+          "steps": [
+            "Seleziona una categoria — i tipi di attributo si caricano automaticamente (ad es. Colore, Taglia)",
+            "Abilita ogni tipo di attributo selezionando la relativa casella (ordine gerarchico rigoroso)",
+            "Seleziona valori specifici (ad es. Rosso, Blu in Colore; S, M, L in Taglia)",
+            "Fai clic su un valore per evidenziarlo (bordo verde). Tutti evidenziati = modifica di una variante specifica",
+            "Il pannello dei prezzi passa da \"Prezzi base\" ↔ \"Prezzi variante: Colore: Rosso, Taglia: Large\"",
+            "Imposta Prezzo, Prezzo di confronto e Scorte per ogni combinazione",
+            "Le varianti senza prezzi personalizzati ereditano il prezzo base del prodotto",
+            "Deselezionando un valore si eliminano automaticamente tutti i dati delle varianti collegate"
+          ],
+          "tip": "Gli attributi di colore mostrano campioni di colore. I nomi delle varianti vengono generati automaticamente in tutte le lingue (ad es. \"Rosso / Large\"). Un pannello informativo blu indica se stai modificando i prezzi base o quelli delle varianti."
+        },
+        "bulkOps": {
+          "title": "Operazioni in blocco e ricerca",
+          "items": [
+            "Cerca per nome del prodotto o SKU",
+            "Filtra per stato (Bozza, Attivo, Archiviato) e categoria",
+            "Condivisione in blocco su Facebook, Instagram o Etsy",
+            "Modifica dello stato in blocco (attiva, archivia, bozza)"
+          ]
+        },
+        "shipments": {
+          "title": "Spedizioni",
+          "items": [
+            "Visualizza tutte le spedizioni con il monitoraggio dello stato",
+            "Crea etichette di spedizione (integrazione Correios per il Brasile)",
+            "Traccia i pacchi con aggiornamenti di stato in tempo reale",
+            "Stampa le etichette direttamente dalla dashboard",
+            "Stati: In attesa, Etichetta creata, Spedito, In transito, In consegna, Consegnato, Restituito, Smarrito, Annullato"
+          ]
+        },
+        "reports": {
+          "title": "Report e analisi",
+          "items": [
+            "Analisi delle vendite: grafici dei ricavi, andamento degli ordini, prodotti più venduti",
+            "Scheda Ordini: cronologia completa con filtri e paginazione",
+            "Esporta i dati per analisi esterne",
+            "Visualizza le metriche per intervallo di date"
+          ]
+        }
+      },
+      "store": {
+        "title": "3. Gestione del negozio",
+        "tenants": {
+          "title": "Gestione dei tenant (solo SuperAdmin)",
+          "intro": "Vai su Dashboard > Negozio > Tenancy per gestire più negozi.",
+          "steps": [
+            "Fai clic su \"Aggiungi tenant\" per creare un nuovo marketplace",
+            "Configura: nome del negozio, sottodominio, dominio personalizzato (facoltativo)",
+            "Imposta la percentuale di commissione (predefinita 10%)",
+            "Assegna un utente Tenant Admin",
+            "Attiva/disattiva i tenant secondo necessità"
+          ],
+          "tip": "Sottodomini e domini personalizzati vengono configurati automaticamente alla creazione di un tenant. Tutti i record DNS vengono predisposti senza interventi manuali."
+        },
+        "sellers": {
+          "title": "Gestione dei venditori",
+          "items": [
+            "Visualizza tutti i venditori con le statistiche (prodotti, vendite, valutazione)",
+            "Approva o rifiuta le richieste dei venditori in attesa",
+            "Modifica i profili dei venditori (nome del negozio, descrizione, località)",
+            "Attiva/disattiva lo stato \"In evidenza\" per una visualizzazione di primo piano",
+            "Visualizza lo stato dell'onboarding Stripe Connect",
+            "Filtra per stato: In attesa, Approvato, Sospeso"
+          ]
+        },
+        "users": {
+          "title": "Gestione degli utenti",
+          "items": [
+            "Visualizza tutti gli utenti registrati con i loro ruoli attuali",
+            "Modifica i ruoli degli utenti (Customer, Seller, TenantAdmin)",
+            "Solo un SuperAdmin può assegnare il ruolo SuperAdmin",
+            "Cerca e filtra per nome, email o ruolo"
+          ]
+        }
+      },
+      "payments": {
+        "title": "4. Impostazioni di pagamento",
+        "stripe": {
+          "title": "Configurazione di Stripe",
+          "sandbox": "Sandbox: inserisci le chiavi API di test (pk_test_..., sk_test_...) → Salva → Testa → Attiva",
+          "production": "Produzione: stessi passaggi con le chiavi live. Esegui test approfonditi prima di andare live. Configura l'endpoint del webhook.",
+          "connect": "Stripe Connect: ogni venditore completa l'onboarding per ricevere i pagamenti. La piattaforma suddivide automaticamente i pagamenti in base alla percentuale di commissione.",
+          "sandboxLabel": "Sandbox:",
+          "productionLabel": "Produzione:",
+          "connectLabel": "Stripe Connect:"
+        },
+        "mercadopago": {
+          "title": "MercadoPago",
+          "items": [
+            "Abilita/disabilita i pagamenti MercadoPago",
+            "Configura la percentuale della commissione del marketplace",
+            "Imposta la valuta predefinita (BRL)",
+            "Abilita Checkout Pro per un flusso senza interruzioni",
+            "Supporta: carte di credito/debito, PIX, Boleto"
+          ]
+        },
+        "shipping": {
+          "title": "Spedizione (Correios)",
+          "items": [
+            "Configura l'integrazione Correios per le spedizioni in Brasile",
+            "Imposta tariffe di spedizione e opzioni di consegna",
+            "Abilita/disabilita i metodi per regione",
+            "Configura le soglie per la spedizione gratuita"
+          ]
+        }
+      },
+      "integrations": {
+        "title": "5. Integrazioni con i marketplace",
+        "google": {
+          "title": "Google Shopping",
+          "steps": [
+            "Copia l'URL del feed prodotti generato",
+            "Crea un account Google Merchant Center",
+            "Aggiungi l'URL del feed in Merchant Center > Prodotti > Feed",
+            "Configura le impostazioni (paese, lingua, valuta)",
+            "Invia per la revisione"
+          ]
+        },
+        "etsy": {
+          "title": "Integrazione Etsy",
+          "items": [
+            "Collega il tuo negozio Etsy tramite OAuth",
+            "Sincronizza i prodotti con la creazione automatica delle inserzioni",
+            "Gestisci gli ordini Etsy dalla dashboard",
+            "Visualizza analisi e dati di vendita",
+            "Pubblica i prodotti su Etsy in blocco"
+          ]
+        },
+        "social": {
+          "title": "Social media",
+          "items": [
+            "Facebook e Instagram: collega la pagina Business, condividi i prodotti, configura il feed prodotti Meta",
+            "WhatsApp Business: configura un numero per ogni venditore, abilita il pulsante di contatto nelle pagine dei prodotti",
+            "Configura le lingue dei feed e le priorità di traduzione"
+          ]
+        }
+      },
+      "branding": {
+        "title": "6. Branding e personalizzazione",
+        "items": [
+          "Logo: carica il logo del negozio (intestazione ed email)",
+          "Favicon: icona personalizzata della scheda del browser",
+          "Colori: primario (#2E7D32), secondario (#FFC107), accento",
+          "Tipografia: famiglia di caratteri personalizzata",
+          "Immagine banner: immagine principale della homepage",
+          "Slogan e testo \"Chi siamo\"",
+          "CSS personalizzato per uno stile avanzato"
+        ]
+      },
+      "languages": {
+        "title": "7. Impostazioni della lingua",
+        "intro": "La piattaforma supporta 10 lingue: portoghese (principale), inglese, spagnolo, francese, tedesco, italiano, giapponese, russo, oltre alle lingue indigene guaraní mbyá e nheengatu per la tutela del patrimonio culturale.",
+        "tip": "Compila sempre almeno le traduzioni in portoghese e in inglese per tutti i prodotti e le categorie, per raggiungere più clienti possibile. Se manca una traduzione, il sistema ricade sul portoghese."
+      }
+    },
+    "tipLabel": "Suggerimento:"
+  },
+  "vehicleRental": {
+    "title": "MyEZWheels: piattaforma storefront multi-tenant per il noleggio di veicoli",
+    "subtitle": "Lancia il tuo sito di noleggio con il tuo marchio in pochi minuti",
+    "description": "MyEZWheels è una piattaforma storefront multi-tenant che consente alle società di noleggio veicoli di gestire un proprio sito di prenotazione completo e professionale. Ogni tenant viene individuato dal nome host — un sottodominio gratuito o il tuo dominio personalizzato — con flotta, prezzi, branding e dati dei clienti isolati, tutto configurabile dal portale del proprietario senza scrivere una sola riga di codice.",
+    "languages": {
+      "title": "🌍 15 lingue supportate",
+      "list": [
+        "🇺🇸 English",
+        "🇪🇸 Español",
+        "🇵🇹 Português",
+        "🇫🇷 Français",
+        "🇩🇪 Deutsch",
+        "🇮🇹 Italiano",
+        "🇳🇱 Nederlands",
+        "🇵🇱 Polski",
+        "🇺🇦 Українська",
+        "🇷🇺 Русский",
+        "🇹🇷 Türkçe",
+        "🇸🇦 العربية",
+        "🇨🇳 中文",
+        "🇯🇵 日本語",
+        "🇰🇷 한국어"
+      ],
+      "description": "I testi dello storefront risiedono nel database e vengono tradotti automaticamente in ogni lingua supportata, così elementi dell'interfaccia, conferme di prenotazione ed email ai clienti sono tutti localizzati — e la formulazione può essere modificata senza rilasciare nuovo codice."
+    },
+    "features": {
+      "title": "🚗 Funzionalità complete del sistema di noleggio",
+      "intelligentBooking": {
+        "title": "Prenotazione online",
+        "vehicleSearch": "Ricerca per categoria, località e data con prezzi in tempo reale",
+        "realTimeCalendar": "Calendario della disponibilità in tempo reale con conferma immediata",
+        "seasonalPricing": "Prezzi stagionali e per periodo (giornalieri, settimanali, mensili)",
+        "vinRecognition": "Riconoscimento del VIN per le informazioni automatiche sul veicolo"
+      },
+      "customerVerification": {
+        "title": "Verifica del conducente",
+        "phoneCapture": "Scansiona un codice QR e fotografa la patente dal telefono del cliente",
+        "dataExtraction": "La decodifica del codice a barre PDF417 e l'OCR con AI compilano automaticamente il modulo",
+        "ageVerification": "Verifica dell'età e della scadenza della patente",
+        "documentStorage": "Archiviazione sicura dei documenti"
+      },
+      "paymentProcessing": {
+        "title": "Elaborazione dei pagamenti",
+        "stripeConnect": "Integrazione con Stripe Connect per pagamenti senza interruzioni",
+        "multiCurrency": "Supporto multivaluta per tutti i paesi del Nord e del Sud America",
+        "securityDeposit": "Gestione del deposito cauzionale (supporta blocchi di oltre 31 giorni)",
+        "automatedRefunds": "Rimborsi automatici e gestione delle contestazioni",
+        "directPayouts": "Pagamenti diretti sui conti delle società di noleggio"
+      },
+      "fleetManagement": {
+        "title": "Gestione della flotta",
+        "inventory": "Gestione completa dell'inventario dei veicoli",
+        "maintenance": "Pianificazione e monitoraggio della manutenzione",
+        "statusUpdates": "Aggiornamenti in tempo reale sullo stato dei veicoli",
+        "photoGallery": "Galleria fotografica e specifiche tecniche"
+      },
+      "multiTenant": {
+        "title": "Architettura multi-tenant",
+        "brandedWebsite": "Ogni società di noleggio ha il proprio sito web con il proprio marchio",
+        "customDomains": "Sottodominio gratuito (yourcompany.myezwheels.com) o il tuo dominio personalizzato",
+        "uniqueBranding": "Branding unico: loghi, colori, immagini, informazioni di contatto",
+        "isolatedData": "Dati isolati — ogni tenant vede solo le proprie informazioni",
+        "customEmails": "Indirizzi email personalizzati per le notifiche"
+      },
+      "communication": {
+        "title": "Sistema di comunicazione",
+        "bookingConfirmations": "Conferme di prenotazione automatiche",
+        "reminders": "Promemoria di ritiro e riconsegna (24 ore prima)",
+        "paymentConfirmations": "Conferme di pagamento con fatture",
+        "emailVerification": "Verifica dell'email e reimpostazione della password",
+        "localizedEmails": "Tutte le email localizzate nella lingua preferita dal cliente"
+      },
+      "socialMedia": {
+        "title": "📱 Integrazione con i social media",
+        "instagram": "Integrazione completa con Instagram — mostra la tua flotta con la pubblicazione automatica",
+        "facebook": "Integrazione con Facebook Business — prenotazioni direttamente dalla tua pagina",
+        "reviewSync": "Recensioni dei clienti sincronizzate tra le piattaforme",
+        "adIntegration": "Integrazione con Facebook e Instagram Ads per le promozioni"
+      }
+    },
+    "openSite": {
+      "title": "⚡ Apri il tuo sito di noleggio in pochi minuti",
+      "signUp": "Registrati — Crea l'account della tua azienda",
+      "configure": "Configura — Aggiungi logo, colori e informazioni di contatto",
+      "addVehicles": "Aggiungi veicoli — Importa o aggiungi manualmente la tua flotta",
+      "goLive": "Vai online — Il tuo sito di noleggio personalizzato è pronto",
+      "noCoding": "Nessuna programmazione richiesta. Nessun team IT necessario. Basta configurare e lanciare."
+    },
+    "techStack": {
+      "title": "🛠️ Stack tecnologico",
+      "frontend": "React con design responsive moderno",
+      "backend": "API REST ASP.NET Core con Entity Framework Core",
+      "database": "Azure SQL Server",
+      "cloud": "Hosting su Azure con scalabilità automatica",
+      "payments": "Stripe Connect",
+      "documentScanning": "Decodifica del codice a barre PDF417 e OCR dei documenti con AI",
+      "ai": "Claude AI per la lettura dei documenti e la traduzione dei contenuti"
+    },
+    "customization": {
+      "title": "🎨 DESIGN MULTIDISCIPLINARE",
+      "description": "Il tuo sito di noleggio è completamente personalizzabile. Adattalo all'identità del tuo marchio con pochi clic.",
+      "features": {
+        "colors": "Schemi di colori e temi personalizzati",
+        "logo": "Il tuo logo e il tuo branding",
+        "layout": "Layout di pagina flessibili",
+        "domain": "Supporto per domini personalizzati"
+      },
+      "professional": "Ti serve l'aiuto di un designer professionista? Il nostro studio partner può creare un design unico e straordinario, pensato su misura per la tua attività."
+    },
+    "tagline": "Il tuo viaggio, il nostro impegno."
+  },
+  "mercadinho25": {
+    "title": "In costruzione",
+    "description": "Questa pagina è attualmente in costruzione. Torna a trovarci presto."
+  },
+  "languageSwitcher": {
+    "ariaLabel": "Cambia lingua"
+  },
+  "aegisLocalizerDetail": {
+    "hero": {
+      "title": "Localizzazione con IA per qualsiasi codebase",
+      "subtitle": "Indica una codebase e una lingua. Trova le stringhe dell'interfaccia scritte nel codice, le traduce con Claude e riscrive il sorgente per usare i file di risorse."
+    },
+    "whatIs": {
+      "title": "Che cos'è Aegis Localizer",
+      "p1": "Ogni applicazione nasce con stringhe scritte direttamente nel codice. Far parlare a quell'applicazione una seconda lingua di solito significa che uno sviluppatore legge a mano ogni file, decide quali stringhe l'utente vede davvero, le sposta nei file di risorse e poi riscrive i punti di chiamata. È un lavoro lento e meccanico che nessuno vuole fare due volte.",
+      "p2": "Aegis Localizer fa questo passaggio al posto tuo. Analizza il sorgente, separa il testo rivolto all'utente dalle stringhe tecniche come URL, SQL e identificatori, chiede a Claude di classificare i casi ambigui, traduce ciò che resta nelle lingue richieste, scrive i file di risorse nel formato previsto dal tuo stack e, se glielo chiedi, riscrive il sorgente in modo che il codice legga da quelle risorse.",
+      "p3": "È pensato per essere eseguito più volte. Valutazioni e traduzioni vengono memorizzate nella cache, quindi una seconda esecuzione non costa nulla dove nulla è cambiato; una stringa inglese riformulata diventa obsoleta e viene rifatta, mentre una nuova lingua riutilizza il lavoro di classificazione già pagato."
+    },
+    "forWhom": {
+      "title": "A chi è rivolto",
+      "items": [
+        {
+          "label": "Team di prodotto che passano al multilingue:",
+          "text": "un'applicazione esistente in una sola lingua che ora deve essere distribuita in cinque, dieci o venti mercati."
+        },
+        {
+          "label": "Team .NET:",
+          "text": "il C# viene analizzato con Roslyn, quindi le stringhe verbatim, raw e interpolate vengono decodificate correttamente con intervalli esatti nel sorgente."
+        },
+        {
+          "label": "Team web, mobile e multipiattaforma:",
+          "text": "i progetti React, Vue, Svelte, Android, iOS e Flutter vengono gestiti con la stessa pipeline."
+        },
+        {
+          "label": "Ingegneri di piattaforma e di build:",
+          "text": "la modalità di sola scansione con output JSON trasforma lo strumento in un controllo CI che intercetta le nuove stringhe scritte nel codice già in fase di revisione."
+        },
+        {
+          "label": "Agenzie e società di consulenza:",
+          "text": "localizza la codebase di un cliente in un pomeriggio invece di preventivare un progetto manuale di più settimane."
+        }
+      ]
+    },
+    "pipeline": {
+      "title": "Come funziona",
+      "intro": "Sei fasi, ciascuna progettata per consumare il meno possibile del tuo budget API e per rinunciare piuttosto che tirare a indovinare quando non c'è certezza.",
+      "cards": {
+        "scan": {
+          "title": "Scansione accurata",
+          "text": "Il C# passa per Roslyn per ottenere intervalli esatti nel sorgente su stringhe verbatim, raw e interpolate. Gli altri stack usano lexer tolleranti che mascherano i commenti e le ricerche esistenti preservando gli offset in byte, così le modifiche finiscono nel punto giusto."
+        },
+        "filter": {
+          "title": "Filtro offline del rumore",
+          "text": "URL, percorsi di file, GUID, tipi MIME, SQL, pattern di date, costanti SCREAMING_SNAKE e contesto strutturale come nameof, pattern switch, attributi di route e id Android vengono scartati in locale. Nulla di ciò che viene filtrato qui viene mai inviato all'API, quindi non lo paghi mai."
+        },
+        "classify": {
+          "title": "Classificazione con Claude",
+          "text": "Ciò che supera il filtro viene classificato da Claude tramite una chiamata a strumento forzata, quindi la risposta torna come JSON validato da schema, con un verdetto sul fatto che sia rivolto all'utente, una motivazione e una chiave di risorsa. Il passaggio è indipendente dalla lingua e memorizzato nella cache."
+        },
+        "resources": {
+          "title": "Bundle di risorse",
+          "text": "Le traduzioni vengono scritte nel formato previsto dal tuo stack e unite a quanto già presente. Le traduzioni esistenti modificate a mano vengono preservate, mai sovrascritte."
+        },
+        "rewrite": {
+          "title": "Riscrittura del sorgente",
+          "text": "Con il flag apply, i punti di chiamata vengono riscritti come ricerche di risorse. Ogni file toccato viene prima salvato in copia byte per byte, e qualsiasi file modificato dopo la scansione viene saltato anziché danneggiato."
+        },
+        "incremental": {
+          "title": "Esecuzioni incrementali",
+          "text": "Lo strumento ricorda da quale testo inglese è stata ricavata ogni traduzione. Se riformuli una stringa, diventa obsoleta e viene ritradotta; se non cambi nulla, l'esecuzione non costa assolutamente nulla."
+        }
+      }
+    },
+    "stacks": {
+      "title": "Stack supportati",
+      "intro": "Cinque piattaforme, ciascuna con il proprio lettore, formato di risorse e stile di riscrittura. Il rilevamento automatico della piattaforma esamina l'albero del progetto, e per ogni stack è incluso un progetto di esempio funzionante.",
+      "labels": {
+        "reads": "Legge:",
+        "writes": "Scrive:",
+        "rewrites": "Riscrive in:"
+      },
+      "outro": "Indica allo strumento un repository con il rilevamento automatico e capirà quale di questi si applica prima ancora di leggere una sola stringa."
+    },
+    "safety": {
+      "title": "Sicurezza e correttezza",
+      "intro": "Una stringa mancata ti costa un minuto. Una build rotta ti costa un pomeriggio. Lo strumento è volutamente progettato per segnalare anziché tirare a indovinare ogni volta che una riscrittura non è dimostrabilmente corretta.",
+      "items": [
+        {
+          "label": "Backup byte per byte:",
+          "text": "ogni file che lo strumento riscrive viene prima copiato, quindi qualsiasi esecuzione può essere annullata completamente."
+        },
+        {
+          "label": "Verifica degli intervalli:",
+          "text": "un file modificato tra la scansione e la riscrittura viene saltato, non corretto a offset non più validi."
+        },
+        {
+          "label": "Validazione dei segnaposto:",
+          "text": "una traduzione che perde o inventa un segnaposto come {0}, %s o {{count}} viene rifiutata prima di arrivare a un file di risorse."
+        },
+        {
+          "label": "Meglio assente che sbagliato:",
+          "text": "una traduzione non riuscita lascia la chiave mancante, così l'applicazione ripiega sull'inglese, e l'esecuzione successiva la riprova."
+        },
+        {
+          "label": "Unione, non sovrascrittura:",
+          "text": "gli archivi di risorse si uniscono ai bundle esistenti, quindi le traduzioni corrette a mano da una persona restano corrette."
+        },
+        {
+          "label": "Output del modello validato da schema:",
+          "text": "la classificazione passa per una chiamata a strumento forzata, quindi la pipeline elabora dati strutturati invece di analizzare testo libero."
+        }
+      ]
+    },
+    "problems": {
+      "title": "Problemi che risolve",
+      "items": [
+        {
+          "label": "L'estrazione manuale:",
+          "text": "basta leggere ogni file per decidere quali stringhe l'utente vede davvero."
+        },
+        {
+          "label": "Costo della traduzione con IA:",
+          "text": "un filtro offline e un passaggio di classificazione memorizzato nella cache e indipendente dalla lingua fanno sì che all'API vengano chieste solo le stringhe che potrebbero contare."
+        },
+        {
+          "label": "Aggiungere la decima lingua:",
+          "text": "la classificazione si paga una sola volta; ogni nuova lingua paga solo la traduzione vera e propria."
+        },
+        {
+          "label": "Disallineamento dopo una modifica dei testi:",
+          "text": "le traduzioni vengono tracciate rispetto all'inglese da cui provengono, quindi il testo riformulato viene rilevato e rifatto."
+        },
+        {
+          "label": "Regressioni nel nuovo codice:",
+          "text": "la modalità di sola scansione con output JSON può far fallire una build quando qualcuno aggiunge una nuova stringa scritta nel codice."
+        },
+        {
+          "label": "Formattazione rotta nelle traduzioni:",
+          "text": "la validazione dei segnaposto intercetta il tipo di bug che emerge solo in fase di esecuzione, in una lingua che nessuno nel team legge."
+        }
+      ]
+    },
+    "delivery": {
+      "title": "Modi per eseguirlo",
+      "cards": {
+        "cli": {
+          "title": "Strumento da riga di comando",
+          "text": "Si installa come strumento globale .NET e si esegue con un unico comando su una directory di progetto, con le modalità di sola scansione e di applicazione."
+        },
+        "gui": {
+          "title": "GUI web locale",
+          "text": "Un comando ui avvia un'interfaccia web locale su una porta libera e apre il browser, per chi preferisce non pensare ai flag."
+        },
+        "binaries": {
+          "title": "Binari autonomi",
+          "text": "Build autonome per Windows x64, macOS su Apple silicon e Intel e Linux x64, senza alcun runtime da installare prima."
+        },
+        "ci": {
+          "title": "Integrazione CI",
+          "text": "L'output JSON insieme alla modalità di sola scansione crea un controllo di build che segnala ogni nuova stringa scritta nel codice senza toccare l'albero di lavoro."
+        },
+        "byok": {
+          "title": "Usa la tua chiave",
+          "text": "Lo strumento comunica con l'API di Anthropic usando la tua chiave, quindi la spesa per le traduzioni è visibile e sotto controllo sul tuo account."
+        },
+        "hosted": {
+          "title": "Modalità ospitata",
+          "text": "La stessa applicazione web può funzionare come servizio ospitato: accetta un archivio caricato in una sandbox dedicata a ogni richiesta, rifiuta i percorsi del server e non consuma mai il credito dell'operatore."
+        }
+      }
+    },
+    "limits": {
+      "title": "Cosa non fa",
+      "intro": "Essere espliciti sui limiti fa parte del progetto. Lo strumento serve a eliminare il lavoro meccanico, non ad assumersi la responsabilità del tuo rilascio.",
+      "items": [
+        "Non sostituisce un revisore umano per i testi rivolti ai clienti, il tono del brand o i testi legali.",
+        "Non ristruttura l'architettura di localizzazione della tua applicazione; si adatta alle convenzioni sulle risorse che il tuo stack usa già.",
+        "Non tocca le stringhe che non può riscrivere in sicurezza; queste vengono segnalate perché tu le gestisca.",
+        "Non esegue la tua build né i tuoi test, quindi rivedi le differenze ed eseguili come al solito.",
+        "Non si occupa del layout: le variazioni di lunghezza del testo tra le lingue restano da gestire nel tuo design."
+      ]
+    },
+    "tech": {
+      "title": "Stack tecnologico",
+      "cards": {
+        "core": {
+          "title": "Core",
+          "text": "C# su .NET 9, realizzato come applicazione console multipiattaforma con una libreria core condivisa."
+        },
+        "parsing": {
+          "title": "Parsing",
+          "text": "Roslyn (Microsoft.CodeAnalysis.CSharp) per il C#, più lexer tolleranti realizzati appositamente per TypeScript, JavaScript, Vue, Svelte, Kotlin, Java, Swift, Objective-C, Dart, XML e HTML."
+        },
+        "ai": {
+          "title": "IA",
+          "text": "Anthropic Claude tramite la Messages API, con chiamate a strumento forzate per una classificazione validata da schema, richieste in batch e concorrenza limitata."
+        },
+        "web": {
+          "title": "GUI",
+          "text": "Minimal API ASP.NET Core che servono un front end in HTML, CSS e JavaScript senza dipendenze e senza fase di build."
+        },
+        "formats": {
+          "title": "Formati di risorse",
+          "text": "RESX, JSON i18next, strings.xml di Android, .strings di Apple e ARB di Flutter, ciascuno con il proprio archivio con unione."
+        },
+        "testing": {
+          "title": "Test",
+          "text": "Suite xUnit che gira completamente offline su un modello fittizio, così la pipeline può essere verificata senza spendere un token."
+        },
+        "platforms": {
+          "title": "Funziona su",
+          "text": "Windows, macOS e Linux, come strumento globale .NET o come binario autonomo."
+        },
+        "privacy": {
+          "title": "Gestione dei dati",
+          "text": "Al modello vengono inviate solo le stringhe candidate; le stringhe tecniche filtrate e il resto del sorgente non lasciano mai la macchina."
+        }
+      }
+    },
+    "cta": {
+      "title": "Localizza la tua applicazione",
+      "text": "Che si tratti di un prodotto da lanciare in un nuovo mercato o di un portafoglio di applicazioni ferme a una sola lingua, possiamo fare il primo passaggio insieme a te e mostrarti le differenze prima che venga applicato qualsiasi cambiamento.",
+      "contact": "Parla con noi",
+      "sourceCode": "Vedi il sorgente su GitHub",
+      "licenseNote": "Aegis Localizer è un software proprietario. Il sorgente è pubblicato perché possa essere letto e verificato; non è open source e l'uso commerciale richiede una licenza di Aegis AO Soft LLC."
+    }
+  },
+  "myEZWheelsDetail": {
+    "hero": {
+      "tagline": "Piattaforma storefront multi-tenant per il noleggio di veicoli",
+      "subtitle": "Lancia il tuo sito di noleggio con il tuo marchio sul tuo dominio. Architettura multi-tenant con contenuti gestiti da database, storefront in 15 lingue, acquisizione della patente di guida tramite telefono e pagamenti automatizzati.",
+      "tryDemo": "Prova la demo gratuita",
+      "visitPlatform": "Visita la piattaforma",
+      "stats": {
+        "languages": "Lingue",
+        "multi": "Multi",
+        "tenant": "Tenant",
+        "ai": "IA",
+        "powered": "Integrata",
+        "cloud": "Cloud",
+        "native": "Nativo"
+      }
+    },
+    "whatIs": {
+      "title": "Che cos'è MyEZWheels?",
+      "p1": "MyEZWheels è una piattaforma software-as-a-service di Aegis AO Soft per la gestione delle flotte di veicoli a noleggio. Consente a una società di noleggio di lanciare un sito di prenotazione completo e professionale senza doverlo sviluppare: ogni tenant viene identificato dal nome host, quindi ogni azienda opera sul proprio indirizzo con la propria flotta, i propri prezzi, il proprio marchio e i propri dati dei clienti — completamente isolati da ogni altro tenant della piattaforma.",
+      "p2": "Inizia con un sottodominio gratuito (yourcompany.myezwheels.com) e passa al tuo dominio personalizzato quando vuoi. Loghi, colori, immagini, contenuti delle pagine e recapiti delle sedi sono tutti configurabili dal portale del proprietario — senza nuovi deploy e senza coinvolgere uno sviluppatore."
+    },
+    "forWhom": {
+      "title": "A chi è rivolto?",
+      "items": {
+        "rentalCompanies": {
+          "label": "Società di autonoleggio",
+          "text": "che vogliono digitalizzare le proprie attività"
+        },
+        "fleetOperators": {
+          "label": "Gestori di flotte",
+          "text": "che vogliono offrire noleggi diretti ai clienti"
+        },
+        "entrepreneurs": {
+          "label": "Imprenditori",
+          "text": "che avviano nuove attività di noleggio"
+        },
+        "existingBusinesses": {
+          "label": "Attività di noleggio esistenti",
+          "text": "che vogliono modernizzare i sistemi legacy"
+        },
+        "multiLocationChains": {
+          "label": "Catene di noleggio con più sedi",
+          "text": "che hanno bisogno di una gestione centralizzata"
+        },
+        "p2pHosts": {
+          "label": "Host peer-to-peer",
+          "text": "che vogliono passare dalla sola distribuzione tramite marketplace alle prenotazioni dirette"
+        }
+      }
+    },
+    "capabilities": {
+      "title": "Funzionalità principali",
+      "storefronts": {
+        "title": "Storefront multi-tenant",
+        "text": "Tenant identificato dall'host — sottodominio o dominio personalizzato — con flotta, prenotazioni, clienti e marchio isolati per ogni azienda."
+      },
+      "languages": {
+        "title": "Storefront in 15 lingue",
+        "text": "Tutti i testi dello storefront risiedono nel database e sono tradotti automaticamente in 15 lingue, così la formulazione può essere modificata senza un rilascio del codice."
+      },
+      "license": {
+        "title": "Acquisizione della patente tramite telefono",
+        "text": "Il noleggiatore scansiona un codice QR e fotografa la patente con il telefono. La decodifica del codice a barre PDF417 e l'OCR con IA compilano il modulo in tempo reale."
+      },
+      "payments": {
+        "title": "Pagamenti con Stripe Connect",
+        "text": "Pagamenti con carta, depositi cauzionali e pagamenti automatici sull'account Stripe della società di noleggio, con supporto multivaluta."
+      },
+      "fleet": {
+        "title": "Gestione di flotta e categorie",
+        "text": "Inventario dei veicoli, categorie, gallerie fotografiche, prezzi stagionali, disponibilità e configurazione per sede."
+      },
+      "integrations": {
+        "title": "Integrazioni con le piattaforme",
+        "text": "Le prenotazioni si sincronizzano con le piattaforme esterne, e i dati su pedaggi, multe e GPS arrivano da MyEZToll per un unico quadro operativo."
+      }
+    },
+    "problems": {
+      "title": "Problemi che risolve",
+      "items": {
+        "noDirectChannel": {
+          "label": "Nessun canale di vendita diretto",
+          "text": "Il tuo sito di prenotazione con il tuo marchio sul tuo dominio"
+        },
+        "manualBooking": {
+          "label": "Processi di prenotazione manuali",
+          "text": "Disponibilità in tempo reale con prenotazione online immediata"
+        },
+        "paperVerification": {
+          "label": "Verifica su carta",
+          "text": "Scansione della patente tramite telefono con estrazione automatica dei dati"
+        },
+        "complexPayments": {
+          "label": "Gestione complessa dei pagamenti",
+          "text": "Stripe Connect integrato con depositi e pagamenti automatici"
+        },
+        "languageBarriers": {
+          "label": "Barriere linguistiche",
+          "text": "Contenuti dello storefront tradotti in 15 lingue dal database"
+        },
+        "contentNeedsDeveloper": {
+          "label": "Le modifiche ai contenuti richiedono uno sviluppatore",
+          "text": "Pagine, testi, immagini e contatti modificati dal portale del proprietario"
+        },
+        "highDevCosts": {
+          "label": "Costi di sviluppo elevati",
+          "text": "Una piattaforma pronta al lancio invece di uno sviluppo su misura"
+        }
+      }
+    },
+    "brand": {
+      "title": "Il tuo marchio, il tuo dominio",
+      "intro": "Ogni storefront si configura, non si programma. I tenant controllano l'aspetto e i testi del proprio sito senza toccare la piattaforma.",
+      "domains": {
+        "title": "Domini e marchio",
+        "items": [
+          "Sottodominio gratuito: yourcompany.myezwheels.com",
+          "Usa il tuo dominio personalizzato",
+          "Carica loghi, immagini di copertina e risorse grafiche",
+          "Schemi di colori e temi personalizzati",
+          "Indirizzi, telefoni e contatti per ogni sede"
+        ]
+      },
+      "content": {
+        "title": "Contenuti gestiti da database",
+        "items": [
+          "Testi dello storefront archiviati come pacchetti di contenuti modificabili",
+          "Traduzione automatica in 15 lingue",
+          "Pagine personalizzate per tenant (termini, FAQ, chi siamo, policy)",
+          "Personalizza qualsiasi testo per ogni tenant",
+          "Le modifiche vanno online senza un deploy"
+        ]
+      },
+      "booking": {
+        "title": "Flusso di prenotazione e conformità",
+        "items": [
+          "Scansione e convalida della patente di guida al momento della prenotazione",
+          "Contratti di noleggio e approvazioni richieste",
+          "Autorizzazione e svincolo del deposito cauzionale",
+          "E-mail automatiche di prenotazione e promemoria",
+          "Addebiti per pedaggi e multe trasferiti al noleggiatore"
+        ]
+      }
+    },
+    "tech": {
+      "title": "Stack tecnologico",
+      "frontend": {
+        "title": "Frontend",
+        "text": "React, TypeScript, design moderno e responsive"
+      },
+      "backend": {
+        "title": "Backend",
+        "text": "API REST ASP.NET Core, Entity Framework Core"
+      },
+      "database": {
+        "title": "Database",
+        "text": "Azure SQL Server"
+      },
+      "cloud": {
+        "title": "Cloud",
+        "text": "Microsoft Azure, App Service con scalabilità automatica"
+      },
+      "payments": {
+        "title": "Pagamenti",
+        "text": "Stripe Connect, supporto multivaluta"
+      },
+      "ai": {
+        "title": "IA e automazione",
+        "text": "Claude AI per l'OCR dei documenti e la traduzione dei contenuti"
+      }
+    },
+    "cta": {
+      "title": "Pronto a lanciare la tua attività di noleggio?",
+      "text": "Metti online in pochi minuti il tuo sito di noleggio con il tuo marchio. Nessuna programmazione richiesta, nessun team IT necessario.",
+      "startTrial": "Inizia la prova gratuita",
+      "visitSite": "Visita il sito",
+      "requestPricing": "Richiedi i prezzi"
+    },
+    "bookingIntegrations": {
+      "title": "Integrazioni con le piattaforme di prenotazione",
+      "intro": "MyEZWheels funziona accanto al sistema di prenotazione che usi già. Mantieni il tuo back office attuale e aggiungi sopra uno storefront con il tuo marchio — oppure trasferisci tutto gradualmente, con i tuoi tempi.",
+      "badges": {
+        "live": "In produzione",
+        "inDevelopment": "In sviluppo"
+      },
+      "cards": {
+        "hqRental": {
+          "title": "HQ Rental",
+          "text": "Integrazione in produzione con sincronizzazione bidirezionale, così il tuo storefront e il tuo back office sono sempre d'accordo su ciò che è disponibile.",
+          "items": [
+            "Veicoli e disponibilità sincronizzati in entrambe le direzioni",
+            "Le prenotazioni create online compaiono nel tuo back office",
+            "Anagrafiche clienti e contratti sempre allineati",
+            "Addebiti ed extra riconciliati automaticamente"
+          ]
+        },
+        "turo": {
+          "title": "Turo",
+          "text": "Gestisci prenotazioni dirette e Turo fianco a fianco. Gli host peer-to-peer mantengono la visibilità sul marketplace mentre costruiscono un canale di loro proprietà.",
+          "items": [
+            "Viaggi e ospiti Turo importati in un'unica vista della flotta",
+            "Un unico calendario per prenotazioni dirette e viaggi dal marketplace",
+            "Pedaggi e addebiti assegnati all'ospite corretto",
+            "Supporto per più account Turo"
+          ]
+        },
+        "upcoming": {
+          "title": "Altre piattaforme in arrivo",
+          "text": "Altri sei sistemi di prenotazione sono in fase di sviluppo attivo sulla stessa architettura a plugin.",
+          "items": [
+            "EasyRentPro",
+            "RENTALL",
+            "RentCentric",
+            "Renteon",
+            "TSD",
+            "Wheelbase"
+          ]
+        }
+      }
+    }
+  },
+  "contact": {
+    "letsConnect": {
+      "title": "Mettiamoci in contatto",
+      "description": "Condividi le tue esigenze — operazioni di noleggio, automazione della conformità o sistemi di prenotazione. Ti forniremo raccomandazioni sull'architettura tecnica e una tempistica di consegna.",
+      "benefits": {
+        "seniorEngineer": "Oltre 30 anni di sistemi rilasciati in produzione",
+        "regulatedIndustries": "Esperienza in settori regolamentati (finanza, dogane)",
+        "fullStack": "Realizzazione full-stack, dal database al deploy",
+        "usBased": "Team con sede negli Stati Uniti, nel New Jersey"
+      },
+      "getInTouch": "Contattaci"
+    },
+    "form": {
+      "title": "Raccontaci il tuo progetto",
+      "description": "Allineiamo strategia, realizzazione e operazioni per aiutare i team a lanciare e far crescere piattaforme che rispondono alle esigenze normative e dei clienti.",
+      "email": "E-mail",
+      "location": "Sede",
+      "locationValue": "New Jersey, USA • Operativi in tutto il Nord America e in Europa",
+      "name": "Nome",
+      "namePlaceholder": "Mario Rossi",
+      "emailLabel": "E-mail",
+      "emailPlaceholder": "jane@company.com",
+      "company": "Azienda",
+      "companyPlaceholder": "La tua azienda o il tuo progetto",
+      "projectDetails": "Dettagli del progetto",
+      "projectDetailsPlaceholder": "Descrivi obiettivi, tempistiche e sfide.",
+      "submit": "Invia richiesta",
+      "submitting": "Invio in corso...",
+      "success": "Grazie per averci contattato — il nostro team ti risponderà entro un giorno lavorativo.",
+      "error": "Al momento non è possibile elaborare la tua richiesta. Riprova più tardi o scrivi a alex@aegisaosoft.com."
+    }
+  },
+  "setPassword": {
+    "title": "Imposta password",
+    "emailPlaceholder": "Inserisci la tua e-mail",
+    "passwordLabel": "Password",
+    "passwordPlaceholder": "Inserisci la tua password",
+    "confirmPasswordLabel": "Ripeti password",
+    "confirmPasswordPlaceholder": "Ripeti la tua password",
+    "submit": "Imposta",
+    "errors": {
+      "passwordsDoNotMatch": "Le password non corrispondono"
+    }
+  },
+  "notFound": {
+    "title": "Questa pagina non esiste",
+    "subtitle": "L'indirizzo che hai seguito non fa parte di questo sito — potrebbe essere stato digitato male o potrebbe essere stato spostato.",
+    "home": "Vai alla home page",
+    "products": "Scopri i prodotti"
+  },
+  "about": {
+    "title": "Chi è Aegis AO Soft",
+    "subtitle": "Sistemi software sicuri e affidabili per ambienti regolamentati e mission-critical",
+    "intro": {
+      "description": "Aegis AO Soft sviluppa sistemi software sicuri e affidabili per organizzazioni che operano in ambienti regolamentati e mission-critical. L'azienda è specializzata in piattaforme che garantiscono la continuità operativa, la conformità normativa e l'elaborazione di dati su larga scala.",
+      "leadership": "Fondata e guidata da un architetto software di lunga esperienza, Aegis AO Soft unisce una leadership tecnica operativa a decenni di esperienza nella realizzazione di sistemi in produzione per settori vicini alla pubblica amministrazione e domini operativi complessi.",
+      "ai": "L'intelligenza artificiale è parte integrante di questa ingegneria, non uno strato aggiunto in superficie. Localizza le nostre piattaforme in decine di lingue, mantiene aggiornati i dati di riferimento esterni senza che nessuno debba ricontrollarli a mano e legge i documenti e i messaggi nella forma in cui arrivano davvero nelle attività dei nostri clienti — con gli stessi requisiti di affidabilità di ogni altra parte del sistema."
+    },
+    "missionCritical": {
+      "title": "Sistemi operativi mission-critical",
+      "description": "Il nostro lavoro si concentra su sistemi che devono funzionare in modo continuo e accurato, spesso sotto supervisione normativa o con vincoli operativi.",
+      "areas": {
+        "title": "Le aree tipiche includono:",
+        "fleet": "Gestione di flotte e operazioni di trasporto",
+        "payments": "Sistemi di pagamento e fatturazione",
+        "compliance": "Piattaforme di conformità e reporting",
+        "workflow": "Automazione dei flussi di lavoro per i processi amministrativi",
+        "dataIntensive": "Software operativo ad alta intensità di dati"
+      },
+      "design": "Le soluzioni sono progettate per affidabilità, verificabilità e manutenibilità nel lungo periodo."
+    },
+    "transportation": {
+      "title": "Tecnologie per i trasporti e la conformità normativa",
+      "description": "Aegis AO Soft sviluppa piattaforme a supporto delle attività basate sui veicoli e dei relativi requisiti normativi.",
+      "vehicleRental": {
+        "title": "Noleggio veicoli e gestione flotte",
+        "items": [
+          "Controllo operativo del parco veicoli",
+          "Monitoraggio di prenotazioni e utilizzo",
+          "Gestione di clienti e contratti",
+          "Integrazione con l'elaborazione dei pagamenti",
+          "Implementazione su più sedi"
+        ]
+      },
+      "tollViolation": {
+        "title": "Gestione di pedaggi e multe",
+        "items": [
+          "Aggregazione degli addebiti di pedaggio dei diversi enti",
+          "Elaborazione delle multe per sosta nelle diverse giurisdizioni",
+          "Fatturazione, riconciliazione e reporting",
+          "Supporto alle organizzazioni con flotte su scala nazionale"
+        ]
+      }
+    },
+    "security": {
+      "title": "Sicurezza, conformità e integrità dei dati",
+      "description": "I sistemi sono progettati con particolare attenzione agli aspetti di sicurezza e conformità.",
+      "features": [
+        "Accesso controllato e gestione delle identità",
+        "Pratiche di protezione dei dati allineate agli standard di settore",
+        "Logging e reporting pronti per gli audit",
+        "Meccanismi di isolamento per implementazioni multi-tenant",
+        "Pratiche di conformità per l'elaborazione dei pagamenti"
+      ]
+    },
+    "technology": {
+      "title": "Competenze tecnologiche",
+      "description": "Le piattaforme sono realizzate con tecnologie moderne e ampiamente diffuse, per garantire sostenibilità e interoperabilità.",
+      "stack": [
+        "Infrastruttura cloud Microsoft Azure",
+        "Piattaforma .NET moderna e ASP.NET Core",
+        "Architetture a servizi distribuiti",
+        "Sistemi di gestione di dati relazionali",
+        "Implementazioni containerizzate",
+        "Monitoraggio e diagnostica automatizzati"
+      ],
+      "philosophy": "Le scelte tecnologiche privilegiano la supportabilità nel lungo periodo rispetto alle tendenze del momento."
+    },
+    "leadership": {
+      "title": "Leadership del fondatore-architetto",
+      "description": "Aegis AO Soft opera sotto una guida tecnica diretta, non una supervisione puramente manageriale.",
+      "experience": "Il fondatore vanta decenni di esperienza nella progettazione e realizzazione di sistemi complessi in ambienti regolamentati, tra cui:",
+      "domains": [
+        "Infrastrutture per servizi finanziari",
+        "Sistemi di elaborazione dei pagamenti",
+        "Piattaforme di reporting normativo",
+        "Iniziative software in ambito pubblico",
+        "Sistemi transazionali su larga scala"
+      ],
+      "approach": "Questo approccio garantisce coerenza architetturale, responsabilità tecnica e rapida risoluzione dei problemi complessi."
+    },
+    "delivery": {
+      "title": "Approccio alla realizzazione",
+      "description": "I progetti seguono un ciclo di vita rigoroso, pensato per ridurre i rischi e assicurare la prontezza operativa.",
+      "assessment": {
+        "title": "Analisi",
+        "items": [
+          "Analisi dei requisiti",
+          "Valutazione di dati e flussi di lavoro",
+          "Definizione dell'architettura",
+          "Pianificazione delle integrazioni"
+        ]
+      },
+      "implementation": {
+        "title": "Implementazione",
+        "items": [
+          "Sviluppo incrementale",
+          "Pipeline di rilascio sicure",
+          "Test automatizzati",
+          "Documentazione del comportamento del sistema"
+        ]
+      },
+      "operational": {
+        "title": "Supporto operativo",
+        "items": [
+          "Ottimizzazione delle prestazioni",
+          "Monitoraggio e allarmi",
+          "Rafforzamento della sicurezza",
+          "Manutenzione e aggiornamenti continui"
+        ]
+      }
+    },
+    "commitment": {
+      "title": "Impegno per affidabilità e responsabilità",
+      "description": "Aegis AO Soft collabora con organizzazioni che necessitano di sistemi affidabili e di un partner tecnologico a lungo termine. Il nostro obiettivo è fornire soluzioni che restino stabili, manutenibili e verificabili per tutto il loro ciclo di vita operativo."
+    },
+    "ai": {
+      "title": "L'intelligenza artificiale nei nostri prodotti",
+      "description": "Trattiamo l'IA come un componente ingegneristico, non come una funzionalità da pubblicizzare. La usiamo dove un compito richiede davvero giudizio su input non strutturati — linguaggio, documenti, messaggi o fonti che cambiano senza preavviso — e ovunque altrove usiamo codice deterministico.",
+      "cards": {
+        "localization": {
+          "title": "Localizzazione e traduzione su larga scala",
+          "text": "Entrare in un nuovo mercato non dovrebbe significare riscrivere un'applicazione a mano.",
+          "items": [
+            "Aegis Localizer analizza un codebase, separa i testi rivolti all'utente dalle stringhe tecniche, li traduce e riscrive il codice sorgente perché li legga da file di risorse — per progetti .NET, web, Android, Apple e Flutter.",
+            "Le descrizioni dei prodotti del marketplace, scritte dal venditore in una lingua, vengono tradotte automaticamente in tutte le lingue servite dallo storefront, comprese lingue indigene per le quali il mercato della traduzione è quasi inesistente.",
+            "Gli storefront di noleggio sono disponibili in 15 lingue e questo stesso sito è pubblicato in 9, prodotte con la stessa pipeline.",
+            "Le traduzioni vengono validate prima del rilascio: una versione che perde o inventa un segnaposto di formattazione viene scartata anziché pubblicata."
+          ]
+        },
+        "agents": {
+          "title": "Agenti autonomi che mantengono i dati",
+          "text": "Alcuni dati diventano obsoleti secondo i tempi di qualcun altro. Gli agenti li mantengono aggiornati, senza che una persona debba ricontrollarli a mano.",
+          "items": [
+            "Le tariffe dei pedaggi cambiano per decisione degli enti, senza preavviso. Gli agenti di ricerca leggono le fonti pubblicate dagli enti stessi, rilevano le modifiche e aggiornano i prezzi in tutti gli Stati Uniti e in Canada.",
+            "Gli agenti affrontano gli stessi ostacoli che incontrerebbe un ricercatore umano: navigano nei portali e gestiscono fonti che pubblicano le tariffe solo come calcolatori interattivi anziché come tabelle.",
+            "I risultati vengono registrati insieme alla loro fonte, così ogni tariffa può essere ricondotta alla sua origine e verificata prima di entrare in vigore.",
+            "Lo stesso schema si applica ovunque un insieme di dati di riferimento esterni debba restare accurato senza che una persona lo sorvegli."
+          ]
+        },
+        "documents": {
+          "title": "Documenti e immagini",
+          "text": "I sistemi operativi ricevono le informazioni sotto forma di fotografie e scansioni, non di dati puliti.",
+          "items": [
+            "Le patenti di guida vengono acquisite con la fotocamera del telefono e lette in campi strutturati per la verifica.",
+            "I codici a barre leggibili dalla macchina vengono decodificati per primi e considerati attendibili; il riconoscimento visivo completa solo ciò che il codice a barre non contiene.",
+            "I risultati vengono confrontati tra più fonti invece di affidarsi a una singola lettura.",
+            "Lo stesso approccio si estende a fatture, estratti conto e altri documenti operativi che arrivano come immagine."
+          ]
+        },
+        "messages": {
+          "title": "Messaggi ed eventi non strutturati",
+          "text": "Le integrazioni sono spesso unidirezionali: una piattaforma partner invia un'e-mail, non una chiamata API.",
+          "items": [
+            "Le notifiche di prenotazione delle piattaforme di noleggio partner vengono convertite in prenotazioni strutturate — date, veicolo, conducente, identificativi.",
+            "I modelli cambiano senza preavviso. Quando un messaggio non corrisponde più alla struttura prevista, un passaggio di IA ne recupera il significato invece di lasciare che l'integrazione fallisca in silenzio.",
+            "L'analisi deterministica viene eseguita per prima e l'IA gestisce solo ciò che non è riuscita a risolvere, contenendo così sia i costi sia l'imprevedibilità.",
+            "Tutto ciò che resta ambiguo viene segnalato a una persona invece di essere indovinato."
+          ]
+        }
+      },
+      "principles": {
+        "title": "Come la rendiamo affidabile:",
+        "items": [
+          "I modelli restituiscono dati strutturati validati da uno schema, mai testo libero che il sistema debba interpretare.",
+          "Filtri deterministici economici vengono eseguiti prima di qualsiasi chiamata al modello, così il passaggio costoso riceve solo ciò che richiede davvero giudizio.",
+          "I risultati vengono memorizzati in cache e tracciati rispetto ai loro input: il lavoro invariato non si paga mai due volte e gli input modificati vengono rilevati e rielaborati.",
+          "Ogni valore ricavato dall'IA conserva un collegamento alla sua fonte e resta verificabile da una persona.",
+          "Quando l'affidabilità è bassa, il sistema lo segnala invece di indovinare — un valore mancante si può recuperare, uno sbagliato ma presentato con sicurezza no."
+        ]
+      },
+      "philosophy": "L'IA si guadagna il suo posto in un prodotto eliminando lavoro che altrimenti andrebbe fatto a mano, con gli stessi requisiti di affidabilità del resto del sistema."
+    }
+  },
+  "brazilianMarketplace": {
+    "page": {
+      "title": "Piattaforma marketplace multi-tenant per prodotti artigianali brasiliani",
+      "subtitle": "Mettiamo in contatto gli artigiani brasiliani con clienti di tutto il mondo",
+      "description": "Una piattaforma e-commerce in cloud che mette in contatto artigiani e piccoli venditori brasiliani con clienti in cerca di prodotti autentici fatti a mano, arte popolare e beni di uso quotidiano. L'architettura multi-tenant consente ai venditori indipendenti di gestire storefront con il proprio marchio all'interno di un marketplace unificato, ciascuno con cataloghi prodotti, prezzi e opzioni di evasione personalizzabili.",
+      "coreOfferings": {
+        "title": "Offerta principale",
+        "traditionalCrafts": {
+          "title": "Artigianato popolare tradizionale (Artesanato)",
+          "description": "Ceramiche, lavori in legno, tessuti, merletti"
+        },
+        "regionalGoods": {
+          "title": "Prodotti regionali fatti a mano",
+          "description": "Articoli in pelle, cesti intrecciati, ricami"
+        },
+        "everydayEssentials": {
+          "title": "Beni di uso quotidiano",
+          "description": "Articoli per la casa e necessità di tutti i giorni"
+        },
+        "souvenirs": {
+          "title": "Souvenir e oggetti decorativi",
+          "description": "Articoli che rappresentano il patrimonio culturale brasiliano"
+        }
+      },
+      "features": {
+        "title": "Funzionalità della piattaforma",
+        "storefronts": {
+          "title": "Storefront individuali per i venditori",
+          "description": "Branding personalizzato per ogni venditore, con design e identità unici dello storefront"
+        },
+        "paymentProcessing": {
+          "title": "Elaborazione centralizzata dei pagamenti",
+          "description": "Struttura di commissioni del marketplace con gestione sicura dei pagamenti"
+        },
+        "multiLanguage": {
+          "title": "Supporto multilingue",
+          "description": "Supporto completo per 10 lingue, tra cui portoghese, inglese, spagnolo e lingue indigene brasiliane (Guaraní Mbyá, Nheengatu), per un commercio culturale autentico"
+        },
+        "shipping": {
+          "title": "Spedizione ed evasione degli ordini",
+          "description": "Coordinamento integrato di spedizione ed evasione per un'elaborazione degli ordini senza intoppi"
+        },
+        "mobileFirst": {
+          "title": "Design mobile-first",
+          "description": "Design responsive ottimizzato per il mercato brasiliano, dominato dagli smartphone"
+        },
+        "socialMedia": {
+          "title": "Integrazione con Instagram e Facebook",
+          "description": "Integrazione completa con il social commerce — vendi direttamente tramite Instagram Shop e Facebook Marketplace, sincronizza i cataloghi prodotti e raggiungi i clienti sulle piattaforme social"
+        }
+      },
+      "tryNow": "Provalo ora"
+    }
+  },
+  "booking": {
+    "title": "Prenotazione e scoperta",
+    "subtitle": "Piattaforme rivolte agli utenti per centri ritiro e fornitori di esperienze, con disponibilità in tempo reale e pagamenti integrati.",
+    "description": "Piattaforme rivolte agli utenti per centri ritiro e fornitori di esperienze, con disponibilità in tempo reale e pagamenti integrati.",
+    "features": {
+      "resortSearch": "Ricerca e filtri per resort e strutture",
+      "bookingManagement": "Gestione delle prenotazioni",
+      "paymentProcessing": "Elaborazione dei pagamenti",
+      "multiLanguage": "Supporto multilingue"
+    }
+  },
+  "footer": {
+    "company": "Aegis AO Soft LLC",
+    "contact": "Contatti",
+    "services": "Servizi",
+    "copyright": "© {{year}} Aegis AO Soft. Tutti i diritti riservati.",
+    "ein": "EIN",
+    "location": "New Jersey, USA"
+  },
+  "hueControlDetail": {
+    "hero": {
+      "title": "Il centro di controllo per Windows delle tue luci Philips Hue",
+      "subtitle": "Un'app desktop nativa per gestire luci, stanze, scene, sensori e interruttori, che comunica direttamente con il tuo bridge sulla rete locale."
+    },
+    "whatIs": {
+      "title": "Cos'è HueControl",
+      "p1": "Philips Hue ha app per smartphone, tablet e assistenti vocali, ma non ha mai avuto una vera applicazione desktop per Windows. Se passi la giornata al PC, per controllare le luci della stanza in cui ti trovi devi prendere in mano il telefono.",
+      "p2": "HueControl colma questa lacuna. È un'applicazione nativa per Windows che si collega direttamente al tuo bridge Hue tramite la rete locale e ti offre tutto in un'unica finestra: ogni luce, stanza, zona e scena, oltre a sensori, prese e interruttori che gli strumenti desktop più semplici ignorano.",
+      "p3": "Va oltre l'accensione e lo spegnimento. Puoi aggiungere e rimuovere dispositivi, rinominarli, creare e modificare stanze, zone e scene, programmare il funzionamento di un dimmer, controllare il livello della batteria degli accessori e gestire più bridge raggruppati in case, passando dall'uno all'altro all'istante."
+    },
+    "forWhom": {
+      "title": "A chi è rivolto",
+      "items": [
+        {
+          "label": "Utenti Windows con luci Hue:",
+          "text": "chiunque lavori alla scrivania e preferisca regolare l'illuminazione dalla tastiera anziché dal telefono."
+        },
+        {
+          "label": "Chi ha installazioni di grandi dimensioni:",
+          "text": "più stanze, zone, sensori e interruttori distribuiti su più bridge, tutti in un'unica finestra."
+        },
+        {
+          "label": "Famiglie attente alla privacy:",
+          "text": "l'applicazione comunica solo con il bridge sulla tua rete; non ci sono account cloud né telemetria."
+        },
+        {
+          "label": "Appassionati di domotica:",
+          "text": "gestione dei dispositivi e programmazione degli interruttori che l'app mobile ufficiale rende macchinose o nasconde."
+        },
+        {
+          "label": "Sviluppatori:",
+          "text": "un codice WPF e MVVM pulito e senza dipendenze, pubblicato con licenza GPL-3.0 e libero da leggere e modificare."
+        }
+      ]
+    },
+    "capabilities": {
+      "title": "Cosa fa",
+      "cards": {
+        "lights": {
+          "title": "Luci e stanze",
+          "text": "Accensione e spegnimento per singola luce e per stanza, con cursori di luminosità sincronizzati. Tutto è raggruppato per stanza e per tipo di dispositivo, così anche un'installazione estesa resta leggibile."
+        },
+        "color": {
+          "title": "Colore e temperatura",
+          "text": "Un selettore di colore con una conversione accurata tra il selettore, lo spazio colore Hue e la temperatura di colore, così ciò che scegli sullo schermo è ciò che la lampada produce."
+        },
+        "devices": {
+          "title": "Gestione dei dispositivi",
+          "text": "Cerca e aggiungi nuove luci, prese, sensori di movimento, dimmer e pulsanti; rinominali; rimuovi quelli che non possiedi più. Una gestione completa, non solo il controllo."
+        },
+        "switches": {
+          "title": "Programmazione degli interruttori",
+          "text": "Associa un dimmer a una stanza in modo che il suo pulsante ON richiami la scena di quella stanza, e visualizza a colpo d'occhio il livello della batteria e l'ultima attività degli accessori."
+        },
+        "scenes": {
+          "title": "Scene e zone",
+          "text": "Crea, rinomina ed elimina stanze, zone e scene, con preset Hue integrati come Relax, Concentrate, Energize e Savanna Sunset, mostrati con anteprime a colori."
+        },
+        "bridges": {
+          "title": "Più bridge",
+          "text": "Raggruppa più bridge in case e passa dall'uno all'altro all'istante. Il rilevamento avviene tramite il servizio di discovery Hue e, se la rete lo blocca, si può inserire manualmente l'indirizzo IP."
+        },
+        "local": {
+          "title": "Solo rete locale",
+          "text": "L'app comunica direttamente con l'API REST del bridge sulla tua LAN. I dati del bridge sono salvati nel tuo profilo Windows e nulla viene inviato altrove."
+        },
+        "languages": {
+          "title": "Dieci lingue",
+          "text": "L'interfaccia è disponibile in dieci lingue, tra cui arabo ed ebraico con layout completo da destra a sinistra, e cambia lingua in tempo reale senza riavvio."
+        },
+        "themes": {
+          "title": "Temi scuro e chiaro",
+          "text": "Una finestra personalizzata senza bordi con palette scura e chiara intercambiabili, così l'app si adatta a come usi Windows."
+        }
+      }
+    },
+    "problems": {
+      "title": "Problemi che risolve",
+      "items": [
+        {
+          "label": "Nessuna app Windows ufficiale:",
+          "text": "la lacuna che questo prodotto esiste per colmare; Hue offre app mobili e controllo vocale, non desktop."
+        },
+        {
+          "label": "Dover prendere il telefono:",
+          "text": "cambiare le luci mentre lavori non dovrebbe richiedere un secondo dispositivo."
+        },
+        {
+          "label": "Strumenti desktop di solo controllo:",
+          "text": "la maggior parte delle utility di terze parti si limita ad accendere e spegnere le luci; questa le aggiunge, rimuove, rinomina e configura."
+        },
+        {
+          "label": "Configurazione degli interruttori:",
+          "text": "programmare un pulsante del dimmer è un'operazione nascosta nell'app mobile e semplice qui."
+        },
+        {
+          "label": "Più di un bridge:",
+          "text": "le installazioni grandi o su più edifici sono gestite come case, con passaggio istantaneo dall'una all'altra."
+        },
+        {
+          "label": "Dipendenza dal cloud:",
+          "text": "le luci sono sulla tua rete, quindi anche l'app che le controlla dovrebbe funzionare sulla tua rete."
+        }
+      ]
+    },
+    "privacy": {
+      "title": "Privacy e dati",
+      "intro": "Il principio di progettazione è semplice: la tua illuminazione è un sistema locale, quindi il software che la controlla dovrebbe comportarsi come tale.",
+      "items": [
+        "Tutte le comunicazioni avvengono con il bridge Hue sulla tua rete locale tramite la sua API REST.",
+        "Nessun account, nessun accesso e nessun servizio cloud gestito da noi.",
+        "I dati di connessione al bridge sono salvati localmente nel tuo profilo utente Windows.",
+        "Non viene raccolto alcun tipo di analisi, tracciamento o telemetria.",
+        "Il servizio di discovery Hue viene contattato solo per individuare un bridge, ed è disponibile l'inserimento manuale dell'IP se preferisci evitarlo.",
+        "Il codice sorgente completo è pubblico con licenza GPL-3.0, quindi ognuna di queste affermazioni può essere verificata."
+      ]
+    },
+    "languages": {
+      "title": "Lingue e accessibilità",
+      "intro": "L'interfaccia è tradotta integralmente, non localizzata in parte, e il layout si adatta alla lingua anziché presupporre un testo da sinistra a destra.",
+      "items": [
+        "Inglese, spagnolo, portoghese, francese, tedesco e russo.",
+        "Arabo ed ebraico con inversione completa del layout da destra a sinistra.",
+        "Cinese semplificato e tradizionale.",
+        "La lingua cambia in tempo reale, senza riavviare l'applicazione.",
+        "Ogni stringa dell'interfaccia è tradotta, non solo le schermate principali."
+      ]
+    },
+    "tech": {
+      "title": "Stack tecnologico",
+      "cards": {
+        "platform": {
+          "title": "Piattaforma",
+          "text": "C# su .NET 9, come applicazione desktop per Windows 10 e 11."
+        },
+        "ui": {
+          "title": "Interfaccia utente",
+          "text": "WPF con cornice della finestra personalizzata senza bordi e dizionari di risorse intercambiabili per i temi scuro e chiaro."
+        },
+        "architecture": {
+          "title": "Architettura",
+          "text": "MVVM scritto a mano: oggetti osservabili, comandi relay sincroni e asincroni, debouncing per l'input dei cursori e collezioni raggruppate."
+        },
+        "bridge": {
+          "title": "Integrazione con il bridge",
+          "text": "API REST locale del bridge Philips Hue, inclusi i bridge HTTPS che presentano sulla LAN il certificato radice Hue Bridge."
+        },
+        "dependencies": {
+          "title": "Dipendenze",
+          "text": "Nessun pacchetto NuGet di terze parti. L'applicazione è costruita interamente sulla libreria di classi di base .NET e su WPF."
+        },
+        "i18n": {
+          "title": "Localizzazione",
+          "text": "Un catalogo di stringhe personalizzato che copre l'intera interfaccia in dieci lingue, con inversione della direzione del flusso per le lingue da destra a sinistra."
+        },
+        "testing": {
+          "title": "Test",
+          "text": "Suite xUnit con un gestore HTTP simulato per l'esecuzione offline, più test opzionali che interagiscono con un bridge reale."
+        },
+        "license": {
+          "title": "Licenza",
+          "text": "Gratuito e open source con licenza GPL-3.0, con il codice sorgente completo disponibile su GitHub."
+        }
+      }
+    },
+    "requirements": {
+      "title": "Requisiti",
+      "items": [
+        "Windows 10 o Windows 11.",
+        "Un bridge Philips Hue sulla stessa rete locale.",
+        "Il .NET 9 Desktop Runtime, oppure una build autonoma che lo include.",
+        "Accesso fisico al pulsante del bridge una sola volta, per autorizzare l'app alla prima connessione."
+      ]
+    },
+    "cta": {
+      "title": "Prova HueControl",
+      "text": "L'applicazione è completa e open source. Leggi il codice, compilala tu stesso oppure contattaci se desideri una build pronta all'uso o una modifica per la tua installazione.",
+      "sourceCode": "Vedi il codice su GitHub",
+      "privacyPolicy": "Informativa sulla privacy",
+      "contact": "Contattaci",
+      "trademarkNote": "HueControl è un'applicazione indipendente e non è affiliata, approvata o sponsorizzata da Signify N.V. o Philips. \"Philips Hue\" è un marchio di Signify Holding."
+    }
+  },
+  "brazilianMarketplaceDetail": {
+    "hero": {
+      "title": "Mercadinho25",
+      "subtitle": "Marketplace globale per prodotti artigianali brasiliani",
+      "description": "Metti in contatto gli artigiani brasiliani con clienti di tutto il mondo grazie alla traduzione basata sull'AI, all'integrazione con il social commerce e a un'architettura marketplace multi-tenant. Lancia oggi il tuo marketplace artigianale.",
+      "tryDemo": "Prova la demo gratuita",
+      "visitMarketplace": "Visita il marketplace",
+      "stats": {
+        "languages": {
+          "label": "Lingue",
+          "note": "+ indigene"
+        },
+        "translation": {
+          "value": "AI",
+          "label": "Traduzione"
+        },
+        "social": {
+          "value": "Social",
+          "label": "Commerce"
+        },
+        "multiTenant": {
+          "value": "Multi",
+          "label": "Tenant"
+        }
+      }
+    },
+    "whatIs": {
+      "title": "Cos'è Mercadinho25?",
+      "paragraph1": "Mercadinho25 è una piattaforma di e-commerce in cloud che mette in contatto artigiani e piccoli venditori brasiliani con clienti in cerca di prodotti fatti a mano autentici, arte popolare e articoli di uso quotidiano.",
+      "paragraph2": "L'architettura multi-tenant consente ai venditori indipendenti di gestire vetrine con il proprio marchio all'interno di un marketplace unificato, ciascuna con cataloghi prodotti, prezzi e opzioni di evasione degli ordini personalizzabili."
+    },
+    "audience": {
+      "title": "A chi è rivolto?",
+      "artisans": {
+        "label": "Artigiani brasiliani",
+        "text": "che creano artigianato tradizionale e arte popolare"
+      },
+      "vendors": {
+        "label": "Piccoli venditori",
+        "text": "che vendono prodotti fatti a mano e prodotti regionali"
+      },
+      "operators": {
+        "label": "Gestori di marketplace",
+        "text": "che vogliono lanciare piattaforme di e-commerce di nicchia"
+      },
+      "culturalSellers": {
+        "label": "Venditori di prodotti culturali",
+        "text": "specializzati in articoli autentici del patrimonio brasiliano"
+      },
+      "socialCommerce": {
+        "label": "Attività di social commerce",
+        "text": "che sfruttano le vendite su Instagram e Facebook"
+      }
+    },
+    "capabilities": {
+      "title": "Funzionalità principali",
+      "storefronts": {
+        "title": "Vetrine multi-tenant",
+        "description": "Account venditore indipendenti con branding personalizzato, design della vetrina unico e identità personalizzata."
+      },
+      "languages": {
+        "title": "Supporto per 10 lingue + lingue indigene",
+        "description": "Portoghese, inglese, spagnolo, francese, tedesco, italiano, giapponese, russo e lingue indigene (Guaraní Mbyá, Nheengatu) con localizzazione completa.",
+        "heritage": {
+          "title": "Funzionalità per il patrimonio culturale:",
+          "intro": "Supporto speciale per le lingue indigene brasiliane:",
+          "guarani": {
+            "label": "Guaraní Mbyá",
+            "text": "(gn-mby) - Lingua guaraní tradizionale"
+          },
+          "nheengatu": {
+            "label": "Nheengatu",
+            "text": "(yrl) - Lingua franca dell'Amazzonia"
+          },
+          "note": "Preservare e promuovere la diversità linguistica e culturale del Brasile attraverso il commercio"
+        }
+      },
+      "aiTranslation": {
+        "title": "Traduzione con AI",
+        "description": "Traduzione automatica delle descrizioni dei prodotti tramite Google Translate API e Claude AI per la massima diffusione."
+      },
+      "socialCommerce": {
+        "title": "Social commerce",
+        "description": "Integrazione completa con Instagram Shop e Facebook Marketplace — vendi direttamente tramite le piattaforme social."
+      },
+      "payments": {
+        "title": "Elaborazione dei pagamenti",
+        "description": "Stripe e MercadoPago integrati, con struttura di commissioni del marketplace e pagamenti ai venditori."
+      },
+      "shipping": {
+        "title": "Integrazione delle spedizioni",
+        "description": "Integrazione con Correios per le spedizioni in Brasile, con tracciamento e coordinamento dell'evasione degli ordini."
+      }
+    },
+    "problems": {
+      "title": "Problemi che risolve",
+      "globalReach": {
+        "label": "Portata globale limitata",
+        "text": "Piattaforma in 10 lingue con traduzione AI + supporto per lingue indigene"
+      },
+      "setup": {
+        "label": "Configurazione e-commerce complessa",
+        "text": "Piattaforma marketplace pronta all'uso"
+      },
+      "socialSales": {
+        "label": "Difficoltà nelle vendite sui social",
+        "text": "Commercio integrato su Instagram/Facebook"
+      },
+      "payments": {
+        "label": "Ostacoli nell'elaborazione dei pagamenti",
+        "text": "Supporto multi-gateway con opzioni locali"
+      },
+      "inventory": {
+        "label": "Complessità nella gestione dell'inventario",
+        "text": "Sistema completo di gestione dei venditori"
+      },
+      "mobile": {
+        "label": "Limiti degli acquisti da mobile",
+        "text": "Design responsive mobile-first"
+      }
+    },
+    "categories": {
+      "title": "Categorie di prodotti principali"
+    },
+    "social": {
+      "title": "Integrazione con il social commerce",
+      "intro": "Funzionalità complete di social commerce che consentono agli artigiani brasiliani di vendere direttamente tramite le piattaforme social e raggiungere un pubblico globale.",
+      "instagram": {
+        "title": "Integrazione con Instagram Shop",
+        "items": [
+          "Sincronizzazione automatica del catalogo prodotti con Instagram Shop",
+          "Checkout diretto all'interno dell'app Instagram",
+          "Tag dei prodotti nei post e nelle storie",
+          "Aggiornamenti automatici dell'inventario",
+          "Descrizioni dei prodotti in più lingue",
+          "Integrazione del tracciamento dell'evasione degli ordini"
+        ]
+      },
+      "facebook": {
+        "title": "Integrazione con Facebook Marketplace",
+        "items": [
+          "Inserzioni automatiche dei prodotti su Facebook Marketplace",
+          "Integrazione del negozio nella pagina Facebook Business",
+          "Pubblicità mirata per i prodotti artigianali",
+          "Sincronizzazione di recensioni e valutazioni dei clienti",
+          "Assistenza clienti tramite Facebook Messenger",
+          "Campagne promozionali basate su eventi"
+        ]
+      },
+      "whatsapp": {
+        "title": "Integrazione con WhatsApp Business",
+        "items": [
+          "Pulsante di contatto WhatsApp nelle pagine prodotto",
+          "Numeri WhatsApp individuali per ogni venditore",
+          "Conferme d'ordine automatiche via WhatsApp",
+          "Condivisione del catalogo prodotti tramite WhatsApp",
+          "Assistenza clienti e richieste di informazioni",
+          "Notifiche sullo stato della consegna"
+        ]
+      },
+      "analytics": {
+        "title": "Analisi multipiattaforma",
+        "items": [
+          "Dashboard di analisi unificata per tutte le piattaforme",
+          "Monitoraggio delle prestazioni sui social media",
+          "Attribuzione delle vendite tra piattaforme",
+          "Mappatura del percorso del cliente",
+          "Monitoraggio del ROI delle campagne sui social media",
+          "Report e insight automatici"
+        ]
+      },
+      "heritage": {
+        "title": "Tutela del patrimonio culturale",
+        "intro": "Oltre al successo commerciale, Mercadinho25 tutela attivamente la diversità culturale e linguistica del Brasile.",
+        "supportTitle": "Supporto per le lingue indigene:",
+        "guarani": {
+          "label": "Guaraní Mbyá",
+          "text": "(gn-mby) - Lingua sacra del popolo guaraní"
+        },
+        "nheengatu": {
+          "label": "Nheengatu",
+          "text": "(yrl) - Lingua franca dell'Amazzonia, \"lingua buona\""
+        },
+        "note": "Consentire agli artigiani indigeni di presentare il proprio lavoro nella loro lingua madre, preservando l'identità culturale e raggiungendo i mercati globali."
+      }
+    },
+    "tech": {
+      "title": "Stack tecnologico",
+      "frontend": {
+        "title": "Frontend",
+        "description": "React, TypeScript, Material-UI"
+      },
+      "backend": {
+        "title": "Backend",
+        "description": "API RESTful Node.js, architettura multi-tenant"
+      },
+      "database": {
+        "title": "Database",
+        "description": "PostgreSQL con isolamento dei tenant"
+      },
+      "cloud": {
+        "title": "Cloud",
+        "description": "Azure App Service, scalabilità automatica"
+      },
+      "ai": {
+        "title": "AI e traduzione",
+        "description": "Google Translate API, Claude AI"
+      },
+      "integration": {
+        "title": "Integrazioni",
+        "description": "Instagram Graph API, Facebook Business API, MercadoPago"
+      }
+    },
+    "tenants": {
+      "title": "Esempi di tenant attivi",
+      "intro": "Scopri come i venditori indipendenti creano le proprie vetrine con il proprio marchio all'interno del marketplace. Ogni tenant ha il pieno controllo su branding, prodotti ed esperienza del cliente.",
+      "alex": {
+        "title": "Il laboratorio artigianale di Alex",
+        "description": "Ceramiche e terrecotte tradizionali brasiliane. Vetrina con branding personalizzato, design unico ed esperienza cliente personalizzata.",
+        "linkLabel": "Visita il negozio di Alex"
+      },
+      "joanna": {
+        "title": "La galleria tessile di Joanna",
+        "description": "Tessuti tessuti a mano e ricami da São Paulo. Mostra il branding personalizzato con integrazione dei social media e supporto multilingue.",
+        "linkLabel": "Visita il negozio di Joanna"
+      },
+      "callout": {
+        "label": "Architettura multi-tenant:",
+        "text": "Ogni venditore ha il proprio sottodominio, branding personalizzato, dati isolati e pieno controllo della vetrina — il tutto gestito da un'unica piattaforma."
+      }
+    },
+    "adminGuideCta": {
+      "buttonLabel": "Vedi la guida completa per l'amministratore"
+    },
+    "cta": {
+      "title": "Pronto a collegare gli artigiani ai mercati globali?",
+      "description": "Lancia il tuo marketplace di artigianato brasiliano con social commerce e traduzione AI integrati.",
+      "startMarketplace": "Avvia il tuo marketplace",
+      "visitSite": "Visita il sito",
+      "sellerGuide": "Guida per i venditori"
+    }
+  },
+  "sewGenDetail": {
+    "hero": {
+      "title": "File per ricamo a macchina dai tuoi disegni",
+      "subtitle": "Carica un logo, un'immagine o un disegno, oppure crea un monogramma, guarda come apparirà ricamato e scarica il file dei punti per la tua macchina. Paghi solo se il risultato ti piace."
+    },
+    "whatIs": {
+      "title": "Cos'è SewGen",
+      "p1": "SewGen è un servizio online che trasforma le immagini in file per il ricamo a macchina. Carichi un logo, un'immagine o un disegno a mano, oppure crei un monogramma o un design con testo, e SewGen genera i punti.",
+      "p2": "Prima di pagare qualsiasi cosa, vedi un'anteprima di come apparirà il design ricamato, con una simulazione dei punti e i colori delle cartelle dei principali marchi di filati. Se il risultato non ti piace, modificalo o semplicemente esci.",
+      "p3": "Quando sei soddisfatto, paghi quel design e scarichi il file nel formato letto dalla tua macchina. Non servono account né abbonamenti. SewGen può anche aprire file PES e DST già pronti."
+    },
+    "forWhom": {
+      "title": "A chi è rivolto",
+      "items": [
+        {
+          "label": "Ricamatori amatoriali:",
+          "text": "un monogramma su un asciugamano, un nome sulla maglietta di un bambino o un logo su un cappellino, senza dover imparare un software di digitalizzazione."
+        },
+        {
+          "label": "Hobbisti e piccoli negozi:",
+          "text": "regali personalizzati e piccoli ordini, con modelli pronti per gli articoli che si ricamano più spesso."
+        },
+        {
+          "label": "Aziende e squadre:",
+          "text": "il proprio logo su cappellini, schiene di giacche, magliette e borse di tela."
+        },
+        {
+          "label": "Utenti esperti:",
+          "text": "la modalità Esperto per un controllo più preciso su come viene ricamato il design."
+        }
+      ]
+    },
+    "capabilities": {
+      "title": "Cosa fa",
+      "cards": {
+        "upload": {
+          "title": "Le tue immagini",
+          "text": "Carica un logo, un'immagine o un disegno e SewGen lo trasforma in punti di ricamo."
+        },
+        "monogram": {
+          "title": "Monogrammi e testo",
+          "text": "Modelli pronti per cappellini, schiene di giacche, asciugamani, accappatoi, abbigliamento per bambini, magliette, cuscini, tovaglioli e borse di tela, con font, simboli, versi e preghiere."
+        },
+        "ai": {
+          "title": "Descrivilo all'AI",
+          "text": "Non sai da dove iniziare? Descrivi il design a parole e lascia che sia l'AI a disegnarlo per te."
+        },
+        "preview": {
+          "title": "Anteprima ricamata",
+          "text": "Guarda come apparirà il design una volta ricamato, con una simulazione dei punti, prima di pagare qualsiasi cosa."
+        },
+        "threads": {
+          "title": "Filati e tessuti",
+          "text": "Colori dei filati dalle cartelle dei marchi e preset di tessuti, così l'anteprima corrisponde a ciò che userai davvero."
+        },
+        "formats": {
+          "title": "File per la tua macchina",
+          "text": "DST, PES, PEC, JEF, EXP, VP3, XXX, U01, TBF, TAP e altri formati per macchine domestiche e industriali."
+        },
+        "modes": {
+          "title": "Principiante ed Esperto",
+          "text": "La modalità Principiante mantiene tutto semplice; la modalità Esperto apre le impostazioni per chi desidera più controllo."
+        },
+        "open": {
+          "title": "Apri file esistenti",
+          "text": "Apri file PES e DST già pronti per visualizzarli nella stessa anteprima."
+        }
+      }
+    },
+    "formats": {
+      "title": "Formati di file e macchine",
+      "intro": "Un design può essere scaricato nel formato letto dalla tua macchina, oppure in più formati contemporaneamente.",
+      "items": [
+        {
+          "label": "Formati:",
+          "text": "DST, PES, PEC, JEF, EXP, VP3, XXX, U01, TBF, TAP e altri."
+        },
+        {
+          "label": "Macchine domestiche:",
+          "text": "Brother, Baby Lock, Janome, Bernina, Husqvarna Viking, Pfaff e Singer."
+        },
+        {
+          "label": "Macchine industriali:",
+          "text": "Tajima, Barudan, Happy e Melco."
+        }
+      ]
+    },
+    "pricing": {
+      "title": "Prezzi",
+      "intro": "Paghi un design solo dopo averlo visto e solo se ti piace.",
+      "items": [
+        "$4.99 per design.",
+        "$1 per ogni formato di file aggiuntivo dello stesso design.",
+        "Nessun account e nessun abbonamento.",
+        "I pagamenti con carta sono elaborati da Stripe."
+      ]
+    },
+    "languages": {
+      "title": "Lingue",
+      "intro": "Il sito di SewGen è disponibile in quindici lingue.",
+      "items": [
+        "Inglese, spagnolo, francese, tedesco, italiano e polacco.",
+        "Bulgaro, russo e greco.",
+        "Ebraico, arabo e urdu.",
+        "Sanscrito, cinese semplificato e cinese tradizionale."
+      ]
+    },
+    "cta": {
+      "title": "Prova SewGen",
+      "text": "Crea un design e guarda come appare ricamato prima di pagare qualsiasi cosa.",
+      "openSite": "Apri SewGen",
+      "contact": "Contattaci"
     }
   }
 }
