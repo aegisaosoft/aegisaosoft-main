@@ -17,18 +17,19 @@ import { useTranslation } from 'react-i18next'
 import { Globe } from 'lucide-react'
 import '../App.css'
 
+// English first, then the rest alphabetically by their own names, in Intl.Collator order. The owner chose this.
 const languages = [
   { code: 'en', name: 'English', flag: '🇺🇸' },
-  { code: 'es', name: 'Español', flag: '🇪🇸' },
-  { code: 'pt', name: 'Português', flag: '🇧🇷' },
-  { code: 'fr', name: 'Français', flag: '🇫🇷' },
   { code: 'de', name: 'Deutsch', flag: '🇩🇪' },
+  { code: 'es', name: 'Español', flag: '🇪🇸' },
+  { code: 'fr', name: 'Français', flag: '🇫🇷' },
+  { code: 'it', name: 'Italiano', flag: '🇮🇹' },
+  { code: 'pt', name: 'Português', flag: '🇧🇷' },
   { code: 'ru', name: 'Русский', flag: '🇷🇺' },
+  { code: 'hi', name: 'हिन्दी', flag: '🇮🇳' },
+  { code: 'ja', name: '日本語', flag: '🇯🇵' },
   { code: 'zh-Hans', name: '简体中文', flag: '🇨🇳' },
   { code: 'zh-Hant', name: '繁體中文', flag: '🇹🇼' },
-  { code: 'hi', name: 'हिन्दी', flag: '🇮🇳' },
-  { code: 'it', name: 'Italiano', flag: '🇮🇹' },
-  { code: 'ja', name: '日本語', flag: '🇯🇵' },
 ]
 
 /**
