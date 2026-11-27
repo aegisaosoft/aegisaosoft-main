@@ -45,6 +45,8 @@ interface PageMeta {
   title: string
   description: string
   noindex?: boolean
+  /** This address's own link-preview card; the company card when it has none. */
+  image?: string
 }
 
 const PAGES: PageMeta[] = seo.pages
@@ -98,7 +100,9 @@ export function SeoHead() {
     upsertMeta('meta[property="og:title"]', { property: 'og:title', content: title })
     upsertMeta('meta[property="og:description"]', { property: 'og:description', content: description })
     upsertMeta('meta[property="og:url"]', { property: 'og:url', content: canonical })
-    upsertMeta('meta[property="og:image"]', { property: 'og:image', content: `${SITE}${seo.defaultImage}` })
+    upsertMeta('meta[property="og:image"]', { property: 'og:image', content: `${SITE}${page?.image ?? seo.defaultImage}` })
+    upsertMeta('meta[property="og:image:width"]', { property: 'og:image:width', content: '1200' })
+    upsertMeta('meta[property="og:image:height"]', { property: 'og:image:height', content: '627' })
     upsertMeta('meta[name="twitter:card"]', { name: 'twitter:card', content: 'summary_large_image' })
   }, [pathname])
 

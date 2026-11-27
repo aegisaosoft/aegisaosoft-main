@@ -245,6 +245,20 @@ const titleOf = (html) => {
       if (!page.noindex && robots.startsWith('noindex')) {
         fail(`${page.path} is served as noindex`);
       }
+      // Its own link-preview card, and the card is really there: LinkedIn shows a blank box
+      // for an og:image that 404s, and the same picture for every page when the tag is shared.
+      const image = (res.body.match(/<meta property="og:image" content="([^"]*)"/) || [])[1];
+      if (!page.image) fail(`${page.path} has no image in pages.json`);
+      else if (image !== `${SITE}${page.image}`) {
+        fail(`${page.path} previews as "${image}", expected ${SITE}${page.image}`);
+      }
+    }
+
+    for (const image of new Set(seo.pages.map((page) => page.image).filter(Boolean))) {
+      const res = await get(image);
+      if (res.status !== 200 || !String(res.headers['content-type']).startsWith('image/png')) {
+        fail(`${image} answered ${res.status} ${res.headers['content-type']}, expected a PNG`);
+      }
     }
 
     // The addresses the router redirects are answered before the app loads.
